@@ -2,7 +2,10 @@ import { describe, it, expect } from "vitest";
 import {
   createGameState,
   formatShelfLine,
+  formatShelfMixLine,
+  formatShelfEncourage,
   shelfOccupancy,
+  shelfVesselMix,
   SHELF_CAPACITY,
   type CraftedItem,
   type GameState,
@@ -42,5 +45,14 @@ describe("shelf info", () => {
     expect(formatShelfLine(s)).toContain("已满");
     s = { ...s, shelf: s.shelf.slice(0, 2) };
     expect(formatShelfLine(s)).toMatch(/2\//);
+    expect(formatShelfMixLine(s)).toContain("小物件");
+    expect(formatShelfEncourage(s)).toMatch(/空位|知音/);
+    expect(shelfVesselMix(s).object).toBe(2);
+  });
+
+  it("空架鼓励与混合摘要", () => {
+    const s = createGameState(SAMPLE_EMOTIONS.slice(0, 1));
+    expect(formatShelfEncourage(s)).toContain("空");
+    expect(formatShelfMixLine(s)).toContain("还没有");
   });
 });

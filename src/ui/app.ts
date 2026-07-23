@@ -47,6 +47,8 @@ import {
   formatRatioPercent,
   bestQualityInHistory,
   formatShelfLine,
+  formatShelfMixLine,
+  formatShelfEncourage,
   formatReputationProgress,
   reputationRankTitle,
   formatWarmthProgress,
@@ -852,7 +854,7 @@ export class YixiApp {
     const card = document.createElement("div");
     card.className = "card";
     card.dataset.testid = "shelf";
-    card.innerHTML = `<div class="shelf-display-art" role="img" aria-label="货架陈列插画" data-testid="shelf-display-art"></div><h2>货架</h2><p class="muted" data-testid="shelf-line">${formatShelfLine(s)}</p><p class="muted">上架的温柔在此等候知音。</p>`;
+    card.innerHTML = `<div class="shelf-display-art" role="img" aria-label="货架陈列插画" data-testid="shelf-display-art"></div><div class="shelf-craft-art" role="img" aria-label="货架小物" data-testid="shelf-craft-art"></div><h2>货架</h2><p class="muted" data-testid="shelf-line">${formatShelfLine(s)}</p><p class="muted" data-testid="shelf-mix">${formatShelfMixLine(s)}</p><p class="muted" data-testid="shelf-encourage">${formatShelfEncourage(s)}</p><p class="muted">上架的温柔在此等候知音。</p>`;
     s.shelf.forEach((item) => {
       const row = document.createElement("div");
       row.className = "btn-row";
