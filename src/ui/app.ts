@@ -368,6 +368,7 @@ export class YixiApp {
     this.root.classList.toggle("shop-theme", this.view === "shop");
     this.root.classList.toggle("evening-theme", this.view === "shop" && this.state.day >= 12);
     this.root.classList.toggle("rain-theme", this.view === "shop" && this.state.day >= 2 && this.state.day <= 4);
+    this.root.classList.toggle("market-theme", this.view === "shop" && this.state.day >= 27 && this.state.day <= 28);
     if (this.view === "menu") {
       this.root.appendChild(this.renderMenu());
     } else if (this.view === "about") {

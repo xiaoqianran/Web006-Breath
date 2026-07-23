@@ -66,5 +66,34 @@ describe("unlocks", () => {
     state = { ...state, ordersFulfilled: 3 };
     expect(isUnlockEarned(state, order)).toBe(true);
   });
+
+  it("满 28 日且口碑流通达标解锁满月掌灯", () => {
+    const month = UNLOCKS.find((u) => u.id === "month_keeper")!;
+    expect(month).toBeTruthy();
+    let state = createGameState([e]);
+    expect(isUnlockEarned(state, month)).toBe(false);
+    state = {
+      ...state,
+      day: 28,
+      reputation: 10,
+      history: Array.from({ length: 16 }, (_, i) => ({
+        item: {
+          id: `m${i}`,
+          emotionId: "e",
+          vessel: "tea" as const,
+          quality: "fine" as const,
+          matchScore: 2,
+          circulationValue: 3,
+          label: "茶",
+        },
+        action: "gift" as const,
+        warmthGained: 2,
+        momentCard: "客的心情，测试",
+        at: i,
+      })),
+    };
+    expect(isUnlockEarned(state, month)).toBe(true);
+    expect(isUnlockEarned({ ...state, day: 27 }, month)).toBe(false);
+  });
 });
 

@@ -744,3 +744,10 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
     url("/assets/ui/storybooks.jpg") center/cover no-repeat;
 }
+
+/* 第 27 日前后偏晚市氛围 */
+#app.shop-theme.market-theme::before {
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.78), rgba(240, 228, 220, 0.9)),
+    url("/assets/bg/evening_market.jpg") center / cover no-repeat;
+}

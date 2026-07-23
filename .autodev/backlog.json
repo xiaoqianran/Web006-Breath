@@ -1665,8 +1665,29 @@
       ],
       "test_plan": "day-scripts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 127,
+      "completed_round": 128,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0129-unlock-month",
+      "title": "满月掌灯解锁",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "day>=28 解锁 month_keeper",
+      "priority": 55,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0128-day-scripts-28"
+      ],
+      "acceptance_criteria": [
+        "解锁可测"
+      ],
+      "test_plan": "unlocks",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 128,
       "completed_round": null,
       "commit_hash": null
     }

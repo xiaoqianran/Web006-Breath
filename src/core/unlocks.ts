@@ -60,6 +60,13 @@ export const UNLOCKS: UnlockDef[] = [
     minReputation: 0,
     minCirculations: 0,
   },
+  {
+    id: "month_keeper",
+    title: "满月掌灯",
+    description: "经营满 28 日的纪念",
+    minReputation: 10,
+    minCirculations: 16,
+  },
 ];
 
 export function isUnlockEarned(state: GameState, unlock: UnlockDef): boolean {
@@ -67,6 +74,7 @@ export function isUnlockEarned(state: GameState, unlock: UnlockDef): boolean {
   if (unlock.id === "rare_shelf" && !rareDone) return false;
   if (unlock.id === "week_keeper" && state.day < 2) return false;
   if (unlock.id === "fortnight" && state.day < 15) return false;
+  if (unlock.id === "month_keeper" && state.day < 28) return false;
   if (unlock.id === "gift_heart") {
     const gifts = state.history.filter((h) => h.action === "gift").length;
     return gifts >= 5;
