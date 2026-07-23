@@ -832,6 +832,25 @@
       "created_round": 52,
       "completed_round": 52,
       "commit_hash": "e9e5fc3ad211d3b382a6aa9938c3d0be55a16687"
+    },
+    {
+      "id": "T0054-history-query",
+      "title": "历史查询辅助",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "countByVessel 等",
+      "priority": 52,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "单测"
+      ],
+      "test_plan": "tests/history-query.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 54,
+      "completed_round": 54,
+      "commit_hash": "9f2550153a0353b84385f2aa8fa655599797e662"
     }
   ]
 }
