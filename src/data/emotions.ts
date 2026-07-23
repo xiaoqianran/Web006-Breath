@@ -102,6 +102,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["疲惫", "释然"],
     intensity: 4,
   },
+  {
+    id: "e15",
+    guestName: "夏",
+    text: "把耳机分给邻座一半，歌突然变得客气起来。",
+    tags: ["温柔", "悸动"],
+    intensity: 3,
+  },
+  {
+    id: "e16",
+    guestName: "匿名",
+    text: "电梯里两个人都假装看手机楼层。",
+    tags: ["孤独", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e17",
+    guestName: "北",
+    text: "终于把那盆养死的绿萝换成了多肉。",
+    tags: ["释然", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e18",
+    guestName: "言",
+    text: "想写长信，最后只发出一个句号。",
+    tags: ["遗憾", "想念"],
+    intensity: 4,
+  },
 ];
 
 export function freshDayQueue(day: number = 1): Emotion[] {

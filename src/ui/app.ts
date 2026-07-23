@@ -384,8 +384,10 @@ export class YixiApp {
     el.innerHTML = `
       <div class="card">
         <h2>关于「一息」</h2>
+        <div class="menu-hero" style="background-image:linear-gradient(180deg,rgba(247,243,236,.2),rgba(247,243,236,.75)),url('/assets/promo/cover.jpg')" role="img" aria-label="一息宣传封面"></div>
         <p>这是一家经营「情绪流通」的小店。客人把说不出口的心情交给你；你选择最贴切的容器，让它变成可以被带走的温柔瞬间。</p>
-        <p class="muted">毕业设计演示原型 · 规则可测 · 文案向治愈体验</p>
+        <p class="muted">毕业设计演示原型 v0.2 · 规则可测 · 文案向治愈体验</p>
+        <p class="muted">版本与验收：npm run check · 文档见 docs/</p>
         <div class="btn-row"></div>
       </div>
     `;
