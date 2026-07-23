@@ -23,14 +23,7 @@ import {
   DEFAULT_SETTINGS,
 } from "../core";
 import { describeDayOpener, freshDayQueue } from "../data/emotions";
-
-const VESSEL_ICONS: Record<VesselKind, string> = {
-  flower: "🌸",
-  tea: "🍵",
-  art: "🖼️",
-  music: "🎵",
-  object: "🔮",
-};
+import { vesselIconHtml } from "./icons";
 
 const VESSELS = Object.keys(VESSEL_LABELS) as VesselKind[];
 
@@ -47,7 +40,38 @@ export class YixiApp {
     this.state = createGameState(freshDayQueue(1));
     this.settings = this.readSettings();
     this.applyDocumentSettings();
+    this.bindKeyboard();
     this.render();
+  }
+
+  private bindKeyboard(): void {
+    document.addEventListener("keydown", (ev) => {
+      if (ev.key === "Escape") {
+        if (this.view === "shop" || this.view === "codex" || this.view === "settings" || this.view === "about") {
+          this.go("menu");
+        }
+        return;
+      }
+      // 数字 1–5 在选形态阶段快速选择
+      if (this.view === "shop" && this.state.phase === "awaiting_vessel") {
+        const idx = Number(ev.key) - 1;
+        if (idx >= 0 && idx < VESSELS.length) {
+          const vessel = VESSELS[idx];
+          if (vessel) {
+            ev.preventDefault();
+            this.setState(chooseVessel(this.state, vessel));
+          }
+        }
+      }
+      if (this.view === "shop" && this.state.phase === "awaiting_emotion" && (ev.key === "Enter" || ev.key === " ")) {
+        const target = ev.target as HTMLElement | null;
+        if (target && (target.tagName === "BUTTON" || target.tagName === "INPUT")) return;
+        if (this.state.queue.length > 0) {
+          ev.preventDefault();
+          this.setState(acceptNextEmotion(this.state));
+        }
+      }
+    });
   }
 
   /** 暴露只读状态，便于自动化冒烟 */
@@ -350,6 +374,12 @@ export class YixiApp {
     msg.textContent = s.message;
     wrap.appendChild(msg);
 
+    const kbd = document.createElement("p");
+    kbd.className = "kbd-hint";
+    kbd.textContent =
+      "键盘：Esc 回主菜单 · 接待处 Enter 接待 · 选形态时按 1–5";
+    wrap.appendChild(kbd);
+
     wrap.appendChild(this.renderPhaseCard(s));
 
     const nav = document.createElement("div");
@@ -408,7 +438,8 @@ export class YixiApp {
         b.type = "button";
         b.className = "vessel-btn";
         b.dataset.vessel = v;
-        b.innerHTML = `<span class="icon">${VESSEL_ICONS[v]}</span><span>${VESSEL_LABELS[v]}</span>`;
+        b.innerHTML = `<span class="icon">${vesselIconHtml(v)}</span><span>${VESSEL_LABELS[v]}</span><span class="muted" style="font-size:0.75rem">${VESSELS.indexOf(v) + 1}</span>`;
+        b.setAttribute("aria-label", `选择${VESSEL_LABELS[v]}`);
         b.addEventListener("click", () => this.setState(chooseVessel(s, v)));
         grid.appendChild(b);
       }

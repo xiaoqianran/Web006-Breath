@@ -165,6 +165,19 @@ button:disabled {
   cursor: not-allowed;
 }
 
+button:focus-visible,
+.vessel-btn:focus-visible,
+.setting-row input:focus-visible {
+  outline: 2px solid var(--mist);
+  outline-offset: 3px;
+}
+
+.kbd-hint {
+  font-size: 0.8rem;
+  color: var(--warm-gray);
+  margin-top: 0.5rem;
+}
+
 button.secondary {
   background: transparent;
   border: 1px solid rgba(61, 79, 68, 0.25);

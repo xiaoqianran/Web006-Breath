@@ -3,15 +3,15 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 6,
+  "current_round": 13,
   "target_rounds": 1000,
   "current_milestone": "M0-foundation",
-  "current_task_id": "T0006",
-  "last_completed_task_id": "T0005",
-  "last_commit": "2ea25cd1151f2f19169f9491cd71768d2cfa3097",
-  "last_verified_build": "npm run build OK (vite 6.4.3)",
-  "last_test_summary": "vitest: 7 passed",
-  "core_loop_status": "playable_mvp",
+  "current_task_id": "T0012",
+  "last_completed_task_id": "T0011",
+  "last_commit": "e50423fbb554e8438d1d28a679306a21c71f444e",
+  "last_verified_build": "npm run build OK",
+  "last_test_summary": "vitest: 26 passed",
+  "core_loop_status": "playable_mvp_plus",
   "overall_status": "active",
   "blocked_items": [],
   "known_failures": [],
@@ -20,7 +20,7 @@
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离"
   ],
-  "next_candidate_tasks": ["T0006", "T0007", "T0008", "T0009-save"],
-  "resume_instructions": "已完成可玩 MVP（R1–R5）。核心循环：接待→选形态→上架/赠予。命令：npm install && npm run dev | npm test | npm run smoke。下一任务 T0006 扩充情绪样本并加瞬间图鉴面板。最近提交 2ea25cd。",
-  "updated_at": "2026-07-23T20:16:00.000Z"
+  "next_candidate_tasks": ["T0012", "T0013", "T0014", "M1-loop-depth"],
+  "resume_instructions": "已提交至 e50423f（解锁/日事件）。工作区应还有未提交：键盘导航、SVG icons、QUALITY_GATE、DEFENSE、vessels_sheet。完成后 git commit，npm test 应 26+ passed。下一优先：提交 T0012-14，然后 M1 加深玩法（连击温存、货架库存、定价轻系统）。命令：npm install && npm test && npm run dev。",
+  "updated_at": "2026-07-23T20:25:30.000Z"
 }

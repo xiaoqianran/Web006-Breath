@@ -11,4 +11,8 @@
 - 提示词：soft watercolor cozy literary emotion shop, afternoon lace light, dried flowers teacups paper notes, sage green paper white blush pink, no text
 - 导入：CSS `url("/assets/bg/menu_bg.jpg")` 于 `.menu-hero`
 - 验收：主菜单可见插画区域；构建后 `dist/assets` 旁 public 资源可访问
+
+| ART-002 | `public/assets/ui/vessels_sheet.jpg` | 形态概念条 | Imagine | 16:9 | JPG | 否 | 0.1 | active | 原创 |
+
+游戏内交互图标使用 `src/ui/icons.ts` 内联 SVG（可测、可缩放）；sheet 供图鉴/宣传参考。
 EOF
