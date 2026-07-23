@@ -3,13 +3,13 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 38,
+  "current_round": 39,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0039-next",
-  "last_completed_task_id": "T0038-procedural-sfx",
-  "last_commit": "a046ee14739a9a159706a14dea88bbec53f491ff",
-  "last_verified_build": "npm run check OK; npm test 66 passed post-sync",
+  "last_completed_task_id": "T0040-emotions-24",
+  "last_commit": "cd4b554d4e0c4daa29b6d19b706a91d5467cac5c",
+  "last_verified_build": "npm run build OK",
   "last_test_summary": "vitest: 66 passed (21 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
@@ -19,15 +19,15 @@
     "D-001 Vite+TS+DOM",
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离",
-    "D-004 ProceduralAudioBus 程序化音效",
-    "D-005 十五日剧本"
+    "D-004 ProceduralAudioBus",
+    "D-005 十五日剧本",
+    "D-006 24 情绪样本"
   ],
   "next_candidate_tasks": [
     "T0039-real-audio-files",
-    "更多情绪样本",
-    "读屏文案审计",
+    "读屏审计",
     "M2 随机订单"
   ],
-  "resume_instructions": "【权威 tip / last_commit】a046ee14739a9a159706a14dea88bbec53f491ff\n当前轮次: 38 / 1000。\n当前目标: M1 深化；下一候选 T0039-real-audio-files。\n已完成步骤: 控制面对齐；ProceduralAudioBus 程序化音效；npm run check 66 passed。\n尚未完成步骤: 真实音频文件；长时性能；1000 轮剩余。\nGit: branch=main；working tree clean（提交本 state 时 tip=a046ee14739a9a159706a14dea88bbec53f491ff）。后续若再有 commit，以 git rev-parse HEAD 为准。\n功能提交: b57fa7f0fb93bb7947090315e5a922b9396b76ae\n测试: 66 passed / 21 files；build OK；smoke 双次一致。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git status && git log -5 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T20:50:00Z"
+  "resume_instructions": "当前轮次: 39 / 1000。\n当前目标: 继续 M1；下一候选真音频或读屏/M2。\n已完成步骤:\n  - 控制面 state/backlog/PROGRESS/ROADMAP 对齐（T0037）\n  - 程序化 UI 音效 ProceduralAudioBus（T0038）@ b57fa7f\n  - 情绪样本 24 条（T0040）@ cd4b554d4e0c4daa29b6d19b706a91d5467cac5c\n尚未完成: 真实音频文件；1000 轮剩余；浏览器长时性能。\nGit: branch=main；last_commit=cd4b554d4e0c4daa29b6d19b706a91d5467cac5c；请再执行 git rev-parse HEAD / git status 确认 tip 与 clean。\n测试: 66 passed / 21 files；build OK；smoke 双次一致（见 scratch gating-*.txt）。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git status && git log -5 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T20:50:49Z"
 }
