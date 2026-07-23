@@ -65,6 +65,7 @@ import {
   listVisibleOrders,
   vesselHelpsAnyOrder,
   announcePhaseChange,
+  announcePhaseWithHint,
   announceUnlock,
   announceViewChange,
   announceDayComplete,
@@ -318,7 +319,7 @@ export class YixiApp {
       }
     }
     if (next.phase !== prev.phase) {
-      this.queueAnnounce(announcePhaseChange(next.phase));
+      this.queueAnnounce(announcePhaseWithHint(next.phase));
     }
     this.state = next;
     this.persist();

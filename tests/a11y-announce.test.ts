@@ -10,6 +10,7 @@ import {
   announceCirculation,
   announceOrderFulfilled,
   announceFavorTop,
+  announcePhaseWithHint,
   favorRankTitle,
   joinAnnouncements,
   helpDialogA11y,
@@ -34,6 +35,7 @@ describe("a11y announce pure helpers", () => {
     expect(announceOrderFulfilled("林晚", 3)).toContain("林晚");
     expect(announceOrderFulfilled("林晚", 3)).toContain("3");
     expect(announceFavorTop("阿初", 8, favorRankTitle(8))).toContain("熟客");
+    expect(announcePhaseWithHint("awaiting_vessel")).toContain("容器");
   });
 
   it("joinAnnouncements 过滤空串", () => {

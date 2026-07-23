@@ -4,6 +4,7 @@
  */
 
 import { phaseLabel } from "./phase-label";
+import { phaseHint } from "./phase-hint";
 import type { GamePhase } from "./types";
 
 export type AppViewName =
@@ -84,5 +85,10 @@ export function announceOrderFulfilled(
 /** 好感榜首播报 */
 export function announceFavorTop(name: string, favor: number, rankTitle: string): string {
   return `好感领先：${name}，${rankTitle}，好感 ${favor}`;
+}
+
+/** 阶段切换时附带操作提示 */
+export function announcePhaseWithHint(phase: GamePhase): string {
+  return `${announcePhaseChange(phase)}。${phaseHint(phase)}`;
 }
 
