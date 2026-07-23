@@ -580,6 +580,15 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/codex_scrap.jpg") center/cover no-repeat;
 }
 
+.codex-catalog-art {
+  height: 88px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/codex_catalog.jpg") center/cover no-repeat;
+}
+
 .codex-ribbon-art {
   height: 56px;
   width: 56px;
@@ -875,6 +884,13 @@ html[data-reduce-motion="true"] .toast {
   background-image:
     linear-gradient(180deg, rgba(247, 243, 236, 0.05), rgba(247, 243, 236, 0.35)),
     url("/assets/promo/guest_d.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.guest-silhouette[data-guest-art="v5"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.05), rgba(247, 243, 236, 0.35)),
+    url("/assets/promo/guest_e.jpg");
   background-size: cover;
   background-position: center;
 }

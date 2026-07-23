@@ -762,6 +762,7 @@ export class YixiApp {
     el.innerHTML = `
       ${lanternHtml}
       <div class="codex-scrap-art" role="img" aria-label="图鉴手账" data-testid="codex-scrap-art"></div>
+      <div class="codex-catalog-art" role="img" aria-label="图鉴目录" data-testid="codex-catalog-art"></div>
       <div class="codex-ribbon-art" role="img" aria-label="图鉴丝带书签" data-testid="codex-ribbon-art"></div>
       <h2>瞬间图鉴</h2>
       <p class="muted">每一次流通留下的温柔记录（本局 ${list.length} 条）</p>

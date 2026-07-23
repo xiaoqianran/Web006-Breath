@@ -13,6 +13,7 @@ export const GUEST_PORTRAIT_VARIANTS = [
   "/assets/promo/guest_b.jpg",
   "/assets/promo/guest_c.jpg",
   "/assets/promo/guest_d.jpg",
+  "/assets/promo/guest_e.jpg",
 ] as const;
 
 export const GUEST_PORTRAIT_DISK = [
@@ -21,9 +22,10 @@ export const GUEST_PORTRAIT_DISK = [
   "public/assets/promo/guest_b.jpg",
   "public/assets/promo/guest_c.jpg",
   "public/assets/promo/guest_d.jpg",
+  "public/assets/promo/guest_e.jpg",
 ] as const;
 
-export type GuestPortraitVariantId = 0 | 1 | 2 | 3 | 4;
+export type GuestPortraitVariantId = 0 | 1 | 2 | 3 | 4 | 5;
 
 export function guestSilhouettePublicUrl(): string {
   return GUEST_SILHOUETTE_PATH;
