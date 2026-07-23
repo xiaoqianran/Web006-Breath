@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 74,
+  "current_round": 75,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0075-next",
-  "last_completed_task_id": "T0074-a008",
-  "last_commit": "f89f54d113085706f09decdcd120044e1b72e2eb",
+  "current_task_id": "T0076-next",
+  "last_completed_task_id": "T0075-tools-node",
+  "last_commit": "a05d21cd7b43b88e12fe6bc94695d73d529d18d2",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 102 passed (39 files)",
   "core_loop_status": "playable_demo_ready",
@@ -20,14 +20,13 @@
     "D-002",
     "D-003",
     "D-004 ProceduralAudioBus",
-    "D-005 skeptic三缺口已闭合",
-    "A-008 程序化音频"
+    "D-005 skeptic三缺口已闭合"
   ],
   "next_candidate_tasks": [
     "T0039-real-audio-files",
     "读屏",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】f89f54d113085706f09decdcd120044e1b72e2eb\n【三缺口】65a5659 / 6abee24 已闭合\n当前轮次: 74 / 1000 · v0.2.2\n当前目标: M1；下一 T0039 真音频。\n已完成: skeptic 三缺口；26 情绪；102 tests；A-008/D-004。\n尚未完成: 真音频文件；1000 轮。\nGit: main；last_commit=f89f54d113085706f09decdcd120044e1b72e2eb。\n测试: 102 passed；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T21:26:10Z"
+  "resume_instructions": "【权威 tip】a05d21cd7b43b88e12fe6bc94695d73d529d18d2\n【三缺口功能】65a5659d7455cd2c0e35998523a10eb330e1dbf1\n【三缺口闭合】6abee2408ea16d646b4948ac008f88144f1bf801\n当前轮次: 75 / 1000 · v0.2.2\n当前目标: M1 深化；下一 T0039 真音频。\n已完成步骤: skeptic 三缺口（ROADMAP 0037/0038 done；backlog T0046–T0048；PROGRESS 程序化音效）；?帮助；26 情绪；102 tests。\n尚未完成: 真音频文件；1000 轮剩余。\nGit: main；last_commit=a05d21cd7b43b88e12fe6bc94695d73d529d18d2；git status 应 clean。\n测试状态: 102 passed / 39 files；npm run check；smoke 双次 SMOKE_OK。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git rev-parse HEAD && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T21:26:50Z"
 }
