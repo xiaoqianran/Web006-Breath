@@ -452,6 +452,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["悸动", "期待"],
     intensity: 3,
   },
+  {
+    id: "e65",
+    guestName: "匿名",
+    text: "把雨棚下的位置让给推婴儿车的人。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e66",
+    guestName: "汀",
+    text: "雨声把所有催促都盖住了，只剩呼吸。",
+    tags: ["释然", "孤独"],
+    intensity: 3,
+  },
 ];
 
 

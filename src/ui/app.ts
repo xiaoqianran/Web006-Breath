@@ -376,7 +376,7 @@ export class YixiApp {
     this.root.innerHTML = "";
     this.root.classList.toggle("shop-theme", this.view === "shop");
     this.root.classList.toggle("evening-theme", this.view === "shop" && this.state.day >= 12);
-    this.root.classList.toggle("rain-theme", this.view === "shop" && this.state.day >= 2 && this.state.day <= 4);
+    this.root.classList.toggle("rain-theme", this.view === "shop" && ((this.state.day >= 2 && this.state.day <= 4) || this.state.day === 37));
     this.root.classList.toggle("market-theme", this.view === "shop" && this.state.day >= 27 && this.state.day <= 28);
     if (this.view === "menu") {
       this.root.appendChild(this.renderMenu());
@@ -764,6 +764,7 @@ export class YixiApp {
       const secondary = visible[1];
       board.innerHTML = `
         <div class="order-board-art" role="img" aria-label="委托告示板插画"></div>
+        <div class="rain-awning-art" role="img" aria-label="雨棚" data-testid="rain-awning-art"></div>
         <h2>今日委托</h2>
         <p data-testid="order-line">${formatOrderLine(primary)}</p>
         ${
