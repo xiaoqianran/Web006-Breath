@@ -462,7 +462,8 @@ export class YixiApp {
     el.className = "screen active menu-center";
     el.innerHTML = `
       <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
-      <p class="muted">Gentle Moments Shop · v0.2.4</p>
+      <div class="season-banner" role="img" aria-label="春日店饰" data-testid="season-banner"></div>
+      <p class="muted">Gentle Moments Shop · v0.2.5</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>
       <div class="btn-row"></div>
@@ -768,7 +769,7 @@ export class YixiApp {
     card.dataset.testid = "phase-card";
 
     if (s.phase === "awaiting_emotion" || (s.phase === "result" && !s.current)) {
-      card.innerHTML = `<h2>接待处</h2><p class="muted">把门推开一点，听听今天的故事。</p>`;
+      card.innerHTML = `<div class="tea-counter-art" role="img" aria-label="茶台插画" data-testid="tea-counter-art"></div><h2>接待处</h2><p class="muted">把门推开一点，听听今天的故事。</p>`;
       const row = document.createElement("div");
       row.className = "btn-row";
       const canAccept = s.queue.length > 0;

@@ -42,3 +42,8 @@
 
 接入：`.order-board-art` / `.vessels-display` / `.keeper-portrait`（关于页与店内委托卡）。
 
+| ART-008 | `public/assets/bg/day_complete.jpg` | 打烊窗景 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
+| ART-009 | `public/assets/ui/codex_empty.jpg` | 图鉴空态 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
+| ART-010 | `public/assets/ui/tea_counter.jpg` | 接待茶台 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
+| ART-011 | `public/assets/decor/season_spring.jpg` | 春日店饰横幅 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
+

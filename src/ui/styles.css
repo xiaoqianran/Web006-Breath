@@ -530,3 +530,21 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
     url("/assets/ui/codex_empty.jpg") center/cover no-repeat;
 }
+
+.tea-counter-art {
+  height: 96px;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
+    url("/assets/ui/tea_counter.jpg") center/cover no-repeat;
+}
+
+.season-banner {
+  height: 64px;
+  border-radius: 10px;
+  margin-bottom: 0.85rem;
+  background:
+    linear-gradient(90deg, rgba(247, 243, 236, 0.2), rgba(247, 243, 236, 0.55)),
+    url("/assets/decor/season_spring.jpg") center/cover no-repeat;
+}

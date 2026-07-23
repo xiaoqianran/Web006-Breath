@@ -242,6 +242,62 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["孤独", "温柔"],
     intensity: 2,
   },
+  {
+    id: "e35",
+    guestName: "禾",
+    text: "把旧照片压在书页里，书比记忆更沉。",
+    tags: ["想念", "遗憾"],
+    intensity: 3,
+  },
+  {
+    id: "e36",
+    guestName: "匿名",
+    text: "公交到站铃响，我忽然不想下车。",
+    tags: ["孤独", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e37",
+    guestName: "棠",
+    text: "把冰箱贴画又贴正了一点，心情也正了。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e38",
+    guestName: "予",
+    text: "邮件写了三稿，最终只发出一句：在吗。",
+    tags: ["悸动", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e39",
+    guestName: "匿名",
+    text: "阳台多了一盆别人寄养的薄荷。",
+    tags: ["温柔", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e40",
+    guestName: "安",
+    text: "把未拆的快递放在门口，像把明天也寄到了。",
+    tags: ["期待", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e41",
+    guestName: "疏",
+    text: "夜班结束，天空比我先醒。",
+    tags: ["疲惫", "释然"],
+    intensity: 4,
+  },
+  {
+    id: "e42",
+    guestName: "匿名",
+    text: "把回声留给空房间，它轻轻答应了。",
+    tags: ["孤独", "安心"],
+    intensity: 3,
+  },
 ];
 
 

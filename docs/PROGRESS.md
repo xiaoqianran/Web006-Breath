@@ -8,12 +8,12 @@
 | 版本 | 0.2.5（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0100** / 1000 |
+| 轮次 | **0102** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** · M2 **started** |
-| 测试 | **`npm test` → 127 passed**（45 files） |
+| 测试 | **`npm test` → 128 passed**（45 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 剧本 | **15 日** |
-| 情绪样本 | **34** 条 |
+| 情绪样本 | **42** 条 |
 | 音频 | **8** WAV + Hybrid |
 | 美术 | menu/shop/cover/vessels + **order_board / vessels_display / keeper** |
 | 核心循环 | playable_demo_ready |
@@ -36,7 +36,8 @@
 | 0097 | 真音频 T0039 | `07db690` |
 | 0098 | 读屏 T0098 | `64facfc` |
 | 0099 | 音量 T0099 | `c32b6ef` |
-| **0100** | **M2 订单 + 三张新图** | 本轮 tip |
+| **0100–0101** | **M2 订单 + 委托高亮 + 美术** | `6c29c93` |
+| **0102** | **情绪 42 + 茶台/春饰** | 本轮 tip |
 
 ## 下一优先
 

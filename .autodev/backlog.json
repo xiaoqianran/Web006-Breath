@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T22:11:43Z",
+  "updated_at": "2026-07-23T22:13:00Z",
   "tasks": [
     {
       "id": "T0001",
@@ -1133,8 +1133,29 @@
       ],
       "test_plan": "emotions-data.test.ts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 101,
+      "completed_round": 102,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0103-day-scripts-18",
+      "title": "日剧本扩充至 18 日",
+      "category": "content",
+      "milestone": "M2-systems",
+      "description": "DAY_SCRIPTS ≥18",
+      "priority": 64,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0102-emotions-40"
+      ],
+      "acceptance_criteria": [
+        "day-scripts 测试 ≥18"
+      ],
+      "test_plan": "day-scripts.test.ts",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 102,
       "completed_round": null,
       "commit_hash": null
     }
