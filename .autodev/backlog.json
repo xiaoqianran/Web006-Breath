@@ -2239,7 +2239,7 @@
     },
     {
       "id": "T0156-continue",
-      "title": "M2 持续推进",
+      "title": "日剧本46与提示板美术",
       "category": "chore",
       "milestone": "M2-systems",
       "description": "resume",
@@ -2253,8 +2253,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 155,
+      "completed_round": 156,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0157-continue",
+      "title": "M2 持续推进",
+      "category": "chore",
+      "milestone": "M2-systems",
+      "description": "resume",
+      "priority": 40,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0156-continue"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 156,
       "completed_round": null,
       "commit_hash": null
     }

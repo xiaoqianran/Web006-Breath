@@ -745,6 +745,7 @@ export class YixiApp {
     hud.innerHTML = `
       <div class="day-calendar-art" role="img" aria-label="今日日历装饰" data-testid="day-calendar-art"></div>
       <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
+      <span class="chalkboard-art" role="img" aria-label="提示板" data-testid="chalkboard-art"></span>
       <span class="muted" data-testid="phase-hint">${formatPhaseHintLine(s.phase)}</span>
       <span>第 <strong>${s.day}</strong> 日 · ${getDayScript(s.day).title}</span>
       <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
