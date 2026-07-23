@@ -1,5 +1,6 @@
 import type { Emotion } from "../core/types";
 import { applyDayEventToQueue } from "../core/events";
+import { getDayScript, queueFromDayScript } from "./day-scripts";
 
 /** 演示用样本情绪（至少支撑一日循环） */
 export const SAMPLE_EMOTIONS: Emotion[] = [
@@ -104,23 +105,17 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
 ];
 
 export function freshDayQueue(day: number = 1): Emotion[] {
-  // 简单轮转：按日偏移取样 4 条，第 2 日起可插入日事件特供客人
-  const offset = ((day - 1) * 2) % SAMPLE_EMOTIONS.length;
-  const count = 4;
-  const result: Emotion[] = [];
-  for (let i = 0; i < count; i++) {
-    const src = SAMPLE_EMOTIONS[(offset + i) % SAMPLE_EMOTIONS.length];
-    if (!src) continue;
-    result.push({
-      ...src,
-      id: `${src.id}_d${day}_${i}`,
-    });
-  }
-  return applyDayEventToQueue(day, result).queue;
+  return queueFromDayScript(day);
 }
 
 export function describeDayOpener(day: number): string {
+  const script = getDayScript(day);
   const { event } = applyDayEventToQueue(day, []);
-  if (!event) return `第 ${day} 日。店门开了一道细缝。`;
-  return `第 ${day} 日 · ${event.title}：${event.description}`;
+  if (!event) return `${script.opener}（${script.title}）`;
+  return `${script.opener} · ${event.title}：${event.description}`;
+}
+
+export function goalsForDay(day: number): { dayGoalCirculations: number; dayGoalWarmth: number } {
+  const s = getDayScript(day);
+  return { dayGoalCirculations: s.goalCirculations, dayGoalWarmth: s.goalWarmth };
 }

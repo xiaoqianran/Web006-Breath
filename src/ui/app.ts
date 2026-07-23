@@ -27,7 +27,7 @@ import {
   QUALITY_LABELS,
   DEFAULT_SETTINGS,
 } from "../core";
-import { describeDayOpener, freshDayQueue } from "../data/emotions";
+import { describeDayOpener, freshDayQueue, goalsForDay } from "../data/emotions";
 import { vesselIconHtml } from "./icons";
 
 const VESSELS = Object.keys(VESSEL_LABELS) as VesselKind[];
@@ -157,7 +157,11 @@ export class YixiApp {
   private startNewGame(): void {
     const store = this.storage();
     if (store) clearSave(store);
-    this.state = createGameState(freshDayQueue(1));
+    this.state = createGameState(freshDayQueue(1), goalsForDay(1));
+    this.state = {
+      ...this.state,
+      message: describeDayOpener(1),
+    };
     this.persist();
     if (!this.settings.tutorialSeen) {
       this.view = "tutorial";
@@ -571,9 +575,13 @@ export class YixiApp {
       row.append(
         this.button("进入下一日", () => {
           const day = s.day + 1;
-          this.setState(
-            startNextDay(s, freshDayQueue(day), describeDayOpener(day)),
-          );
+          const goals = goalsForDay(day);
+          let next = startNextDay(s, freshDayQueue(day), describeDayOpener(day));
+          next = {
+            ...next,
+            config: { ...next.config, ...goals },
+          };
+          this.setState(next);
         }),
         this.button("回到主菜单", () => this.go("menu"), "secondary"),
       );
