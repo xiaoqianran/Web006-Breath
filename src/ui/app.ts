@@ -68,6 +68,9 @@ import {
   formatCirculationResultLine,
   formatOrderLine,
   formatOrderShort,
+  formatOrderRewardLine,
+  formatOrderEncourage,
+  formatOrderMatchAside,
   ensureActiveOrder,
   ensurePendingSecondary,
   listVisibleOrders,
@@ -796,9 +799,8 @@ export class YixiApp {
             ? `<p class="muted" data-testid="order-secondary">候补：${formatOrderShort(secondary)} — ${secondary.blurb}</p>`
             : ""
         }
-        <p class="muted">完成奖励：温存 +${primary.bonusWarmth}${
-          primary.bonusReputation ? ` · 口碑 +${primary.bonusReputation}` : ""
-        } · 已完成委托 ${orderState.ordersFulfilled ?? 0}</p>
+        <p class="muted" data-testid="order-reward">${formatOrderRewardLine(primary)} · 已完成委托 ${orderState.ordersFulfilled ?? 0}</p>
+        <p class="muted" data-testid="order-encourage">${formatOrderEncourage(primary, orderState.ordersFulfilled ?? 0)}</p>
         <p class="kbd-hint">提示：赠予匹配形态可立即完成；上架后「被买走」也可履约（${formatOrderShort(primary)}）</p>
       `;
       wrap.appendChild(board);
@@ -974,6 +976,7 @@ export class YixiApp {
           · ${priceLabel(item)}</p>
         <p class="muted" data-testid="craft-summary">${formatCraftSummary(item.matchScore, item.quality)}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
+        <p class="muted" data-testid="order-match-aside">${formatOrderMatchAside(item, s.activeOrder)}</p>
         <div class="btn-row"></div>
       `;
       const row = card.querySelector(".btn-row")!;

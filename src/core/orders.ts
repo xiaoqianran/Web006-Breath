@@ -28,11 +28,31 @@ export interface ShopOrder {
 const VESSELS: VesselKind[] = ["flower", "tea", "art", "music", "object"];
 
 const BLURBS: Record<VesselKind, string[]> = {
-  flower: ["想要一束能放在窗台的想念。", "请把今天的心情折进花瓣里。"],
-  tea: ["一杯能让人坐下来的茶。", "要一口温热，不要太甜。"],
-  art: ["希望墙上多一块安静的颜色。", "把说不出口的话画下来。"],
-  music: ["想听见一段可以走路听的旋律。", "低一点，像傍晚的风。"],
-  object: ["一只口袋大小的小安慰。", "可以握在手心的物件就好。"],
+  flower: [
+    "想要一束能放在窗台的想念。",
+    "请把今天的心情折进花瓣里。",
+    "一枝不必名贵，能被记得就好。",
+  ],
+  tea: [
+    "一杯能让人坐下来的茶。",
+    "要一口温热，不要太甜。",
+    "茶汤淡一点，像雨停后的巷口。",
+  ],
+  art: [
+    "希望墙上多一块安静的颜色。",
+    "把说不出口的话画下来。",
+    "一幅小画，挂在目光落得下的地方。",
+  ],
+  music: [
+    "想听见一段可以走路听的旋律。",
+    "低一点，像傍晚的风。",
+    "只要几小节，能把心跳调慢就行。",
+  ],
+  object: [
+    "一只口袋大小的小安慰。",
+    "可以握在手心的物件就好。",
+    "小小一件，路上想起来就摸摸。",
+  ],
 };
 
 function mulberry(seed: number): number {
@@ -209,6 +229,50 @@ export function vesselHelpsAnyOrder(
 ): boolean {
   if (state.activeOrder?.preferredVessel === vessel) return true;
   return (state.pendingOrders ?? []).some((o) => o?.preferredVessel === vessel);
+}
+
+/** 委托奖励一行（温存/口碑） */
+export function formatOrderRewardLine(order: ShopOrder): string {
+  const rep =
+    order.bonusReputation > 0 ? ` · 口碑 +${order.bonusReputation}` : "";
+  return `完成奖励：温存 +${order.bonusWarmth}${rep}`;
+}
+
+/**
+ * 告示板鼓励短句（按难度与已完成数）
+ * difficulty 来自 orderDifficulty 时更贴。
+ */
+export function formatOrderEncourage(
+  order: ShopOrder,
+  ordersFulfilled = 0,
+): string {
+  const v = VESSEL_LABELS[order.preferredVessel];
+  if (ordersFulfilled >= 3) {
+    return `今日已守约 ${ordersFulfilled} 笔，${order.guestName} 的${v}仍可再轻轻接住。`;
+  }
+  if (order.minQuality === "rare") {
+    return `${order.guestName} 想要珍稀品质的${v}——细心匹配会更稳。`;
+  }
+  if (order.minQuality === "fine") {
+    return `把${v}做到精致，${order.guestName} 会多停一会儿。`;
+  }
+  return `任意品质的${v}都行；赠予或上架被买走均可履约。`;
+}
+
+/** 转化台：当前成品相对主委托的接近度旁白 */
+export function formatOrderMatchAside(
+  item: CraftedItem,
+  order: ShopOrder | null | undefined,
+): string {
+  if (!order) return "";
+  if (orderMatches(order, item)) {
+    return `已贴合${order.guestName}的委托，赠予或被买走即可守约。`;
+  }
+  if (item.vessel === order.preferredVessel) {
+    const need = QUALITY_LABELS[order.minQuality];
+    return `形态已对（${VESSEL_LABELS[item.vessel]}），品质还需至少「${need}」。`;
+  }
+  return `当前是${VESSEL_LABELS[item.vessel]}，委托想要${VESSEL_LABELS[order.preferredVessel]}。`;
 }
 
 /**

@@ -15,6 +15,9 @@ import {
   tryFulfillAnyOrder,
   orderVesselHintLine,
   vesselHelpsAnyOrder,
+  formatOrderRewardLine,
+  formatOrderEncourage,
+  formatOrderMatchAside,
   createGameState,
   acceptNextEmotion,
   chooseVessel,
@@ -136,6 +139,27 @@ describe("M2 shop orders", () => {
     expect(vesselHelpsAnyOrder({ activeOrder: order }, order.preferredVessel)).toBe(true);
     expect(vesselHelpsAnyOrder({ activeOrder: null, pendingOrders: [] }, "tea")).toBe(false);
     expect(orderVesselHintLine({ activeOrder: null, pendingOrders: [] })).toBe("");
+  });
+
+  it("委托奖励/鼓励/接近度旁白", () => {
+    const order: ShopOrder = {
+      id: "o-enc",
+      day: 1,
+      guestName: "林晚",
+      preferredVessel: "tea",
+      minQuality: "fine",
+      bonusWarmth: 3,
+      bonusReputation: 1,
+      blurb: "测试",
+    };
+    expect(formatOrderRewardLine(order)).toContain("温存 +3");
+    expect(formatOrderRewardLine(order)).toContain("口碑 +1");
+    expect(formatOrderEncourage(order, 0)).toContain("精致");
+    expect(formatOrderEncourage(order, 3)).toContain("守约");
+    expect(formatOrderMatchAside(fakeItem("tea", "fine"), order)).toContain("贴合");
+    expect(formatOrderMatchAside(fakeItem("tea", "simple"), order)).toContain("品质");
+    expect(formatOrderMatchAside(fakeItem("flower", "rare"), order)).toContain("花");
+    expect(formatOrderMatchAside(fakeItem("tea", "fine"), null)).toBe("");
   });
 
   it("核心循环赠予可触发履约（真实 game API）", () => {
