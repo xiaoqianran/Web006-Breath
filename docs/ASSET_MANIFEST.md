@@ -123,3 +123,6 @@
 | ART-053 | `public/assets/ui/warmth_jar.jpg` | 温存罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-054 | `public/assets/ui/welcome_bell.jpg` | 迎客门铃 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-055 | `public/assets/bg/warmth_corner.jpg` | 温存一隅 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-056 | `public/assets/promo/guest_a.jpg` | 客人剪影 A | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-057 | `public/assets/promo/guest_b.jpg` | 客人剪影 B | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-058 | `public/assets/promo/guest_c.jpg` | 客人剪影 C | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

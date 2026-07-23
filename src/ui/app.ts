@@ -82,6 +82,8 @@ import {
   announceCirculation,
   announceFavorTop,
   favorRankTitle,
+  guestPortraitDataAttr,
+  guestPortraitAriaLabel,
   announceOrderFulfilled,
   joinAnnouncements,
   helpDialogA11y,
@@ -912,7 +914,7 @@ export class YixiApp {
       const greet = formatFavorGreeting(e.guestName, guestFavor);
       const craftAside = formatFavorCraftAside(e.guestName, guestFavor);
       card.innerHTML = `
-        <div class="guest-silhouette" role="img" aria-label="客人剪影" data-testid="guest-silhouette"></div>
+        <div class="guest-silhouette" role="img" aria-label="${guestPortraitAriaLabel(e.guestName)}" data-testid="guest-silhouette" data-guest-art="${guestPortraitDataAttr(e.guestName)}"></div>
         <div class="guest-notebook-art" role="img" aria-label="客人手记" data-testid="guest-notebook-art"></div>
         <div class="intensity-meter-art" role="img" aria-label="强度丝带" data-testid="intensity-meter-art"></div>
         <h2>${e.guestName}</h2>

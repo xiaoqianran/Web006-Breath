@@ -681,6 +681,35 @@ html[data-reduce-motion="true"] .toast {
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
 
+.guest-silhouette[data-guest-art="v0"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.05), rgba(247, 243, 236, 0.35)),
+    url("/assets/promo/guest_silhouette.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.guest-silhouette[data-guest-art="v1"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.05), rgba(247, 243, 236, 0.35)),
+    url("/assets/promo/guest_a.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.guest-silhouette[data-guest-art="v2"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.05), rgba(247, 243, 236, 0.35)),
+    url("/assets/promo/guest_b.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.guest-silhouette[data-guest-art="v3"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.05), rgba(247, 243, 236, 0.35)),
+    url("/assets/promo/guest_c.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .favor-board-art {
   height: 88px;
   border-radius: 10px;
