@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 144,
+  "current_round": 145,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0145-continue",
-  "last_completed_task_id": "T0144-continue",
-  "last_commit": "d64150ef4aa4b3253edecdfde3586001bf4a8d3f",
+  "current_task_id": "T0146-continue",
+  "last_completed_task_id": "T0145-continue",
+  "last_commit": "3121a33d90911ab2ab90199d94d1949d4b059f05",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 164 passed (54 files)",
   "core_loop_status": "playable_demo_ready",
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0145-continue",
+    "T0146-continue",
     "M2",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d64150ef4aa4b3253edecdfde3586001bf4a8d3f T0144 剧本38\n轮次: 144 / 1000 · v0.2.6 · M2\n本会话: T0140–T0144 匹配叙事/情绪64/剧本38/形态推荐\n测试: 164 passed；双 smoke warmth=19\n下一: T0145\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:56:34Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 3121a33d90911ab2ab90199d94d1949d4b059f05 T0145 情绪66+雨棚\n轮次: 145 / 1000 · v0.2.6 · M2\n本会话: T0140–T0145 匹配叙事/情绪66/剧本38/形态推荐/雨棚\n测试: 164 passed；双 smoke warmth=19\n下一: T0146\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:57:24Z"
 }
