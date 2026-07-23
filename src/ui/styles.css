@@ -698,3 +698,16 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
     url("/assets/bg/revisit_door.jpg") center/cover no-repeat;
 }
+
+/* 雨日主题时页脚氛围 */
+#app.shop-theme.rain-theme .site-foot::before {
+  content: "";
+  display: block;
+  height: 48px;
+  margin: 0 auto 0.5rem;
+  max-width: 280px;
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.15), rgba(247, 243, 236, 0.55)),
+    url("/assets/bg/puddle_glow.jpg") center/cover no-repeat;
+}

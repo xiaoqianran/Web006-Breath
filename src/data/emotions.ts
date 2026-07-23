@@ -368,6 +368,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["遗憾", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e53",
+    guestName: "匿名",
+    text: "把手机调成静音，世界忽然只剩下雨声。",
+    tags: ["安心", "孤独"],
+    intensity: 2,
+  },
+  {
+    id: "e54",
+    guestName: "陆",
+    text: "电梯里陌生人帮我按了楼层，像很小的缘分。",
+    tags: ["温柔", "期待"],
+    intensity: 2,
+  },
 ];
 
 

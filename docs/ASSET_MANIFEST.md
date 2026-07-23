@@ -70,3 +70,5 @@
 | ART-024 | `public/assets/decor/morning_dew.jpg` | 晨露门铃 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-025 | `public/assets/bg/revisit_door.jpg` | 再访门廊 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-026 | `public/assets/bg/puddle_glow.jpg` | 雨洼反光 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
