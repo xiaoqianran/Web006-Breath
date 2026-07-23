@@ -8,7 +8,7 @@
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0021-ready-resume",
   "last_completed_task_id": "T0022-m1-docs",
-  "last_commit": "ea401f38f6e43a772f1d01e3f851cdf810ca1e34",
+  "last_commit": "ac2ade8f3a7e0473f8f785480044f9b6037b2dcf",
   "last_verified_build": "npm run build OK",
   "last_test_summary": "vitest: 46 passed",
   "core_loop_status": "playable_demo_ready",
@@ -30,6 +30,6 @@
     "aria 深化",
     "性能基线实测"
   ],
-  "resume_instructions": "cd /root/wk; git log -5; npm test (46 passed); npm run smoke; npm run dev。HEAD=ea401f3。可演示毕业原型已就绪。下一：客人好感/真音频/aria/性能基线。勿 push。",
+  "resume_instructions": "cd /root/wk; git status; git log -5; npm test（期望 46 passed）; npm run smoke; npm run dev。HEAD=ac2ade8f3a7e0473f8f785480044f9b6037b2dcf。一息=温柔瞬间情绪流通小店，可演示。下一：客人好感/真音频/性能基线。勿 push。",
   "updated_at": "2026-07-23T20:32:30.000Z"
 }
