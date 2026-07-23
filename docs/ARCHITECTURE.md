@@ -75,5 +75,6 @@ EOF
 ## 音频
 
 - `SilentAudioBus`：测试
-- `ProceduralAudioBus` + `src/ui/beep.ts`：Web Audio 短音
+- `ProceduralAudioBus` + `src/ui/beep.ts`：Web Audio 短音回退
+- `HybridAudioBus` + `audio-manifest` + `sample-player`：原创 WAV 优先
 - 设置 `sfxEnabled` 与 `reduceMotion` 控制开关

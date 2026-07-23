@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T21:05:06Z",
+  "updated_at": "2026-07-23T21:55:01Z",
   "tasks": [
     {
       "id": "T0001",
@@ -570,10 +570,11 @@
       ],
       "test_plan": "资源存在性",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 37,
-      "completed_round": null,
-      "commit_hash": null
+      "completed_round": 97,
+      "commit_hash": "PENDING",
+      "notes": "HybridAudioBus + 8 WAV original-synth + tests"
     },
     {
       "id": "T0040-emotions-24",
@@ -1026,6 +1027,28 @@
       "created_round": 65,
       "completed_round": 65,
       "commit_hash": "019b6f74a831b9762a76483ead0b3bda9d9922ea"
+    },
+    {
+      "id": "T0098-a11y-live-region",
+      "title": "读屏 live region 与焦点管理深化",
+      "category": "a11y",
+      "milestone": "M1-core-loop-depth",
+      "description": "强化 aria-live、焦点陷阱与帮助层可达性",
+      "priority": 55,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0039-real-audio-files"
+      ],
+      "acceptance_criteria": [
+        "关键区域 aria-live",
+        "帮助层 Esc/焦点可测"
+      ],
+      "test_plan": "npm test + 结构断言",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 97,
+      "completed_round": null,
+      "commit_hash": null
     }
   ]
 }

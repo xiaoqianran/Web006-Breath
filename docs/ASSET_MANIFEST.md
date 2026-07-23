@@ -23,4 +23,16 @@
 - 接入：`#app.shop-theme::before`
 
 | ART-004 | `public/assets/promo/cover.jpg` | 宣传/答辩封面 | Imagine | 16:9 1280×720 | JPG | 否 | 0.1 | active | 原创 |
-EOF
+
+## 音频（AUD）
+
+| ID | 路径 | 用途 | 来源 | 格式 | 循环 | 状态 | 许可证 |
+|----|------|------|------|------|------|------|--------|
+| AUD-SFX-* | `public/assets/audio/sfx_*.wav` | UI/反馈 | 脚本合成 | WAV mono 22.05k | 否 | active | 原创 |
+| AUD-BGM-menu | `public/assets/audio/bgm_menu.wav` | 主菜单 BGM | 脚本合成 | WAV | 是 | active | 原创 |
+| AUD-BGM-shop | `public/assets/audio/bgm_shop.wav` | 店内 BGM | 脚本合成 | WAV | 是 | active | 原创 |
+
+- 清单源码：`src/core/audio-manifest.ts`
+- 再生：`node scripts/generate-audio-assets.mjs`
+- 许可文件：`public/assets/audio/LICENSE.txt`
+

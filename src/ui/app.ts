@@ -17,7 +17,7 @@ import {
   listLockedUnlocks,
   vesselAffinityLines,
   newlyEarnedUnlocks,
-  ProceduralAudioBus,
+  HybridAudioBus,
   sfxForGameEvent,
   averageMatchScore,
   bestVesselForGuest,
@@ -45,6 +45,7 @@ import { describeDayOpener, freshDayQueue, goalsForDay } from "../data/emotions"
 import { getDayScript } from "../data/day-scripts";
 import { vesselIconHtml } from "./icons";
 import { playWebAudioTone } from "./beep";
+import { playHtmlSample, stopHtmlBgm } from "./sample-player";
 
 const VESSELS = VESSEL_ORDER;
 
@@ -55,7 +56,12 @@ export class YixiApp {
   private state: GameState;
   private settings: PlayerSettings;
   private view: View = "menu";
-  private audio: ProceduralAudioBus = new ProceduralAudioBus(playWebAudioTone);
+  /** 文件采样优先，程序化 tone 回退 */
+  private audio: HybridAudioBus = new HybridAudioBus(
+    playHtmlSample,
+    playWebAudioTone,
+    stopHtmlBgm,
+  );
   private toast: string | null = null;
   /** 店内/菜单帮助覆盖层 */
   private helpOpen = false;
@@ -74,6 +80,11 @@ export class YixiApp {
   private syncAudioEnabled(): void {
     // 减少动效或手动关闭音效时静音
     this.audio.setEnabled(this.settings.sfxEnabled && !this.settings.reduceMotion);
+  }
+
+  private syncBgmForView(view: View): void {
+    if (view === "shop") this.audio.playBgm("bgm_shop");
+    else this.audio.playBgm("bgm_menu");
   }
 
   private bindKeyboard(): void {
@@ -126,6 +137,7 @@ export class YixiApp {
 
   private go(view: View): void {
     this.view = view;
+    this.syncBgmForView(view);
     this.render();
   }
 
@@ -172,6 +184,9 @@ export class YixiApp {
       this.toast = `解锁：${unlocked.map((u) => u.title).join("、")}`;
       this.audio.playSfx(sfxForGameEvent("rare"));
     }
+    if (next.phase === "awaiting_vessel" && prev.phase === "awaiting_emotion") {
+      this.audio.playSfx(sfxForGameEvent("accept"));
+    }
     if (next.phase === "awaiting_circulation" && prev.phase === "awaiting_vessel") {
       this.audio.playSfx(
         next.crafted?.quality === "rare" ? sfxForGameEvent("rare") : sfxForGameEvent("craft"),
@@ -187,6 +202,9 @@ export class YixiApp {
     }
     if (next.shelf.length < prev.shelf.length) {
       this.audio.playSfx(sfxForGameEvent("sell"));
+    }
+    if (next.phase === "day_complete" && prev.phase !== "day_complete") {
+      this.audio.playSfx(sfxForGameEvent("day_end"));
     }
     this.state = next;
     this.persist();

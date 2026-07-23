@@ -27,3 +27,9 @@ EOF
 - **决策**：使用 Web Audio 振荡器 + tone 表；设置 sfxEnabled；减少动效时静音。
 - **原因**：环境无合法商用 SFX 包；避免版权风险；可测。
 - **后果**：尚无 BGM 循环；T0039 可后续替换为真实文件播放器。
+
+## D-006 原创合成 WAV + HybridAudioBus（2026-07-23）
+
+- **决策**：用脚本生成 mono 22.05kHz WAV（无第三方采样）；`HybridAudioBus` 优先文件，回退 `ProceduralAudioBus` tone；BGM 用 HTMLAudioElement 循环。
+- **理由**：T0039 验收要有合法可再分发资源；合成可复现、无版权风险。
+- **后果**：氛围偏「占位级」短循环；日后可同 id 替换为人声/CC0 长曲。

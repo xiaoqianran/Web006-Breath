@@ -1,8 +1,9 @@
 /**
- * 音频总线接口与静默/程序化实现。
- * 真实振荡器播放在 UI 注入；核心只做规格与调用记录。
+ * 音频总线接口与静默/程序化/混合文件实现。
+ * 真实振荡器与 HTMLAudio 播放在 UI 注入；核心只做规格、清单解析与调用记录。
  */
 
+import { audioPublicUrl, getAudioAsset } from "./audio-manifest";
 import { toneForSfx, type ToneSpec } from "./tones";
 
 export type AudioChannel = "master" | "bgm" | "sfx" | "ambience";
@@ -18,6 +19,16 @@ export interface AudioBus {
 }
 
 export type TonePlayer = (spec: ToneSpec, channelGain: number) => void;
+
+/** 外部采样播放（url 为 public 路径） */
+export type SamplePlayer = (opts: {
+  url: string;
+  volume: number;
+  loop?: boolean;
+  channel: "sfx" | "bgm";
+}) => void;
+
+export type SampleStopper = () => void;
 
 export class SilentAudioBus implements AudioBus {
   private volumes: Record<AudioChannel, number> = {
@@ -126,6 +137,117 @@ export class ProceduralAudioBus implements AudioBus {
 
   debugLastTone(): ToneSpec | null {
     return this.lastTone;
+  }
+}
+
+/**
+ * 混合总线：优先播放清单中的外部文件，失败/无采样器时回退程序化 tone。
+ * BGM 仅走采样器（无文件则只记录 id）。
+ */
+export class HybridAudioBus implements AudioBus {
+  private volumes: Record<AudioChannel, number> = {
+    master: 0.8,
+    bgm: 0.45,
+    sfx: 0.7,
+    ambience: 0.3,
+  };
+  private lastSfx: string | null = null;
+  private lastBgm: string | null = null;
+  private lastTone: ToneSpec | null = null;
+  private lastSampleUrl: string | null = null;
+  private lastSource: "file" | "tone" | "none" = "none";
+  private enabled = true;
+
+  constructor(
+    private readonly samplePlayer: SamplePlayer | null = null,
+    private readonly tonePlayer: TonePlayer | null = null,
+    private readonly stopSampleBgm: SampleStopper | null = null,
+  ) {}
+
+  setEnabled(on: boolean): void {
+    this.enabled = on;
+    if (!on) this.stopBgm();
+  }
+
+  setVolume(channel: AudioChannel, value: number): void {
+    this.volumes[channel] = Math.min(1, Math.max(0, value));
+  }
+
+  getVolume(channel: AudioChannel): number {
+    return this.volumes[channel];
+  }
+
+  playSfx(id: string): void {
+    this.lastSfx = id;
+    this.lastTone = null;
+    this.lastSampleUrl = null;
+    this.lastSource = "none";
+    if (!this.enabled) return;
+
+    const url = audioPublicUrl(id);
+    const asset = getAudioAsset(id);
+    if (url && asset?.kind === "sfx" && this.samplePlayer) {
+      const g = this.volumes.master * this.volumes.sfx;
+      this.samplePlayer({ url, volume: g, loop: false, channel: "sfx" });
+      this.lastSampleUrl = url;
+      this.lastSource = "file";
+      return;
+    }
+
+    const tone = toneForSfx(id);
+    this.lastTone = tone;
+    if (tone && this.tonePlayer) {
+      const g = this.volumes.master * this.volumes.sfx * tone.gain;
+      this.tonePlayer(tone, g);
+      this.lastSource = "tone";
+    }
+  }
+
+  playBgm(id: string): void {
+    this.lastBgm = id;
+    if (!this.enabled) return;
+    const url = audioPublicUrl(id);
+    const asset = getAudioAsset(id);
+    if (url && asset?.kind === "bgm" && this.samplePlayer) {
+      const g = this.volumes.master * this.volumes.bgm;
+      this.samplePlayer({
+        url,
+        volume: g,
+        loop: asset.loop,
+        channel: "bgm",
+      });
+      this.lastSampleUrl = url;
+      this.lastSource = "file";
+    }
+  }
+
+  stopBgm(): void {
+    this.lastBgm = null;
+    if (this.stopSampleBgm) this.stopSampleBgm();
+  }
+
+  isLive(): boolean {
+    return this.enabled && (this.samplePlayer !== null || this.tonePlayer !== null);
+  }
+
+  debugLastSfx(): string | null {
+    return this.lastSfx;
+  }
+
+  debugLastBgm(): string | null {
+    return this.lastBgm;
+  }
+
+  debugLastTone(): ToneSpec | null {
+    return this.lastTone;
+  }
+
+  debugLastSampleUrl(): string | null {
+    return this.lastSampleUrl;
+  }
+
+  debugLastSource(): "file" | "tone" | "none" {
+    return this.lastSource;
   }
 }
 
