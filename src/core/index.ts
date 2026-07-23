@@ -8,3 +8,4 @@ export * from "./unlocks";
 export * from "./events";
 export * from "./audio-bus";
 export * from "./achievements";
+export * from "./affinity";
