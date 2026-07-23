@@ -744,6 +744,15 @@ html[data-reduce-motion="true"] .toast {
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
 
+.paper-cranes-art {
+  height: 88px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/decor/paper_cranes.jpg") center/cover no-repeat;
+}
+
 .puddle-dusk-art {
   height: 80px;
   border-radius: 12px;

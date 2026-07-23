@@ -704,6 +704,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "温柔"],
     intensity: 5,
   },
+  {
+    id: "e101",
+    guestName: "温叙",
+    text: "一百零一次路过，我想在设置里把音量拧到刚好听见雨。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e102",
+    guestName: "匿名",
+    text: "把旋钮轻轻转一下，心也跟着慢了半拍。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e103",
+    guestName: "阿澄",
+    text: "设置页的提示关掉后，我更敢自己选形态了。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e104",
+    guestName: "棠",
+    text: "一百零四次深呼吸，终于把减少动效勾上——想更稳地活。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
 ];
 
 

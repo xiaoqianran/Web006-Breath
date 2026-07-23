@@ -494,6 +494,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 30,
   },
+  {
+    day: 61,
+    title: "旋钮",
+    opener: "第六十一日。音量旋钮被转得刚好听见雨落在伞架上。",
+    sampleIndexes: [100, 101, 102, 85],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 62,
+    title: "稳一点",
+    opener: "第六十二日。有人把「减少动效」勾上了，店里更静。",
+    sampleIndexes: [103, 98, 92, 75],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {
