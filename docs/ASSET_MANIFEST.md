@@ -122,3 +122,4 @@
 | ART-052 | `public/assets/ui/chalkboard.jpg` | 提示板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-053 | `public/assets/ui/warmth_jar.jpg` | 温存罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-054 | `public/assets/ui/welcome_bell.jpg` | 迎客门铃 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-055 | `public/assets/bg/warmth_corner.jpg` | 温存一隅 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

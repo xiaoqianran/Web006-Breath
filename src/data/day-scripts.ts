@@ -382,6 +382,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 47,
+    title: "温存罐日",
+    opener: "第四十七日。柜台上的温存罐轻轻嗡了一声，像在记数。",
+    sampleIndexes: [72, 73, 74, 75],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 48,
+    title: "四八的门",
+    opener: "第四十八日。门帘掀起又落下，熟客的影子停在门槛上。",
+    sampleIndexes: [76, 77, 78, 79],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

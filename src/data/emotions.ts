@@ -536,6 +536,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "想念"],
     intensity: 4,
   },
+  {
+    id: "e77",
+    guestName: "匿名",
+    text: "把温存罐擦亮一点，里面的光好像多了一寸。",
+    tags: ["期待", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e78",
+    guestName: "暖",
+    text: "手里还剩一点余温，想交给能保管它的人。",
+    tags: ["安心", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e79",
+    guestName: "匿名",
+    text: "门铃还在响，是我又推开了一次这扇门。",
+    tags: ["勇气", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e80",
+    guestName: "禾",
+    text: "八十次想说出口的话，今天只带来一句：谢谢你在。",
+    tags: ["温柔", "安心"],
+    intensity: 4,
+  },
 ];
 
 
