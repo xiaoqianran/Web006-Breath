@@ -466,6 +466,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["释然", "孤独"],
     intensity: 3,
   },
+  {
+    id: "e67",
+    guestName: "匿名",
+    text: "把强度写在便签上，才发现自己比想象中勇敢。",
+    tags: ["勇气", "释然"],
+    intensity: 4,
+  },
+  {
+    id: "e68",
+    guestName: "禾",
+    text: "把小本子合上，像给情绪盖了一床薄被。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
 ];
 
 

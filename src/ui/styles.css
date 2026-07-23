@@ -868,3 +868,25 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
     url("/assets/bg/rain_awning.jpg") center/cover no-repeat;
 }
+
+.guest-notebook-art {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  float: right;
+  margin: 0 0 0.5rem 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/guest_notebook.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.intensity-meter-art {
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 0.55rem;
+  clear: both;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
+    url("/assets/ui/intensity_meter.jpg") center/cover no-repeat;
+}

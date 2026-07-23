@@ -8,9 +8,9 @@
 | 版本 | 0.2.6（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0145** / 1000 |
+| 轮次 | **0146** / 1000 |
 | 里程碑 | M0 **done** · M1 **done-ish** · M2 **in_progress** |
-| 测试 | **`npm test` → 164 passed**（47 files） |
+| 测试 | **`npm test` → 166 passed**（47 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 剧本 | **38 日** |
 | 情绪样本 | **66** 条 |
@@ -42,6 +42,8 @@
 | **0132** | **解锁进度 nextUnlock + 徽章美术** | 本轮 tip |
 
 | **0140** | **匹配分/品质叙事 + 算珠印记美术** | 本轮 tip |
+
+| **0146** | **情绪强度叙事 + 手记/丝带美术** | 本轮 tip |
 
 ## 下一优先
 

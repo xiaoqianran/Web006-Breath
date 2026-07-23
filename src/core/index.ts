@@ -43,3 +43,4 @@ export * from "./streak-label";
 export * from "./queue-status";
 export * from "./match-label";
 export * from "./vessel-recommend";
+export * from "./intensity-label";
