@@ -33,6 +33,7 @@ import {
   phaseLabel,
   vesselByHotkey,
   VESSEL_ORDER,
+  formatRatioPercent,
   type GameState,
   type PlayerSettings,
   VESSEL_LABELS,
@@ -502,7 +503,7 @@ export class YixiApp {
       <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
       <span>口碑 <strong>${s.reputation}</strong></span>
       <span>今日流通 <strong data-testid="circulations">${s.circulationsToday}</strong> / 目标 ${s.config.dayGoalCirculations}</span>
-      <span class="muted" data-testid="day-goal">${formatDayGoalLine(dayGoalProgress(s))}</span>
+      <span class="muted" data-testid="day-goal">${formatDayGoalLine(dayGoalProgress(s))}（${formatRatioPercent(dayGoalProgress(s).bestRatio)}）</span>
       <span>连心 <strong data-testid="streak">${s.qualityStreak ?? 0}</strong></span>
       <span>默契 <strong data-testid="avg-match">${averageMatchScore(s).toFixed(1)}</strong></span>
       <span>等候 <strong>${s.queue.length}</strong></span>
