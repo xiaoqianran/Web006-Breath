@@ -83,6 +83,8 @@ import {
   formatMomentCardHeader,
   formatMomentCardFooter,
   announceMomentCard,
+  formatSettingsSummary,
+  formatSettingsEncourage,
   formatOrderLine,
   formatOrderShort,
   formatOrderRewardLine,
@@ -616,7 +618,10 @@ export class YixiApp {
     el.innerHTML = `
       <div class="card">
         <div class="half-window-art" role="img" aria-label="半开的窗" data-testid="half-window-art"></div>
+        <div class="settings-knob-art" role="img" aria-label="设置旋钮" data-testid="settings-knob-art"></div>
         <h2>设置</h2>
+        <p class="muted" data-testid="settings-summary">${formatSettingsSummary(s)}</p>
+        <p class="muted" data-testid="settings-encourage">${formatSettingsEncourage(s)}</p>
         <label class="setting-row">
           <input type="checkbox" data-key="showHints" ${s.showHints ? "checked" : ""} />
           <span>显示气息提示（弱相性）</span>

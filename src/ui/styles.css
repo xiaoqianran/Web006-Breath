@@ -733,6 +733,17 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/writing_desk.jpg") center/cover no-repeat;
 }
 
+.settings-knob-art {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  margin: 0 auto 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/settings_knob.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
 .puddle-dusk-art {
   height: 80px;
   border-radius: 12px;
