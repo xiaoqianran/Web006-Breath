@@ -7,6 +7,7 @@ import {
   countByQuality,
   lastCirculation,
   totalWarmthFromHistory,
+  bestQualityInHistory,
   type Emotion,
 } from "../src/core";
 
@@ -35,5 +36,19 @@ describe("history-query", () => {
     state = runFullCirculation(state, "tea", "display");
     expect(countByVessel(state.history, "tea")).toBe(1);
     expect(totalWarmthFromHistory(state.history)).toBeGreaterThan(w);
+  });
+});
+
+describe("bestQualityInHistory", () => {
+  it("返回历史最高品质", () => {
+    let state = createGameState(
+      [
+        { id: "bq1", guestName: "a", text: "hi there ok", tags: ["想念", "温柔"], intensity: 5 },
+        { id: "bq2", guestName: "b", text: "tired day now", tags: ["疲惫"], intensity: 1 },
+      ],
+      { dayGoalCirculations: 99, dayGoalWarmth: 999 },
+    );
+    state = runFullCirculation(state, "flower", "gift");
+    expect(bestQualityInHistory(state.history)).toBe("rare");
   });
 });
