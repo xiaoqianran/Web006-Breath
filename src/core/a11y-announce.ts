@@ -5,6 +5,8 @@
 
 import { phaseLabel } from "./phase-label";
 import { phaseHint } from "./phase-hint";
+import { warmthRankTitle } from "./warmth-label";
+import { formatDayEndClosing } from "./day-end-narrative";
 import type { GamePhase } from "./types";
 
 export type AppViewName =
@@ -67,7 +69,22 @@ export function joinAnnouncements(...parts: Array<string | null | undefined>): s
 
 /** 流通/打烊等状态句 */
 export function announceDayComplete(day: number, warmth: number): string {
-  return `第 ${day} 日打烊，温存 ${warmth}`;
+  return `第 ${day} 日打烊，温存 ${warmth} · ${warmthRankTitle(warmth)}`;
+}
+
+/**
+ * 打烊完整播报（含口碑档位与收束句，可选 circulations/reputation）
+ */
+export function announceDayCompleteRich(
+  day: number,
+  warmth: number,
+  options?: { reputation?: number; circulations?: number },
+): string {
+  const base = announceDayComplete(day, warmth);
+  const rep = options?.reputation ?? 0;
+  const circ = options?.circulations ?? 0;
+  const closing = formatDayEndClosing(warmth, rep, circ);
+  return joinAnnouncements(base, closing);
 }
 
 export function announceCirculation(qualityLabel: string): string {

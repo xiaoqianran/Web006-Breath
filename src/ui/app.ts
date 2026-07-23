@@ -75,7 +75,7 @@ import {
   announcePhaseWithHint,
   announceUnlock,
   announceViewChange,
-  announceDayComplete,
+  announceDayCompleteRich,
   announceCirculation,
   announceFavorTop,
   favorRankTitle,
@@ -317,7 +317,12 @@ export class YixiApp {
     }
     if (next.phase === "day_complete" && prev.phase !== "day_complete") {
       this.audio.playSfx(sfxForGameEvent("day_end"));
-      this.queueAnnounce(announceDayComplete(next.day, next.warmth));
+      this.queueAnnounce(
+        announceDayCompleteRich(next.day, next.warmth, {
+          reputation: next.reputation,
+          circulations: next.circulationsToday,
+        }),
+      );
       const top = topFavoredGuests(next, 1)[0];
       if (top) {
         this.queueAnnounce(

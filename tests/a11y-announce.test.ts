@@ -7,6 +7,7 @@ import {
   announceUnlock,
   announceViewChange,
   announceDayComplete,
+  announceDayCompleteRich,
   announceCirculation,
   announceOrderFulfilled,
   announceFavorTop,
@@ -32,6 +33,10 @@ describe("a11y announce pure helpers", () => {
     expect(announceUnlock(["赠予之心"])).toBe("解锁：赠予之心");
     expect(announceCirculation("珍稀")).toContain("珍稀");
     expect(announceDayComplete(3, 12)).toMatch(/第 3 日/);
+    expect(announceDayComplete(3, 12)).toContain("掌心有暖");
+    expect(announceDayCompleteRich(3, 12, { reputation: 2, circulations: 3 })).toMatch(
+      /打烊|放下|暖/,
+    );
     expect(announceOrderFulfilled("林晚", 3)).toContain("林晚");
     expect(announceOrderFulfilled("林晚", 3)).toContain("3");
     expect(announceFavorTop("阿初", 8, favorRankTitle(8))).toContain("熟客");
