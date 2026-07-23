@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 163,
+  "current_round": 164,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0164-continue",
-  "last_completed_task_id": "T0163-continue",
-  "last_commit": "941239d8eb4a75eea64729b1261a1b2daecaa506",
+  "current_task_id": "T0165-continue",
+  "last_completed_task_id": "T0164-continue",
+  "last_commit": "b673f4a65fbccd8a92e03ad00ba058509c43e8e2",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 180 passed (60 files)",
   "core_loop_status": "playable_demo_ready",
@@ -25,11 +25,11 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0164-continue",
+    "T0165-continue",
     "M2",
-    "内容/美术扩充",
+    "客人美术",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 941239d8eb4a75eea64729b1261a1b2daecaa506 T0163 委托叙事\n轮次: 163 / 1000 · v0.2.6 · M2\n本会话: T0158–T0163 温存/好感/情绪80/剧本48/打烊/a11y/委托\n测试: 180 passed；双 smoke warmth=19\n下一: T0164\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T23:19:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b673f4a65fbccd8a92e03ad00ba058509c43e8e2 T0164 情绪84/剧本50\n轮次: 164 / 1000 · v0.2.6 · M2\n本会话: T0158–T0164 温存/好感/打烊/委托/内容\n测试: 180 passed；双 smoke warmth=19\n下一: T0165\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T23:20:30Z"
 }
