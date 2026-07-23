@@ -9,6 +9,8 @@ import {
   announceDayComplete,
   announceCirculation,
   announceOrderFulfilled,
+  announceFavorTop,
+  favorRankTitle,
   joinAnnouncements,
   helpDialogA11y,
   viewLabel,
@@ -31,6 +33,7 @@ describe("a11y announce pure helpers", () => {
     expect(announceDayComplete(3, 12)).toMatch(/第 3 日/);
     expect(announceOrderFulfilled("林晚", 3)).toContain("林晚");
     expect(announceOrderFulfilled("林晚", 3)).toContain("3");
+    expect(announceFavorTop("阿初", 8, favorRankTitle(8))).toContain("熟客");
   });
 
   it("joinAnnouncements 过滤空串", () => {

@@ -80,3 +80,9 @@ export function announceOrderFulfilled(
 ): string {
   return `委托完成：${guestName}满意收下，温存加 ${bonusWarmth}`;
 }
+
+/** 好感榜首播报 */
+export function announceFavorTop(name: string, favor: number, rankTitle: string): string {
+  return `好感领先：${name}，${rankTitle}，好感 ${favor}`;
+}
+
