@@ -1,3 +1,4 @@
+import { lastOf } from "./pick";
 import type { CirculationRecord, GameState, Quality, VesselKind } from "./types";
 
 export function countByVessel(history: CirculationRecord[], vessel: VesselKind): number {
@@ -9,8 +10,7 @@ export function countByQuality(history: CirculationRecord[], quality: Quality): 
 }
 
 export function lastCirculation(state: GameState): CirculationRecord | null {
-  if (state.history.length === 0) return null;
-  return state.history[state.history.length - 1] ?? null;
+  return lastOf(state.history) ?? null;
 }
 
 export function totalWarmthFromHistory(history: CirculationRecord[]): number {
