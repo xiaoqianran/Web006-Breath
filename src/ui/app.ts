@@ -63,8 +63,8 @@ export class YixiApp {
   }
 
   private syncAudioEnabled(): void {
-    // 减少动效时关闭程序化音效，避免额外刺激
-    this.audio.setEnabled(!this.settings.reduceMotion);
+    // 减少动效或手动关闭音效时静音
+    this.audio.setEnabled(this.settings.sfxEnabled && !this.settings.reduceMotion);
   }
 
   private bindKeyboard(): void {
@@ -321,6 +321,10 @@ export class YixiApp {
         <label class="setting-row">
           <input type="checkbox" data-key="reduceMotion" ${s.reduceMotion ? "checked" : ""} />
           <span>减少动效</span>
+        </label>
+        <label class="setting-row">
+          <input type="checkbox" data-key="sfxEnabled" ${s.sfxEnabled ? "checked" : ""} />
+          <span>程序化音效</span>
         </label>
         <label class="setting-row">
           <input type="checkbox" data-key="tutorialSeen" ${s.tutorialSeen ? "checked" : ""} />

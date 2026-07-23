@@ -7,12 +7,15 @@ export interface PlayerSettings {
   reduceMotion: boolean;
   /** 是否已看过首次教程 */
   tutorialSeen: boolean;
+  /** 程序化音效开关（与 reduceMotion 叠加） */
+  sfxEnabled: boolean;
 }
 
 export const DEFAULT_SETTINGS: PlayerSettings = {
   showHints: true,
   reduceMotion: false,
   tutorialSeen: false,
+  sfxEnabled: true,
 };
 
 export const SETTINGS_KEY = "yixi.settings.v1";
@@ -29,6 +32,7 @@ export function parseSettings(raw: string): PlayerSettings {
       typeof p.reduceMotion === "boolean" ? p.reduceMotion : DEFAULT_SETTINGS.reduceMotion,
     tutorialSeen:
       typeof p.tutorialSeen === "boolean" ? p.tutorialSeen : DEFAULT_SETTINGS.tutorialSeen,
+    sfxEnabled: typeof p.sfxEnabled === "boolean" ? p.sfxEnabled : DEFAULT_SETTINGS.sfxEnabled,
   };
 }
 

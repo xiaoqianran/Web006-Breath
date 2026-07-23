@@ -35,5 +35,13 @@ describe("player settings", () => {
     const s = parseSettings("{}");
     expect(s.showHints).toBe(true);
     expect(s.reduceMotion).toBe(false);
+    expect(s.sfxEnabled).toBe(true);
+  });
+
+  it("旧存档缺少 sfxEnabled 时默认开启", () => {
+    const s = parseSettings(JSON.stringify({ showHints: false, reduceMotion: true, tutorialSeen: true }));
+    expect(s.sfxEnabled).toBe(true);
+    expect(s.showHints).toBe(false);
   });
 });
+
