@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 42,
+  "current_round": 43,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0043-next",
-  "last_completed_task_id": "T0042-session-stats",
-  "last_commit": "a838afd282cc74a33b0e435a559e3b0c53fb4145",
+  "last_completed_task_id": "T0043-dayend-stats",
+  "last_commit": "9d6c0060b29828e4b0046643dcae0fe18d0a8939",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 70 passed (23 files)",
   "core_loop_status": "playable_demo_ready",
@@ -27,6 +27,6 @@
     "读屏",
     "M2"
   ],
-  "resume_instructions": "当前轮次: 42 / 1000。\n当前目标: 继续 M1 深化。\n已完成步骤:\n  - skeptic 修复: backlog/PROGRESS/ROADMAP/state 对齐\n  - ProceduralAudioBus 程序化音效\n  - 24 情绪、资产存在测试、本局统计 computeSessionStats\n尚未完成: 真实音频文件；1000 轮剩余。\nGit: branch=main；last_commit=a838afd282cc74a33b0e435a559e3b0c53fb4145；git status 应 clean；tip 以 git rev-parse HEAD 为准。\n测试: 以 npm test 为准（期望 70 passed）；npm run check；smoke 双次一致。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git log -8 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T20:53:10Z"
+  "resume_instructions": "当前轮次: 43 / 1000。\n当前目标: M1 深化；下一候选 T0039 真音频或读屏。\n已完成步骤:\n  1. skeptic 修复：state/backlog/PROGRESS/ROADMAP 对齐（T0011–T0036 done，无 in_progress 陈旧项）\n  2. ProceduralAudioBus 程序化音效\n  3. 24 情绪、资产测试、本局统计、打烊摘要\n尚未完成步骤: 真实音频文件；1000 轮剩余。\nGit: branch=main；last_commit=9d6c0060b29828e4b0046643dcae0fe18d0a8939；git status 应 clean；tip 以 git rev-parse HEAD 为准。\n测试状态: 70 passed / 23 files；build OK；smoke 双次一致。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git status && git log -5 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T20:54:04Z"
 }
