@@ -1,5 +1,6 @@
+import { groupByKey } from "./group-by";
 import { averageNumbers } from "./sum";
-import type { GameState, Quality, VesselKind } from "./types";
+import type { CraftedItem, GameState, Quality, VesselKind } from "./types";
 
 export interface SessionStats {
   circulations: number;
@@ -19,9 +20,12 @@ export function computeSessionStats(state: GameState): SessionStats {
   const matchScores: number[] = [];
   let gifts = 0;
   let displays = 0;
+  const items: CraftedItem[] = state.history.map((h) => h.item);
+  const vesselGroups = groupByKey(items, (it) => it.vessel);
+  for (const [k, list] of Object.entries(vesselGroups)) {
+    byVessel[k as VesselKind] = list.length;
+  }
   for (const h of state.history) {
-    const v = h.item.vessel;
-    byVessel[v] = (byVessel[v] ?? 0) + 1;
     const q = h.item.quality;
     byQuality[q] = (byQuality[q] ?? 0) + 1;
     matchScores.push(h.item.matchScore);
