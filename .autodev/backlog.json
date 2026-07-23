@@ -1584,7 +1584,7 @@
       "status": "done",
       "created_round": 123,
       "completed_round": 124,
-      "commit_hash": "PENDING"
+      "commit_hash": "6eee01bc7e649fa951e391fcdfb468f2efd83fdb"
     },
     {
       "id": "T0125-continue",
