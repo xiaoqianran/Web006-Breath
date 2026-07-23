@@ -847,7 +847,8 @@ export class YixiApp {
     card.dataset.testid = "phase-card";
 
     if (s.phase === "awaiting_emotion" || (s.phase === "result" && !s.current)) {
-      card.innerHTML = `<div class="tea-counter-art" role="img" aria-label="茶台插画" data-testid="tea-counter-art"></div><h2>接待处</h2><p class="muted">把门推开一点，听听今天的故事。</p>`;
+      card.innerHTML = `<div class="tea-counter-art" role="img" aria-label="茶台插画" data-testid="tea-counter-art"></div>
+        <div class="tea-tray-art" role="img" aria-label="茶盘" data-testid="tea-tray-art"></div><h2>接待处</h2><p class="muted">把门推开一点，听听今天的故事。</p>`;
       const row = document.createElement("div");
       row.className = "btn-row";
       const canAccept = s.queue.length > 0;

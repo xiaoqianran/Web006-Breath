@@ -8,12 +8,12 @@
 | 版本 | 0.2.6（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0140** / 1000 |
+| 轮次 | **0141** / 1000 |
 | 里程碑 | M0 **done** · M1 **done-ish** · M2 **in_progress** |
 | 测试 | **`npm test` → 160 passed**（47 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 剧本 | **34 日** |
-| 情绪样本 | **62** 条 |
+| 情绪样本 | **64** 条 |
 | 音频 | **8** WAV + Hybrid |
 | 订单 | 主+候补槽可履约；委托提示与统计 |
 | 核心循环 | playable_demo_ready |
