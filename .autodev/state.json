@@ -8,7 +8,7 @@
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0039-next",
   "last_completed_task_id": "T0038-procedural-sfx",
-  "last_commit": "d1f1a8506d5f785c4462be49edf249bf6d437731",
+  "last_commit": "683b2c5c3ae78376b545b2b10c86867820097365",
   "last_verified_build": "npm run check OK; npm test 66 passed post-sync",
   "last_test_summary": "vitest: 66 passed (21 files)",
   "core_loop_status": "playable_demo_ready",
@@ -28,6 +28,6 @@
     "读屏文案审计",
     "M2 随机订单"
   ],
-  "resume_instructions": "当前轮次: 38 / 1000。\n当前目标: 继续 M1；下一候选 T0039-real-audio-files 或内容扩充。\n已完成步骤: (1) 修复 backlog/PROGRESS/ROADMAP/state 矛盾；(2) 程序化音效 ProceduralAudioBus；(3) npm run check 66 passed。\n尚未完成步骤: 真实音频文件；1000 轮剩余；长时性能浏览器实测。\nGit 状态: branch=main, working tree clean（写入时）。last_commit 字段=d1f1a8506d5f785c4462be49edf249bf6d437731。务必用 d1f1a8506d5f785c4462be49edf249bf6d437731 确认 tip（后续 chore 可能推进）。\n最近功能提交: b57fa7f0fb93bb7947090315e5a922b9396b76ae 控制面+程序化音效。\n测试: vitest 66 passed / 21 files；build OK；smoke 双次 SMOKE_OK（证据 check-final-aligned.txt）。\n已知错误: known_failures=[]；无阻塞。\n下一条建议命令: cd /root/wk && git status && git log -5 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T20:49:09Z"
+  "resume_instructions": "【tip】git rev-parse HEAD 写入时 = 683b2c5c3ae78376b545b2b10c86867820097365\n当前轮次: 38 / 1000。\n当前目标: 继续 M1；下一候选 T0039-real-audio-files 或内容扩充。\n已完成步骤: (1) 修复 backlog/PROGRESS/ROADMAP/state 矛盾；(2) 程序化音效 ProceduralAudioBus；(3) npm run check 66 passed。\n尚未完成步骤: 真实音频文件；1000 轮剩余；长时性能浏览器实测。\nGit 状态: branch=main, working tree clean（写入时）。last_commit 字段=d1f1a8506d5f785c4462be49edf249bf6d437731。务必用 d1f1a8506d5f785c4462be49edf249bf6d437731 确认 tip（后续 chore 可能推进）。\n最近功能提交: b57fa7f0fb93bb7947090315e5a922b9396b76ae 控制面+程序化音效。\n测试: vitest 66 passed / 21 files；build OK；smoke 双次 SMOKE_OK（证据 check-final-aligned.txt）。\n已知错误: known_failures=[]；无阻塞。\n下一条建议命令: cd /root/wk && git status && git log -5 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T20:49:28Z"
 }
