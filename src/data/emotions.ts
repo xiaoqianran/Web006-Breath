@@ -1,4 +1,5 @@
 import type { Emotion } from "../core/types";
+import { applyDayEventToQueue } from "../core/events";
 
 /** 演示用样本情绪（至少支撑一日循环） */
 export const SAMPLE_EMOTIONS: Emotion[] = [
@@ -103,7 +104,7 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
 ];
 
 export function freshDayQueue(day: number = 1): Emotion[] {
-  // 简单轮转：按日偏移取样 4 条
+  // 简单轮转：按日偏移取样 4 条，第 2 日起可插入日事件特供客人
   const offset = ((day - 1) * 2) % SAMPLE_EMOTIONS.length;
   const count = 4;
   const result: Emotion[] = [];
@@ -115,5 +116,11 @@ export function freshDayQueue(day: number = 1): Emotion[] {
       id: `${src.id}_d${day}_${i}`,
     });
   }
-  return result;
+  return applyDayEventToQueue(day, result).queue;
+}
+
+export function describeDayOpener(day: number): string {
+  const { event } = applyDayEventToQueue(day, []);
+  if (!event) return `第 ${day} 日。店门开了一道细缝。`;
+  return `第 ${day} 日 · ${event.title}：${event.description}`;
 }

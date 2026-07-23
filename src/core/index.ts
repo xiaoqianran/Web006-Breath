@@ -4,3 +4,5 @@ export * from "./game";
 export * from "./save";
 export * from "./hints";
 export * from "./settings";
+export * from "./unlocks";
+export * from "./events";

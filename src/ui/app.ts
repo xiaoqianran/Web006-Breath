@@ -12,6 +12,9 @@ import {
   formatHintLine,
   loadSettings,
   updateSettings,
+  listEarnedUnlocks,
+  listLockedUnlocks,
+  vesselAffinityLines,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -19,7 +22,7 @@ import {
   QUALITY_LABELS,
   DEFAULT_SETTINGS,
 } from "../core";
-import { freshDayQueue } from "../data/emotions";
+import { describeDayOpener, freshDayQueue } from "../data/emotions";
 
 const VESSEL_ICONS: Record<VesselKind, string> = {
   flower: "🌸",
@@ -255,6 +258,8 @@ export class YixiApp {
     el.className = "screen active";
     el.dataset.testid = "codex";
     const list = this.state.history;
+    const earned = listEarnedUnlocks(this.state);
+    const locked = listLockedUnlocks(this.state);
     const items =
       list.length === 0
         ? `<p class="muted">还没有完成的流通。去店里接待一位客人吧。</p>`
@@ -268,9 +273,30 @@ export class YixiApp {
         </article>`,
             )
             .join("");
+    const unlockHtml = `
+      <div class="card" data-testid="unlocks">
+        <h3>店面解锁</h3>
+        ${
+          earned.length === 0
+            ? `<p class="muted">经营中积累口碑与流通，会留下纪念性解锁。</p>`
+            : earned.map((u) => `<p>✓ <strong>${u.title}</strong> — ${u.description}</p>`).join("")
+        }
+        ${
+          locked.length
+            ? `<p class="muted">未解锁：${locked.map((u) => u.title).join("、")}</p>`
+            : ""
+        }
+      </div>
+      <div class="card" data-testid="affinity-codex">
+        <h3>形态图鉴</h3>
+        ${vesselAffinityLines()
+          .map((l) => `<p class="muted">${l.line}</p>`)
+          .join("")}
+      </div>`;
     el.innerHTML = `
       <h2>瞬间图鉴</h2>
       <p class="muted">每一次流通留下的温柔记录（本局 ${list.length} 条）</p>
+      ${unlockHtml}
       <div data-testid="codex-list">${items}</div>
       <div class="btn-row"></div>
     `;
@@ -442,7 +468,9 @@ export class YixiApp {
       row.append(
         this.button("进入下一日", () => {
           const day = s.day + 1;
-          this.setState(startNextDay(s, freshDayQueue(day)));
+          this.setState(
+            startNextDay(s, freshDayQueue(day), describeDayOpener(day)),
+          );
         }),
         this.button("回到主菜单", () => this.go("menu"), "secondary"),
       );

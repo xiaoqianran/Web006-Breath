@@ -156,17 +156,22 @@ export function continueAfterResult(state: GameState): GameState {
 }
 
 /** 开始新的一天（保留温存与历史） */
-export function startNextDay(state: GameState, newQueue: Emotion[]): GameState {
+export function startNextDay(
+  state: GameState,
+  newQueue: Emotion[],
+  openerMessage?: string,
+): GameState {
+  const day = state.day + 1;
   return {
     ...state,
     phase: "awaiting_emotion",
-    day: state.day + 1,
+    day,
     queue: [...newQueue],
     current: null,
     crafted: null,
     lastResult: null,
     circulationsToday: 0,
-    message: `第 ${state.day + 1} 日。新的情绪正缓缓到来。`,
+    message: openerMessage ?? `第 ${day} 日。新的情绪正缓缓到来。`,
   };
 }
 
