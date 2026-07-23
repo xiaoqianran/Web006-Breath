@@ -8,8 +8,8 @@
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0039-next",
   "last_completed_task_id": "T0038-procedural-sfx",
-  "last_commit": "b57fa7f0fb93bb7947090315e5a922b9396b76ae",
-  "last_verified_build": "npm run check OK (tsc+vite build)",
+  "last_commit": "dd5c53f51362628a13ba71b2783c5915bb3688a6",
+  "last_verified_build": "npm run check OK; npm test 66 passed post-sync",
   "last_test_summary": "vitest: 66 passed (21 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
@@ -28,6 +28,6 @@
     "读屏文案审计",
     "M2 随机订单"
   ],
-  "resume_instructions": "当前轮次: 38 / 1000（刚完成 T0037 控制面对齐 + T0038 程序化音效）。\n当前目标: 继续 M1 — 下一候选真音频文件或内容/读屏。\n已完成步骤: 对齐 backlog/PROGRESS/ROADMAP；ProceduralAudioBus+tones+beep；npm run check 66 passed。\n尚未完成: 真实 BGM 文件、浏览器长时性能、1000 轮剩余内容。\nGit: branch=main, working tree 在本说明写入前 clean；last_commit=b57fa7f0fb93bb7947090315e5a922b9396b76ae (b57fa7f)。\n最近提交: b57fa7f docs(autodev): 对齐控制面并加入程序化 UI 音效\n测试状态: npm test → 66 passed (21 files)；npm run build OK；npm run smoke SMOKE_OK 两次一致。\n已知错误: 无阻塞失败；无真实音频资源文件。\n下一条建议命令: cd /root/wk && git status && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files 或 更多情绪内容 / 读屏审计\n",
-  "updated_at": "2026-07-23T20:48:23Z"
+  "resume_instructions": "当前轮次: 38 / 1000。\n当前目标: M1 深化；下一候选 T0039 真音频或内容/读屏。\n已完成步骤:\n  1) 对齐 backlog/PROGRESS/ROADMAP 与 15 日剧本、62→66 tests\n  2) ProceduralAudioBus + tones + Web Audio beep（减少动效时关闭）\n  3) npm run check 通过\n尚未完成步骤: 真实 BGM/SFX 文件；长时浏览器性能；1000 轮剩余。\nGit 状态: branch=main；提交时 working tree clean。\n最近提交:\n  - HEAD dd5c53f chore(autodev): 写入完整 resume 与 T0037/T0038 完成哈希\n  - b57fa7f docs(autodev): 对齐控制面并加入程序化 UI 音效\n完整 last_commit 哈希: dd5c53f51362628a13ba71b2783c5915bb3688a6\n功能实现哈希: b57fa7f0fb93bb7947090315e5a922b9396b76ae\n测试状态: vitest 66 passed / 21 files；build OK；smoke 两次 SMOKE_OK。\n已知错误: 无阻塞性失败；known_failures=[]。\n下一条建议命令: cd /root/wk && git status && git log -3 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files（或更多情绪内容）\n",
+  "updated_at": "2026-07-23T20:48:45Z"
 }

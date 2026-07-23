@@ -8,11 +8,11 @@
 | 版本 | 0.2.1（package.json） |
 | 分支 | `main` |
 | 工作区 | clean（以提交当时为准） |
-| 最近 HEAD | 以 `git rev-parse HEAD` 为准；对齐控制面时见 state `last_commit` |
+| 最近 HEAD | `dd5c53f51362628a13ba71b2783c5915bb3688a6` |
 | 累计提交数 | 约 44+（`git rev-list --count HEAD`） |
-| 轮次 | **0037**（控制面同步轮）/ 1000 |
+| 轮次 | **0038** / 1000 |
 | 里程碑 | M0 完成 · **M1 进行中** |
-| 测试 | **`npm test` → 62 passed**（20 files） |
+| 测试 | **`npm test` → 66 passed**（21 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 性能 | `npm run perf` 有真实 ms 输出（见 docs/PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
@@ -41,7 +41,7 @@
 | 0011–0014 | 解锁事件/键盘/SVG/质量门 | `e50423f` `8df55c9` |
 | 0015–0021 | 货架连心音频schema封面 | 见 git log |
 | 0026–0036 | 再访/性能/温情价/店事/好感/15日/半月解锁 | 至 `361df3b`/`efd480b` |
-| 0037 | **控制面对齐（本轮）** | 本提交 |
+| 0037–0038 | 控制面对齐 + 程序化音效 | `b57fa7f` `dd5c53f` |
 
 ## 已知问题
 
