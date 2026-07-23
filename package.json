@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "smoke": "vite-node scripts/run-core-smoke.ts",
-    "check": "npm test && npm run build && npm run smoke"
+    "check": "npm test && npm run build && npm run smoke",
+    "perf": "vite-node scripts/perf-baseline.ts"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",
