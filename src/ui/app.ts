@@ -540,6 +540,7 @@ export class YixiApp {
     const pct = (v: number) => `${Math.round(v * 100)}%`;
     el.innerHTML = `
       <div class="card">
+        <div class="half-window-art" role="img" aria-label="半开的窗" data-testid="half-window-art"></div>
         <h2>设置</h2>
         <label class="setting-row">
           <input type="checkbox" data-key="showHints" ${s.showHints ? "checked" : ""} />

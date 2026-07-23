@@ -711,3 +711,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.15), rgba(247, 243, 236, 0.55)),
     url("/assets/bg/puddle_glow.jpg") center/cover no-repeat;
 }
+
+.half-window-art {
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
+    url("/assets/bg/half_window.jpg") center/cover no-repeat;
+}

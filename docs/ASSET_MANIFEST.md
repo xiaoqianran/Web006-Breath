@@ -72,3 +72,5 @@
 | ART-025 | `public/assets/bg/revisit_door.jpg` | 再访门廊 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-026 | `public/assets/bg/puddle_glow.jpg` | 雨洼反光 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-027 | `public/assets/bg/half_window.jpg` | 半开的窗 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
