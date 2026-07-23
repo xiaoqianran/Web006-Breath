@@ -130,6 +130,48 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["遗憾", "想念"],
     intensity: 4,
   },
+  {
+    id: "e19",
+    guestName: "安",
+    text: "把钥匙放回原处，门却自己轻轻合上了。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e20",
+    guestName: "匿名",
+    text: "会议室的空调太冷，手心里却在出汗。",
+    tags: ["疲惫", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e21",
+    guestName: "程",
+    text: "她说下次见，把下次说得很轻。",
+    tags: ["期待", "遗憾"],
+    intensity: 4,
+  },
+  {
+    id: "e22",
+    guestName: "白",
+    text: "夜班结束，豆浆店的灯比月亮近。",
+    tags: ["孤独", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e23",
+    guestName: "禾",
+    text: "把旧照片扫进硬盘，文件名却不敢改。",
+    tags: ["想念", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e24",
+    guestName: "匿名",
+    text: "公交到站铃响了三次，我才发现到了。",
+    tags: ["悸动", "疲惫"],
+    intensity: 2,
+  },
 ];
 
 export function freshDayQueue(day: number = 1): Emotion[] {
