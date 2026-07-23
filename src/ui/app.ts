@@ -27,6 +27,8 @@ import {
   rollShopEvent,
   applyShopEvent,
   topFavoredGuests,
+  formatFavorLine,
+  formatFavorBoardSummary,
   computeSessionStats,
   formatStatsSummary,
   formatOrderDayEndLine,
@@ -636,16 +638,18 @@ export class YixiApp {
           .join("")}
       </div>
       <div class="card" data-testid="favor-board">
+        <div class="favor-board-art" role="img" aria-label="好感留言板" data-testid="favor-board-art"></div>
         <h3>客人好感</h3>
         ${
           topFavoredGuests(this.state, 5).length === 0
-            ? `<p class="muted">完成流通后，常客的好感会慢慢累积。</p>`
+            ? `<p class="muted" data-testid="favor-empty">${formatFavorBoardSummary([])}</p>`
             : topFavoredGuests(this.state, 5)
-                .map((g) => `<p><strong>${g.name}</strong> · 好感 ${g.favor}</p>`)
+                .map((g) => `<p data-testid="favor-line">${formatFavorLine(g)}</p>`)
                 .join("")
         }
       </div>
       <div class="card" data-testid="session-stats">
+        <div class="tip-jar-art" role="img" aria-label="温情小罐" data-testid="tip-jar-art"></div>
         <h3>本局统计</h3>
         <p data-testid="stats-summary">${formatStatsSummary(computeSessionStats(this.state))}</p>
         <p class="muted" data-testid="best-quality">历史最高品质：${(() => { const q = bestQualityInHistory(this.state.history); return q ? QUALITY_LABELS[q] : "尚无"; })()}</p>

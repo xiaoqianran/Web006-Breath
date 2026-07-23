@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T22:25:12Z",
+  "updated_at": "2026-07-23T22:31:42Z",
   "tasks": [
     {
       "id": "T0001",
@@ -1462,7 +1462,7 @@
     },
     {
       "id": "T0119-continue",
-      "title": "M2 持续推进",
+      "title": "好感档位文案与留言板美术",
       "category": "chore",
       "milestone": "M2-systems",
       "description": "resume",
@@ -1476,8 +1476,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 118,
+      "completed_round": 119,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0120-day-scripts-24",
+      "title": "日剧本扩充至 24 日",
+      "category": "content",
+      "milestone": "M2-systems",
+      "description": "DAY_SCRIPTS>=24",
+      "priority": 58,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0119-continue"
+      ],
+      "acceptance_criteria": [
+        ">=24"
+      ],
+      "test_plan": "day-scripts",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 119,
       "completed_round": null,
       "commit_hash": null
     }

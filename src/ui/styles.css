@@ -660,3 +660,23 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/promo/guest_silhouette.jpg") center/cover no-repeat;
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
+
+.favor-board-art {
+  height: 88px;
+  border-radius: 10px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
+    url("/assets/ui/favor_board.jpg") center/cover no-repeat;
+}
+
+.tip-jar-art {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  margin: 0 auto 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/tip_jar.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}

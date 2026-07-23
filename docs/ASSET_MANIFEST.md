@@ -64,3 +64,5 @@
 | ART-020 | `public/assets/decor/twin_lanterns.jpg` | 双灯巷口 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-021 | `public/assets/promo/guest_silhouette.jpg` | 客人剪影 | Imagine | 3:4 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-022 | `public/assets/ui/favor_board.jpg` | 好感留言板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-023 | `public/assets/ui/tip_jar.jpg` | 温情小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

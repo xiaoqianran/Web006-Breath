@@ -6,6 +6,9 @@ import {
   rebuildFavorMap,
   topFavoredGuests,
   favorDeltaForRecord,
+  favorRankTitle,
+  formatFavorLine,
+  formatFavorBoardSummary,
   type Emotion,
 } from "../src/core";
 
@@ -73,5 +76,16 @@ describe("favor", () => {
     expect(map["阿初"]).toBeGreaterThan(0);
     const top = topFavoredGuests(state, 2);
     expect(top[0]!.name).toBe("阿初");
+  });
+
+  it("好感档位与板文案", () => {
+    expect(favorRankTitle(0)).toBe("未识");
+    expect(favorRankTitle(1)).toBe("初见");
+    expect(favorRankTitle(3)).toBe("面熟");
+    expect(favorRankTitle(7)).toBe("熟客");
+    expect(favorRankTitle(12)).toBe("知心故人");
+    expect(formatFavorLine({ name: "阿初", favor: 8 })).toContain("熟客");
+    expect(formatFavorBoardSummary([])).toContain("慢慢累积");
+    expect(formatFavorBoardSummary([{ name: "阿初", favor: 4 }])).toContain("阿初");
   });
 });

@@ -30,3 +30,26 @@ export function topFavoredGuests(state: GameState, limit = 3): { name: string; f
     .sort((a, b) => b.favor - a.favor)
     .slice(0, limit);
 }
+
+/** 好感档位称号（纯函数，可单测） */
+export function favorRankTitle(favor: number): string {
+  if (favor >= 12) return "知心故人";
+  if (favor >= 7) return "熟客";
+  if (favor >= 3) return "面熟";
+  if (favor > 0) return "初见";
+  return "未识";
+}
+
+export function formatFavorLine(entry: { name: string; favor: number }): string {
+  return `${entry.name} · ${favorRankTitle(entry.favor)} · 好感 ${entry.favor}`;
+}
+
+/** 好感板空态 / 有客摘要 */
+export function formatFavorBoardSummary(
+  entries: readonly { name: string; favor: number }[],
+): string {
+  if (entries.length === 0) {
+    return "完成流通后，常客的好感会慢慢累积。";
+  }
+  return entries.map((e) => formatFavorLine(e)).join("；");
+}

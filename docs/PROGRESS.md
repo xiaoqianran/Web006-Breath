@@ -8,7 +8,7 @@
 | 版本 | 0.2.6（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0118** / 1000 |
+| 轮次 | **0119** / 1000 |
 | 里程碑 | M0 **done** · M1 **done-ish** · M2 **in_progress** |
 | 测试 | **`npm test` → 142 passed**（47 files） |
 | 验收 | `npm run check` = test + build + smoke |
@@ -37,7 +37,8 @@
 
 ## 下一优先
 
-1. T0114 日剧本 22+ / 订单日终结算
+1. **T0120** 日剧本 24
+2. 好感驱动再访深化
 2. 客人剪影批次
 3. ROADMAP M2 0111–0200 系统
 
