@@ -969,6 +969,25 @@
       "created_round": 61,
       "completed_round": 61,
       "commit_hash": "00bfacccb871f56c7222557c7023a913131b91ea"
+    },
+    {
+      "id": "T0062-pick",
+      "title": "数组选取工具",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "pickAt",
+      "priority": 46,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "单测"
+      ],
+      "test_plan": "tests/pick.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 62,
+      "completed_round": 62,
+      "commit_hash": "dc1c4f1f828995de2f4ac88b219cfbf7195abcf8"
     }
   ]
 }
