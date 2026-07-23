@@ -8,9 +8,9 @@
 | 版本 | 0.2.4（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0098** / 1000 |
+| 轮次 | **0099** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** |
-| 测试 | **`npm test` → 121 passed**（44 files） |
+| 测试 | **`npm test` → 122 passed**（44 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 性能 | `npm run perf`（真实 ms，见 PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
@@ -51,8 +51,8 @@
 
 ## 下一优先
 
-1. **T0099** 设置页音量滑条  
-2. M2 随机订单等系统  
+1. **T0100** M2 随机订单骨架  
+2. 更长 BGM / ambience  
 3. 更长 BGM / ambience  
 4. 持续 1000 轮内容与打磨  
 

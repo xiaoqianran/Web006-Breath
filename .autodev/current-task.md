@@ -1,4 +1,4 @@
-# 完成 T0098-a11y-live-region
-- aria-live + 帮助焦点陷阱 + a11y-announce 纯函数
-- 下一: T0099-volume-sliders
-- 验收: 121 tests
+# 完成 T0099-volume-sliders
+- volumeMaster/Sfx/Bgm + 设置滑条
+- 下一: T0100-m2-order-stub
+- 122 tests

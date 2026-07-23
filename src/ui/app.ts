@@ -105,6 +105,9 @@ export class YixiApp {
   private syncAudioEnabled(): void {
     // 减少动效或手动关闭音效时静音
     this.audio.setEnabled(this.settings.sfxEnabled && !this.settings.reduceMotion);
+    this.audio.setVolume("master", this.settings.volumeMaster);
+    this.audio.setVolume("sfx", this.settings.volumeSfx);
+    this.audio.setVolume("bgm", this.settings.volumeBgm);
   }
 
   private syncBgmForView(view: View): void {
@@ -180,7 +183,10 @@ export class YixiApp {
     return store ? loadSettings(store) : { ...DEFAULT_SETTINGS };
   }
 
-  private patchSettings(patch: Partial<PlayerSettings>): void {
+  /**
+   * @param reRender 默认 true；拖动音量滑条时 false，避免打断拖动
+   */
+  private patchSettings(patch: Partial<PlayerSettings>, reRender = true): void {
     const store = this.storage();
     if (store) {
       this.settings = updateSettings(store, patch);
@@ -189,7 +195,16 @@ export class YixiApp {
     }
     this.applyDocumentSettings();
     this.syncAudioEnabled();
-    this.render();
+    // 音量变更后刷新当前 BGM 音量
+    if (
+      "volumeMaster" in patch ||
+      "volumeBgm" in patch ||
+      "sfxEnabled" in patch ||
+      "reduceMotion" in patch
+    ) {
+      this.syncBgmForView(this.view);
+    }
+    if (reRender) this.render();
   }
 
   private applyDocumentSettings(): void {
@@ -487,6 +502,7 @@ export class YixiApp {
     el.className = "screen active";
     el.dataset.testid = "settings";
     const s = this.settings;
+    const pct = (v: number) => `${Math.round(v * 100)}%`;
     el.innerHTML = `
       <div class="card">
         <h2>设置</h2>
@@ -500,7 +516,22 @@ export class YixiApp {
         </label>
         <label class="setting-row">
           <input type="checkbox" data-key="sfxEnabled" ${s.sfxEnabled ? "checked" : ""} />
-          <span>程序化音效</span>
+          <span>开启音效与 BGM</span>
+        </label>
+        <label class="setting-row volume-row">
+          <span>主音量 <em data-vol-label="volumeMaster">${pct(s.volumeMaster)}</em></span>
+          <input type="range" min="0" max="100" step="1" data-vol="volumeMaster"
+            value="${Math.round(s.volumeMaster * 100)}" aria-label="主音量" />
+        </label>
+        <label class="setting-row volume-row">
+          <span>音效 <em data-vol-label="volumeSfx">${pct(s.volumeSfx)}</em></span>
+          <input type="range" min="0" max="100" step="1" data-vol="volumeSfx"
+            value="${Math.round(s.volumeSfx * 100)}" aria-label="音效音量" />
+        </label>
+        <label class="setting-row volume-row">
+          <span>背景音乐 <em data-vol-label="volumeBgm">${pct(s.volumeBgm)}</em></span>
+          <input type="range" min="0" max="100" step="1" data-vol="volumeBgm"
+            value="${Math.round(s.volumeBgm * 100)}" aria-label="背景音乐音量" />
         </label>
         <label class="setting-row">
           <input type="checkbox" data-key="tutorialSeen" ${s.tutorialSeen ? "checked" : ""} />
@@ -514,6 +545,17 @@ export class YixiApp {
         const key = input.dataset.key as keyof PlayerSettings;
         this.patchSettings({ [key]: input.checked });
       });
+    });
+    el.querySelectorAll<HTMLInputElement>("input[type=range][data-vol]").forEach((input) => {
+      const apply = () => {
+        const key = input.dataset.vol as "volumeMaster" | "volumeSfx" | "volumeBgm";
+        const v = Number(input.value) / 100;
+        const label = el.querySelector(`[data-vol-label="${key}"]`);
+        if (label) label.textContent = pct(v);
+        this.patchSettings({ [key]: v }, false);
+      };
+      input.addEventListener("input", apply);
+      input.addEventListener("change", apply);
     });
     el.querySelector(".btn-row")!.append(
       this.button("返回", () => this.go("menu"), "secondary"),

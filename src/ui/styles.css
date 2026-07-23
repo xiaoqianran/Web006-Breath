@@ -13,6 +13,23 @@
   left: 0.5rem;
 }
 
+.setting-row.volume-row {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.35rem;
+}
+
+.setting-row.volume-row input[type="range"] {
+  width: 100%;
+  accent-color: var(--sage, #a8c3b0);
+}
+
+.setting-row.volume-row em {
+  font-style: normal;
+  color: var(--muted, #6b7c72);
+  margin-left: 0.35rem;
+}
+
 /** 读屏专用，视觉隐藏但可被 AT 读取 */
 .sr-only {
   position: absolute;

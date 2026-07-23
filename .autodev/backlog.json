@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T21:58:25Z",
+  "updated_at": "2026-07-23T21:59:57Z",
   "tasks": [
     {
       "id": "T0001",
@@ -1068,8 +1068,30 @@
       ],
       "test_plan": "settings + audio bus 单测",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 98,
+      "completed_round": 99,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0100-m2-order-stub",
+      "title": "M2 随机订单系统骨架",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "纯核心 Order 类型、抽取与完成检测，不改循环破坏",
+      "priority": 60,
+      "estimated_rounds": 2,
+      "dependencies": [
+        "T0099-volume-sliders"
+      ],
+      "acceptance_criteria": [
+        "Order 类型与 roll 可测",
+        "完成条件纯函数"
+      ],
+      "test_plan": "orders.test.ts",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 99,
       "completed_round": null,
       "commit_hash": null
     }
