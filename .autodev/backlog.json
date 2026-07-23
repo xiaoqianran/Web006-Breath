@@ -593,6 +593,26 @@
       "created_round": 39,
       "completed_round": 39,
       "commit_hash": "cd4b554d4e0c4daa29b6d19b706a91d5467cac5c"
+    },
+    {
+      "id": "T0042-session-stats",
+      "title": "本局流通统计",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "computeSessionStats + 图鉴摘要",
+      "priority": 62,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "统计可测",
+        "图鉴展示"
+      ],
+      "test_plan": "tests/stats.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 42,
+      "completed_round": 42,
+      "commit_hash": "a838afd282cc74a33b0e435a559e3b0c53fb4145"
     }
   ]
 }

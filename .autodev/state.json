@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 41,
+  "current_round": 42,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0042-next",
-  "last_completed_task_id": "T0041-assets-test-fix",
-  "last_commit": "4bea6d36a48677b55fb0e1e0c386c03d28336188",
+  "current_task_id": "T0043-next",
+  "last_completed_task_id": "T0042-session-stats",
+  "last_commit": "a838afd282cc74a33b0e435a559e3b0c53fb4145",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 68 passed (22 files)",
+  "last_test_summary": "vitest: 70 passed (23 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -20,13 +20,13 @@
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离",
     "D-004 ProceduralAudioBus",
-    "D-005 十五日剧本 + 24 情绪"
+    "D-005 十五日+24情绪+本局统计"
   ],
   "next_candidate_tasks": [
     "T0039-real-audio-files",
-    "读屏审计",
+    "读屏",
     "M2"
   ],
-  "resume_instructions": "当前轮次: 41 / 1000。\n当前目标: 继续 M1；下一候选 T0039 真音频或读屏。\n已完成步骤:\n  1) 对齐 state/backlog/PROGRESS/ROADMAP（解决 skeptic 矛盾）\n  2) 程序化音效 ProceduralAudioBus（b57fa7f）\n  3) 情绪 24 条；资产存在性测试；@types/node 修复 check\n尚未完成: 真实 BGM 文件；1000 轮剩余。\nGit: branch=main；last_commit=4bea6d36a48677b55fb0e1e0c386c03d28336188；git status 应 clean；若有新 commit 以 git rev-parse HEAD 为准。\n测试状态: npm test → 68 passed / 22 files；npm run build OK；npm run smoke 双次 SMOKE_OK。\n已知错误: known_failures=[]（已修复 assets 测试导致 tsc 失败）。\n下一条建议命令: cd /root/wk && git log -8 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T20:51:49Z"
+  "resume_instructions": "当前轮次: 42 / 1000。\n当前目标: 继续 M1 深化。\n已完成步骤:\n  - skeptic 修复: backlog/PROGRESS/ROADMAP/state 对齐\n  - ProceduralAudioBus 程序化音效\n  - 24 情绪、资产存在测试、本局统计 computeSessionStats\n尚未完成: 真实音频文件；1000 轮剩余。\nGit: branch=main；last_commit=a838afd282cc74a33b0e435a559e3b0c53fb4145；git status 应 clean；tip 以 git rev-parse HEAD 为准。\n测试: 以 npm test 为准（期望 70 passed）；npm run check；smoke 双次一致。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git log -8 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T20:53:10Z"
 }
