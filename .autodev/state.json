@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 120,
+  "current_round": 121,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0121-revisit-favor-hint",
-  "last_completed_task_id": "T0120-day-scripts-24",
-  "last_commit": "b49ed2c07ab785e667d1081507d26b253253cff4",
+  "current_task_id": "T0122-continue",
+  "last_completed_task_id": "T0121-revisit-favor-hint",
+  "last_commit": "0546e11b49bae9edd2f717fe82e42a98663afca7",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 143 passed (48 files)",
+  "last_test_summary": "vitest: 144 passed (48 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0121-revisit-favor-hint",
-    "持续生图",
-    "M2"
+    "T0122-continue",
+    "情绪54+",
+    "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b49ed2c07ab785e667d1081507d26b253253cff4 T0120 剧本24+晨露\n轮次: 120 / 1000 · v0.2.6 · M2\n本会话: T0119 好感档位 · T0120 剧本24\n下一: T0121 再访好感提示\n测试: 143 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:32:24Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0546e11b49bae9edd2f717fe82e42a98663afca7 T0121 再访资格+门廊\n轮次: 121 / 1000 · v0.2.6 · M2\n本会话: T0119 好感档位 · T0120 剧本24 · T0121 再访提示\n测试: 144 passed；双 smoke warmth=19\n下一: T0122\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:33:33Z"
 }
