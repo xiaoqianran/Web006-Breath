@@ -14,7 +14,7 @@
 | 验收 | `npm run check` = test + build + smoke |
 | 性能 | `npm run perf`（真实 ms，见 PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
-| 情绪样本 | **26** 条 `SAMPLE_EMOTIONS` |
+| 情绪样本 | **28** 条 `SAMPLE_EMOTIONS` |
 | 核心循环 | playable_demo_ready |
 
 ## 已交付系统
