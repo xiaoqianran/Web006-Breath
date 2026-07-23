@@ -47,3 +47,5 @@
 | ART-010 | `public/assets/ui/tea_counter.jpg` | 接待茶台 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
 | ART-011 | `public/assets/decor/season_spring.jpg` | 春日店饰横幅 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
 
+
+| ART-012 | `public/assets/bg/night_window.jpg` | 夜窗店内氛围 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |

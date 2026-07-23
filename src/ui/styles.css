@@ -121,6 +121,13 @@ body {
   pointer-events: none;
 }
 
+/* 第 12 日起店内偏夜窗氛围 */
+#app.shop-theme.evening-theme::before {
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.78), rgba(232, 228, 240, 0.9)),
+    url("/assets/bg/night_window.jpg") center / cover no-repeat;
+}
+
 .screen {
   display: none;
   animation: fadeIn 0.35s ease;
@@ -547,4 +554,13 @@ html[data-reduce-motion="true"] .toast {
   background:
     linear-gradient(90deg, rgba(247, 243, 236, 0.2), rgba(247, 243, 236, 0.55)),
     url("/assets/decor/season_spring.jpg") center/cover no-repeat;
+}
+
+.night-window-art {
+  height: 100px;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.5)),
+    url("/assets/bg/night_window.jpg") center/cover no-repeat;
 }

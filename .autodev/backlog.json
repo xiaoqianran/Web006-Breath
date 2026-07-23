@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T22:13:00Z",
+  "updated_at": "2026-07-23T22:14:10Z",
   "tasks": [
     {
       "id": "T0001",
@@ -1154,8 +1154,29 @@
       ],
       "test_plan": "day-scripts.test.ts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 102,
+      "completed_round": 103,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0104-order-reward-toast",
+      "title": "委托完成读屏与 toast 强化",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "tryFulfill 时 queueAnnounce",
+      "priority": 55,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0103-day-scripts-18"
+      ],
+      "acceptance_criteria": [
+        "完成委托有播报"
+      ],
+      "test_plan": "结构/announce",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 103,
       "completed_round": null,
       "commit_hash": null
     }
