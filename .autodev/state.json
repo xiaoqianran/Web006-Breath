@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 127,
+  "current_round": 128,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0128-day-scripts-28",
-  "last_completed_task_id": "T0127-emotions-56",
-  "last_commit": "6794034530d9cf8cac138b116018066750ec9235",
+  "current_task_id": "T0129-unlock-month",
+  "last_completed_task_id": "T0128-day-scripts-28",
+  "last_commit": "3b87db2570604d6fc69d68eaca37c55695dfb9da",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 148 passed (49 files)",
+  "last_test_summary": "vitest: 149 passed (49 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0128-day-scripts-28",
+    "T0129-unlock-month",
     "持续生图",
     "M2"
   ],
-  "resume_instructions": "功能 6794034530d9cf8cac138b116018066750ec9235 T0127 情绪56+故事书。轮次127/1000。下一 T0128。148 tests。npm run check && npm run dev",
-  "updated_at": "2026-07-23T22:39:43Z"
+  "resume_instructions": "功能 3b87db2570604d6fc69d68eaca37c55695dfb9da T0128 剧本28+晚市。轮次128/1000。下一 T0129 满月解锁。149 tests。npm run check && npm run dev",
+  "updated_at": "2026-07-23T22:40:39Z"
 }
