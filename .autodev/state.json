@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 104,
+  "current_round": 105,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0105-guest-name-pool",
-  "last_completed_task_id": "T0104-order-reward-toast",
-  "last_commit": "2becce2d0181e3f0b72f886033c56154d3f74bb4",
+  "current_task_id": "T0106-emotion-tags-assert",
+  "last_completed_task_id": "T0105-guest-name-pool",
+  "last_commit": "88752bd6b53dec6e49cb2c1686ff6b6b96c0df54",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 129 passed (45 files)",
+  "last_test_summary": "vitest: 131 passed (46 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0102-emotions-40",
+    "T0106-emotion-tags-assert",
     "内容管线",
     "持续生图"
   ],
-  "resume_instructions": "功能 2becce2d0181e3f0b72f886033c56154d3f74bb4 T0104。轮次 104/1000 v0.2.5。下一 T0105。129 tests。git rev-parse HEAD。",
-  "updated_at": "2026-07-23T22:15:17Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD（chore 可能后置）\n功能提交: 88752bd6b53dec6e49cb2c1686ff6b6b96c0df54 T0105 姓名池+门铃\n轮次: 105 / 1000 · v0.2.5 · M2\n已完成本会话: T0100–T0105 订单/美术/情绪42/剧本18/播报/姓名池\n下一: T0106 情绪标签断言\n测试: 131 passed；双 smoke warmth=19\n美术新增: order_board,keeper,vessels_display,day_complete,codex_empty,tea_counter,season_spring,night_window,corner_flourish,doorbell\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:16:23Z"
 }
