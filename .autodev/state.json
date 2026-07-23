@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 26,
+  "current_round": 27,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0026-ready",
-  "last_completed_task_id": "T0026-revisit",
-  "last_commit": "2ed9a663018b776267757ab4cd868056c6143dba",
+  "current_task_id": "T0027-next",
+  "last_completed_task_id": "T0027-perf",
+  "last_commit": "2cf1522fab9f9a190aab1753c6a1a619733967c2",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 51 passed",
   "core_loop_status": "playable_demo_ready",
@@ -16,21 +16,20 @@
   "blocked_items": [],
   "known_failures": [],
   "important_decisions": [
-    "D-001 Vite+TS+DOM",
-    "D-002 情绪流通经营",
-    "D-003 逻辑 UI 分离",
-    "D-004 SilentAudioBus 占位真音频",
-    "D-005 五日剧本驱动日目标",
-    "D-006 货架容量 5",
-    "D-007 偶数日再访"
+    "D-001",
+    "D-002",
+    "D-003",
+    "D-004",
+    "D-005",
+    "D-006",
+    "D-007"
   ],
   "next_candidate_tasks": [
     "真音频",
-    "性能基线实测",
     "好感持久化",
     "M2 定价",
-    "继续内容生产"
+    "更多剧本"
   ],
-  "resume_instructions": "cd /root/wk && git log -8 --oneline && git status && npm install && npm run check && npm run dev。版本 0.2.0，51 tests。完整可玩：接待→转化→上架/赠予→货架→连心→五日剧本→再访→存档图鉴设置。约 26/1000 轮。毕业设计可演示。下一：真音频或性能报告或 M2。勿 push。",
-  "updated_at": "2026-07-23T20:34:30.000Z"
+  "resume_instructions": "cd /root/wk; git log -5; npm run check; npm run perf; npm run dev。v0.2.0 可演示。51 tests。HEAD=2cf1522fab9f9a190aab1753c6a1a619733967c2。约 27/1000 轮。勿 push。",
+  "updated_at": "2026-07-23T20:35:10.000Z"
 }
