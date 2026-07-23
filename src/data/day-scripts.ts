@@ -94,6 +94,46 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 5,
     goalWarmth: 20,
   },
+  {
+    day: 11,
+    title: "新芽",
+    opener: "第十一日。窗台缝里冒出一点绿。",
+    sampleIndexes: [1, 9, 15, 17],
+    goalCirculations: 5,
+    goalWarmth: 20,
+  },
+  {
+    day: 12,
+    title: "旧歌",
+    opener: "第十二日。不知谁哼了一句很久以前的歌。",
+    sampleIndexes: [3, 6, 12, 14],
+    goalCirculations: 5,
+    goalWarmth: 22,
+  },
+  {
+    day: 13,
+    title: "纸船",
+    opener: "第十三日。有人把愿望折成纸船放在柜台。",
+    sampleIndexes: [2, 5, 10, 16],
+    goalCirculations: 5,
+    goalWarmth: 22,
+  },
+  {
+    day: 14,
+    title: "双周",
+    opener: "第十四日。两周的铃铛声叠在一起。",
+    sampleIndexes: [0, 4, 8, 13],
+    goalCirculations: 5,
+    goalWarmth: 24,
+  },
+  {
+    day: 15,
+    title: "十五的月亮",
+    opener: "第十五日。月亮不必圆满，店灯也够用。",
+    sampleIndexes: [7, 11, 14, 17],
+    goalCirculations: 5,
+    goalWarmth: 24,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {
