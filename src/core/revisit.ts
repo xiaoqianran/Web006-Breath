@@ -1,4 +1,5 @@
 import type { CirculationRecord, Emotion, GameState } from "./types";
+import { rebuildFavorMap } from "./favor";
 
 /**
  * 根据历史流通生成「再访」客人：被赠予过的情绪可能以新文案回来道谢。
@@ -15,7 +16,6 @@ export function buildRevisitGuest(record: CirculationRecord): Emotion {
 }
 
 function extractGuestName(momentCard: string): string | null {
-  // momentCard 以「{name}的心情」开头
   const m = momentCard.match(/^(.+?)的心情/);
   return m?.[1] ?? null;
 }
@@ -26,13 +26,25 @@ function inferTagsFromLabel(label: string): Emotion["tags"] {
   return ["安心", "释然"];
 }
 
-/** 若历史中有赠予且当日为偶数日，插入一位再访 */
+/**
+ * 再访条件：
+ * - 偶数日；或
+ * - 任意日但最高好感 ≥ 5
+ * 且存在赠予历史。
+ */
 export function maybeAppendRevisit(state: GameState, queue: Emotion[]): Emotion[] {
-  if (state.day % 2 !== 0) return queue;
   const gifted = [...state.history].reverse().find((h) => h.action === "gift");
   if (!gifted) return queue;
+  const favors = rebuildFavorMap(state.history);
+  const values = Object.values(favors);
+  const topFavor = values.length ? Math.max(...values) : 0;
+  const allow = state.day % 2 === 0 || topFavor >= 5;
+  if (!allow) return queue;
   const guest = buildRevisitGuest(gifted);
-  // 避免同 id 重复
+  const topName = Object.entries(favors).sort((a, b) => b[1] - a[1])[0]?.[0];
+  if (topName && topFavor >= 5) {
+    guest.guestName = topName;
+  }
   if (queue.some((e) => e.id === guest.id)) return queue;
   return [...queue, guest];
 }

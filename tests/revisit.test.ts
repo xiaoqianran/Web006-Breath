@@ -4,6 +4,7 @@ import {
   maybeAppendRevisit,
   createGameState,
   runFullCirculation,
+  continueAfterResult,
   type Emotion,
 } from "../src/core";
 
@@ -34,10 +35,30 @@ describe("revisit", () => {
     expect(q[0]!.id.startsWith("revisit_")).toBe(true);
   });
 
-  it("奇数日不追加", () => {
+  it("奇数日且好感不足时不追加", () => {
     let state = createGameState([e], { dayGoalCirculations: 99, dayGoalWarmth: 999 });
     state = runFullCirculation(state, "flower", "gift");
     state = { ...state, day: 1 };
-    expect(maybeAppendRevisit(state, [])).toHaveLength(0);
+    // 单次赠予 rare 好感约 4，阈值 5 则不触发
+    const q = maybeAppendRevisit(state, []);
+    // rare gift favor = 3+1=4 < 5，奇数日应为空
+    expect(q).toHaveLength(0);
+  });
+
+  it("高好感时奇数日也可再访", () => {
+    let state = createGameState(
+      [e, { ...e, id: "rv2" }, { ...e, id: "rv3" }],
+      { dayGoalCirculations: 99, dayGoalWarmth: 999 },
+    );
+    state = runFullCirculation(state, "flower", "gift");
+    state = continueAfterResult(state);
+    state = runFullCirculation(state, "flower", "gift");
+    state = continueAfterResult(state);
+    state = runFullCirculation(state, "flower", "gift");
+    state = { ...state, day: 1 };
+    const q = maybeAppendRevisit(state, []);
+    expect(q.length).toBe(1);
   });
 });
+
+
