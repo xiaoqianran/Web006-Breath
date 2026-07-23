@@ -681,6 +681,27 @@ html[data-reduce-motion="true"] .toast {
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
 
+.warmth-jar-art {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  margin: 0 auto 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/warmth_jar.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+/* HUD 内温存罐小图标 */
+.warmth-jar-art--hud {
+  display: inline-block;
+  height: 1.35rem;
+  width: 1.35rem;
+  margin: 0 0.35rem 0 0;
+  vertical-align: -0.25rem;
+  border-radius: 50%;
+}
+
 .morning-dew-art {
   height: 64px;
   border-radius: 10px;

@@ -45,6 +45,10 @@ import {
   formatShelfLine,
   formatReputationProgress,
   reputationRankTitle,
+  formatWarmthLine,
+  formatWarmthProgress,
+  formatWarmthEncourage,
+  warmthRankTitle,
   formatStreakLine,
   formatStreakEncourage,
   formatQueueStatus,
@@ -748,7 +752,9 @@ export class YixiApp {
       <span class="chalkboard-art" role="img" aria-label="提示板" data-testid="chalkboard-art"></span>
       <span class="muted" data-testid="phase-hint">${formatPhaseHintLine(s.phase)}</span>
       <span>第 <strong>${s.day}</strong> 日 · ${getDayScript(s.day).title}</span>
-      <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
+      <span data-testid="warmth-line"><span class="warmth-jar-art warmth-jar-art--hud" role="img" aria-label="温存罐"></span>温存 <strong data-testid="warmth">${s.warmth}</strong> · ${warmthRankTitle(s.warmth)}</span>
+      <span class="muted" data-testid="warmth-progress">${formatWarmthProgress(s.warmth)}</span>
+      <span class="muted" data-testid="warmth-encourage">${formatWarmthEncourage(s.warmth)}</span>
       <span data-testid="reputation-line">口碑 <strong>${s.reputation}</strong> · ${reputationRankTitle(s.reputation)}</span>
       <span>今日流通 <strong data-testid="circulations">${s.circulationsToday}</strong> / 目标 ${s.config.dayGoalCirculations}</span>
       <span class="muted" data-testid="day-goal">${formatDayGoalLine(goalP)}（${formatRatioPercent(goalP.bestRatio)}）</span>
@@ -973,8 +979,10 @@ export class YixiApp {
       card.innerHTML = `
         <div class="day-complete-art" role="img" aria-label="打烊窗景插画" data-testid="day-complete-art"></div>
         <div class="closed-sign-art" role="img" aria-label="打烊门牌" data-testid="closed-sign-art"></div>
+        <div class="warmth-jar-art" role="img" aria-label="温存罐插画" data-testid="warmth-jar-art"></div>
         <h2>今日打烊</h2>
-        <p>你完成了今日的情绪流通。温存 ${s.warmth}，今日流通 ${s.circulationsToday} 次。</p>
+        <p data-testid="day-end-warmth">你完成了今日的情绪流通。${formatWarmthLine(s.warmth)}，今日流通 ${s.circulationsToday} 次。</p>
+        <p class="muted" data-testid="day-end-warmth-encourage">${formatWarmthEncourage(s.warmth)}</p>
         <div class="revisit-door-art" role="img" aria-label="再访门廊" data-testid="revisit-door-art"></div>
         <div class="soft-blanket-art" role="img" aria-label="薄被" data-testid="soft-blanket-art"></div>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>

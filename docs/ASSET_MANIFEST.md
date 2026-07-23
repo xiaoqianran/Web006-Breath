@@ -120,3 +120,4 @@
 | ART-051 | `public/assets/ui/journal_page.jpg` | 手账页 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-052 | `public/assets/ui/chalkboard.jpg` | 提示板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-053 | `public/assets/ui/warmth_jar.jpg` | 温存罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
