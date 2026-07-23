@@ -15,6 +15,7 @@
     "perf": "vite-node scripts/perf-baseline.ts"
   },
   "devDependencies": {
+    "@types/node": "^22.15.30",
     "jsdom": "^26.1.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",

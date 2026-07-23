@@ -1,8 +1,9 @@
 import { describe, it, expect } from "vitest";
 import { existsSync } from "node:fs";
-import { resolve } from "node:path";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const root = resolve(__dirname, "..");
+const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 describe("static assets on disk", () => {
   it("关键美术文件存在且非空路径", () => {
