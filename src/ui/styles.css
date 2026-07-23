@@ -1,3 +1,18 @@
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0.5rem;
+  z-index: 100;
+  background: var(--ink, #3d4f44);
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+}
+
+.skip-link:focus {
+  left: 0.5rem;
+}
+
 :root {
   --paper: #f7f3ec;
   --mist: #a8c3b0;

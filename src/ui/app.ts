@@ -649,9 +649,12 @@ export class YixiApp {
     const b = document.createElement("button");
     b.type = "button";
     b.textContent = label;
+    b.setAttribute("aria-label", label);
     if (className) b.className = className;
     b.disabled = disabled;
+    if (disabled) b.setAttribute("aria-disabled", "true");
     b.addEventListener("click", onClick);
     return b;
   }
 }
+
