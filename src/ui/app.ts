@@ -25,6 +25,7 @@ import {
   priceLabel,
   rollShopEvent,
   applyShopEvent,
+  topFavoredGuests,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -370,6 +371,16 @@ export class YixiApp {
         ${vesselAffinityLines()
           .map((l) => `<p class="muted">${l.line}</p>`)
           .join("")}
+      </div>
+      <div class="card" data-testid="favor-board">
+        <h3>客人好感</h3>
+        ${
+          topFavoredGuests(this.state, 5).length === 0
+            ? `<p class="muted">完成流通后，常客的好感会慢慢累积。</p>`
+            : topFavoredGuests(this.state, 5)
+                .map((g) => `<p><strong>${g.name}</strong> · 好感 ${g.favor}</p>`)
+                .join("")
+        }
       </div>`;
     el.innerHTML = `
       <h2>瞬间图鉴</h2>
