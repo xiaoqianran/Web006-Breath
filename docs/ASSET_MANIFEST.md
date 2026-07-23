@@ -129,3 +129,4 @@
 | ART-059 | `public/assets/ui/order_counter.jpg` | 委托柜台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-060 | `public/assets/bg/night_rain_window.jpg` | 夜雨窗 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-061 | `public/assets/ui/shelf_craft.jpg` | 货架小物 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-062 | `public/assets/ui/tea_cup.jpg` | 茶杯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

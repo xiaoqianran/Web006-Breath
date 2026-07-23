@@ -889,6 +889,7 @@ export class YixiApp {
       card.innerHTML = `<div class="warmth-corner-art" role="img" aria-label="温存一隅" data-testid="warmth-corner-art"></div>
         <div class="tea-counter-art" role="img" aria-label="茶台插画" data-testid="tea-counter-art"></div>
         <div class="tea-tray-art" role="img" aria-label="茶盘" data-testid="tea-tray-art"></div>
+        <div class="tea-cup-art" role="img" aria-label="茶杯" data-testid="tea-cup-art"></div>
         <div class="sugar-bowl-art" role="img" aria-label="糖罐" data-testid="sugar-bowl-art"></div>
         <div class="welcome-bell-art" role="img" aria-label="迎客门铃" data-testid="welcome-bell-art"></div>
         <h2>接待处</h2>

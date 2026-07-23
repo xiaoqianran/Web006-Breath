@@ -592,6 +592,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 4,
   },
+  {
+    id: "e85",
+    guestName: "听雨",
+    text: "雨停了一会儿，我还是想把湿掉的心情换成干的。",
+    tags: ["释然", "疲惫"],
+    intensity: 3,
+  },
+  {
+    id: "e86",
+    guestName: "暮山",
+    text: "天快黑了，货架上的影子像在排队说晚安。",
+    tags: ["孤独", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e87",
+    guestName: "青禾",
+    text: "带着一点草木气推门，想换一枝能放窗台的想念。",
+    tags: ["想念", "期待"],
+    intensity: 4,
+  },
+  {
+    id: "e88",
+    guestName: "匿名",
+    text: "第八十八次路过，今天决定留下一件小安慰。",
+    tags: ["勇气", "安心"],
+    intensity: 2,
+  },
 ];
 
 

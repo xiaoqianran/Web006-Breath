@@ -970,6 +970,17 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/tea_tray.jpg") center/cover no-repeat;
 }
 
+.tea-cup-art {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  margin: 0 auto 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/tea_cup.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
 .rain-awning-art {
   height: 80px;
   border-radius: 12px;
