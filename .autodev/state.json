@@ -3,33 +3,35 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 27,
+  "current_round": 28,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0027-next",
-  "last_completed_task_id": "T0027-perf",
-  "last_commit": "2cf1522fab9f9a190aab1753c6a1a619733967c2",
+  "current_task_id": "T0028-continue",
+  "last_completed_task_id": "T0028-pricing",
+  "last_commit": "b8ddb7d3904c0bd07496b2336dfd6eeb3b259594",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 51 passed",
+  "last_test_summary": "vitest: 54 passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
   "known_failures": [],
   "important_decisions": [
-    "D-001",
-    "D-002",
-    "D-003",
-    "D-004",
-    "D-005",
-    "D-006",
-    "D-007"
+    "D-001 Vite+TS+DOM",
+    "D-002 情绪流通经营",
+    "D-003 逻辑 UI 分离",
+    "D-004 SilentAudioBus",
+    "D-005 五日剧本",
+    "D-006 货架容量 5",
+    "D-007 再访",
+    "D-008 温情价非金钱"
   ],
   "next_candidate_tasks": [
     "真音频",
     "好感持久化",
-    "M2 定价",
-    "更多剧本"
+    "更多剧本日 6-10",
+    "无障碍 aria 全覆盖",
+    "M2 随机店事件"
   ],
-  "resume_instructions": "cd /root/wk; git log -5; npm run check; npm run perf; npm run dev。v0.2.0 可演示。51 tests。HEAD=2cf1522fab9f9a190aab1753c6a1a619733967c2。约 27/1000 轮。勿 push。",
-  "updated_at": "2026-07-23T20:35:10.000Z"
+  "resume_instructions": "cd /root/wk && git log -10 --oneline && git status && npm install && npm run check && npm run perf && npm run dev。v0.2.0+，54 unit tests，完整可演示情绪流通小店。约 28/1000 轮。验收核心循环与真实测试已满足。继续深化即可。勿 push。",
+  "updated_at": "2026-07-23T20:36:00.000Z"
 }

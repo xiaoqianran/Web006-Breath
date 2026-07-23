@@ -47,14 +47,16 @@ npm run preview   # 预览构建产物
 | [docs/ASSET_MANIFEST.md](docs/ASSET_MANIFEST.md) | 资产清单 |
 | [AGENTS.md](AGENTS.md) | Agent 约定 |
 
-## 已实现功能（阶段性）
+## 已实现功能（阶段性 · v0.2）
 
 - 核心循环：接待 → 选形态 → 上架/赠予
-- 温存 / 口碑 / 日目标与打烊
-- 瞬间图鉴、localStorage 存档与继续
-- 设置（提示开关、减少动效、教程标记）
-- 首次经营教程
-- 主菜单插画背景
+- 货架陈列、被买走、容量上限；温情价展示
+- 连心、默契 HUD、形态弱推荐
+- 五日剧本、日事件特供、偶数日再访
+- 瞬间图鉴 / 解锁 toast / localStorage 存档
+- 设置、教程、键盘快捷键、移动端布局
+- 主菜单 / 店内 / 宣传封面美术；SVG 形态图标
+- `npm run check` / `npm run perf` 验收与性能基线
 
 ## 自治开发
 
