@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 21,
+  "current_round": 22,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0021-ready-resume",
-  "last_completed_task_id": "T0021-shelf-cap-cover",
-  "last_commit": "687f284b8d5295a6628452def56a85da674e9bc9",
+  "last_completed_task_id": "T0022-m1-docs",
+  "last_commit": "ea401f38f6e43a772f1d01e3f851cdf810ca1e34",
   "last_verified_build": "npm run build OK",
   "last_test_summary": "vitest: 46 passed",
   "core_loop_status": "playable_demo_ready",
@@ -30,6 +30,6 @@
     "aria 深化",
     "性能基线实测"
   ],
-  "resume_instructions": "接管：cd /root/wk && git log -5 && git status（应 clean）&& npm test（46 passed）&& npm run smoke && npm run dev。游戏一息已达毕业设计可演示标准的可玩原型；1000 轮框架中约完成 21 轮有效开发。下一任务从 backlog 选 M1 质量门或客人好感。禁止未经授权 push。证据目录：会话 scratch 下 test-*.txt / smoke-*.txt。",
-  "updated_at": "2026-07-23T20:32:00.000Z"
+  "resume_instructions": "cd /root/wk; git log -5; npm test (46 passed); npm run smoke; npm run dev。HEAD=ea401f3。可演示毕业原型已就绪。下一：客人好感/真音频/aria/性能基线。勿 push。",
+  "updated_at": "2026-07-23T20:32:30.000Z"
 }
