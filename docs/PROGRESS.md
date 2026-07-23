@@ -5,12 +5,12 @@
 | 项 | 真实值 |
 |----|--------|
 | 项目 | 一息 · 温柔瞬间铺 |
-| 版本 | 0.2.1（package.json） |
+| 版本 | 0.2.2（package.json） |
 | 分支 | `main` |
 | tip（写入前） | 以 `git rev-parse HEAD` 为准；对齐时为 `6abee2408ea16d646b4948ac008f88144f1bf801` |
 | 轮次 | **0049** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** |
-| 测试 | **`npm test` → 76 passed**（25 files） |
+| 测试 | **`npm test` → 79 passed**（26 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 性能 | `npm run perf`（真实 ms，见 PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
