@@ -547,6 +547,15 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/codex_empty.jpg") center/cover no-repeat;
 }
 
+.codex-scrap-art {
+  height: 96px;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/codex_scrap.jpg") center/cover no-repeat;
+}
+
 .tea-counter-art {
   height: 96px;
   border-radius: 12px;

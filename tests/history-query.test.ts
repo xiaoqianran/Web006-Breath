@@ -8,6 +8,9 @@ import {
   lastCirculation,
   totalWarmthFromHistory,
   bestQualityInHistory,
+  formatCodexSummary,
+  formatFavoriteVesselLine,
+  mostUsedVessel,
   type Emotion,
 } from "../src/core";
 
@@ -50,5 +53,22 @@ describe("bestQualityInHistory", () => {
     );
     state = runFullCirculation(state, "flower", "gift");
     expect(bestQualityInHistory(state.history)).toBe("rare");
+  });
+});
+
+describe("codex narrative", () => {
+  it("空历史与有记录摘要", () => {
+    expect(formatCodexSummary([])).toContain("空白");
+    expect(formatFavoriteVesselLine([])).toContain("还没有");
+    let state = createGameState([e, { ...e, id: "hq3" }], {
+      dayGoalCirculations: 99,
+      dayGoalWarmth: 999,
+    });
+    state = runFullCirculation(state, "flower", "gift");
+    state = continueAfterResult(state);
+    state = runFullCirculation(state, "flower", "display");
+    expect(formatCodexSummary(state.history)).toContain("流通");
+    expect(mostUsedVessel(state.history)).toBe("flower");
+    expect(formatFavoriteVesselLine(state.history)).toContain("花");
   });
 });

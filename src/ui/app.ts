@@ -46,6 +46,8 @@ import {
   VESSEL_ORDER,
   formatRatioPercent,
   bestQualityInHistory,
+  formatCodexSummary,
+  formatFavoriteVesselLine,
   formatShelfLine,
   formatShelfMixLine,
   formatShelfEncourage,
@@ -657,6 +659,7 @@ export class YixiApp {
   }
 
   private renderCodex(): HTMLElement {
+    // codex 瞬间图鉴
     const el = document.createElement("section");
     el.className = "screen active";
     el.dataset.testid = "codex";
@@ -720,8 +723,11 @@ export class YixiApp {
       </div>`;
     el.innerHTML = `
       ${lanternHtml}
+      <div class="codex-scrap-art" role="img" aria-label="图鉴手账" data-testid="codex-scrap-art"></div>
       <h2>瞬间图鉴</h2>
       <p class="muted">每一次流通留下的温柔记录（本局 ${list.length} 条）</p>
+      <p class="muted" data-testid="codex-summary">${formatCodexSummary(list)}</p>
+      <p class="muted" data-testid="codex-favorite-vessel">${formatFavoriteVesselLine(list)}</p>
       ${unlockHtml}
       <div data-testid="codex-list">${items}</div>
       <div class="btn-row"></div>
