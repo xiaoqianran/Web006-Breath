@@ -172,7 +172,22 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["悸动", "疲惫"],
     intensity: 2,
   },
+  {
+    id: "e25",
+    guestName: "晴",
+    text: "把伞借给了别人，自己走在雨停之后的光里。",
+    tags: ["温柔", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e26",
+    guestName: "匿名",
+    text: "耳机没电了，才听见风穿过树叶。",
+    tags: ["孤独", "安心"],
+    intensity: 2,
+  },
 ];
+
 
 export function freshDayQueue(day: number = 1): Emotion[] {
   return queueFromDayScript(day);
