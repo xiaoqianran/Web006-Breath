@@ -981,6 +981,31 @@ html[data-reduce-motion="true"] .toast {
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
 
+.vessel-flower-art {
+  height: 72px;
+  width: 72px;
+  border-radius: 12px;
+  margin: 0 auto 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/vessel_flower.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+.vessel-flower-art[data-vessel="tea"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/tea_cup.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.vessel-flower-art[data-vessel="object"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/shelf_craft.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .rain-awning-art {
   height: 80px;
   border-radius: 12px;

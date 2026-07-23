@@ -58,6 +58,9 @@ import {
   formatAtmosphereLine,
   formatAtmosphereClosing,
   atmosphereForDay,
+  formatVesselLine,
+  formatVesselPickLine,
+  vesselCraftHint,
   formatStreakLine,
   formatStreakEncourage,
   formatQueueStatus,
@@ -956,9 +959,10 @@ export class YixiApp {
         b.setAttribute(
           "aria-label",
           helpsOrder
-            ? `选择${VESSEL_LABELS[v]}（今日委托偏好）`
-            : `选择${VESSEL_LABELS[v]}`,
+            ? `选择${VESSEL_LABELS[v]}（今日委托偏好）。${vesselCraftHint(v)}`
+            : `选择${VESSEL_LABELS[v]}。${vesselCraftHint(v)}`,
         );
+        b.title = formatVesselLine(v);
         b.addEventListener("click", () => this.setState(chooseVessel(s, v)));
         grid.appendChild(b);
       }
@@ -982,8 +986,11 @@ export class YixiApp {
         <div class="gift-station-art" role="img" aria-label="赠予包装台" data-testid="gift-station-art"></div>
         <div class="match-abacus-art" role="img" aria-label="匹配算珠" data-testid="match-abacus-art"></div>
         <div class="quality-seal-art" role="img" aria-label="品质印记" data-testid="quality-seal-art"></div>
+        <div class="vessel-flower-art" role="img" aria-label="花形态示意" data-testid="vessel-flower-art" data-vessel="${item.vessel}"></div>
         <h2>转化台</h2>
         <p data-testid="crafted-label"><strong>${item.label}</strong></p>
+        <p class="muted" data-testid="vessel-line">${formatVesselLine(item.vessel)}</p>
+        <p class="muted" data-testid="vessel-pick-line">${formatVesselPickLine(item.vessel)}</p>
         <p data-testid="match-line">${formatMatchScoreLine(item.matchScore)}</p>
         <p data-testid="quality-line"><span class="quality-${item.quality}" data-testid="quality">${formatQualityLine(item.quality)}</span>
           · ${priceLabel(item)}</p>

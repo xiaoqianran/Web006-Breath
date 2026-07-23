@@ -50,3 +50,4 @@ export * from "./phase-hint";
 export * from "./warmth-label";
 export * from "./day-end-narrative";
 export * from "./day-atmosphere";
+export * from "./vessel-label";
