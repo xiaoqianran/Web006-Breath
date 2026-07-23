@@ -12,7 +12,7 @@
 | 累计提交数 | 约 44+（`git rev-list --count HEAD`） |
 | 轮次 | **0038** / 1000 |
 | 里程碑 | M0 完成 · **M1 进行中** |
-| 测试 | **`npm test` → 66 passed**（21 files） |
+| 测试 | **`npm test` → 68 passed**（22 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 性能 | `npm run perf` 有真实 ms 输出（见 docs/PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
