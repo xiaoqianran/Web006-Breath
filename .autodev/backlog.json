@@ -1243,7 +1243,7 @@
       "status": "done",
       "created_round": 106,
       "completed_round": 107,
-      "commit_hash": "PENDING"
+      "commit_hash": "c0e19094602546402f1da54f019b8bd0f5bcc76a"
     },
     {
       "id": "T0108-order-multi-queue",
