@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T21:02:37Z",
+  "updated_at": "2026-07-23T21:04:13Z",
   "tasks": [
     {
       "id": "T0001",
@@ -755,6 +755,26 @@
       "created_round": 47,
       "completed_round": 48,
       "commit_hash": "65a5659d7455cd2c0e35998523a10eb330e1dbf1"
+    },
+    {
+      "id": "T0049-day-goal",
+      "title": "日目标进度 HUD",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "dayGoalProgress + formatDayGoalLine",
+      "priority": 68,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "HUD 展示",
+        "单测 eitherMet"
+      ],
+      "test_plan": "tests/day-goal.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 49,
+      "completed_round": 49,
+      "commit_hash": "a84a9603fde0f1a0e48e0d3e529f2f556b021d4b"
     }
   ]
 }

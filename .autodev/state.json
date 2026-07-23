@@ -3,30 +3,30 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 48,
+  "current_round": 49,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0049-next",
-  "last_completed_task_id": "T0048-help-overlay",
-  "last_commit": "51fe9bf507b659c1a1061b1ee6afad3faf14fa91",
+  "current_task_id": "T0050-next",
+  "last_completed_task_id": "T0049-day-goal",
+  "last_commit": "a84a9603fde0f1a0e48e0d3e529f2f556b021d4b",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 74 passed (24 files)",
+  "last_test_summary": "vitest: 76 passed (25 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
   "known_failures": [],
   "important_decisions": [
-    "D-001 Vite+TS+DOM",
-    "D-002 情绪流通经营",
-    "D-003 逻辑 UI 分离",
-    "D-004 ProceduralAudioBus + sfxEnabled",
-    "D-005 15 日 + 24 情绪 + 帮助层"
+    "D-001",
+    "D-002",
+    "D-003",
+    "D-004 ProceduralAudioBus",
+    "D-005 帮助与日目标 HUD"
   ],
   "next_candidate_tasks": [
     "T0039-real-audio-files",
-    "读屏审计",
-    "M2 随机订单"
+    "读屏",
+    "M2"
   ],
-  "resume_instructions": "【权威 tip】51fe9bf507b659c1a1061b1ee6afad3faf14fa91\n【功能提交】65a5659d7455cd2c0e35998523a10eb330e1dbf1 三缺口+帮助层\n【闭合提交】6abee2408ea16d646b4948ac008f88144f1bf801 backlog/ROADMAP/PROGRESS\n当前轮次: 48 / 1000。\n当前目标: M1 深化；下一 T0039-real-audio-files。\n已完成步骤: skeptic 三缺口已清；T0046/T0047/T0048 done；74 tests；? 帮助。\n尚未完成: 真音频文件；1000 轮剩余。\nGit: main clean（若再有 commit 以 git rev-parse HEAD 为准）。\n测试: 74 passed / 24 files；npm run check；smoke 双次一致。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git rev-parse HEAD && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T21:03:14Z"
+  "resume_instructions": "【权威 tip】a84a9603fde0f1a0e48e0d3e529f2f556b021d4b\n【三缺口功能提交】65a5659d7455cd2c0e35998523a10eb330e1dbf1\n当前轮次: 49 / 1000。\n当前目标: M1 深化；下一 T0039 真音频。\n已完成步骤: skeptic 三缺口闭合；帮助 ?；日目标 HUD；74→76 tests。\n尚未完成: 真音频文件；1000 轮剩余。\nGit: main；last_commit=a84a9603fde0f1a0e48e0d3e529f2f556b021d4b；git status 应 clean。\n测试: 76 passed / 25 files；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git rev-parse HEAD && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T21:04:13Z"
 }
