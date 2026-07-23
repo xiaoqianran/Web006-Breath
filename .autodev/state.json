@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 122,
+  "current_round": 123,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0123-continue",
-  "last_completed_task_id": "T0122-continue",
-  "last_commit": "54afc3e35ea8421df8c98b7e2f9f9276638cabfd",
+  "current_task_id": "T0124-continue",
+  "last_completed_task_id": "T0123-continue",
+  "last_commit": "9d4fe9492732b7b25f5e693ad7cdd32c77cf1465",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 144 passed (48 files)",
+  "last_test_summary": "vitest: 145 passed (48 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0123-continue",
+    "T0124-continue",
     "M2 系统",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 54afc3e35ea8421df8c98b7e2f9f9276638cabfd T0122 情绪54+雨洼\n轮次: 122 / 1000 · v0.2.6 · M2\n本会话: T0119–T0122 好感/剧本24/再访/情绪54 + 多批美术\n测试: 144 passed；双 smoke warmth=19\n下一: T0123\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:34:22Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 9d4fe9492732b7b25f5e693ad7cdd32c77cf1465 T0123 剧本26+半窗\n轮次: 123 / 1000 · v0.2.6 · M2\n本会话推进: T0119–T0123（好感档位、剧本24–26、再访、情绪54、多批美术）\n测试: 145 passed；双 smoke warmth=19\n下一: T0124\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:35:16Z"
 }
