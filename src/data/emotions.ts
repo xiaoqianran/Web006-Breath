@@ -522,6 +522,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e75",
+    guestName: "匿名",
+    text: "把黑板擦干净，准备写下一句更温柔的话。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e76",
+    guestName: "陆",
+    text: "七十六次路过，终于在门铃前停住了脚。",
+    tags: ["勇气", "想念"],
+    intensity: 4,
+  },
 ];
 
 
