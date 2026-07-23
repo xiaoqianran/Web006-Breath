@@ -138,3 +138,4 @@
 | ART-068 | `public/assets/bg/menu_hero.jpg` | 主菜单门廊 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-069 | `public/assets/ui/unlock_ribbon.jpg` | 解锁丝带徽章 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-070 | `public/assets/decor/window_seat.jpg` | 窗边座位 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-071 | `public/assets/ui/price_tag.jpg` | 温情价签 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

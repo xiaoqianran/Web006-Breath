@@ -4,6 +4,8 @@ import {
   runFullCirculation,
   rollShopEvent,
   applyShopEvent,
+  formatShopEventLine,
+  formatShopEventReward,
   type Emotion,
   type GameState,
 } from "../src/core";
@@ -35,6 +37,21 @@ describe("shop events", () => {
     const next = applyShopEvent(state, ev);
     expect(next.warmth).toBe(0);
     expect(next.message).toContain("店事");
+  });
+
+  it("店事文案与奖励行", () => {
+    const ev = {
+      id: "x",
+      title: "窗座有人",
+      description: "半杯还温的茶。",
+      warmthDelta: 1,
+      reputationDelta: 0,
+    };
+    expect(formatShopEventLine(ev)).toContain("店事");
+    expect(formatShopEventReward(ev)).toContain("温存");
+    expect(formatShopEventReward({ ...ev, warmthDelta: 0, reputationDelta: 0 })).toContain(
+      "故事",
+    );
   });
 
   it("apply 正向事件增加温存与口碑", () => {

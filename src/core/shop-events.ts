@@ -33,7 +33,38 @@ const POOL: Omit<ShopEvent, "id">[] = [
     warmthDelta: 0,
     reputationDelta: 0,
   },
+  {
+    title: "窗座有人",
+    description: "窗边薄毯上坐过一位客人，留下半杯还温的茶。",
+    warmthDelta: 1,
+    reputationDelta: 0,
+  },
+  {
+    title: "徽章闪光",
+    description: "抽屉里的纪念徽章碰出一声轻响，像在提醒你还在。",
+    warmthDelta: 0,
+    reputationDelta: 1,
+  },
+  {
+    title: "雨停开门",
+    description: "雨停后第一位推门的人，鞋底还带着浅浅的水痕。",
+    warmthDelta: 1,
+    reputationDelta: 0,
+  },
 ];
+
+/** 店事标题气质短句 */
+export function formatShopEventLine(event: ShopEvent): string {
+  return `【店事】${event.title}：${event.description}`;
+}
+
+export function formatShopEventReward(event: ShopEvent): string {
+  const parts: string[] = [];
+  if (event.warmthDelta) parts.push(`温存 ${event.warmthDelta > 0 ? "+" : ""}${event.warmthDelta}`);
+  if (event.reputationDelta) parts.push(`口碑 +${event.reputationDelta}`);
+  if (parts.length === 0) return "无数值波动，只是店里多了一点故事。";
+  return parts.join(" · ");
+}
 
 /** 纯函数：用 day+history 长度做确定性「随机」 */
 export function rollShopEvent(state: GameState): ShopEvent | null {

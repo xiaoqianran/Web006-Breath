@@ -2,6 +2,9 @@ import { describe, it, expect } from "vitest";
 import {
   priceLabel,
   warmthPrice,
+  warmthPriceRankTitle,
+  formatWarmthPriceLine,
+  formatPriceNarrative,
   qualityMultiplier,
   orderBonusHint,
   firstOrderBonusHint,
@@ -32,6 +35,9 @@ describe("pricing", () => {
     expect(priceLabel(item("rare", 9))).toContain("珍重");
     expect(priceLabel(item("rare", 9))).toContain("9");
     expect(priceLabel(item("simple", 2))).toContain("素朴");
+    expect(warmthPriceRankTitle(9)).toBe("厚礼一念");
+    expect(formatWarmthPriceLine(item("fine", 5))).toContain("足可心意");
+    expect(formatPriceNarrative(item("simple", 2))).toContain("素朴");
   });
 
   it("品质倍率有序", () => {

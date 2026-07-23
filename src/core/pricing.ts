@@ -13,6 +13,32 @@ export function priceLabel(item: CraftedItem): string {
   return `${tone} · 温存估价 ${p}`;
 }
 
+/** 温情价档位称号（非金钱） */
+export function warmthPriceRankTitle(price: number): string {
+  if (price >= 8) return "厚礼一念";
+  if (price >= 5) return "足可心意";
+  if (price >= 3) return "刚刚好";
+  if (price >= 1) return "轻如羽毛";
+  return "未标价";
+}
+
+export function formatWarmthPriceLine(item: CraftedItem): string {
+  const p = warmthPrice(item);
+  return `${priceLabel(item)} · ${warmthPriceRankTitle(p)}`;
+}
+
+/** 给客人看的估价旁白 */
+export function formatPriceNarrative(item: CraftedItem): string {
+  const p = warmthPrice(item);
+  if (item.quality === "rare") {
+    return `珍稀一念，温存估价 ${p}——不必论钱，只论是否被接住。`;
+  }
+  if (item.quality === "fine") {
+    return `细心成器，温存估价 ${p}。上架或赠予，都会留下温度。`;
+  }
+  return `素朴也够温柔，温存估价 ${p}。轻装流通，也是一种体贴。`;
+}
+
 export function qualityMultiplier(q: Quality): number {
   if (q === "rare") return 1.5;
   if (q === "fine") return 1.15;

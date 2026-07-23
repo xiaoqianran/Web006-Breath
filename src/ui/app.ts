@@ -25,6 +25,8 @@ import {
   averageMatchScore,
   maybeAppendRevisit,
   priceLabel,
+  formatWarmthPriceLine,
+  formatPriceNarrative,
   firstOrderBonusHint,
   rollShopEvent,
   applyShopEvent,
@@ -1010,8 +1012,11 @@ export class YixiApp {
         <p class="muted" data-testid="vessel-line">${formatVesselLine(item.vessel)}</p>
         <p class="muted" data-testid="vessel-pick-line">${formatVesselPickLine(item.vessel)}</p>
         <p data-testid="match-line">${formatMatchScoreLine(item.matchScore)}</p>
+        <div class="price-tag-art" role="img" aria-label="温情价签" data-testid="price-tag-art"></div>
         <p data-testid="quality-line"><span class="quality-${item.quality}" data-testid="quality">${formatQualityLine(item.quality)}</span>
           · ${priceLabel(item)}</p>
+        <p class="muted" data-testid="warmth-price-line">${formatWarmthPriceLine(item)}</p>
+        <p class="muted" data-testid="price-narrative">${formatPriceNarrative(item)}</p>
         <p class="muted" data-testid="craft-summary">${formatCraftSummary(item.matchScore, item.quality)}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <p class="muted" data-testid="order-match-aside">${formatOrderMatchAside(item, s.activeOrder)}</p>
