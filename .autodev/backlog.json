@@ -851,6 +851,25 @@
       "created_round": 54,
       "completed_round": 54,
       "commit_hash": "9f2550153a0353b84385f2aa8fa655599797e662"
+    },
+    {
+      "id": "T0055-clamp",
+      "title": "clamp 工具",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "clamp/clampInt",
+      "priority": 50,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "单测"
+      ],
+      "test_plan": "tests/clamp.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 55,
+      "completed_round": 55,
+      "commit_hash": "9f0fb593c021897d9b61de63010f3f12c857d958"
     }
   ]
 }
