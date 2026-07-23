@@ -43,6 +43,8 @@ import {
   formatRatioPercent,
   bestQualityInHistory,
   formatShelfLine,
+  formatReputationProgress,
+  reputationRankTitle,
   formatOrderLine,
   formatOrderShort,
   ensureActiveOrder,
@@ -731,10 +733,11 @@ export class YixiApp {
       <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
       <span>第 <strong>${s.day}</strong> 日 · ${getDayScript(s.day).title}</span>
       <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
-      <span>口碑 <strong>${s.reputation}</strong></span>
+      <span data-testid="reputation-line">口碑 <strong>${s.reputation}</strong> · ${reputationRankTitle(s.reputation)}</span>
       <span>今日流通 <strong data-testid="circulations">${s.circulationsToday}</strong> / 目标 ${s.config.dayGoalCirculations}</span>
       <span class="muted" data-testid="day-goal">${formatDayGoalLine(goalP)}（${formatRatioPercent(goalP.bestRatio)}）</span>
       <span class="muted" data-testid="day-goal-encourage">${formatDayGoalEncourage(goalP)}</span>
+      <span class="muted" data-testid="reputation-progress">${formatReputationProgress(s.reputation)}</span>
       <span>连心 <strong data-testid="streak">${s.qualityStreak ?? 0}</strong></span>
       <span>默契 <strong data-testid="avg-match">${averageMatchScore(s).toFixed(1)}</strong></span>
       <span>等候 <strong>${s.queue.length}</strong></span>
