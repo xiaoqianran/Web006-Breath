@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 125,
+  "current_round": 126,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0126-continue",
-  "last_completed_task_id": "T0125-continue",
-  "last_commit": "49b58b13ed9615a8a6e5b1a3822238484fbefb6a",
+  "current_task_id": "T0127-emotions-56",
+  "last_completed_task_id": "T0126-continue",
+  "last_commit": "a42ff96c1dde4d892979ec8b8c532c8d5252f39c",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 147 passed (49 files)",
+  "last_test_summary": "vitest: 148 passed (49 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0126-continue",
-    "M2",
-    "持续生图"
+    "T0127-emotions-56",
+    "持续生图",
+    "M2"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 49b58b13ed9615a8a6e5b1a3822238484fbefb6a T0125 好感榜首播报\n轮次: 125 / 1000 · v0.2.6 · M2\n本会话: T0119–T0125（好感/剧本26/再访/情绪54/货架/读屏）+ 多批生图\n测试: 147 passed；双 smoke warmth=19\n下一: T0126\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:37:16Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: a42ff96c1dde4d892979ec8b8c532c8d5252f39c T0126 日目标鼓励+日历\n轮次: 126 / 1000 · v0.2.6 · M2\n下一: T0127 情绪56\n测试: 148 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:38:58Z"
 }
