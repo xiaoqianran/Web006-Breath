@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 63,
+  "current_round": 64,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0064-next",
-  "last_completed_task_id": "T0063-sum",
-  "last_commit": "c038abac4cf45b83c5b363d9eb982b637193fa8e",
+  "current_task_id": "T0065-next",
+  "last_completed_task_id": "T0064-stats-avg",
+  "last_commit": "d509dc7009dd9c4116eb9f28bcb74b97f34f20d2",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 98 passed (36 files)",
   "core_loop_status": "playable_demo_ready",
@@ -27,6 +27,6 @@
     "读屏",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】c038abac4cf45b83c5b363d9eb982b637193fa8e\n【三缺口】65a5659 / 6abee24 已闭合\n当前轮次: 63 / 1000 · v0.2.2\n当前目标: M1；下一 T0039 真音频。\n已完成: skeptic 三缺口；帮助；日目标；工具库；98 tests。\n尚未完成: 真音频；1000 轮。\nGit: main；last_commit=c038abac4cf45b83c5b363d9eb982b637193fa8e。\n测试: 98 passed / 36 files；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T21:17:23Z"
+  "resume_instructions": "【权威 tip】d509dc7009dd9c4116eb9f28bcb74b97f34f20d2\n【三缺口】65a5659 / 6abee24 已闭合\n当前轮次: 64 / 1000 · v0.2.2\n当前目标: M1；下一 T0039 真音频。\n已完成: skeptic 三缺口；帮助；日目标；工具库；stats 用 averageNumbers；98 tests。\n尚未完成: 真音频；1000 轮。\nGit: main；last_commit=d509dc7009dd9c4116eb9f28bcb74b97f34f20d2。\n测试: 98 passed / 36 files；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T21:18:13Z"
 }
