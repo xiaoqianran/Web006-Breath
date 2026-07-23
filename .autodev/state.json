@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 113,
+  "current_round": 114,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0114-order-day-end",
-  "last_completed_task_id": "T0110-order-stats-hints",
-  "last_commit": "92bc9668f1efd3c311f299332532f4111df4cc9d",
+  "current_task_id": "T0115-day-scripts-22",
+  "last_completed_task_id": "T0114-order-day-end",
+  "last_commit": "025ea558ca4d82bbbeb688c28b0ed63391a82f54",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 137 passed (47 files)",
+  "last_test_summary": "vitest: 138 passed (47 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0114-order-day-end",
-    "日剧本扩充",
-    "客人剪影"
+    "T0115-day-scripts-22",
+    "客人剪影",
+    "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 92bc9668f1efd3c311f299332532f4111df4cc9d T0110 委托提示+统计+情绪48+教程/信笺\n轮次: 113 / 1000 · v0.2.6 · M2\n下一: T0114 打烊委托摘要\n测试: 137 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:25:13Z"
+  "resume_instructions": "功能 025ea558ca4d82bbbeb688c28b0ed63391a82f54 T0114。轮次114/1000 v0.2.6。下一 T0115 剧本22。138 tests。npm run check && npm run dev",
+  "updated_at": "2026-07-23T22:26:21Z"
 }
