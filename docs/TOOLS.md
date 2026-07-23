@@ -10,3 +10,4 @@
 
 未引入 ClawHub 外部 skill。未使用付费 API 密钥。
 EOF
+| @types/node | package.json 锁定 | TS Node 类型（资产测试） | MIT |
