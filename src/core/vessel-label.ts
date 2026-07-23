@@ -39,3 +39,20 @@ export function formatVesselPickLine(vessel: VesselKind): string {
 export function listVesselNarratives(): string[] {
   return (Object.keys(NARRATIVE) as VesselKind[]).map((v) => formatVesselLine(v));
 }
+
+/** 形态示意资源路径（UI 背景） */
+export const VESSEL_ART_PATH: Record<VesselKind, string> = {
+  flower: "/assets/ui/vessel_flower.jpg",
+  tea: "/assets/ui/tea_cup.jpg",
+  art: "/assets/ui/vessel_art.jpg",
+  music: "/assets/ui/vessel_music.jpg",
+  object: "/assets/ui/shelf_craft.jpg",
+};
+
+export function vesselArtPublicUrl(vessel: VesselKind): string {
+  return VESSEL_ART_PATH[vessel] ?? VESSEL_ART_PATH.object;
+}
+
+export function vesselArtDiskPath(vessel: VesselKind): string {
+  return `public${vesselArtPublicUrl(vessel)}`;
+}

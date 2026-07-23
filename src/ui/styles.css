@@ -1005,6 +1005,27 @@ html[data-reduce-motion="true"] .toast {
   background-size: cover;
   background-position: center;
 }
+.vessel-flower-art[data-vessel="art"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/vessel_art.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.vessel-flower-art[data-vessel="music"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/vessel_music.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.vessel-flower-art[data-vessel="flower"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/vessel_flower.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .rain-awning-art {
   height: 80px;

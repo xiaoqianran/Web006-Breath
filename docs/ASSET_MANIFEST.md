@@ -131,3 +131,5 @@
 | ART-061 | `public/assets/ui/shelf_craft.jpg` | 货架小物 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-062 | `public/assets/ui/tea_cup.jpg` | 茶杯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-063 | `public/assets/ui/vessel_flower.jpg` | 花形态 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-064 | `public/assets/ui/vessel_art.jpg` | 画形态 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-065 | `public/assets/ui/vessel_music.jpg` | 音乐形态 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
