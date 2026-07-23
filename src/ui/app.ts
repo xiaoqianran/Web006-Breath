@@ -20,6 +20,7 @@ import {
   SilentAudioBus,
   sfxForGameEvent,
   averageMatchScore,
+  bestVesselForGuest,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -526,7 +527,8 @@ export class YixiApp {
         const hints = listVesselHints(e)
           .map((h) => formatHintLine(h))
           .join(" · ");
-        hintEl.textContent = `气息提示：${hints}`;
+        const best = VESSEL_LABELS[bestVesselForGuest(e)];
+        hintEl.textContent = `气息提示：${hints}。隐约更靠近「${best}」。`;
       } else {
         hintEl.textContent = "";
         hintEl.hidden = true;
