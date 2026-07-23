@@ -662,6 +662,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["释然", "想念"],
     intensity: 3,
   },
+  {
+    id: "e95",
+    guestName: "周予",
+    text: "伞沿还在滴水，我想把雨声折进一封短笺。",
+    tags: ["想念", "疲惫"],
+    intensity: 3,
+  },
+  {
+    id: "e96",
+    guestName: "匿名",
+    text: "第九十六次路过，终于愿意让你看见我的侧影。",
+    tags: ["勇气", "孤独"],
+    intensity: 4,
+  },
 ];
 
 

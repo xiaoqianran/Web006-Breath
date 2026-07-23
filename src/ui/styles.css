@@ -773,6 +773,13 @@ html[data-reduce-motion="true"] .toast {
   background-size: cover;
   background-position: center;
 }
+.guest-silhouette[data-guest-art="v4"] {
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.05), rgba(247, 243, 236, 0.35)),
+    url("/assets/promo/guest_d.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .favor-board-art {
   height: 88px;

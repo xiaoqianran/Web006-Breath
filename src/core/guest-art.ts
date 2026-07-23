@@ -12,6 +12,7 @@ export const GUEST_PORTRAIT_VARIANTS = [
   "/assets/promo/guest_a.jpg",
   "/assets/promo/guest_b.jpg",
   "/assets/promo/guest_c.jpg",
+  "/assets/promo/guest_d.jpg",
 ] as const;
 
 export const GUEST_PORTRAIT_DISK = [
@@ -19,9 +20,10 @@ export const GUEST_PORTRAIT_DISK = [
   "public/assets/promo/guest_a.jpg",
   "public/assets/promo/guest_b.jpg",
   "public/assets/promo/guest_c.jpg",
+  "public/assets/promo/guest_d.jpg",
 ] as const;
 
-export type GuestPortraitVariantId = 0 | 1 | 2 | 3;
+export type GuestPortraitVariantId = 0 | 1 | 2 | 3 | 4;
 
 export function guestSilhouettePublicUrl(): string {
   return GUEST_SILHOUETTE_PATH;
@@ -50,6 +52,11 @@ export function guestPortraitPublicUrl(guestName: string): string {
 /** data-guest-art 属性值（CSS 钩子） */
 export function guestPortraitDataAttr(guestName: string): string {
   return `v${guestPortraitVariantIndex(guestName)}`;
+}
+
+/** 变体数量（单测用） */
+export function guestPortraitVariantCount(): number {
+  return GUEST_PORTRAIT_VARIANTS.length;
 }
 
 /** 读屏用简短说明 */
