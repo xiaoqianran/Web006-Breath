@@ -16,3 +16,4 @@ export * from "./shop-events";
 export * from "./favor";
 export * from "./stats";
 export * from "./day-goal";
+export * from "./text-sanitize";
