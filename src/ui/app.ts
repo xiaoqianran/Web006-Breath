@@ -47,6 +47,7 @@ import {
   reputationRankTitle,
   formatStreakLine,
   formatStreakEncourage,
+  formatQueueStatus,
   formatOrderLine,
   formatOrderShort,
   ensureActiveOrder,
@@ -741,10 +742,10 @@ export class YixiApp {
       <span class="muted" data-testid="day-goal">${formatDayGoalLine(goalP)}（${formatRatioPercent(goalP.bestRatio)}）</span>
       <span class="muted" data-testid="day-goal-encourage">${formatDayGoalEncourage(goalP)}</span>
       <span class="muted" data-testid="reputation-progress">${formatReputationProgress(s.reputation)}</span>
-      <span data-testid="streak-line">${formatStreakLine(s.qualityStreak ?? 0)}</span>
+      <span data-testid="streak-line"><span class="heart-charm-art" role="img" aria-label="连心小饰"></span>${formatStreakLine(s.qualityStreak ?? 0)}</span>
       <span class="muted" data-testid="streak-encourage">${formatStreakEncourage(s.qualityStreak ?? 0)}</span>
       <span>默契 <strong data-testid="avg-match">${averageMatchScore(s).toFixed(1)}</strong></span>
-      <span>等候 <strong>${s.queue.length}</strong></span>
+      <span data-testid="queue-status">${formatQueueStatus(s)}</span>
     `;
     wrap.appendChild(hud);
 

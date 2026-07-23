@@ -818,3 +818,15 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
     url("/assets/decor/signpost.jpg") center/cover no-repeat;
 }
+
+.heart-charm-art {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/heart_charm.jpg") center/cover no-repeat;
+}

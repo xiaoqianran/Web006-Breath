@@ -40,3 +40,4 @@ export * from "./bool";
 export * from "./group-by";
 export * from "./quality-rank";
 export * from "./streak-label";
+export * from "./queue-status";

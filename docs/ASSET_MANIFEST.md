@@ -93,3 +93,5 @@
 | ART-036 | `public/assets/bg/wind_curtain.jpg` | 风掀窗帘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-037 | `public/assets/decor/signpost.jpg` | 路牌 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-038 | `public/assets/ui/heart_charm.jpg` | 连心小饰 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
