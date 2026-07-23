@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 29,
+  "current_round": 31,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0029-shop-events-done",
-  "last_completed_task_id": "T0029-shop-events",
-  "last_commit": "3f2e75adf20b51590d625720261bf5fe8dafe25f",
+  "current_task_id": "T0031-next",
+  "last_completed_task_id": "T0031-ten-day-scripts",
+  "last_commit": "6bbcd7c5b84231429144bc48628087ab14c53e7e",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 58 passed",
+  "last_test_summary": "vitest: 59 passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -20,18 +20,14 @@
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离",
     "D-004 SilentAudioBus",
-    "D-005 五日剧本",
-    "D-006 货架容量 5",
-    "D-007 再访",
-    "D-008 温情价",
-    "D-009 确定性店事事件"
+    "D-005–010 剧本货架再访温情价店事十日"
   ],
   "next_candidate_tasks": [
     "真音频",
     "好感持久化",
-    "剧本扩展",
-    "无障碍深化"
+    "无障碍",
+    "M2 深化"
   ],
-  "resume_instructions": "cd /root/wk; git log -8 --oneline; git status; npm install; npm run check; npm run perf; npm run dev。58 tests，店事事件已接入流通后。约 29/1000 轮。毕业可演示。勿 push。下一：真音频或好感或剧本 6-10 日。",
-  "updated_at": "2026-07-23T20:37:00.000Z"
+  "resume_instructions": "cd /root/wk; git log -10; npm run check（59 tests）; npm run dev。十日剧本+店事+完整核心循环。约 31/1000 轮。勿 push。",
+  "updated_at": "2026-07-23T20:38:00.000Z"
 }
