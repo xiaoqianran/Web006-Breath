@@ -1420,7 +1420,7 @@
     },
     {
       "id": "T0117-continue-m2",
-      "title": "M2 订单引导深化",
+      "title": "客人剪影接入接待卡",
       "category": "feat",
       "milestone": "M2-systems",
       "description": "续跑：弱引导/内容/美术",
@@ -1434,8 +1434,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 116,
+      "completed_round": 117,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0118-emotions-52",
+      "title": "情绪样本扩充至 52",
+      "category": "content",
+      "milestone": "M2-systems",
+      "description": "SAMPLE>=52",
+      "priority": 58,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0117-continue-m2"
+      ],
+      "acceptance_criteria": [
+        ">=52"
+      ],
+      "test_plan": "emotions-data",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 117,
       "completed_round": null,
       "commit_hash": null
     }

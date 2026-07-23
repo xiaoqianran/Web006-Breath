@@ -13,6 +13,7 @@ export * from "./a11y-announce";
 export * from "./orders";
 export * from "./guest-names";
 export * from "./emotion-tags";
+export * from "./guest-art";
 export * from "./achievements";
 export * from "./affinity";
 export * from "./revisit";

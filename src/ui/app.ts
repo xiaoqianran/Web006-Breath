@@ -834,6 +834,7 @@ export class YixiApp {
     if (s.phase === "awaiting_vessel" && s.current) {
       const e = s.current;
       card.innerHTML = `
+        <div class="guest-silhouette" role="img" aria-label="客人剪影" data-testid="guest-silhouette"></div>
         <h2>${e.guestName}</h2>
         <p class="emotion-text" data-testid="emotion-text">「${e.text}」</p>
         <div class="tags">${e.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
