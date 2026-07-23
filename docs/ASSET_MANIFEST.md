@@ -150,3 +150,4 @@
 | ART-080 | `public/assets/ui/welcome_doorbell.jpg` | 迎客门铃铃铛 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-081 | `public/assets/bg/evening_lanterns.jpg` | 晚市灯巷 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-082 | `public/assets/ui/gift_box.jpg` | 礼物盒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-083 | `public/assets/ui/ribbon_spools.jpg` | 丝带卷 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

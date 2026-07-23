@@ -8,8 +8,8 @@ import { goalsForDay, describeDayOpener } from "../src/data/emotions";
 import { createGameState, runFullCirculation } from "../src/core";
 
 describe("day scripts", () => {
-  it("定义至少 64 日剧本", () => {
-    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(64);
+  it("定义至少 66 日剧本", () => {
+    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(66);
     for (const d of DAY_SCRIPTS) {
       expect(d.sampleIndexes.length).toBeGreaterThanOrEqual(3);
       expect(d.goalCirculations).toBeGreaterThan(0);

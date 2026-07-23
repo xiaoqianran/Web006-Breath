@@ -1037,6 +1037,7 @@ export class YixiApp {
       card.innerHTML = `
         <div class="gift-station-art" role="img" aria-label="赠予包装台" data-testid="gift-station-art"></div>
         <div class="gift-box-art" role="img" aria-label="礼物盒" data-testid="gift-box-art"></div>
+        <div class="ribbon-spools-art" role="img" aria-label="丝带卷" data-testid="ribbon-spools-art"></div>
         <div class="match-abacus-art" role="img" aria-label="匹配算珠" data-testid="match-abacus-art"></div>
         <div class="quality-seal-art" role="img" aria-label="品质印记" data-testid="quality-seal-art"></div>
         <div class="vessel-flower-art" role="img" aria-label="花形态示意" data-testid="vessel-flower-art" data-vessel="${item.vessel}"></div>

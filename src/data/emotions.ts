@@ -760,6 +760,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "想念"],
     intensity: 3,
   },
+  {
+    id: "e109",
+    guestName: "匿名",
+    text: "礼物盒合上的声音很轻，像一句不用回的谢谢。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e110",
+    guestName: "林晚",
+    text: "一百一十次想送人的东西，今天终于选好了丝带颜色。",
+    tags: ["期待", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e111",
+    guestName: "周予",
+    text: "上架也可以是温柔：让它在架子上等对的人。",
+    tags: ["安心", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e112",
+    guestName: "南枝",
+    text: "把包装纸抚平，心里的皱褶也跟着平了一点。",
+    tags: ["释然", "想念"],
+    intensity: 3,
+  },
 ];
 
 
