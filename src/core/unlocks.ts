@@ -39,12 +39,20 @@ export const UNLOCKS: UnlockDef[] = [
     minReputation: 6,
     minCirculations: 8,
   },
+  {
+    id: "fortnight",
+    title: "半月掌灯",
+    description: "经营满 15 日的纪念",
+    minReputation: 8,
+    minCirculations: 12,
+  },
 ];
 
 export function isUnlockEarned(state: GameState, unlock: UnlockDef): boolean {
   const rareDone = state.history.some((h) => h.item.quality === "rare");
   if (unlock.id === "rare_shelf" && !rareDone) return false;
   if (unlock.id === "week_keeper" && state.day < 2) return false;
+  if (unlock.id === "fortnight" && state.day < 15) return false;
   return (
     state.reputation >= unlock.minReputation &&
     state.history.length >= unlock.minCirculations
