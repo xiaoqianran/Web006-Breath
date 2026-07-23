@@ -503,6 +503,7 @@ export class YixiApp {
       <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
       <div class="season-banner" role="img" aria-label="春日店饰" data-testid="season-banner"></div>
       <div class="morning-dew-art" role="img" aria-label="晨露门铃" data-testid="morning-dew"></div>
+      <div class="street-lamp-art" role="img" aria-label="巷口路灯" data-testid="street-lamp"></div>
       <p class="muted">Gentle Moments Shop · v0.2.6</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>

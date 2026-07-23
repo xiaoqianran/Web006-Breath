@@ -396,6 +396,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 2,
   },
+  {
+    id: "e57",
+    guestName: "匿名",
+    text: "把旧票根夹进钱包，像把路过的光收起来。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e58",
+    guestName: "南",
+    text: "路灯一盏盏亮起，像有人替我点名回家。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
 ];
 
 

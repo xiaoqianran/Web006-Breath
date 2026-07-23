@@ -760,3 +760,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.45)),
     url("/assets/promo/full_moon.jpg") center/cover no-repeat;
 }
+
+.street-lamp-art {
+  height: 72px;
+  border-radius: 10px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.48)),
+    url("/assets/bg/street_lamp.jpg") center/cover no-repeat;
+}
