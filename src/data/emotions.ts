@@ -340,6 +340,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "孤独"],
     intensity: 3,
   },
+  {
+    id: "e49",
+    guestName: "匿名",
+    text: "把钥匙放错口袋，却因此多绕了半条街的花。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e50",
+    guestName: "周",
+    text: "会议纪要写到第三页，才发现自己在画云。",
+    tags: ["疲惫", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e51",
+    guestName: "匿名",
+    text: "夜巴士只剩我和司机，收音机放着很旧的歌。",
+    tags: ["孤独", "想念"],
+    intensity: 4,
+  },
+  {
+    id: "e52",
+    guestName: "满",
+    text: "把未寄出的明信片夹进书里，当书签用。",
+    tags: ["遗憾", "温柔"],
+    intensity: 3,
+  },
 ];
 
 
