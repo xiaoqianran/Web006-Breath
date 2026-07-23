@@ -214,6 +214,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "温柔"],
     intensity: 2,
   },
+  {
+    id: "e31",
+    guestName: "澄",
+    text: "把闹钟拨后五分钟，却比平时更清醒。",
+    tags: ["释然", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e32",
+    guestName: "匿名",
+    text: "雨刷停了，玻璃上还停着半句未说完的话。",
+    tags: ["遗憾", "温柔"],
+    intensity: 4,
+  },
 ];
 
 
