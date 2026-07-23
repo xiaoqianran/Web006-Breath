@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 141,
+  "current_round": 142,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0142-day-scripts-36",
-  "last_completed_task_id": "T0141-emotions-64",
-  "last_commit": "c0a21268076288bf5ca1081e6e807fad4b116528",
+  "current_task_id": "T0143-continue",
+  "last_completed_task_id": "T0142-day-scripts-36",
+  "last_commit": "6caac7b706fccd6fd2a6f86e2be13b1e292edfc6",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 160 passed (53 files)",
+  "last_test_summary": "vitest: 161 passed (53 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0142-day-scripts-36",
-    "持续生图",
-    "M2"
+    "T0143-continue",
+    "M2",
+    "生图恢复后继续"
   ],
-  "resume_instructions": "功能 c0a21268076288bf5ca1081e6e807fad4b116528 T0141 情绪64。轮次141/1000。下一 T0142 剧本36。160 tests。npm run check && npm run dev",
-  "updated_at": "2026-07-23T22:53:55Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6caac7b706fccd6fd2a6f86e2be13b1e292edfc6 T0142 剧本36\n轮次: 142 / 1000 · v0.2.6 · M2\n本会话: T0140 匹配叙事 · T0141 情绪64 · T0142 剧本36\n测试: 161 passed；双 smoke warmth=19\n生图: T0142 本轮无新图（Imagine 429 rate limit）；既有资产仍完整\n下一: T0143\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:54:28Z"
 }
