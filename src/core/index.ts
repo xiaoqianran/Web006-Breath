@@ -24,3 +24,4 @@ export * from "./clamp";
 export * from "./assert-state";
 export * from "./format-number";
 export * from "./id";
+export * from "./equals";
