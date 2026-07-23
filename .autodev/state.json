@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 33,
+  "current_round": 34,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0033-next",
-  "last_completed_task_id": "T0033-favor-revisit",
-  "last_commit": "daf878a06b459e849e0f224dd499a1aa91c4bfe2",
+  "current_task_id": "T0034-next",
+  "last_completed_task_id": "T0034-a11y-skip",
+  "last_commit": "3d27fbadd8be7b3fd54a0412a27e50994461b4cd",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 62 passed",
   "core_loop_status": "playable_demo_ready",
@@ -20,15 +20,14 @@
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离",
     "D-004 SilentAudioBus",
-    "D-005 十日剧本",
-    "D-006 货架/再访/温情价/店事/好感联动"
+    "D-005 十日剧本与系统深化"
   ],
   "next_candidate_tasks": [
-    "真音频",
-    "无障碍 aria",
+    "真音频资源接入 SilentAudioBus 实现",
+    "更多情绪与剧本",
     "M2 随机订单",
-    "继续内容"
+    "读屏文案审计"
   ],
-  "resume_instructions": "cd /root/wk; git log -10 --oneline; git status; npm install; npm run check（62 tests）; npm run perf; npm run dev。v0.2.1 可演示。约 33/1000 轮。勿 push。下一：真音频或 aria 或更多情绪。",
-  "updated_at": "2026-07-23T20:39:40.000Z"
+  "resume_instructions": "cd /root/wk && git log -15 --oneline && git status && npm install && npm run check && npm run perf && npm run dev。HEAD=3d27fba（或更新）。v0.2.1，62 unit tests，毕业设计可演示完整核心循环。约 34/1000 轮。证据：会话 scratch 下 check-*.txt / perf-baseline.txt。勿 push。下一最高价值：真音频或内容扩充。",
+  "updated_at": "2026-07-23T20:40:00.000Z"
 }
