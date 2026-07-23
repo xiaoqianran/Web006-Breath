@@ -175,6 +175,33 @@ export function formatNextUnlockLine(state: GameState): string {
   return `下一枚纪念：${n.hint}`;
 }
 
+/** 解锁进度鼓励（HUD / 图鉴 / 读屏） */
+export function formatUnlockEncourage(state: GameState): string {
+  const earned = listEarnedUnlocks(state).length;
+  const total = UNLOCKS.length;
+  const next = nextUnlockTarget(state);
+  if (!next) {
+    return `纪念已齐（${earned}/${total}）。流通本身仍是最好的奖章。`;
+  }
+  if (next.ratio >= 0.75) {
+    return `「${next.unlock.title}」就差一点了（约 ${Math.round(next.ratio * 100)}%），再走几步温柔。`;
+  }
+  if (next.ratio >= 0.35) {
+    return `往「${next.unlock.title}」走着：${next.unlock.description}`;
+  }
+  if (earned === 0) {
+    return "第一枚纪念还在路上——先接待、再流通，口碑会慢慢亮。";
+  }
+  return `已收藏 ${earned}/${total} 枚纪念；下一目标「${next.unlock.title}」。`;
+}
+
+/** 解锁板摘要（已解锁标题列表） */
+export function formatUnlockBoardSummary(state: GameState): string {
+  const earned = listEarnedUnlocks(state);
+  if (earned.length === 0) return "店面纪念仍是空的，完成流通后会亮起第一枚。";
+  return `已解锁：${earned.map((u) => u.title).join("、")}`;
+}
+
 /** 形态图鉴：用于展示擅长标签（非玩法作弊面板） */
 export function vesselAffinityLines(): { vessel: VesselKind; line: string }[] {
   return [

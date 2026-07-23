@@ -8,6 +8,8 @@ import {
   announceViewChange,
   announceDayComplete,
   announceDayCompleteRich,
+  announceAtmosphere,
+  announcePhaseWithAtmosphere,
   announceCirculation,
   announceOrderFulfilled,
   announceFavorTop,
@@ -41,6 +43,8 @@ describe("a11y announce pure helpers", () => {
     expect(announceOrderFulfilled("林晚", 3)).toContain("3");
     expect(announceFavorTop("阿初", 8, favorRankTitle(8))).toContain("熟客");
     expect(announcePhaseWithHint("awaiting_vessel")).toContain("容器");
+    expect(announceAtmosphere(1)).toContain("氛围");
+    expect(announcePhaseWithAtmosphere("awaiting_emotion", 2)).toMatch(/雨|氛围|阶段/);
   });
 
   it("joinAnnouncements 过滤空串", () => {

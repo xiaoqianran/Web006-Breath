@@ -135,3 +135,5 @@
 | ART-065 | `public/assets/ui/vessel_music.jpg` | 音乐形态 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-066 | `public/assets/ui/codex_scrap.jpg` | 图鉴手账 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-067 | `public/assets/ui/codex_ribbon.jpg` | 图鉴丝带书签 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-068 | `public/assets/bg/menu_hero.jpg` | 主菜单门廊 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-069 | `public/assets/ui/unlock_ribbon.jpg` | 解锁丝带徽章 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

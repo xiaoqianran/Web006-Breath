@@ -16,6 +16,8 @@ import {
   listEarnedUnlocks,
   listLockedUnlocks,
   formatNextUnlockLine,
+  formatUnlockEncourage,
+  formatUnlockBoardSummary,
   vesselAffinityLines,
   newlyEarnedUnlocks,
   HybridAudioBus,
@@ -89,6 +91,7 @@ import {
   announceUnlock,
   announceViewChange,
   announceDayCompleteRich,
+  announceAtmosphere,
   announceCirculation,
   announceFavorTop,
   favorRankTitle,
@@ -231,6 +234,9 @@ export class YixiApp {
     this.view = view;
     this.syncBgmForView(view);
     this.queueAnnounce(announceViewChange(view));
+    if (view === "shop") {
+      this.queueAnnounce(announceAtmosphere(this.state.day));
+    }
     this.render();
   }
 
@@ -367,6 +373,7 @@ export class YixiApp {
       this.view = "tutorial";
     } else {
       this.view = "shop";
+      this.queueAnnounce(announceAtmosphere(1));
     }
     this.render();
   }
@@ -546,6 +553,7 @@ export class YixiApp {
     el.className = "screen active menu-center";
     el.innerHTML = `
       <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
+      <div class="menu-hero-door" role="img" aria-label="小店门廊" data-testid="menu-hero-door"></div>
       <div class="season-banner" role="img" aria-label="春日店饰" data-testid="season-banner"></div>
       <div class="morning-dew-art" role="img" aria-label="晨露门铃" data-testid="morning-dew"></div>
       <div class="street-lamp-art" role="img" aria-label="巷口路灯" data-testid="street-lamp"></div>
@@ -684,6 +692,7 @@ export class YixiApp {
       <div class="card" data-testid="unlocks">
         <div class="full-moon-art" role="img" aria-label="满月掌灯意象" data-testid="full-moon-art"></div>
         <div class="unlock-medal-art" role="img" aria-label="纪念徽章" data-testid="unlock-medal-art"></div>
+        <div class="unlock-ribbon-art" role="img" aria-label="解锁丝带徽章" data-testid="unlock-ribbon-art"></div>
         <div class="progress-ribbon-art" role="img" aria-label="进度丝带" data-testid="progress-ribbon-art"></div>
         <h3>店面解锁</h3>
         ${
@@ -696,7 +705,9 @@ export class YixiApp {
             ? `<p class="muted">未解锁：${locked.map((u) => u.title).join("、")}</p>`
             : ""
         }
+        <p class="muted" data-testid="unlock-board-summary">${formatUnlockBoardSummary(this.state)}</p>
         <p class="muted" data-testid="next-unlock">${formatNextUnlockLine(this.state)}</p>
+        <p class="muted" data-testid="unlock-encourage">${formatUnlockEncourage(this.state)}</p>
       </div>
       <div class="card" data-testid="affinity-codex">
         <h3>形态图鉴</h3>

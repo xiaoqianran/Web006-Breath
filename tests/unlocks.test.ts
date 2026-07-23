@@ -10,6 +10,8 @@ import {
   unlockProgress,
   nextUnlockTarget,
   formatNextUnlockLine,
+  formatUnlockEncourage,
+  formatUnlockBoardSummary,
   listUnlockProgress,
   type Emotion,
 } from "../src/core";
@@ -113,6 +115,8 @@ describe("unlocks", () => {
     expect(next).not.toBeNull();
     expect(next!.earned).toBe(false);
     expect(formatNextUnlockLine(state)).toContain("下一枚纪念");
+    expect(formatUnlockEncourage(state)).toMatch(/纪念|第一枚|目标/);
+    expect(formatUnlockBoardSummary(state)).toContain("空");
   });
 });
 

@@ -7,6 +7,7 @@ import { phaseLabel } from "./phase-label";
 import { phaseHint } from "./phase-hint";
 import { warmthRankTitle } from "./warmth-label";
 import { formatDayEndClosing } from "./day-end-narrative";
+import { formatAtmosphereShort, atmosphereForDay } from "./day-atmosphere";
 import type { GamePhase } from "./types";
 
 export type AppViewName =
@@ -107,5 +108,21 @@ export function announceFavorTop(name: string, favor: number, rankTitle: string)
 /** 阶段切换时附带操作提示 */
 export function announcePhaseWithHint(phase: GamePhase): string {
   return `${announcePhaseChange(phase)}。${phaseHint(phase)}`;
+}
+
+/** 进入店内/新日时播报氛围 */
+export function announceAtmosphere(day: number): string {
+  const a = atmosphereForDay(day);
+  return `今日氛围：${formatAtmosphereShort(day)}。${a.line}`;
+}
+
+/** 阶段 + 提示 + 氛围（可选 day） */
+export function announcePhaseWithAtmosphere(
+  phase: GamePhase,
+  day?: number,
+): string {
+  const base = announcePhaseWithHint(phase);
+  if (day == null || day < 1) return base;
+  return joinAnnouncements(base, announceAtmosphere(day));
 }
 

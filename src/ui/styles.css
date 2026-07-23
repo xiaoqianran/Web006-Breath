@@ -382,6 +382,30 @@ button.display {
   margin-bottom: 1.25rem;
 }
 
+.menu-hero-door {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  margin: 0 auto 1rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.55)),
+    url("/assets/bg/menu_hero.jpg") center / cover no-repeat;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(168, 195, 176, 0.3);
+}
+
+.unlock-ribbon-art {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  margin: 0 auto 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/unlock_ribbon.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
 .quality-rare {
   color: var(--tea-gold);
   font-weight: 700;
