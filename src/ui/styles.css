@@ -724,6 +724,15 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/moment_letter.jpg") center/cover no-repeat;
 }
 
+.writing-desk-art {
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/writing_desk.jpg") center/cover no-repeat;
+}
+
 .puddle-dusk-art {
   height: 80px;
   border-radius: 12px;

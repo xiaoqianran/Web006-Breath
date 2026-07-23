@@ -1114,6 +1114,7 @@ export class YixiApp {
     box.innerHTML = `
       <div class="letter-seal-art" role="img" aria-label="瞬间信笺封口" data-testid="letter-seal-art"></div>
       <div class="moment-letter-art" role="img" aria-label="瞬间信笺" data-testid="moment-letter-art"></div>
+      <div class="writing-desk-art" role="img" aria-label="写字台" data-testid="writing-desk-art"></div>
       <div class="paper-stamp-art" role="img" aria-label="日记印章" data-testid="paper-stamp-art"></div>
       <div class="circulation-log-art" role="img" aria-label="流通手账" data-testid="circulation-log-art"></div>
       <div class="fountain-pen-art" role="img" aria-label="钢笔" data-testid="fountain-pen-art"></div>

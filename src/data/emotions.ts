@@ -676,6 +676,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "孤独"],
     intensity: 4,
   },
+  {
+    id: "e97",
+    guestName: "沈辞",
+    text: "把瞬间写在信笺背面，封口前又撕开看了一眼。",
+    tags: ["遗憾", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e98",
+    guestName: "南枝",
+    text: "暮色水洼里有店灯，我站在那里把今天想说完。",
+    tags: ["想念", "释然"],
+    intensity: 4,
+  },
+  {
+    id: "e99",
+    guestName: "匿名",
+    text: "九十九次想寄出的信，今天终于贴上了温柔的封。",
+    tags: ["勇气", "期待"],
+    intensity: 4,
+  },
+  {
+    id: "e100",
+    guestName: "陆安",
+    text: "第一百次推门：请把我的心情，轻轻流通出去。",
+    tags: ["安心", "温柔"],
+    intensity: 5,
+  },
 ];
 
 

@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 178,
+  "current_round": 179,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0179-continue",
-  "last_completed_task_id": "T0178-continue",
-  "last_commit": "2f851a55166f5f7334a25762e3f4fc9582438e7c",
+  "current_task_id": "T0180-continue",
+  "last_completed_task_id": "T0179-continue",
+  "last_commit": "bdcf4aed1330ab31167323587fafa51a7de150c0",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 189 passed (62 files)",
+  "last_test_summary": "vitest: 190 passed (63 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,11 +25,11 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0179-continue",
+    "T0180-continue",
     "M2",
-    "内容/无障碍",
+    "内容扩充",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2f851a55166f5f7334a25762e3f4fc9582438e7c T0178 剧本58/伞架\n轮次: 178 / 1000 · v0.2.6 · M2\n本段: T0174–T0178 解锁/内容94–96/温情价/客人D/剧本58\n测试: 189 passed；双 smoke warmth=19\n下一: T0179\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T23:39:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: bdcf4aed1330ab31167323587fafa51a7de150c0 T0179 瞬间旁白\n轮次: 179 / 1000 · v0.2.6 · M2\n测试: 190 passed；双 smoke warmth=19\n下一: T0180\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T23:41:20Z"
 }
