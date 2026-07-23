@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 142,
+  "current_round": 143,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0143-continue",
-  "last_completed_task_id": "T0142-day-scripts-36",
-  "last_commit": "6caac7b706fccd6fd2a6f86e2be13b1e292edfc6",
+  "current_task_id": "T0144-continue",
+  "last_completed_task_id": "T0143-continue",
+  "last_commit": "b317bb7199942861a17ad1996d756f803ad39de7",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 161 passed (53 files)",
+  "last_test_summary": "vitest: 163 passed (54 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0143-continue",
+    "T0144-continue",
     "M2",
-    "生图恢复后继续"
+    "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6caac7b706fccd6fd2a6f86e2be13b1e292edfc6 T0142 剧本36\n轮次: 142 / 1000 · v0.2.6 · M2\n本会话: T0140 匹配叙事 · T0141 情绪64 · T0142 剧本36\n测试: 161 passed；双 smoke warmth=19\n生图: T0142 本轮无新图（Imagine 429 rate limit）；既有资产仍完整\n下一: T0143\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:54:28Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b317bb7199942861a17ad1996d756f803ad39de7 T0143 形态推荐\n轮次: 143 / 1000 · v0.2.6 · M2\n本会话: T0140–T0143 匹配叙事/情绪64/剧本36/形态推荐\n测试: 163 passed；双 smoke warmth=19\n下一: T0144\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:56:03Z"
 }
