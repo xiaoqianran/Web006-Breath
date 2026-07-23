@@ -1371,8 +1371,29 @@
       ],
       "test_plan": "stats format + UI 结构",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 113,
+      "completed_round": 114,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0115-day-scripts-22",
+      "title": "日剧本扩充至 22 日",
+      "category": "content",
+      "milestone": "M2-systems",
+      "description": "DAY_SCRIPTS>=22",
+      "priority": 60,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0114-order-day-end"
+      ],
+      "acceptance_criteria": [
+        "≥22 日"
+      ],
+      "test_plan": "day-scripts",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 114,
       "completed_round": null,
       "commit_hash": null
     }

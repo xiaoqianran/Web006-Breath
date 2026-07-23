@@ -58,3 +58,5 @@
 
 | ART-017 | `public/assets/ui/tutorial_book.jpg` | 教程册页 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-018 | `public/assets/ui/letter_seal.jpg` | 瞬间信笺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-019 | `public/assets/ui/closed_sign.jpg` | 打烊门牌 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -28,6 +28,7 @@ import {
   topFavoredGuests,
   computeSessionStats,
   formatStatsSummary,
+  formatOrderDayEndLine,
   dayGoalProgress,
   formatDayGoalLine,
   phaseLabel,
@@ -909,9 +910,11 @@ export class YixiApp {
       const stats = computeSessionStats(s);
       card.innerHTML = `
         <div class="day-complete-art" role="img" aria-label="打烊窗景插画" data-testid="day-complete-art"></div>
+        <div class="closed-sign-art" role="img" aria-label="打烊门牌" data-testid="closed-sign-art"></div>
         <h2>今日打烊</h2>
         <p>你完成了今日的情绪流通。温存 ${s.warmth}，今日流通 ${s.circulationsToday} 次。</p>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>
+        <p data-testid="day-end-orders">${formatOrderDayEndLine(s)}</p>
       `;
       if (s.lastResult) {
         card.appendChild(this.renderLastResult(s));

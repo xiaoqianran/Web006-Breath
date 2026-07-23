@@ -5,6 +5,7 @@ import {
   continueAfterResult,
   computeSessionStats,
   formatStatsSummary,
+  formatOrderDayEndLine,
   type Emotion,
 } from "../src/core";
 
@@ -48,5 +49,18 @@ describe("session stats", () => {
     const s = computeSessionStats(state);
     expect(s.ordersFulfilled).toBe(2);
     expect(formatStatsSummary(s)).toContain("委托");
+  });
+
+  it("打烊委托摘要文案", () => {
+    let state = createGameState([e]);
+    expect(formatOrderDayEndLine({ ...state, ordersFulfilled: 0, activeOrder: null })).toContain(
+      "没有完成委托",
+    );
+    expect(formatOrderDayEndLine({ ...state, ordersFulfilled: 3 })).toContain("3 笔");
+    const withOrder = createGameState([e]);
+    expect(withOrder.activeOrder).toBeTruthy();
+    expect(
+      formatOrderDayEndLine({ ...withOrder, ordersFulfilled: 0 }),
+    ).toContain("尚未履约");
   });
 });

@@ -58,3 +58,14 @@ export function formatStatsSummary(stats: SessionStats): string {
     stats.ordersFulfilled > 0 ? `，委托 ${stats.ordersFulfilled} 笔` : "";
   return `流通 ${stats.circulations} 次（赠予 ${stats.gifts} / 上架 ${stats.displays}），平均匹配 ${stats.avgMatch.toFixed(1)}，温存 ${stats.warmth}${orderPart}。`;
 }
+
+/** 打烊页委托摘要（纯函数） */
+export function formatOrderDayEndLine(state: GameState): string {
+  const n = state.ordersFulfilled ?? 0;
+  if (n <= 0) {
+    return state.activeOrder
+      ? `今日委托尚未履约（${state.activeOrder.guestName} 仍在等）。`
+      : "今日没有完成委托，明天告示板还会再写新的。";
+  }
+  return `今日履约委托 ${n} 笔，告示板上的心愿被轻轻接住了。`;
+}
