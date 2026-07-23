@@ -26,6 +26,8 @@ import {
   rollShopEvent,
   applyShopEvent,
   topFavoredGuests,
+  computeSessionStats,
+  formatStatsSummary,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -388,6 +390,10 @@ export class YixiApp {
                 .map((g) => `<p><strong>${g.name}</strong> · 好感 ${g.favor}</p>`)
                 .join("")
         }
+      </div>
+      <div class="card" data-testid="session-stats">
+        <h3>本局统计</h3>
+        <p data-testid="stats-summary">${formatStatsSummary(computeSessionStats(this.state))}</p>
       </div>`;
     el.innerHTML = `
       <h2>瞬间图鉴</h2>
