@@ -55,3 +55,4 @@ export * from "./moment-label";
 export * from "./settings-label";
 export * from "./tutorial-label";
 export * from "./accept-label";
+export * from "./gift-label";

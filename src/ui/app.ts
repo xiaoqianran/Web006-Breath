@@ -91,6 +91,10 @@ import {
   formatAcceptButtonLabel,
   formatAcceptReadyHint,
   formatAcceptAriaLabel,
+  formatGiftWrapLine,
+  formatDisplayWrapLine,
+  formatCirculationChoiceHint,
+  formatGiftBoxAside,
   formatOrderLine,
   formatOrderShort,
   formatOrderRewardLine,
@@ -1032,6 +1036,7 @@ export class YixiApp {
       const item = s.crafted;
       card.innerHTML = `
         <div class="gift-station-art" role="img" aria-label="赠予包装台" data-testid="gift-station-art"></div>
+        <div class="gift-box-art" role="img" aria-label="礼物盒" data-testid="gift-box-art"></div>
         <div class="match-abacus-art" role="img" aria-label="匹配算珠" data-testid="match-abacus-art"></div>
         <div class="quality-seal-art" role="img" aria-label="品质印记" data-testid="quality-seal-art"></div>
         <div class="vessel-flower-art" role="img" aria-label="花形态示意" data-testid="vessel-flower-art" data-vessel="${item.vessel}"></div>
@@ -1046,15 +1051,21 @@ export class YixiApp {
         <p class="muted" data-testid="warmth-price-line">${formatWarmthPriceLine(item)}</p>
         <p class="muted" data-testid="price-narrative">${formatPriceNarrative(item)}</p>
         <p class="muted" data-testid="craft-summary">${formatCraftSummary(item.matchScore, item.quality)}</p>
+        <p class="muted" data-testid="gift-wrap-line">${formatGiftWrapLine(item.vessel, item.quality)}</p>
+        <p class="muted" data-testid="display-wrap-line">${formatDisplayWrapLine(item.vessel, item.quality)}</p>
+        <p class="muted" data-testid="gift-choice-hint">${formatCirculationChoiceHint("gift")} ${formatCirculationChoiceHint("display")}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <p class="muted" data-testid="order-match-aside">${formatOrderMatchAside(item, s.activeOrder)}</p>
         <div class="btn-row"></div>
       `;
       const row = card.querySelector(".btn-row")!;
-      row.append(
-        this.button("上架", () => this.setState(circulate(s, "display")), "display"),
-        this.button("赠予", () => this.setState(circulate(s, "gift")), "gift"),
-      );
+      const displayBtn = this.button("上架", () => this.setState(circulate(s, "display")), "display");
+      const giftBtn = this.button("赠予", () => this.setState(circulate(s, "gift")), "gift");
+      displayBtn.title = formatDisplayWrapLine(item.vessel, item.quality);
+      giftBtn.title = formatGiftWrapLine(item.vessel, item.quality);
+      giftBtn.setAttribute("aria-label", `赠予：${formatGiftBoxAside("gift")}`);
+      displayBtn.setAttribute("aria-label", `上架：${formatGiftBoxAside("display")}`);
+      row.append(displayBtn, giftBtn);
       return card;
     }
 

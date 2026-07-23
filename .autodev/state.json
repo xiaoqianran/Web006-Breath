@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 183,
+  "current_round": 184,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0184-continue",
-  "last_completed_task_id": "T0183-continue",
-  "last_commit": "db3dc3479f7ae16633b882a4b32ceb5537d9fb07",
+  "current_task_id": "T0185-continue",
+  "last_completed_task_id": "T0184-continue",
+  "last_commit": "827676cb3acdb793c2a95aa8d59c28e3813d8afc",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 192 passed (65 files)",
+  "last_test_summary": "vitest: 193 passed (66 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,11 +25,11 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0184-continue",
+    "T0185-continue",
     "M2",
-    "内容/生图",
-    "持续"
+    "赠予包装叙事",
+    "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: db3dc3479f7ae16633b882a4b32ceb5537d9fb07 T0183 教程文案\n轮次: 183 / 1000 · v0.2.6 · M2\n本段: T0179–T0183 瞬间/情绪104/设置/教程\n测试: 192 passed；双 smoke warmth=19\n下一: T0184\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T23:46:45Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 827676cb3acdb793c2a95aa8d59c28e3813d8afc T0184 接待/内容108/64\n轮次: 184 / 1000 · v0.2.6 · M2\n测试: 193 passed；双 smoke warmth=19\n下一: T0185\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T23:49:20Z"
 }
