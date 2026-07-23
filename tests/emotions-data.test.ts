@@ -4,7 +4,7 @@ import { createGameState, runFullCirculation } from "../src/core";
 
 describe("emotion content", () => {
   it("样本情绪不少于 12 条且字段完整", () => {
-    expect(SAMPLE_EMOTIONS.length).toBeGreaterThanOrEqual(28);
+    expect(SAMPLE_EMOTIONS.length).toBeGreaterThanOrEqual(30);
     for (const e of SAMPLE_EMOTIONS) {
       expect(e.id).toBeTruthy();
       expect(e.text.length).toBeGreaterThan(4);

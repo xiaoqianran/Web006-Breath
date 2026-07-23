@@ -200,7 +200,22 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["疲惫", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e29",
+    guestName: "汀",
+    text: "把信纸叠好，贴上不存在的邮票。",
+    tags: ["想念", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e30",
+    guestName: "匿名",
+    text: "电梯门开合之间，有人说了句加油。",
+    tags: ["勇气", "温柔"],
+    intensity: 2,
+  },
 ];
+
 
 
 export function freshDayQueue(day: number = 1): Emotion[] {
