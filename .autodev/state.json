@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 128,
+  "current_round": 129,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0129-unlock-month",
-  "last_completed_task_id": "T0128-day-scripts-28",
-  "last_commit": "3b87db2570604d6fc69d68eaca37c55695dfb9da",
+  "current_task_id": "T0130-continue",
+  "last_completed_task_id": "T0129-unlock-month",
+  "last_commit": "099279523d39cf65916774f5adf4ab616770e830",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 149 passed (49 files)",
+  "last_test_summary": "vitest: 150 passed (49 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0129-unlock-month",
-    "持续生图",
-    "M2"
+    "T0130-continue",
+    "M2",
+    "持续生图"
   ],
-  "resume_instructions": "功能 3b87db2570604d6fc69d68eaca37c55695dfb9da T0128 剧本28+晚市。轮次128/1000。下一 T0129 满月解锁。149 tests。npm run check && npm run dev",
-  "updated_at": "2026-07-23T22:40:39Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 099279523d39cf65916774f5adf4ab616770e830 T0129 满月掌灯\n轮次: 129 / 1000 · v0.2.6 · M2\n本会话: T0126–T0129 日目标/情绪56/剧本28/满月解锁 + 生图\n测试: 150 passed；双 smoke warmth=19\n下一: T0130\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:41:25Z"
 }
