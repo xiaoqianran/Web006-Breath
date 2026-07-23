@@ -813,6 +813,25 @@
       "created_round": 51,
       "completed_round": 51,
       "commit_hash": "3916920109010364dcc25339ac7aedd9e3874b7e"
+    },
+    {
+      "id": "T0052-vessel-list",
+      "title": "形态热键工具",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "vesselByHotkey",
+      "priority": 53,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "1-5映射"
+      ],
+      "test_plan": "tests/vessel-list.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 52,
+      "completed_round": 52,
+      "commit_hash": "e9e5fc3ad211d3b382a6aa9938c3d0be55a16687"
     }
   ]
 }
