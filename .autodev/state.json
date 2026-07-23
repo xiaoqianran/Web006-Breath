@@ -8,7 +8,7 @@
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0049-next",
   "last_completed_task_id": "T0048-help-overlay",
-  "last_commit": "6abee2408ea16d646b4948ac008f88144f1bf801",
+  "last_commit": "51fe9bf507b659c1a1061b1ee6afad3faf14fa91",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 74 passed (24 files)",
   "core_loop_status": "playable_demo_ready",
@@ -27,6 +27,6 @@
     "读屏审计",
     "M2 随机订单"
   ],
-  "resume_instructions": "【权威 tip / last_commit】6abee2408ea16d646b4948ac008f88144f1bf801\n当前轮次: 48 / 1000。\n当前目标: M1 深化；下一 T0039 真音频或读屏。\n已完成步骤:\n  1. skeptic 三缺口修复：ROADMAP 0037/0038→done；backlog 含 T0046–T0048 done；PROGRESS 对齐程序化音效与 74 tests\n  2. 帮助覆盖层 ? 键 @ 65a5659d7455cd2c0e35998523a10eb330e1dbf1\n  3. npm run check → 74 passed + smoke 一致\n尚未完成: 外部真音频文件；1000 轮剩余。\nGit: branch=main；last_commit=65a5659d7455cd2c0e35998523a10eb330e1dbf1；git status 应 clean；tip 以 git rev-parse HEAD 为准。\n测试: 74 passed / 24 files；build OK；smoke 双次 SMOKE_OK。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git log -6 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T21:02:51Z"
+  "resume_instructions": "【权威 tip】51fe9bf507b659c1a1061b1ee6afad3faf14fa91\n【功能提交】65a5659d7455cd2c0e35998523a10eb330e1dbf1 三缺口+帮助层\n【闭合提交】6abee2408ea16d646b4948ac008f88144f1bf801 backlog/ROADMAP/PROGRESS\n当前轮次: 48 / 1000。\n当前目标: M1 深化；下一 T0039-real-audio-files。\n已完成步骤: skeptic 三缺口已清；T0046/T0047/T0048 done；74 tests；? 帮助。\n尚未完成: 真音频文件；1000 轮剩余。\nGit: main clean（若再有 commit 以 git rev-parse HEAD 为准）。\n测试: 74 passed / 24 files；npm run check；smoke 双次一致。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git rev-parse HEAD && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T21:03:14Z"
 }
