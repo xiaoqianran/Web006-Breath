@@ -6,11 +6,11 @@
   "current_round": 51,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0051-next",
-  "last_completed_task_id": "T0050-text-sanitize",
-  "last_commit": "f243869c0b96456617d8ac80231eb5df9ac78957",
+  "current_task_id": "T0052-next",
+  "last_completed_task_id": "T0051-phase-label",
+  "last_commit": "3916920109010364dcc25339ac7aedd9e3874b7e",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 79 passed (26 files)",
+  "last_test_summary": "vitest: 80 passed (27 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -27,6 +27,6 @@
     "读屏",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】f243869c0b96456617d8ac80231eb5df9ac78957\n【三缺口功能】65a5659；【闭合】6abee24\n当前轮次: 51 / 1000 · 版本 0.2.2\n当前目标: M1 深化；下一 T0039 真音频。\n已完成: skeptic 三缺口；?帮助；日目标 HUD；文案消毒；79 tests。\n尚未完成: 真音频文件；1000 轮。\nGit: main；last_commit=f243869c0b96456617d8ac80231eb5df9ac78957。\n测试: 79 passed / 26 files；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git rev-parse HEAD && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T21:05:27Z"
+  "resume_instructions": "【权威 tip】3916920109010364dcc25339ac7aedd9e3874b7e\n【三缺口】65a5659 功能；6abee24 闭合\n当前轮次: 51 / 1000 · v0.2.2\n当前目标: M1；下一 T0039 真音频。\n已完成: skeptic 三缺口；帮助；日目标；阶段标签；80 tests。\n尚未完成: 真音频；1000 轮。\nGit: main；last_commit=3916920109010364dcc25339ac7aedd9e3874b7e。\n测试: 80 passed / 27 files；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T21:06:08Z"
 }

@@ -794,6 +794,25 @@
       "created_round": 50,
       "completed_round": 50,
       "commit_hash": "08eadc859c6e3784db8ec2599a428ee16a37ea94"
+    },
+    {
+      "id": "T0051-phase-label",
+      "title": "阶段中文标签",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "phaseLabel HUD",
+      "priority": 54,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "HUD 显示"
+      ],
+      "test_plan": "tests/phase-label.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 51,
+      "completed_round": 51,
+      "commit_hash": "3916920109010364dcc25339ac7aedd9e3874b7e"
     }
   ]
 }
