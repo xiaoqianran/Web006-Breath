@@ -71,3 +71,9 @@ npm run preview  # 预览 dist
 3. 视觉：替换 `public/assets` 并在 UI 引用（M5）
 4. 无障碍：焦点环、键盘导航、ARIA（M4）
 EOF
+
+## 音频
+
+- `SilentAudioBus`：测试
+- `ProceduralAudioBus` + `src/ui/beep.ts`：Web Audio 短音
+- 设置 `sfxEnabled` 与 `reduceMotion` 控制开关
