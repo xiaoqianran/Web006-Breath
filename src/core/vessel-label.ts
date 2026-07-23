@@ -45,7 +45,7 @@ export const VESSEL_ART_PATH: Record<VesselKind, string> = {
   flower: "/assets/ui/vessel_flower.jpg",
   tea: "/assets/ui/tea_cup.jpg",
   art: "/assets/ui/vessel_art.jpg",
-  music: "/assets/ui/vessel_music.jpg",
+  music: "/assets/ui/music_box.jpg",
   object: "/assets/ui/shelf_craft.jpg",
 };
 

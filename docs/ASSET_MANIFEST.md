@@ -153,3 +153,5 @@
 | ART-083 | `public/assets/ui/ribbon_spools.jpg` | 丝带卷 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-084 | `public/assets/promo/guest_e.jpg` | 客人剪影 E | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-085 | `public/assets/ui/codex_catalog.jpg` | 图鉴目录 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-086 | `public/assets/ui/music_box.jpg` | 音乐盒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-087 | `public/assets/bg/rain_shop_awning.jpg` | 雨棚湿街 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

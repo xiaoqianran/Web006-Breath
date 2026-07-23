@@ -1209,9 +1209,29 @@ html[data-reduce-motion="true"] .toast {
 .vessel-flower-art[data-vessel="music"] {
   background-image:
     linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
-    url("/assets/ui/vessel_music.jpg");
+    url("/assets/ui/music_box.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.music-box-art {
+  height: 64px;
+  width: 64px;
+  border-radius: 12px;
+  margin: 0 auto 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/music_box.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.rain-shop-awning-art {
+  height: 88px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/bg/rain_shop_awning.jpg") center/cover no-repeat;
 }
 .vessel-flower-art[data-vessel="flower"] {
   background-image:

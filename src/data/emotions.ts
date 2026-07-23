@@ -788,6 +788,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["释然", "想念"],
     intensity: 3,
   },
+  {
+    id: "e113",
+    guestName: "匿名",
+    text: "音乐盒转了一圈，我想把没说完的话交给旋律。",
+    tags: ["孤独", "想念"],
+    intensity: 4,
+  },
+  {
+    id: "e114",
+    guestName: "沈辞",
+    text: "雨棚下站了一会儿，心里的吵闹被雨声盖过了。",
+    tags: ["疲惫", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e115",
+    guestName: "温叙",
+    text: "店里的背景声很轻，像有人在远处慢慢走路。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e116",
+    guestName: "阿澄",
+    text: "第一百一十六次推门：请让今天的雨声也流通出去。",
+    tags: ["勇气", "期待"],
+    intensity: 4,
+  },
 ];
 
 

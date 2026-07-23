@@ -95,6 +95,8 @@ import {
   formatDisplayWrapLine,
   formatCirculationChoiceHint,
   formatGiftBoxAside,
+  formatAudioBoardSummary,
+  formatAudioEncourage,
   formatOrderLine,
   formatOrderShort,
   formatOrderRewardLine,
@@ -633,9 +635,12 @@ export class YixiApp {
       <div class="card">
         <div class="half-window-art" role="img" aria-label="半开的窗" data-testid="half-window-art"></div>
         <div class="settings-knob-art" role="img" aria-label="设置旋钮" data-testid="settings-knob-art"></div>
+        <div class="music-box-art" role="img" aria-label="音乐盒" data-testid="music-box-art"></div>
         <h2>设置</h2>
         <p class="muted" data-testid="settings-summary">${formatSettingsSummary(s)}</p>
         <p class="muted" data-testid="settings-encourage">${formatSettingsEncourage(s)}</p>
+        <p class="muted" data-testid="audio-board">${formatAudioBoardSummary()}</p>
+        <p class="muted" data-testid="audio-encourage">${formatAudioEncourage(s.sfxEnabled)}</p>
         <label class="setting-row">
           <input type="checkbox" data-key="showHints" ${s.showHints ? "checked" : ""} />
           <span>显示气息提示（弱相性）</span>
@@ -940,6 +945,7 @@ export class YixiApp {
       card.innerHTML = `<div class="warmth-corner-art" role="img" aria-label="温存一隅" data-testid="warmth-corner-art"></div>
         <div class="umbrella-stand-art" role="img" aria-label="伞架" data-testid="umbrella-stand-art"></div>
         <div class="evening-lanterns-art" role="img" aria-label="晚市灯巷" data-testid="evening-lanterns-art"></div>
+        <div class="rain-shop-awning-art" role="img" aria-label="雨棚湿街" data-testid="rain-shop-awning-art"></div>
         <div class="tea-counter-art" role="img" aria-label="茶台插画" data-testid="tea-counter-art"></div>
         <div class="tea-tray-art" role="img" aria-label="茶盘" data-testid="tea-tray-art"></div>
         <div class="tea-cup-art" role="img" aria-label="茶杯" data-testid="tea-cup-art"></div>
