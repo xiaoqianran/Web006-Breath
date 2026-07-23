@@ -10,7 +10,7 @@
 | tip（写入前） | 以 `git rev-parse HEAD` 为准；对齐时为 `6abee2408ea16d646b4948ac008f88144f1bf801` |
 | 轮次 | **0049** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** |
-| 测试 | **`npm test` → 100 passed**（37 files） |
+| 测试 | **`npm test` → 102 passed**（39 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 性能 | `npm run perf`（真实 ms，见 PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
