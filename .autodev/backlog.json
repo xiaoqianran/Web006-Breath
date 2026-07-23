@@ -1861,7 +1861,7 @@
     },
     {
       "id": "T0138-continue",
-      "title": "M2 持续推进",
+      "title": "连心档位文案 streak-label",
       "category": "chore",
       "milestone": "M2-systems",
       "description": "resume",
@@ -1875,8 +1875,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 137,
+      "completed_round": 138,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0139-continue",
+      "title": "M2 持续推进",
+      "category": "chore",
+      "milestone": "M2-systems",
+      "description": "resume",
+      "priority": 40,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0138-continue"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 138,
       "completed_round": null,
       "commit_hash": null
     }
