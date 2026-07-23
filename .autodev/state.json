@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 116,
+  "current_round": 117,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0117-continue-m2",
-  "last_completed_task_id": "T0116-pricing-order-bonus",
-  "last_commit": "73cc5f9444f7b486c37b2db79f51182856cbe537",
+  "current_task_id": "T0118-emotions-52",
+  "last_completed_task_id": "T0117-continue-m2",
+  "last_commit": "01213d35fad4da14138c6197752224a116422358",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 140 passed (47 files)",
+  "last_test_summary": "vitest: 141 passed (48 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0117-continue-m2",
-    "情绪50+",
-    "客人剪影"
+    "T0118-emotions-52",
+    "持续生图",
+    "M2"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 73cc5f9444f7b486c37b2db79f51182856cbe537 T0116 委托奖励提示\n轮次: 116 / 1000 · v0.2.6 · M2\n本会话推进: T0110–T0116（委托提示、打烊、剧本22、双灯、奖励展示）\n测试: 140 passed；双 smoke warmth=19\n下一: T0117 持续 M2\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:28:18Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 01213d35fad4da14138c6197752224a116422358 T0117 客人剪影\n轮次: 117 / 1000 · v0.2.6 · M2\n本会话: T0110–T0117 委托体系深化 + 大量美术 + 剧本22 + 情绪48\n下一: T0118 情绪52\n测试: 141 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:29:02Z"
 }
