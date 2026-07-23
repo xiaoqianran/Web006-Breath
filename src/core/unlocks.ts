@@ -46,6 +46,13 @@ export const UNLOCKS: UnlockDef[] = [
     minReputation: 8,
     minCirculations: 12,
   },
+  {
+    id: "gift_heart",
+    title: "赠予之心",
+    description: "累计赠予满 5 次的纪念",
+    minReputation: 0,
+    minCirculations: 5,
+  },
 ];
 
 export function isUnlockEarned(state: GameState, unlock: UnlockDef): boolean {
@@ -53,6 +60,10 @@ export function isUnlockEarned(state: GameState, unlock: UnlockDef): boolean {
   if (unlock.id === "rare_shelf" && !rareDone) return false;
   if (unlock.id === "week_keeper" && state.day < 2) return false;
   if (unlock.id === "fortnight" && state.day < 15) return false;
+  if (unlock.id === "gift_heart") {
+    const gifts = state.history.filter((h) => h.action === "gift").length;
+    return gifts >= 5;
+  }
   return (
     state.reputation >= unlock.minReputation &&
     state.history.length >= unlock.minCirculations

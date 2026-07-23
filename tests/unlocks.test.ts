@@ -40,4 +40,22 @@ describe("unlocks", () => {
   it("形态图鉴五行齐全", () => {
     expect(vesselAffinityLines()).toHaveLength(5);
   });
+
+  it("累计 5 次赠予解锁赠予之心", () => {
+    const guests = Array.from({ length: 5 }, (_, i) => ({
+      id: `g${i}`,
+      guestName: "赠",
+      text: "请收下。",
+      tags: ["温柔" as const],
+      intensity: 3,
+    }));
+    let state = createGameState(guests, { dayGoalCirculations: 99, dayGoalWarmth: 999 });
+    for (let i = 0; i < 5; i++) {
+      state = runFullCirculation(state, "object", "gift");
+      if (state.phase === "result") state = continueAfterResult(state);
+    }
+    const heart = UNLOCKS.find((u) => u.id === "gift_heart")!;
+    expect(isUnlockEarned(state, heart)).toBe(true);
+  });
 });
+
