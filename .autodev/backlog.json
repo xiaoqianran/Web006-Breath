@@ -1071,7 +1071,7 @@
       "status": "done",
       "created_round": 98,
       "completed_round": 99,
-      "commit_hash": "PENDING"
+      "commit_hash": "c32b6efc5ad6fd2eedaf7d496959f4aa083cde4b"
     },
     {
       "id": "T0100-m2-order-stub",
