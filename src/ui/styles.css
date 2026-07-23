@@ -789,3 +789,14 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
     url("/assets/ui/progress_ribbon.jpg") center/cover no-repeat;
 }
+
+.paper-stamp-art {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  float: right;
+  margin: 0 0 0.4rem 0.5rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/paper_stamp.jpg") center/cover no-repeat;
+}

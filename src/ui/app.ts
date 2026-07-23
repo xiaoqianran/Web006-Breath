@@ -990,6 +990,7 @@ export class YixiApp {
     const r = s.lastResult;
     box.innerHTML = `
       <div class="letter-seal-art" role="img" aria-label="瞬间信笺封口" data-testid="letter-seal-art"></div>
+      <div class="paper-stamp-art" role="img" aria-label="日记印章" data-testid="paper-stamp-art"></div>
       <div class="moment-card" data-testid="moment-card">
         <p><strong>瞬间卡片</strong> · 温存 +${r.warmthGained}</p>
         <p>${r.momentCard}</p>
