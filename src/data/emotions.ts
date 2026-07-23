@@ -634,6 +634,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 4,
   },
+  {
+    id: "e91",
+    guestName: "暮山",
+    text: "窗边座位空着，像在等一句不必急着说完的话。",
+    tags: ["孤独", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e92",
+    guestName: "匿名",
+    text: "把解锁徽章想象成一枚很轻的硬币，揣在口袋里就安心。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e93",
+    guestName: "林晚",
+    text: "巷口的灯亮了，我想把今天的犹豫换成音乐带走。",
+    tags: ["释然", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e94",
+    guestName: "听雨",
+    text: "九十四次听雨，终于听出雨点也有温柔的节奏。",
+    tags: ["释然", "想念"],
+    intensity: 3,
+  },
 ];
 
 

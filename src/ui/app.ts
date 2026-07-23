@@ -1053,6 +1053,7 @@ export class YixiApp {
         <p data-testid="day-end-closing">${dayEnd.closingLine}</p>
         <p class="muted" data-testid="day-end-atmosphere">${formatAtmosphereClosing(s.day)}</p>
         <div class="night-rain-window-art" role="img" aria-label="夜雨窗" data-testid="night-rain-window-art"></div>
+        <div class="window-seat-art" role="img" aria-label="窗边座位" data-testid="window-seat-art"></div>
         <div class="revisit-door-art" role="img" aria-label="再访门廊" data-testid="revisit-door-art"></div>
         <div class="soft-blanket-art" role="img" aria-label="薄被" data-testid="soft-blanket-art"></div>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>
