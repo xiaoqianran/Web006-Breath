@@ -8,9 +8,9 @@
 | 版本 | 0.2.5（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0104** / 1000 |
+| 轮次 | **0105** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** · M2 **started** |
-| 测试 | **`npm test` → 129 passed**（45 files） |
+| 测试 | **`npm test` → 131 passed**（46 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 剧本 | **18 日** |
 | 情绪样本 | **42** 条 |
@@ -41,7 +41,8 @@
 
 ## 下一优先
 
-1. 订单弱引导（推荐 vessel）
+1. **T0106** 情绪标签全集断言
+2. 订单多队列 / 内容管线
 2. 情绪/剧本内容扩充
 3. 持续生图接入
 4. 滚向 M2 0101–0200

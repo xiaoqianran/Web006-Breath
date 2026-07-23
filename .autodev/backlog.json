@@ -1196,8 +1196,29 @@
       ],
       "test_plan": "guest-names.test.ts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 104,
+      "completed_round": 105,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0106-emotion-tags-assert",
+      "title": "情绪标签全集断言",
+      "category": "test",
+      "milestone": "M2-systems",
+      "description": "所有样本 tags 属于 EmotionTag",
+      "priority": 48,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0105-guest-name-pool"
+      ],
+      "acceptance_criteria": [
+        "标签合法"
+      ],
+      "test_plan": "emotions-data",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 105,
       "completed_round": null,
       "commit_hash": null
     }

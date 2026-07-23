@@ -389,7 +389,7 @@ export class YixiApp {
     }
     const foot = document.createElement("footer");
     foot.className = "site-foot";
-    foot.textContent = "一息 · 温柔瞬间铺 — 情绪流通，而非贩卖商品 · 按 ? 打开帮助";
+    foot.innerHTML = '<span class="doorbell-icon" role="img" aria-label="门铃"></span> 一息 · 温柔瞬间铺 — 情绪流通，而非贩卖商品 · 按 ? 打开帮助';
     this.root.appendChild(foot);
   }
 

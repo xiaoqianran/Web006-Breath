@@ -49,3 +49,6 @@
 
 
 | ART-012 | `public/assets/bg/night_window.jpg` | 夜窗店内氛围 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
+
+| ART-013 | `public/assets/ui/doorbell.jpg` | 页脚门铃 | Imagine | 1:1 | JPG | 否 | 0.2.5 | active | 原创 |
+| ART-014 | `public/assets/ui/corner_flourish.jpg` | 订单卡角饰 | Imagine | 1:1 | JPG | 否 | 0.2.5 | active | 原创 |

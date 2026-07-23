@@ -3,6 +3,7 @@
  * 纯函数；不强制打断核心循环——履约为可选奖励。
  */
 
+import { pickGuestName } from "./guest-names";
 import { qualityAtLeast, qualityRank } from "./quality-rank";
 import type {
   CraftedItem,
@@ -23,17 +24,6 @@ export interface ShopOrder {
   bonusReputation: number;
   blurb: string;
 }
-
-const GUESTS = [
-  "林晚",
-  "阿澄",
-  "周予",
-  "小满",
-  "沈辞",
-  "南枝",
-  "陆安",
-  "温叙",
-] as const;
 
 const VESSELS: VesselKind[] = ["flower", "tea", "art", "music", "object"];
 
@@ -60,7 +50,7 @@ export function rollDailyOrder(day: number, salt = 0): ShopOrder {
   const r3 = mulberry(seed + 2);
   const vessel = VESSELS[Math.floor(r1 * VESSELS.length)]!;
   const minQuality: Quality = r2 < 0.55 ? "simple" : r2 < 0.88 ? "fine" : "rare";
-  const guest = GUESTS[Math.floor(r3 * GUESTS.length)]!;
+  const guest = pickGuestName(Math.floor(r3 * 10000) + day * 17);
   const blurbs = BLURBS[vessel];
   const blurb = blurbs[Math.floor(mulberry(seed + 3) * blurbs.length)]!;
   const bonusWarmth =
