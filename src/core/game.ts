@@ -1,4 +1,5 @@
 import { craftLabel, evaluateMatch, warmthFromCirculation, buildMomentCard } from "./matching";
+import { makeId } from "./id";
 import {
   DEFAULT_CONFIG,
   type CirculationAction,
@@ -8,10 +9,6 @@ import {
   type GameState,
   type VesselKind,
 } from "./types";
-
-function uid(prefix: string): string {
-  return `${prefix}_${Math.random().toString(36).slice(2, 10)}`;
-}
 
 export function createGameState(
   queue: Emotion[],
@@ -88,7 +85,7 @@ export function chooseVessel(state: GameState, vessel: VesselKind): GameState {
 
   const match = evaluateMatch(state.current, vessel);
   const item: CraftedItem = {
-    id: uid("item"),
+    id: makeId("item"),
     emotionId: state.current.id,
     vessel,
     quality: match.quality,
