@@ -7,6 +7,7 @@ export * from "./settings";
 export * from "./unlocks";
 export * from "./events";
 export * from "./audio-bus";
+export * from "./tones";
 export * from "./achievements";
 export * from "./affinity";
 export * from "./revisit";

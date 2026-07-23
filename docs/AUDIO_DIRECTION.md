@@ -45,6 +45,9 @@
 
 ## 现状
 
-- 未接入音频播放（避免无授权素材）
-- 可用 CSS/文案反馈替代；UI 点击不依赖声音
+- `SilentAudioBus`：测试与无输出环境
+- `ProceduralAudioBus` + `toneForSfx`：程序化短音（Web Audio），**无外部音频文件**
+- UI：`playWebAudioTone`；设置「减少动效」时关闭音效
+- 仍无循环 BGM 文件；BGM 仍为逻辑占位
 EOF
+

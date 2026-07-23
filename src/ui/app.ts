@@ -17,7 +17,7 @@ import {
   listLockedUnlocks,
   vesselAffinityLines,
   newlyEarnedUnlocks,
-  SilentAudioBus,
+  ProceduralAudioBus,
   sfxForGameEvent,
   averageMatchScore,
   bestVesselForGuest,
@@ -29,13 +29,13 @@ import {
   type GameState,
   type PlayerSettings,
   type VesselKind,
-  type AudioBus,
   VESSEL_LABELS,
   QUALITY_LABELS,
   DEFAULT_SETTINGS,
 } from "../core";
 import { describeDayOpener, freshDayQueue, goalsForDay } from "../data/emotions";
 import { vesselIconHtml } from "./icons";
+import { playWebAudioTone } from "./beep";
 
 const VESSELS = Object.keys(VESSEL_LABELS) as VesselKind[];
 
@@ -46,7 +46,7 @@ export class YixiApp {
   private state: GameState;
   private settings: PlayerSettings;
   private view: View = "menu";
-  private audio: AudioBus = new SilentAudioBus();
+  private audio: ProceduralAudioBus = new ProceduralAudioBus(playWebAudioTone);
   private toast: string | null = null;
 
   constructor(root: HTMLElement) {
@@ -55,8 +55,14 @@ export class YixiApp {
     this.settings = this.readSettings();
     this.applyDocumentSettings();
     this.bindKeyboard();
+    this.syncAudioEnabled();
     this.audio.playBgm("bgm_menu");
     this.render();
+  }
+
+  private syncAudioEnabled(): void {
+    // 减少动效时关闭程序化音效，避免额外刺激
+    this.audio.setEnabled(!this.settings.reduceMotion);
   }
 
   private bindKeyboard(): void {
@@ -116,6 +122,7 @@ export class YixiApp {
       this.settings = { ...this.settings, ...patch };
     }
     this.applyDocumentSettings();
+    this.syncAudioEnabled();
     this.render();
   }
 

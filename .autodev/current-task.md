@@ -1,6 +1,13 @@
 # 当前任务
 
-- **轮次**：0012–0014
-- **内容**：键盘可达性、SVG 形态图标、M0 质量门与答辩大纲、形态概念图
-- **测试**：`npm test`（目标 ≥26）`npm run build`
-- **提交后**：进入 M1 玩法深度
+- **轮次**：0037
+- **任务 ID**：T0037-control-plane-sync
+- **问题**：state / backlog / PROGRESS / ROADMAP 互相矛盾，resume 信息不足
+- **计划修改**：
+  - `.autodev/state.json`（完整 resume_instructions）
+  - `.autodev/backlog.json`（对齐已完成至 T0036+）
+  - `docs/PROGRESS.md`、`docs/ROADMAP.md` M0 表
+- **随后增量**：程序化 UI 音效反馈（无外部音频文件）
+- **验收**：字段一致；`npm run check` 通过
+- **测试**：`npm run check`
+- **回滚**：`git revert`
