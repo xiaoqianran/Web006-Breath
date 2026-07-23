@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T20:45:00.000Z",
+  "updated_at": "2026-07-23T20:48:23Z",
   "tasks": [
     {
       "id": "T0001",
@@ -11,7 +11,9 @@
       "priority": 100,
       "estimated_rounds": 1,
       "dependencies": [],
-      "acceptance_criteria": ["仓库与 docs 齐全"],
+      "acceptance_criteria": [
+        "仓库与 docs 齐全"
+      ],
       "test_plan": "文件存在",
       "visual_requirements": [],
       "status": "done",
@@ -27,8 +29,13 @@
       "description": "Vite+TS+core+UI+vitest",
       "priority": 95,
       "estimated_rounds": 4,
-      "dependencies": ["T0001"],
-      "acceptance_criteria": ["可完成一次流通", "单测覆盖"],
+      "dependencies": [
+        "T0001"
+      ],
+      "acceptance_criteria": [
+        "可完成一次流通",
+        "单测覆盖"
+      ],
       "test_plan": "npm test && npm run smoke",
       "visual_requirements": [],
       "status": "done",
@@ -44,8 +51,13 @@
       "description": "codex save hints emotions",
       "priority": 90,
       "estimated_rounds": 3,
-      "dependencies": ["T0002-5"],
-      "acceptance_criteria": [">=12 情绪", "存档可续"],
+      "dependencies": [
+        "T0002-5"
+      ],
+      "acceptance_criteria": [
+        ">=12 情绪",
+        "存档可续"
+      ],
       "test_plan": "npm test",
       "visual_requirements": [],
       "status": "done",
@@ -61,10 +73,17 @@
       "description": "settings tutorial ART-001",
       "priority": 88,
       "estimated_rounds": 2,
-      "dependencies": ["T0006-8"],
-      "acceptance_criteria": ["设置可用", "menu_bg"],
+      "dependencies": [
+        "T0006-8"
+      ],
+      "acceptance_criteria": [
+        "设置可用",
+        "menu_bg"
+      ],
       "test_plan": "npm test && npm run build",
-      "visual_requirements": ["ART-001"],
+      "visual_requirements": [
+        "ART-001"
+      ],
       "status": "done",
       "created_round": 9,
       "completed_round": 10,
@@ -78,8 +97,14 @@
       "description": "unlocks events DEMO AUDIO docs",
       "priority": 86,
       "estimated_rounds": 1,
-      "dependencies": ["T0009-10"],
-      "acceptance_criteria": ["解锁可测", "日事件", "DEMO_SCRIPT"],
+      "dependencies": [
+        "T0009-10"
+      ],
+      "acceptance_criteria": [
+        "解锁可测",
+        "日事件",
+        "DEMO_SCRIPT"
+      ],
       "test_plan": "npm test",
       "visual_requirements": [],
       "status": "done",
@@ -95,8 +120,12 @@
       "description": "Esc Enter 1-5 焦点环",
       "priority": 75,
       "estimated_rounds": 1,
-      "dependencies": ["T0011"],
-      "acceptance_criteria": ["快捷键可用"],
+      "dependencies": [
+        "T0011"
+      ],
+      "acceptance_criteria": [
+        "快捷键可用"
+      ],
       "test_plan": "结构+冒烟",
       "visual_requirements": [],
       "status": "done",
@@ -113,9 +142,13 @@
       "priority": 70,
       "estimated_rounds": 1,
       "dependencies": [],
-      "acceptance_criteria": ["五形态 SVG"],
+      "acceptance_criteria": [
+        "五形态 SVG"
+      ],
       "test_plan": "tests/icons.test.ts",
-      "visual_requirements": ["icons"],
+      "visual_requirements": [
+        "icons"
+      ],
       "status": "done",
       "created_round": 12,
       "completed_round": 12,
@@ -129,8 +162,12 @@
       "description": "QUALITY_GATE_M0 DEFENSE_OUTLINE",
       "priority": 65,
       "estimated_rounds": 1,
-      "dependencies": ["T0011"],
-      "acceptance_criteria": ["文档存在"],
+      "dependencies": [
+        "T0011"
+      ],
+      "acceptance_criteria": [
+        "文档存在"
+      ],
       "test_plan": "文件审阅",
       "visual_requirements": [],
       "status": "done",
@@ -146,8 +183,13 @@
       "description": "shelf sellFromShelf capacity 5",
       "priority": 84,
       "estimated_rounds": 1,
-      "dependencies": ["T0002-5"],
-      "acceptance_criteria": ["上架入货架", "被买走加温存"],
+      "dependencies": [
+        "T0002-5"
+      ],
+      "acceptance_criteria": [
+        "上架入货架",
+        "被买走加温存"
+      ],
       "test_plan": "tests/shelf.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -163,8 +205,12 @@
       "description": "qualityStreak",
       "priority": 82,
       "estimated_rounds": 1,
-      "dependencies": ["T0002-5"],
-      "acceptance_criteria": ["连续 fine/rare 加成"],
+      "dependencies": [
+        "T0002-5"
+      ],
+      "acceptance_criteria": [
+        "连续 fine/rare 加成"
+      ],
       "test_plan": "tests/streak.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -180,8 +226,13 @@
       "description": "SilentAudioBus newlyEarnedUnlocks",
       "priority": 80,
       "estimated_rounds": 1,
-      "dependencies": ["T0011"],
-      "acceptance_criteria": ["总线可测", "toast 路径"],
+      "dependencies": [
+        "T0011"
+      ],
+      "acceptance_criteria": [
+        "总线可测",
+        "toast 路径"
+      ],
       "test_plan": "tests/audio-bus.test.ts achievements",
       "visual_requirements": [],
       "status": "done",
@@ -198,9 +249,14 @@
       "priority": 78,
       "estimated_rounds": 1,
       "dependencies": [],
-      "acceptance_criteria": ["样本通过校验", "shop_bg"],
+      "acceptance_criteria": [
+        "样本通过校验",
+        "shop_bg"
+      ],
       "test_plan": "tests/content-schema.test.ts",
-      "visual_requirements": ["ART-003"],
+      "visual_requirements": [
+        "ART-003"
+      ],
       "status": "done",
       "created_round": 18,
       "completed_round": 18,
@@ -214,8 +270,12 @@
       "description": "DAY_SCRIPTS",
       "priority": 77,
       "estimated_rounds": 1,
-      "dependencies": ["T0011"],
-      "acceptance_criteria": [">=5 日"],
+      "dependencies": [
+        "T0011"
+      ],
+      "acceptance_criteria": [
+        ">=5 日"
+      ],
       "test_plan": "tests/day-scripts.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -231,10 +291,17 @@
       "description": "MAX_SHELF ART-004",
       "priority": 76,
       "estimated_rounds": 1,
-      "dependencies": ["T0015-shelf"],
-      "acceptance_criteria": ["容量 5", "cover.jpg"],
+      "dependencies": [
+        "T0015-shelf"
+      ],
+      "acceptance_criteria": [
+        "容量 5",
+        "cover.jpg"
+      ],
       "test_plan": "tests/shelf.test.ts",
-      "visual_requirements": ["ART-004"],
+      "visual_requirements": [
+        "ART-004"
+      ],
       "status": "done",
       "created_round": 21,
       "completed_round": 21,
@@ -248,8 +315,12 @@
       "description": "maybeAppendRevisit",
       "priority": 74,
       "estimated_rounds": 1,
-      "dependencies": ["T0020-day-scripts"],
-      "acceptance_criteria": ["赠予后可再访"],
+      "dependencies": [
+        "T0020-day-scripts"
+      ],
+      "acceptance_criteria": [
+        "赠予后可再访"
+      ],
       "test_plan": "tests/revisit.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -266,7 +337,9 @@
       "priority": 72,
       "estimated_rounds": 1,
       "dependencies": [],
-      "acceptance_criteria": ["真实 ms 输出"],
+      "acceptance_criteria": [
+        "真实 ms 输出"
+      ],
       "test_plan": "npm run perf",
       "visual_requirements": [],
       "status": "done",
@@ -282,8 +355,12 @@
       "description": "pricing.ts",
       "priority": 71,
       "estimated_rounds": 1,
-      "dependencies": ["T0015-shelf"],
-      "acceptance_criteria": ["货架/转化台显示估价"],
+      "dependencies": [
+        "T0015-shelf"
+      ],
+      "acceptance_criteria": [
+        "货架/转化台显示估价"
+      ],
       "test_plan": "tests/pricing.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -300,7 +377,9 @@
       "priority": 70,
       "estimated_rounds": 1,
       "dependencies": [],
-      "acceptance_criteria": ["流通后可掷店事"],
+      "acceptance_criteria": [
+        "流通后可掷店事"
+      ],
       "test_plan": "tests/shop-events.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -316,8 +395,12 @@
       "description": "days 6-10",
       "priority": 69,
       "estimated_rounds": 1,
-      "dependencies": ["T0020-day-scripts"],
-      "acceptance_criteria": [">=10 日"],
+      "dependencies": [
+        "T0020-day-scripts"
+      ],
+      "acceptance_criteria": [
+        ">=10 日"
+      ],
       "test_plan": "tests/day-scripts.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -334,7 +417,9 @@
       "priority": 68,
       "estimated_rounds": 1,
       "dependencies": [],
-      "acceptance_criteria": ["top 好感可测"],
+      "acceptance_criteria": [
+        "top 好感可测"
+      ],
       "test_plan": "tests/favor.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -350,8 +435,13 @@
       "description": "高好感奇数日再访",
       "priority": 67,
       "estimated_rounds": 1,
-      "dependencies": ["T0032-favor", "T0026-revisit"],
-      "acceptance_criteria": ["阈值与好感可测"],
+      "dependencies": [
+        "T0032-favor",
+        "T0026-revisit"
+      ],
+      "acceptance_criteria": [
+        "阈值与好感可测"
+      ],
       "test_plan": "tests/revisit.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -368,7 +458,9 @@
       "priority": 66,
       "estimated_rounds": 1,
       "dependencies": [],
-      "acceptance_criteria": ["skip-link 存在"],
+      "acceptance_criteria": [
+        "skip-link 存在"
+      ],
       "test_plan": "构建冒烟",
       "visual_requirements": [],
       "status": "done",
@@ -384,8 +476,12 @@
       "description": "days 11-15",
       "priority": 65,
       "estimated_rounds": 1,
-      "dependencies": ["T0031-ten-day-scripts"],
-      "acceptance_criteria": [">=15 日 DAY_SCRIPTS"],
+      "dependencies": [
+        "T0031-ten-day-scripts"
+      ],
+      "acceptance_criteria": [
+        ">=15 日 DAY_SCRIPTS"
+      ],
       "test_plan": "tests/day-scripts.test.ts",
       "visual_requirements": [],
       "status": "done",
@@ -401,8 +497,12 @@
       "description": "fortnight unlock day>=15",
       "priority": 64,
       "estimated_rounds": 1,
-      "dependencies": ["T0035-fifteen-days"],
-      "acceptance_criteria": ["unlock 定义存在"],
+      "dependencies": [
+        "T0035-fifteen-days"
+      ],
+      "acceptance_criteria": [
+        "unlock 定义存在"
+      ],
       "test_plan": "unlocks 模块 + 既有 unlocks 测试",
       "visual_requirements": [],
       "status": "done",
@@ -426,10 +526,10 @@
       ],
       "test_plan": "npm run check + 文档审阅",
       "visual_requirements": [],
-      "status": "in_progress",
+      "status": "done",
       "created_round": 37,
-      "completed_round": null,
-      "commit_hash": null
+      "completed_round": 37,
+      "commit_hash": "b57fa7f0fb93bb7947090315e5a922b9396b76ae"
     },
     {
       "id": "T0038-procedural-sfx",
@@ -439,14 +539,20 @@
       "description": "Web Audio 轻量蜂鸣，无外部音频版权文件",
       "priority": 85,
       "estimated_rounds": 1,
-      "dependencies": ["T0017-audio-stub"],
-      "acceptance_criteria": ["可开关", "核心事件可触发", "单测/结构可验证"],
+      "dependencies": [
+        "T0017-audio-stub"
+      ],
+      "acceptance_criteria": [
+        "可开关",
+        "核心事件可触发",
+        "单测/结构可验证"
+      ],
       "test_plan": "单元测 tone 映射 + npm run check",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 37,
-      "completed_round": null,
-      "commit_hash": null
+      "completed_round": 38,
+      "commit_hash": "b57fa7f0fb93bb7947090315e5a922b9396b76ae"
     },
     {
       "id": "T0039-real-audio-files",
@@ -456,8 +562,12 @@
       "description": "CC0 或原创文件接入",
       "priority": 40,
       "estimated_rounds": 2,
-      "dependencies": ["T0038-procedural-sfx"],
-      "acceptance_criteria": ["有合法资源或 backlog 提示词"],
+      "dependencies": [
+        "T0038-procedural-sfx"
+      ],
+      "acceptance_criteria": [
+        "有合法资源或 backlog 提示词"
+      ],
       "test_plan": "资源存在性",
       "visual_requirements": [],
       "status": "pending",
