@@ -13,6 +13,19 @@
   left: 0.5rem;
 }
 
+/** 读屏专用，视觉隐藏但可被 AT 读取 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .help-overlay {
   position: fixed;
   inset: 0;

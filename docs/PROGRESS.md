@@ -8,9 +8,9 @@
 | 版本 | 0.2.4（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0097** / 1000 |
+| 轮次 | **0098** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** |
-| 测试 | **`npm test` → 114 passed**（43 files） |
+| 测试 | **`npm test` → 121 passed**（44 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 性能 | `npm run perf`（真实 ms，见 PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
@@ -29,6 +29,7 @@
 - 美术：menu_bg / shop_bg / cover / vessels_sheet + SVG 图标  
 - **程序化 UI 音效**（`ProceduralAudioBus` + Web Audio）  
 - **原创 WAV 文件**（`public/assets/audio/`）+ **`HybridAudioBus`**（文件优先、tone 回退）+ 菜单/店内 BGM  
+- **读屏**：`aria-live` 区域、帮助层焦点陷阱、toast role=status  
 
 ## 轮次日志（摘要）
 
@@ -50,9 +51,9 @@
 
 ## 下一优先
 
-1. **T0098** 读屏 live region / 焦点管理深化  
+1. **T0099** 设置页音量滑条  
 2. M2 随机订单等系统  
-3. 更长 BGM / 音量滑条  
+3. 更长 BGM / ambience  
 4. 持续 1000 轮内容与打磨  
 
 ## 恢复

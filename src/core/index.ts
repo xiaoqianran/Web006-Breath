@@ -9,6 +9,7 @@ export * from "./events";
 export * from "./audio-bus";
 export * from "./audio-manifest";
 export * from "./tones";
+export * from "./a11y-announce";
 export * from "./achievements";
 export * from "./affinity";
 export * from "./revisit";

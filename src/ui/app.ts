@@ -35,6 +35,13 @@ import {
   VESSEL_ORDER,
   formatRatioPercent,
   bestQualityInHistory,
+  announcePhaseChange,
+  announceUnlock,
+  announceViewChange,
+  announceDayComplete,
+  announceCirculation,
+  joinAnnouncements,
+  helpDialogA11y,
   type GameState,
   type PlayerSettings,
   VESSEL_LABELS,
@@ -65,6 +72,10 @@ export class YixiApp {
   private toast: string | null = null;
   /** 店内/菜单帮助覆盖层 */
   private helpOpen = false;
+  /** aria-live 播报队列（下一次 render 写入） */
+  private liveMessage: string | null = null;
+  /** 关闭帮助后恢复焦点 */
+  private focusBeforeHelp: HTMLElement | null = null;
 
   constructor(root: HTMLElement) {
     this.root = root;
@@ -74,7 +85,21 @@ export class YixiApp {
     this.bindKeyboard();
     this.syncAudioEnabled();
     this.audio.playBgm("bgm_menu");
+    this.queueAnnounce(announceViewChange("menu"));
     this.render();
+  }
+
+  /** 供测试读取最近一次读屏文案 */
+  debugLiveMessage(): string | null {
+    return this.liveMessage;
+  }
+
+  private queueAnnounce(msg: string | null | undefined): void {
+    const t = (msg ?? "").trim();
+    if (!t) return;
+    this.liveMessage = this.liveMessage
+      ? joinAnnouncements(this.liveMessage, t)
+      : t;
   }
 
   private syncAudioEnabled(): void {
@@ -91,14 +116,22 @@ export class YixiApp {
     document.addEventListener("keydown", (ev) => {
       if (ev.key === "?" || (ev.key === "/" && ev.shiftKey)) {
         ev.preventDefault();
-        this.helpOpen = !this.helpOpen;
-        this.render();
+        if (this.helpOpen) {
+          this.closeHelp();
+        } else {
+          this.focusBeforeHelp =
+            document.activeElement instanceof HTMLElement
+              ? document.activeElement
+              : null;
+          this.helpOpen = true;
+          this.queueAnnounce(helpDialogA11y().title);
+          this.render();
+        }
         return;
       }
       if (ev.key === "Escape") {
         if (this.helpOpen) {
-          this.helpOpen = false;
-          this.render();
+          this.closeHelp();
           return;
         }
         if (this.view === "shop" || this.view === "codex" || this.view === "settings" || this.view === "about") {
@@ -138,6 +171,7 @@ export class YixiApp {
   private go(view: View): void {
     this.view = view;
     this.syncBgmForView(view);
+    this.queueAnnounce(announceViewChange(view));
     this.render();
   }
 
@@ -181,7 +215,9 @@ export class YixiApp {
     const prev = this.state;
     const unlocked = newlyEarnedUnlocks(prev, next);
     if (unlocked.length > 0) {
-      this.toast = `解锁：${unlocked.map((u) => u.title).join("、")}`;
+      const titles = unlocked.map((u) => u.title);
+      this.toast = announceUnlock(titles);
+      this.queueAnnounce(announceUnlock(titles));
       this.audio.playSfx(sfxForGameEvent("rare"));
     }
     if (next.phase === "awaiting_vessel" && prev.phase === "awaiting_emotion") {
@@ -194,6 +230,11 @@ export class YixiApp {
     }
     if (next.history.length > prev.history.length) {
       this.audio.playSfx(sfxForGameEvent("circulate"));
+      const last = next.history[next.history.length - 1];
+      if (last) {
+        const q = last.item.quality;
+        this.queueAnnounce(announceCirculation(QUALITY_LABELS[q] ?? q));
+      }
       // 流通后尝试店事事件
       const ev = rollShopEvent(next);
       if (ev) {
@@ -205,6 +246,10 @@ export class YixiApp {
     }
     if (next.phase === "day_complete" && prev.phase !== "day_complete") {
       this.audio.playSfx(sfxForGameEvent("day_end"));
+      this.queueAnnounce(announceDayComplete(next.day, next.warmth));
+    }
+    if (next.phase !== prev.phase) {
+      this.queueAnnounce(announcePhaseChange(next.phase));
     }
     this.state = next;
     this.persist();
@@ -284,6 +329,8 @@ export class YixiApp {
       const t = document.createElement("div");
       t.className = "toast";
       t.dataset.testid = "toast";
+      t.setAttribute("role", "status");
+      t.setAttribute("aria-live", "polite");
       t.textContent = this.toast;
       this.root.appendChild(t);
       const msg = this.toast;
@@ -293,8 +340,16 @@ export class YixiApp {
         if (el && el.textContent === msg) el.remove();
       }, 3200);
     }
+    this.root.appendChild(this.renderLiveRegion());
     if (this.helpOpen) {
       this.root.appendChild(this.renderHelpOverlay());
+      // 打开后聚焦关闭钮，便于键盘与读屏
+      queueMicrotask(() => {
+        const closeBtn = this.root.querySelector<HTMLElement>(
+          "[data-testid=help-close]",
+        );
+        closeBtn?.focus();
+      });
     }
     const foot = document.createElement("footer");
     foot.className = "site-foot";
@@ -302,17 +357,50 @@ export class YixiApp {
     this.root.appendChild(foot);
   }
 
+  private renderLiveRegion(): HTMLElement {
+    const live = document.createElement("div");
+    live.className = "sr-only";
+    live.id = "a11y-live";
+    live.dataset.testid = "live-region";
+    live.setAttribute("role", "status");
+    live.setAttribute("aria-live", "polite");
+    live.setAttribute("aria-atomic", "true");
+    const msg = this.liveMessage;
+    // 清空内部字段，避免每帧重复拼接；读屏在本帧读到文案即可
+    this.liveMessage = null;
+    if (msg) {
+      // 先空后写，提高部分读屏重新播报概率
+      live.textContent = "";
+      queueMicrotask(() => {
+        const el = this.root.querySelector("#a11y-live");
+        if (el) el.textContent = msg;
+      });
+    }
+    return live;
+  }
+
+  private closeHelp(): void {
+    this.helpOpen = false;
+    this.render();
+    queueMicrotask(() => {
+      this.focusBeforeHelp?.focus?.();
+      this.focusBeforeHelp = null;
+    });
+  }
+
   private renderHelpOverlay(): HTMLElement {
+    const a11y = helpDialogA11y();
     const wrap = document.createElement("div");
     wrap.className = "help-overlay";
     wrap.dataset.testid = "help-overlay";
     wrap.setAttribute("role", "dialog");
     wrap.setAttribute("aria-modal", "true");
-    wrap.setAttribute("aria-label", "操作帮助");
+    wrap.setAttribute("aria-label", a11y.title);
+    wrap.setAttribute("aria-describedby", a11y.descriptionId);
     wrap.innerHTML = `
       <div class="help-panel card">
-        <h2>一息 · 帮助</h2>
-        <ol class="tutorial-steps">
+        <h2 id="help-dialog-title">一息 · 帮助</h2>
+        <ol class="tutorial-steps" id="${a11y.descriptionId}">
           <li><strong>接待</strong> — 店内「接待下一位」或 Enter</li>
           <li><strong>转化</strong> — 点选形态，或按 1–5</li>
           <li><strong>流通</strong> — 上架进货架，或赠予立即流通</li>
@@ -322,16 +410,30 @@ export class YixiApp {
         <div class="btn-row"></div>
       </div>
     `;
-    wrap.querySelector(".btn-row")!.append(
-      this.button("关闭", () => {
-        this.helpOpen = false;
-        this.render();
-      }),
-    );
+    const close = this.button(a11y.closeLabel, () => this.closeHelp());
+    close.dataset.testid = "help-close";
+    wrap.querySelector(".btn-row")!.append(close);
     wrap.addEventListener("click", (e) => {
-      if (e.target === wrap) {
-        this.helpOpen = false;
-        this.render();
+      if (e.target === wrap) this.closeHelp();
+    });
+    // 简易焦点陷阱：Tab 在对话框可聚焦控件内循环
+    wrap.addEventListener("keydown", (ev) => {
+      if (ev.key !== "Tab") return;
+      const focusables = Array.from(
+        wrap.querySelectorAll<HTMLElement>(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
+        ),
+      ).filter((el) => !el.hasAttribute("disabled"));
+      if (focusables.length === 0) return;
+      const first = focusables[0]!;
+      const last = focusables[focusables.length - 1]!;
+      const active = document.activeElement as HTMLElement | null;
+      if (ev.shiftKey && active === first) {
+        ev.preventDefault();
+        last.focus();
+      } else if (!ev.shiftKey && active === last) {
+        ev.preventDefault();
+        first.focus();
       }
     });
     return wrap;
@@ -342,7 +444,7 @@ export class YixiApp {
     el.className = "screen active menu-center";
     el.innerHTML = `
       <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
-      <p class="muted">Gentle Moments Shop · v0.2.3</p>
+      <p class="muted">Gentle Moments Shop · v0.2.4</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>
       <div class="btn-row"></div>

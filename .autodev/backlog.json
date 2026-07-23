@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T21:55:58Z",
+  "updated_at": "2026-07-23T21:58:25Z",
   "tasks": [
     {
       "id": "T0001",
@@ -1045,8 +1045,31 @@
       ],
       "test_plan": "npm test + 结构断言",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 97,
+      "completed_round": 98,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0099-volume-sliders",
+      "title": "设置页 master/sfx/bgm 音量滑条",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "PlayerSettings 增加音量字段并接通 HybridAudioBus",
+      "priority": 50,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0098-a11y-live-region"
+      ],
+      "acceptance_criteria": [
+        "设置可改音量",
+        "总线 get/setVolume 接通",
+        "可测"
+      ],
+      "test_plan": "settings + audio bus 单测",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 98,
       "completed_round": null,
       "commit_hash": null
     }
