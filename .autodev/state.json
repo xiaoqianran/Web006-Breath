@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 20,
+  "current_round": 21,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0020-next",
-  "last_completed_task_id": "T0020-day-scripts",
-  "last_commit": "5c9bb3fae322bf98abf647bd720663f855bf3611",
+  "current_task_id": "T0021-ready-resume",
+  "last_completed_task_id": "T0021-shelf-cap-cover",
+  "last_commit": "687f284b8d5295a6628452def56a85da674e9bc9",
   "last_verified_build": "npm run build OK",
-  "last_test_summary": "vitest: 45 passed",
+  "last_test_summary": "vitest: 46 passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -20,15 +20,16 @@
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离",
     "D-004 SilentAudioBus 占位真音频",
-    "D-005 五日剧本驱动日目标"
+    "D-005 五日剧本驱动日目标",
+    "D-006 货架容量 5"
   ],
   "next_candidate_tasks": [
-    "宣传封面",
-    "货架容量上限",
-    "真音频",
     "M1 质量门",
-    "更多剧本日"
+    "客人好感",
+    "真音频",
+    "aria 深化",
+    "性能基线实测"
   ],
-  "resume_instructions": "cd /root/wk; git log -3; npm test (45 passed); npm run smoke; npm run dev。M0+可演示原型+五日剧本已就绪。下一：宣传封面/货架上限/M1质量门。勿 push。HEAD=5c9bb3fae322bf98abf647bd720663f855bf3611",
-  "updated_at": "2026-07-23T20:30:52.660642Z"
+  "resume_instructions": "接管：cd /root/wk && git log -5 && git status（应 clean）&& npm test（46 passed）&& npm run smoke && npm run dev。游戏一息已达毕业设计可演示标准的可玩原型；1000 轮框架中约完成 21 轮有效开发。下一任务从 backlog 选 M1 质量门或客人好感。禁止未经授权 push。证据目录：会话 scratch 下 test-*.txt / smoke-*.txt。",
+  "updated_at": "2026-07-23T20:32:00.000Z"
 }
