@@ -1007,6 +1007,25 @@
       "created_round": 63,
       "completed_round": 63,
       "commit_hash": "c038abac4cf45b83c5b363d9eb982b637193fa8e"
+    },
+    {
+      "id": "T0065-repeat",
+      "title": "repeat 工具",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "repeatItem/times",
+      "priority": 44,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "单测"
+      ],
+      "test_plan": "tests/repeat.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 65,
+      "completed_round": 65,
+      "commit_hash": "019b6f74a831b9762a76483ead0b3bda9d9922ea"
     }
   ]
 }
