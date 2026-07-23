@@ -1987,7 +1987,7 @@
     },
     {
       "id": "T0144-continue",
-      "title": "M2 持续推进",
+      "title": "日剧本扩充至 38 日",
       "category": "chore",
       "milestone": "M2-systems",
       "description": "resume",
@@ -2001,8 +2001,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 143,
+      "completed_round": 144,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0145-continue",
+      "title": "M2 持续推进",
+      "category": "chore",
+      "milestone": "M2-systems",
+      "description": "resume",
+      "priority": 40,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0144-continue"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 144,
       "completed_round": null,
       "commit_hash": null
     }
