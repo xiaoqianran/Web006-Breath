@@ -238,6 +238,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 29,
+    title: "近月",
+    opener: "第二十九日。月亮差一点圆，店灯却已够亮。",
+    sampleIndexes: [34, 40, 45, 50],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 30,
+    title: "三十的灯",
+    opener: "第三十日。满月掌灯的前夜，风把铃铛吹得很轻。",
+    sampleIndexes: [35, 41, 46, 51],
+    goalCirculations: 6,
+    goalWarmth: 30,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {
