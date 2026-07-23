@@ -1286,6 +1286,48 @@
       "created_round": 108,
       "completed_round": null,
       "commit_hash": null
+    },
+    {
+      "id": "T0109-order-keeper-unlock",
+      "title": "委托守约解锁",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "ordersFulfilled>=3",
+      "priority": 52,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0108-order-multi-queue"
+      ],
+      "acceptance_criteria": [
+        "解锁可测"
+      ],
+      "test_plan": "unlocks.test",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 109,
+      "completed_round": 110,
+      "commit_hash": "4f8f2b0f4af5afae2c9064e015520cf607ee26d3"
+    },
+    {
+      "id": "T0110-continue",
+      "title": "M2 持续推进",
+      "category": "chore",
+      "milestone": "M2-systems",
+      "description": "续跑",
+      "priority": 40,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0109-order-keeper-unlock"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 110,
+      "completed_round": null,
+      "commit_hash": null
     }
   ]
 }

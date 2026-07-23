@@ -8,7 +8,7 @@
 | 版本 | 0.2.5（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0109** / 1000 |
+| 轮次 | **0110** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** · M2 **started** |
 | 测试 | **`npm test` → 133 passed**（47 files） |
 | 验收 | `npm run check` = test + build + smoke |
