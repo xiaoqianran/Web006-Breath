@@ -29,3 +29,4 @@ export * from "./pick";
 export * from "./sum";
 export * from "./repeat";
 export * from "./bool";
+export * from "./group-by";
