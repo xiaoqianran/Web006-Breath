@@ -1497,8 +1497,29 @@
       ],
       "test_plan": "day-scripts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 119,
+      "completed_round": 120,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0121-revisit-favor-hint",
+      "title": "再访与好感阈值文案",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "好感达阈值时再访提示纯函数",
+      "priority": 60,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0120-day-scripts-24"
+      ],
+      "acceptance_criteria": [
+        "可测"
+      ],
+      "test_plan": "revisit/favor",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 120,
       "completed_round": null,
       "commit_hash": null
     }

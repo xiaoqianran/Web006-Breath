@@ -680,3 +680,12 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/tip_jar.jpg") center/cover no-repeat;
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
+
+.morning-dew-art {
+  height: 64px;
+  border-radius: 10px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.48)),
+    url("/assets/decor/morning_dew.jpg") center/cover no-repeat;
+}
