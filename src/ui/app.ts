@@ -34,6 +34,7 @@ import {
   vesselByHotkey,
   VESSEL_ORDER,
   formatRatioPercent,
+  bestQualityInHistory,
   type GameState,
   type PlayerSettings,
   VESSEL_LABELS,
@@ -452,6 +453,7 @@ export class YixiApp {
       <div class="card" data-testid="session-stats">
         <h3>本局统计</h3>
         <p data-testid="stats-summary">${formatStatsSummary(computeSessionStats(this.state))}</p>
+        <p class="muted" data-testid="best-quality">历史最高品质：${(() => { const q = bestQualityInHistory(this.state.history); return q ? QUALITY_LABELS[q] : "尚无"; })()}</p>
       </div>`;
     el.innerHTML = `
       <h2>瞬间图鉴</h2>
