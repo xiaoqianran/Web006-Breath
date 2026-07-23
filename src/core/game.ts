@@ -1,6 +1,11 @@
 import { craftLabel, evaluateMatch, warmthFromCirculation, buildMomentCard } from "./matching";
 import { makeId } from "./id";
-import { ensureActiveOrder, rollDailyOrder, tryFulfillOrder } from "./orders";
+import {
+  ensureActiveOrder,
+  rollDailyOrder,
+  tryFulfillAnyOrder,
+  tryFulfillOrder,
+} from "./orders";
 import {
   DEFAULT_CONFIG,
   type CirculationAction,
@@ -180,9 +185,9 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
       ? `流通完成，获得温存 +${warmthGained}${streakMsg}。今日目标已达成！${shelfNote ? " " + shelfNote : ""}`
       : `流通完成，获得温存 +${warmthGained}${streakMsg}。可以继续接待。${shelfNote ? " " + shelfNote : ""}`,
   };
-  // 赠予直接履约；上架待售出时再检
+  // 赠予直接履约（主单或候补槽）
   if (action === "gift") {
-    next = tryFulfillOrder(next, record.item);
+    next = tryFulfillAnyOrder(next, record.item);
   }
   return next;
 }
@@ -207,7 +212,7 @@ export function sellFromShelf(state: GameState, index: number): GameState {
     reputation: state.reputation + (item.crafted.quality === "rare" ? 1 : 0),
     message: `「${item.crafted.label}」被轻轻买走了。温存 +${bonus}。`,
   };
-  next = tryFulfillOrder(next, item.crafted);
+  next = tryFulfillAnyOrder(next, item.crafted);
   return next;
 }
 
