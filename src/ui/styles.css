@@ -604,3 +604,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.8), rgba(230, 236, 242, 0.9)),
     url("/assets/bg/rain_window.jpg") center / cover no-repeat;
 }
+
+.shelf-display-art {
+  height: 84px;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
+    url("/assets/ui/shelf_display.jpg") center/cover no-repeat;
+}

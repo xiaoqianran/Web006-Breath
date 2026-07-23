@@ -484,7 +484,7 @@ export class YixiApp {
     el.innerHTML = `
       <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
       <div class="season-banner" role="img" aria-label="春日店饰" data-testid="season-banner"></div>
-      <p class="muted">Gentle Moments Shop · v0.2.5</p>
+      <p class="muted">Gentle Moments Shop · v0.2.6</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>
       <div class="btn-row"></div>
@@ -769,7 +769,7 @@ export class YixiApp {
     const card = document.createElement("div");
     card.className = "card";
     card.dataset.testid = "shelf";
-    card.innerHTML = `<h2>货架</h2><p class="muted">上架的温柔在此等候知音。</p>`;
+    card.innerHTML = `<div class="shelf-display-art" role="img" aria-label="货架陈列插画" data-testid="shelf-display-art"></div><h2>货架</h2><p class="muted">上架的温柔在此等候知音。</p>`;
     s.shelf.forEach((item) => {
       const row = document.createElement("div");
       row.className = "btn-row";

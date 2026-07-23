@@ -4,7 +4,6 @@ import {
   ensureActiveOrder,
   rollDailyOrder,
   tryFulfillAnyOrder,
-  tryFulfillOrder,
 } from "./orders";
 import {
   DEFAULT_CONFIG,
