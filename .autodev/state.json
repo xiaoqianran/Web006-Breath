@@ -8,7 +8,7 @@
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0099-volume-sliders",
   "last_completed_task_id": "T0098-a11y-live-region",
-  "last_commit": "PENDING_AFTER_COMMIT",
+  "last_commit": "64facfc4114ca625323a54531e5a6efbb7e871a2",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 121 passed (44 files)",
   "core_loop_status": "playable_demo_ready",
@@ -28,6 +28,6 @@
     "M2",
     "更长 BGM"
   ],
-  "resume_instructions": "【权威 tip】以 git rev-parse HEAD 为准\n当前轮次: 98 / 1000 · v0.2.4\n刚完成 T0098 读屏。下一 T0099 音量滑条。\n测试: 121 passed。\n下一项: T0099-volume-sliders\n",
-  "updated_at": "2026-07-23T21:58:30Z"
+  "resume_instructions": "【权威 tip】以 git rev-parse HEAD 为准（含后续 chore）\n功能提交: 64facfc4114ca625323a54531e5a6efbb7e871a2\n当前轮次: 98 / 1000 · v0.2.4\n已完成: T0039 真音频；T0098 读屏 live region。\n下一: T0099-volume-sliders\n测试: 121 passed；npm run check。\n",
+  "updated_at": "2026-07-23T21:58:25Z"
 }
