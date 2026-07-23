@@ -1395,7 +1395,7 @@
       "status": "done",
       "created_round": 114,
       "completed_round": 115,
-      "commit_hash": "PENDING"
+      "commit_hash": "d7d34c9b1431f648bb0078bf8199715e4b36a02a"
     },
     {
       "id": "T0116-pricing-order-bonus",

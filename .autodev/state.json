@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 114,
+  "current_round": 115,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0115-day-scripts-22",
-  "last_completed_task_id": "T0114-order-day-end",
-  "last_commit": "025ea558ca4d82bbbeb688c28b0ed63391a82f54",
+  "current_task_id": "T0116-pricing-order-bonus",
+  "last_completed_task_id": "T0115-day-scripts-22",
+  "last_commit": "d7d34c9b1431f648bb0078bf8199715e4b36a02a",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 138 passed (47 files)",
+  "last_test_summary": "vitest: 139 passed (47 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0115-day-scripts-22",
-    "客人剪影",
-    "持续生图"
+    "T0116-pricing-order-bonus",
+    "持续生图",
+    "M2 系统"
   ],
-  "resume_instructions": "功能 025ea558ca4d82bbbeb688c28b0ed63391a82f54 T0114。轮次114/1000 v0.2.6。下一 T0115 剧本22。138 tests。npm run check && npm run dev",
-  "updated_at": "2026-07-23T22:26:21Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d7d34c9b1431f648bb0078bf8199715e4b36a02a T0115 剧本22+双灯\n轮次: 115 / 1000 · v0.2.6 · M2\n本会话: T0110 委托提示 · T0114 打烊摘要 · T0115 剧本22 · 多批新美术\n下一: T0116\n测试: 139 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:27:11Z"
 }
