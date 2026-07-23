@@ -26,3 +26,4 @@ export * from "./format-number";
 export * from "./id";
 export * from "./equals";
 export * from "./pick";
+export * from "./sum";
