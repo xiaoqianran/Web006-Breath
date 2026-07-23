@@ -1020,6 +1020,7 @@ export class YixiApp {
       <div class="letter-seal-art" role="img" aria-label="瞬间信笺封口" data-testid="letter-seal-art"></div>
       <div class="paper-stamp-art" role="img" aria-label="日记印章" data-testid="paper-stamp-art"></div>
       <div class="circulation-log-art" role="img" aria-label="流通手账" data-testid="circulation-log-art"></div>
+      <div class="fountain-pen-art" role="img" aria-label="钢笔" data-testid="fountain-pen-art"></div>
       <div class="gift-tag-art" role="img" aria-label="心意吊牌" data-testid="gift-tag-art"></div>
       <div class="moment-card" data-testid="moment-card">
         <p><strong>瞬间卡片</strong> · 温存 +${r.warmthGained}</p>
