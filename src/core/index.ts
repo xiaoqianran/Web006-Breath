@@ -6,3 +6,5 @@ export * from "./hints";
 export * from "./settings";
 export * from "./unlocks";
 export * from "./events";
+export * from "./audio-bus";
+export * from "./achievements";

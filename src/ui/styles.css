@@ -315,3 +315,22 @@ footer.site-foot {
   font-size: 0.8rem;
   color: var(--warm-gray);
 }
+
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(61, 79, 68, 0.92);
+  color: #f7f3ec;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  z-index: 50;
+  max-width: 90vw;
+  font-size: 0.95rem;
+}
+
+html[data-reduce-motion="true"] .toast {
+  transition: none;
+}

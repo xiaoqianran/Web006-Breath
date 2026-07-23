@@ -16,9 +16,13 @@ import {
   listEarnedUnlocks,
   listLockedUnlocks,
   vesselAffinityLines,
+  newlyEarnedUnlocks,
+  SilentAudioBus,
+  sfxForGameEvent,
   type GameState,
   type PlayerSettings,
   type VesselKind,
+  type AudioBus,
   VESSEL_LABELS,
   QUALITY_LABELS,
   DEFAULT_SETTINGS,
@@ -35,6 +39,8 @@ export class YixiApp {
   private state: GameState;
   private settings: PlayerSettings;
   private view: View = "menu";
+  private audio: AudioBus = new SilentAudioBus();
+  private toast: string | null = null;
 
   constructor(root: HTMLElement) {
     this.root = root;
@@ -42,6 +48,7 @@ export class YixiApp {
     this.settings = this.readSettings();
     this.applyDocumentSettings();
     this.bindKeyboard();
+    this.audio.playBgm("bgm_menu");
     this.render();
   }
 
@@ -125,6 +132,23 @@ export class YixiApp {
   }
 
   private setState(next: GameState): void {
+    const prev = this.state;
+    const unlocked = newlyEarnedUnlocks(prev, next);
+    if (unlocked.length > 0) {
+      this.toast = `解锁：${unlocked.map((u) => u.title).join("、")}`;
+      this.audio.playSfx(sfxForGameEvent("rare"));
+    }
+    if (next.phase === "awaiting_circulation" && prev.phase === "awaiting_vessel") {
+      this.audio.playSfx(
+        next.crafted?.quality === "rare" ? sfxForGameEvent("rare") : sfxForGameEvent("craft"),
+      );
+    }
+    if (next.history.length > prev.history.length) {
+      this.audio.playSfx(sfxForGameEvent("circulate"));
+    }
+    if (next.shelf.length < prev.shelf.length) {
+      this.audio.playSfx(sfxForGameEvent("sell"));
+    }
     this.state = next;
     this.persist();
     this.render();
@@ -193,6 +217,19 @@ export class YixiApp {
       this.root.appendChild(this.renderTutorial());
     } else {
       this.root.appendChild(this.renderShop());
+    }
+    if (this.toast) {
+      const t = document.createElement("div");
+      t.className = "toast";
+      t.dataset.testid = "toast";
+      t.textContent = this.toast;
+      this.root.appendChild(t);
+      const msg = this.toast;
+      this.toast = null;
+      window.setTimeout(() => {
+        const el = this.root.querySelector(`[data-testid=toast]`);
+        if (el && el.textContent === msg) el.remove();
+      }, 3200);
     }
     const foot = document.createElement("footer");
     foot.className = "site-foot";
