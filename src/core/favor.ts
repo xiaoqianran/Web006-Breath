@@ -53,3 +53,51 @@ export function formatFavorBoardSummary(
   }
   return entries.map((e) => formatFavorLine(e)).join("；");
 }
+
+/** 从状态读取某客人当前好感 */
+export function favorForGuest(state: GameState, guestName: string): number {
+  return rebuildFavorMap(state.history)[guestName] ?? 0;
+}
+
+/**
+ * 接待时的好感驱动招呼文案（纯函数）
+ * 新客 favor=0 返回空串，由 UI 用默认接待语。
+ */
+export function formatFavorGreeting(guestName: string, favor: number): string {
+  if (favor <= 0) return "";
+  const rank = favorRankTitle(favor);
+  if (favor >= 12) {
+    return `${guestName}又来了——${rank}。店里像为你留了一盏常亮的灯。`;
+  }
+  if (favor >= 7) {
+    return `${guestName}推门进来，${rank}的脚步声你已经认得。`;
+  }
+  if (favor >= 3) {
+    return `${guestName}再次光临。你们已算${rank}，招呼可以轻松些。`;
+  }
+  return `${guestName}回来过。好感尚浅（${rank}），仍值得认真听。`;
+}
+
+/** 选形态阶段：按好感给一点温和的旁白（非强制） */
+export function formatFavorCraftAside(guestName: string, favor: number): string {
+  if (favor <= 0) return "";
+  if (favor >= 12) {
+    return `为${guestName}选形态时，可以更放心地试一试贴合的容器。`;
+  }
+  if (favor >= 7) {
+    return `${guestName}是熟客，匹配时多留一点他们偏爱的气息。`;
+  }
+  if (favor >= 3) {
+    return `记得${guestName}上次的心情，这次可以试着更贴一点。`;
+  }
+  return `与${guestName}的缘分刚起，稳稳接住即可。`;
+}
+
+/** 接待处预览：队列下一位的好感招呼（无则空） */
+export function formatNextGuestFavorHint(
+  state: GameState,
+  nextGuestName: string | null | undefined,
+): string {
+  if (!nextGuestName) return "";
+  return formatFavorGreeting(nextGuestName, favorForGuest(state, nextGuestName));
+}

@@ -9,6 +9,10 @@ import {
   favorRankTitle,
   formatFavorLine,
   formatFavorBoardSummary,
+  favorForGuest,
+  formatFavorGreeting,
+  formatFavorCraftAside,
+  formatNextGuestFavorHint,
   type Emotion,
 } from "../src/core";
 
@@ -87,5 +91,25 @@ describe("favor", () => {
     expect(formatFavorLine({ name: "阿初", favor: 8 })).toContain("熟客");
     expect(formatFavorBoardSummary([])).toContain("慢慢累积");
     expect(formatFavorBoardSummary([{ name: "阿初", favor: 4 }])).toContain("阿初");
+  });
+
+  it("好感驱动招呼与选形态旁白", () => {
+    expect(formatFavorGreeting("阿初", 0)).toBe("");
+    expect(formatFavorGreeting("阿初", 1)).toContain("初见");
+    expect(formatFavorGreeting("阿初", 8)).toContain("熟客");
+    expect(formatFavorGreeting("阿初", 12)).toContain("知心故人");
+    expect(formatFavorCraftAside("阿初", 0)).toBe("");
+    expect(formatFavorCraftAside("阿初", 7)).toContain("熟客");
+
+    let state = createGameState([a, b], {
+      dayGoalCirculations: 99,
+      dayGoalWarmth: 999,
+    });
+    state = runFullCirculation(state, "flower", "gift");
+    state = continueAfterResult(state);
+    expect(favorForGuest(state, "阿初")).toBeGreaterThan(0);
+    const greet = formatNextGuestFavorHint(state, "阿初");
+    expect(greet).toContain("阿初");
+    expect(formatNextGuestFavorHint(state, null)).toBe("");
   });
 });

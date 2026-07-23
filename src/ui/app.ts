@@ -29,6 +29,10 @@ import {
   topFavoredGuests,
   formatFavorLine,
   formatFavorBoardSummary,
+  favorForGuest,
+  formatFavorGreeting,
+  formatFavorCraftAside,
+  formatNextGuestFavorHint,
   formatRevisitHint,
   computeSessionStats,
   formatStatsSummary,
@@ -862,9 +866,15 @@ export class YixiApp {
     card.dataset.testid = "phase-card";
 
     if (s.phase === "awaiting_emotion" || (s.phase === "result" && !s.current)) {
+      const nextName = s.queue[0]?.guestName ?? null;
+      const favorHint = formatNextGuestFavorHint(s, nextName);
       card.innerHTML = `<div class="tea-counter-art" role="img" aria-label="茶台插画" data-testid="tea-counter-art"></div>
         <div class="tea-tray-art" role="img" aria-label="茶盘" data-testid="tea-tray-art"></div>
-        <div class="sugar-bowl-art" role="img" aria-label="糖罐" data-testid="sugar-bowl-art"></div><h2>接待处</h2><p class="muted">把门推开一点，听听今天的故事。</p>`;
+        <div class="sugar-bowl-art" role="img" aria-label="糖罐" data-testid="sugar-bowl-art"></div>
+        <div class="welcome-bell-art" role="img" aria-label="迎客门铃" data-testid="welcome-bell-art"></div>
+        <h2>接待处</h2>
+        <p class="muted">把门推开一点，听听今天的故事。</p>
+        ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
       row.className = "btn-row";
       const canAccept = s.queue.length > 0;
@@ -890,16 +900,22 @@ export class YixiApp {
 
     if (s.phase === "awaiting_vessel" && s.current) {
       const e = s.current;
+      const guestFavor = favorForGuest(s, e.guestName);
+      const greet = formatFavorGreeting(e.guestName, guestFavor);
+      const craftAside = formatFavorCraftAside(e.guestName, guestFavor);
       card.innerHTML = `
         <div class="guest-silhouette" role="img" aria-label="客人剪影" data-testid="guest-silhouette"></div>
         <div class="guest-notebook-art" role="img" aria-label="客人手记" data-testid="guest-notebook-art"></div>
         <div class="intensity-meter-art" role="img" aria-label="强度丝带" data-testid="intensity-meter-art"></div>
         <h2>${e.guestName}</h2>
+        ${greet ? `<p class="muted" data-testid="favor-greeting">${greet}</p>` : ""}
+        ${guestFavor > 0 ? `<p class="muted" data-testid="favor-guest-line">${formatFavorLine({ name: e.guestName, favor: guestFavor })}</p>` : ""}
         <p class="emotion-text" data-testid="emotion-text">「${e.text}」</p>
         <div class="tags" data-testid="emotion-tags">${e.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
         <p class="muted" data-testid="tags-line">${formatTagsLine(e.tags)}</p>
         <p class="muted" data-testid="intensity-line">${formatIntensityLine(e.intensity)}</p>
         <p class="muted" data-testid="intensity-hint">${intensityCraftHint(e.intensity)}</p>
+        ${craftAside ? `<p class="muted" data-testid="favor-craft-aside">${craftAside}</p>` : ""}
         <p class="muted">选择容器形态</p>
         <div class="vessel-grid" data-testid="vessel-grid"></div>
         <p class="muted" data-testid="hints" style="margin-top:0.75rem"></p>
