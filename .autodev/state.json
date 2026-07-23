@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 105,
+  "current_round": 106,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0106-emotion-tags-assert",
-  "last_completed_task_id": "T0105-guest-name-pool",
-  "last_commit": "88752bd6b53dec6e49cb2c1686ff6b6b96c0df54",
+  "current_task_id": "T0107-more-day-art",
+  "last_completed_task_id": "T0106-emotion-tags-assert",
+  "last_commit": "476992a9ac35b84ab86ab2f1bfff1f819a1c22d7",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 131 passed (46 files)",
+  "last_test_summary": "vitest: 132+ passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -29,6 +29,6 @@
     "内容管线",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD（chore 可能后置）\n功能提交: 88752bd6b53dec6e49cb2c1686ff6b6b96c0df54 T0105 姓名池+门铃\n轮次: 105 / 1000 · v0.2.5 · M2\n已完成本会话: T0100–T0105 订单/美术/情绪42/剧本18/播报/姓名池\n下一: T0106 情绪标签断言\n测试: 131 passed；双 smoke warmth=19\n美术新增: order_board,keeper,vessels_display,day_complete,codex_empty,tea_counter,season_spring,night_window,corner_flourish,doorbell\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:16:23Z"
+  "resume_instructions": "功能 476992a9ac35b84ab86ab2f1bfff1f819a1c22d7 T0106 标签校验。轮次 106/1000。下一 T0107 持续生图。命令: npm run check && npm run dev。本会话已推进 T0100–T0106。",
+  "updated_at": "2026-07-23T22:17:05Z"
 }
