@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 126,
+  "current_round": 127,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0127-emotions-56",
-  "last_completed_task_id": "T0126-continue",
-  "last_commit": "a42ff96c1dde4d892979ec8b8c532c8d5252f39c",
+  "current_task_id": "T0128-day-scripts-28",
+  "last_completed_task_id": "T0127-emotions-56",
+  "last_commit": "6794034530d9cf8cac138b116018066750ec9235",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 148 passed (49 files)",
   "core_loop_status": "playable_demo_ready",
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0127-emotions-56",
+    "T0128-day-scripts-28",
     "持续生图",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: a42ff96c1dde4d892979ec8b8c532c8d5252f39c T0126 日目标鼓励+日历\n轮次: 126 / 1000 · v0.2.6 · M2\n下一: T0127 情绪56\n测试: 148 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:38:58Z"
+  "resume_instructions": "功能 6794034530d9cf8cac138b116018066750ec9235 T0127 情绪56+故事书。轮次127/1000。下一 T0128。148 tests。npm run check && npm run dev",
+  "updated_at": "2026-07-23T22:39:43Z"
 }
