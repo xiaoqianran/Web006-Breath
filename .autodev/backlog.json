@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T20:50:49Z",
+  "updated_at": "2026-07-23T20:59:57Z",
   "tasks": [
     {
       "id": "T0001",
@@ -599,7 +599,7 @@
       "title": "本局流通统计",
       "category": "feat",
       "milestone": "M1-core-loop-depth",
-      "description": "computeSessionStats + 图鉴摘要",
+      "description": "computeSessionStats + 图鉴",
       "priority": 62,
       "estimated_rounds": 1,
       "dependencies": [],
@@ -613,6 +613,148 @@
       "created_round": 42,
       "completed_round": 42,
       "commit_hash": "a838afd282cc74a33b0e435a559e3b0c53fb4145"
+    },
+    {
+      "id": "T0041-assets-test",
+      "title": "关键资产存在性单测",
+      "category": "test",
+      "milestone": "M1-core-loop-depth",
+      "description": "tests/assets-exist.test.ts + @types/node",
+      "priority": 58,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "menu/shop/cover/vessels 文件存在断言"
+      ],
+      "test_plan": "npm test -- assets-exist",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 41,
+      "completed_round": 41,
+      "commit_hash": "bb2b366a9c9472a91047fc8dc6878a550c0f57ae"
+    },
+    {
+      "id": "T0043-dayend-stats",
+      "title": "打烊页本局统计摘要",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "day_complete 展示 formatStatsSummary",
+      "priority": 55,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0042-session-stats"
+      ],
+      "acceptance_criteria": [
+        "打烊页 data-testid day-end-stats"
+      ],
+      "test_plan": "npm run build + 结构",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 43,
+      "completed_round": 43,
+      "commit_hash": "9d6c0060b29828e4b0046643dcae0fe18d0a8939"
+    },
+    {
+      "id": "T0044-sfx-toggle",
+      "title": "sfxEnabled 设置开关",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "PlayerSettings.sfxEnabled",
+      "priority": 60,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0038-procedural-sfx"
+      ],
+      "acceptance_criteria": [
+        "设置可开关音效",
+        "旧 JSON 默认 true"
+      ],
+      "test_plan": "tests/settings.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 44,
+      "completed_round": 44,
+      "commit_hash": "baae0aeaaa0d2b9e8d0220621de708af02b83b1f"
+    },
+    {
+      "id": "T0045-test-report",
+      "title": "真实测试报告文档",
+      "category": "docs",
+      "milestone": "M1-core-loop-depth",
+      "description": "docs/TEST_REPORT.md",
+      "priority": 50,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "文档存在且引用真实命令"
+      ],
+      "test_plan": "文件存在",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 45,
+      "completed_round": 45,
+      "commit_hash": "d5af18142c0972b3fc71340b84d38541ba282b89"
+    },
+    {
+      "id": "T0046-gift-heart",
+      "title": "赠予之心解锁",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "累计 5 次赠予解锁 gift_heart",
+      "priority": 64,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "isUnlockEarned gift_heart",
+        "单测"
+      ],
+      "test_plan": "tests/unlocks.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 46,
+      "completed_round": 46,
+      "commit_hash": "09dfb6e3b9012194c4c0fef236dce0091096b001"
+    },
+    {
+      "id": "T0047-control-resync",
+      "title": "控制面三缺口再对齐",
+      "category": "docs",
+      "milestone": "M1-core-loop-depth",
+      "description": "ROADMAP/PROGRESS/backlog/state 与 tip 一致",
+      "priority": 100,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "ROADMAP 0037/0038 done",
+        "backlog 含 T0046-gift-heart",
+        "PROGRESS 无过时静默总线/过时下一优先"
+      ],
+      "test_plan": "npm run check + 文档断言脚本",
+      "visual_requirements": [],
+      "status": "in_progress",
+      "created_round": 47,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0048-help-overlay",
+      "title": "店内帮助覆盖层（? 键）",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "快捷键与核心循环说明",
+      "priority": 70,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "? 打开帮助",
+        "Esc 关闭"
+      ],
+      "test_plan": "npm run check",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 47,
+      "completed_round": null,
+      "commit_hash": null
     }
   ]
 }

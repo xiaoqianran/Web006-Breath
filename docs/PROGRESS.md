@@ -1,22 +1,20 @@
 # 开发进度（PROGRESS）
 
-## 总览（与仓库实测对齐 · 2026-07-23）
+## 总览（与仓库实测对齐）
 
 | 项 | 真实值 |
 |----|--------|
 | 项目 | 一息 · 温柔瞬间铺 |
 | 版本 | 0.2.1（package.json） |
 | 分支 | `main` |
-| 工作区 | clean（以提交当时为准） |
-| 最近 HEAD | `dd5c53f51362628a13ba71b2783c5915bb3688a6` |
-| 累计提交数 | 约 44+（`git rev-list --count HEAD`） |
-| 轮次 | **0046** / 1000 |
-| 里程碑 | M0 完成 · **M1 进行中** |
+| tip（写入前） | 以 `git rev-parse HEAD` 为准；对齐时为 `6ca43c71580551d8343c2568ce3568d3f0cbcc74` |
+| 轮次 | **0047** / 1000（本轮修复控制面三缺口） |
+| 里程碑 | M0 **done** · M1 **in_progress** |
 | 测试 | **`npm test` → 72 passed**（23 files） |
 | 验收 | `npm run check` = test + build + smoke |
-| 性能 | `npm run perf` 有真实 ms 输出（见 docs/PERFORMANCE.md） |
+| 性能 | `npm run perf`（真实 ms，见 PERFORMANCE.md） |
 | 剧本 | **15 日** `DAY_SCRIPTS` |
-| 情绪样本 | 24 条 `SAMPLE_EMOTIONS` |
+| 情绪样本 | **24** 条 `SAMPLE_EMOTIONS` |
 | 核心循环 | playable_demo_ready |
 
 ## 已交付系统
@@ -25,45 +23,44 @@
 - 货架（容量 5）/ 被买走 / 温情价  
 - 连心、默契 HUD、弱推荐形态  
 - **15 日剧本**、日事件特供、再访（好感联动）、店事事件  
-- 好感排行、解锁（含半月掌灯）、图鉴  
-- 存档、设置、教程、键盘、skip-link/aria、移动端布局  
+- 好感排行、解锁（半月掌灯、**赠予之心**）、图鉴、本局统计  
+- 存档、设置（含 **sfxEnabled**）、教程、键盘、skip-link/aria、移动端  
 - 美术：menu_bg / shop_bg / cover / vessels_sheet + SVG 图标  
-- 静默音频总线（尚无真实音频文件；程序化音效见后续轮）
+- **程序化 UI 音效**（`ProceduralAudioBus` + Web Audio；减少动效或关闭音效时静音）  
+- 尚无**外部** BGM/SFX 资源文件（真音频仍为待办 T0039）
 
 ## 轮次日志（摘要）
 
-| 轮次 | 结果要点 | 代表提交 |
-|------|----------|----------|
-| 0001 | 文档与 autodev | `1c74216` |
-| 0002–0005 | 脚手架+核心循环+UI+测试 | `2ea25cd` |
-| 0006–0008 | 图鉴存档提示 | `ae5040d` |
-| 0009–0010 | 设置教程美术 | `5839406` |
-| 0011–0014 | 解锁事件/键盘/SVG/质量门 | `e50423f` `8df55c9` |
-| 0015–0021 | 货架连心音频schema封面 | 见 git log |
-| 0026–0036 | 再访/性能/温情价/店事/好感/15日/半月解锁 | 至 `361df3b`/`efd480b` |
-| 0037–0046 | 控制面对齐 + 程序化音效 | `b57fa7f` `dd5c53f` |
+| 轮次 | 结果 | Commit |
+|------|------|--------|
+| 0001–0020 | M0 原型 | `1c74216`…`8df55c9` 等 |
+| 0021–0036 | 货架/连心/剧本/好感 | 见 git log |
+| 0037–0038 | 控制面对齐 + 程序化音效 | `b57fa7f` |
+| 0039–0041 | 24 情绪、资产测试 | `cd4b554` `bb2b366` |
+| 0042–0044 | 统计、打烊、sfx 开关 | `a838afd` `9d6c006` `baae0ae` |
+| 0045–0046 | 测试报告、赠予之心 | `d5af181` `09dfb6e` |
+| 0047 | **三缺口再对齐** | 本轮提交 |
 
 ## 已知问题
 
-- 无真实 BGM/SFX 文件（仅 SilentAudioBus）  
+- 无外部 BGM/SFX 文件（程序化短音已有）  
 - 浏览器长时性能未测  
-- 控制面曾短暂不同步（本轮修复）  
+- last_commit 字段可能落后 tip 一个 chore 提交；以 `git rev-parse HEAD` 为准  
 
 ## 下一优先
 
-1. T0046 程序化 UI 音效  
-2. 更多情绪/剧本打磨  
-3. 真音频资源（合法）  
-4. 持续 M1→M2  
+1. **T0039** 合法真音频资源（可选）  
+2. 读屏 / 焦点陷阱深化  
+3. M2 随机订单等系统  
+4. 持续 1000 轮内容与打磨  
 
-## 恢复命令
+## 恢复
 
 ```bash
 cd /root/wk
-git status
-git log -5 --oneline
-npm install
-npm run check
-npm run dev
+git status && git log -5 --oneline
+npm run check && npm run dev
 ```
+
+读 `.autodev/state.json` → `resume_instructions`。
 EOF

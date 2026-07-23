@@ -50,6 +50,8 @@ export class YixiApp {
   private view: View = "menu";
   private audio: ProceduralAudioBus = new ProceduralAudioBus(playWebAudioTone);
   private toast: string | null = null;
+  /** 店内/菜单帮助覆盖层 */
+  private helpOpen = false;
 
   constructor(root: HTMLElement) {
     this.root = root;
@@ -69,12 +71,24 @@ export class YixiApp {
 
   private bindKeyboard(): void {
     document.addEventListener("keydown", (ev) => {
+      if (ev.key === "?" || (ev.key === "/" && ev.shiftKey)) {
+        ev.preventDefault();
+        this.helpOpen = !this.helpOpen;
+        this.render();
+        return;
+      }
       if (ev.key === "Escape") {
+        if (this.helpOpen) {
+          this.helpOpen = false;
+          this.render();
+          return;
+        }
         if (this.view === "shop" || this.view === "codex" || this.view === "settings" || this.view === "about") {
           this.go("menu");
         }
         return;
       }
+      if (this.helpOpen) return;
       // 数字 1–5 在选形态阶段快速选择
       if (this.view === "shop" && this.state.phase === "awaiting_vessel") {
         const idx = Number(ev.key) - 1;
@@ -257,10 +271,48 @@ export class YixiApp {
         if (el && el.textContent === msg) el.remove();
       }, 3200);
     }
+    if (this.helpOpen) {
+      this.root.appendChild(this.renderHelpOverlay());
+    }
     const foot = document.createElement("footer");
     foot.className = "site-foot";
-    foot.textContent = "一息 · 温柔瞬间铺 — 情绪流通，而非贩卖商品";
+    foot.textContent = "一息 · 温柔瞬间铺 — 情绪流通，而非贩卖商品 · 按 ? 打开帮助";
     this.root.appendChild(foot);
+  }
+
+  private renderHelpOverlay(): HTMLElement {
+    const wrap = document.createElement("div");
+    wrap.className = "help-overlay";
+    wrap.dataset.testid = "help-overlay";
+    wrap.setAttribute("role", "dialog");
+    wrap.setAttribute("aria-modal", "true");
+    wrap.setAttribute("aria-label", "操作帮助");
+    wrap.innerHTML = `
+      <div class="help-panel card">
+        <h2>一息 · 帮助</h2>
+        <ol class="tutorial-steps">
+          <li><strong>接待</strong> — 店内「接待下一位」或 Enter</li>
+          <li><strong>转化</strong> — 点选形态，或按 1–5</li>
+          <li><strong>流通</strong> — 上架进货架，或赠予立即流通</li>
+          <li><strong>货架</strong> — 「被买走」完成二次流通</li>
+        </ol>
+        <p class="muted">Esc 关闭本层或返回主菜单 · ? 切换帮助 · 设置可关音效/动效</p>
+        <div class="btn-row"></div>
+      </div>
+    `;
+    wrap.querySelector(".btn-row")!.append(
+      this.button("关闭", () => {
+        this.helpOpen = false;
+        this.render();
+      }),
+    );
+    wrap.addEventListener("click", (e) => {
+      if (e.target === wrap) {
+        this.helpOpen = false;
+        this.render();
+      }
+    });
+    return wrap;
   }
 
   private renderMenu(): HTMLElement {

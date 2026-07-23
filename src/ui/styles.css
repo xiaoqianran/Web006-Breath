@@ -13,6 +13,23 @@
   left: 0.5rem;
 }
 
+.help-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(61, 79, 68, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.help-panel {
+  max-width: 420px;
+  width: 100%;
+  margin: 0;
+}
+
 :root {
   --paper: #f7f3ec;
   --mist: #a8c3b0;

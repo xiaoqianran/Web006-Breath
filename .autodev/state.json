@@ -3,30 +3,30 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 46,
+  "current_round": 47,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0046-next",
+  "current_task_id": "T0047-control-resync",
   "last_completed_task_id": "T0046-gift-heart",
-  "last_commit": "09dfb6e3b9012194c4c0fef236dce0091096b001",
-  "last_verified_build": "npm run check OK",
+  "last_commit": "6ca43c71580551d8343c2568ce3568d3f0cbcc74",
+  "last_verified_build": "npm test 72 passed (pre-edit)",
   "last_test_summary": "vitest: 72 passed (23 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
   "known_failures": [],
   "important_decisions": [
-    "D-001",
-    "D-002",
-    "D-003",
-    "D-004 ProceduralAudioBus",
-    "D-005 内容与解锁深化"
+    "D-001 Vite+TS+DOM",
+    "D-002 情绪流通经营",
+    "D-003 逻辑 UI 分离",
+    "D-004 ProceduralAudioBus + sfxEnabled",
+    "D-005 15 日剧本 + 24 情绪"
   ],
   "next_candidate_tasks": [
+    "T0048-help-overlay",
     "T0039-real-audio-files",
-    "读屏",
-    "M2"
+    "读屏审计"
   ],
-  "resume_instructions": "当前轮次: 46 / 1000。\n当前目标: M1 深化；下一 T0039 真音频。\n已完成步骤:\n  1. skeptic 修复：完整 resume；backlog 无陈旧 in_progress；PROGRESS/ROADMAP 对齐 15 日与真实测试数\n  2. ProceduralAudioBus + sfxEnabled；本局统计；24 情绪；赠予之心解锁\n尚未完成: 真实音频文件；1000 轮剩余。\nGit: branch=main；last_commit=09dfb6e3b9012194c4c0fef236dce0091096b001；git status 应 clean；tip 以 git rev-parse HEAD 为准。\n测试: 72 passed / 23 files（以 npm test 为准）；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git log -8 --oneline && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T20:56:04Z"
+  "resume_instructions": "当前轮次: 47 / 1000。\n当前目标: 修复 skeptic 三缺口并完成帮助快捷键增量。\n已完成步骤（写入前 tip=6ca43c71580551d8343c2568ce3568d3f0cbcc74）:\n  - T0037/T0038 done @ b57fa7f0fb93bb7947090315e5a922b9396b76ae\n  - T0040 24 情绪 @ cd4b554d4e0c4daa29b6d19b706a91d5467cac5c\n  - T0041 资产测试 @ bb2b366a9c9472a91047fc8dc6878a550c0f57ae\n  - T0042 统计 @ a838afd282cc74a33b0e435a559e3b0c53fb4145\n  - T0043 打烊统计 @ 9d6c0060b29828e4b0046643dcae0fe18d0a8939\n  - T0044 sfx 开关 @ baae0aeaaa0d2b9e8d0220621de708af02b83b1f\n  - T0045 测试报告 @ d5af18142c0972b3fc71340b84d38541ba282b89\n  - T0046 赠予之心 @ 09dfb6e3b9012194c4c0fef236dce0091096b001\n  - 本轮正在修 ROADMAP/PROGRESS/backlog 对齐\n尚未完成步骤: T0047 提交；T0048 帮助层；真音频 T0039；1000 轮剩余。\nGit 状态: branch=main；写入时 tip=6ca43c71580551d8343c2568ce3568d3f0cbcc74；working tree 将含本轮修改。\n最近提交: 见 git log；功能 last 09dfb6e；state tip 字段在提交后更新。\n测试状态: npm test → 72 passed / 23 files（sync-tests.txt）。\n已知错误: known_failures=[]；三文档缺口修复中。\n下一条建议命令: cd /root/wk && git status && npm run check && npm run dev\n下一项候选任务: T0048-help-overlay 完成后 → T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T20:59:57Z"
 }
