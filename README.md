@@ -56,7 +56,8 @@ npm run preview   # 预览构建产物
 - 瞬间图鉴 / 解锁 toast / localStorage 存档
 - 设置、教程、键盘快捷键、移动端布局
 - 主菜单 / 店内 / 宣传封面美术；SVG 形态图标
-- `npm run check` / `npm run perf` 验收与性能基线
+- `npm run check` / `npm run perf` 验收与性能基线  
+- 程序化 UI 音效（减少动效时关闭）、本局统计、24 情绪、15 日剧本
 
 ## 自治开发
 
