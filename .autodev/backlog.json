@@ -1518,8 +1518,29 @@
       ],
       "test_plan": "revisit/favor",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 120,
+      "completed_round": 121,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0122-continue",
+      "title": "M2 持续内容与视觉",
+      "category": "chore",
+      "milestone": "M2-systems",
+      "description": "续跑入口",
+      "priority": 45,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0121-revisit-favor-hint"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 121,
       "completed_round": null,
       "commit_hash": null
     }

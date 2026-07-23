@@ -68,3 +68,5 @@
 | ART-023 | `public/assets/ui/tip_jar.jpg` | 温情小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-024 | `public/assets/decor/morning_dew.jpg` | 晨露门铃 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-025 | `public/assets/bg/revisit_door.jpg` | 再访门廊 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -29,6 +29,7 @@ import {
   topFavoredGuests,
   formatFavorLine,
   formatFavorBoardSummary,
+  formatRevisitHint,
   computeSessionStats,
   formatStatsSummary,
   formatOrderDayEndLine,
@@ -922,8 +923,10 @@ export class YixiApp {
         <div class="closed-sign-art" role="img" aria-label="打烊门牌" data-testid="closed-sign-art"></div>
         <h2>今日打烊</h2>
         <p>你完成了今日的情绪流通。温存 ${s.warmth}，今日流通 ${s.circulationsToday} 次。</p>
+        <div class="revisit-door-art" role="img" aria-label="再访门廊" data-testid="revisit-door-art"></div>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>
         <p data-testid="day-end-orders">${formatOrderDayEndLine(s)}</p>
+        <p class="muted" data-testid="revisit-hint">${formatRevisitHint(s)}</p>
       `;
       if (s.lastResult) {
         card.appendChild(this.renderLastResult(s));

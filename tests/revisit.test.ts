@@ -2,6 +2,9 @@ import { describe, it, expect } from "vitest";
 import {
   buildRevisitGuest,
   maybeAppendRevisit,
+  evaluateRevisitEligibility,
+  formatRevisitHint,
+  REVISIT_FAVOR_THRESHOLD,
   createGameState,
   runFullCirculation,
   continueAfterResult,
@@ -58,6 +61,23 @@ describe("revisit", () => {
     state = { ...state, day: 1 };
     const q = maybeAppendRevisit(state, []);
     expect(q.length).toBe(1);
+  });
+
+  it("再访资格评估与提示文案", () => {
+    expect(REVISIT_FAVOR_THRESHOLD).toBe(5);
+    let empty = createGameState([e]);
+    const noGift = evaluateRevisitEligibility(empty);
+    expect(noGift.allowed).toBe(false);
+    expect(noGift.reason).toBe("no_gift");
+    expect(formatRevisitHint(empty)).toContain("赠予");
+
+    let state = createGameState([e], { dayGoalCirculations: 99, dayGoalWarmth: 999 });
+    state = runFullCirculation(state, "flower", "gift");
+    state = { ...state, day: 2 };
+    const even = evaluateRevisitEligibility(state);
+    expect(even.allowed).toBe(true);
+    expect(even.reason).toBe("even_day");
+    expect(formatRevisitHint(state).length).toBeGreaterThan(4);
   });
 });
 

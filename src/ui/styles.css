@@ -689,3 +689,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.48)),
     url("/assets/decor/morning_dew.jpg") center/cover no-repeat;
 }
+
+.revisit-door-art {
+  height: 88px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
+    url("/assets/bg/revisit_door.jpg") center/cover no-repeat;
+}
