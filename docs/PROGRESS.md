@@ -2,45 +2,30 @@
 
 ## 总览
 
-- 项目：一息（Gentle Moments Shop）v0.2.0
-- 当前轮次：约 **0026 / 1000**
-- 里程碑：M0 完成 · M1 深化中（可答辩演示）
-- 测试：**51 passed**（`npm test`）
-- 一键验收：`npm run check`（test + build + smoke）
-- HEAD：以 `git rev-parse HEAD` 为准（含再访系统等）
+- **一息** v0.2.x · 温柔瞬间情绪流通小店
+- 轮次：约 **0029 / 1000**
+- 测试：**58 passed**
+- 验收：`npm run check`（test + build + smoke）
+- 性能：`npm run perf`（真实 ms 基线）
+- 最近功能提交：`3f2e75a` 店事事件
 
-## 可演示功能清单
+## 可演示闭环
 
-| 模块 | 状态 |
-|------|------|
-| 核心循环 emotion→vessel→circulate | ✅ |
-| 上架货架 / 被买走 / 容量 5 | ✅ |
-| 赠予 / 连心 / 默契 HUD | ✅ |
-| 五日剧本 + 日事件 + 再访 | ✅ |
-| 存档 / 设置 / 教程 / 解锁 toast | ✅ |
-| 键盘 + 移动端布局 | ✅ |
-| 美术 menu/shop/cover + SVG 图标 | ✅ |
-| 内容 schema + 匹配属性测试 | ✅ |
-| 静默音频总线 | ✅（无真实音频文件） |
-| 毕业文档包 | ✅ |
+`接待 → 转化 → 上架/赠予 → 货架被买走 → 连心/默契 → 店事 → 日剧本/再访 → 存档图鉴`
 
-## 命令
+## 文档索引
 
-```bash
-npm install
-npm run dev      # 演示
-npm run check    # test+build+smoke
-```
-
-## 下一优先
-
-1. 真实音频资源接入 AudioBus  
-2. 性能基线实测  
-3. 客人好感持久化扩展  
-4. M2：定价/多货架事件  
-5. 持续向 1000 轮内容与打磨推进  
+GDD · ARCHITECTURE · DEMO_SCRIPT · DEFENSE_OUTLINE · USER_MANUAL · INNOVATION · QUALITY_GATE_M0/M1 · PERFORMANCE · LIMITATIONS · ART_* 
 
 ## 恢复
 
-读 `.autodev/state.json` → `resume_instructions`，然后 `npm run check`。
+```bash
+cd /root/wk && git status && npm run check && npm run dev
+```
+
+读 `.autodev/state.json` 的 `resume_instructions`。
+
+## 下一优先
+
+真音频 · 好感持久化 · 剧本日 6–10 · M2 扩展 · 持续 1000 轮内容与打磨
 EOF
