@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 112,
+  "current_round": 113,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0110-continue",
-  "last_completed_task_id": "T0109-order-keeper-unlock",
-  "last_commit": "def99b49a3416fdd4fa535520df70a0d93c250de",
-  "last_verified_build": "npm run build OK",
-  "last_test_summary": "vitest: 135 passed",
+  "current_task_id": "T0114-order-day-end",
+  "last_completed_task_id": "T0110-order-stats-hints",
+  "last_commit": "92bc9668f1efd3c311f299332532f4111df4cc9d",
+  "last_verified_build": "npm run check OK",
+  "last_test_summary": "vitest: 137 passed (47 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0108-order-multi-queue",
-    "内容管线",
-    "持续生图"
+    "T0114-order-day-end",
+    "日剧本扩充",
+    "客人剪影"
   ],
-  "resume_instructions": "tip=def99b49a3416fdd4fa535520df70a0d93c250de 轮次112/1000 v0.2.6 剧本20日。下一续 M2。npm run check && npm run dev",
-  "updated_at": "2026-07-23T22:22:02Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 92bc9668f1efd3c311f299332532f4111df4cc9d T0110 委托提示+统计+情绪48+教程/信笺\n轮次: 113 / 1000 · v0.2.6 · M2\n下一: T0114 打烊委托摘要\n测试: 137 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:25:13Z"
 }

@@ -1285,7 +1285,7 @@
       "status": "done",
       "created_round": 108,
       "completed_round": 113,
-      "commit_hash": "PENDING"
+      "commit_hash": "92bc9668f1efd3c311f299332532f4111df4cc9d"
     },
     {
       "id": "T0109-order-keeper-unlock",
@@ -1327,7 +1327,7 @@
       "status": "done",
       "created_round": 110,
       "completed_round": 113,
-      "commit_hash": "PENDING"
+      "commit_hash": "92bc9668f1efd3c311f299332532f4111df4cc9d"
     },
     {
       "id": "T0110-order-stats-hints",
@@ -1353,7 +1353,7 @@
       "status": "done",
       "created_round": 113,
       "completed_round": 113,
-      "commit_hash": "PENDING"
+      "commit_hash": "92bc9668f1efd3c311f299332532f4111df4cc9d"
     },
     {
       "id": "T0114-order-day-end",
