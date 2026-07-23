@@ -382,6 +382,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "期待"],
     intensity: 2,
   },
+  {
+    id: "e55",
+    guestName: "匿名",
+    text: "把围巾系紧，呼吸里有冬天和一点点勇气。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e56",
+    guestName: "予",
+    text: "把未读完的小说夹在第七页，像把明天订好了。",
+    tags: ["期待", "温柔"],
+    intensity: 2,
+  },
 ];
 
 

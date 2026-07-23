@@ -1609,7 +1609,7 @@
     },
     {
       "id": "T0126-continue",
-      "title": "M2 持续推进",
+      "title": "日目标鼓励文案与日历美术",
       "category": "chore",
       "milestone": "M2-systems",
       "description": "resume",
@@ -1623,8 +1623,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 125,
+      "completed_round": 126,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0127-emotions-56",
+      "title": "情绪样本扩充至 56",
+      "category": "content",
+      "milestone": "M2-systems",
+      "description": "SAMPLE>=56",
+      "priority": 58,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0126-continue"
+      ],
+      "acceptance_criteria": [
+        ">=56"
+      ],
+      "test_plan": "emotions-data",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 126,
       "completed_round": null,
       "commit_hash": null
     }

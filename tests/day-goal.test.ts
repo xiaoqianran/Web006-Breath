@@ -4,6 +4,8 @@ import {
   runFullCirculation,
   dayGoalProgress,
   formatDayGoalLine,
+  dayGoalRemaining,
+  formatDayGoalEncourage,
   type Emotion,
 } from "../src/core";
 
@@ -34,5 +36,32 @@ describe("dayGoalProgress", () => {
     expect(p.circulationsMet).toBe(true);
     expect(p.eitherMet).toBe(true);
     expect(p.bestRatio).toBe(1);
+    expect(dayGoalRemaining(p).status).toBe("done");
+    expect(formatDayGoalEncourage(p)).toContain("已达成");
+  });
+
+  it("剩余与鼓励文案随进度变化", () => {
+    const state = createGameState([e], { dayGoalCirculations: 4, dayGoalWarmth: 20 });
+    const p0 = dayGoalProgress(state);
+    expect(dayGoalRemaining(p0).circulationsLeft).toBe(4);
+    expect(dayGoalRemaining(p0).status).toBe("early");
+    expect(formatDayGoalEncourage(p0)).toContain("新的一天");
+
+    // 人为推进到 mid
+    const mid = dayGoalProgress({
+      ...state,
+      circulationsToday: 2,
+      warmth: 2,
+    });
+    expect(dayGoalRemaining(mid).status).toBe("mid");
+    expect(formatDayGoalEncourage(mid)).toContain("过半");
+
+    const close = dayGoalProgress({
+      ...state,
+      circulationsToday: 3,
+      warmth: 2,
+    });
+    expect(dayGoalRemaining(close).status).toBe("close");
+    expect(formatDayGoalEncourage(close)).toContain("差一点");
   });
 });

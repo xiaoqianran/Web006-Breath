@@ -720,3 +720,18 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
     url("/assets/bg/half_window.jpg") center/cover no-repeat;
 }
+
+.day-calendar-art {
+  width: 100%;
+  height: 56px;
+  border-radius: 8px;
+  margin-bottom: 0.35rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.48)),
+    url("/assets/ui/day_calendar.jpg") center/cover no-repeat;
+  flex-basis: 100%;
+}
+
+.hud {
+  flex-wrap: wrap;
+}
