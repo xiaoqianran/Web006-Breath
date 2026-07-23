@@ -1,3 +1,4 @@
+import { anyTrue } from "./bool";
 import type { GameState } from "./types";
 
 export interface DayGoalProgress {
@@ -29,7 +30,7 @@ export function dayGoalProgress(state: GameState): DayGoalProgress {
     warmthTarget: wT,
     circulationsMet,
     warmthMet,
-    eitherMet: circulationsMet || warmthMet,
+    eitherMet: anyTrue([circulationsMet, warmthMet]),
     bestRatio: Math.max(cRatio, wRatio),
   };
 }
