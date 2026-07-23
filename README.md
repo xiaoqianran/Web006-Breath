@@ -39,11 +39,22 @@ npm run preview   # 预览构建产物
 | 文档 | 说明 |
 |------|------|
 | [docs/GDD.md](docs/GDD.md) | 游戏设计 |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | 技术架构 |
 | [docs/ROADMAP.md](docs/ROADMAP.md) | 1000 轮路线图框架 |
 | [docs/PROGRESS.md](docs/PROGRESS.md) | 进度日志 |
 | [docs/ASSUMPTIONS.md](docs/ASSUMPTIONS.md) | 假设 |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | 决策 |
+| [docs/ASSET_MANIFEST.md](docs/ASSET_MANIFEST.md) | 资产清单 |
 | [AGENTS.md](AGENTS.md) | Agent 约定 |
+
+## 已实现功能（阶段性）
+
+- 核心循环：接待 → 选形态 → 上架/赠予
+- 温存 / 口碑 / 日目标与打烊
+- 瞬间图鉴、localStorage 存档与继续
+- 设置（提示开关、减少动效、教程标记）
+- 首次经营教程
+- 主菜单插画背景
 
 ## 自治开发
 

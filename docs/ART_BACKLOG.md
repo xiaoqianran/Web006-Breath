@@ -6,15 +6,10 @@
 
 ### AB-001 主菜单背景
 
-- 用途：主菜单全屏背景
-- 尺寸：1920×1080
-- 比例：16:9
-- 风格：小清新文艺插画，午后小店橱窗，雾绿米白
-- 色彩：#F7F3EC #A8C3B0 #E8D0CB
-- 文件：`public/assets/bg/menu_bg.png`
-- 透明：否
-- 提示词：A soft watercolor illustration of a cozy literary emotion shop named Yixi, afternoon light through lace curtain, wooden counter with dried flowers and teacups, misty green and paper white palette, gentle atmosphere, no text, 16:9
-- 状态：pending
+- 用途：主菜单英雄图
+- 尺寸：16:9
+- 文件：`public/assets/bg/menu_bg.jpg`
+- 状态：**done**（ART-001）
 
 ### AB-002 五种容器图标
 

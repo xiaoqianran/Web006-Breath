@@ -3,3 +3,4 @@ export * from "./matching";
 export * from "./game";
 export * from "./save";
 export * from "./hints";
+export * from "./settings";

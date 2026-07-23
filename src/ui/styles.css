@@ -64,6 +64,35 @@ body {
   }
 }
 
+html[data-reduce-motion="true"] .screen {
+  animation: none;
+}
+
+html[data-reduce-motion="true"] button:hover:not(:disabled) {
+  transform: none;
+}
+
+.setting-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin: 0.75rem 0;
+  cursor: pointer;
+}
+
+.setting-row input {
+  margin-top: 0.35rem;
+}
+
+.tutorial-steps {
+  padding-left: 1.25rem;
+  margin: 1rem 0;
+}
+
+.tutorial-steps li {
+  margin-bottom: 0.5rem;
+}
+
 h1,
 h2,
 h3 {
@@ -241,6 +270,19 @@ button.display {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+.menu-hero {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.15), rgba(247, 243, 236, 0.75)),
+    url("/assets/bg/menu_bg.jpg") center / cover no-repeat;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(168, 195, 176, 0.35);
+  margin-bottom: 1.25rem;
 }
 
 .quality-rare {

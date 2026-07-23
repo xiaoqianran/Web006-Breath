@@ -10,10 +10,14 @@ import {
   clearSave,
   listVesselHints,
   formatHintLine,
+  loadSettings,
+  updateSettings,
   type GameState,
+  type PlayerSettings,
   type VesselKind,
   VESSEL_LABELS,
   QUALITY_LABELS,
+  DEFAULT_SETTINGS,
 } from "../core";
 import { freshDayQueue } from "../data/emotions";
 
@@ -27,14 +31,19 @@ const VESSEL_ICONS: Record<VesselKind, string> = {
 
 const VESSELS = Object.keys(VESSEL_LABELS) as VesselKind[];
 
+type View = "menu" | "shop" | "about" | "codex" | "settings" | "tutorial";
+
 export class YixiApp {
   private root: HTMLElement;
   private state: GameState;
-  private view: "menu" | "shop" | "about" | "codex" = "menu";
+  private settings: PlayerSettings;
+  private view: View = "menu";
 
   constructor(root: HTMLElement) {
     this.root = root;
     this.state = createGameState(freshDayQueue(1));
+    this.settings = this.readSettings();
+    this.applyDocumentSettings();
     this.render();
   }
 
@@ -43,9 +52,35 @@ export class YixiApp {
     return this.state;
   }
 
-  private go(view: "menu" | "shop" | "about" | "codex"): void {
+  getSettings(): Readonly<PlayerSettings> {
+    return this.settings;
+  }
+
+  private go(view: View): void {
     this.view = view;
     this.render();
+  }
+
+  private readSettings(): PlayerSettings {
+    const store = this.storage();
+    return store ? loadSettings(store) : { ...DEFAULT_SETTINGS };
+  }
+
+  private patchSettings(patch: Partial<PlayerSettings>): void {
+    const store = this.storage();
+    if (store) {
+      this.settings = updateSettings(store, patch);
+    } else {
+      this.settings = { ...this.settings, ...patch };
+    }
+    this.applyDocumentSettings();
+    this.render();
+  }
+
+  private applyDocumentSettings(): void {
+    document.documentElement.dataset.reduceMotion = this.settings.reduceMotion
+      ? "true"
+      : "false";
   }
 
   private storage(): Storage | null {
@@ -71,8 +106,18 @@ export class YixiApp {
     const store = this.storage();
     if (store) clearSave(store);
     this.state = createGameState(freshDayQueue(1));
-    this.view = "shop";
     this.persist();
+    if (!this.settings.tutorialSeen) {
+      this.view = "tutorial";
+    } else {
+      this.view = "shop";
+    }
+    this.render();
+  }
+
+  private finishTutorial(): void {
+    this.patchSettings({ tutorialSeen: true });
+    this.view = "shop";
     this.render();
   }
 
@@ -114,6 +159,10 @@ export class YixiApp {
       this.root.appendChild(this.renderAbout());
     } else if (this.view === "codex") {
       this.root.appendChild(this.renderCodex());
+    } else if (this.view === "settings") {
+      this.root.appendChild(this.renderSettings());
+    } else if (this.view === "tutorial") {
+      this.root.appendChild(this.renderTutorial());
     } else {
       this.root.appendChild(this.renderShop());
     }
@@ -127,6 +176,7 @@ export class YixiApp {
     const el = document.createElement("section");
     el.className = "screen active menu-center";
     el.innerHTML = `
+      <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
       <p class="muted">Gentle Moments Shop</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>
@@ -137,7 +187,65 @@ export class YixiApp {
       this.button("开始今日经营", () => this.startNewGame()),
       this.button("继续经营", () => this.continueGame(), "secondary", !this.hasSave()),
       this.button("瞬间图鉴", () => this.go("codex"), "secondary"),
+      this.button("设置", () => this.go("settings"), "secondary"),
       this.button("关于", () => this.go("about"), "secondary"),
+    );
+    return el;
+  }
+
+  private renderTutorial(): HTMLElement {
+    const el = document.createElement("section");
+    el.className = "screen active";
+    el.dataset.testid = "tutorial";
+    el.innerHTML = `
+      <div class="card">
+        <h2>欢迎来到「一息」</h2>
+        <ol class="tutorial-steps">
+          <li><strong>接待</strong> — 听取客人交来的一小段心情。</li>
+          <li><strong>转化</strong> — 选择花 / 茶 / 画 / 音乐 / 小物件作为容器。</li>
+          <li><strong>流通</strong> — 上架或赠予，让情绪再次被需要的人接住。</li>
+        </ol>
+        <p class="muted">匹配越贴切，品质与温存越高。没有严格失败，只有更温柔的选择。</p>
+        <div class="btn-row"></div>
+      </div>
+    `;
+    el.querySelector(".btn-row")!.append(
+      this.button("明白了，开始经营", () => this.finishTutorial()),
+    );
+    return el;
+  }
+
+  private renderSettings(): HTMLElement {
+    const el = document.createElement("section");
+    el.className = "screen active";
+    el.dataset.testid = "settings";
+    const s = this.settings;
+    el.innerHTML = `
+      <div class="card">
+        <h2>设置</h2>
+        <label class="setting-row">
+          <input type="checkbox" data-key="showHints" ${s.showHints ? "checked" : ""} />
+          <span>显示气息提示（弱相性）</span>
+        </label>
+        <label class="setting-row">
+          <input type="checkbox" data-key="reduceMotion" ${s.reduceMotion ? "checked" : ""} />
+          <span>减少动效</span>
+        </label>
+        <label class="setting-row">
+          <input type="checkbox" data-key="tutorialSeen" ${s.tutorialSeen ? "checked" : ""} />
+          <span>已阅读教程（取消勾选后下次新游戏将再次显示）</span>
+        </label>
+        <div class="btn-row"></div>
+      </div>
+    `;
+    el.querySelectorAll<HTMLInputElement>("input[type=checkbox]").forEach((input) => {
+      input.addEventListener("change", () => {
+        const key = input.dataset.key as keyof PlayerSettings;
+        this.patchSettings({ [key]: input.checked });
+      });
+    });
+    el.querySelector(".btn-row")!.append(
+      this.button("返回", () => this.go("menu"), "secondary"),
     );
     return el;
   }
@@ -278,11 +386,16 @@ export class YixiApp {
         b.addEventListener("click", () => this.setState(chooseVessel(s, v)));
         grid.appendChild(b);
       }
-      const hints = listVesselHints(e)
-        .map((h) => formatHintLine(h))
-        .join(" · ");
-      const hintEl = card.querySelector("[data-testid=hints]")!;
-      hintEl.textContent = `气息提示：${hints}`;
+      const hintEl = card.querySelector("[data-testid=hints]") as HTMLElement;
+      if (this.settings.showHints) {
+        const hints = listVesselHints(e)
+          .map((h) => formatHintLine(h))
+          .join(" · ");
+        hintEl.textContent = `气息提示：${hints}`;
+      } else {
+        hintEl.textContent = "";
+        hintEl.hidden = true;
+      }
       return card;
     }
 
