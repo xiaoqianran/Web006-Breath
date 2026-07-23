@@ -11,6 +11,8 @@ export interface SessionStats {
   byVessel: Partial<Record<VesselKind, number>>;
   byQuality: Partial<Record<Quality, number>>;
   avgMatch: number;
+  /** 累计完成委托数 */
+  ordersFulfilled: number;
 }
 
 /** 从 history 汇总本局统计（纯函数，可单测） */
@@ -42,10 +44,17 @@ export function computeSessionStats(state: GameState): SessionStats {
     byVessel,
     byQuality,
     avgMatch: averageNumbers(matchScores),
+    ordersFulfilled: state.ordersFulfilled ?? 0,
   };
 }
 
 export function formatStatsSummary(stats: SessionStats): string {
-  if (stats.circulations === 0) return "尚未完成流通。";
-  return `流通 ${stats.circulations} 次（赠予 ${stats.gifts} / 上架 ${stats.displays}），平均匹配 ${stats.avgMatch.toFixed(1)}，温存 ${stats.warmth}。`;
+  if (stats.circulations === 0) {
+    return stats.ordersFulfilled > 0
+      ? `尚未完成流通，已履约委托 ${stats.ordersFulfilled} 笔。`
+      : "尚未完成流通。";
+  }
+  const orderPart =
+    stats.ordersFulfilled > 0 ? `，委托 ${stats.ordersFulfilled} 笔` : "";
+  return `流通 ${stats.circulations} 次（赠予 ${stats.gifts} / 上架 ${stats.displays}），平均匹配 ${stats.avgMatch.toFixed(1)}，温存 ${stats.warmth}${orderPart}。`;
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T22:14:10Z",
+  "updated_at": "2026-07-23T22:25:12Z",
   "tasks": [
     {
       "id": "T0001",
@@ -1282,10 +1282,10 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 108,
-      "completed_round": null,
-      "commit_hash": null
+      "completed_round": 113,
+      "commit_hash": "PENDING"
     },
     {
       "id": "T0109-order-keeper-unlock",
@@ -1324,8 +1324,55 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 110,
+      "completed_round": 113,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0110-order-stats-hints",
+      "title": "委托提示与统计接入",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "orderVesselHintLine + stats.ordersFulfilled + 情绪48 + 教程/信笺图",
+      "priority": 70,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0108-order-multi-queue"
+      ],
+      "acceptance_criteria": [
+        "提示可测",
+        "统计含委托",
+        "情绪≥48"
+      ],
+      "test_plan": "orders+stats+emotions",
+      "visual_requirements": [
+        "tutorial_book",
+        "letter_seal"
+      ],
+      "status": "done",
+      "created_round": 113,
+      "completed_round": 113,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0114-order-day-end",
+      "title": "打烊页展示委托摘要",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "day_complete 显示本局委托履约",
+      "priority": 62,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0110-order-stats-hints"
+      ],
+      "acceptance_criteria": [
+        "打烊文案含委托"
+      ],
+      "test_plan": "stats format + UI 结构",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 113,
       "completed_round": null,
       "commit_hash": null
     }

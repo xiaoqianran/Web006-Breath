@@ -8,44 +8,38 @@
 | 版本 | 0.2.6（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0112** / 1000 |
-| 里程碑 | M0 **done** · M1 **in_progress** · M2 **started** |
-| 测试 | **`npm test` → 134 passed**（47 files） |
+| 轮次 | **0113** / 1000 |
+| 里程碑 | M0 **done** · M1 **done-ish** · M2 **in_progress** |
+| 测试 | **`npm test` → 137 passed**（47 files） |
 | 验收 | `npm run check` = test + build + smoke |
 | 剧本 | **20 日** |
-| 情绪样本 | **42** 条 |
+| 情绪样本 | **48** 条 |
 | 音频 | **8** WAV + Hybrid |
-| 美术 | menu/shop/cover/vessels + **order_board / vessels_display / keeper** |
+| 订单 | 主+候补槽可履约；委托提示与统计 |
 | 核心循环 | playable_demo_ready |
-| 订单 | M2 骨架可履约 |
 
 ## 已交付系统
 
 - 核心循环：接待 → 形态转化 → 上架/赠予
-- 货架 / 温情价 / 连心 / 15 日剧本 / 再访 / 好感 / 店事
-- 解锁、图鉴、统计、存档、设置（音量滑条）、教程、a11y live region
-- HybridAudioBus + 原创 WAV
-- **M2 当日委托**（`orders.ts`）：确定性 roll、赠予/售出履约、店内告示板 UI
-- 新美术：委托告示板、五形态展示、掌灯人剪影
+- 货架 / 温情价 / 连心 / 20 日剧本 / 再访 / 好感 / 店事
+- 解锁（含委托守约）、图鉴、统计（含委托数）、存档、音量、a11y
+- HybridAudioBus + 原创 WAV + 多主题店内背景
+- **M2 委托**：主单+候补、形态提示 `orderVesselHintLine`、履约播报
+- 美术批次：order/keeper/vessels/day_complete/codex/tea/season/night/rain/gift/shelf/tutorial/letter…
 
 ## 轮次日志（摘要）
 
 | 轮次 | 结果 | Commit |
 |------|------|--------|
-| 0001–0096 | M0–M1 深化 | 见 git log |
-| 0097 | 真音频 T0039 | `07db690` |
-| 0098 | 读屏 T0098 | `64facfc` |
-| 0099 | 音量 T0099 | `c32b6ef` |
-| **0100–0101** | **M2 订单 + 委托高亮 + 美术** | `6c29c93` |
-| **0102** | **情绪 42 + 茶台/春饰** | 本轮 tip |
+| 0001–0099 | M0–M1 | 见 git log |
+| 0100–0112 | M2 订单/内容/美术 | 见 git log |
+| **0113** | **委托提示+统计委托+情绪48+教程/信笺美术** | 本轮 tip |
 
 ## 下一优先
 
-1. **T0106** 情绪标签全集断言
-2. 订单多队列 / 内容管线
-2. 情绪/剧本内容扩充
-3. 持续生图接入
-4. 滚向 M2 0101–0200
+1. T0114 日剧本 22+ / 订单日终结算
+2. 客人剪影批次
+3. ROADMAP M2 0111–0200 系统
 
 ## 恢复
 

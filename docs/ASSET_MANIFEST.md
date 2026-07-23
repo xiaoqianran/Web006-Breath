@@ -55,3 +55,6 @@
 
 | ART-015 | `public/assets/ui/gift_station.jpg` | 转化台包装 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
 | ART-016 | `public/assets/bg/rain_window.jpg` | 雨窗店内 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
+
+| ART-017 | `public/assets/ui/tutorial_book.jpg` | 教程册页 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-018 | `public/assets/ui/letter_seal.jpg` | 瞬间信笺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

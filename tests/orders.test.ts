@@ -13,6 +13,8 @@ import {
   listVisibleOrders,
   ensurePendingSecondary,
   tryFulfillAnyOrder,
+  orderVesselHintLine,
+  vesselHelpsAnyOrder,
   createGameState,
   acceptNextEmotion,
   chooseVessel,
@@ -124,6 +126,16 @@ describe("M2 shop orders", () => {
     expect(preferredVesselFromOrder(state)).toBe(order.preferredVessel);
     expect(isOrderPreferredVessel(state, order.preferredVessel)).toBe(true);
     expect(isOrderPreferredVessel({ activeOrder: null }, "tea")).toBe(false);
+  });
+
+  it("委托形态提示行与 helps 判定", () => {
+    const order = rollDailyOrder(5, 0);
+    const line = orderVesselHintLine({ activeOrder: order, pendingOrders: [] });
+    expect(line).toContain("委托偏好");
+    expect(line).toContain(VESSEL_LABELS[order.preferredVessel]);
+    expect(vesselHelpsAnyOrder({ activeOrder: order }, order.preferredVessel)).toBe(true);
+    expect(vesselHelpsAnyOrder({ activeOrder: null, pendingOrders: [] }, "tea")).toBe(false);
+    expect(orderVesselHintLine({ activeOrder: null, pendingOrders: [] })).toBe("");
   });
 
   it("核心循环赠予可触发履约（真实 game API）", () => {

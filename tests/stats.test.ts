@@ -21,6 +21,7 @@ describe("session stats", () => {
     const s = computeSessionStats(createGameState([e]));
     expect(s.circulations).toBe(0);
     expect(s.avgMatch).toBe(0);
+    expect(s.ordersFulfilled).toBe(0);
     expect(formatStatsSummary(s)).toContain("尚未");
   });
 
@@ -39,5 +40,13 @@ describe("session stats", () => {
     expect(s.byVessel.flower).toBe(2);
     expect(s.avgMatch).toBeGreaterThan(0);
     expect(formatStatsSummary(s)).toContain("流通 2");
+  });
+
+  it("统计含委托履约数", () => {
+    let state = createGameState([e]);
+    state = { ...state, ordersFulfilled: 2, activeOrder: null };
+    const s = computeSessionStats(state);
+    expect(s.ordersFulfilled).toBe(2);
+    expect(formatStatsSummary(s)).toContain("委托");
   });
 });

@@ -298,6 +298,48 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["孤独", "安心"],
     intensity: 3,
   },
+  {
+    id: "e43",
+    guestName: "南",
+    text: "把窗缝的风声当成有人在叫我的名字。",
+    tags: ["想念", "孤独"],
+    intensity: 3,
+  },
+  {
+    id: "e44",
+    guestName: "匿名",
+    text: "车站大屏翻了一页，我的站名还在。",
+    tags: ["期待", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e45",
+    guestName: "叙",
+    text: "把旧围巾叠好，里面还留着去年的味道。",
+    tags: ["想念", "温柔"],
+    intensity: 4,
+  },
+  {
+    id: "e46",
+    guestName: "禾",
+    text: "写到一半的日记被猫踩了爪印。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e47",
+    guestName: "匿名",
+    text: "伞借出去了，雨却停了。",
+    tags: ["释然", "遗憾"],
+    intensity: 3,
+  },
+  {
+    id: "e48",
+    guestName: "澄",
+    text: "把灯调暗一格，房间忽然有了边界。",
+    tags: ["安心", "孤独"],
+    intensity: 3,
+  },
 ];
 
 

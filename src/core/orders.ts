@@ -186,6 +186,32 @@ export function ensurePendingSecondary(state: GameState): GameState {
 }
 
 /**
+ * 选形态阶段：委托相关提示文案（纯函数）。
+ * 若无委托返回空串。
+ */
+export function orderVesselHintLine(
+  state: Pick<GameState, "activeOrder" | "pendingOrders">,
+): string {
+  const vessels: VesselKind[] = [];
+  if (state.activeOrder) vessels.push(state.activeOrder.preferredVessel);
+  for (const o of state.pendingOrders ?? []) {
+    if (o && !vessels.includes(o.preferredVessel)) vessels.push(o.preferredVessel);
+  }
+  if (vessels.length === 0) return "";
+  const names = vessels.map((v) => VESSEL_LABELS[v]).join("、");
+  return `委托偏好形态：${names}（匹配更易履约）`;
+}
+
+/** 形态是否在任一可见委托偏好中 */
+export function vesselHelpsAnyOrder(
+  state: Pick<GameState, "activeOrder" | "pendingOrders">,
+  vessel: VesselKind,
+): boolean {
+  if (state.activeOrder?.preferredVessel === vessel) return true;
+  return (state.pendingOrders ?? []).some((o) => o?.preferredVessel === vessel);
+}
+
+/**
  * 履约时优先匹配 active，否则匹配 pending 中第一笔。
  * 保持 tryFulfillOrder 行为；本函数供扩展路径单测。
  */

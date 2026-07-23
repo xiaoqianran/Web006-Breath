@@ -40,6 +40,8 @@ import {
   ensureActiveOrder,
   ensurePendingSecondary,
   listVisibleOrders,
+  orderVesselHintLine,
+  vesselHelpsAnyOrder,
   announcePhaseChange,
   announceUnlock,
   announceViewChange,
@@ -506,11 +508,13 @@ export class YixiApp {
     el.dataset.testid = "tutorial";
     el.innerHTML = `
       <div class="card">
+        <div class="tutorial-art" role="img" aria-label="教程册页插画" data-testid="tutorial-art"></div>
         <h2>欢迎来到「一息」</h2>
         <ol class="tutorial-steps">
           <li><strong>接待</strong> — 听取客人交来的一小段心情。</li>
           <li><strong>转化</strong> — 选择花 / 茶 / 画 / 音乐 / 小物件作为容器。</li>
           <li><strong>流通</strong> — 上架或赠予，让情绪再次被需要的人接住。</li>
+          <li><strong>委托</strong> — 告示板上的当日委托，匹配形态可额外温存。</li>
         </ol>
         <p class="muted">匹配越贴切，品质与温存越高。没有严格失败，只有更温柔的选择。</p>
         <div class="btn-row"></div>
@@ -834,12 +838,12 @@ export class YixiApp {
         <p class="muted" data-testid="hints" style="margin-top:0.75rem"></p>
       `;
       const grid = card.querySelector(".vessel-grid")!;
-      const orderVessel = s.activeOrder?.preferredVessel ?? null;
       for (const v of VESSELS) {
         const b = document.createElement("button");
         b.type = "button";
         b.className = "vessel-btn";
-        if (orderVessel === v) {
+        const helpsOrder = vesselHelpsAnyOrder(s, v);
+        if (helpsOrder) {
           b.classList.add("vessel-order-preferred");
           b.dataset.orderPreferred = "true";
         }
@@ -847,7 +851,7 @@ export class YixiApp {
         b.innerHTML = `<span class="icon">${vesselIconHtml(v)}</span><span>${VESSEL_LABELS[v]}</span><span class="muted" style="font-size:0.75rem">${VESSELS.indexOf(v) + 1}</span>`;
         b.setAttribute(
           "aria-label",
-          orderVessel === v
+          helpsOrder
             ? `选择${VESSEL_LABELS[v]}（今日委托偏好）`
             : `选择${VESSEL_LABELS[v]}`,
         );
@@ -860,10 +864,8 @@ export class YixiApp {
           .map((h) => formatHintLine(h))
           .join(" · ");
         const best = VESSEL_LABELS[bestVesselForGuest(e)];
-        const orderHint =
-          orderVessel != null
-            ? ` 今日委托偏爱「${VESSEL_LABELS[orderVessel]}」。`
-            : "";
+        const orderLine = orderVesselHintLine(s);
+        const orderHint = orderLine ? ` ${orderLine}` : "";
         hintEl.textContent = `气息提示：${hints}。隐约更靠近「${best}」。${orderHint}`;
       } else {
         hintEl.textContent = "";
@@ -950,6 +952,7 @@ export class YixiApp {
     if (!s.lastResult) return box;
     const r = s.lastResult;
     box.innerHTML = `
+      <div class="letter-seal-art" role="img" aria-label="瞬间信笺封口" data-testid="letter-seal-art"></div>
       <div class="moment-card" data-testid="moment-card">
         <p><strong>瞬间卡片</strong> · 温存 +${r.warmthGained}</p>
         <p>${r.momentCard}</p>
