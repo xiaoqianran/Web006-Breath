@@ -134,3 +134,4 @@
 | ART-064 | `public/assets/ui/vessel_art.jpg` | 画形态 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-065 | `public/assets/ui/vessel_music.jpg` | 音乐形态 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-066 | `public/assets/ui/codex_scrap.jpg` | 图鉴手账 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-067 | `public/assets/ui/codex_ribbon.jpg` | 图鉴丝带书签 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

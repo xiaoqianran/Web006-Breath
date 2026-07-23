@@ -556,6 +556,17 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/codex_scrap.jpg") center/cover no-repeat;
 }
 
+.codex-ribbon-art {
+  height: 56px;
+  width: 56px;
+  border-radius: 10px;
+  margin: 0 0 0.55rem auto;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/codex_ribbon.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
 .tea-counter-art {
   height: 96px;
   border-radius: 12px;

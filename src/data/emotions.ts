@@ -620,6 +620,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "安心"],
     intensity: 2,
   },
+  {
+    id: "e89",
+    guestName: "听雨",
+    text: "把图鉴翻到空白页，想留下今天的雨声。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e90",
+    guestName: "青禾",
+    text: "九十次深呼吸，终于选好一枝要交给你的花。",
+    tags: ["期待", "勇气"],
+    intensity: 4,
+  },
 ];
 
 
