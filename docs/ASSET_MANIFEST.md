@@ -141,3 +141,5 @@
 | ART-071 | `public/assets/ui/price_tag.jpg` | 温情价签 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-072 | `public/assets/promo/guest_d.jpg` | 客人剪影 D | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-073 | `public/assets/decor/umbrella_stand.jpg` | 伞架 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-074 | `public/assets/ui/moment_letter.jpg` | 瞬间信笺 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-075 | `public/assets/bg/puddle_dusk.jpg` | 暮色水洼 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

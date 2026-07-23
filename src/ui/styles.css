@@ -715,6 +715,24 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/letter_seal.jpg") center/cover no-repeat;
 }
 
+.moment-letter-art {
+  height: 88px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/moment_letter.jpg") center/cover no-repeat;
+}
+
+.puddle-dusk-art {
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/bg/puddle_dusk.jpg") center/cover no-repeat;
+}
+
 .closed-sign-art {
   height: 72px;
   border-radius: 10px;

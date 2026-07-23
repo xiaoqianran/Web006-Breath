@@ -80,6 +80,9 @@ import {
   formatTagsLine,
   formatActionLine,
   formatCirculationResultLine,
+  formatMomentCardHeader,
+  formatMomentCardFooter,
+  announceMomentCard,
   formatOrderLine,
   formatOrderShort,
   formatOrderRewardLine,
@@ -313,6 +316,9 @@ export class YixiApp {
       if (last) {
         const q = last.item.quality;
         this.queueAnnounce(announceCirculation(QUALITY_LABELS[q] ?? q));
+        if (next.lastResult) {
+          this.queueAnnounce(announceMomentCard(next.lastResult));
+        }
       }
       // 流通后尝试店事事件
       const ev = rollShopEvent(next);
@@ -1059,6 +1065,7 @@ export class YixiApp {
         <p data-testid="day-end-closing">${dayEnd.closingLine}</p>
         <p class="muted" data-testid="day-end-atmosphere">${formatAtmosphereClosing(s.day)}</p>
         <div class="night-rain-window-art" role="img" aria-label="夜雨窗" data-testid="night-rain-window-art"></div>
+        <div class="puddle-dusk-art" role="img" aria-label="暮色水洼" data-testid="puddle-dusk-art"></div>
         <div class="window-seat-art" role="img" aria-label="窗边座位" data-testid="window-seat-art"></div>
         <div class="revisit-door-art" role="img" aria-label="再访门廊" data-testid="revisit-door-art"></div>
         <div class="soft-blanket-art" role="img" aria-label="薄被" data-testid="soft-blanket-art"></div>
@@ -1106,15 +1113,17 @@ export class YixiApp {
     const r = s.lastResult;
     box.innerHTML = `
       <div class="letter-seal-art" role="img" aria-label="瞬间信笺封口" data-testid="letter-seal-art"></div>
+      <div class="moment-letter-art" role="img" aria-label="瞬间信笺" data-testid="moment-letter-art"></div>
       <div class="paper-stamp-art" role="img" aria-label="日记印章" data-testid="paper-stamp-art"></div>
       <div class="circulation-log-art" role="img" aria-label="流通手账" data-testid="circulation-log-art"></div>
       <div class="fountain-pen-art" role="img" aria-label="钢笔" data-testid="fountain-pen-art"></div>
       <div class="journal-page-art" role="img" aria-label="手账页" data-testid="journal-page-art"></div>
       <div class="gift-tag-art" role="img" aria-label="心意吊牌" data-testid="gift-tag-art"></div>
       <div class="moment-card" data-testid="moment-card">
-        <p><strong>瞬间卡片</strong> · 温存 +${r.warmthGained}</p>
+        <p data-testid="moment-header"><strong>${formatMomentCardHeader(r)}</strong></p>
         <p data-testid="action-result-line">${formatCirculationResultLine(r.action, r.warmthGained)}</p>
         <p>${r.momentCard}</p>
+        <p class="muted" data-testid="moment-footer">${formatMomentCardFooter(r)}</p>
       </div>
     `;
     return box;
