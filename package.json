@@ -1,0 +1,24 @@
+{
+  "name": "yixi-gentle-moments",
+  "version": "0.1.0",
+  "private": true,
+  "description": "一息 · 温柔瞬间铺 — 情绪流通经营游戏",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "vite-node scripts/run-core-smoke.ts"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}
