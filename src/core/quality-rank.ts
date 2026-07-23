@@ -13,3 +13,8 @@ export function qualityRank(q: Quality): number {
 export function isBetterQuality(a: Quality, b: Quality): boolean {
   return qualityRank(a) > qualityRank(b);
 }
+
+/** a 是否至少达到 min 品质 */
+export function qualityAtLeast(a: Quality, min: Quality): boolean {
+  return qualityRank(a) >= qualityRank(min);
+}

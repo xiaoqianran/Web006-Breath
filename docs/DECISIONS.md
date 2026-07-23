@@ -33,3 +33,9 @@ EOF
 - **决策**：用脚本生成 mono 22.05kHz WAV（无第三方采样）；`HybridAudioBus` 优先文件，回退 `ProceduralAudioBus` tone；BGM 用 HTMLAudioElement 循环。
 - **理由**：T0039 验收要有合法可再分发资源；合成可复现、无版权风险。
 - **后果**：氛围偏「占位级」短循环；日后可同 id 替换为人声/CC0 长曲。
+
+## D-007 M2 当日委托订单（2026-07-23）
+
+- **决策**：`ShopOrder` 按日确定性 roll；赠予或货架售出匹配形态/最低品质时履约；不阻断核心循环。
+- **理由**：毕业演示需「系统感」第二循环，且纯函数可测。
+- **后果**：同日同 salt 订单固定；UI 高亮 preferredVessel。

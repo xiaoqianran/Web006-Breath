@@ -107,17 +107,14 @@ describe("core circulation loop", () => {
   });
 
   it("赠予比上架多 1 点温存", () => {
-    const base = createGameState([sample[1]!], { dayGoalCirculations: 99, dayGoalWarmth: 999 });
-    const display = runFullCirculation(
-      createGameState([sample[1]!], { dayGoalCirculations: 99, dayGoalWarmth: 999 }),
-      "tea",
-      "display",
-    );
-    const gift = runFullCirculation(
-      createGameState([sample[1]!], { dayGoalCirculations: 99, dayGoalWarmth: 999 }),
-      "tea",
-      "gift",
-    );
+    // 关闭委托履约，避免订单奖励干扰基础温存差
+    const mk = () => {
+      const s = createGameState([sample[1]!], { dayGoalCirculations: 99, dayGoalWarmth: 999 });
+      return { ...s, activeOrder: null };
+    };
+    const base = mk();
+    const display = runFullCirculation(mk(), "tea", "display");
+    const gift = runFullCirculation(mk(), "tea", "gift");
     expect(gift.warmth).toBe(display.warmth + 1);
     expect(base.warmth).toBe(0);
   });

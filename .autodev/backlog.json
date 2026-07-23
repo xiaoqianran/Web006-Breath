@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T21:59:57Z",
+  "updated_at": "2026-07-23T22:10:09Z",
   "tasks": [
     {
       "id": "T0001",
@@ -1090,8 +1090,30 @@
       ],
       "test_plan": "orders.test.ts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 99,
+      "completed_round": 100,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0101-order-hint",
+      "title": "委托形态弱推荐提示",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "选形态阶段高亮订单 preferredVessel",
+      "priority": 70,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0100-m2-order-stub"
+      ],
+      "acceptance_criteria": [
+        "UI 提示订单形态",
+        "纯函数可测"
+      ],
+      "test_plan": "orders + app 结构",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 100,
       "completed_round": null,
       "commit_hash": null
     }

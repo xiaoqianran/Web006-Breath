@@ -1,5 +1,6 @@
 import { craftLabel, evaluateMatch, warmthFromCirculation, buildMomentCard } from "./matching";
 import { makeId } from "./id";
+import { ensureActiveOrder, rollDailyOrder, tryFulfillOrder } from "./orders";
 import {
   DEFAULT_CONFIG,
   type CirculationAction,
@@ -14,7 +15,7 @@ export function createGameState(
   queue: Emotion[],
   config: Partial<GameConfig> = {},
 ): GameState {
-  return {
+  const base: GameState = {
     phase: "awaiting_emotion",
     day: 1,
     warmth: 0,
@@ -29,18 +30,25 @@ export function createGameState(
     shelf: [],
     config: { ...DEFAULT_CONFIG, ...config },
     message: queue.length > 0 ? "今日已有情绪在等候。请接待下一位。" : "店里很安静。",
+    activeOrder: rollDailyOrder(1, 0),
+    ordersFulfilled: 0,
   };
+  return base;
 }
 
 /** 兼容旧存档：补齐缺失字段 */
 export function normalizeGameState(state: GameState): GameState {
-  return {
+  const withBasics: GameState = {
     ...state,
     qualityStreak: typeof state.qualityStreak === "number" ? state.qualityStreak : 0,
     shelf: Array.isArray(state.shelf) ? state.shelf : [],
     history: Array.isArray(state.history) ? state.history : [],
     queue: Array.isArray(state.queue) ? state.queue : [],
+    ordersFulfilled:
+      typeof state.ordersFulfilled === "number" ? state.ordersFulfilled : 0,
+    activeOrder: state.activeOrder === undefined ? null : state.activeOrder,
   };
+  return ensureActiveOrder(withBasics);
 }
 
 /** 接待队列首位情绪 */
@@ -155,7 +163,7 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
     }
   }
 
-  return {
+  let next: GameState = {
     ...state,
     phase,
     warmth,
@@ -171,6 +179,11 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
       ? `流通完成，获得温存 +${warmthGained}${streakMsg}。今日目标已达成！${shelfNote ? " " + shelfNote : ""}`
       : `流通完成，获得温存 +${warmthGained}${streakMsg}。可以继续接待。${shelfNote ? " " + shelfNote : ""}`,
   };
+  // 赠予直接履约；上架待售出时再检
+  if (action === "gift") {
+    next = tryFulfillOrder(next, record.item);
+  }
+  return next;
 }
 
 export const SHELF_CAPACITY = 5;
@@ -186,13 +199,15 @@ export function sellFromShelf(state: GameState, index: number): GameState {
   const item = state.shelf[index]!;
   const bonus = 1 + (item.crafted.quality === "rare" ? 2 : item.crafted.quality === "fine" ? 1 : 0);
   const shelf = state.shelf.filter((_, i) => i !== index);
-  return {
+  let next: GameState = {
     ...state,
     shelf,
     warmth: state.warmth + bonus,
     reputation: state.reputation + (item.crafted.quality === "rare" ? 1 : 0),
     message: `「${item.crafted.label}」被轻轻买走了。温存 +${bonus}。`,
   };
+  next = tryFulfillOrder(next, item.crafted);
+  return next;
 }
 
 /** 从结果页回到可接待状态 */
@@ -227,6 +242,7 @@ export function startNextDay(
     crafted: null,
     lastResult: null,
     circulationsToday: 0,
+    activeOrder: rollDailyOrder(day, state.ordersFulfilled ?? 0),
     message: openerMessage ?? `第 ${day} 日。新的情绪正缓缓到来。`,
   };
 }

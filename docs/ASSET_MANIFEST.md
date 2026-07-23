@@ -36,3 +36,9 @@
 - 再生：`node scripts/generate-audio-assets.mjs`
 - 许可文件：`public/assets/audio/LICENSE.txt`
 
+| ART-005 | `public/assets/ui/order_board.jpg` | 委托告示板 | Imagine | 16:9 | JPG | 否 | 0.2.4 | active | 原创 |
+| ART-006 | `public/assets/ui/vessels_display.jpg` | 五形态展示 | Imagine | 16:9 | JPG | 否 | 0.2.4 | active | 原创 |
+| ART-007 | `public/assets/promo/keeper.jpg` | 掌灯人剪影 | Imagine | 3:4 | JPG | 否 | 0.2.4 | active | 原创 |
+
+接入：`.order-board-art` / `.vessels-display` / `.keeper-portrait`（关于页与店内委托卡）。
+

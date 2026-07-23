@@ -448,3 +448,85 @@ footer.site-foot {
 html[data-reduce-motion="true"] .toast {
   transition: none;
 }
+
+/* 委托告示板 */
+.order-board {
+  border: 1px solid rgba(168, 195, 176, 0.45);
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.92), rgba(247, 243, 236, 0.97)),
+    #f7f3ec;
+}
+
+.order-board-art {
+  height: 88px;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.15), rgba(247, 243, 236, 0.55)),
+    url("/assets/ui/order_board.jpg") center/cover no-repeat;
+}
+
+.order-done {
+  opacity: 0.92;
+}
+
+/* 关于页图集 */
+.about-gallery {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-cover {
+  min-height: 140px;
+  background-image:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.2), rgba(247, 243, 236, 0.75)),
+    url("/assets/promo/cover.jpg") !important;
+}
+
+.keeper-portrait {
+  min-height: 140px;
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/promo/keeper.jpg") center/cover no-repeat;
+}
+
+.vessels-display {
+  height: 120px;
+  border-radius: 12px;
+  margin-bottom: 0.85rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
+    url("/assets/ui/vessels_display.jpg") center/cover no-repeat;
+}
+
+@media (max-width: 640px) {
+  .about-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+.vessel-btn.vessel-order-preferred {
+  outline: 2px solid var(--sage, #a8c3b0);
+  box-shadow: 0 0 0 3px rgba(168, 195, 176, 0.35);
+}
+
+.day-complete-art {
+  height: 110px;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.55)),
+    url("/assets/bg/day_complete.jpg") center/cover no-repeat;
+}
+
+.codex-empty-art {
+  height: 140px;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
+    url("/assets/ui/codex_empty.jpg") center/cover no-repeat;
+}

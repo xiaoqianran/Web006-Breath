@@ -35,6 +35,9 @@ import {
   VESSEL_ORDER,
   formatRatioPercent,
   bestQualityInHistory,
+  formatOrderLine,
+  formatOrderShort,
+  ensureActiveOrder,
   announcePhaseChange,
   announceUnlock,
   announceViewChange,
@@ -572,7 +575,7 @@ export class YixiApp {
     const locked = listLockedUnlocks(this.state);
     const items =
       list.length === 0
-        ? `<p class="muted">还没有完成的流通。去店里接待一位客人吧。</p>`
+        ? `<div class="codex-empty-art" role="img" aria-label="空白图鉴册页" data-testid="codex-empty-art"></div><p class="muted">还没有完成的流通。去店里接待一位客人吧。</p>`
         : list
             .map(
               (r, i) => `
@@ -639,9 +642,13 @@ export class YixiApp {
     el.innerHTML = `
       <div class="card">
         <h2>关于「一息」</h2>
-        <div class="menu-hero" style="background-image:linear-gradient(180deg,rgba(247,243,236,.2),rgba(247,243,236,.75)),url('/assets/promo/cover.jpg')" role="img" aria-label="一息宣传封面"></div>
+        <div class="about-gallery">
+          <div class="menu-hero about-cover" role="img" aria-label="一息宣传封面"></div>
+          <div class="keeper-portrait" role="img" aria-label="掌灯人剪影插画" data-testid="keeper-art"></div>
+        </div>
+        <div class="vessels-display" role="img" aria-label="五种温柔容器展示" data-testid="vessels-display"></div>
         <p>这是一家经营「情绪流通」的小店。客人把说不出口的心情交给你；你选择最贴切的容器，让它变成可以被带走的温柔瞬间。</p>
-        <p class="muted">毕业设计演示原型 v0.2 · 规则可测 · 文案向治愈体验</p>
+        <p class="muted">毕业设计演示原型 v0.2.4 · 规则可测 · 文案向治愈体验 · 含当日委托（M2 骨架）</p>
         <p class="muted">版本与验收：npm run check · 文档见 docs/</p>
         <div class="btn-row"></div>
       </div>
@@ -674,6 +681,30 @@ export class YixiApp {
       <span>等候 <strong>${s.queue.length}</strong></span>
     `;
     wrap.appendChild(hud);
+
+    // 当日委托告示板（createGameState 已 roll；旧档由 ensure 补齐）
+    const order = s.activeOrder ?? ensureActiveOrder(s).activeOrder;
+    if (order) {
+      const board = document.createElement("div");
+      board.className = "order-board card";
+      board.dataset.testid = "order-board";
+      board.innerHTML = `
+        <div class="order-board-art" role="img" aria-label="委托告示板插画"></div>
+        <h2>今日委托</h2>
+        <p data-testid="order-line">${formatOrderLine(order)}</p>
+        <p class="muted">完成奖励：温存 +${order.bonusWarmth}${
+          order.bonusReputation ? ` · 口碑 +${order.bonusReputation}` : ""
+        } · 已完成委托 ${s.ordersFulfilled ?? 0}</p>
+        <p class="kbd-hint">提示：赠予匹配形态可立即完成；上架后「被买走」也可履约（${formatOrderShort(order)}）</p>
+      `;
+      wrap.appendChild(board);
+    } else {
+      const done = document.createElement("div");
+      done.className = "order-board card order-done";
+      done.dataset.testid = "order-board";
+      done.innerHTML = `<h2>今日委托</h2><p class="muted">本日委托已完成，谢谢你的温柔。</p>`;
+      wrap.appendChild(done);
+    }
 
     const msg = document.createElement("p");
     msg.className = "message";
@@ -772,13 +803,23 @@ export class YixiApp {
         <p class="muted" data-testid="hints" style="margin-top:0.75rem"></p>
       `;
       const grid = card.querySelector(".vessel-grid")!;
+      const orderVessel = s.activeOrder?.preferredVessel ?? null;
       for (const v of VESSELS) {
         const b = document.createElement("button");
         b.type = "button";
         b.className = "vessel-btn";
+        if (orderVessel === v) {
+          b.classList.add("vessel-order-preferred");
+          b.dataset.orderPreferred = "true";
+        }
         b.dataset.vessel = v;
         b.innerHTML = `<span class="icon">${vesselIconHtml(v)}</span><span>${VESSEL_LABELS[v]}</span><span class="muted" style="font-size:0.75rem">${VESSELS.indexOf(v) + 1}</span>`;
-        b.setAttribute("aria-label", `选择${VESSEL_LABELS[v]}`);
+        b.setAttribute(
+          "aria-label",
+          orderVessel === v
+            ? `选择${VESSEL_LABELS[v]}（今日委托偏好）`
+            : `选择${VESSEL_LABELS[v]}`,
+        );
         b.addEventListener("click", () => this.setState(chooseVessel(s, v)));
         grid.appendChild(b);
       }
@@ -788,7 +829,11 @@ export class YixiApp {
           .map((h) => formatHintLine(h))
           .join(" · ");
         const best = VESSEL_LABELS[bestVesselForGuest(e)];
-        hintEl.textContent = `气息提示：${hints}。隐约更靠近「${best}」。`;
+        const orderHint =
+          orderVessel != null
+            ? ` 今日委托偏爱「${VESSEL_LABELS[orderVessel]}」。`
+            : "";
+        hintEl.textContent = `气息提示：${hints}。隐约更靠近「${best}」。${orderHint}`;
       } else {
         hintEl.textContent = "";
         hintEl.hidden = true;
@@ -829,6 +874,7 @@ export class YixiApp {
     if (s.phase === "day_complete") {
       const stats = computeSessionStats(s);
       card.innerHTML = `
+        <div class="day-complete-art" role="img" aria-label="打烊窗景插画" data-testid="day-complete-art"></div>
         <h2>今日打烊</h2>
         <p>你完成了今日的情绪流通。温存 ${s.warmth}，今日流通 ${s.circulationsToday} 次。</p>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>

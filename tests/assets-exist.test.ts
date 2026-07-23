@@ -15,6 +15,11 @@ describe("static assets on disk", () => {
       "public/assets/audio/sfx_click.wav",
       "public/assets/audio/bgm_menu.wav",
       "public/assets/audio/LICENSE.txt",
+      "public/assets/ui/order_board.jpg",
+      "public/assets/ui/vessels_display.jpg",
+      "public/assets/promo/keeper.jpg",
+      "public/assets/bg/day_complete.jpg",
+      "public/assets/ui/codex_empty.jpg",
     ];
     for (const f of files) {
       const p = resolve(root, f);

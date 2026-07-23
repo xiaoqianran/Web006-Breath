@@ -61,6 +61,18 @@ export interface GameConfig {
   dayGoalWarmth: number;
 }
 
+/** 当日客人委托（M2 订单骨架，可选） */
+export interface ShopOrderRef {
+  id: string;
+  day: number;
+  guestName: string;
+  preferredVessel: VesselKind;
+  minQuality: Quality;
+  bonusWarmth: number;
+  bonusReputation: number;
+  blurb: string;
+}
+
 export interface GameState {
   phase: GamePhase;
   day: number;
@@ -78,6 +90,10 @@ export interface GameState {
   shelf: ShelfItem[];
   config: GameConfig;
   message: string;
+  /** 当日活跃委托；null 表示暂无或已完成 */
+  activeOrder?: ShopOrderRef | null;
+  /** 累计完成委托数 */
+  ordersFulfilled?: number;
 }
 
 export const VESSEL_LABELS: Record<VesselKind, string> = {
