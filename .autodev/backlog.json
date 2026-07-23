@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-23T00:00:00.000Z",
+  "tasks": [
+    {
+      "id": "T0001",
+      "title": "项目引导与文档骨架",
+      "category": "docs",
+      "milestone": "M0-foundation",
+      "description": "Git 初始化、ASSUMPTIONS/GDD/ROADMAP/PROGRESS/autodev 状态",
+      "priority": 100,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "git 仓库存在",
+        "docs 与 .autodev 关键文件齐全",
+        "有真实 commit"
+      ],
+      "test_plan": "文件存在性检查",
+      "visual_requirements": [],
+      "status": "in_progress",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0002",
+      "title": "Vite+TS 工程脚手架",
+      "category": "build",
+      "milestone": "M0-foundation",
+      "description": "package.json、vite、tsconfig、入口 HTML/TS，可 build",
+      "priority": 95,
+      "estimated_rounds": 1,
+      "dependencies": ["T0001"],
+      "acceptance_criteria": [
+        "npm install 成功",
+        "npm run build 成功"
+      ],
+      "test_plan": "npm run build",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0003",
+      "title": "核心规则模块 emotion→vessel→circulate",
+      "category": "feat",
+      "milestone": "M0-foundation",
+      "description": "纯 TS 实现情绪、形态匹配、品质、流通状态机",
+      "priority": 94,
+      "estimated_rounds": 1,
+      "dependencies": ["T0002"],
+      "acceptance_criteria": [
+        "src/core 导出可测 API",
+        "完成一次流通状态转移"
+      ],
+      "test_plan": "后续 vitest 调用真实函数",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0004",
+      "title": "最小可玩 UI 完成一次流通",
+      "category": "feat",
+      "milestone": "M0-foundation",
+      "description": "DOM UI：选情绪、选形态、转化、上架/赠予",
+      "priority": 93,
+      "estimated_rounds": 1,
+      "dependencies": ["T0003"],
+      "acceptance_criteria": [
+        "页面可操作完成流通",
+        "显示品质与温存反馈"
+      ],
+      "test_plan": "构建冒烟 + 核心逻辑单测",
+      "visual_requirements": ["CSS 文艺主题占位"],
+      "status": "pending",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0005",
+      "title": "核心循环单元测试",
+      "category": "test",
+      "milestone": "M0-foundation",
+      "description": "Vitest 覆盖匹配、品质、流通与非法转移",
+      "priority": 92,
+      "estimated_rounds": 1,
+      "dependencies": ["T0003"],
+      "acceptance_criteria": [
+        "npm test 通过",
+        "测试调用 shipped 函数"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0006",
+      "title": "客人队列与样本内容",
+      "category": "feat",
+      "milestone": "M0-foundation",
+      "description": "多客人队列与至少 8 条情绪样本",
+      "priority": 80,
+      "estimated_rounds": 1,
+      "dependencies": ["T0004"],
+      "acceptance_criteria": ["可连续处理多名客人"],
+      "test_plan": "vitest + UI",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0007",
+      "title": "温存口碑与日目标",
+      "category": "feat",
+      "milestone": "M0-foundation",
+      "description": "资源结算与简单日目标",
+      "priority": 78,
+      "estimated_rounds": 1,
+      "dependencies": ["T0003"],
+      "acceptance_criteria": ["温存随流通变化", "日目标可达成"],
+      "test_plan": "vitest",
+      "visual_requirements": ["HUD"],
+      "status": "pending",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    },
+    {
+      "id": "T0008",
+      "title": "主菜单与场景切换",
+      "category": "feat",
+      "milestone": "M0-foundation",
+      "description": "主菜单开始/关于，进入店内",
+      "priority": 70,
+      "estimated_rounds": 1,
+      "dependencies": ["T0004"],
+      "acceptance_criteria": ["可从菜单进入并返回"],
+      "test_plan": "冒烟",
+      "visual_requirements": ["菜单布局"],
+      "status": "pending",
+      "created_round": 1,
+      "completed_round": null,
+      "commit_hash": null
+    }
+  ]
+}
