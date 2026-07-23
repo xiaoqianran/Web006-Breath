@@ -9,6 +9,10 @@ import {
   orderDifficulty,
   preferredVesselFromOrder,
   isOrderPreferredVessel,
+  rollSecondaryOrder,
+  listVisibleOrders,
+  ensurePendingSecondary,
+  tryFulfillAnyOrder,
   createGameState,
   acceptNextEmotion,
   chooseVessel,
@@ -89,6 +93,29 @@ describe("M2 shop orders", () => {
     const next = ensureActiveOrder(state);
     expect(next.activeOrder).not.toBeNull();
     expect(next.activeOrder!.day).toBe(1);
+  });
+
+  it("第二委托槽与可见列表", () => {
+    const primary = rollDailyOrder(7, 0);
+    const secondary = rollSecondaryOrder(7, primary);
+    expect(secondary.id).toContain("order_sec");
+    expect(secondary.day).toBe(7);
+    let state = createGameState(SAMPLE_EMOTIONS.slice(0, 1));
+    state = { ...state, activeOrder: primary, pendingOrders: [] };
+    state = ensurePendingSecondary(state);
+    expect(state.pendingOrders!.length).toBe(1);
+    const visible = listVisibleOrders(state);
+    expect(visible.length).toBe(2);
+    // 候补履约
+    const item = fakeItem(
+      state.pendingOrders![0]!.preferredVessel,
+      state.pendingOrders![0]!.minQuality,
+    );
+    // 先清空 active 以免主单先吃掉
+    state = { ...state, activeOrder: null };
+    const next = tryFulfillAnyOrder(state, item);
+    expect(next.ordersFulfilled).toBe(1);
+    expect(next.pendingOrders ?? []).toHaveLength(0);
   });
 
   it("委托偏好形态纯函数", () => {

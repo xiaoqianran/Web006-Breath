@@ -142,3 +142,73 @@ export function isOrderPreferredVessel(
 ): boolean {
   return preferredVesselFromOrder(state) === vessel;
 }
+
+/**
+ * 第二委托槽骨架：生成与主委托不同形态的候补订单。
+ * 不自动写入 state；由 UI/后续系统挂载到 pendingOrders。
+ */
+export function rollSecondaryOrder(day: number, primary: ShopOrder): ShopOrder {
+  let salt = 1;
+  let candidate = rollDailyOrder(day, salt);
+  // 最多尝试 8 次找不同形态
+  while (candidate.preferredVessel === primary.preferredVessel && salt < 8) {
+    salt += 1;
+    candidate = rollDailyOrder(day, salt + primary.bonusWarmth);
+  }
+  return {
+    ...candidate,
+    id: `order_sec_d${day}_${candidate.preferredVessel}`,
+  };
+}
+
+/** 列出当前可见委托（主 + 候补，去重 id） */
+export function listVisibleOrders(
+  state: Pick<GameState, "activeOrder" | "pendingOrders">,
+): ShopOrder[] {
+  const out: ShopOrder[] = [];
+  const seen = new Set<string>();
+  for (const o of [state.activeOrder, ...(state.pendingOrders ?? [])]) {
+    if (!o) continue;
+    if (seen.has(o.id)) continue;
+    seen.add(o.id);
+    out.push(o as ShopOrder);
+  }
+  return out;
+}
+
+/** 将第二委托挂到 state.pendingOrders（已有则保留） */
+export function ensurePendingSecondary(state: GameState): GameState {
+  if (!state.activeOrder) return state;
+  const pending = state.pendingOrders ?? [];
+  if (pending.length > 0) return { ...state, pendingOrders: pending };
+  const secondary = rollSecondaryOrder(state.day, state.activeOrder as ShopOrder);
+  return { ...state, pendingOrders: [secondary] };
+}
+
+/**
+ * 履约时优先匹配 active，否则匹配 pending 中第一笔。
+ * 保持 tryFulfillOrder 行为；本函数供扩展路径单测。
+ */
+export function tryFulfillAnyOrder(state: GameState, item: CraftedItem): GameState {
+  const primary = tryFulfillOrder(state, item);
+  if ((primary.ordersFulfilled ?? 0) > (state.ordersFulfilled ?? 0)) {
+    return primary;
+  }
+  const pending = state.pendingOrders ?? [];
+  for (let i = 0; i < pending.length; i++) {
+    const order = pending[i]!;
+    if (!orderMatches(order as ShopOrder, item)) continue;
+    const rest = pending.filter((_, j) => j !== i);
+    const fulfilled = (state.ordersFulfilled ?? 0) + 1;
+    const o = order as ShopOrder;
+    return {
+      ...state,
+      pendingOrders: rest,
+      ordersFulfilled: fulfilled,
+      warmth: state.warmth + o.bonusWarmth,
+      reputation: state.reputation + o.bonusReputation,
+      message: `${state.message} 【候补委托完成】${o.guestName}满意地收下了（温存 +${o.bonusWarmth}）。`,
+    };
+  }
+  return state;
+}

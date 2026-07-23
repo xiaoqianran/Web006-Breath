@@ -38,6 +38,8 @@ import {
   formatOrderLine,
   formatOrderShort,
   ensureActiveOrder,
+  ensurePendingSecondary,
+  listVisibleOrders,
   announcePhaseChange,
   announceUnlock,
   announceViewChange,
@@ -702,20 +704,29 @@ export class YixiApp {
     `;
     wrap.appendChild(hud);
 
-    // 当日委托告示板（createGameState 已 roll；旧档由 ensure 补齐）
-    const order = s.activeOrder ?? ensureActiveOrder(s).activeOrder;
-    if (order) {
+    // 当日委托告示板（主单 + 候补槽）
+    let orderState = s.activeOrder ? s : ensureActiveOrder(s);
+    orderState = ensurePendingSecondary(orderState);
+    const visible = listVisibleOrders(orderState);
+    if (visible.length > 0) {
       const board = document.createElement("div");
       board.className = "order-board card";
       board.dataset.testid = "order-board";
+      const primary = visible[0]!;
+      const secondary = visible[1];
       board.innerHTML = `
         <div class="order-board-art" role="img" aria-label="委托告示板插画"></div>
         <h2>今日委托</h2>
-        <p data-testid="order-line">${formatOrderLine(order)}</p>
-        <p class="muted">完成奖励：温存 +${order.bonusWarmth}${
-          order.bonusReputation ? ` · 口碑 +${order.bonusReputation}` : ""
-        } · 已完成委托 ${s.ordersFulfilled ?? 0}</p>
-        <p class="kbd-hint">提示：赠予匹配形态可立即完成；上架后「被买走」也可履约（${formatOrderShort(order)}）</p>
+        <p data-testid="order-line">${formatOrderLine(primary)}</p>
+        ${
+          secondary
+            ? `<p class="muted" data-testid="order-secondary">候补：${formatOrderShort(secondary)} — ${secondary.blurb}</p>`
+            : ""
+        }
+        <p class="muted">完成奖励：温存 +${primary.bonusWarmth}${
+          primary.bonusReputation ? ` · 口碑 +${primary.bonusReputation}` : ""
+        } · 已完成委托 ${orderState.ordersFulfilled ?? 0}</p>
+        <p class="kbd-hint">提示：赠予匹配形态可立即完成；上架后「被买走」也可履约（${formatOrderShort(primary)}）</p>
       `;
       wrap.appendChild(board);
     } else {

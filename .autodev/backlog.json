@@ -1261,8 +1261,29 @@
       ],
       "test_plan": "orders",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 107,
+      "completed_round": 108,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0109-continue-m2",
+      "title": "M2 持续内容与视觉",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "续跑入口",
+      "priority": 40,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0108-order-multi-queue"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 108,
       "completed_round": null,
       "commit_hash": null
     }

@@ -92,6 +92,8 @@ export interface GameState {
   message: string;
   /** 当日活跃委托；null 表示暂无或已完成 */
   activeOrder?: ShopOrderRef | null;
+  /** 候补委托队列（M2 多槽骨架） */
+  pendingOrders?: ShopOrderRef[];
   /** 累计完成委托数 */
   ordersFulfilled?: number;
 }

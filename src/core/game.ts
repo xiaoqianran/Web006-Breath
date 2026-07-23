@@ -47,6 +47,7 @@ export function normalizeGameState(state: GameState): GameState {
     ordersFulfilled:
       typeof state.ordersFulfilled === "number" ? state.ordersFulfilled : 0,
     activeOrder: state.activeOrder === undefined ? null : state.activeOrder,
+    pendingOrders: Array.isArray(state.pendingOrders) ? state.pendingOrders : [],
   };
   return ensureActiveOrder(withBasics);
 }
