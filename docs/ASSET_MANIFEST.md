@@ -76,3 +76,5 @@
 | ART-027 | `public/assets/bg/half_window.jpg` | 半开的窗 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-028 | `public/assets/ui/day_calendar.jpg` | 今日日历装饰 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-029 | `public/assets/ui/storybooks.jpg` | 故事书叠 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

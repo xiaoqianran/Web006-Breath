@@ -39,6 +39,7 @@ describe("static assets on disk", () => {
       "public/assets/bg/puddle_glow.jpg",
       "public/assets/bg/half_window.jpg",
       "public/assets/ui/day_calendar.jpg",
+      "public/assets/ui/storybooks.jpg",
       "public/assets/ui/favor_board.jpg",
     ];
     for (const f of files) {

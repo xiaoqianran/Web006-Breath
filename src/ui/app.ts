@@ -694,6 +694,7 @@ export class YixiApp {
           <div class="keeper-portrait" role="img" aria-label="掌灯人剪影插画" data-testid="keeper-art"></div>
         </div>
         <div class="vessels-display" role="img" aria-label="五种温柔容器展示" data-testid="vessels-display"></div>
+        <div class="storybooks-art" role="img" aria-label="温柔故事书叠" data-testid="storybooks-art"></div>
         <p>这是一家经营「情绪流通」的小店。客人把说不出口的心情交给你；你选择最贴切的容器，让它变成可以被带走的温柔瞬间。</p>
         <p class="muted">毕业设计演示原型 v0.2.4 · 规则可测 · 文案向治愈体验 · 含当日委托（M2 骨架）</p>
         <p class="muted">版本与验收：npm run check · 文档见 docs/</p>
