@@ -21,3 +21,4 @@ export * from "./phase-label";
 export * from "./vessel-list";
 export * from "./history-query";
 export * from "./clamp";
+export * from "./assert-state";
