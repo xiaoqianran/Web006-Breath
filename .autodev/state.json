@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 32,
+  "current_round": 33,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0032-next",
-  "last_completed_task_id": "T0032-favor",
-  "last_commit": "9ef97469c569695adb948f3a6b8aec1162bf8a84",
+  "current_task_id": "T0033-next",
+  "last_completed_task_id": "T0033-favor-revisit",
+  "last_commit": "daf878a06b459e849e0f224dd499a1aa91c4bfe2",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 61 passed",
+  "last_test_summary": "vitest: 62 passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -21,14 +21,14 @@
     "D-003 逻辑 UI 分离",
     "D-004 SilentAudioBus",
     "D-005 十日剧本",
-    "D-006 货架/再访/温情价/店事/好感"
+    "D-006 货架/再访/温情价/店事/好感联动"
   ],
   "next_candidate_tasks": [
-    "真音频接入",
-    "好感影响再访频率",
+    "真音频",
     "无障碍 aria",
-    "M2 随机订单"
+    "M2 随机订单",
+    "继续内容"
   ],
-  "resume_instructions": "cd /root/wk && git log -12 --oneline && git status && npm install && npm run check && npm run perf && npm run dev。版本约 0.2.1，61 tests。完整可玩毕业演示向原型。约 32/1000 轮。勿 push。",
-  "updated_at": "2026-07-23T20:38:30.000Z"
+  "resume_instructions": "cd /root/wk; git log -10 --oneline; git status; npm install; npm run check（62 tests）; npm run perf; npm run dev。v0.2.1 可演示。约 33/1000 轮。勿 push。下一：真音频或 aria 或更多情绪。",
+  "updated_at": "2026-07-23T20:39:40.000Z"
 }
