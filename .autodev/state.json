@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 117,
+  "current_round": 118,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0118-emotions-52",
-  "last_completed_task_id": "T0117-continue-m2",
-  "last_commit": "01213d35fad4da14138c6197752224a116422358",
+  "current_task_id": "T0119-continue",
+  "last_completed_task_id": "T0118-emotions-52",
+  "last_commit": "0654c692843fbb0790ea03042a224b6b546e7b3e",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 141 passed (48 files)",
+  "last_test_summary": "vitest: 141+ passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -29,6 +29,6 @@
     "持续生图",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 01213d35fad4da14138c6197752224a116422358 T0117 客人剪影\n轮次: 117 / 1000 · v0.2.6 · M2\n本会话: T0110–T0117 委托体系深化 + 大量美术 + 剧本22 + 情绪48\n下一: T0118 情绪52\n测试: 141 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:29:02Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0654c692843fbb0790ea03042a224b6b546e7b3e T0118 情绪52\n轮次: 118 / 1000 · v0.2.6 · M2\n本会话: ~112→118 · 委托全链路+美术+内容\n下一: T0119\n测试: 141 passed；双 smoke OK\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:29:41Z"
 }
