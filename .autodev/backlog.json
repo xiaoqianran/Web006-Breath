@@ -1157,7 +1157,7 @@
       "status": "done",
       "created_round": 102,
       "completed_round": 103,
-      "commit_hash": "PENDING"
+      "commit_hash": "dfa8ee58e31f6df9770ab76f8df86193f5a04abc"
     },
     {
       "id": "T0104-order-reward-toast",
