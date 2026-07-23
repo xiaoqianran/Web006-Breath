@@ -809,3 +809,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
     url("/assets/bg/wind_curtain.jpg") center/cover no-repeat;
 }
+
+.signpost-art {
+  height: 88px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
+    url("/assets/decor/signpost.jpg") center/cover no-repeat;
+}

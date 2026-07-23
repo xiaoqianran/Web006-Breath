@@ -1819,7 +1819,7 @@
     },
     {
       "id": "T0136-continue",
-      "title": "M2 持续推进",
+      "title": "情绪62与路牌美术",
       "category": "chore",
       "milestone": "M2-systems",
       "description": "resume",
@@ -1833,8 +1833,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 135,
+      "completed_round": 136,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0137-continue",
+      "title": "M2 持续推进",
+      "category": "chore",
+      "milestone": "M2-systems",
+      "description": "resume",
+      "priority": 40,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0136-continue"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 136,
       "completed_round": null,
       "commit_hash": null
     }
