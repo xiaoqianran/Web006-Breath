@@ -30,6 +30,6 @@
     "客人美术",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b673f4a65fbccd8a92e03ad00ba058509c43e8e2 T0164 情绪84/剧本50\n轮次: 164 / 1000 · v0.2.6 · M2\n本会话: T0158–T0164 温存/好感/打烊/委托/内容\n测试: 180 passed；双 smoke warmth=19\n下一: T0165\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T23:20:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b673f4a65fbccd8a92e03ad00ba058509c43e8e2 T0164 情绪84/剧本50\ntip chore: 87560d1b8ad7deebef99db0e0b52f64a63d1533e\n轮次: 164 / 1000 · v0.2.6 · M2\n本会话: T0158–T0164 温存/好感/打烊/委托/内容\n测试: 180 passed；双 smoke warmth=19\n下一: T0165\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T23:21:00Z"
 }
