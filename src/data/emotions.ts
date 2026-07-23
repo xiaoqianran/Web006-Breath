@@ -564,6 +564,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "安心"],
     intensity: 4,
   },
+  {
+    id: "e81",
+    guestName: "匿名",
+    text: "委托条上的字有点抖，但我还是写完了。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e82",
+    guestName: "简",
+    text: "把接近的那一步也算进温柔里，好吗。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e83",
+    guestName: "匿名",
+    text: "打烊前还想再听一句：今天被接住了。",
+    tags: ["安心", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e84",
+    guestName: "柏",
+    text: "八十四次犹豫之后，我把心愿钉在了告示板上。",
+    tags: ["勇气", "期待"],
+    intensity: 4,
+  },
 ];
 
 
