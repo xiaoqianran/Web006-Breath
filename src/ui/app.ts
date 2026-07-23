@@ -85,6 +85,9 @@ import {
   announceMomentCard,
   formatSettingsSummary,
   formatSettingsEncourage,
+  listTutorialStepLines,
+  formatTutorialFooter,
+  formatTutorialWelcome,
   formatOrderLine,
   formatOrderShort,
   formatOrderRewardLine,
@@ -588,18 +591,22 @@ export class YixiApp {
     const el = document.createElement("section");
     el.className = "screen active";
     el.dataset.testid = "tutorial";
+    const steps = listTutorialStepLines()
+      .map((line) => {
+        const m = line.match(/^\d+\.\s(.+?)\s—\s(.+)$/);
+        if (!m) return `<li>${line}</li>`;
+        return `<li><strong>${m[1]}</strong> — ${m[2]}</li>`;
+      })
+      .join("");
     el.innerHTML = `
       <div class="card">
         <div class="tutorial-art" role="img" aria-label="教程册页插画" data-testid="tutorial-art"></div>
+        <div class="tutorial-spread-art" role="img" aria-label="教程展开页" data-testid="tutorial-spread-art"></div>
         <div class="wind-curtain-art" role="img" aria-label="风掀窗帘" data-testid="wind-curtain-art"></div>
         <h2>欢迎来到「一息」</h2>
-        <ol class="tutorial-steps">
-          <li><strong>接待</strong> — 听取客人交来的一小段心情。</li>
-          <li><strong>转化</strong> — 选择花 / 茶 / 画 / 音乐 / 小物件作为容器。</li>
-          <li><strong>流通</strong> — 上架或赠予，让情绪再次被需要的人接住。</li>
-          <li><strong>委托</strong> — 告示板上的当日委托，匹配形态可额外温存。</li>
-        </ol>
-        <p class="muted">匹配越贴切，品质与温存越高。没有严格失败，只有更温柔的选择。</p>
+        <p class="muted" data-testid="tutorial-welcome">${formatTutorialWelcome()}</p>
+        <ol class="tutorial-steps" data-testid="tutorial-steps">${steps}</ol>
+        <p class="muted" data-testid="tutorial-footer">${formatTutorialFooter()}</p>
         <div class="btn-row"></div>
       </div>
     `;

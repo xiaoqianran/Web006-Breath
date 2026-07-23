@@ -753,6 +753,15 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/decor/paper_cranes.jpg") center/cover no-repeat;
 }
 
+.tutorial-spread-art {
+  height: 100px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/tutorial_spread.jpg") center/cover no-repeat;
+}
+
 .puddle-dusk-art {
   height: 80px;
   border-radius: 12px;
