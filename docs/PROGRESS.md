@@ -2,30 +2,35 @@
 
 ## 总览
 
-- **一息** v0.2.x · 温柔瞬间情绪流通小店
-- 轮次：约 **0029 / 1000**
-- 测试：**58 passed**
-- 验收：`npm run check`（test + build + smoke）
-- 性能：`npm run perf`（真实 ms 基线）
-- 最近功能提交：`3f2e75a` 店事事件
+| 项 | 值 |
+|----|-----|
+| 项目 | 一息 · 温柔瞬间铺 |
+| 版本 | 0.2.1 |
+| 轮次 | ~32 / 1000 |
+| 测试 | **61 passed** |
+| 验收 | `npm run check` |
+| 性能 | `npm run perf`（真实 ms） |
+| 状态 | active · 可答辩演示 |
 
-## 可演示闭环
+## 玩法系统（已交付）
 
-`接待 → 转化 → 上架/赠予 → 货架被买走 → 连心/默契 → 店事 → 日剧本/再访 → 存档图鉴`
+- 核心循环：接待 → 形态转化 → 上架/赠予  
+- 货架（容量 5）/ 被买走 / 温情价  
+- 连心、默契、弱推荐形态  
+- 十日剧本、日事件特供、再访、店事事件  
+- 好感排行、解锁、图鉴  
+- 存档、设置、教程、键盘与移动端  
 
-## 文档索引
+## 工程
 
-GDD · ARCHITECTURE · DEMO_SCRIPT · DEFENSE_OUTLINE · USER_MANUAL · INNOVATION · QUALITY_GATE_M0/M1 · PERFORMANCE · LIMITATIONS · ART_* 
+- `src/core` 纯逻辑 · Vitest 20 文件  
+- Vite 构建 · 自治 `.autodev/*` · 1000 轮路线图框架  
 
 ## 恢复
 
-```bash
-cd /root/wk && git status && npm run check && npm run dev
-```
+见 `.autodev/state.json` → `resume_instructions`。
 
-读 `.autodev/state.json` 的 `resume_instructions`。
+## 下一阶段
 
-## 下一优先
-
-真音频 · 好感持久化 · 剧本日 6–10 · M2 扩展 · 持续 1000 轮内容与打磨
+真音频 · 好感驱动再访 · 无障碍 · 持续内容与 1000 轮打磨  
 EOF
