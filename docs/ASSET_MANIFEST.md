@@ -52,3 +52,6 @@
 
 | ART-013 | `public/assets/ui/doorbell.jpg` | 页脚门铃 | Imagine | 1:1 | JPG | 否 | 0.2.5 | active | 原创 |
 | ART-014 | `public/assets/ui/corner_flourish.jpg` | 订单卡角饰 | Imagine | 1:1 | JPG | 否 | 0.2.5 | active | 原创 |
+
+| ART-015 | `public/assets/ui/gift_station.jpg` | 转化台包装 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |
+| ART-016 | `public/assets/bg/rain_window.jpg` | 雨窗店内 | Imagine | 16:9 | JPG | 否 | 0.2.5 | active | 原创 |

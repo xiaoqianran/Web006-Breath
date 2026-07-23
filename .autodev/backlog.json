@@ -1240,8 +1240,29 @@
       "visual_requirements": [
         "新图"
       ],
-      "status": "pending",
+      "status": "done",
       "created_round": 106,
+      "completed_round": 107,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0108-order-multi-queue",
+      "title": "可选第二委托槽",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "orders 扩展 pendingOrders 数组骨架",
+      "priority": 58,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0107-more-day-art"
+      ],
+      "acceptance_criteria": [
+        "纯函数可测"
+      ],
+      "test_plan": "orders",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 107,
       "completed_round": null,
       "commit_hash": null
     }

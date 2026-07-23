@@ -348,6 +348,7 @@ export class YixiApp {
     this.root.innerHTML = "";
     this.root.classList.toggle("shop-theme", this.view === "shop");
     this.root.classList.toggle("evening-theme", this.view === "shop" && this.state.day >= 12);
+    this.root.classList.toggle("rain-theme", this.view === "shop" && this.state.day >= 2 && this.state.day <= 4);
     if (this.view === "menu") {
       this.root.appendChild(this.renderMenu());
     } else if (this.view === "about") {
@@ -863,6 +864,7 @@ export class YixiApp {
     if (s.phase === "awaiting_circulation" && s.crafted) {
       const item = s.crafted;
       card.innerHTML = `
+        <div class="gift-station-art" role="img" aria-label="赠予包装台" data-testid="gift-station-art"></div>
         <h2>转化台</h2>
         <p data-testid="crafted-label"><strong>${item.label}</strong></p>
         <p>品质：<span class="quality-${item.quality}" data-testid="quality">${QUALITY_LABELS[item.quality]}</span>
