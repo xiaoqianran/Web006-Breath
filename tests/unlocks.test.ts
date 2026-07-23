@@ -7,6 +7,10 @@ import {
   isUnlockEarned,
   UNLOCKS,
   vesselAffinityLines,
+  unlockProgress,
+  nextUnlockTarget,
+  formatNextUnlockLine,
+  listUnlockProgress,
   type Emotion,
 } from "../src/core";
 
@@ -94,6 +98,21 @@ describe("unlocks", () => {
     };
     expect(isUnlockEarned(state, month)).toBe(true);
     expect(isUnlockEarned({ ...state, day: 27 }, month)).toBe(false);
+  });
+
+  it("解锁进度与下一目标文案", () => {
+    const state = createGameState([e]);
+    const heart = UNLOCKS.find((u) => u.id === "gift_heart")!;
+    const p0 = unlockProgress(state, heart);
+    expect(p0.earned).toBe(false);
+    expect(p0.ratio).toBe(0);
+    expect(p0.hint).toContain("赠予之心");
+    const all = listUnlockProgress(state);
+    expect(all.length).toBe(UNLOCKS.length);
+    const next = nextUnlockTarget(state);
+    expect(next).not.toBeNull();
+    expect(next!.earned).toBe(false);
+    expect(formatNextUnlockLine(state)).toContain("下一枚纪念");
   });
 });
 

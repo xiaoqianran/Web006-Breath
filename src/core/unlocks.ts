@@ -96,6 +96,85 @@ export function listLockedUnlocks(state: GameState): UnlockDef[] {
   return UNLOCKS.filter((u) => !isUnlockEarned(state, u));
 }
 
+export interface UnlockProgress {
+  unlock: UnlockDef;
+  earned: boolean;
+  /** 0–1 粗略进度（多条件取最低完成度） */
+  ratio: number;
+  hint: string;
+}
+
+function clamp01(n: number): number {
+  return Math.min(1, Math.max(0, n));
+}
+
+/**
+ * 单个解锁的进度估算（纯函数，可单测）。
+ * 特殊解锁会检查额外条件。
+ */
+export function unlockProgress(state: GameState, unlock: UnlockDef): UnlockProgress {
+  if (isUnlockEarned(state, unlock)) {
+    return { unlock, earned: true, ratio: 1, hint: `已解锁「${unlock.title}」` };
+  }
+  const ratios: number[] = [];
+  if (unlock.minReputation > 0) {
+    ratios.push(clamp01(state.reputation / unlock.minReputation));
+  }
+  if (unlock.minCirculations > 0) {
+    ratios.push(clamp01(state.history.length / unlock.minCirculations));
+  }
+  if (unlock.id === "gift_heart") {
+    const gifts = state.history.filter((h) => h.action === "gift").length;
+    ratios.push(clamp01(gifts / 5));
+  }
+  if (unlock.id === "order_keeper") {
+    ratios.push(clamp01((state.ordersFulfilled ?? 0) / 3));
+  }
+  if (unlock.id === "fortnight") {
+    ratios.push(clamp01(state.day / 15));
+  }
+  if (unlock.id === "month_keeper") {
+    ratios.push(clamp01(state.day / 28));
+  }
+  if (unlock.id === "week_keeper") {
+    ratios.push(clamp01(state.day / 2));
+  }
+  if (unlock.id === "rare_shelf") {
+    const rareDone = state.history.some((h) => h.item.quality === "rare");
+    ratios.push(rareDone ? 1 : 0);
+  }
+  const ratio = ratios.length ? Math.min(...ratios) : 0;
+  const pct = Math.round(ratio * 100);
+  return {
+    unlock,
+    earned: false,
+    ratio,
+    hint: `「${unlock.title}」进度约 ${pct}%`,
+  };
+}
+
+/** 所有锁定解锁的进度列表（按 ratio 升序，最近达成优先显示低进度） */
+export function listUnlockProgress(state: GameState): UnlockProgress[] {
+  return UNLOCKS.map((u) => unlockProgress(state, u)).sort((a, b) => {
+    if (a.earned !== b.earned) return a.earned ? 1 : -1;
+    return a.ratio - b.ratio;
+  });
+}
+
+/** 下一枚最近可冲刺的锁定解锁（无则 null） */
+export function nextUnlockTarget(state: GameState): UnlockProgress | null {
+  const locked = listUnlockProgress(state).filter((p) => !p.earned);
+  if (locked.length === 0) return null;
+  // 优先 ratio 最高但仍未解锁
+  return [...locked].sort((a, b) => b.ratio - a.ratio)[0] ?? null;
+}
+
+export function formatNextUnlockLine(state: GameState): string {
+  const n = nextUnlockTarget(state);
+  if (!n) return "店面纪念已齐，温柔仍在流通。";
+  return `下一枚纪念：${n.hint}`;
+}
+
 /** 形态图鉴：用于展示擅长标签（非玩法作弊面板） */
 export function vesselAffinityLines(): { vessel: VesselKind; line: string }[] {
   return [

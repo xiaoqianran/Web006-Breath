@@ -15,6 +15,7 @@ import {
   updateSettings,
   listEarnedUnlocks,
   listLockedUnlocks,
+  formatNextUnlockLine,
   vesselAffinityLines,
   newlyEarnedUnlocks,
   HybridAudioBus,
@@ -635,6 +636,8 @@ export class YixiApp {
     const unlockHtml = `
       <div class="card" data-testid="unlocks">
         <div class="full-moon-art" role="img" aria-label="满月掌灯意象" data-testid="full-moon-art"></div>
+        <div class="unlock-medal-art" role="img" aria-label="纪念徽章" data-testid="unlock-medal-art"></div>
+        <div class="progress-ribbon-art" role="img" aria-label="进度丝带" data-testid="progress-ribbon-art"></div>
         <h3>店面解锁</h3>
         ${
           earned.length === 0
@@ -646,6 +649,7 @@ export class YixiApp {
             ? `<p class="muted">未解锁：${locked.map((u) => u.title).join("、")}</p>`
             : ""
         }
+        <p class="muted" data-testid="next-unlock">${formatNextUnlockLine(this.state)}</p>
       </div>
       <div class="card" data-testid="affinity-codex">
         <h3>形态图鉴</h3>

@@ -84,3 +84,6 @@
 | ART-031 | `public/assets/promo/full_moon.jpg` | 满月掌灯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-032 | `public/assets/bg/street_lamp.jpg` | 巷口路灯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-033 | `public/assets/ui/unlock_medal.jpg` | 纪念徽章 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-034 | `public/assets/ui/progress_ribbon.jpg` | 进度丝带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
