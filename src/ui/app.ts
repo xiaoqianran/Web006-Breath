@@ -21,7 +21,6 @@ import {
   HybridAudioBus,
   sfxForGameEvent,
   averageMatchScore,
-  bestVesselForGuest,
   maybeAppendRevisit,
   priceLabel,
   firstOrderBonusHint,
@@ -51,12 +50,13 @@ import {
   formatMatchScoreLine,
   formatQualityLine,
   formatCraftSummary,
+  formatVesselRecommendLine,
+  listVesselHotkeyHints,
   formatOrderLine,
   formatOrderShort,
   ensureActiveOrder,
   ensurePendingSecondary,
   listVisibleOrders,
-  orderVesselHintLine,
   vesselHelpsAnyOrder,
   announcePhaseChange,
   announceUnlock,
@@ -793,8 +793,7 @@ export class YixiApp {
 
     const kbd = document.createElement("p");
     kbd.className = "kbd-hint";
-    kbd.textContent =
-      "键盘：Esc 回主菜单 · 接待处 Enter 接待 · 选形态时按 1–5";
+    kbd.textContent = `键盘：Esc 回主菜单 · 接待处 Enter 接待 · 选形态 ${listVesselHotkeyHints()}`;
     wrap.appendChild(kbd);
 
     wrap.appendChild(this.renderPhaseCard(s));
@@ -909,10 +908,8 @@ export class YixiApp {
         const hints = listVesselHints(e)
           .map((h) => formatHintLine(h))
           .join(" · ");
-        const best = VESSEL_LABELS[bestVesselForGuest(e)];
-        const orderLine = orderVesselHintLine(s);
-        const orderHint = orderLine ? ` ${orderLine}` : "";
-        hintEl.textContent = `气息提示：${hints}。隐约更靠近「${best}」。${orderHint}`;
+        const rec = formatVesselRecommendLine(e, s);
+        hintEl.textContent = `气息提示：${hints}。${rec}`;
       } else {
         hintEl.textContent = "";
         hintEl.hidden = true;

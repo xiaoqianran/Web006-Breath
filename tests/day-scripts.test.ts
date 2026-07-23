@@ -9,7 +9,7 @@ import { createGameState, runFullCirculation } from "../src/core";
 
 describe("day scripts", () => {
   it("定义至少 36 日剧本", () => {
-    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(36);
+    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(38);
     for (const d of DAY_SCRIPTS) {
       expect(d.sampleIndexes.length).toBeGreaterThanOrEqual(3);
       expect(d.goalCirculations).toBeGreaterThan(0);
@@ -107,6 +107,13 @@ describe("day scripts", () => {
     expect(d.day).toBe(36);
     expect(d.title).toBe("三六的铃");
     expect(describeDayOpener(36)).toContain("第三十六日");
+  });
+
+  it("第 38 日具名剧本", () => {
+    const d = getDayScript(38);
+    expect(d.day).toBe(38);
+    expect(d.title).toBe("三八的茶");
+    expect(describeDayOpener(38)).toContain("第三十八日");
   });
 });
 
