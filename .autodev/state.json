@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 171,
+  "current_round": 172,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0172-continue",
-  "last_completed_task_id": "T0171-continue",
-  "last_commit": "13b2b55055692a45bdce4fdc7cbf6ea011921417",
+  "current_task_id": "T0173-continue",
+  "last_completed_task_id": "T0172-continue",
+  "last_commit": "c8c93d8d1db67e7e3542e23bd1e28fdc87cd78c2",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 187 passed (62 files)",
+  "last_test_summary": "vitest: 188 passed (62 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,11 +25,11 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0172-continue",
+    "T0173-continue",
     "M2",
-    "内容扩充",
+    "内容/无障碍",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 13b2b55055692a45bdce4fdc7cbf6ea011921417 T0171 五形态美术\n轮次: 171 / 1000 · v0.2.6 · M2\n本段: T0165–T0171\n测试: 187 passed；双 smoke warmth=19\n下一: T0172\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T23:29:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c8c93d8d1db67e7e3542e23bd1e28fdc87cd78c2 T0172 图鉴摘要\n轮次: 172 / 1000 · v0.2.6 · M2\n本段: T0165–T0172 客人美术/氛围/货架/形态/图鉴\n测试: 188 passed；双 smoke warmth=19\n下一: T0173\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T23:31:00Z"
 }
