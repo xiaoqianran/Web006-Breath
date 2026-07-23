@@ -1,3 +1,4 @@
+import { sanitizeDisplayText } from "./text-sanitize";
 import {
   type Emotion,
   type EmotionTag,
@@ -70,5 +71,5 @@ export function buildMomentCard(
   const verb = action === "gift" ? "被轻轻送出" : "在货架上等候知音";
   const qualityHint =
     quality === "rare" ? "几乎能听见呼吸" : quality === "fine" ? "带着清晰的温度" : "朴素而真实";
-  return `${emotion.guestName}的心情，化作${qualityHint}的${vesselName}，${verb}。原文：「${emotion.text}」`;
+  return `${sanitizeDisplayText(emotion.guestName, 32)}的心情，化作${qualityHint}的${vesselName}，${verb}。原文：「${sanitizeDisplayText(emotion.text, 120)}」`;
 }
