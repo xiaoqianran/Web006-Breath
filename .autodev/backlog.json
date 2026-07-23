@@ -1710,7 +1710,7 @@
       "status": "done",
       "created_round": 129,
       "completed_round": 130,
-      "commit_hash": "PENDING"
+      "commit_hash": "286bf14c603510086b680f5141d7e600fd097e36"
     },
     {
       "id": "T0131-continue",
