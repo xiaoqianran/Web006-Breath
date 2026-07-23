@@ -950,6 +950,25 @@
       "created_round": 59,
       "completed_round": 59,
       "commit_hash": "08c25f85e17519636ca0946e0a823fd0ff6500b6"
+    },
+    {
+      "id": "T0061-equals",
+      "title": "浅比较工具",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "shallowEqual",
+      "priority": 47,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "单测"
+      ],
+      "test_plan": "tests/equals.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 61,
+      "completed_round": 61,
+      "commit_hash": "00bfacccb871f56c7222557c7023a913131b91ea"
     }
   ]
 }
