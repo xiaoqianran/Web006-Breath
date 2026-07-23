@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 140,
+  "current_round": 141,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0141-emotions-64",
-  "last_completed_task_id": "T0140-continue",
-  "last_commit": "800c49d56fb2a91fc3aae85e1bc4c30d9fbfb7b1",
+  "current_task_id": "T0142-day-scripts-36",
+  "last_completed_task_id": "T0141-emotions-64",
+  "last_commit": "c0a21268076288bf5ca1081e6e807fad4b116528",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 160 passed (53 files)",
   "core_loop_status": "playable_demo_ready",
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0141-emotions-64",
+    "T0142-day-scripts-36",
     "持续生图",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 800c49d56fb2a91fc3aae85e1bc4c30d9fbfb7b1 T0140 匹配叙事\n轮次: 140 / 1000 · v0.2.6 · M2\n下一: T0141 情绪64\n测试: 160 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:53:08Z"
+  "resume_instructions": "功能 c0a21268076288bf5ca1081e6e807fad4b116528 T0141 情绪64。轮次141/1000。下一 T0142 剧本36。160 tests。npm run check && npm run dev",
+  "updated_at": "2026-07-23T22:53:55Z"
 }
