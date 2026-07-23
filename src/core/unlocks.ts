@@ -53,6 +53,13 @@ export const UNLOCKS: UnlockDef[] = [
     minReputation: 0,
     minCirculations: 5,
   },
+  {
+    id: "order_keeper",
+    title: "委托守约",
+    description: "累计完成 3 笔客人委托的纪念",
+    minReputation: 0,
+    minCirculations: 0,
+  },
 ];
 
 export function isUnlockEarned(state: GameState, unlock: UnlockDef): boolean {
@@ -63,6 +70,9 @@ export function isUnlockEarned(state: GameState, unlock: UnlockDef): boolean {
   if (unlock.id === "gift_heart") {
     const gifts = state.history.filter((h) => h.action === "gift").length;
     return gifts >= 5;
+  }
+  if (unlock.id === "order_keeper") {
+    return (state.ordersFulfilled ?? 0) >= 3;
   }
   return (
     state.reputation >= unlock.minReputation &&

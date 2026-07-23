@@ -57,5 +57,14 @@ describe("unlocks", () => {
     const heart = UNLOCKS.find((u) => u.id === "gift_heart")!;
     expect(isUnlockEarned(state, heart)).toBe(true);
   });
+
+  it("累计 3 笔委托解锁委托守约", () => {
+    const order = UNLOCKS.find((u) => u.id === "order_keeper")!;
+    expect(order).toBeTruthy();
+    let state = createGameState([e]);
+    expect(isUnlockEarned(state, order)).toBe(false);
+    state = { ...state, ordersFulfilled: 3 };
+    expect(isUnlockEarned(state, order)).toBe(true);
+  });
 });
 
