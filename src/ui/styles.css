@@ -800,3 +800,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
     url("/assets/ui/paper_stamp.jpg") center/cover no-repeat;
 }
+
+.wind-curtain-art {
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
+    url("/assets/bg/wind_curtain.jpg") center/cover no-repeat;
+}

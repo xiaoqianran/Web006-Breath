@@ -528,6 +528,7 @@ export class YixiApp {
     el.innerHTML = `
       <div class="card">
         <div class="tutorial-art" role="img" aria-label="教程册页插画" data-testid="tutorial-art"></div>
+        <div class="wind-curtain-art" role="img" aria-label="风掀窗帘" data-testid="wind-curtain-art"></div>
         <h2>欢迎来到「一息」</h2>
         <ol class="tutorial-steps">
           <li><strong>接待</strong> — 听取客人交来的一小段心情。</li>

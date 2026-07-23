@@ -89,3 +89,5 @@
 | ART-034 | `public/assets/ui/progress_ribbon.jpg` | 进度丝带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-035 | `public/assets/ui/paper_stamp.jpg` | 日记印章 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-036 | `public/assets/bg/wind_curtain.jpg` | 风掀窗帘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

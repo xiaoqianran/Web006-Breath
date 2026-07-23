@@ -1791,8 +1791,29 @@
       ],
       "test_plan": "day-scripts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 133,
+      "completed_round": 134,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0135-continue",
+      "title": "M2 持续推进",
+      "category": "chore",
+      "milestone": "M2-systems",
+      "description": "resume",
+      "priority": 40,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0134-day-scripts-32"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 134,
       "completed_round": null,
       "commit_hash": null
     }
