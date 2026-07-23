@@ -1178,7 +1178,7 @@
       "status": "done",
       "created_round": 103,
       "completed_round": 104,
-      "commit_hash": "PENDING"
+      "commit_hash": "2becce2d0181e3f0b72f886033c56154d3f74bb4"
     },
     {
       "id": "T0105-guest-name-pool",

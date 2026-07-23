@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 103,
+  "current_round": 104,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0104-order-reward-toast",
-  "last_completed_task_id": "T0103-day-scripts-18",
-  "last_commit": "dfa8ee58e31f6df9770ab76f8df86193f5a04abc",
+  "current_task_id": "T0105-guest-name-pool",
+  "last_completed_task_id": "T0104-order-reward-toast",
+  "last_commit": "2becce2d0181e3f0b72f886033c56154d3f74bb4",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 129 passed (45 files)",
   "core_loop_status": "playable_demo_ready",
@@ -29,6 +29,6 @@
     "内容管线",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: dfa8ee58e31f6df9770ab76f8df86193f5a04abc T0103 日剧本18+夜窗\n轮次: 103 / 1000 · v0.2.5 · M2\n已完成: 订单/高亮/情绪42/剧本18/多批美术\n下一: T0104 委托完成播报\n测试: 129 passed；双 smoke OK\n",
-  "updated_at": "2026-07-23T22:14:10Z"
+  "resume_instructions": "功能 2becce2d0181e3f0b72f886033c56154d3f74bb4 T0104。轮次 104/1000 v0.2.5。下一 T0105。129 tests。git rev-parse HEAD。",
+  "updated_at": "2026-07-23T22:15:17Z"
 }
