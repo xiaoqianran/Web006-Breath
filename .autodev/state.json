@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 99,
+  "current_round": 101,
   "target_rounds": 1000,
-  "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0100-m2-order-stub",
-  "last_completed_task_id": "T0099-volume-sliders",
-  "last_commit": "c32b6efc5ad6fd2eedaf7d496959f4aa083cde4b",
+  "current_milestone": "M2-systems",
+  "current_task_id": "T0102-emotions-40",
+  "last_completed_task_id": "T0101-order-hint",
+  "last_commit": "6c29c930f92b6c3a2e36f11d2c3817e899e59d58",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 122 passed (44 files)",
+  "last_test_summary": "vitest: 128 passed (45 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -19,15 +19,16 @@
     "D-001",
     "D-002",
     "D-003",
-    "D-004 ProceduralAudioBus",
-    "D-005 skeptic三缺口已闭合",
-    "D-006 HybridAudioBus 原创 WAV"
+    "D-004",
+    "D-005",
+    "D-006",
+    "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0100-m2-order-stub",
-    "更长 BGM",
-    "M2"
+    "T0102-emotions-40",
+    "内容管线",
+    "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c32b6efc5ad6fd2eedaf7d496959f4aa083cde4b T0099 音量滑条\n当前轮次: 99 / 1000 · v0.2.4\n已完成: T0039 真音频 · T0098 读屏 · T0099 音量\n下一: T0100-m2-order-stub\n测试: 122 passed；npm run check；smoke 双次 OK\n",
-  "updated_at": "2026-07-23T21:59:57Z"
+  "resume_instructions": "【权威 tip】以 git rev-parse HEAD 为准\n功能提交: 6c29c930f92b6c3a2e36f11d2c3817e899e59d58\n当前轮次: 101 / 1000 · v0.2.5\n里程碑: M2 started\n已完成: T0100 订单骨架 · T0101 委托高亮 · 5 张新插画\n下一: T0102 情绪≥40\n测试: 128 passed；smoke 双次 warmth=19\n",
+  "updated_at": "2026-07-23T22:11:43Z"
 }
