@@ -126,3 +126,4 @@
 | ART-056 | `public/assets/promo/guest_a.jpg` | 客人剪影 A | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-057 | `public/assets/promo/guest_b.jpg` | 客人剪影 B | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-058 | `public/assets/promo/guest_c.jpg` | 客人剪影 C | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-059 | `public/assets/ui/order_counter.jpg` | 委托柜台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

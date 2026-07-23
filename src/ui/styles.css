@@ -464,6 +464,15 @@ html[data-reduce-motion="true"] .toast {
     #f7f3ec;
 }
 
+.order-counter-art {
+  height: 72px;
+  border-radius: 10px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/order_counter.jpg") center/cover no-repeat;
+}
+
 .order-board-art {
   height: 88px;
   border-radius: 10px;

@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 164,
+  "current_round": 165,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0165-continue",
-  "last_completed_task_id": "T0164-continue",
-  "last_commit": "b673f4a65fbccd8a92e03ad00ba058509c43e8e2",
+  "current_task_id": "T0166-continue",
+  "last_completed_task_id": "T0165-continue",
+  "last_commit": "ae43e668c14bad8b2cdd0609ca9750f1243785b1",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 180 passed (60 files)",
+  "last_test_summary": "vitest: 182 passed (60 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,11 +25,11 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0165-continue",
+    "T0166-continue",
     "M2",
-    "客人美术",
+    "内容扩充",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b673f4a65fbccd8a92e03ad00ba058509c43e8e2 T0164 情绪84/剧本50\ntip chore: 87560d1b8ad7deebef99db0e0b52f64a63d1533e\n轮次: 164 / 1000 · v0.2.6 · M2\n本会话: T0158–T0164 温存/好感/打烊/委托/内容\n测试: 180 passed；双 smoke warmth=19\n下一: T0165\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T23:21:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ae43e668c14bad8b2cdd0609ca9750f1243785b1 T0165 客人四变体\n轮次: 165 / 1000 · v0.2.6 · M2\n下一: T0166\n测试: 182 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T23:22:40Z"
 }

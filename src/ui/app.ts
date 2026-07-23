@@ -84,6 +84,7 @@ import {
   favorRankTitle,
   guestPortraitDataAttr,
   guestPortraitAriaLabel,
+  formatGuestNameLine,
   announceOrderFulfilled,
   joinAnnouncements,
   helpDialogA11y,
@@ -793,6 +794,7 @@ export class YixiApp {
       const secondary = visible[1];
       board.innerHTML = `
         <div class="order-board-art" role="img" aria-label="委托告示板插画"></div>
+        <div class="order-counter-art" role="img" aria-label="委托柜台" data-testid="order-counter-art"></div>
         <div class="rain-awning-art" role="img" aria-label="雨棚" data-testid="rain-awning-art"></div>
         <h2>今日委托</h2>
         <p data-testid="order-line">${formatOrderLine(primary)}</p>
@@ -918,6 +920,7 @@ export class YixiApp {
         <div class="guest-notebook-art" role="img" aria-label="客人手记" data-testid="guest-notebook-art"></div>
         <div class="intensity-meter-art" role="img" aria-label="强度丝带" data-testid="intensity-meter-art"></div>
         <h2>${e.guestName}</h2>
+        <p class="muted" data-testid="guest-name-line">${formatGuestNameLine(e.guestName)}</p>
         ${greet ? `<p class="muted" data-testid="favor-greeting">${greet}</p>` : ""}
         ${guestFavor > 0 ? `<p class="muted" data-testid="favor-guest-line">${formatFavorLine({ name: e.guestName, favor: guestFavor })}</p>` : ""}
         <p class="emotion-text" data-testid="emotion-text">「${e.text}」</p>
