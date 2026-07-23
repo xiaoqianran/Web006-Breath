@@ -23,6 +23,7 @@ import {
   bestVesselForGuest,
   maybeAppendRevisit,
   priceLabel,
+  firstOrderBonusHint,
   rollShopEvent,
   applyShopEvent,
   topFavoredGuests,
@@ -885,7 +886,7 @@ export class YixiApp {
         <p data-testid="crafted-label"><strong>${item.label}</strong></p>
         <p>品质：<span class="quality-${item.quality}" data-testid="quality">${QUALITY_LABELS[item.quality]}</span>
           · 匹配分 ${item.matchScore} · ${priceLabel(item)}</p>
-        <p class="muted">上架等待知音，或直接赠予需要的人。</p>
+        <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <div class="btn-row"></div>
       `;
       const row = card.querySelector(".btn-row")!;

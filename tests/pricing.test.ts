@@ -1,10 +1,22 @@
 import { describe, it, expect } from "vitest";
-import { priceLabel, warmthPrice, qualityMultiplier, type CraftedItem } from "../src/core";
+import {
+  priceLabel,
+  warmthPrice,
+  qualityMultiplier,
+  orderBonusHint,
+  firstOrderBonusHint,
+  rollDailyOrder,
+  type CraftedItem,
+} from "../src/core";
 
-const item = (quality: CraftedItem["quality"], circulationValue: number): CraftedItem => ({
+const item = (
+  quality: CraftedItem["quality"],
+  circulationValue: number,
+  vessel: CraftedItem["vessel"] = "tea",
+): CraftedItem => ({
   id: "p",
   emotionId: "e",
-  vessel: "tea",
+  vessel,
   quality,
   matchScore: 2,
   circulationValue,
@@ -25,5 +37,16 @@ describe("pricing", () => {
   it("品质倍率有序", () => {
     expect(qualityMultiplier("rare")).toBeGreaterThan(qualityMultiplier("fine"));
     expect(qualityMultiplier("fine")).toBeGreaterThan(qualityMultiplier("simple"));
+  });
+
+  it("委托奖励提示仅在匹配时出现", () => {
+    const order = rollDailyOrder(1, 0);
+    const match = item(order.minQuality, 4, order.preferredVessel);
+    const miss = item("rare", 4, order.preferredVessel === "tea" ? "flower" : "tea");
+    expect(orderBonusHint(match, order)).toContain(order.guestName);
+    expect(orderBonusHint(match, order)).toContain(String(order.bonusWarmth));
+    expect(orderBonusHint(miss, order)).toBe("");
+    expect(firstOrderBonusHint(match, null, [order])).toContain("可履约");
+    expect(firstOrderBonusHint(miss, order, [])).toBe("");
   });
 });

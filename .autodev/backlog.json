@@ -1413,8 +1413,29 @@
       ],
       "test_plan": "orders/pricing",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 115,
+      "completed_round": 116,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0117-continue-m2",
+      "title": "M2 订单引导深化",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "续跑：弱引导/内容/美术",
+      "priority": 50,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0116-pricing-order-bonus"
+      ],
+      "acceptance_criteria": [
+        "可恢复"
+      ],
+      "test_plan": "npm test",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 116,
       "completed_round": null,
       "commit_hash": null
     }
