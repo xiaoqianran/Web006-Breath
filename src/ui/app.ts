@@ -42,6 +42,7 @@ import {
   DEFAULT_SETTINGS,
 } from "../core";
 import { describeDayOpener, freshDayQueue, goalsForDay } from "../data/emotions";
+import { getDayScript } from "../data/day-scripts";
 import { vesselIconHtml } from "./icons";
 import { playWebAudioTone } from "./beep";
 
@@ -501,7 +502,7 @@ export class YixiApp {
     hud.className = "hud";
     hud.innerHTML = `
       <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
-      <span>第 <strong>${s.day}</strong> 日</span>
+      <span>第 <strong>${s.day}</strong> 日 · ${getDayScript(s.day).title}</span>
       <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
       <span>口碑 <strong>${s.reputation}</strong></span>
       <span>今日流通 <strong data-testid="circulations">${s.circulationsToday}</strong> / 目标 ${s.config.dayGoalCirculations}</span>
