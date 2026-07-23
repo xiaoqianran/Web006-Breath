@@ -602,9 +602,11 @@ export class YixiApp {
     }
 
     if (s.phase === "day_complete") {
+      const stats = computeSessionStats(s);
       card.innerHTML = `
         <h2>今日打烊</h2>
-        <p>你完成了今日的情绪流通。温存 ${s.warmth}，流通 ${s.circulationsToday} 次。</p>
+        <p>你完成了今日的情绪流通。温存 ${s.warmth}，今日流通 ${s.circulationsToday} 次。</p>
+        <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>
       `;
       if (s.lastResult) {
         card.appendChild(this.renderLastResult(s));
