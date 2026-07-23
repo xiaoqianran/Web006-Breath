@@ -1,3 +1,4 @@
+import { inspectGameState } from "./assert-state";
 import { normalizeGameState } from "./game";
 import type { GameState } from "./types";
 
@@ -28,7 +29,12 @@ export function deserializeState(raw: string): GameState {
   if (typeof s.warmth !== "number" || !Array.isArray(s.history) || !Array.isArray(s.queue)) {
     throw new Error("存档结构无效");
   }
-  return normalizeGameState(s);
+  const normalized = normalizeGameState(s);
+  const check = inspectGameState(normalized);
+  if (!check.ok) {
+    throw new Error("存档结构无效: " + check.messages.join("; "));
+  }
+  return normalized;
 }
 
 /** 可注入 storage 以便测试 */
