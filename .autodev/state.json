@@ -8,9 +8,9 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0156-continue",
   "last_completed_task_id": "T0155-continue",
-  "last_commit": "852524755e39414870ec025285a8d77962d1e434",
-  "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 172+ passed",
+  "last_commit": "24509ad6120bc879212f46149c1a700c79673cc2",
+  "last_verified_build": "npm run build OK",
+  "last_test_summary": "vitest: 172 passed (58 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -29,6 +29,6 @@
     "M2",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 852524755e39414870ec025285a8d77962d1e434 T0155 阶段提示读屏+情绪74\n轮次: 155 / 1000 · v0.2.6 · M2\n本会话: T0152–T0155 流通叙事/情绪74/剧本44/阶段提示\n测试: 见 npm-check；双 smoke warmth=19\n下一: T0156\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T23:07:49Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8525247 T0155 阶段提示+情绪74；build fix 24509ad6120bc879212f46149c1a700c79673cc2\n轮次: 155 / 1000 · v0.2.6 · M2\n测试: 172 passed；双 smoke warmth=19\n下一: T0156\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T23:08:15Z"
 }
