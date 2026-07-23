@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T20:59:57Z",
+  "updated_at": "2026-07-23T21:02:37Z",
   "tasks": [
     {
       "id": "T0001",
@@ -731,10 +731,10 @@
       ],
       "test_plan": "npm run check + 文档断言脚本",
       "visual_requirements": [],
-      "status": "in_progress",
+      "status": "done",
       "created_round": 47,
-      "completed_round": null,
-      "commit_hash": null
+      "completed_round": 47,
+      "commit_hash": "65a5659d7455cd2c0e35998523a10eb330e1dbf1"
     },
     {
       "id": "T0048-help-overlay",
@@ -751,10 +751,10 @@
       ],
       "test_plan": "npm run check",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 47,
-      "completed_round": null,
-      "commit_hash": null
+      "completed_round": 48,
+      "commit_hash": "65a5659d7455cd2c0e35998523a10eb330e1dbf1"
     }
   ]
 }
