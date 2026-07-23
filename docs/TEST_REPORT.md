@@ -6,7 +6,7 @@
 
 | 命令 | 结果 | 证据文件（会话 scratch） |
 |------|------|--------------------------|
-| `npm test` | **71 passed** / 23 files | `tests-final-count.txt` / `check-71.txt` |
+| `npm test` | **104 passed** / 23 files | `tests-final-count.txt` / `check-71.txt` |
 | `npm run build` | success | `check-71.txt` |
 | `npm run smoke` ×2 | SMOKE_OK，warmth=19 一致 | `smoke-71a.txt` `smoke-71b.txt` |
 | `npm run perf` | 有真实 ms（见 PERFORMANCE.md） | `perf-baseline.txt` |
