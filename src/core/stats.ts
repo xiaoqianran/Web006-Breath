@@ -1,3 +1,4 @@
+import { averageNumbers } from "./sum";
 import type { GameState, Quality, VesselKind } from "./types";
 
 export interface SessionStats {
@@ -15,7 +16,7 @@ export interface SessionStats {
 export function computeSessionStats(state: GameState): SessionStats {
   const byVessel: Partial<Record<VesselKind, number>> = {};
   const byQuality: Partial<Record<Quality, number>> = {};
-  let matchSum = 0;
+  const matchScores: number[] = [];
   let gifts = 0;
   let displays = 0;
   for (const h of state.history) {
@@ -23,7 +24,7 @@ export function computeSessionStats(state: GameState): SessionStats {
     byVessel[v] = (byVessel[v] ?? 0) + 1;
     const q = h.item.quality;
     byQuality[q] = (byQuality[q] ?? 0) + 1;
-    matchSum += h.item.matchScore;
+    matchScores.push(h.item.matchScore);
     if (h.action === "gift") gifts += 1;
     else displays += 1;
   }
@@ -36,7 +37,7 @@ export function computeSessionStats(state: GameState): SessionStats {
     reputation: state.reputation,
     byVessel,
     byQuality,
-    avgMatch: n ? matchSum / n : 0,
+    avgMatch: averageNumbers(matchScores),
   };
 }
 
