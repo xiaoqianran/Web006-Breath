@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 19,
+  "current_round": 20,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0019-next",
-  "last_completed_task_id": "T0019-matching-props",
-  "last_commit": "34a175cea8402ebe5c70f276681be09565ffaf3d",
+  "current_task_id": "T0020-next",
+  "last_completed_task_id": "T0020-day-scripts",
+  "last_commit": "5c9bb3fae322bf98abf647bd720663f855bf3611",
   "last_verified_build": "npm run build OK",
-  "last_test_summary": "vitest: 42 passed",
+  "last_test_summary": "vitest: 45 passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -19,15 +19,16 @@
     "D-001 Vite+TS+DOM",
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离",
-    "D-004 SilentAudioBus 占位真音频"
+    "D-004 SilentAudioBus 占位真音频",
+    "D-005 五日剧本驱动日目标"
   ],
   "next_candidate_tasks": [
-    "宣传封面 art",
-    "日剧本 3–5 日叙事",
+    "宣传封面",
     "货架容量上限",
-    "无障碍 aria 增强",
-    "打包体积报告"
+    "真音频",
+    "M1 质量门",
+    "更多剧本日"
   ],
-  "resume_instructions": "cd /root/wk && git log -5 && npm test（期望 42 passed）&& npm run smoke && npm run dev。游戏「一息」可演示：核心循环+货架+连心+日事件+存档+图鉴解锁+设置教程+双背景+SVG图标+schema+属性测试。下一优先：多日叙事内容、宣传图、货架上限。禁止 push。HEAD=34a175c。",
-  "updated_at": "2026-07-23T20:30:00.000Z"
+  "resume_instructions": "cd /root/wk; git log -3; npm test (45 passed); npm run smoke; npm run dev。M0+可演示原型+五日剧本已就绪。下一：宣传封面/货架上限/M1质量门。勿 push。HEAD=5c9bb3fae322bf98abf647bd720663f855bf3611",
+  "updated_at": "2026-07-23T20:30:52.660642Z"
 }

@@ -21,4 +21,6 @@
 
 - 用途：经营界面氛围底图（半透明遮罩保可读性）
 - 接入：`#app.shop-theme::before`
+
+| ART-004 | `public/assets/promo/cover.jpg` | 宣传/答辩封面 | Imagine | 16:9 1280×720 | JPG | 否 | 0.1 | active | 原创 |
 EOF

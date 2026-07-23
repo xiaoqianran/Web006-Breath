@@ -3,6 +3,7 @@ import {
   createGameState,
   runFullCirculation,
   sellFromShelf,
+  continueAfterResult,
   type Emotion,
 } from "../src/core";
 
@@ -44,4 +45,22 @@ describe("shelf", () => {
     expect(next.shelf).toHaveLength(0);
     expect(next.warmth).toBe(0);
   });
+
+  it("货架超过容量时挤出最早上架物", () => {
+    const many: Emotion[] = Array.from({ length: 6 }, (_, i) => ({
+      ...e,
+      id: `cap${i}`,
+    }));
+    let state = createGameState(many, { dayGoalCirculations: 99, dayGoalWarmth: 999 });
+    for (let i = 0; i < 6; i++) {
+      state = runFullCirculation(state, "object", "display");
+      if (state.phase === "result") {
+        state = continueAfterResult(state);
+      }
+    }
+    expect(state.shelf.length).toBe(5);
+    // 第 6 次上架时应挤出一件：history 有 6 次 display，shelf 仅保留 5
+    expect(state.history.filter((h) => h.action === "display")).toHaveLength(6);
+  });
 });
+

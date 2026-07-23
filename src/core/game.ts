@@ -143,13 +143,20 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
   const streakMsg =
     streakBonus > 0 ? `（精致连心 +${streakBonus}）` : "";
 
-  const shelf =
-    action === "display"
-      ? [
-          ...state.shelf,
-          { crafted: state.crafted, listedAt: Date.now() },
-        ]
-      : state.shelf;
+  const MAX_SHELF = 5;
+  let shelf = state.shelf;
+  let shelfNote = "";
+  if (action === "display") {
+    shelf = [
+      ...state.shelf,
+      { crafted: state.crafted, listedAt: Date.now() },
+    ];
+    if (shelf.length > MAX_SHELF) {
+      const dropped = shelf[0]!;
+      shelf = shelf.slice(1);
+      shelfNote = `货架已满，最早的「${dropped.crafted.label}」被轻声收起。`;
+    }
+  }
 
   return {
     ...state,
@@ -164,10 +171,12 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
     current: null,
     crafted: null,
     message: goalMet
-      ? `流通完成，获得温存 +${warmthGained}${streakMsg}。今日目标已达成！`
-      : `流通完成，获得温存 +${warmthGained}${streakMsg}。可以继续接待。`,
+      ? `流通完成，获得温存 +${warmthGained}${streakMsg}。今日目标已达成！${shelfNote ? " " + shelfNote : ""}`
+      : `流通完成，获得温存 +${warmthGained}${streakMsg}。可以继续接待。${shelfNote ? " " + shelfNote : ""}`,
   };
 }
+
+export const SHELF_CAPACITY = 5;
 
 /**
  * 货架上的成品被知音买走：获得少量温存并移出货架。
