@@ -88,6 +88,9 @@ import {
   listTutorialStepLines,
   formatTutorialFooter,
   formatTutorialWelcome,
+  formatAcceptButtonLabel,
+  formatAcceptReadyHint,
+  formatAcceptAriaLabel,
   formatOrderLine,
   formatOrderShort,
   formatOrderRewardLine,
@@ -928,27 +931,32 @@ export class YixiApp {
     if (s.phase === "awaiting_emotion" || (s.phase === "result" && !s.current)) {
       const nextName = s.queue[0]?.guestName ?? null;
       const favorHint = formatNextGuestFavorHint(s, nextName);
+      const qLen = s.queue.length;
       card.innerHTML = `<div class="warmth-corner-art" role="img" aria-label="温存一隅" data-testid="warmth-corner-art"></div>
         <div class="umbrella-stand-art" role="img" aria-label="伞架" data-testid="umbrella-stand-art"></div>
+        <div class="evening-lanterns-art" role="img" aria-label="晚市灯巷" data-testid="evening-lanterns-art"></div>
         <div class="tea-counter-art" role="img" aria-label="茶台插画" data-testid="tea-counter-art"></div>
         <div class="tea-tray-art" role="img" aria-label="茶盘" data-testid="tea-tray-art"></div>
         <div class="tea-cup-art" role="img" aria-label="茶杯" data-testid="tea-cup-art"></div>
         <div class="sugar-bowl-art" role="img" aria-label="糖罐" data-testid="sugar-bowl-art"></div>
         <div class="welcome-bell-art" role="img" aria-label="迎客门铃" data-testid="welcome-bell-art"></div>
+        <div class="welcome-doorbell-art" role="img" aria-label="门铃" data-testid="welcome-doorbell-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
+        <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
       row.className = "btn-row";
-      const canAccept = s.queue.length > 0;
-      row.append(
-        this.button(
-          canAccept ? "接待下一位" : "暂无客人",
-          () => this.setState(acceptNextEmotion(s)),
-          undefined,
-          !canAccept && s.phase !== "result",
-        ),
+      const canAccept = qLen > 0;
+      const acceptBtn = this.button(
+        formatAcceptButtonLabel(qLen),
+        () => this.setState(acceptNextEmotion(s)),
+        undefined,
+        !canAccept && s.phase !== "result",
       );
+      acceptBtn.setAttribute("aria-label", formatAcceptAriaLabel(qLen));
+      acceptBtn.dataset.testid = "accept-next";
+      row.append(acceptBtn);
       if (s.phase === "result") {
         row.append(
           this.button("继续", () => this.setState(continueAfterResult(s))),

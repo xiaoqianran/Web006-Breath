@@ -54,3 +54,4 @@ export * from "./vessel-label";
 export * from "./moment-label";
 export * from "./settings-label";
 export * from "./tutorial-label";
+export * from "./accept-label";

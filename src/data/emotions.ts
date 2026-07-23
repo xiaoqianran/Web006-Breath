@@ -732,6 +732,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["疲惫", "安心"],
     intensity: 3,
   },
+  {
+    id: "e105",
+    guestName: "匿名",
+    text: "门铃响了三下，我还是鼓起勇气推开了门。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e106",
+    guestName: "听雨",
+    text: "晚市的灯一亮，我想把一天的吵闹换成安静的茶。",
+    tags: ["疲惫", "安心"],
+    intensity: 4,
+  },
+  {
+    id: "e107",
+    guestName: "暮山",
+    text: "巷口灯笼摇着，像在替我说：可以慢一点。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e108",
+    guestName: "青禾",
+    text: "第一百零八次路过，终于把伞挂上了店门口的架子。",
+    tags: ["安心", "想念"],
+    intensity: 3,
+  },
 ];
 
 
