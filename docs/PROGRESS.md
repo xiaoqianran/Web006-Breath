@@ -2,52 +2,45 @@
 
 ## 总览
 
-- 项目：一息（Gentle Moments Shop）
-- 当前轮次：约 **0021 / 1000**（本会话完成约 20 个有效增量提交）
-- 里程碑：M0 可演示原型完成，M1 内容/系统深化进行中
-- 核心循环：`playable_demo_ready`
-- 测试：`npm test` → **46 passed**
-- 构建：`npm run build` → success
-- 冒烟：`npm run smoke` → SMOKE_OK（两次启动一致）
-- HEAD：`687f284`
+- 项目：一息（Gentle Moments Shop）v0.2.0
+- 当前轮次：约 **0026 / 1000**
+- 里程碑：M0 完成 · M1 深化中（可答辩演示）
+- 测试：**51 passed**（`npm test`）
+- 一键验收：`npm run check`（test + build + smoke）
+- HEAD：以 `git rev-parse HEAD` 为准（含再访系统等）
 
-## 本阶段可演示内容
+## 可演示功能清单
 
-1. 情绪流通核心循环（接待 → 形态 → 上架/赠予）
-2. 货架二次流通 + 容量 5 + 连心温存
-3. 五日剧本与动态日目标、日事件特供
-4. 存档/设置/教程/图鉴解锁 toast
-5. 键盘辅助、移动端布局、双场景背景 + 封面
-6. 静默音频总线、内容 schema、匹配属性测试
-7. 毕业文档：GDD、架构、演示脚本、答辩大纲、用户手册、创新点、M0 质量门
-
-## 最近提交
-
-| Hash | 说明 |
+| 模块 | 状态 |
 |------|------|
-| 687f284 | 货架容量 + 宣传封面 |
-| 5c9bb3f | 五日剧本 |
-| 34a175c | 移动端 + 属性测试 |
-| c49db04 | schema + 店内背景 |
-| 5944b22 | 音频总线 + 解锁 toast |
-| b09c5b4 | 货架系统 |
-| … | 见 `git log` |
+| 核心循环 emotion→vessel→circulate | ✅ |
+| 上架货架 / 被买走 / 容量 5 | ✅ |
+| 赠予 / 连心 / 默契 HUD | ✅ |
+| 五日剧本 + 日事件 + 再访 | ✅ |
+| 存档 / 设置 / 教程 / 解锁 toast | ✅ |
+| 键盘 + 移动端布局 | ✅ |
+| 美术 menu/shop/cover + SVG 图标 | ✅ |
+| 内容 schema + 匹配属性测试 | ✅ |
+| 静默音频总线 | ✅（无真实音频文件） |
+| 毕业文档包 | ✅ |
 
-## 下一优先（恢复后）
-
-1. M1 质量门文档与回归清单
-2. 真音频 CC0 资源（可选）
-3. 更多剧本日 / 客人好感
-4. 无障碍 aria 深化
-5. 打包体积与性能基线记录（真实测量）
-
-## 恢复命令
+## 命令
 
 ```bash
-cd /root/wk
-git status
-npm test
-npm run smoke
-npm run dev
+npm install
+npm run dev      # 演示
+npm run check    # test+build+smoke
 ```
+
+## 下一优先
+
+1. 真实音频资源接入 AudioBus  
+2. 性能基线实测  
+3. 客人好感持久化扩展  
+4. M2：定价/多货架事件  
+5. 持续向 1000 轮内容与打磨推进  
+
+## 恢复
+
+读 `.autodev/state.json` → `resume_instructions`，然后 `npm run check`。
 EOF
