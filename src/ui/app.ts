@@ -64,7 +64,6 @@ import {
   ensurePendingSecondary,
   listVisibleOrders,
   vesselHelpsAnyOrder,
-  announcePhaseChange,
   announcePhaseWithHint,
   announceUnlock,
   announceViewChange,
