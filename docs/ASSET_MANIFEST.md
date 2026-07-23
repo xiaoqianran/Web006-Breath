@@ -156,3 +156,5 @@
 | ART-086 | `public/assets/ui/music_box.jpg` | 音乐盒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-087 | `public/assets/bg/rain_shop_awning.jpg` | 雨棚湿街 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-088 | `public/assets/ui/save_drawer.jpg` | 存档抽屉 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-089 | `public/assets/ui/day_page.jpg` | 日历页 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-090 | `public/assets/ui/twin_cups.jpg` | 双杯茶盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -92,3 +92,27 @@ export function formatAtmosphereClosing(day: number): string {
       return "晴窗可以合上，暖意留在柜台。";
   }
 }
+
+/** 氛围对形态选择的温和建议（非强制） */
+export function formatAtmosphereCraftHint(day: number): string {
+  const a = atmosphereForDay(day);
+  switch (a.kind) {
+    case "rain":
+      return "雨日适合茶与小物件：温热、可握在掌心。";
+    case "night":
+      return "夜色里音乐与画更贴——把说不出口的先托住。";
+    case "evening":
+      return "傍晚适合花与音乐：慢一点，让影子也温柔。";
+    case "market":
+      return "晚市脚步密，小物件与茶更容易被带走。";
+    case "lantern":
+      return "灯路亮着，花与画像会替你指路。";
+    default:
+      return "晴窗下五种形态都顺：随心选择即可。";
+  }
+}
+
+/** 日标题行：剧本名 + 氛围短称 */
+export function formatDayHeaderLine(day: number, scriptTitle: string): string {
+  return `第 ${day} 日 · ${scriptTitle} · ${formatAtmosphereShort(day)}`;
+}

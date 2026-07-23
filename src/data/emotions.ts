@@ -844,6 +844,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "想念"],
     intensity: 4,
   },
+  {
+    id: "e121",
+    guestName: "匿名",
+    text: "日历翻到新的一页，我想把昨天的余温也带上。",
+    tags: ["期待", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e122",
+    guestName: "南枝",
+    text: "两只杯子并排放着，像有人约好了不急着走。",
+    tags: ["安心", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e123",
+    guestName: "禾",
+    text: "晴窗的光落在茶盘上，我忽然不赶时间了。",
+    tags: ["释然", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e124",
+    guestName: "澄",
+    text: "第一百二十四次路过：请给我一个可以慢慢说的下午。",
+    tags: ["温柔", "期待"],
+    intensity: 3,
+  },
 ];
 
 

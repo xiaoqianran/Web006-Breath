@@ -4,6 +4,8 @@ import {
   formatAtmosphereLine,
   formatAtmosphereShort,
   formatAtmosphereClosing,
+  formatAtmosphereCraftHint,
+  formatDayHeaderLine,
 } from "../src/core";
 
 describe("day atmosphere", () => {
@@ -20,5 +22,8 @@ describe("day atmosphere", () => {
     expect(formatAtmosphereShort(2).length).toBeGreaterThan(0);
     expect(formatAtmosphereClosing(2)).toContain("雨");
     expect(formatAtmosphereClosing(6)).toMatch(/夜|灯/);
+    expect(formatAtmosphereCraftHint(2)).toMatch(/茶|物件/);
+    expect(formatDayHeaderLine(1, "开张的午后")).toContain("开张的午后");
+    expect(formatDayHeaderLine(1, "开张的午后")).toContain("晴窗");
   });
 });

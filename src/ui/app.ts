@@ -63,6 +63,8 @@ import {
   buildDayEndNarrative,
   formatAtmosphereLine,
   formatAtmosphereClosing,
+  formatAtmosphereCraftHint,
+  formatDayHeaderLine,
   atmosphereForDay,
   formatVesselLine,
   formatVesselPickLine,
@@ -847,11 +849,14 @@ export class YixiApp {
     hud.className = "hud";
     hud.innerHTML = `
       <div class="day-calendar-art" role="img" aria-label="今日日历装饰" data-testid="day-calendar-art"></div>
+      <div class="day-page-art" role="img" aria-label="日历页" data-testid="day-page-art"></div>
+      <div class="twin-cups-art" role="img" aria-label="双杯茶盘" data-testid="twin-cups-art"></div>
       <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
       <span class="chalkboard-art" role="img" aria-label="提示板" data-testid="chalkboard-art"></span>
       <span class="muted" data-testid="phase-hint">${formatPhaseHintLine(s.phase)}</span>
       <span class="muted" data-testid="atmosphere-line">${formatAtmosphereLine(s.day)}</span>
-      <span>第 <strong>${s.day}</strong> 日 · ${getDayScript(s.day).title}</span>
+      <span data-testid="day-header">${formatDayHeaderLine(s.day, getDayScript(s.day).title)}</span>
+      <span class="muted" data-testid="atmosphere-craft-hint">${formatAtmosphereCraftHint(s.day)}</span>
       <span data-testid="warmth-line"><span class="warmth-jar-art warmth-jar-art--hud" role="img" aria-label="温存罐"></span>温存 <strong data-testid="warmth">${s.warmth}</strong> · ${warmthRankTitle(s.warmth)}</span>
       <span class="muted" data-testid="warmth-progress">${formatWarmthProgress(s.warmth)}</span>
       <span class="muted" data-testid="warmth-encourage">${formatWarmthEncourage(s.warmth)}</span>
