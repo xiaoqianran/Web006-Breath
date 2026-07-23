@@ -186,6 +186,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["孤独", "安心"],
     intensity: 2,
   },
+  {
+    id: "e27",
+    guestName: "疏",
+    text: "把未读消息标成已读，心却空了一下。",
+    tags: ["遗憾", "孤独"],
+    intensity: 4,
+  },
+  {
+    id: "e28",
+    guestName: "满",
+    text: "冰箱里只剩半颗柠檬，仍想做一杯水。",
+    tags: ["疲惫", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
