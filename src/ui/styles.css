@@ -899,3 +899,18 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.48)),
     url("/assets/decor/soft_blanket.jpg") center/cover no-repeat;
 }
+
+.forty-lanterns-art {
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.5)),
+    url("/assets/bg/forty_lanterns.jpg") center/cover no-repeat;
+}
+
+#app.shop-theme.lantern-path-theme::before {
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.78), rgba(235, 228, 240, 0.9)),
+    url("/assets/bg/forty_lanterns.jpg") center / cover no-repeat;
+}

@@ -54,6 +54,7 @@ import {
   listVesselHotkeyHints,
   formatIntensityLine,
   intensityCraftHint,
+  formatTagsLine,
   formatOrderLine,
   formatOrderShort,
   ensureActiveOrder,
@@ -380,6 +381,7 @@ export class YixiApp {
     this.root.classList.toggle("evening-theme", this.view === "shop" && this.state.day >= 12);
     this.root.classList.toggle("rain-theme", this.view === "shop" && ((this.state.day >= 2 && this.state.day <= 4) || this.state.day === 37));
     this.root.classList.toggle("market-theme", this.view === "shop" && this.state.day >= 27 && this.state.day <= 28);
+    this.root.classList.toggle("lantern-path-theme", this.view === "shop" && this.state.day >= 39 && this.state.day <= 40);
     if (this.view === "menu") {
       this.root.appendChild(this.renderMenu());
     } else if (this.view === "about") {
@@ -882,7 +884,8 @@ export class YixiApp {
         <div class="intensity-meter-art" role="img" aria-label="强度丝带" data-testid="intensity-meter-art"></div>
         <h2>${e.guestName}</h2>
         <p class="emotion-text" data-testid="emotion-text">「${e.text}」</p>
-        <div class="tags">${e.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
+        <div class="tags" data-testid="emotion-tags">${e.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
+        <p class="muted" data-testid="tags-line">${formatTagsLine(e.tags)}</p>
         <p class="muted" data-testid="intensity-line">${formatIntensityLine(e.intensity)}</p>
         <p class="muted" data-testid="intensity-hint">${intensityCraftHint(e.intensity)}</p>
         <p class="muted">选择容器形态</p>
