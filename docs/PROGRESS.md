@@ -8,11 +8,11 @@
 | 版本 | 0.2.6（package.json） |
 | 分支 | `main` |
 | tip | 以 `git rev-parse HEAD` 为准 |
-| 轮次 | **0111** / 1000 |
+| 轮次 | **0112** / 1000 |
 | 里程碑 | M0 **done** · M1 **in_progress** · M2 **started** |
 | 测试 | **`npm test` → 134 passed**（47 files） |
 | 验收 | `npm run check` = test + build + smoke |
-| 剧本 | **18 日** |
+| 剧本 | **20 日** |
 | 情绪样本 | **42** 条 |
 | 音频 | **8** WAV + Hybrid |
 | 美术 | menu/shop/cover/vessels + **order_board / vessels_display / keeper** |

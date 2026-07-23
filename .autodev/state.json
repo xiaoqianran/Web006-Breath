@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 111,
+  "current_round": 112,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
   "current_task_id": "T0110-continue",
   "last_completed_task_id": "T0109-order-keeper-unlock",
-  "last_commit": "c09a1251422bcdd2a59cfc6aef8198724bf39fde",
+  "last_commit": "def99b49a3416fdd4fa535520df70a0d93c250de",
   "last_verified_build": "npm run build OK",
-  "last_test_summary": "vitest: 134 passed (47 files)",
+  "last_test_summary": "vitest: 135 passed",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -29,6 +29,6 @@
     "内容管线",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD = 见后续 chore\n功能: c09a1251422bcdd2a59cfc6aef8198724bf39fde 货架插画 v0.2.6\n轮次: 111 / 1000\n本会话: ~99→111 · M2 订单体系 + 大量美术 + 内容\n下一: T0110 持续 M2（见 ROADMAP 0101–0200）\n测试: 134 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:21:37Z"
+  "resume_instructions": "tip=def99b49a3416fdd4fa535520df70a0d93c250de 轮次112/1000 v0.2.6 剧本20日。下一续 M2。npm run check && npm run dev",
+  "updated_at": "2026-07-23T22:22:02Z"
 }
