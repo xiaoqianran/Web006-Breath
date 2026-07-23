@@ -95,3 +95,6 @@
 | ART-037 | `public/assets/decor/signpost.jpg` | 路牌 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-038 | `public/assets/ui/heart_charm.jpg` | 连心小饰 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-039 | `public/assets/ui/match_abacus.jpg` | 匹配算珠 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-040 | `public/assets/ui/quality_seal.jpg` | 品质印记 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

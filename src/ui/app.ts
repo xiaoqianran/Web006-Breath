@@ -48,6 +48,9 @@ import {
   formatStreakLine,
   formatStreakEncourage,
   formatQueueStatus,
+  formatMatchScoreLine,
+  formatQualityLine,
+  formatCraftSummary,
   formatOrderLine,
   formatOrderShort,
   ensureActiveOrder,
@@ -920,10 +923,14 @@ export class YixiApp {
       const item = s.crafted;
       card.innerHTML = `
         <div class="gift-station-art" role="img" aria-label="赠予包装台" data-testid="gift-station-art"></div>
+        <div class="match-abacus-art" role="img" aria-label="匹配算珠" data-testid="match-abacus-art"></div>
+        <div class="quality-seal-art" role="img" aria-label="品质印记" data-testid="quality-seal-art"></div>
         <h2>转化台</h2>
         <p data-testid="crafted-label"><strong>${item.label}</strong></p>
-        <p>品质：<span class="quality-${item.quality}" data-testid="quality">${QUALITY_LABELS[item.quality]}</span>
-          · 匹配分 ${item.matchScore} · ${priceLabel(item)}</p>
+        <p data-testid="match-line">${formatMatchScoreLine(item.matchScore)}</p>
+        <p data-testid="quality-line"><span class="quality-${item.quality}" data-testid="quality">${formatQualityLine(item.quality)}</span>
+          · ${priceLabel(item)}</p>
+        <p class="muted" data-testid="craft-summary">${formatCraftSummary(item.matchScore, item.quality)}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <div class="btn-row"></div>
       `;

@@ -438,6 +438,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "想念"],
     intensity: 4,
   },
+  {
+    id: "e63",
+    guestName: "匿名",
+    text: "把算珠拨动一下，像把犹豫拨到一边。",
+    tags: ["释然", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e64",
+    guestName: "满",
+    text: "把印章按下去，红印比心跳慢半拍。",
+    tags: ["悸动", "期待"],
+    intensity: 3,
+  },
 ];
 
 
