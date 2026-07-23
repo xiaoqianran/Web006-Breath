@@ -24,9 +24,17 @@ describe("day scripts", () => {
     expect(state.history).toHaveLength(1);
   });
 
-  it("超出 5 日仍可生成脚本", () => {
+  it("第 9 日使用具名剧本开场", () => {
     const d = getDayScript(9);
     expect(d.day).toBe(9);
-    expect(describeDayOpener(9)).toContain("第 9 日");
+    expect(d.title).toBe("薄雾");
+    expect(describeDayOpener(9)).toContain("第九日");
+  });
+
+  it("超出 10 日仍可延展生成", () => {
+    const d = getDayScript(12);
+    expect(d.day).toBe(12);
+    expect(describeDayOpener(12).length).toBeGreaterThan(4);
   });
 });
+
