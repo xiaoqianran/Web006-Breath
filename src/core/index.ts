@@ -28,3 +28,4 @@ export * from "./equals";
 export * from "./pick";
 export * from "./sum";
 export * from "./repeat";
+export * from "./bool";
