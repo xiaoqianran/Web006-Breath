@@ -105,3 +105,5 @@
 
 | ART-043 | `public/assets/ui/intensity_meter.jpg` | 强度丝带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-044 | `public/assets/ui/guest_notebook.jpg` | 客人手记 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-045 | `public/assets/decor/soft_blanket.jpg` | 薄被 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

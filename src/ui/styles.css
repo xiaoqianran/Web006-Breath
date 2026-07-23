@@ -890,3 +890,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.12), rgba(247, 243, 236, 0.5)),
     url("/assets/ui/intensity_meter.jpg") center/cover no-repeat;
 }
+
+.soft-blanket-art {
+  height: 72px;
+  border-radius: 10px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.48)),
+    url("/assets/decor/soft_blanket.jpg") center/cover no-repeat;
+}

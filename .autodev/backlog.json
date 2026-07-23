@@ -2064,8 +2064,29 @@
       ],
       "test_plan": "emotions-data",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 146,
+      "completed_round": 147,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0148-day-scripts-40",
+      "title": "日剧本扩充至 40 日",
+      "category": "content",
+      "milestone": "M2-systems",
+      "description": "DAY_SCRIPTS>=40",
+      "priority": 58,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0147-emotions-68"
+      ],
+      "acceptance_criteria": [
+        ">=40"
+      ],
+      "test_plan": "day-scripts",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 147,
       "completed_round": null,
       "commit_hash": null
     }

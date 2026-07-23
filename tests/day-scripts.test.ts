@@ -115,5 +115,12 @@ describe("day scripts", () => {
     expect(d.title).toBe("三八的茶");
     expect(describeDayOpener(38)).toContain("第三十八日");
   });
+
+  it("第 40 日具名剧本", () => {
+    const d = getDayScript(40);
+    expect(d.day).toBe(40);
+    expect(d.title).toBe("四十的灯");
+    expect(describeDayOpener(40)).toContain("第四十日");
+  });
 });
 
