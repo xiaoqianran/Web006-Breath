@@ -48,3 +48,4 @@ export * from "./tag-label";
 export * from "./action-label";
 export * from "./phase-hint";
 export * from "./warmth-label";
+export * from "./day-end-narrative";

@@ -49,10 +49,10 @@ import {
   formatShelfLine,
   formatReputationProgress,
   reputationRankTitle,
-  formatWarmthLine,
   formatWarmthProgress,
   formatWarmthEncourage,
   warmthRankTitle,
+  buildDayEndNarrative,
   formatStreakLine,
   formatStreakEncourage,
   formatQueueStatus,
@@ -993,13 +993,18 @@ export class YixiApp {
 
     if (s.phase === "day_complete") {
       const stats = computeSessionStats(s);
+      const dayEnd = buildDayEndNarrative(s);
       card.innerHTML = `
         <div class="day-complete-art" role="img" aria-label="打烊窗景插画" data-testid="day-complete-art"></div>
         <div class="closed-sign-art" role="img" aria-label="打烊门牌" data-testid="closed-sign-art"></div>
         <div class="warmth-jar-art" role="img" aria-label="温存罐插画" data-testid="warmth-jar-art"></div>
         <h2>今日打烊</h2>
-        <p data-testid="day-end-warmth">你完成了今日的情绪流通。${formatWarmthLine(s.warmth)}，今日流通 ${s.circulationsToday} 次。</p>
+        <p data-testid="day-end-warmth">你完成了今日的情绪流通。${dayEnd.warmthLine}，今日流通 ${s.circulationsToday} 次。</p>
         <p class="muted" data-testid="day-end-warmth-encourage">${formatWarmthEncourage(s.warmth)}</p>
+        <p class="muted" data-testid="day-end-circulation">${dayEnd.circulationLine}</p>
+        <p class="muted" data-testid="day-end-reputation">${dayEnd.reputationLine}</p>
+        <p class="muted" data-testid="day-end-favor">${dayEnd.favorLine}</p>
+        <p data-testid="day-end-closing">${dayEnd.closingLine}</p>
         <div class="revisit-door-art" role="img" aria-label="再访门廊" data-testid="revisit-door-art"></div>
         <div class="soft-blanket-art" role="img" aria-label="薄被" data-testid="soft-blanket-art"></div>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>
