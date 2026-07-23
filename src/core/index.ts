@@ -18,3 +18,4 @@ export * from "./stats";
 export * from "./day-goal";
 export * from "./text-sanitize";
 export * from "./phase-label";
+export * from "./vessel-list";
