@@ -8,7 +8,7 @@
   "current_milestone": "M1-core-loop-depth",
   "current_task_id": "T0098-a11y-live-region",
   "last_completed_task_id": "T0039-real-audio-files",
-  "last_commit": "PENDING_AFTER_COMMIT",
+  "last_commit": "07db69060677d8afa9fdababffd58bf8473432ce",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 114 passed (43 files)",
   "core_loop_status": "playable_demo_ready",
@@ -28,6 +28,6 @@
     "M2",
     "音量滑条"
   ],
-  "resume_instructions": "【权威 tip】以 git rev-parse HEAD 为准\n【三缺口】已闭合\n当前轮次: 97 / 1000 · v0.2.4\n当前目标: M1；刚完成 T0039 真音频。\n已完成: HybridAudioBus、8 条原创 WAV、菜单/店内 BGM、114 tests。\n尚未完成: T0098 读屏深化；1000 轮。\nGit: main。\n测试: 114 passed；npm run check；smoke 双次 OK。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0098-a11y-live-region\n",
-  "updated_at": "2026-07-23T21:56:00Z"
+  "resume_instructions": "【权威 tip】07db69060677d8afa9fdababffd58bf8473432ce\n【三缺口】已闭合\n当前轮次: 97 / 1000 · v0.2.4\n当前目标: M1；刚完成 T0039 真音频。\n已完成: HybridAudioBus、8 条原创 WAV、菜单/店内 BGM、114 tests。\n尚未完成: T0098 读屏深化；1000 轮。\nGit: main；last_commit=07db69060677d8afa9fdababffd58bf8473432ce。\n测试: 114 passed；npm run check；smoke 双次 OK。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0098-a11y-live-region\n",
+  "updated_at": "2026-07-23T21:55:58Z"
 }
