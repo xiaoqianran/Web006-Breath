@@ -3,15 +3,15 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 17,
+  "current_round": 18,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0017-audio-achievements",
-  "last_completed_task_id": "T0015-shelf",
-  "last_commit": "b09c5b45fd046223e694d633faf33ef299702e5c",
-  "last_verified_build": "npm run build OK (js ~27kB)",
-  "last_test_summary": "vitest: 36 passed",
-  "core_loop_status": "playable_with_shelf_streak_events_audio_stub",
+  "current_task_id": "T0018-done-schema-bg",
+  "last_completed_task_id": "T0018-schema-bg",
+  "last_commit": "c49db04d7f4fb58334812e7ed6fd50a0fa17c096",
+  "last_verified_build": "npm run build OK",
+  "last_test_summary": "vitest: 39 passed",
+  "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
   "known_failures": [],
@@ -22,12 +22,12 @@
     "D-004 SilentAudioBus 占位真音频"
   ],
   "next_candidate_tasks": [
-    "店内背景 art",
-    "内容 JSON schema 与校验",
-    "移动端 CSS",
-    "真 SFX/BGM 若可得 CC0",
-    "属性测试匹配算法"
+    "移动端布局",
+    "更多日剧本",
+    "属性测试",
+    "真音频资源",
+    "宣传封面 art"
   ],
-  "resume_instructions": "cd /root/wk; git status; git log -3; 若有未提交 audio/achievements 改动则 npm test && commit。npm test 期望 36+ passed；npm run smoke；npm run dev 演示。核心已可玩。下一任务：店内背景或内容 schema。勿 push。",
-  "updated_at": "2026-07-23T20:28:30.000Z"
+  "resume_instructions": "cd /root/wk; git log -1; npm test (期望 39 passed); npm run smoke; npm run dev。可玩毕业演示原型已就绪。下一任务：移动端 CSS、日剧本扩展、matching 属性测试、或宣传图。勿 push。最近提交 c49db04d7f4fb58334812e7ed6fd50a0fa17c096。",
+  "updated_at": "2026-07-23T20:29:30.000Z"
 }
