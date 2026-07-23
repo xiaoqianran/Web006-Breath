@@ -21,6 +21,7 @@ import {
   sfxForGameEvent,
   averageMatchScore,
   bestVesselForGuest,
+  maybeAppendRevisit,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -580,11 +581,19 @@ export class YixiApp {
         this.button("进入下一日", () => {
           const day = s.day + 1;
           const goals = goalsForDay(day);
-          let next = startNextDay(s, freshDayQueue(day), describeDayOpener(day));
+          let queue = freshDayQueue(day);
+          queue = maybeAppendRevisit(s, queue);
+          let next = startNextDay(s, queue, describeDayOpener(day));
           next = {
             ...next,
             config: { ...next.config, ...goals },
           };
+          if (queue.some((e) => e.id.startsWith("revisit_"))) {
+            next = {
+              ...next,
+              message: `${next.message} 柜台边多了一位故人。`,
+            };
+          }
           this.setState(next);
         }),
         this.button("回到主菜单", () => this.go("menu"), "secondary"),

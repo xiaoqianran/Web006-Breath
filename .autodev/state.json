@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 24,
+  "current_round": 25,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0024-next",
-  "last_completed_task_id": "T0024-v0.2.0",
-  "last_commit": "f46314f0ba9a5a39fa85fb5791f0bfbb37f71e8f",
+  "current_task_id": "T0025-continue",
+  "last_completed_task_id": "T0025-best-vessel-hint",
+  "last_commit": "08327c14cd2c30dccf231937f818dfdd590b4710",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 48 passed",
   "core_loop_status": "playable_demo_ready",
@@ -24,12 +24,11 @@
     "D-006 货架容量 5"
   ],
   "next_candidate_tasks": [
-    "转化台显示 bestVessel 弱提示强化",
-    "真音频资源",
-    "性能基线实测写入报告",
-    "M2 定价与库存",
-    "客人再访"
+    "客人再访系统",
+    "真音频",
+    "性能基线",
+    "M2 系统"
   ],
-  "resume_instructions": "cd /root/wk && git checkout main && git log -10 --oneline && git status && npm install && npm run check。版本 0.2.0。游戏一息可 npm run dev 演示完整核心循环。约 24/1000 轮有效开发；验收门槛（可玩核心循环+真实测试+自治状态）已满足，可继续向 1000 轮深化。下一任务见 next_candidate_tasks。勿 push。证据：/tmp/grok-goal-ab5b8a8a7246/implementer/check-full.txt。",
-  "updated_at": "2026-07-23T20:33:40.000Z"
+  "resume_instructions": "cd /root/wk; git log -1; npm run check; npm run dev。HEAD≈08327c1 或更新。版本 0.2.0，48 tests。下一：客人再访或真音频。约 25/1000 轮。勿 push。",
+  "updated_at": "2026-07-23T20:34:00.000Z"
 }
