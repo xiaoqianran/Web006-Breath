@@ -22,6 +22,7 @@ import {
   averageMatchScore,
   bestVesselForGuest,
   maybeAppendRevisit,
+  priceLabel,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -456,7 +457,7 @@ export class YixiApp {
       row.className = "btn-row";
       row.style.alignItems = "center";
       const label = document.createElement("span");
-      label.textContent = `${item.crafted.label}（${QUALITY_LABELS[item.crafted.quality]}）`;
+      label.textContent = `${item.crafted.label}（${QUALITY_LABELS[item.crafted.quality]}）· ${priceLabel(item.crafted)}`;
       const id = item.crafted.id;
       row.append(
         label,
@@ -545,7 +546,7 @@ export class YixiApp {
         <h2>转化台</h2>
         <p data-testid="crafted-label"><strong>${item.label}</strong></p>
         <p>品质：<span class="quality-${item.quality}" data-testid="quality">${QUALITY_LABELS[item.quality]}</span>
-          · 匹配分 ${item.matchScore} · 流通价值 ${item.circulationValue}</p>
+          · 匹配分 ${item.matchScore} · ${priceLabel(item)}</p>
         <p class="muted">上架等待知音，或直接赠予需要的人。</p>
         <div class="btn-row"></div>
       `;
