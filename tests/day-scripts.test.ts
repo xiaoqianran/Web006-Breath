@@ -8,8 +8,8 @@ import { goalsForDay, describeDayOpener } from "../src/data/emotions";
 import { createGameState, runFullCirculation } from "../src/core";
 
 describe("day scripts", () => {
-  it("定义至少 40 日剧本", () => {
-    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(40);
+  it("定义至少 42 日剧本", () => {
+    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(42);
     for (const d of DAY_SCRIPTS) {
       expect(d.sampleIndexes.length).toBeGreaterThanOrEqual(3);
       expect(d.goalCirculations).toBeGreaterThan(0);
@@ -121,6 +121,13 @@ describe("day scripts", () => {
     expect(d.day).toBe(40);
     expect(d.title).toBe("四十的灯");
     expect(describeDayOpener(40)).toContain("第四十日");
+  });
+
+  it("第 42 日具名剧本", () => {
+    const d = getDayScript(42);
+    expect(d.day).toBe(42);
+    expect(d.title).toBe("四二的铃");
+    expect(describeDayOpener(42)).toContain("第四十二日");
   });
 });
 
