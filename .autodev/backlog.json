@@ -870,6 +870,25 @@
       "created_round": 55,
       "completed_round": 55,
       "commit_hash": "9f0fb593c021897d9b61de63010f3f12c857d958"
+    },
+    {
+      "id": "T0056-assert-state",
+      "title": "inspectGameState",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "结构检查",
+      "priority": 51,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "合法/非法可测"
+      ],
+      "test_plan": "tests/assert-state.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 56,
+      "completed_round": 56,
+      "commit_hash": "be8d78b22df13116db1a367fc9d7ca1ff436cb13"
     }
   ]
 }
