@@ -31,9 +31,10 @@ import {
   dayGoalProgress,
   formatDayGoalLine,
   phaseLabel,
+  vesselByHotkey,
+  VESSEL_ORDER,
   type GameState,
   type PlayerSettings,
-  type VesselKind,
   VESSEL_LABELS,
   QUALITY_LABELS,
   DEFAULT_SETTINGS,
@@ -42,7 +43,7 @@ import { describeDayOpener, freshDayQueue, goalsForDay } from "../data/emotions"
 import { vesselIconHtml } from "./icons";
 import { playWebAudioTone } from "./beep";
 
-const VESSELS = Object.keys(VESSEL_LABELS) as VesselKind[];
+const VESSELS = VESSEL_ORDER;
 
 type View = "menu" | "shop" | "about" | "codex" | "settings" | "tutorial";
 
@@ -92,15 +93,12 @@ export class YixiApp {
         return;
       }
       if (this.helpOpen) return;
-      // 数字 1–5 在选形态阶段快速选择
+      // 数字 1–5 在选形态阶段快速选择（与 vesselByHotkey 同源）
       if (this.view === "shop" && this.state.phase === "awaiting_vessel") {
-        const idx = Number(ev.key) - 1;
-        if (idx >= 0 && idx < VESSELS.length) {
-          const vessel = VESSELS[idx];
-          if (vessel) {
-            ev.preventDefault();
-            this.setState(chooseVessel(this.state, vessel));
-          }
+        const vessel = vesselByHotkey(ev.key);
+        if (vessel) {
+          ev.preventDefault();
+          this.setState(chooseVessel(this.state, vessel));
         }
       }
       if (this.view === "shop" && this.state.phase === "awaiting_emotion" && (ev.key === "Enter" || ev.key === " ")) {
