@@ -1392,8 +1392,29 @@
       ],
       "test_plan": "day-scripts",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 114,
+      "completed_round": 115,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0116-pricing-order-bonus",
+      "title": "委托履约温情价展示",
+      "category": "feat",
+      "milestone": "M2-systems",
+      "description": "priceLabel 旁展示委托奖励提示纯函数",
+      "priority": 55,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0115-day-scripts-22"
+      ],
+      "acceptance_criteria": [
+        "可测文案"
+      ],
+      "test_plan": "orders/pricing",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 115,
       "completed_round": null,
       "commit_hash": null
     }

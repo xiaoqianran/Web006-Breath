@@ -598,6 +598,7 @@ export class YixiApp {
     el.className = "screen active";
     el.dataset.testid = "codex";
     const list = this.state.history;
+    const lanternHtml = `<div class="twin-lanterns-art" role="img" aria-label="双灯巷口" data-testid="twin-lanterns"></div>`;
     const earned = listEarnedUnlocks(this.state);
     const locked = listLockedUnlocks(this.state);
     const items =
@@ -649,6 +650,7 @@ export class YixiApp {
         <p class="muted" data-testid="best-quality">历史最高品质：${(() => { const q = bestQualityInHistory(this.state.history); return q ? QUALITY_LABELS[q] : "尚无"; })()}</p>
       </div>`;
     el.innerHTML = `
+      ${lanternHtml}
       <h2>瞬间图鉴</h2>
       <p class="muted">每一次流通留下的温柔记录（本局 ${list.length} 条）</p>
       ${unlockHtml}

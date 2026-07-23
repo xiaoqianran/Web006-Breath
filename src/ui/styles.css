@@ -639,3 +639,12 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.48)),
     url("/assets/ui/closed_sign.jpg") center/cover no-repeat;
 }
+
+.twin-lanterns-art {
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.45)),
+    url("/assets/decor/twin_lanterns.jpg") center/cover no-repeat;
+}
