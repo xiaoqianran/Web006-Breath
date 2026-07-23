@@ -11,3 +11,4 @@ export * from "./achievements";
 export * from "./affinity";
 export * from "./revisit";
 export * from "./pricing";
+export * from "./shop-events";

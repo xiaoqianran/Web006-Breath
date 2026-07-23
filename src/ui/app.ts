@@ -23,6 +23,8 @@ import {
   bestVesselForGuest,
   maybeAppendRevisit,
   priceLabel,
+  rollShopEvent,
+  applyShopEvent,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -149,6 +151,11 @@ export class YixiApp {
     }
     if (next.history.length > prev.history.length) {
       this.audio.playSfx(sfxForGameEvent("circulate"));
+      // 流通后尝试店事事件
+      const ev = rollShopEvent(next);
+      if (ev) {
+        next = applyShopEvent(next, ev);
+      }
     }
     if (next.shelf.length < prev.shelf.length) {
       this.audio.playSfx(sfxForGameEvent("sell"));
