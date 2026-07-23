@@ -1,7 +1,6 @@
 import { describe, it, expect } from "vitest";
 import {
   DEFAULT_SETTINGS,
-  formatVolumePercent,
   formatHintsToggleLine,
   formatSfxToggleLine,
   formatSettingsSummary,
@@ -10,7 +9,6 @@ import {
 
 describe("settings-label", () => {
   it("音量与开关文案", () => {
-    expect(formatVolumePercent(0.8)).toBe("80%");
     expect(formatHintsToggleLine(true)).toContain("开");
     expect(formatHintsToggleLine(false)).toContain("关");
     expect(formatSfxToggleLine(true, false)).toContain("店铃");

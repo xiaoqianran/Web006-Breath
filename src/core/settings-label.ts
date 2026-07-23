@@ -3,9 +3,7 @@
  */
 import type { PlayerSettings } from "./settings";
 
-export function formatVolumePercent(v: number): string {
-  return `${Math.round(Math.min(1, Math.max(0, v)) * 100)}%`;
-}
+import { formatVolumePercent as volumePercent } from "./settings";
 
 export function formatHintsToggleLine(showHints: boolean): string {
   return showHints
@@ -22,7 +20,7 @@ export function formatSettingsSummary(s: PlayerSettings): string {
   return [
     formatHintsToggleLine(s.showHints),
     formatSfxToggleLine(s.sfxEnabled, s.reduceMotion),
-    `主音量 ${formatVolumePercent(s.volumeMaster)} · 音效 ${formatVolumePercent(s.volumeSfx)} · 背景 ${formatVolumePercent(s.volumeBgm)}`,
+    `主音量 ${volumePercent(s.volumeMaster)} · 音效 ${volumePercent(s.volumeSfx)} · 背景 ${volumePercent(s.volumeBgm)}`,
   ].join("；");
 }
 
