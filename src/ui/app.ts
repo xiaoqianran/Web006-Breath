@@ -205,6 +205,7 @@ export class YixiApp {
 
   private render(): void {
     this.root.innerHTML = "";
+    this.root.classList.toggle("shop-theme", this.view === "shop");
     if (this.view === "menu") {
       this.root.appendChild(this.renderMenu());
     } else if (this.view === "about") {

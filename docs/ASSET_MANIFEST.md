@@ -13,6 +13,12 @@
 - 验收：主菜单可见插画区域；构建后 `dist/assets` 旁 public 资源可访问
 
 | ART-002 | `public/assets/ui/vessels_sheet.jpg` | 形态概念条 | Imagine | 16:9 | JPG | 否 | 0.1 | active | 原创 |
+| ART-003 | `public/assets/bg/shop_bg.jpg` | 店内经营背景 | Imagine | 16:9 | JPG | 否 | 0.1 | active | 原创 |
 
 游戏内交互图标使用 `src/ui/icons.ts` 内联 SVG（可测、可缩放）；sheet 供图鉴/宣传参考。
+
+### ART-003
+
+- 用途：经营界面氛围底图（半透明遮罩保可读性）
+- 接入：`#app.shop-theme::before`
 EOF
