@@ -323,7 +323,7 @@ export class YixiApp {
     el.className = "screen active menu-center";
     el.innerHTML = `
       <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
-      <p class="muted">Gentle Moments Shop · v0.2.2</p>
+      <p class="muted">Gentle Moments Shop · v0.2.3</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>
       <div class="btn-row"></div>
