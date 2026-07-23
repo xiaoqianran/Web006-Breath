@@ -72,3 +72,11 @@ export function announceDayComplete(day: number, warmth: number): string {
 export function announceCirculation(qualityLabel: string): string {
   return `流通完成，品质 ${qualityLabel}`;
 }
+
+/** 委托履约播报 */
+export function announceOrderFulfilled(
+  guestName: string,
+  bonusWarmth: number,
+): string {
+  return `委托完成：${guestName}满意收下，温存加 ${bonusWarmth}`;
+}

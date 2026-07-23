@@ -43,6 +43,7 @@ import {
   announceViewChange,
   announceDayComplete,
   announceCirculation,
+  announceOrderFulfilled,
   joinAnnouncements,
   helpDialogA11y,
   type GameState,
@@ -261,6 +262,22 @@ export class YixiApp {
     }
     if (next.shelf.length < prev.shelf.length) {
       this.audio.playSfx(sfxForGameEvent("sell"));
+    }
+    // 委托完成：读屏 + toast
+    const prevFulfilled = prev.ordersFulfilled ?? 0;
+    const nextFulfilled = next.ordersFulfilled ?? 0;
+    if (nextFulfilled > prevFulfilled) {
+      const guest =
+        prev.activeOrder?.guestName ??
+        next.message.match(/【委托完成】(.+?)满意/)?.[1] ??
+        "客人";
+      const bonus =
+        prev.activeOrder?.bonusWarmth ??
+        Math.max(0, next.warmth - prev.warmth);
+      const line = announceOrderFulfilled(guest, bonus);
+      this.toast = line;
+      this.queueAnnounce(line);
+      this.audio.playSfx(sfxForGameEvent("rare"));
     }
     if (next.phase === "day_complete" && prev.phase !== "day_complete") {
       this.audio.playSfx(sfxForGameEvent("day_end"));

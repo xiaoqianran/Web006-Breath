@@ -564,3 +564,19 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.5)),
     url("/assets/bg/night_window.jpg") center/cover no-repeat;
 }
+
+.card {
+  position: relative;
+}
+.order-board::after {
+  content: "";
+  position: absolute;
+  right: 0.35rem;
+  top: 0.35rem;
+  width: 48px;
+  height: 48px;
+  opacity: 0.55;
+  background: url("/assets/ui/corner_flourish.jpg") center/cover no-repeat;
+  border-radius: 8px;
+  pointer-events: none;
+}

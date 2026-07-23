@@ -8,6 +8,7 @@ import {
   announceViewChange,
   announceDayComplete,
   announceCirculation,
+  announceOrderFulfilled,
   joinAnnouncements,
   helpDialogA11y,
   viewLabel,
@@ -23,11 +24,13 @@ describe("a11y announce pure helpers", () => {
     expect(viewLabel("codex")).toBe("瞬间图鉴");
   });
 
-  it("解锁与流通与打烊", () => {
+  it("解锁与流通与打烊与委托", () => {
     expect(announceUnlock([])).toBe("");
     expect(announceUnlock(["赠予之心"])).toBe("解锁：赠予之心");
     expect(announceCirculation("珍稀")).toContain("珍稀");
     expect(announceDayComplete(3, 12)).toMatch(/第 3 日/);
+    expect(announceOrderFulfilled("林晚", 3)).toContain("林晚");
+    expect(announceOrderFulfilled("林晚", 3)).toContain("3");
   });
 
   it("joinAnnouncements 过滤空串", () => {
