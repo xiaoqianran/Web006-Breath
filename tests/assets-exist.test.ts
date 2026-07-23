@@ -55,6 +55,8 @@ describe("static assets on disk", () => {
       "public/assets/decor/soft_blanket.jpg",
       "public/assets/bg/forty_lanterns.jpg",
       "public/assets/ui/sugar_bowl.jpg",
+      "public/assets/ui/gift_tag.jpg",
+      "public/assets/ui/circulation_log.jpg",
       "public/assets/ui/guest_notebook.jpg",
       "public/assets/ui/match_abacus.jpg",
       "public/assets/ui/unlock_medal.jpg",

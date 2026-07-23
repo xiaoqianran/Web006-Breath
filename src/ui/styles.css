@@ -925,3 +925,23 @@ html[data-reduce-motion="true"] .toast {
     linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
     url("/assets/ui/sugar_bowl.jpg") center/cover no-repeat;
 }
+
+.circulation-log-art {
+  height: 72px;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.48)),
+    url("/assets/ui/circulation_log.jpg") center/cover no-repeat;
+}
+
+.gift-tag-art {
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  margin: 0 0 0.5rem auto;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/gift_tag.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}

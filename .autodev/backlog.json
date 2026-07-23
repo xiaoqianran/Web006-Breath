@@ -2155,7 +2155,7 @@
     },
     {
       "id": "T0152-continue",
-      "title": "M2 持续推进",
+      "title": "流通动作叙事文案 action-label",
       "category": "chore",
       "milestone": "M2-systems",
       "description": "resume",
@@ -2169,8 +2169,29 @@
       ],
       "test_plan": "npm test",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 151,
+      "completed_round": 152,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0153-emotions-72",
+      "title": "情绪样本扩充至 72",
+      "category": "content",
+      "milestone": "M2-systems",
+      "description": "SAMPLE>=72",
+      "priority": 58,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0152-continue"
+      ],
+      "acceptance_criteria": [
+        ">=72"
+      ],
+      "test_plan": "emotions-data",
+      "visual_requirements": [],
+      "status": "pending",
+      "created_round": 152,
       "completed_round": null,
       "commit_hash": null
     }

@@ -111,3 +111,6 @@
 | ART-046 | `public/assets/bg/forty_lanterns.jpg` | 四十盏灯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-047 | `public/assets/ui/sugar_bowl.jpg` | 糖罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-048 | `public/assets/ui/circulation_log.jpg` | 流通手账 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-049 | `public/assets/ui/gift_tag.jpg` | 心意吊牌 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -55,6 +55,8 @@ import {
   formatIntensityLine,
   intensityCraftHint,
   formatTagsLine,
+  formatActionLine,
+  formatCirculationResultLine,
   formatOrderLine,
   formatOrderShort,
   ensureActiveOrder,
@@ -642,7 +644,7 @@ export class YixiApp {
               (r, i) => `
         <article class="card" data-testid="codex-item">
           <h3>#${i + 1} ${r.item.label}</h3>
-          <p class="muted">${r.action === "gift" ? "赠予" : "上架"} · 温存 +${r.warmthGained} · ${QUALITY_LABELS[r.item.quality]}</p>
+          <p class="muted" data-testid="codex-action">${formatActionLine(r.action)} · 温存 +${r.warmthGained} · ${QUALITY_LABELS[r.item.quality]}</p>
           <p class="moment-card">${r.momentCard}</p>
         </article>`,
             )
@@ -952,7 +954,7 @@ export class YixiApp {
     }
 
     if (s.phase === "result") {
-      card.innerHTML = `<h2>流通完成</h2>`;
+      card.innerHTML = `<h2>流通完成</h2><p class="muted" data-testid="result-action">${s.lastResult ? formatActionLine(s.lastResult.action) : ""}</p>`;
       card.appendChild(this.renderLastResult(s));
       const row = document.createElement("div");
       row.className = "btn-row";
@@ -1017,8 +1019,11 @@ export class YixiApp {
     box.innerHTML = `
       <div class="letter-seal-art" role="img" aria-label="瞬间信笺封口" data-testid="letter-seal-art"></div>
       <div class="paper-stamp-art" role="img" aria-label="日记印章" data-testid="paper-stamp-art"></div>
+      <div class="circulation-log-art" role="img" aria-label="流通手账" data-testid="circulation-log-art"></div>
+      <div class="gift-tag-art" role="img" aria-label="心意吊牌" data-testid="gift-tag-art"></div>
       <div class="moment-card" data-testid="moment-card">
         <p><strong>瞬间卡片</strong> · 温存 +${r.warmthGained}</p>
+        <p data-testid="action-result-line">${formatCirculationResultLine(r.action, r.warmthGained)}</p>
         <p>${r.momentCard}</p>
       </div>
     `;
