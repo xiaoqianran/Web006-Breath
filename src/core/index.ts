@@ -27,3 +27,4 @@ export * from "./id";
 export * from "./equals";
 export * from "./pick";
 export * from "./sum";
+export * from "./repeat";
