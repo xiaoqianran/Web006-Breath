@@ -462,6 +462,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 57,
+    title: "伞沿",
+    opener: "第五十七日。门口的伞架多了两把还在滴水的伞。",
+    sampleIndexes: [94, 95, 88, 70],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 58,
+    title: "侧影",
+    opener: "第五十八日。玻璃上映着匆匆的侧影，有人停了一秒。",
+    sampleIndexes: [95, 90, 85, 60],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {
