@@ -889,6 +889,27 @@
       "created_round": 56,
       "completed_round": 56,
       "commit_hash": "be8d78b22df13116db1a367fc9d7ca1ff436cb13"
+    },
+    {
+      "id": "T0057-save-inspect",
+      "title": "存档反序列化结构校验",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "deserialize 用 inspectGameState",
+      "priority": 60,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0056-assert-state"
+      ],
+      "acceptance_criteria": [
+        "损坏存档抛错"
+      ],
+      "test_plan": "tests/save.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 57,
+      "completed_round": 57,
+      "commit_hash": "19c8f8c8a0ef787dea46a65a1c4c547f425bc430"
     }
   ]
 }
