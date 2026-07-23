@@ -5,6 +5,7 @@ import {
   continueAfterResult,
   createGameState,
   startNextDay,
+  sellFromShelf,
   saveToStore,
   loadFromStore,
   clearSave,
@@ -383,6 +384,10 @@ export class YixiApp {
 
     wrap.appendChild(this.renderPhaseCard(s));
 
+    if (s.shelf.length > 0) {
+      wrap.appendChild(this.renderShelf(s));
+    }
+
     const nav = document.createElement("div");
     nav.className = "btn-row";
     nav.append(
@@ -391,6 +396,34 @@ export class YixiApp {
     );
     wrap.appendChild(nav);
     return wrap;
+  }
+
+  private renderShelf(s: GameState): HTMLElement {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.dataset.testid = "shelf";
+    card.innerHTML = `<h2>货架</h2><p class="muted">上架的温柔在此等候知音。</p>`;
+    s.shelf.forEach((item) => {
+      const row = document.createElement("div");
+      row.className = "btn-row";
+      row.style.alignItems = "center";
+      const label = document.createElement("span");
+      label.textContent = `${item.crafted.label}（${QUALITY_LABELS[item.crafted.quality]}）`;
+      const id = item.crafted.id;
+      row.append(
+        label,
+        this.button(
+          "被买走",
+          () => {
+            const idx = this.state.shelf.findIndex((x) => x.crafted.id === id);
+            this.setState(sellFromShelf(this.state, idx));
+          },
+          "display",
+        ),
+      );
+      card.appendChild(row);
+    });
+    return card;
   }
 
   private renderPhaseCard(s: GameState): HTMLElement {

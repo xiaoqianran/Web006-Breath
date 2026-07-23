@@ -29,6 +29,7 @@ export function createGameState(
     history: [],
     circulationsToday: 0,
     qualityStreak: 0,
+    shelf: [],
     config: { ...DEFAULT_CONFIG, ...config },
     message: queue.length > 0 ? "今日已有情绪在等候。请接待下一位。" : "店里很安静。",
   };
@@ -39,6 +40,7 @@ export function normalizeGameState(state: GameState): GameState {
   return {
     ...state,
     qualityStreak: typeof state.qualityStreak === "number" ? state.qualityStreak : 0,
+    shelf: Array.isArray(state.shelf) ? state.shelf : [],
     history: Array.isArray(state.history) ? state.history : [],
     queue: Array.isArray(state.queue) ? state.queue : [],
   };
@@ -141,6 +143,14 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
   const streakMsg =
     streakBonus > 0 ? `（精致连心 +${streakBonus}）` : "";
 
+  const shelf =
+    action === "display"
+      ? [
+          ...state.shelf,
+          { crafted: state.crafted, listedAt: Date.now() },
+        ]
+      : state.shelf;
+
   return {
     ...state,
     phase,
@@ -148,6 +158,7 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
     reputation,
     circulationsToday,
     qualityStreak: nextStreak,
+    shelf,
     history: [...state.history, record],
     lastResult: record,
     current: null,
@@ -155,6 +166,26 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
     message: goalMet
       ? `流通完成，获得温存 +${warmthGained}${streakMsg}。今日目标已达成！`
       : `流通完成，获得温存 +${warmthGained}${streakMsg}。可以继续接待。`,
+  };
+}
+
+/**
+ * 货架上的成品被知音买走：获得少量温存并移出货架。
+ * @param index 货架下标
+ */
+export function sellFromShelf(state: GameState, index: number): GameState {
+  if (index < 0 || index >= state.shelf.length) {
+    return { ...state, message: "货架上没有这件物品。" };
+  }
+  const item = state.shelf[index]!;
+  const bonus = 1 + (item.crafted.quality === "rare" ? 2 : item.crafted.quality === "fine" ? 1 : 0);
+  const shelf = state.shelf.filter((_, i) => i !== index);
+  return {
+    ...state,
+    shelf,
+    warmth: state.warmth + bonus,
+    reputation: state.reputation + (item.crafted.quality === "rare" ? 1 : 0),
+    message: `「${item.crafted.label}」被轻轻买走了。温存 +${bonus}。`,
   };
 }
 

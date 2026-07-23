@@ -25,6 +25,11 @@ export type GamePhase =
   | "result"
   | "day_complete";
 
+export interface ShelfItem {
+  crafted: CraftedItem;
+  listedAt: number;
+}
+
 export interface Emotion {
   id: string;
   text: string;
@@ -69,6 +74,8 @@ export interface GameState {
   circulationsToday: number;
   /** 连续 fine/rare 次数，simple 会清零 */
   qualityStreak: number;
+  /** 上架中的成品，等待被买走 */
+  shelf: ShelfItem[];
   config: GameConfig;
   message: string;
 }
