@@ -633,6 +633,7 @@ export class YixiApp {
             .join("");
     const unlockHtml = `
       <div class="card" data-testid="unlocks">
+        <div class="full-moon-art" role="img" aria-label="满月掌灯意象" data-testid="full-moon-art"></div>
         <h3>店面解锁</h3>
         ${
           earned.length === 0

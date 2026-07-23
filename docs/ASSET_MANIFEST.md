@@ -80,3 +80,5 @@
 | ART-029 | `public/assets/ui/storybooks.jpg` | 故事书叠 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 
 | ART-030 | `public/assets/bg/evening_market.jpg` | 晚市灯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+
+| ART-031 | `public/assets/promo/full_moon.jpg` | 满月掌灯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
