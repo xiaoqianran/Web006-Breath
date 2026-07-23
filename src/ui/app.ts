@@ -53,6 +53,9 @@ import {
   formatWarmthEncourage,
   warmthRankTitle,
   buildDayEndNarrative,
+  formatAtmosphereLine,
+  formatAtmosphereClosing,
+  atmosphereForDay,
   formatStreakLine,
   formatStreakEncourage,
   formatQueueStatus,
@@ -757,6 +760,7 @@ export class YixiApp {
     wrap.dataset.phase = s.phase;
     wrap.dataset.circulations = String(s.circulationsToday);
     wrap.dataset.warmth = String(s.warmth);
+    wrap.dataset.atmosphere = atmosphereForDay(s.day).dataAttr;
 
     const goalP = dayGoalProgress(s);
     const hud = document.createElement("div");
@@ -766,6 +770,7 @@ export class YixiApp {
       <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
       <span class="chalkboard-art" role="img" aria-label="提示板" data-testid="chalkboard-art"></span>
       <span class="muted" data-testid="phase-hint">${formatPhaseHintLine(s.phase)}</span>
+      <span class="muted" data-testid="atmosphere-line">${formatAtmosphereLine(s.day)}</span>
       <span>第 <strong>${s.day}</strong> 日 · ${getDayScript(s.day).title}</span>
       <span data-testid="warmth-line"><span class="warmth-jar-art warmth-jar-art--hud" role="img" aria-label="温存罐"></span>温存 <strong data-testid="warmth">${s.warmth}</strong> · ${warmthRankTitle(s.warmth)}</span>
       <span class="muted" data-testid="warmth-progress">${formatWarmthProgress(s.warmth)}</span>
@@ -1018,6 +1023,8 @@ export class YixiApp {
         <p class="muted" data-testid="day-end-reputation">${dayEnd.reputationLine}</p>
         <p class="muted" data-testid="day-end-favor">${dayEnd.favorLine}</p>
         <p data-testid="day-end-closing">${dayEnd.closingLine}</p>
+        <p class="muted" data-testid="day-end-atmosphere">${formatAtmosphereClosing(s.day)}</p>
+        <div class="night-rain-window-art" role="img" aria-label="夜雨窗" data-testid="night-rain-window-art"></div>
         <div class="revisit-door-art" role="img" aria-label="再访门廊" data-testid="revisit-door-art"></div>
         <div class="soft-blanket-art" role="img" aria-label="薄被" data-testid="soft-blanket-art"></div>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>

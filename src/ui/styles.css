@@ -778,6 +778,26 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/bg/revisit_door.jpg") center/cover no-repeat;
 }
 
+.night-rain-window-art {
+  height: 88px;
+  border-radius: 12px;
+  margin-bottom: 0.65rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/bg/night_rain_window.jpg") center/cover no-repeat;
+}
+
+/* 店内氛围钩子（data-atmosphere） */
+.screen[data-atmosphere="rain"] .hud {
+  box-shadow: inset 0 0 0 1px rgba(120, 150, 170, 0.18);
+}
+.screen[data-atmosphere="night"] .hud {
+  box-shadow: inset 0 0 0 1px rgba(80, 70, 100, 0.16);
+}
+.screen[data-atmosphere="lantern"] .hud {
+  box-shadow: inset 0 0 0 1px rgba(200, 150, 80, 0.16);
+}
+
 /* 雨日主题时页脚氛围 */
 #app.shop-theme.rain-theme .site-foot::before {
   content: "";
