@@ -1,3 +1,5 @@
 export * from "./types";
 export * from "./matching";
 export * from "./game";
+export * from "./save";
+export * from "./hints";

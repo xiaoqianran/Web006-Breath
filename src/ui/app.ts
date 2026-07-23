@@ -5,6 +5,11 @@ import {
   continueAfterResult,
   createGameState,
   startNextDay,
+  saveToStore,
+  loadFromStore,
+  clearSave,
+  listVesselHints,
+  formatHintLine,
   type GameState,
   type VesselKind,
   VESSEL_LABELS,
@@ -25,7 +30,7 @@ const VESSELS = Object.keys(VESSEL_LABELS) as VesselKind[];
 export class YixiApp {
   private root: HTMLElement;
   private state: GameState;
-  private view: "menu" | "shop" | "about" = "menu";
+  private view: "menu" | "shop" | "about" | "codex" = "menu";
 
   constructor(root: HTMLElement) {
     this.root = root;
@@ -38,20 +43,67 @@ export class YixiApp {
     return this.state;
   }
 
-  private setState(next: GameState): void {
-    this.state = next;
-    this.render();
-  }
-
-  private go(view: "menu" | "shop" | "about"): void {
+  private go(view: "menu" | "shop" | "about" | "codex"): void {
     this.view = view;
     this.render();
   }
 
+  private storage(): Storage | null {
+    try {
+      return typeof localStorage !== "undefined" ? localStorage : null;
+    } catch {
+      return null;
+    }
+  }
+
+  private persist(): void {
+    const store = this.storage();
+    if (store) saveToStore(store, this.state);
+  }
+
+  private setState(next: GameState): void {
+    this.state = next;
+    this.persist();
+    this.render();
+  }
+
   private startNewGame(): void {
+    const store = this.storage();
+    if (store) clearSave(store);
     this.state = createGameState(freshDayQueue(1));
     this.view = "shop";
+    this.persist();
     this.render();
+  }
+
+  private continueGame(): void {
+    const store = this.storage();
+    if (!store) {
+      this.startNewGame();
+      return;
+    }
+    try {
+      const loaded = loadFromStore(store);
+      if (loaded) {
+        this.state = loaded;
+        this.view = "shop";
+        this.render();
+        return;
+      }
+    } catch {
+      clearSave(store);
+    }
+    this.startNewGame();
+  }
+
+  private hasSave(): boolean {
+    const store = this.storage();
+    if (!store) return false;
+    try {
+      return loadFromStore(store) !== null;
+    } catch {
+      return false;
+    }
   }
 
   private render(): void {
@@ -60,6 +112,8 @@ export class YixiApp {
       this.root.appendChild(this.renderMenu());
     } else if (this.view === "about") {
       this.root.appendChild(this.renderAbout());
+    } else if (this.view === "codex") {
+      this.root.appendChild(this.renderCodex());
     } else {
       this.root.appendChild(this.renderShop());
     }
@@ -81,7 +135,41 @@ export class YixiApp {
     const row = el.querySelector(".btn-row")!;
     row.append(
       this.button("开始今日经营", () => this.startNewGame()),
+      this.button("继续经营", () => this.continueGame(), "secondary", !this.hasSave()),
+      this.button("瞬间图鉴", () => this.go("codex"), "secondary"),
       this.button("关于", () => this.go("about"), "secondary"),
+    );
+    return el;
+  }
+
+  private renderCodex(): HTMLElement {
+    const el = document.createElement("section");
+    el.className = "screen active";
+    el.dataset.testid = "codex";
+    const list = this.state.history;
+    const items =
+      list.length === 0
+        ? `<p class="muted">还没有完成的流通。去店里接待一位客人吧。</p>`
+        : list
+            .map(
+              (r, i) => `
+        <article class="card" data-testid="codex-item">
+          <h3>#${i + 1} ${r.item.label}</h3>
+          <p class="muted">${r.action === "gift" ? "赠予" : "上架"} · 温存 +${r.warmthGained} · ${QUALITY_LABELS[r.item.quality]}</p>
+          <p class="moment-card">${r.momentCard}</p>
+        </article>`,
+            )
+            .join("");
+    el.innerHTML = `
+      <h2>瞬间图鉴</h2>
+      <p class="muted">每一次流通留下的温柔记录（本局 ${list.length} 条）</p>
+      <div data-testid="codex-list">${items}</div>
+      <div class="btn-row"></div>
+    `;
+    const row = el.querySelector(".btn-row")!;
+    row.append(
+      this.button("返回菜单", () => this.go("menu"), "secondary"),
+      this.button("进入店内", () => this.go("shop")),
     );
     return el;
   }
@@ -132,7 +220,10 @@ export class YixiApp {
 
     const nav = document.createElement("div");
     nav.className = "btn-row";
-    nav.append(this.button("回到主菜单", () => this.go("menu"), "secondary"));
+    nav.append(
+      this.button("瞬间图鉴", () => this.go("codex"), "secondary"),
+      this.button("回到主菜单", () => this.go("menu"), "secondary"),
+    );
     wrap.appendChild(nav);
     return wrap;
   }
@@ -175,6 +266,7 @@ export class YixiApp {
         <div class="tags">${e.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
         <p class="muted">强度 ${e.intensity} · 选择容器形态</p>
         <div class="vessel-grid" data-testid="vessel-grid"></div>
+        <p class="muted" data-testid="hints" style="margin-top:0.75rem"></p>
       `;
       const grid = card.querySelector(".vessel-grid")!;
       for (const v of VESSELS) {
@@ -186,6 +278,11 @@ export class YixiApp {
         b.addEventListener("click", () => this.setState(chooseVessel(s, v)));
         grid.appendChild(b);
       }
+      const hints = listVesselHints(e)
+        .map((h) => formatHintLine(h))
+        .join(" · ");
+      const hintEl = card.querySelector("[data-testid=hints]")!;
+      hintEl.textContent = `气息提示：${hints}`;
       return card;
     }
 

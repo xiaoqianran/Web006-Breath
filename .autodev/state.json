@@ -3,15 +3,15 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 1,
+  "current_round": 6,
   "target_rounds": 1000,
   "current_milestone": "M0-foundation",
-  "current_task_id": "T0001",
-  "last_completed_task_id": "",
-  "last_commit": "",
-  "last_verified_build": "",
-  "last_test_summary": "",
-  "core_loop_status": "not_started",
+  "current_task_id": "T0006",
+  "last_completed_task_id": "T0005",
+  "last_commit": "2ea25cd1151f2f19169f9491cd71768d2cfa3097",
+  "last_verified_build": "npm run build OK (vite 6.4.3)",
+  "last_test_summary": "vitest: 7 passed",
+  "core_loop_status": "playable_mvp",
   "overall_status": "active",
   "blocked_items": [],
   "known_failures": [],
@@ -20,7 +20,7 @@
     "D-002 情绪流通经营",
     "D-003 逻辑 UI 分离"
   ],
-  "next_candidate_tasks": ["T0002", "T0003", "T0004"],
-  "resume_instructions": "R0001 进行中：已创建 docs 与目录。下一步完成 autodev backlog/current-task、README、首次提交，然后脚手架 Vite。",
-  "updated_at": "2026-07-23T00:00:00.000Z"
+  "next_candidate_tasks": ["T0006", "T0007", "T0008", "T0009-save"],
+  "resume_instructions": "已完成可玩 MVP（R1–R5）。核心循环：接待→选形态→上架/赠予。命令：npm install && npm run dev | npm test | npm run smoke。下一任务 T0006 扩充情绪样本并加瞬间图鉴面板。最近提交 2ea25cd。",
+  "updated_at": "2026-07-23T20:16:00.000Z"
 }
