@@ -988,6 +988,25 @@
       "created_round": 62,
       "completed_round": 62,
       "commit_hash": "dc1c4f1f828995de2f4ac88b219cfbf7195abcf8"
+    },
+    {
+      "id": "T0063-sum",
+      "title": "数值累加工具",
+      "category": "feat",
+      "milestone": "M1-core-loop-depth",
+      "description": "sumNumbers",
+      "priority": 45,
+      "estimated_rounds": 1,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "单测"
+      ],
+      "test_plan": "tests/sum.test.ts",
+      "visual_requirements": [],
+      "status": "done",
+      "created_round": 63,
+      "completed_round": 63,
+      "commit_hash": "c038abac4cf45b83c5b363d9eb982b637193fa8e"
     }
   ]
 }
