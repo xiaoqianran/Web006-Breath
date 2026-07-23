@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 49,
+  "current_round": 50,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0050-next",
-  "last_completed_task_id": "T0049-day-goal",
-  "last_commit": "a84a9603fde0f1a0e48e0d3e529f2f556b021d4b",
+  "current_task_id": "T0051-next",
+  "last_completed_task_id": "T0050-text-sanitize",
+  "last_commit": "08eadc859c6e3784db8ec2599a428ee16a37ea94",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 76 passed (25 files)",
+  "last_test_summary": "vitest: 79 passed (26 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -20,13 +20,13 @@
     "D-002",
     "D-003",
     "D-004 ProceduralAudioBus",
-    "D-005 帮助与日目标 HUD"
+    "D-005 skeptic三缺口已闭合"
   ],
   "next_candidate_tasks": [
     "T0039-real-audio-files",
     "读屏",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】a84a9603fde0f1a0e48e0d3e529f2f556b021d4b\n【三缺口功能提交】65a5659d7455cd2c0e35998523a10eb330e1dbf1\n当前轮次: 49 / 1000。\n当前目标: M1 深化；下一 T0039 真音频。\n已完成步骤: skeptic 三缺口闭合；帮助 ?；日目标 HUD；74→76 tests。\n尚未完成: 真音频文件；1000 轮剩余。\nGit: main；last_commit=a84a9603fde0f1a0e48e0d3e529f2f556b021d4b；git status 应 clean。\n测试: 76 passed / 25 files；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && git rev-parse HEAD && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T21:04:13Z"
+  "resume_instructions": "【权威 tip】08eadc859c6e3784db8ec2599a428ee16a37ea94\n【三缺口】65a5659 帮助+对齐；6abee24 状态闭合\n当前轮次: 50 / 1000。\n当前目标: 继续 M1。\n已完成: skeptic 三缺口；帮助；日目标 HUD；文案消毒；79 tests 预期。\n尚未完成: 真音频；1000 轮。\nGit: main；last_commit=08eadc859c6e3784db8ec2599a428ee16a37ea94。\n测试: 以 npm test 为准；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T21:05:06Z"
 }
