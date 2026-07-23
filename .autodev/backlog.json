@@ -1217,8 +1217,31 @@
       ],
       "test_plan": "emotions-data",
       "visual_requirements": [],
-      "status": "pending",
+      "status": "done",
       "created_round": 105,
+      "completed_round": 106,
+      "commit_hash": "PENDING"
+    },
+    {
+      "id": "T0107-more-day-art",
+      "title": "继续阶段生图与接入",
+      "category": "art",
+      "milestone": "M2-systems",
+      "description": "持续为界面位生图",
+      "priority": 45,
+      "estimated_rounds": 1,
+      "dependencies": [
+        "T0106-emotion-tags-assert"
+      ],
+      "acceptance_criteria": [
+        "新图落盘并引用"
+      ],
+      "test_plan": "assets-exist",
+      "visual_requirements": [
+        "新图"
+      ],
+      "status": "pending",
+      "created_round": 106,
       "completed_round": null,
       "commit_hash": null
     }

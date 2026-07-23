@@ -1,6 +1,13 @@
 import { describe, it, expect } from "vitest";
 import { SAMPLE_EMOTIONS, freshDayQueue } from "../src/data/emotions";
-import { createGameState, runFullCirculation } from "../src/core";
+import {
+  createGameState,
+  runFullCirculation,
+  EMOTION_TAG_LIST,
+  assertEmotionTags,
+  isEmotionTag,
+} from "../src/core";
+
 
 describe("emotion content", () => {
   it("样本情绪不少于 12 条且字段完整", () => {
@@ -12,7 +19,14 @@ describe("emotion content", () => {
       expect(e.intensity).toBeGreaterThanOrEqual(1);
       expect(e.intensity).toBeLessThanOrEqual(5);
       expect(e.guestName).toBeTruthy();
+      expect(assertEmotionTags(e.tags), e.id).toBe(true);
+      for (const tag of e.tags) {
+        expect(isEmotionTag(tag), tag).toBe(true);
+      }
     }
+    const ids = SAMPLE_EMOTIONS.map((e) => e.id);
+    expect(new Set(ids).size).toBe(ids.length);
+    expect(EMOTION_TAG_LIST.length).toBe(10);
   });
 
   it("freshDayQueue 返回去重 id 的可玩队列", () => {

@@ -12,6 +12,7 @@ export * from "./tones";
 export * from "./a11y-announce";
 export * from "./orders";
 export * from "./guest-names";
+export * from "./emotion-tags";
 export * from "./achievements";
 export * from "./affinity";
 export * from "./revisit";
