@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 101,
+  "current_round": 102,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0102-emotions-40",
-  "last_completed_task_id": "T0101-order-hint",
-  "last_commit": "6c29c930f92b6c3a2e36f11d2c3817e899e59d58",
+  "current_task_id": "T0103-day-scripts-18",
+  "last_completed_task_id": "T0102-emotions-40",
+  "last_commit": "1e3b59477cd6bdfef01ce689dc9d9d2fff8dc17d",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 128 passed (45 files)",
   "core_loop_status": "playable_demo_ready",
@@ -29,6 +29,6 @@
     "内容管线",
     "持续生图"
   ],
-  "resume_instructions": "【权威 tip】以 git rev-parse HEAD 为准\n功能提交: 6c29c930f92b6c3a2e36f11d2c3817e899e59d58\n当前轮次: 101 / 1000 · v0.2.5\n里程碑: M2 started\n已完成: T0100 订单骨架 · T0101 委托高亮 · 5 张新插画\n下一: T0102 情绪≥40\n测试: 128 passed；smoke 双次 warmth=19\n",
-  "updated_at": "2026-07-23T22:11:43Z"
+  "resume_instructions": "tip 见 git rev-parse；功能 1e3b59477cd6bdfef01ce689dc9d9d2fff8dc17d T0102 情绪42+茶台春饰。轮次102/1000 v0.2.5。下一 T0103 日剧本18。128 tests。",
+  "updated_at": "2026-07-23T22:13:00Z"
 }
