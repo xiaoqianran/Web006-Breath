@@ -1500,7 +1500,7 @@
       "status": "done",
       "created_round": 119,
       "completed_round": 120,
-      "commit_hash": "PENDING"
+      "commit_hash": "b49ed2c07ab785e667d1081507d26b253253cff4"
     },
     {
       "id": "T0121-revisit-favor-hint",
