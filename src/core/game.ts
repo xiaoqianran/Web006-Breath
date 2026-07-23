@@ -28,8 +28,19 @@ export function createGameState(
     lastResult: null,
     history: [],
     circulationsToday: 0,
+    qualityStreak: 0,
     config: { ...DEFAULT_CONFIG, ...config },
     message: queue.length > 0 ? "今日已有情绪在等候。请接待下一位。" : "店里很安静。",
+  };
+}
+
+/** 兼容旧存档：补齐缺失字段 */
+export function normalizeGameState(state: GameState): GameState {
+  return {
+    ...state,
+    qualityStreak: typeof state.qualityStreak === "number" ? state.qualityStreak : 0,
+    history: Array.isArray(state.history) ? state.history : [],
+    queue: Array.isArray(state.queue) ? state.queue : [],
   };
 }
 
@@ -98,7 +109,11 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
     return { ...state, message: "没有可流通的成品。" };
   }
 
-  const warmthGained = warmthFromCirculation(state.crafted.circulationValue, action);
+  const baseWarmth = warmthFromCirculation(state.crafted.circulationValue, action);
+  const nextStreak =
+    state.crafted.quality === "simple" ? 0 : state.qualityStreak + 1;
+  const streakBonus = nextStreak >= 2 ? Math.min(nextStreak - 1, 3) : 0;
+  const warmthGained = baseWarmth + streakBonus;
   const record = {
     item: state.crafted,
     action,
@@ -123,19 +138,23 @@ export function circulate(state: GameState, action: CirculationAction): GameStat
 
   const phase = goalMet && state.queue.length === 0 ? "day_complete" : "result";
 
+  const streakMsg =
+    streakBonus > 0 ? `（精致连心 +${streakBonus}）` : "";
+
   return {
     ...state,
     phase,
     warmth,
     reputation,
     circulationsToday,
+    qualityStreak: nextStreak,
     history: [...state.history, record],
     lastResult: record,
     current: null,
     crafted: null,
     message: goalMet
-      ? `流通完成，获得温存 +${warmthGained}。今日目标已达成！`
-      : `流通完成，获得温存 +${warmthGained}。可以继续接待。`,
+      ? `流通完成，获得温存 +${warmthGained}${streakMsg}。今日目标已达成！`
+      : `流通完成，获得温存 +${warmthGained}${streakMsg}。可以继续接待。`,
   };
 }
 

@@ -364,6 +364,7 @@ export class YixiApp {
       <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
       <span>口碑 <strong>${s.reputation}</strong></span>
       <span>今日流通 <strong data-testid="circulations">${s.circulationsToday}</strong> / 目标 ${s.config.dayGoalCirculations}</span>
+      <span>连心 <strong data-testid="streak">${s.qualityStreak ?? 0}</strong></span>
       <span>等候 <strong>${s.queue.length}</strong></span>
     `;
     wrap.appendChild(hud);

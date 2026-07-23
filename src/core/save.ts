@@ -1,3 +1,4 @@
+import { normalizeGameState } from "./game";
 import type { GameState } from "./types";
 
 export const SAVE_KEY = "yixi.save.v1";
@@ -27,7 +28,7 @@ export function deserializeState(raw: string): GameState {
   if (typeof s.warmth !== "number" || !Array.isArray(s.history) || !Array.isArray(s.queue)) {
     throw new Error("存档结构无效");
   }
-  return s;
+  return normalizeGameState(s);
 }
 
 /** 可注入 storage 以便测试 */

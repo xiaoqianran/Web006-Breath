@@ -67,6 +67,8 @@ export interface GameState {
   lastResult: CirculationRecord | null;
   history: CirculationRecord[];
   circulationsToday: number;
+  /** 连续 fine/rare 次数，simple 会清零 */
+  qualityStreak: number;
   config: GameConfig;
   message: string;
 }
