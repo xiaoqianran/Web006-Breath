@@ -816,6 +816,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 4,
   },
+  {
+    id: "e117",
+    guestName: "匿名",
+    text: "把今天的进度折进抽屉，明天还能从同一道门帘进来。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e118",
+    guestName: "陆安",
+    text: "存档像一张不会丢的便签：温存还在，脚步也在。",
+    tags: ["温柔", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e119",
+    guestName: "听雨",
+    text: "离开前看了一眼抽屉，确认店还记得我。",
+    tags: ["想念", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e120",
+    guestName: "暮山",
+    text: "第一百二十次回来：请从我离开的那一日继续。",
+    tags: ["勇气", "想念"],
+    intensity: 4,
+  },
 ];
 
 

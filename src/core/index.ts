@@ -57,3 +57,4 @@ export * from "./tutorial-label";
 export * from "./accept-label";
 export * from "./gift-label";
 export * from "./audio-label";
+export * from "./save-label";

@@ -97,6 +97,11 @@ import {
   formatGiftBoxAside,
   formatAudioBoardSummary,
   formatAudioEncourage,
+  formatSaveEmptyLine,
+  formatSaveReadyLine,
+  formatContinueButtonLabel,
+  formatSaveEncourage,
+  formatAutosaveHint,
   formatOrderLine,
   formatOrderShort,
   formatOrderRewardLine,
@@ -573,6 +578,15 @@ export class YixiApp {
   private renderMenu(): HTMLElement {
     const el = document.createElement("section");
     el.className = "screen active menu-center";
+    const saved = this.hasSave();
+    let saveLine = formatSaveEmptyLine();
+    if (saved) {
+      const store = this.storage();
+      const loaded = store ? loadFromStore(store) : null;
+      if (loaded) {
+        saveLine = formatSaveReadyLine(loaded.day, loaded.warmth);
+      }
+    }
     el.innerHTML = `
       <div class="menu-hero" role="img" aria-label="一息小店午后橱窗插画" data-testid="menu-hero"></div>
       <div class="menu-hero-door" role="img" aria-label="小店门廊" data-testid="menu-hero-door"></div>
@@ -580,15 +594,24 @@ export class YixiApp {
       <div class="morning-dew-art" role="img" aria-label="晨露门铃" data-testid="morning-dew"></div>
       <div class="street-lamp-art" role="img" aria-label="巷口路灯" data-testid="street-lamp"></div>
       <div class="signpost-art" role="img" aria-label="路牌" data-testid="signpost-art"></div>
+      <div class="save-drawer-art" role="img" aria-label="存档抽屉" data-testid="save-drawer-art"></div>
       <p class="muted">Gentle Moments Shop · v0.2.6</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>
+      <p class="muted" data-testid="save-line">${saveLine}</p>
+      <p class="muted" data-testid="save-encourage">${formatSaveEncourage(saved)}</p>
+      <p class="muted" data-testid="autosave-hint">${formatAutosaveHint()}</p>
       <div class="btn-row"></div>
     `;
     const row = el.querySelector(".btn-row")!;
     row.append(
       this.button("开始今日经营", () => this.startNewGame()),
-      this.button("继续经营", () => this.continueGame(), "secondary", !this.hasSave()),
+      this.button(
+        formatContinueButtonLabel(saved),
+        () => this.continueGame(),
+        "secondary",
+        !saved,
+      ),
       this.button("瞬间图鉴", () => this.go("codex"), "secondary"),
       this.button("设置", () => this.go("settings"), "secondary"),
       this.button("关于", () => this.go("about"), "secondary"),

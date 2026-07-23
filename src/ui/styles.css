@@ -1225,6 +1225,17 @@ html[data-reduce-motion="true"] .toast {
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
 
+.save-drawer-art {
+  height: 80px;
+  border-radius: 12px;
+  margin: 0 auto 0.75rem;
+  max-width: 320px;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/save_drawer.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
 .rain-shop-awning-art {
   height: 88px;
   border-radius: 12px;
