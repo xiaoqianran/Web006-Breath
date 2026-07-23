@@ -480,6 +480,20 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "温柔"],
     intensity: 2,
   },
+  {
+    id: "e69",
+    guestName: "匿名",
+    text: "把糖罐盖子拧紧，甜还是漏了一点出来。",
+    tags: ["温柔", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e70",
+    guestName: "安",
+    text: "七十次深呼吸后，终于推开了这扇门。",
+    tags: ["勇气", "释然"],
+    intensity: 4,
+  },
 ];
 
 
