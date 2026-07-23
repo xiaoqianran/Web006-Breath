@@ -37,6 +37,7 @@ import {
   formatDayGoalLine,
   formatDayGoalEncourage,
   phaseLabel,
+  formatPhaseHintLine,
   vesselByHotkey,
   VESSEL_ORDER,
   formatRatioPercent,
@@ -744,6 +745,7 @@ export class YixiApp {
     hud.innerHTML = `
       <div class="day-calendar-art" role="img" aria-label="今日日历装饰" data-testid="day-calendar-art"></div>
       <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
+      <span class="muted" data-testid="phase-hint">${formatPhaseHintLine(s.phase)}</span>
       <span>第 <strong>${s.day}</strong> 日 · ${getDayScript(s.day).title}</span>
       <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
       <span data-testid="reputation-line">口碑 <strong>${s.reputation}</strong> · ${reputationRankTitle(s.reputation)}</span>
@@ -1021,6 +1023,7 @@ export class YixiApp {
       <div class="paper-stamp-art" role="img" aria-label="日记印章" data-testid="paper-stamp-art"></div>
       <div class="circulation-log-art" role="img" aria-label="流通手账" data-testid="circulation-log-art"></div>
       <div class="fountain-pen-art" role="img" aria-label="钢笔" data-testid="fountain-pen-art"></div>
+      <div class="journal-page-art" role="img" aria-label="手账页" data-testid="journal-page-art"></div>
       <div class="gift-tag-art" role="img" aria-label="心意吊牌" data-testid="gift-tag-art"></div>
       <div class="moment-card" data-testid="moment-card">
         <p><strong>瞬间卡片</strong> · 温存 +${r.warmthGained}</p>
