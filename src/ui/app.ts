@@ -30,6 +30,7 @@ import {
   formatStatsSummary,
   dayGoalProgress,
   formatDayGoalLine,
+  phaseLabel,
   type GameState,
   type PlayerSettings,
   type VesselKind,
@@ -498,6 +499,7 @@ export class YixiApp {
     const hud = document.createElement("div");
     hud.className = "hud";
     hud.innerHTML = `
+      <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
       <span>第 <strong>${s.day}</strong> 日</span>
       <span>温存 <strong data-testid="warmth">${s.warmth}</strong></span>
       <span>口碑 <strong>${s.reputation}</strong></span>
