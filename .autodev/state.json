@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 139,
+  "current_round": 140,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0140-continue",
-  "last_completed_task_id": "T0139-continue",
-  "last_commit": "f873e8b162b5bd0b53523de7179769daca16dd7f",
+  "current_task_id": "T0141-emotions-64",
+  "last_completed_task_id": "T0140-continue",
+  "last_commit": "800c49d56fb2a91fc3aae85e1bc4c30d9fbfb7b1",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 158 passed (52 files)",
+  "last_test_summary": "vitest: 160 passed (53 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,10 +25,10 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0140-continue",
-    "M2",
-    "持续生图"
+    "T0141-emotions-64",
+    "持续生图",
+    "M2"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: f873e8b162b5bd0b53523de7179769daca16dd7f T0139 队列状态+连心饰\n轮次: 139 / 1000 · v0.2.6 · M2\n本会话: T0132–T0139 解锁进度/情绪62/剧本34/口碑连心队列\n测试: 158 passed；双 smoke warmth=19\n下一: T0140\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-23T22:51:22Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 800c49d56fb2a91fc3aae85e1bc4c30d9fbfb7b1 T0140 匹配叙事\n轮次: 140 / 1000 · v0.2.6 · M2\n下一: T0141 情绪64\n测试: 160 passed；双 smoke warmth=19\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-23T22:53:08Z"
 }
