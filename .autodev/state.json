@@ -3,12 +3,12 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 73,
+  "current_round": 74,
   "target_rounds": 1000,
   "current_milestone": "M1-core-loop-depth",
-  "current_task_id": "T0073-next",
-  "last_completed_task_id": "T0072-emotions-26",
-  "last_commit": "3d22e8931c9f69ff934d8d2a76f94037cb31090e",
+  "current_task_id": "T0075-next",
+  "last_completed_task_id": "T0074-a008",
+  "last_commit": "f89f54d113085706f09decdcd120044e1b72e2eb",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 102 passed (39 files)",
   "core_loop_status": "playable_demo_ready",
@@ -20,13 +20,14 @@
     "D-002",
     "D-003",
     "D-004 ProceduralAudioBus",
-    "D-005 skeptic三缺口已闭合"
+    "D-005 skeptic三缺口已闭合",
+    "A-008 程序化音频"
   ],
   "next_candidate_tasks": [
     "T0039-real-audio-files",
     "读屏",
     "M2"
   ],
-  "resume_instructions": "【权威 tip】3d22e8931c9f69ff934d8d2a76f94037cb31090e\n【三缺口】65a5659 / 6abee24 已闭合\n当前轮次: 73 / 1000 · v0.2.2\n当前目标: M1；下一 T0039 真音频。\n已完成: skeptic 三缺口；26 情绪；102 tests；D-004 决策。\n尚未完成: 真音频；1000 轮。\nGit: main；last_commit=3d22e8931c9f69ff934d8d2a76f94037cb31090e。\n测试: 102 passed；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
-  "updated_at": "2026-07-23T21:25:22Z"
+  "resume_instructions": "【权威 tip】f89f54d113085706f09decdcd120044e1b72e2eb\n【三缺口】65a5659 / 6abee24 已闭合\n当前轮次: 74 / 1000 · v0.2.2\n当前目标: M1；下一 T0039 真音频。\n已完成: skeptic 三缺口；26 情绪；102 tests；A-008/D-004。\n尚未完成: 真音频文件；1000 轮。\nGit: main；last_commit=f89f54d113085706f09decdcd120044e1b72e2eb。\n测试: 102 passed；npm run check；smoke 双次。\n已知错误: known_failures=[]。\n下一条建议命令: cd /root/wk && npm run check && npm run dev\n下一项候选任务: T0039-real-audio-files\n",
+  "updated_at": "2026-07-23T21:26:10Z"
 }
