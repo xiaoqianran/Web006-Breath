@@ -416,3 +416,5 @@
 | ART-346 | `public/assets/ui/tape_wood_clip.jpg` | 卷尺木夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-347 | `public/assets/ui/soft_button_tin.jpg` | 软扣子小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-348 | `public/assets/ui/button_scoop.jpg` | 扣子木勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-349 | `public/assets/ui/embroidery_hoop.jpg` | 绣绷 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-350 | `public/assets/ui/embroidery_floss.jpg` | 绣线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

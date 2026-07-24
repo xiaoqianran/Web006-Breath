@@ -4568,6 +4568,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e653",
+    guestName: "匿名",
+    text: "想把布绷在绣圈上，让空白也能被温柔地绣满。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e654",
+    guestName: "禾",
+    text: "绣线穿过布面时，像店把颜色也递给空白。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e655",
+    guestName: "阿初",
+    text: "绣绷上的绷布还透着一点亚麻的白，像刚被圈好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e656",
+    guestName: "陆安",
+    text: "第六百五十六次：请给我一针能绣满空白的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

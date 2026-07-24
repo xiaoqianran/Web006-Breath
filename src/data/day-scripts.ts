@@ -2702,6 +2702,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 337,
+    title: "绣绷",
+    opener: "第三百三十七日。绣绷圈好，绷布还透着一点亚麻的白。",
+    sampleIndexes: [652, 653, 654, 648],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 338,
+    title: "绣线",
+    opener: "第三百三十八日。绣线穿过布面，像店把颜色也递给空白。",
+    sampleIndexes: [653, 654, 655, 650],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

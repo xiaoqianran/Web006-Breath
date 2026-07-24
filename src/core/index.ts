@@ -191,3 +191,4 @@ export * from "./lavsachet-label";
 export * from "./beeswax-label";
 export * from "./softtape-label";
 export * from "./softbutton-label";
+export * from "./embroider-label";
