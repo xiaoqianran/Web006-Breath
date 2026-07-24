@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 323,
+  "current_round": 324,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0324-continue",
-  "last_completed_task_id": "T0323-embroider",
-  "last_commit": "fb5300ea9527cfec64b96917cbc0b6b89629411a",
+  "current_task_id": "T0325-continue",
+  "last_completed_task_id": "T0324-patweight",
+  "last_commit": "e18bc4ad59ba3d66897edf357f8ffc31781bde32",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 329 passed (202 files)",
+  "last_test_summary": "vitest: 330 passed (203 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -81,14 +81,15 @@
     "D-063 T0320 开发轮次满 320",
     "D-064 T0321 测试文件满 200",
     "D-065 T0322 情绪样本满 650",
-    "D-066 T0323 美术 ART 满 350"
+    "D-066 T0323 美术 ART 满 350",
+    "D-067 T0324 日剧本满 340"
   ],
   "next_candidate_tasks": [
-    "T0324-continue",
+    "T0325-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: fb5300ea9527cfec64b96917cbc0b6b89629411a T0323 绣绷/绣线 · 轮次323 · ART350\n轮次: 323 / 1000 · v0.2.6 · M2\n本段: T0319–T0323 · 内容656/338 · 测试329 · ART~350 · D-066\n下一: T0324\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:21:40Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e18bc4ad59ba3d66897edf357f8ffc31781bde32 T0324 布镇/裁片纸样 · 轮次324 · 剧本340\n轮次: 324 / 1000 · v0.2.6 · M2\n本段: T0320–T0324 · 内容660/340 · 测试330 · ART~352 · D-067\n下一: T0325\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:23:40Z"
 }
