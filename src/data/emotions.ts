@@ -2608,7 +2608,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e373",
+    guestName: "匿名",
+    text: "想用一块软抹布把柜台轻轻迎光，不擦掉昨天的温度。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e374",
+    guestName: "禾",
+    text: "窗台小瓶靠着玻璃，像店说「今天也在」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e375",
+    guestName: "阿初",
+    text: "抹布边还带着清凉，像刚被晨光碰过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e376",
+    guestName: "陆安",
+    text: "第三百七十六次：请给我一枝能醒店的窗台花。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

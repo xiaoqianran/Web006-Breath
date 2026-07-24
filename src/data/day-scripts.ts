@@ -1582,7 +1582,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 197,
+    title: "晨间抹布",
+    opener: "第一百九十七日。晨间抹布拧干，布边还带着一点清凉。",
+    sampleIndexes: [372, 373, 374, 368],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 198,
+    title: "窗台小瓶",
+    opener: "第一百九十八日。窗台小瓶靠着玻璃，像说「今天也在」。",
+    sampleIndexes: [373, 374, 375, 370],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
