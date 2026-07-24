@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0219-continue",
   "last_completed_task_id": "T0218-soap",
-  "last_commit": "PENDING",
+  "last_commit": "ba398f4cfe1c0ea6e1a875f1ee9735eef3f9aa07",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 224 passed (97 files)",
   "core_loop_status": "playable_demo_ready",
@@ -33,6 +33,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0218 洗手皂/软毛巾 soap-label + ART-139/140 + 内容236/128\n轮次: 218 / 1000 · v0.2.6 · M2\n测试: 224 passed；双 smoke warmth=19\n下一: T0219\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ba398f4cfe1c0ea6e1a875f1ee9735eef3f9aa07 T0218 洗手皂/软毛巾\n轮次: 218 / 1000 · v0.2.6 · M2\n本段: T0211–T0218 窗纱…洗手皂 · 内容236/128 · 测试224\n下一: T0219\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:51:20Z"
 }
