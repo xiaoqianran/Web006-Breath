@@ -198,3 +198,5 @@
 | ART-128 | `public/assets/decor/wet_sill.jpg` | 湿窗台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-129 | `public/assets/ui/biscuit_tin.jpg` | 饼干匣 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-130 | `public/assets/ui/sugar_spoon.jpg` | 糖勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-131 | `public/assets/ui/step_ladder.jpg` | 小木梯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-132 | `public/assets/ui/high_shelf.jpg` | 高架 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

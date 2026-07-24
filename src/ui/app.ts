@@ -162,6 +162,11 @@ import {
   formatBiscuitAside,
   formatBiscuitEncourage,
   formatBiscuitPair,
+  formatStepLadderLine,
+  formatHighShelfLine,
+  formatLadderAside,
+  formatLadderEncourage,
+  formatLadderPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1132,6 +1137,8 @@ export class YixiApp {
         <div class="wet-sill-art" role="img" aria-label="湿窗台" data-testid="wet-sill-art"></div>
         <div class="biscuit-tin-art" role="img" aria-label="饼干匣" data-testid="biscuit-tin-art"></div>
         <div class="sugar-spoon-art" role="img" aria-label="糖勺" data-testid="sugar-spoon-art"></div>
+        <div class="step-ladder-art" role="img" aria-label="小木梯" data-testid="step-ladder-art"></div>
+        <div class="high-shelf-art" role="img" aria-label="高架" data-testid="high-shelf-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1185,6 +1192,11 @@ export class YixiApp {
         <p class="muted" data-testid="sugar-spoon-line">${formatSugarSpoonLine(s.warmth)}</p>
         <p class="muted" data-testid="biscuit-encourage">${formatBiscuitEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="biscuit-pair">${formatBiscuitPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="step-ladder-line">${formatStepLadderLine(s.day)}</p>
+        <p class="muted" data-testid="high-shelf-line">${formatHighShelfLine(s.shelf.length)}</p>
+        <p class="muted" data-testid="ladder-aside">${formatLadderAside(s.warmth)}</p>
+        <p class="muted" data-testid="ladder-encourage">${formatLadderEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="ladder-pair">${formatLadderPair(s.day, s.shelf.length)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

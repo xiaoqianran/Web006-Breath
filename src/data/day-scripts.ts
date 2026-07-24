@@ -958,6 +958,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 119,
+    title: "木梯靠",
+    opener: "第一百一十九日。小木梯靠在墙边，第三级磨得发亮。",
+    sampleIndexes: [216, 217, 218, 212],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 120,
+    title: "高架心",
+    opener: "第一百二十日。高架上的温柔不必踮脚太久——梯子在。",
+    sampleIndexes: [217, 218, 219, 214],
+    goalCirculations: 6,
+    goalWarmth: 30,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

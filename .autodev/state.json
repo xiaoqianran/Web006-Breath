@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 213,
+  "current_round": 214,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0214-continue",
-  "last_completed_task_id": "T0213-biscuit",
-  "last_commit": "93a44306d2e4c693e7eda2b50e835394fe1387f6",
+  "current_task_id": "T0215-continue",
+  "last_completed_task_id": "T0214-ladder",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 219 passed (92 files)",
+  "last_test_summary": "vitest: 220 passed (93 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -24,14 +24,15 @@
     "D-006",
     "D-007 M2 orders",
     "D-008 T0200 印鉴纪念百位里程碑",
-    "D-009 T0209 情绪样本满 200"
+    "D-009 T0209 情绪样本满 200",
+    "D-010 T0214 情绪 220 / 剧本 120"
   ],
   "next_candidate_tasks": [
-    "T0214-continue",
+    "T0215-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 93a44306d2e4c693e7eda2b50e835394fe1387f6 T0213 饼干匣/糖勺\n轮次: 213 / 1000 · v0.2.6 · M2\n本段: T0210–T0213 墨台…饼干 · 内容216/118 · 测试219\n下一: T0214\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:43:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0214 小木梯/高架 ladder-label + ART-131/132 + 内容220/120\n轮次: 214 / 1000 · v0.2.6 · M2\n测试: 220 passed；双 smoke warmth=19\n下一: T0215\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:44:50Z"
 }

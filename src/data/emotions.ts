@@ -1516,6 +1516,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e217",
+    guestName: "匿名",
+    text: "有些心情放得太高，需要有人愿意搬梯子。",
+    tags: ["孤独", "期待"],
+    intensity: 4,
+  },
+  {
+    id: "e218",
+    guestName: "陆安",
+    text: "踩上第三级时，忽然觉得自己也可以被够到。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e219",
+    guestName: "听雨",
+    text: "高架上的标签写得很轻，像怕吓到踮脚的人。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e220",
+    guestName: "禾",
+    text: "第二百二十次：请给我一架能把故事取下来的小木梯。",
+    tags: ["期待", "释然"],
+    intensity: 3,
+  },
 ];
 
 
