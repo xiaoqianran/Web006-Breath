@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 386,
+  "current_round": 387,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0387-continue",
-  "last_completed_task_id": "T0386-softheadpin",
-  "last_commit": "5c452384178146b95d82e30a2d3cdb643f910a0a",
+  "current_task_id": "T0388-continue",
+  "last_completed_task_id": "T0387-softchain",
+  "last_commit": "c6319ea188718e73288bc7b49f0561c7a9a17e62",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 392 passed (265 files)",
+  "last_test_summary": "vitest: 393 passed (266 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -126,11 +126,11 @@
     "D-108 T0384 测试满 390"
   ],
   "next_candidate_tasks": [
-    "T0387-continue",
+    "T0388-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5c452384178146b95d82e30a2d3cdb643f910a0a T0386 头针眼针 · 轮次386\n轮次: 386 / 1000 · v0.2.6 · M2\n本段: T0382–T0386 · 内容908/464 · 测试392 · ART~476\n下一: T0387\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:41:01Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c6319ea188718e73288bc7b49f0561c7a9a17e62 T0387 链条链嘴钳 · 轮次387\n轮次: 387 / 1000 · v0.2.6 · M2\n本段: T0383–T0387 · 内容912/466 · 测试393 · ART~478\n下一: T0388\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:43:25Z"
 }
