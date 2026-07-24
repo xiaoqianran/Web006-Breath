@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 299,
+  "current_round": 300,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0300-milestone",
-  "last_completed_task_id": "T0299-matchbox",
-  "last_commit": "8df4d115719c4d524e4122b9d2008978678274ab",
+  "current_task_id": "T0301-continue",
+  "last_completed_task_id": "T0300-lantern",
+  "last_commit": "8029d18acc4649cf696ba673a33d0628dcb030ff",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 305 passed (178 files)",
+  "last_test_summary": "vitest: 306 passed (179 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -69,14 +69,15 @@
     "D-051 T0294 日剧本满 280 / 测试 300",
     "D-052 T0297 情绪样本满 550",
     "D-053 T0298 美术 ART 满 300",
-    "D-054 T0299 日剧本满 290"
+    "D-054 T0299 日剧本满 290",
+    "D-055 T0300 开发轮次满 300"
   ],
   "next_candidate_tasks": [
-    "T0300-milestone",
+    "T0301-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8df4d115719c4d524e4122b9d2008978678274ab T0299 火柴盒/火柴 · 轮次299 · 剧本290\n轮次: 299 / 1000 · v0.2.6 · M2\n本段: T0295–T0299 · 内容560/290 · 测试305 · ART~302 · D-054\n下一: T0300 开发轮次满 300\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:31:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8029d18acc4649cf696ba673a33d0628dcb030ff T0300 纸灯笼/灯罩 · 轮次300 里程碑\n轮次: 300 / 1000 · v0.2.6 · M2\n本段: T0296–T0300 · 内容564/292 · 测试306 · ART~304 · D-055\n下一: T0301\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:33:30Z"
 }
