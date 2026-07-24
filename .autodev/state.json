@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 260,
+  "current_round": 261,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0261-continue",
-  "last_completed_task_id": "T0260-inkwell",
-  "last_commit": "bd530186cd8224ddfa89ed249e00417c8e33d9ac",
+  "current_task_id": "T0262-continue",
+  "last_completed_task_id": "T0261-bookend",
+  "last_commit": "2f6eb9d55c41e7c7e06d74b17b4015f7ec056f77",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 266 passed (139 files)",
+  "last_test_summary": "vitest: 267 passed (140 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -50,11 +50,11 @@
     "D-032 T0260 开发轮次满 260"
   ],
   "next_candidate_tasks": [
-    "T0261-continue",
+    "T0262-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: bd530186cd8224ddfa89ed249e00417c8e33d9ac T0260 小墨水瓶/吸墨纸 · 轮次260\n轮次: 260 / 1000 · v0.2.6 · M2\n本段: T0256–T0260 候座…慢墨 · 内容404/212 · 测试266 · D-032\n下一: T0261\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:11:28Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2f6eb9d55c41e7c7e06d74b17b4015f7ec056f77 T0261 木质书立/页镇 · ART225/226\n轮次: 261 / 1000 · v0.2.6 · M2\n本段: T0257–T0261 台历…书立 · 内容408/214 · 测试267\n下一: T0262\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:13:18Z"
 }
