@@ -1432,6 +1432,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "期待"],
     intensity: 2,
   },
+  {
+    id: "e205",
+    guestName: "匿名",
+    text: "想站在窗纱后躲一会儿，让光先替我见人。",
+    tags: ["孤独", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e206",
+    guestName: "听雨",
+    text: "蕾丝光落在手背时，忽然觉得被轻轻接住了。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e207",
+    guestName: "禾",
+    text: "纱外有人影也不怕：这里的光不会刺眼。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e208",
+    guestName: "陆安",
+    text: "第二百零八次：请把今天的刺眼，滤成可以留下的光。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

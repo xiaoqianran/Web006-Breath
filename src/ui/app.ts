@@ -147,6 +147,11 @@ import {
   formatInkAside,
   formatInkEncourage,
   formatInkPair,
+  formatLaceCurtainLine,
+  formatLaceLightLine,
+  formatLaceAside,
+  formatLaceEncourage,
+  formatLacePair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1111,6 +1116,8 @@ export class YixiApp {
         <div class="record-needle-art" role="img" aria-label="唱针" data-testid="record-needle-art"></div>
         <div class="ink-well-art" role="img" aria-label="墨台" data-testid="ink-well-art"></div>
         <div class="blotter-stack-art" role="img" aria-label="吸墨纸" data-testid="blotter-stack-art"></div>
+        <div class="lace-curtain-art" role="img" aria-label="窗纱" data-testid="lace-curtain-art"></div>
+        <div class="lace-light-art" role="img" aria-label="蕾丝光" data-testid="lace-light-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1150,6 +1157,11 @@ export class YixiApp {
         <p class="muted" data-testid="ink-aside">${formatInkAside(s.warmth)}</p>
         <p class="muted" data-testid="ink-encourage">${formatInkEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="ink-pair">${formatInkPair(s.day, s.history.length)}</p>
+        <p class="muted" data-testid="lace-curtain-line">${formatLaceCurtainLine(s.day)}</p>
+        <p class="muted" data-testid="lace-light-line">${formatLaceLightLine(s.warmth)}</p>
+        <p class="muted" data-testid="lace-aside">${formatLaceAside(qLen)}</p>
+        <p class="muted" data-testid="lace-encourage">${formatLaceEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="lace-pair">${formatLacePair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

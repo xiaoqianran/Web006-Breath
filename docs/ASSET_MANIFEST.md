@@ -192,3 +192,5 @@
 | ART-122 | `public/assets/ui/record_needle.jpg` | 唱针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-123 | `public/assets/ui/ink_well.jpg` | 墨台 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-124 | `public/assets/ui/blotter_stack.jpg` | 吸墨纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-125 | `public/assets/ui/lace_curtain.jpg` | 窗纱 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-126 | `public/assets/bg/lace_light.jpg` | 蕾丝光 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
