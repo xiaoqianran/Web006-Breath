@@ -567,6 +567,11 @@ import {
   formatSoapbarAside,
   formatSoapbarEncourage,
   formatSoapbarPair,
+  formatLotionBottleLine,
+  formatPumpCapLine,
+  formatLotionAside,
+  formatLotionEncourage,
+  formatLotionPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1699,6 +1704,8 @@ export class YixiApp {
         <div class="linen-cloth-art" role="img" aria-label="亚麻手帕" data-testid="linen-cloth-art"></div>
         <div class="soap-bar-art" role="img" aria-label="香皂块" data-testid="soap-bar-art"></div>
         <div class="soap-dish-art" role="img" aria-label="木皂碟" data-testid="soap-dish-art"></div>
+        <div class="lotion-bottle-art" role="img" aria-label="润肤乳瓶" data-testid="lotion-bottle-art"></div>
+        <div class="pump-cap-art" role="img" aria-label="按压泵" data-testid="pump-cap-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2155,6 +2162,11 @@ export class YixiApp {
         <p class="muted" data-testid="soapbar-aside">${formatSoapbarAside(s.history.length)}</p>
         <p class="muted" data-testid="soapbar-encourage">${formatSoapbarEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="soapbar-pair">${formatSoapbarPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="lotion-bottle-line">${formatLotionBottleLine(s.day)}</p>
+        <p class="muted" data-testid="pump-cap-line">${formatPumpCapLine(s.warmth)}</p>
+        <p class="muted" data-testid="lotion-aside">${formatLotionAside(s.history.length)}</p>
+        <p class="muted" data-testid="lotion-encourage">${formatLotionEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="lotion-pair">${formatLotionPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

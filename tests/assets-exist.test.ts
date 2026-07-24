@@ -304,6 +304,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/linen_cloth.jpg",
       "public/assets/ui/soap_bar.jpg",
       "public/assets/ui/soap_dish.jpg",
+      "public/assets/ui/lotion_bottle.jpg",
+      "public/assets/ui/pump_cap.jpg",
     ];
 
 

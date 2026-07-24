@@ -3784,6 +3784,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e541",
+    guestName: "匿名",
+    text: "想按一泵润肤乳，让干燥的心也接到可涂开的润。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e542",
+    guestName: "禾",
+    text: "指尖按下一泵时，像店把滋养也递给皮肤。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e543",
+    guestName: "阿初",
+    text: "乳瓶身还带着一点柔的光，像刚被摇匀。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e544",
+    guestName: "陆安",
+    text: "第五百四十四次：请给我一泵能涂开的润。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
