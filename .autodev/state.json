@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 273,
+  "current_round": 274,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0274-continue",
-  "last_completed_task_id": "T0273-placemat",
-  "last_commit": "89da65b57118b5bcfdfac7b23f65a11eac77b273",
+  "current_task_id": "T0275-continue",
+  "last_completed_task_id": "T0274-soycruet",
+  "last_commit": "2c99b85f6bc7347c0ababace7b8ca5e64557098b",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 279 passed (152 files)",
+  "last_test_summary": "vitest: 280 passed (153 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -55,14 +55,15 @@
     "D-037 T0270 开发轮次满 270",
     "D-038 T0271 测试文件满 150",
     "D-039 T0272 情绪样本满 450",
-    "D-040 T0273 美术 ART 满 250"
+    "D-040 T0273 美术 ART 满 250",
+    "D-041 T0274 日剧本满 240"
   ],
   "next_candidate_tasks": [
-    "T0274-continue",
+    "T0275-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 89da65b57118b5bcfdfac7b23f65a11eac77b273 T0273 餐垫/筷枕 · ART250\n轮次: 273 / 1000 · v0.2.6 · M2\n本段: T0269–T0273 蜜勺…筷枕 · 内容456/238 · 测试279 · D-040 ART250\n下一: T0274\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:37:32Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2c99b85f6bc7347c0ababace7b8ca5e64557098b T0274 小酱油盅/醋碟 · 剧本240\n轮次: 274 / 1000 · v0.2.6 · M2\n本段: T0270–T0274 奶盅…盅碟 · 内容460/240 · 测试280 · D-041\n下一: T0275\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:39:20Z"
 }
