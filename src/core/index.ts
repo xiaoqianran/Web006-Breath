@@ -68,3 +68,4 @@ export * from "./moon-label";
 export * from "./compass-label";
 export * from "./hour-label";
 export * from "./seal-label";
+export * from "./tray-label";

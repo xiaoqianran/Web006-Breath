@@ -1413,6 +1413,15 @@ html[data-reduce-motion="true"] .toast {
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
 
+.vessel-tray-art {
+  height: 72px;
+  border-radius: 12px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/vessel_tray.jpg") center/cover no-repeat;
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;

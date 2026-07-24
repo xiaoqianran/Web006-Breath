@@ -100,6 +100,10 @@ import {
   formatSealCountAside,
   formatMilestoneSeal,
   formatSealEncourage,
+  formatTrayPlaceLine,
+  formatTrayFullAside,
+  formatTrayServeAside,
+  formatTrayEncourage,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1144,10 +1148,15 @@ export class YixiApp {
         <div class="quality-seal-art" role="img" aria-label="品质印记" data-testid="quality-seal-art"></div>
         <div class="ink-seal-art" role="img" aria-label="朱砂印鉴" data-testid="ink-seal-art"></div>
         <div class="vessel-flower-art" role="img" aria-label="花形态示意" data-testid="vessel-flower-art" data-vessel="${item.vessel}"></div>
+        <div class="vessel-tray-art" role="img" aria-label="成品托盘" data-testid="vessel-tray-art"></div>
         <h2>转化台</h2>
         <p data-testid="crafted-label"><strong>${item.label}</strong></p>
         <p class="muted" data-testid="vessel-line">${formatVesselLine(item.vessel)}</p>
         <p class="muted" data-testid="vessel-pick-line">${formatVesselPickLine(item.vessel)}</p>
+        <p class="muted" data-testid="tray-place">${formatTrayPlaceLine(item.vessel)}</p>
+        <p class="muted" data-testid="tray-full">${formatTrayFullAside(s.shelf.length + 1)}</p>
+        <p class="muted" data-testid="tray-serve">${formatTrayServeAside(true)} ${formatTrayServeAside(false)}</p>
+        <p class="muted" data-testid="tray-encourage">${formatTrayEncourage()}</p>
         <p data-testid="match-line">${formatMatchScoreLine(item.matchScore)}</p>
         <div class="price-tag-art" role="img" aria-label="温情价签" data-testid="price-tag-art"></div>
         <p data-testid="quality-line"><span class="quality-${item.quality}" data-testid="quality">${formatQualityLine(item.quality)}</span>

@@ -1152,6 +1152,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "期待"],
     intensity: 4,
   },
+  {
+    id: "e165",
+    guestName: "匿名",
+    text: "百轮之后，我还是想把心情轻轻交到你手里。",
+    tags: ["温柔", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e166",
+    guestName: "听雨",
+    text: "托盘上的花与茶并排放着，像两种不同的温柔。",
+    tags: ["期待", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e167",
+    guestName: "陆安",
+    text: "印鉴簿翻到新页，我想从空白处再写起。",
+    tags: ["勇气", "期待"],
+    intensity: 4,
+  },
+  {
+    id: "e168",
+    guestName: "澄",
+    text: "第一百六十八次：谢谢你把店开到今天。",
+    tags: ["温柔", "安心"],
+    intensity: 4,
+  },
 ];
 
 
