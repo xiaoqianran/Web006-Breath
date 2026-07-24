@@ -3710,6 +3710,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 463,
+    title: "头针",
+    opener: "第四百六十三日。头针静排，针头还带着一点细的光。",
+    sampleIndexes: [904, 905, 906, 903],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 464,
+    title: "眼针",
+    opener: "第四百六十四日。眼带着针，像店把散的珠也连成串。",
+    sampleIndexes: [905, 906, 907, 902],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

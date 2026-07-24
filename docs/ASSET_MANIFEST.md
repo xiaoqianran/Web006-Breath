@@ -542,3 +542,5 @@
 | ART-472 | `public/assets/ui/bead_stopper.jpg` | 止珠器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-473 | `public/assets/ui/memory_wire.jpg` | 记忆丝 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-474 | `public/assets/ui/flush_cutter.jpg` | 剪线钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-475 | `public/assets/ui/head_pin.jpg` | 头针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-476 | `public/assets/ui/eye_pin.jpg` | 眼针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

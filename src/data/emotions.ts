@@ -6332,6 +6332,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e905",
+    guestName: "小禾",
+    text: "头针很稳：只想穿一点，不硬戳。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e906",
+    guestName: "阿南",
+    text: "眼针微圆，像轻轻说「连一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e907",
+    guestName: "阿初",
+    text: "针头还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e908",
+    guestName: "陆安",
+    text: "第九百零八次：请给我一下能把珠也温柔托住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
