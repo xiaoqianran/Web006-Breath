@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 347,
+  "current_round": 348,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0348-continue",
-  "last_completed_task_id": "T0347-softbead",
-  "last_commit": "5167a60c97f37cf3e54f5080e6380501e3bbe57e",
+  "current_task_id": "T0349-continue",
+  "last_completed_task_id": "T0348-softwire",
+  "last_commit": "62e84330fcbbb4b41cc7ecc78b6375d7c40f3af1",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 353 passed (226 files)",
+  "last_test_summary": "vitest: 354 passed (227 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -95,14 +95,15 @@
     "D-077 T0343 美术 ART 满 390",
     "D-078 T0344 测试满 350",
     "D-079 T0344 日剧本满 380",
-    "D-080 T0347 情绪样本过 750"
+    "D-080 T0347 情绪样本过 750",
+    "D-081 T0348 美术 ART 满 400"
   ],
   "next_candidate_tasks": [
-    "T0348-continue",
+    "T0349-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5167a60c97f37cf3e54f5080e6380501e3bbe57e T0347 串珠针米珠 · 轮次347\n轮次: 347 / 1000 · v0.2.6 · M2\n本段: T0343–T0347 · 内容752/386 · 测试353 · ART~398 · D-080\n下一: T0348\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:11:43Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 62e84330fcbbb4b41cc7ecc78b6375d7c40f3af1 T0348 串珠软线压接珠 · 轮次348\n轮次: 348 / 1000 · v0.2.6 · M2\n本段: T0344–T0348 · 内容756/388 · 测试354 · ART~400 · D-081\n下一: T0349\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:13:43Z"
 }
