@@ -1992,6 +1992,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "安心"],
     intensity: 3,
   },
+  {
+    id: "e285",
+    guestName: "匿名",
+    text: "想先用布夹把晃动的边固定住，再慢慢缝。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e286",
+    guestName: "小满",
+    text: "划线笔很淡，像有人说「不必一次画死」。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e287",
+    guestName: "林",
+    text: "夹口有细绒，像刚固定过谁的贴边。",
+    tags: ["想念", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e288",
+    guestName: "陆安",
+    text: "第二百八十八次：请给我一枚能稳住边的浅杏夹。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

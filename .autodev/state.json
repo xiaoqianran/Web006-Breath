@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 230,
+  "current_round": 231,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0231-continue",
-  "last_completed_task_id": "T0230-darn",
-  "last_commit": "5cc0c0a0dab599d5ed9afcdadeeffab5af91fe9a",
+  "current_task_id": "T0232-continue",
+  "last_completed_task_id": "T0231-clip",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 236 passed (109 files)",
+  "last_test_summary": "vitest: 237 passed (110 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -36,11 +36,11 @@
     "D-018 T0230 开发轮次满 230"
   ],
   "next_candidate_tasks": [
-    "T0231-continue",
+    "T0232-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5cc0c0a0dab599d5ed9afcdadeeffab5af91fe9a T0230 补衣蛋/针线册 · 轮次230\n轮次: 230 / 1000 · v0.2.6 · M2\n本段: T0226–T0230 线轴…补衣 · 内容284/152 · 测试236\n下一: T0231\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:12:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0231 布夹/划线笔 clip-label + ART-165/166 + 内容288/154\n轮次: 231 / 1000 · v0.2.6 · M2\n测试: 237 passed；双 smoke warmth=19\n下一: T0232\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:14:00Z"
 }
