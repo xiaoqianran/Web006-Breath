@@ -576,3 +576,5 @@
 | ART-506 | `public/assets/ui/choker_ribbon.jpg` | 丝带扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-507 | `public/assets/ui/soft_tiara.jpg` | 头冠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-508 | `public/assets/ui/tiara_comb.jpg` | 梳座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-509 | `public/assets/ui/soft_barrette.jpg` | 发夹 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-510 | `public/assets/ui/barrette_spring.jpg` | 弹簧扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

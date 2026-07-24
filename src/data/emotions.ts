@@ -6808,6 +6808,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e973",
+    guestName: "小禾",
+    text: "发夹很轻：只想拢一点，不硬卡。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e974",
+    guestName: "阿南",
+    text: "弹簧扣微紧，像轻轻说「夹一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e975",
+    guestName: "阿初",
+    text: "夹沿还带着一点细的光，像刚被拢过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e976",
+    guestName: "陆安",
+    text: "第九百七十六次：请给我一下能把碎发也温柔拢住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
