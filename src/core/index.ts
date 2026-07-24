@@ -66,3 +66,4 @@ export * from "./postcard-label";
 export * from "./open-label";
 export * from "./moon-label";
 export * from "./compass-label";
+export * from "./hour-label";

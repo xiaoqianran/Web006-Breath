@@ -1096,6 +1096,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["想念", "勇气"],
     intensity: 4,
   },
+  {
+    id: "e157",
+    guestName: "匿名",
+    text: "沙漏翻面的时候，我也想把今天翻成更轻的一页。",
+    tags: ["释然", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e158",
+    guestName: "听雨",
+    text: "向晚的光很短，短到刚好够说一句谢谢。",
+    tags: ["温柔", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e159",
+    guestName: "陆安",
+    text: "午前茶香里，我想把着急也泡软。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e160",
+    guestName: "禾",
+    text: "第一百六十次：时间可以慢，温柔不可以停。",
+    tags: ["勇气", "温柔"],
+    intensity: 4,
+  },
 ];
 
 

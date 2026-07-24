@@ -1389,6 +1389,19 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/street_map.jpg") center/cover no-repeat;
 }
 
+.hourglass-art {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/hourglass.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;

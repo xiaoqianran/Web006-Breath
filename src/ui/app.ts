@@ -93,6 +93,9 @@ import {
   formatCompassForEmotion,
   formatCompassAside,
   formatMapPathAside,
+  formatHourLine,
+  formatHourCraftAside,
+  formatHourglassAside,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -900,6 +903,10 @@ export class YixiApp {
       <span class="muted" data-testid="phase-hint">${formatPhaseHintLine(s.phase)}</span>
       <span class="muted" data-testid="atmosphere-line">${formatAtmosphereLine(s.day)}</span>
       <span class="muted" data-testid="moon-line">${formatMoonLine(s.day)}</span>
+      <span class="hourglass-art" role="img" aria-label="沙漏" data-testid="hourglass-art"></span>
+      <span class="muted" data-testid="hour-line">${formatHourLine(s.day)}</span>
+      <span class="muted" data-testid="hour-craft-aside">${formatHourCraftAside(s.day)}</span>
+      <span class="muted" data-testid="hourglass-aside">${formatHourglassAside(s.circulationsToday)}</span>
       <span data-testid="day-header">${formatDayHeaderLine(s.day, getDayScript(s.day).title)}</span>
       <span class="muted" data-testid="atmosphere-craft-hint">${formatAtmosphereCraftHint(s.day)}</span>
       <span class="muted" data-testid="moon-craft-aside">${formatMoonCraftAside(s.day)}</span>
