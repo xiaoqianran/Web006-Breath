@@ -208,3 +208,5 @@
 | ART-138 | `public/assets/decor/shoe_box.jpg` | 鞋边盒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-139 | `public/assets/ui/hand_soap.jpg` | 洗手皂 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-140 | `public/assets/ui/soft_towel.jpg` | 软毛巾 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-141 | `public/assets/ui/warm_kettle.jpg` | 暖水壶 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-142 | `public/assets/ui/cup_lid.jpg` | 杯盖 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

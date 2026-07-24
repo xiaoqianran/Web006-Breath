@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 218,
+  "current_round": 219,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0219-continue",
-  "last_completed_task_id": "T0218-soap",
-  "last_commit": "ba398f4cfe1c0ea6e1a875f1ee9735eef3f9aa07",
+  "current_task_id": "T0220-continue",
+  "last_completed_task_id": "T0219-kettle",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 224 passed (97 files)",
+  "last_test_summary": "vitest: 225 passed (98 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,14 +25,15 @@
     "D-007 M2 orders",
     "D-008 T0200 印鉴纪念百位里程碑",
     "D-009 T0209 情绪样本满 200",
-    "D-010 T0214 情绪 220 / 剧本 120"
+    "D-010 T0214 情绪 220 / 剧本 120",
+    "D-011 T0219 情绪 240 / 剧本 130"
   ],
   "next_candidate_tasks": [
-    "T0219-continue",
+    "T0220-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ba398f4cfe1c0ea6e1a875f1ee9735eef3f9aa07 T0218 洗手皂/软毛巾\n轮次: 218 / 1000 · v0.2.6 · M2\n本段: T0211–T0218 窗纱…洗手皂 · 内容236/128 · 测试224\n下一: T0219\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:51:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0219 暖水壶/杯盖 kettle-label + ART-141/142 + 内容240/130\n轮次: 219 / 1000 · v0.2.6 · M2\n测试: 225 passed；双 smoke warmth=19\n下一: T0220\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:52:50Z"
 }

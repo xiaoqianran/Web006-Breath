@@ -1038,6 +1038,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 129,
+    title: "暖水壶",
+    opener: "第一百二十九日。暖水壶发出细细声响，水快开了。",
+    sampleIndexes: [236, 237, 238, 232],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 130,
+    title: "杯盖香",
+    opener: "第一百三十日。杯盖打开，热气像一句迟到的问候。",
+    sampleIndexes: [237, 238, 239, 234],
+    goalCirculations: 6,
+    goalWarmth: 30,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

@@ -1656,6 +1656,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "疲惫"],
     intensity: 3,
   },
+  {
+    id: "e237",
+    guestName: "匿名",
+    text: "想听暖水壶响一会儿，再决定要不要开口。",
+    tags: ["孤独", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e238",
+    guestName: "小满",
+    text: "杯盖打开时，热气像一句迟到的问候。",
+    tags: ["温柔", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e239",
+    guestName: "听雨",
+    text: "水开之前的空白，原来也可以被允许。",
+    tags: ["释然", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e240",
+    guestName: "禾",
+    text: "第二百四十次：请给我一壶刚好的热，不要烫嘴。",
+    tags: ["期待", "安心"],
+    intensity: 2,
+  },
 ];
 
 

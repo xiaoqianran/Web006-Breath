@@ -1,4 +1,4 @@
-# T0218 done
-next T0219
-224 tests round 218
-soap-label + hand soap / soft towel + content 236/128
+# T0219 done
+next T0220
+225 tests round 219
+kettle-label + warm kettle / cup lid + content 240/130
