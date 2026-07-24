@@ -4148,6 +4148,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e593",
+    guestName: "匿名",
+    text: "想在软皮簿上写一行，让到过的人也被温柔地留下痕迹。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e594",
+    guestName: "禾",
+    text: "石墨铅笔落在簿页时，像店把来过的温柔也记下一行。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e595",
+    guestName: "阿初",
+    text: "留言簿封面还带着一点皮的温，像刚被合上。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e596",
+    guestName: "陆安",
+    text: "第五百九十六次：请给我一行能留下的到。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

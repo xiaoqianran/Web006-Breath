@@ -2462,6 +2462,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 307,
+    title: "软皮留言簿",
+    opener: "第三百零七日。软皮留言簿合着，封面还带着一点皮的温。",
+    sampleIndexes: [592, 593, 594, 588],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 308,
+    title: "石墨铅笔",
+    opener: "第三百零八日。笔落在簿页，像店把来过的温柔也记下一行。",
+    sampleIndexes: [593, 594, 595, 590],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

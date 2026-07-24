@@ -386,3 +386,5 @@
 | ART-316 | `public/assets/ui/linen_coaster.jpg` | 亚麻杯垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-317 | `public/assets/ui/brass_desk_bell.jpg` | 柜台黄铜铃 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-318 | `public/assets/ui/felt_mallet.jpg` | 毡槌 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-319 | `public/assets/ui/soft_sign_book.jpg` | 软皮留言簿 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-320 | `public/assets/ui/graphite_pencil.jpg` | 石墨铅笔 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
