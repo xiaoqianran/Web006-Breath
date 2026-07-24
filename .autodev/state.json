@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0207-continue",
   "last_completed_task_id": "T0206-hook",
-  "last_commit": "PENDING",
+  "last_commit": "d6651948f52c240196d3fc17b4a87f2f4d38e88c",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 212 passed (85 files)",
   "core_loop_status": "playable_demo_ready",
