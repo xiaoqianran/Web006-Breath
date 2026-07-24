@@ -2990,6 +2990,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 373,
+    title: "戳戳针",
+    opener: "第三百七十三日。戳戳针静放，针尖还带着一点细的光。",
+    sampleIndexes: [724, 725, 726, 723],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 374,
+    title: "羊毛条",
+    opener: "第三百七十四日。毛在指间蓬起，像店把蓬松也戳成形状。",
+    sampleIndexes: [725, 726, 727, 722],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -5072,6 +5072,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e725",
+    guestName: "匿名",
+    text: "想用戳戳针戳一下，让蓬松也能被温柔地戳成形状。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e726",
+    guestName: "禾",
+    text: "羊毛在指间蓬起时，像店把蓬松也戳成形状。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e727",
+    guestName: "阿初",
+    text: "戳戳针针尖还带着一点细的光，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e728",
+    guestName: "陆安",
+    text: "第七百二十八次：请给我一下能戳成形状的毛。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
