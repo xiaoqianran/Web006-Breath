@@ -942,6 +942,11 @@ import {
   formatSoftburAside,
   formatSoftburEncourage,
   formatSoftburPair,
+  formatFlexShaftLine,
+  formatFootPedalLine,
+  formatSoftflexAside,
+  formatSoftflexEncourage,
+  formatSoftflexPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2224,6 +2229,8 @@ export class YixiApp {
         <div class="steel-block-art" role="img" aria-label="钢砧" data-testid="steel-block-art"></div>
         <div class="bur-set-art" role="img" aria-label="牙钻头" data-testid="bur-set-art"></div>
         <div class="handpiece-art" role="img" aria-label="手持机" data-testid="handpiece-art"></div>
+        <div class="flex-shaft-art" role="img" aria-label="软轴" data-testid="flex-shaft-art"></div>
+        <div class="foot-pedal-art" role="img" aria-label="脚踏" data-testid="foot-pedal-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -3055,6 +3062,11 @@ export class YixiApp {
         <p class="muted" data-testid="softbur-aside">${formatSoftburAside(s.history.length)}</p>
         <p class="muted" data-testid="softbur-encourage">${formatSoftburEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softbur-pair">${formatSoftburPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="flex-shaft-line">${formatFlexShaftLine(s.day)}</p>
+        <p class="muted" data-testid="foot-pedal-line">${formatFootPedalLine(s.warmth)}</p>
+        <p class="muted" data-testid="softflex-aside">${formatSoftflexAside(s.history.length)}</p>
+        <p class="muted" data-testid="softflex-encourage">${formatSoftflexEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softflex-pair">${formatSoftflexPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

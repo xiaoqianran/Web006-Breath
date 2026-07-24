@@ -3454,6 +3454,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 431,
+    title: "软轴",
+    opener: "第四百三十一日。软轴静绕，套管还带着一点温的弧。",
+    sampleIndexes: [840, 841, 842, 839],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 432,
+    title: "脚踏",
+    opener: "第四百三十二日。踏带着轴，像店把力气也调成软。",
+    sampleIndexes: [841, 842, 843, 838],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

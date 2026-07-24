@@ -5884,6 +5884,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e841",
+    guestName: "小禾",
+    text: "软轴很软：只想转一点，不硬扯。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e842",
+    guestName: "阿南",
+    text: "脚踏微响，像轻轻说「转一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e843",
+    guestName: "阿初",
+    text: "套管还带着一点温的弧，像刚被绕过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e844",
+    guestName: "陆安",
+    text: "第八百四十四次：请给我一下能把力量也轻轻传过去的温柔。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
