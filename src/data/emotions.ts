@@ -1404,6 +1404,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "悸动"],
     intensity: 3,
   },
+  {
+    id: "e201",
+    guestName: "匿名",
+    text: "想把没说出口的话，用墨写成可以递出的短句。",
+    tags: ["想念", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e202",
+    guestName: "小满",
+    text: "吸墨纸上的淡痕，像有人替我擦过眼泪。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e203",
+    guestName: "林",
+    text: "墨台边上那支笔，像在等一句诚实的话。",
+    tags: ["期待", "孤独"],
+    intensity: 3,
+  },
+  {
+    id: "e204",
+    guestName: "阿初",
+    text: "第二百零四次：请给我一张不会洇穿的瞬间卡。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
 ];
 
 

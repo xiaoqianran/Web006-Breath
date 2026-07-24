@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 209,
+  "current_round": 210,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0210-continue",
-  "last_completed_task_id": "T0209-radio",
-  "last_commit": "cbfd80b58bd42832d1a4723cb709fe94ddfc08c3",
+  "current_task_id": "T0211-continue",
+  "last_completed_task_id": "T0210-ink",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 215 passed (88 files)",
+  "last_test_summary": "vitest: 216 passed (89 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -27,11 +27,11 @@
     "D-009 T0209 情绪样本满 200"
   ],
   "next_candidate_tasks": [
-    "T0210-continue",
+    "T0211-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: cbfd80b58bd42832d1a4723cb709fe94ddfc08c3 T0209 软广播/唱针 · 情绪200\n轮次: 209 / 1000 · v0.2.6 · M2\n本段: T0205–T0209 香囊…软广播 · 内容200/110\n测试: 215 passed；双 smoke warmth=19\n下一: T0210\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:36:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0210 墨台/吸墨纸 ink-label + ART-123/124 + 内容204/112\n轮次: 210 / 1000 · v0.2.6 · M2\n测试: 216 passed；双 smoke warmth=19\n下一: T0211\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:37:30Z"
 }

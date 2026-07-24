@@ -894,6 +894,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 30,
   },
+  {
+    day: 111,
+    title: "墨台醒",
+    opener: "第一百一十一日。墨台加了一点水，笔尖终于肯听话。",
+    sampleIndexes: [200, 201, 202, 196],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 112,
+    title: "吸墨痕",
+    opener: "第一百一十二日。吸墨纸叠了几层，淡痕像未说完的附言。",
+    sampleIndexes: [201, 202, 203, 198],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

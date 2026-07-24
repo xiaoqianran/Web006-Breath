@@ -190,3 +190,5 @@
 | ART-120 | `public/assets/ui/soft_cuffs.jpg` | 袖套 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-121 | `public/assets/ui/soft_radio.jpg` | 软广播 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-122 | `public/assets/ui/record_needle.jpg` | 唱针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-123 | `public/assets/ui/ink_well.jpg` | 墨台 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-124 | `public/assets/ui/blotter_stack.jpg` | 吸墨纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

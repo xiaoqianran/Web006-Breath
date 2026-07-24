@@ -142,6 +142,11 @@ import {
   formatRadioAside,
   formatRadioEncourage,
   formatRadioPair,
+  formatInkWellLine,
+  formatBlotterLine,
+  formatInkAside,
+  formatInkEncourage,
+  formatInkPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1104,6 +1109,8 @@ export class YixiApp {
         <div class="soft-cuffs-art" role="img" aria-label="袖套" data-testid="soft-cuffs-art"></div>
         <div class="soft-radio-art" role="img" aria-label="软广播" data-testid="soft-radio-art"></div>
         <div class="record-needle-art" role="img" aria-label="唱针" data-testid="record-needle-art"></div>
+        <div class="ink-well-art" role="img" aria-label="墨台" data-testid="ink-well-art"></div>
+        <div class="blotter-stack-art" role="img" aria-label="吸墨纸" data-testid="blotter-stack-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1138,6 +1145,11 @@ export class YixiApp {
         <p class="muted" data-testid="radio-aside">${formatRadioAside(false)}</p>
         <p class="muted" data-testid="radio-encourage">${formatRadioEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="radio-pair">${formatRadioPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="ink-well-line">${formatInkWellLine(s.day)}</p>
+        <p class="muted" data-testid="blotter-line">${formatBlotterLine(s.history.length)}</p>
+        <p class="muted" data-testid="ink-aside">${formatInkAside(s.warmth)}</p>
+        <p class="muted" data-testid="ink-encourage">${formatInkEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="ink-pair">${formatInkPair(s.day, s.history.length)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
@@ -1263,6 +1275,8 @@ export class YixiApp {
         <p class="muted" data-testid="gift-wrap-line">${formatGiftWrapLine(item.vessel, item.quality)}</p>
         <p class="muted" data-testid="display-wrap-line">${formatDisplayWrapLine(item.vessel, item.quality)}</p>
         <p class="muted" data-testid="sachet-gift-aside">${formatSachetGiftAside(true)} ${formatSachetGiftAside(false)}</p>
+        <p class="muted" data-testid="ink-craft-pair">${formatInkPair(s.day, s.history.length)}</p>
+        <p class="muted" data-testid="ink-craft-aside">${formatInkAside(s.warmth)}</p>
         <p class="muted" data-testid="gift-choice-hint">${formatCirculationChoiceHint("gift")} ${formatCirculationChoiceHint("display")}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <p class="muted" data-testid="order-match-aside">${formatOrderMatchAside(item, s.activeOrder)}</p>
