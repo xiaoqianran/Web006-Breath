@@ -440,3 +440,5 @@
 | ART-370 | `public/assets/ui/stitch_markers.jpg` | 记号扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-371 | `public/assets/ui/yarn_swatch.jpg` | 色卡样片 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-372 | `public/assets/ui/row_counter.jpg` | 行数计数器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-373 | `public/assets/ui/pom_maker.jpg` | 绒球器 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-374 | `public/assets/ui/yarn_scrap_box.jpg` | 碎线盒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

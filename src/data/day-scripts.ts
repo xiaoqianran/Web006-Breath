@@ -2894,6 +2894,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 361,
+    title: "绒球器",
+    opener: "第三百六十一日。绒球器静放，弧沿还带着一点线的温。",
+    sampleIndexes: [700, 701, 702, 699],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 362,
+    title: "碎线盒",
+    opener: "第三百六十二日。线头叠在盒里，像店把零碎也绕成柔软。",
+    sampleIndexes: [701, 702, 703, 698],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

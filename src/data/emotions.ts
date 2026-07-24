@@ -4904,6 +4904,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e701",
+    guestName: "匿名",
+    text: "想用绒球器绕一团，让零碎也能被温柔地绕成柔软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e702",
+    guestName: "禾",
+    text: "线头叠在碎线盒里时，像店把零碎也绕成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e703",
+    guestName: "阿初",
+    text: "绒球器弧沿还带着一点线的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e704",
+    guestName: "陆安",
+    text: "第七百零四次：请给我一团能绕成柔软的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
