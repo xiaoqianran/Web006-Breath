@@ -732,6 +732,11 @@ import {
   formatSoftchalkAside,
   formatSoftchalkEncourage,
   formatSoftchalkPair,
+  formatSoftPinCushionLine,
+  formatStraightPinLine,
+  formatSoftpinAside,
+  formatSoftpinEncourage,
+  formatSoftpinPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1930,6 +1935,8 @@ export class YixiApp {
         <div class="steam-press-cloth-art" role="img" aria-label="熨布" data-testid="steam-press-cloth-art"></div>
         <div class="soft-tailor-chalk-art" role="img" aria-label="裁缝粉笔" data-testid="soft-tailor-chalk-art"></div>
         <div class="chalk-tray-art" role="img" aria-label="粉笔托" data-testid="chalk-tray-art"></div>
+        <div class="soft-pin-cushion-art" role="img" aria-label="软针插" data-testid="soft-pin-cushion-art"></div>
+        <div class="straight-pins-art" role="img" aria-label="直针" data-testid="straight-pins-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2551,6 +2558,11 @@ export class YixiApp {
         <p class="muted" data-testid="softchalk-aside">${formatSoftchalkAside(s.history.length)}</p>
         <p class="muted" data-testid="softchalk-encourage">${formatSoftchalkEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softchalk-pair">${formatSoftchalkPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-pin-cushion-line">${formatSoftPinCushionLine(s.day)}</p>
+        <p class="muted" data-testid="straight-pin-line">${formatStraightPinLine(s.warmth)}</p>
+        <p class="muted" data-testid="softpin-aside">${formatSoftpinAside(s.history.length)}</p>
+        <p class="muted" data-testid="softpin-encourage">${formatSoftpinEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softpin-pair">${formatSoftpinPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

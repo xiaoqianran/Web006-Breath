@@ -4708,6 +4708,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e673",
+    guestName: "匿名",
+    text: "想把直针插进软针插，让针尖也能被温柔地安住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e674",
+    guestName: "禾",
+    text: "直针没入绒面时，像店把锋利也温柔地收住。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e675",
+    guestName: "阿初",
+    text: "软针插绒面还带着一点圆的鼓，像刚被插过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e676",
+    guestName: "陆安",
+    text: "第六百七十六次：请给我一枚能安住锋的针。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

@@ -426,3 +426,5 @@
 | ART-356 | `public/assets/ui/steam_press_cloth.jpg` | 熨布 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-357 | `public/assets/ui/soft_tailor_chalk.jpg` | 裁缝粉笔 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-358 | `public/assets/ui/chalk_tray.jpg` | 粉笔托 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-359 | `public/assets/ui/soft_pin_cushion.jpg` | 软针插 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-360 | `public/assets/ui/straight_pins.jpg` | 直针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

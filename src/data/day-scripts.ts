@@ -2782,6 +2782,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 347,
+    title: "软针插",
+    opener: "第三百四十七日。软针插静放，绒面还带着一点圆的鼓。",
+    sampleIndexes: [672, 673, 674, 668],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 348,
+    title: "直针",
+    opener: "第三百四十八日。直针没入绒面，像店把锋利也温柔地收住。",
+    sampleIndexes: [673, 674, 675, 670],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
