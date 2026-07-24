@@ -6052,6 +6052,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e865",
+    guestName: "小禾",
+    text: "生皮锤很软：只想敲一点，不硬砸。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e866",
+    guestName: "阿南",
+    text: "尼龙锤微响，像轻轻说「敲一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e867",
+    guestName: "阿初",
+    text: "锤面还带着一点软的痕，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e868",
+    guestName: "陆安",
+    text: "第八百六十八次：请给我一下能把形状也温柔敲醒的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

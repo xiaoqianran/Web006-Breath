@@ -3550,6 +3550,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 443,
+    title: "生皮锤",
+    opener: "第四百四十三日。生皮锤静放，锤面还带着一点软的痕。",
+    sampleIndexes: [864, 865, 866, 863],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 444,
+    title: "尼龙锤",
+    opener: "第四百四十四日。锤带着手，像店把硬处也敲成软。",
+    sampleIndexes: [865, 866, 867, 862],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
