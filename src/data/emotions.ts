@@ -2328,6 +2328,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e333",
+    guestName: "匿名",
+    text: "想在页边打一个圆孔，让绳可以穿过去，也能解开。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e334",
+    guestName: "小满",
+    text: "气眼扣紧时轻轻一声，像把散开的页系住了。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e335",
+    guestName: "林",
+    text: "打孔钳咬下的圆洞，干净得像一句允许重来的话。",
+    tags: ["释然", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e336",
+    guestName: "陆安",
+    text: "第三百三十六次：请给我一对能系住故事的气眼。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

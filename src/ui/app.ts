@@ -307,6 +307,11 @@ import {
   formatCornerAside,
   formatCornerEncourage,
   formatCornerPair,
+  formatEyeletLine,
+  formatEyeletPunchLine,
+  formatEyeletAside,
+  formatEyeletEncourage,
+  formatEyeletPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1335,6 +1340,8 @@ export class YixiApp {
         <div class="safety-ruler-art" role="img" aria-label="安全尺" data-testid="safety-ruler-art"></div>
         <div class="corner-rounder-art" role="img" aria-label="圆角器" data-testid="corner-rounder-art"></div>
         <div class="corner-guards-art" role="img" aria-label="护角" data-testid="corner-guards-art"></div>
+        <div class="eyelets-art" role="img" aria-label="气眼" data-testid="eyelets-art"></div>
+        <div class="eyelet-punch-art" role="img" aria-label="打孔钳" data-testid="eyelet-punch-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1531,6 +1538,11 @@ export class YixiApp {
         <p class="muted" data-testid="corner-aside">${formatCornerAside(s.history.length)}</p>
         <p class="muted" data-testid="corner-encourage">${formatCornerEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="corner-pair">${formatCornerPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="eyelet-line">${formatEyeletLine(s.day)}</p>
+        <p class="muted" data-testid="eyelet-punch-line">${formatEyeletPunchLine(s.warmth)}</p>
+        <p class="muted" data-testid="eyelet-aside">${formatEyeletAside(s.history.length)}</p>
+        <p class="muted" data-testid="eyelet-encourage">${formatEyeletEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="eyelet-pair">${formatEyeletPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

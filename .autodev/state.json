@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 242,
+  "current_round": 243,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0243-continue",
-  "last_completed_task_id": "T0242-corner",
-  "last_commit": "e9ce81a24ad099e365fa32bc530adbb801effa98",
+  "current_task_id": "T0244-continue",
+  "last_completed_task_id": "T0243-eyelet",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 248 passed (121 files)",
+  "last_test_summary": "vitest: 249 passed (122 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -38,14 +38,15 @@
     "D-020 T0234 情绪 300 / 剧本 160",
     "D-021 T0238 美术 ART 满 180",
     "D-022 T0239 情绪 320 / 剧本 170",
-    "D-023 T0240 开发轮次满 240"
+    "D-023 T0240 开发轮次满 240",
+    "D-024 T0243 美术 ART 满 190"
   ],
   "next_candidate_tasks": [
-    "T0243-continue",
+    "T0244-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e9ce81a24ad099e365fa32bc530adbb801effa98 T0242 圆角器/护角\n轮次: 242 / 1000 · v0.2.6 · M2\n本段: T0239–T0242 浆糊…护角 · 内容332/176 · 测试248\n下一: T0243\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:34:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0243 气眼/打孔钳 eyelet-label + ART-189/190 + 内容336/178\n轮次: 243 / 1000 · v0.2.6 · M2\n测试: 249 passed；双 smoke warmth=19\n下一: T0244\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:35:55Z"
 }

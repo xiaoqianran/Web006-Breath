@@ -256,3 +256,5 @@
 | ART-186 | `public/assets/ui/safety_ruler.jpg` | 安全尺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-187 | `public/assets/ui/corner_rounder.jpg` | 圆角器 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-188 | `public/assets/ui/corner_guards.jpg` | 护角 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-189 | `public/assets/ui/eyelets.jpg` | 气眼 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-190 | `public/assets/ui/eyelet_punch.jpg` | 打孔钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -110,3 +110,4 @@ export * from "./glue-label";
 export * from "./matcut-label";
 export * from "./knife-label";
 export * from "./corner-label";
+export * from "./eyelet-label";
