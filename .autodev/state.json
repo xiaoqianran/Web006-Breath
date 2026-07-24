@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 276,
+  "current_round": 277,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0277-continue",
-  "last_completed_task_id": "T0276-ovenmitt",
-  "last_commit": "9027890056f30a73d0fc79803f6a9cadb1cb8334",
+  "current_task_id": "T0278-continue",
+  "last_completed_task_id": "T0277-timerbell",
+  "last_commit": "c37ed0c34adad9a45d7a69384ab4eb7c3eb5db89",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 282 passed (155 files)",
+  "last_test_summary": "vitest: 283 passed (156 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -59,11 +59,11 @@
     "D-041 T0274 日剧本满 240"
   ],
   "next_candidate_tasks": [
-    "T0277-continue",
+    "T0278-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 9027890056f30a73d0fc79803f6a9cadb1cb8334 T0276 隔热手套/烤盘垫 · ART255/256\n轮次: 276 / 1000 · v0.2.6 · M2\n本段: T0272–T0276 餐巾…护手 · 内容468/244 · 测试282\n下一: T0277\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:42:59Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c37ed0c34adad9a45d7a69384ab4eb7c3eb5db89 T0277 厨房沙漏/小铃铛 · ART257/258\n轮次: 277 / 1000 · v0.2.6 · M2\n本段: T0273–T0277 筷枕…沙漏 · 内容472/246 · 测试283\n下一: T0278\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:44:53Z"
 }
