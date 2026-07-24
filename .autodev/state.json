@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 371,
+  "current_round": 372,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0372-continue",
-  "last_completed_task_id": "T0371-softbuff",
-  "last_commit": "36deafd963578dbaf75ae49da23fbfbeac4a3a67",
+  "current_task_id": "T0373-continue",
+  "last_completed_task_id": "T0372-softgraver",
+  "last_commit": "8144b984cee9acf3101a2c996bdbce637a5bf242",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 377 passed (250 files)",
+  "last_test_summary": "vitest: 378 passed (251 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -114,11 +114,11 @@
     "D-096 T0371 测试文件满 250"
   ],
   "next_candidate_tasks": [
-    "T0372-continue",
+    "T0373-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 36deafd963578dbaf75ae49da23fbfbeac4a3a67 T0371 抛光轮抛光膏 · 轮次371\n轮次: 371 / 1000 · v0.2.6 · M2\n本段: T0367–T0371 · 内容848/434 · 测试377 · ART~446 · D-096\n下一: T0372\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:05:44Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8144b984cee9acf3101a2c996bdbce637a5bf242 T0372 刻刀刻台 · 轮次372\n轮次: 372 / 1000 · v0.2.6 · M2\n本段: T0368–T0372 · 内容852/436 · 测试378 · ART~448\n下一: T0373\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:08:13Z"
 }
