@@ -782,6 +782,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 97,
+    title: "门帘雨",
+    opener: "第九十七日。门帘边沿沾着细雨，像谁匆匆来过。",
+    sampleIndexes: [172, 173, 174, 160],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 98,
+    title: "缝里光",
+    opener: "第九十八日。门帘只留一条缝，光与脚步声都侧着身进来。",
+    sampleIndexes: [173, 174, 175, 170],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

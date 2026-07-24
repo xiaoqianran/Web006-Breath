@@ -176,3 +176,5 @@
 | ART-106 | `public/assets/ui/vessel_tray.jpg` | 成品托盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-107 | `public/assets/ui/soft_candle.jpg` | 柜台烛火 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-108 | `public/assets/ui/wish_tags.jpg` | 梁上祈愿签 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-109 | `public/assets/ui/rain_curtain.jpg` | 雨门帘 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-110 | `public/assets/ui/steam_cup.jpg` | 热茶杯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -1208,6 +1208,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "释然"],
     intensity: 2,
   },
+  {
+    id: "e173",
+    guestName: "匿名",
+    text: "门帘一掀，雨气混着茶香，忽然想坐下来。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e174",
+    guestName: "听雨",
+    text: "第一百七十四次：请让雨声也变成可带走的温柔。",
+    tags: ["想念", "温柔"],
+    intensity: 4,
+  },
+  {
+    id: "e175",
+    guestName: "暮山",
+    text: "门帘外的脚步声停了停，像在确认自己敢进来。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e176",
+    guestName: "南枝",
+    text: "把门帘放回去的声音很轻，像说：你可以慢。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
 ];
 
 

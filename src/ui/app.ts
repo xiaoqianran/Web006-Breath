@@ -109,6 +109,10 @@ import {
   formatWishTagLine,
   formatWishHangAside,
   formatCandleWishPair,
+  formatCurtainLine,
+  formatCurtainOpenAside,
+  formatRainStickAside,
+  formatCurtainEncourage,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1057,8 +1061,14 @@ export class YixiApp {
         <div class="sugar-bowl-art" role="img" aria-label="糖罐" data-testid="sugar-bowl-art"></div>
         <div class="welcome-bell-art" role="img" aria-label="迎客门铃" data-testid="welcome-bell-art"></div>
         <div class="welcome-doorbell-art" role="img" aria-label="门铃" data-testid="welcome-doorbell-art"></div>
+        <div class="rain-curtain-art" role="img" aria-label="雨门帘" data-testid="rain-curtain-art"></div>
+        <div class="steam-cup-art" role="img" aria-label="热茶杯" data-testid="steam-cup-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
+        <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
+        <p class="muted" data-testid="curtain-open">${formatCurtainOpenAside(qLen)}</p>
+        <p class="muted" data-testid="rain-stick-aside">${formatRainStickAside(s.day)}</p>
+        <p class="muted" data-testid="curtain-encourage">${formatCurtainEncourage(s.day)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
