@@ -2398,6 +2398,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 299,
+    title: "奶油信封",
+    opener: "第二百九十九日。奶油信封静放，封口还带着一点未拆的折。",
+    sampleIndexes: [576, 577, 578, 572],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 300,
+    title: "拆信刀",
+    opener: "第三百日。拆信刀沿信封边划过，像店把被封住的温柔也打开。",
+    sampleIndexes: [577, 578, 579, 574],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -4036,6 +4036,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e577",
+    guestName: "匿名",
+    text: "想拆一封奶油色的信，让被封住的心情也能被温柔地打开。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e578",
+    guestName: "禾",
+    text: "拆信刀沿信封边划过时，像店把被封住的温柔也打开。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e579",
+    guestName: "阿初",
+    text: "信封封口还带着一点未拆的折，像刚被递到桌上。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e580",
+    guestName: "陆安",
+    text: "第五百八十次：请给我一封能被拆开的话。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

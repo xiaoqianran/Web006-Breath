@@ -172,3 +172,4 @@ export * from "./lantern-label";
 export * from "./sandtimer-label";
 export * from "./pressmark-label";
 export * from "./penrest-label";
+export * from "./letteropener-label";

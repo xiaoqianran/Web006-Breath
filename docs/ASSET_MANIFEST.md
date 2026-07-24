@@ -378,3 +378,5 @@
 | ART-308 | `public/assets/ui/silk_tail.jpg` | 丝尾 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-309 | `public/assets/ui/ceramic_pen_rest.jpg` | 瓷笔搁 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-310 | `public/assets/ui/blot_sheet.jpg` | 吸墨纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-311 | `public/assets/ui/cream_envelope.jpg` | 奶油信封 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-312 | `public/assets/ui/letter_opener.jpg` | 拆信刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
