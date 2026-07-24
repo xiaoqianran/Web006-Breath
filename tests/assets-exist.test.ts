@@ -296,7 +296,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/hang_twine.jpg",
       "public/assets/ui/herb_oil_bottle.jpg",
       "public/assets/ui/glass_dropper.jpg",
+      "public/assets/ui/salve_tin.jpg",
+      "public/assets/ui/bamboo_spatula.jpg",
     ];
+
 
 
 

@@ -3672,7 +3672,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e525",
+    guestName: "匿名",
+    text: "想舀一点软膏抹在手上，让皮肤也接到可触摸的温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e526",
+    guestName: "禾",
+    text: "竹刮勺从盒里划过时，像店把照顾也递给皮肤。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e527",
+    guestName: "阿初",
+    text: "软膏盒面还带着一点润的光，像刚被揭开。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e528",
+    guestName: "陆安",
+    text: "第五百二十八次：请给我一勺能抹在手上的润。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

@@ -2190,7 +2190,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 273,
+    title: "软膏小盒",
+    opener: "第二百七十三日。软膏小盒揭盖，膏面还带着一点润的光。",
+    sampleIndexes: [524, 525, 526, 520],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 274,
+    title: "竹刮勺",
+    opener: "第二百七十四日。竹刮勺从盒里划过，像店把照顾也递给皮肤。",
+    sampleIndexes: [525, 526, 527, 522],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
