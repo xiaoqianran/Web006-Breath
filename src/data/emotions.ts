@@ -4176,6 +4176,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e597",
+    guestName: "匿名",
+    text: "想围一条软羊毛巾，让肩上的凉也能被温柔地捂住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e598",
+    guestName: "禾",
+    text: "围巾搭上木钉时，像店把肩上的暖也留给出门的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e599",
+    guestName: "阿初",
+    text: "羊毛巾毛边还带着一点暖的绒，像刚被叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e600",
+    guestName: "陆安",
+    text: "第六百次：请给我一圈能捂住凉的暖。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

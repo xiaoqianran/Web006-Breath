@@ -177,3 +177,4 @@ export * from "./deskcal-label";
 export * from "./guestcup-label";
 export * from "./deskbell-label";
 export * from "./signbook-label";
+export * from "./softscarf-label";

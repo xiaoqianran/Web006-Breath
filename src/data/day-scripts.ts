@@ -2478,6 +2478,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 309,
+    title: "软羊毛围巾",
+    opener: "第三百零九日。软羊毛围巾叠好，毛边还带着一点暖的绒。",
+    sampleIndexes: [596, 597, 598, 592],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 310,
+    title: "木衣钉",
+    opener: "第三百一十日。围巾搭上木钉，像店把肩上的暖也留给出门的人。",
+    sampleIndexes: [597, 598, 599, 594],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
