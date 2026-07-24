@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 307,
+  "current_round": 308,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0308-continue",
-  "last_completed_task_id": "T0307-deskbell",
-  "last_commit": "c59ff40a5c033ede4e76a6cbfb19f3c2c9b8a74c",
+  "current_task_id": "T0309-continue",
+  "last_completed_task_id": "T0308-signbook",
+  "last_commit": "2e9d966c8024d6af94ba4cd5b982059c77716fe2",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 313 passed (186 files)",
+  "last_test_summary": "vitest: 314 passed (187 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -74,11 +74,11 @@
     "D-056 T0304 日剧本满 300"
   ],
   "next_candidate_tasks": [
-    "T0308-continue",
+    "T0309-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c59ff40a5c033ede4e76a6cbfb19f3c2c9b8a74c T0307 柜台黄铜铃/毡槌 · 轮次307\n轮次: 307 / 1000 · v0.2.6 · M2\n本段: T0303–T0307 · 内容592/306 · 测试313 · ART~318 · D-055/056\n下一: T0308\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:48:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2e9d966c8024d6af94ba4cd5b982059c77716fe2 T0308 软皮留言簿/石墨铅笔 · 轮次308\n轮次: 308 / 1000 · v0.2.6 · M2\n本段: T0304–T0308 · 内容596/308 · 测试314 · ART~320 · D-055/056\n下一: T0309\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:50:00Z"
 }
