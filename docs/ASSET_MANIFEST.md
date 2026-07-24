@@ -398,3 +398,5 @@
 | ART-328 | `public/assets/ui/wool_sleeve.jpg` | 羊毛壶套 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-329 | `public/assets/ui/soft_beanie.jpg` | 软织毛线帽 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-330 | `public/assets/ui/wood_hat_form.jpg` | 木帽托 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-331 | `public/assets/ui/soft_slipper.jpg` | 软室内拖鞋 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-332 | `public/assets/ui/wood_shoe_tray.jpg` | 木鞋托盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

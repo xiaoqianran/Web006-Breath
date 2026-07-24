@@ -2558,6 +2558,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 319,
+    title: "软室内拖鞋",
+    opener: "第三百一十九日。软室内拖鞋并放，鞋口还带着一点暖的绒。",
+    sampleIndexes: [616, 617, 618, 612],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 320,
+    title: "木鞋托盘",
+    opener: "第三百二十日。拖鞋落在托盘上，像店把门外的尘也留在门口。",
+    sampleIndexes: [617, 618, 619, 614],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

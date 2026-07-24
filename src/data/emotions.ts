@@ -4316,6 +4316,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e617",
+    guestName: "匿名",
+    text: "想换一双软室内拖鞋，让脚步也接到可卸下尘土的温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e618",
+    guestName: "禾",
+    text: "拖鞋落在木托盘上时，像店把门外的尘也留在门口。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e619",
+    guestName: "阿初",
+    text: "室内拖鞋鞋口还带着一点暖的绒，像刚被摆好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e620",
+    guestName: "陆安",
+    text: "第六百二十次：请给我一双能卸下尘的鞋。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
