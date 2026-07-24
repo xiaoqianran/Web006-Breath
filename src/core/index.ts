@@ -251,3 +251,4 @@ export * from "./softcab-label";
 export * from "./softjump-label";
 export * from "./softcrimp-label";
 export * from "./softcoil-label";
+export * from "./softendcap-label";

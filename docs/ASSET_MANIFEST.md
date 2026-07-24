@@ -536,3 +536,5 @@
 | ART-466 | `public/assets/ui/crimp_pliers.jpg` | 压扣钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-467 | `public/assets/ui/wire_coil.jpg` | 线圈 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-468 | `public/assets/ui/coil_pliers.jpg` | 绕钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-469 | `public/assets/ui/end_cap.jpg` | 线头帽 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-470 | `public/assets/ui/soft_bail.jpg` | 吊坠环 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
