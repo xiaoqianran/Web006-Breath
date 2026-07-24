@@ -3758,6 +3758,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 469,
+    title: "开口环",
+    opener: "第四百六十九日。开口环静堆，环口还带着一点细的缝。",
+    sampleIndexes: [916, 917, 918, 915],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 470,
+    title: "撬环器",
+    opener: "第四百七十日。器带着环，像店把扣着的也开成路。",
+    sampleIndexes: [917, 918, 919, 914],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

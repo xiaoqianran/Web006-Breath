@@ -257,3 +257,4 @@ export * from "./softmemory-label";
 export * from "./softheadpin-label";
 export * from "./softchain-label";
 export * from "./softtoggle-label";
+export * from "./softsplit-label";

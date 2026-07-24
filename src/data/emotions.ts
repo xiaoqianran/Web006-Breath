@@ -6416,6 +6416,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e917",
+    guestName: "小禾",
+    text: "开口环很韧：只想开一点，不硬掰。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e918",
+    guestName: "阿南",
+    text: "撬环器微张，像轻轻说「开一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e919",
+    guestName: "阿初",
+    text: "环口还带着一点细的缝，像刚被撬过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e920",
+    guestName: "陆安",
+    text: "第九百二十次：请给我一下能把挂上的也温柔打开的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
