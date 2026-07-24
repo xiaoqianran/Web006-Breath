@@ -4624,6 +4624,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e661",
+    guestName: "匿名",
+    text: "想用滚刀轻轻滚一痕，让布边也能被温柔地切开。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e662",
+    guestName: "禾",
+    text: "刀轮过垫时，像店把整齐也递给布边。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e663",
+    guestName: "阿初",
+    text: "滚刀刀轮还亮着一点圆的光，像刚被擦过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e664",
+    guestName: "陆安",
+    text: "第六百六十四次：请给我一痕能切开边的齐。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

@@ -193,3 +193,4 @@ export * from "./softtape-label";
 export * from "./softbutton-label";
 export * from "./embroider-label";
 export * from "./patweight-label";
+export * from "./rotarycut-label";

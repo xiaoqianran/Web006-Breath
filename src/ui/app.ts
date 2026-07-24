@@ -717,6 +717,11 @@ import {
   formatPatweightAside,
   formatPatweightEncourage,
   formatPatweightPair,
+  formatRotaryCutterLine,
+  formatSoftCutMatLine,
+  formatRotarycutAside,
+  formatRotarycutEncourage,
+  formatRotarycutPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1909,6 +1914,8 @@ export class YixiApp {
         <div class="embroidery-floss-art" role="img" aria-label="绣线" data-testid="embroidery-floss-art"></div>
         <div class="cloth-weight-art" role="img" aria-label="布镇" data-testid="cloth-weight-art"></div>
         <div class="paper-pattern-art" role="img" aria-label="裁片纸样" data-testid="paper-pattern-art"></div>
+        <div class="rotary-cutter-art" role="img" aria-label="滚刀" data-testid="rotary-cutter-art"></div>
+        <div class="soft-cut-mat-art" role="img" aria-label="软裁垫" data-testid="soft-cut-mat-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2515,6 +2522,11 @@ export class YixiApp {
         <p class="muted" data-testid="patweight-aside">${formatPatweightAside(s.history.length)}</p>
         <p class="muted" data-testid="patweight-encourage">${formatPatweightEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="patweight-pair">${formatPatweightPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="rotary-cutter-line">${formatRotaryCutterLine(s.day)}</p>
+        <p class="muted" data-testid="soft-cut-mat-line">${formatSoftCutMatLine(s.warmth)}</p>
+        <p class="muted" data-testid="rotarycut-aside">${formatRotarycutAside(s.history.length)}</p>
+        <p class="muted" data-testid="rotarycut-encourage">${formatRotarycutEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="rotarycut-pair">${formatRotarycutPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

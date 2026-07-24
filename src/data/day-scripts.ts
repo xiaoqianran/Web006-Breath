@@ -2734,6 +2734,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 341,
+    title: "滚刀",
+    opener: "第三百四十一日。滚刀静放，刀轮还亮着一点圆的光。",
+    sampleIndexes: [660, 661, 662, 656],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 342,
+    title: "软裁垫",
+    opener: "第三百四十二日。刀轮过垫，像店把整齐也递给布边。",
+    sampleIndexes: [661, 662, 663, 658],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
