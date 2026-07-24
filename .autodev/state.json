@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 253,
+  "current_round": 254,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0254-continue",
-  "last_completed_task_id": "T0253-reopen",
-  "last_commit": "ebecedc263242016994e1d5a6ae1948ad325fac5",
+  "current_task_id": "T0255-continue",
+  "last_completed_task_id": "T0254-entry",
+  "last_commit": "e39639a3951ea18f9851839ec6acac99e8fc5d19",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 259 passed (132 files)",
+  "last_test_summary": "vitest: 260 passed (133 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -43,14 +43,15 @@
     "D-025 T0244 情绪 340 / 剧本 180 / 测试 250",
     "D-026 T0248 美术 ART 满 200",
     "D-027 T0250 开发轮次满 250",
-    "D-028 T0253 美术 ART 满 210"
+    "D-028 T0253 美术 ART 满 210",
+    "D-029 T0254 日剧本满 200"
   ],
   "next_candidate_tasks": [
-    "T0254-continue",
+    "T0255-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ebecedc263242016994e1d5a6ae1948ad325fac5 T0253 晨间抹布/窗台小瓶 · ART210\n轮次: 253 / 1000 · v0.2.6 · M2\n本段: T0249–T0253 纸袋…晨开 · 内容376/198 · 测试259 · D-028 ART210\n下一: T0254\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:57:24Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e39639a3951ea18f9851839ec6acac99e8fc5d19 T0254 雨伞架/门口踏垫 · 剧本200\n轮次: 254 / 1000 · v0.2.6 · M2\n本段: T0250–T0254 小卡…进门 · 内容380/200 · 测试260 · D-029\n下一: T0255\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:00:03Z"
 }
