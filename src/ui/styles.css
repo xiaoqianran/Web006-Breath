@@ -4963,6 +4963,26 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/rivet_block.jpg") center/cover no-repeat;
 }
 
+.prong-opener-art {
+  height: 64px;
+  width: 64px;
+  border-radius: 12px;
+  margin: 0 auto 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/prong_opener.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.stone-seat-art {
+  height: 72px;
+  border-radius: 12px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/stone_seat.jpg") center/cover no-repeat;
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;

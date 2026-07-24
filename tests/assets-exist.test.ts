@@ -470,6 +470,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/soft_nylon_hammer.jpg",
       "public/assets/ui/rivet_set.jpg",
       "public/assets/ui/rivet_block.jpg",
+      "public/assets/ui/prong_opener.jpg",
+      "public/assets/ui/stone_seat.jpg",
     ];
 
 

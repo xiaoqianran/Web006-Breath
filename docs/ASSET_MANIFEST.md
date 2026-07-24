@@ -526,3 +526,5 @@
 | ART-456 | `public/assets/ui/soft_nylon_hammer.jpg` | 尼龙锤 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-457 | `public/assets/ui/rivet_set.jpg` | 铆钉组 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-458 | `public/assets/ui/rivet_block.jpg` | 铆砧 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-459 | `public/assets/ui/prong_opener.jpg` | 爪撬 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-460 | `public/assets/ui/stone_seat.jpg` | 石座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

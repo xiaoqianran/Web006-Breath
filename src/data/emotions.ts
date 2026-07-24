@@ -6108,6 +6108,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e873",
+    guestName: "小禾",
+    text: "爪撬很稳：只想张一点，不硬扳。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e874",
+    guestName: "阿南",
+    text: "石座微稳，像轻轻说「托一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e875",
+    guestName: "阿初",
+    text: "尖端还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e876",
+    guestName: "陆安",
+    text: "第八百七十六次：请给我一下能把闪亮的也温柔托住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

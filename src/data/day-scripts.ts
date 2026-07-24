@@ -3582,6 +3582,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 447,
+    title: "爪撬",
+    opener: "第四百四十七日。爪撬静放，尖端还带着一点细的光。",
+    sampleIndexes: [872, 873, 874, 871],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 448,
+    title: "石座",
+    opener: "第四百四十八日。座带着爪，像店把闪亮的也托成安。",
+    sampleIndexes: [873, 874, 875, 870],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
