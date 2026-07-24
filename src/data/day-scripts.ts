@@ -2638,6 +2638,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 329,
+    title: "薰衣草香囊",
+    opener: "第三百二十九日。薰衣草香囊静放，布面还透着一点淡紫的绒。",
+    sampleIndexes: [636, 637, 638, 632],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 330,
+    title: "瓷香囊碟",
+    opener: "第三百三十日。香囊落入瓷碟，像店把枕边的香也留给歇息的人。",
+    sampleIndexes: [637, 638, 639, 634],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

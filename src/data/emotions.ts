@@ -4456,6 +4456,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e637",
+    guestName: "匿名",
+    text: "想放一袋薰衣草香囊，让枕边的夜也能被温柔地安顿。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e638",
+    guestName: "禾",
+    text: "香囊落入瓷碟时，像店把枕边的香也留给歇息的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e639",
+    guestName: "阿初",
+    text: "薰衣草香囊布面还透着一点淡紫的绒，像刚被缝好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e640",
+    guestName: "陆安",
+    text: "第六百四十次：请给我一袋能安夜的香。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

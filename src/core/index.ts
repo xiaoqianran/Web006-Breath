@@ -187,3 +187,4 @@ export * from "./earmuff-label";
 export * from "./fingerless-label";
 export * from "./kneeblanket-label";
 export * from "./eyemask-label";
+export * from "./lavsachet-label";
