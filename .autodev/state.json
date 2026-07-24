@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0218-continue",
   "last_completed_task_id": "T0217-mat",
-  "last_commit": "PENDING",
+  "last_commit": "29667adca27de452dd0e1fc1e6d1e0aa00547f41",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 223 passed (96 files)",
   "core_loop_status": "playable_demo_ready",
@@ -33,6 +33,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0217 入户软垫/鞋边盒 mat-label + ART-137/138 + 内容232/126\n轮次: 217 / 1000 · v0.2.6 · M2\n测试: 223 passed；双 smoke warmth=19\n下一: T0218\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 29667adca27de452dd0e1fc1e6d1e0aa00547f41 T0217 入户软垫/鞋边盒\n轮次: 217 / 1000 · v0.2.6 · M2\n本段: T0211–T0217 窗纱…门垫 · 内容232/126 · 测试223\n下一: T0218\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:49:30Z"
 }
