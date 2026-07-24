@@ -3150,6 +3150,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 393,
+    title: "戒指棒",
+    opener: "第三百九十三日。戒指棒静放，棒身还带着一点木的温。",
+    sampleIndexes: [764, 765, 766, 763],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 394,
+    title: "指圈尺",
+    opener: "第三百九十四日。圈套在指上，像店把合适也量成温柔。",
+    sampleIndexes: [765, 766, 767, 762],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

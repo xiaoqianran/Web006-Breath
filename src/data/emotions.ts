@@ -5352,6 +5352,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e765",
+    guestName: "匿名",
+    text: "想用戒指棒量一圈，让合适也能被温柔地量准。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e766",
+    guestName: "禾",
+    text: "指圈套在指上时，像店把合适也量成温柔。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e767",
+    guestName: "阿初",
+    text: "戒指棒棒身还带着一点木的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e768",
+    guestName: "陆安",
+    text: "第七百六十八次：请给我一圈能量准的合适。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
