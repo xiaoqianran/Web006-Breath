@@ -5632,6 +5632,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e805",
+    guestName: "匿名",
+    text: "想用助焊膏刷一抹，让接缝也能被温柔地洗净。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e806",
+    guestName: "禾",
+    text: "件在酸洗罐液中时，像店把氧化也洗成净。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e807",
+    guestName: "阿初",
+    text: "助焊膏盖沿还带着一点细的痕，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e808",
+    guestName: "陆安",
+    text: "第八百零八次：请给我一抹能洗净接缝的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

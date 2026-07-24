@@ -3310,6 +3310,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 413,
+    title: "助焊膏",
+    opener: "第四百一十三日。助焊膏静放，盖沿还带着一点细的痕。",
+    sampleIndexes: [804, 805, 806, 803],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 414,
+    title: "酸洗罐",
+    opener: "第四百一十四日。件在液中，像店把氧化也洗成净。",
+    sampleIndexes: [805, 806, 807, 802],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
