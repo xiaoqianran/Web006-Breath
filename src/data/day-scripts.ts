@@ -3406,6 +3406,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 425,
+    title: "退火盘",
+    opener: "第四百二十五日。退火盘静放，盘沿还带着一点暖的痕。",
+    sampleIndexes: [828, 829, 830, 827],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 426,
+    title: "退火钳",
+    opener: "第四百二十六日。钳夹着丝，像店把硬丝也热成软。",
+    sampleIndexes: [829, 830, 831, 826],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -5800,6 +5800,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e829",
+    guestName: "匿名",
+    text: "想把硬丝放在退火盘上热一软，让它也能被温柔地热软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e830",
+    guestName: "禾",
+    text: "退火钳夹着丝时，像店把硬丝也热成软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e831",
+    guestName: "阿初",
+    text: "退火盘盘沿还带着一点暖的痕，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e832",
+    guestName: "陆安",
+    text: "第八百三十二次：请给我一段能热软的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

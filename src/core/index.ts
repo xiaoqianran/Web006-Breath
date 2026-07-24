@@ -235,3 +235,4 @@ export * from "./softsolder-label";
 export * from "./softtongs-label";
 export * from "./softdraw-label";
 export * from "./softingot-label";
+export * from "./softanneal-label";
