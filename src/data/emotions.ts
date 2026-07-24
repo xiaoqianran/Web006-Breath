@@ -6724,6 +6724,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e961",
+    guestName: "小禾",
+    text: "脚链很轻：只想绕一点，不硬绑。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e962",
+    guestName: "阿南",
+    text: "细扣微合，像轻轻说「绕一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e963",
+    guestName: "阿初",
+    text: "链沿还带着一点细的光，像刚被绕过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e964",
+    guestName: "陆安",
+    text: "第九百六十四次：请给我一下能把脚踝也温柔绕住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

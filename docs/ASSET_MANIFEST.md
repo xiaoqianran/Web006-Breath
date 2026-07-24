@@ -570,3 +570,5 @@
 | ART-500 | `public/assets/ui/butterfly_back.jpg` | 蝶扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-501 | `public/assets/ui/soft_hoop.jpg` | 耳圈 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-502 | `public/assets/ui/ear_wire.jpg` | 耳钩 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-503 | `public/assets/ui/soft_anklet.jpg` | 脚链 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-504 | `public/assets/ui/anklet_clasp.jpg` | 细扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
