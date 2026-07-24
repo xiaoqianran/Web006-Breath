@@ -388,6 +388,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/yarn_scrap_box.jpg",
       "public/assets/ui/tassel_board.jpg",
       "public/assets/ui/waxed_cord.jpg",
+      "public/assets/ui/small_loom.jpg",
+      "public/assets/ui/soft_shuttle.jpg",
     ];
 
 

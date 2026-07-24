@@ -4960,6 +4960,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e709",
+    guestName: "匿名",
+    text: "想在小织机上织一纬，让经线之间也能被温柔地织满。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e710",
+    guestName: "禾",
+    text: "梭穿过经线时，像店把空隙也织成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e711",
+    guestName: "阿初",
+    text: "小织机框沿还带着一点木的温，像刚被扶过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e712",
+    guestName: "陆安",
+    text: "第七百一十二次：请给我一纬能织成柔软的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

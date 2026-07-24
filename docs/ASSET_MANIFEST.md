@@ -444,3 +444,5 @@
 | ART-374 | `public/assets/ui/yarn_scrap_box.jpg` | 碎线盒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-375 | `public/assets/ui/tassel_board.jpg` | 流苏板 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-376 | `public/assets/ui/waxed_cord.jpg` | 蜡线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-377 | `public/assets/ui/small_loom.jpg` | 小织机 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-378 | `public/assets/ui/soft_shuttle.jpg` | 梭子 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
