@@ -240,7 +240,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/page_weight.jpg",
       "public/assets/ui/paper_shade.jpg",
       "public/assets/ui/cord_switch.jpg",
+      "public/assets/ui/tasting_spoon.jpg",
+      "public/assets/ui/tasting_mat.jpg",
     ];
+
 
 
 

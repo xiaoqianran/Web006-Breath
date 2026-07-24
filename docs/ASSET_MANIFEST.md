@@ -296,3 +296,5 @@
 | ART-226 | `public/assets/ui/page_weight.jpg` | 页镇 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-227 | `public/assets/ui/paper_shade.jpg` | 纸灯罩 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-228 | `public/assets/ui/cord_switch.jpg` | 灯绳开关 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-229 | `public/assets/ui/tasting_spoon.jpg` | 试茶小勺 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-230 | `public/assets/ui/tasting_mat.jpg` | 品茶垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

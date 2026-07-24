@@ -2888,7 +2888,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e413",
+    guestName: "匿名",
+    text: "想先用小勺尝一口茶，把催促也放一放。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e414",
+    guestName: "禾",
+    text: "品茶垫托住杯底，像店说「慢慢品」。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e415",
+    guestName: "阿初",
+    text: "试茶小勺边还带着热，像刚被浅尝过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e416",
+    guestName: "陆安",
+    text: "第四百一十六次：请给我一块能托住试茶的垫。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

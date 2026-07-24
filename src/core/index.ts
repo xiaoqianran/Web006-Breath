@@ -130,3 +130,4 @@ export * from "./cliptray-label";
 export * from "./inkwell-label";
 export * from "./bookend-label";
 export * from "./lampshade-label";
+export * from "./teaspoon-label";
