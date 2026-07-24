@@ -243,3 +243,4 @@ export * from "./softbuff-label";
 export * from "./softgraver-label";
 export * from "./softloupe-label";
 export * from "./softultra-label";
+export * from "./softstaking-label";

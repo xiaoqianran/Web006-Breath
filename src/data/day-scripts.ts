@@ -3534,6 +3534,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 441,
+    title: "冲具组",
+    opener: "第四百四十一日。冲具静排，杆身还带着一点细的光。",
+    sampleIndexes: [860, 861, 862, 859],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 442,
+    title: "冲台",
+    opener: "第四百四十二日。台带着冲，像店把散的也定成形。",
+    sampleIndexes: [861, 862, 863, 858],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

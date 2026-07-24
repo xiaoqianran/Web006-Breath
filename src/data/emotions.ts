@@ -6024,6 +6024,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e861",
+    guestName: "小禾",
+    text: "冲具很稳：只想定一点，不硬砸。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e862",
+    guestName: "阿南",
+    text: "冲台微稳，像轻轻说「定一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e863",
+    guestName: "阿初",
+    text: "杆身还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e864",
+    guestName: "陆安",
+    text: "第八百六十四次：请给我一下能把形状也温柔定住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

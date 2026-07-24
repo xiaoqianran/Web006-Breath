@@ -520,3 +520,5 @@
 | ART-450 | `public/assets/ui/ring_clamp.jpg` | 戒夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-451 | `public/assets/ui/ultrasonic.jpg` | 超声波清洗器 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-452 | `public/assets/ui/mesh_basket.jpg` | 网篮 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-453 | `public/assets/ui/staking_set.jpg` | 冲具组 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-454 | `public/assets/ui/staking_base.jpg` | 冲台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
