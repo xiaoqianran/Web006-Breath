@@ -2972,7 +2972,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e425",
+    guestName: "匿名",
+    text: "想在窗边软垫上坐一会儿，把心也放软一点。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e426",
+    guestName: "禾",
+    text: "薄窗帘半拉开，像店把街景也过滤得柔一点。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e427",
+    guestName: "阿初",
+    text: "窗边软垫还带着阳光的温，像刚被光碰过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e428",
+    guestName: "听雨",
+    text: "第四百二十八次：请给我一块能坐进光边的垫。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

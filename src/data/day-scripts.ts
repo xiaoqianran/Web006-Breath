@@ -1790,7 +1790,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 223,
+    title: "窗边软垫",
+    opener: "第二百二十三日。窗边软垫拍松，布面还带着一点阳光的温。",
+    sampleIndexes: [424, 425, 426, 420],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 224,
+    title: "薄窗帘",
+    opener: "第二百二十四日。薄窗帘半拉开，像把街景也过滤得柔一点。",
+    sampleIndexes: [425, 426, 427, 422],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
