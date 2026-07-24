@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 315,
+  "current_round": 316,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0316-continue",
-  "last_completed_task_id": "T0315-earmuff",
-  "last_commit": "05da0129da4c520921999bc60cd74e6f60be14c3",
+  "current_task_id": "T0317-continue",
+  "last_completed_task_id": "T0316-fingerless",
+  "last_commit": "5fd0502de2cb30338c4a979d305de9bb7e3e512e",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 321 passed (194 files)",
+  "last_test_summary": "vitest: 322 passed (195 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -78,11 +78,11 @@
     "D-060 T0314 日剧本满 320 / 测试 320"
   ],
   "next_candidate_tasks": [
-    "T0316-continue",
+    "T0317-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 05da0129da4c520921999bc60cd74e6f60be14c3 T0315 软织耳罩/挂钉 · 轮次315\n轮次: 315 / 1000 · v0.2.6 · M2\n本段: T0311–T0315 · 内容624/322 · 测试321 · ART~334 · D-060\n下一: T0316\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:05:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5fd0502de2cb30338c4a979d305de9bb7e3e512e T0316 半指手套/瓷碟 · 轮次316\n轮次: 316 / 1000 · v0.2.6 · M2\n本段: T0312–T0316 · 内容628/324 · 测试322 · ART~336 · D-060\n下一: T0317\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:07:00Z"
 }
