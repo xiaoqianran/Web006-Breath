@@ -6500,6 +6500,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e929",
+    guestName: "小禾",
+    text: "胸针很稳：只想别一点，不硬扎。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e930",
+    guestName: "阿南",
+    text: "别扣微合，像轻轻说「别一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e931",
+    guestName: "阿初",
+    text: "针尖还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e932",
+    guestName: "陆安",
+    text: "第九百三十二次：请给我一下能把想留的也温柔固定的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
