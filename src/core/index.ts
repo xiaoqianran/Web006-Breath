@@ -231,3 +231,4 @@ export * from "./softdapping-label";
 export * from "./softburnish-label";
 export * from "./softflux-label";
 export * from "./softtorch-label";
+export * from "./softsolder-label";

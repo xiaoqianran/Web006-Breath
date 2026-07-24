@@ -5688,6 +5688,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e813",
+    guestName: "匿名",
+    text: "想用焊丝送一丝，让接缝也能被温柔地填住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e814",
+    guestName: "禾",
+    text: "第三只手夹托住件时，像店把接缝也稳住。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e815",
+    guestName: "阿初",
+    text: "焊丝卷沿还带着一点银的光，像刚被抽过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e816",
+    guestName: "陆安",
+    text: "第八百一十六次：请给我一丝能填住接缝的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
