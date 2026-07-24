@@ -480,3 +480,5 @@
 | ART-410 | `public/assets/ui/polish_cloth.jpg` | 抛光布 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-411 | `public/assets/ui/polish_rouge.jpg` | 抛光膏 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-412 | `public/assets/ui/buff_stick.jpg` | 绒布棒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-413 | `public/assets/ui/soft_tweezers.jpg` | 镊子 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-414 | `public/assets/ui/jewel_loupe.jpg` | 放大镜 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

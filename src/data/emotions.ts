@@ -5464,6 +5464,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e781",
+    guestName: "匿名",
+    text: "想用镊子夹一粒，让细小也能被温柔地看清、夹稳。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e782",
+    guestName: "禾",
+    text: "放大镜贴近细处时，像店把细小也看清。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e783",
+    guestName: "阿初",
+    text: "镊子尖端还带着一点金属的凉，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e784",
+    guestName: "陆安",
+    text: "第七百八十四次：请给我一粒能夹稳的细小。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
