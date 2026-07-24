@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 264,
+  "current_round": 265,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0265-continue",
-  "last_completed_task_id": "T0264-jarlabel",
-  "last_commit": "b6cf3e60831ee2afac2bbc1e129fa0ff28e39ceb",
+  "current_task_id": "T0266-continue",
+  "last_completed_task_id": "T0265-mailcard",
+  "last_commit": "fac94d1ca629f1084a8cc4669800bfadcd08e6a8",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 270 passed (143 files)",
+  "last_test_summary": "vitest: 271 passed (144 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -52,11 +52,11 @@
     "D-034 T0264 日剧本满 220"
   ],
   "next_candidate_tasks": [
-    "T0265-continue",
+    "T0266-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b6cf3e60831ee2afac2bbc1e129fa0ff28e39ceb T0264 罐口标签/细棉线 · 剧本220\n轮次: 264 / 1000 · v0.2.6 · M2\n本段: T0260–T0264 慢墨…罐签 · 内容420/220 · 测试270 · D-034\n下一: T0265\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:19:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: fac94d1ca629f1084a8cc4669800bfadcd08e6a8 T0265 空白明信片/邮票盒 · ART233/234\n轮次: 265 / 1000 · v0.2.6 · M2\n本段: T0261–T0265 书立…邮寄 · 内容424/222 · 测试271\n下一: T0266\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:21:55Z"
 }
