@@ -1488,6 +1488,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "释然"],
     intensity: 3,
   },
+  {
+    id: "e213",
+    guestName: "匿名",
+    text: "想先吃一块饼干，再把难说的话慢慢展开。",
+    tags: ["疲惫", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e214",
+    guestName: "小满",
+    text: "糖勺在杯沿轻轻响，像有人说「可以再慢一点」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e215",
+    guestName: "禾",
+    text: "饼干匣的柠檬香，把堵在胸口的涩冲淡了一点。",
+    tags: ["释然", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e216",
+    guestName: "阿初",
+    text: "第二百一十六次：请给我一勺刚好的甜，不要太多。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

@@ -80,3 +80,4 @@ export * from "./radio-label";
 export * from "./ink-label";
 export * from "./lace-label";
 export * from "./dew-label";
+export * from "./biscuit-label";

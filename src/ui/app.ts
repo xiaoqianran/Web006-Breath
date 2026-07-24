@@ -157,6 +157,11 @@ import {
   formatDewAside,
   formatDewEncourage,
   formatDewPair,
+  formatBiscuitTinLine,
+  formatSugarSpoonLine,
+  formatBiscuitAside,
+  formatBiscuitEncourage,
+  formatBiscuitPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1125,6 +1130,8 @@ export class YixiApp {
         <div class="lace-light-art" role="img" aria-label="蕾丝光" data-testid="lace-light-art"></div>
         <div class="dew-doorbell-art" role="img" aria-label="晨露门铃" data-testid="dew-doorbell-art"></div>
         <div class="wet-sill-art" role="img" aria-label="湿窗台" data-testid="wet-sill-art"></div>
+        <div class="biscuit-tin-art" role="img" aria-label="饼干匣" data-testid="biscuit-tin-art"></div>
+        <div class="sugar-spoon-art" role="img" aria-label="糖勺" data-testid="sugar-spoon-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1174,6 +1181,10 @@ export class YixiApp {
         <p class="muted" data-testid="dew-aside">${formatDewAside(qLen)}</p>
         <p class="muted" data-testid="dew-encourage">${formatDewEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="dew-pair">${formatDewPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="biscuit-tin-line">${formatBiscuitTinLine(s.day)}</p>
+        <p class="muted" data-testid="sugar-spoon-line">${formatSugarSpoonLine(s.warmth)}</p>
+        <p class="muted" data-testid="biscuit-encourage">${formatBiscuitEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="biscuit-pair">${formatBiscuitPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
@@ -1301,6 +1312,7 @@ export class YixiApp {
         <p class="muted" data-testid="sachet-gift-aside">${formatSachetGiftAside(true)} ${formatSachetGiftAside(false)}</p>
         <p class="muted" data-testid="ink-craft-pair">${formatInkPair(s.day, s.history.length)}</p>
         <p class="muted" data-testid="ink-craft-aside">${formatInkAside(s.warmth)}</p>
+        <p class="muted" data-testid="biscuit-gift-aside">${formatBiscuitAside(true)} ${formatBiscuitAside(false)}</p>
         <p class="muted" data-testid="gift-choice-hint">${formatCirculationChoiceHint("gift")} ${formatCirculationChoiceHint("display")}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <p class="muted" data-testid="order-match-aside">${formatOrderMatchAside(item, s.activeOrder)}</p>
