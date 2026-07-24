@@ -406,3 +406,5 @@
 | ART-336 | `public/assets/ui/glove_dish.jpg` | 瓷手套碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-337 | `public/assets/ui/knee_blanket.jpg` | 膝上小毯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-338 | `public/assets/ui/blanket_board.jpg` | 木托板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-339 | `public/assets/ui/soft_eye_mask.jpg` | 软眼罩 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-340 | `public/assets/ui/mask_pouch.jpg` | 眼罩收纳袋 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

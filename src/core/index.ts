@@ -186,3 +186,4 @@ export * from "./softslipper-label";
 export * from "./earmuff-label";
 export * from "./fingerless-label";
 export * from "./kneeblanket-label";
+export * from "./eyemask-label";

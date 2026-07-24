@@ -2622,6 +2622,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 327,
+    title: "软眼罩",
+    opener: "第三百二十七日。软眼罩静放，罩面还带着一点丝的润。",
+    sampleIndexes: [632, 633, 634, 628],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 328,
+    title: "眼罩收纳袋",
+    opener: "第三百二十八日。眼罩滑入软袋，像店把眼皮的暖也留给歇息的人。",
+    sampleIndexes: [633, 634, 635, 630],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

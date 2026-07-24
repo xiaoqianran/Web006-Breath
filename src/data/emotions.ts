@@ -4428,6 +4428,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e633",
+    guestName: "匿名",
+    text: "想戴一只软眼罩，让眼皮的累也能被温柔地捂住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e634",
+    guestName: "禾",
+    text: "眼罩滑入软袋时，像店把眼皮的暖也留给歇息的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e635",
+    guestName: "阿初",
+    text: "软眼罩罩面还带着一点丝的润，像刚被叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e636",
+    guestName: "陆安",
+    text: "第六百三十六次：请给我一只能捂住眼皮的暗。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
