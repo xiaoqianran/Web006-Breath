@@ -432,3 +432,5 @@
 | ART-362 | `public/assets/ui/snips_sheath.jpg` | 剪皮套 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-363 | `public/assets/ui/mend_mushroom.jpg` | 补衣木菇 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-364 | `public/assets/ui/mend_yarn.jpg` | 补线团 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-365 | `public/assets/ui/lace_bobbin.jpg` | 梭心 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-366 | `public/assets/ui/lace_pillow.jpg` | 花边枕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

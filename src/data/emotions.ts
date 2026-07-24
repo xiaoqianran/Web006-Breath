@@ -4792,6 +4792,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e685",
+    guestName: "匿名",
+    text: "想绕一圈梭心，让空隙也能被温柔地编出花来。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e686",
+    guestName: "禾",
+    text: "线在花边枕上交错时，像店把空隙也编成花。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e687",
+    guestName: "阿初",
+    text: "梭心轴上还绕着一点细的线，像刚被理好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e688",
+    guestName: "陆安",
+    text: "第六百八十八次：请给我一圈能编满空隙的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
