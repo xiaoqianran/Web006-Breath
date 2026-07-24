@@ -302,6 +302,11 @@ import {
   formatKnifeAside,
   formatKnifeEncourage,
   formatKnifePair,
+  formatCornerRounderLine,
+  formatCornerGuardLine,
+  formatCornerAside,
+  formatCornerEncourage,
+  formatCornerPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1328,6 +1333,8 @@ export class YixiApp {
         <div class="straight-ruler-art" role="img" aria-label="直尺" data-testid="straight-ruler-art"></div>
         <div class="craft-knife-art" role="img" aria-label="裁纸刀" data-testid="craft-knife-art"></div>
         <div class="safety-ruler-art" role="img" aria-label="安全尺" data-testid="safety-ruler-art"></div>
+        <div class="corner-rounder-art" role="img" aria-label="圆角器" data-testid="corner-rounder-art"></div>
+        <div class="corner-guards-art" role="img" aria-label="护角" data-testid="corner-guards-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1519,6 +1526,11 @@ export class YixiApp {
         <p class="muted" data-testid="knife-aside">${formatKnifeAside(s.circulationsToday)}</p>
         <p class="muted" data-testid="knife-encourage">${formatKnifeEncourage(qLen)}</p>
         <p class="muted" data-testid="knife-pair">${formatKnifePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="corner-rounder-line">${formatCornerRounderLine(s.day)}</p>
+        <p class="muted" data-testid="corner-guard-line">${formatCornerGuardLine(s.warmth)}</p>
+        <p class="muted" data-testid="corner-aside">${formatCornerAside(s.history.length)}</p>
+        <p class="muted" data-testid="corner-encourage">${formatCornerEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="corner-pair">${formatCornerPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

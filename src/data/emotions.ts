@@ -2300,6 +2300,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e329",
+    guestName: "匿名",
+    text: "想把锋利的边角磨圆，让人摸上去不疼。",
+    tags: ["疲惫", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e330",
+    guestName: "禾",
+    text: "圆角器咬下一角时，像有人轻轻说「可以软一点」。",
+    tags: ["释然", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e331",
+    guestName: "阿初",
+    text: "护角贴上后，翻开合上都不易起毛。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e332",
+    guestName: "听雨",
+    text: "第三百三十二次：请给我一副能护住四角的小片。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

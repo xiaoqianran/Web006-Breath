@@ -198,6 +198,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/straight_ruler.jpg",
       "public/assets/ui/craft_knife.jpg",
       "public/assets/ui/safety_ruler.jpg",
+      "public/assets/ui/corner_rounder.jpg",
+      "public/assets/ui/corner_guards.jpg",
     ];
     for (const f of files) {
       const p = resolve(root, f);

@@ -1406,6 +1406,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 175,
+    title: "圆角器",
+    opener: "第一百七十五日。圆角器咬下小小一角，锋利变成可触摸的弧。",
+    sampleIndexes: [328, 329, 330, 324],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 176,
+    title: "护角贴",
+    opener: "第一百七十六日。护角贴上后微微亮，边角被保护，也更耐翻。",
+    sampleIndexes: [329, 330, 331, 326],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {
