@@ -242,6 +242,11 @@ import {
   formatIronAside,
   formatIronEncourage,
   formatIronPair,
+  formatDarningEggLine,
+  formatNeedleBookLine,
+  formatDarnAside,
+  formatDarnEncourage,
+  formatDarnPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1244,6 +1249,8 @@ export class YixiApp {
         <div class="chalk-wheel-art" role="img" aria-label="划粉" data-testid="chalk-wheel-art"></div>
         <div class="soft-iron-art" role="img" aria-label="软熨斗" data-testid="soft-iron-art"></div>
         <div class="press-pad-art" role="img" aria-label="烫垫" data-testid="press-pad-art"></div>
+        <div class="darning-egg-art" role="img" aria-label="补衣蛋" data-testid="darning-egg-art"></div>
+        <div class="needle-book-art" role="img" aria-label="针线册" data-testid="needle-book-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1375,6 +1382,11 @@ export class YixiApp {
         <p class="muted" data-testid="iron-aside">${formatIronAside(s.circulationsToday)}</p>
         <p class="muted" data-testid="iron-encourage">${formatIronEncourage(qLen)}</p>
         <p class="muted" data-testid="iron-pair">${formatIronPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="darning-egg-line">${formatDarningEggLine(s.day)}</p>
+        <p class="muted" data-testid="needle-book-line">${formatNeedleBookLine(s.history.length)}</p>
+        <p class="muted" data-testid="darn-aside">${formatDarnAside(s.warmth)}</p>
+        <p class="muted" data-testid="darn-encourage">${formatDarnEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="darn-pair">${formatDarnPair(s.day, s.history.length)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

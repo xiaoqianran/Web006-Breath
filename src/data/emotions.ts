@@ -1964,6 +1964,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e281",
+    guestName: "匿名",
+    text: "想把心里的破口撑圆，再一针一针补上。",
+    tags: ["疲惫", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e282",
+    guestName: "禾",
+    text: "补衣蛋托在掌心时，忽然觉得破也可以被认真对待。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e283",
+    guestName: "阿初",
+    text: "针线册翻开，像一本写满小修补的日记。",
+    tags: ["想念", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e284",
+    guestName: "听雨",
+    text: "第二百八十四次：请给我一枚能撑住破口的木蛋。",
+    tags: ["期待", "安心"],
+    intensity: 3,
+  },
 ];
 
 

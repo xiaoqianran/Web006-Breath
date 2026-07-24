@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 229,
+  "current_round": 230,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0230-continue",
-  "last_completed_task_id": "T0229-iron",
-  "last_commit": "24150514fea6e8fa94c75da68f42d1cc3492b118",
+  "current_task_id": "T0231-continue",
+  "last_completed_task_id": "T0230-darn",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 235 passed (108 files)",
+  "last_test_summary": "vitest: 236 passed (109 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -32,14 +32,15 @@
     "D-014 T0223 美术 ART 满 150",
     "D-015 T0224 情绪 260 / 剧本 140",
     "D-016 T0228 美术 ART 满 160",
-    "D-017 T0229 情绪 280 / 剧本 150"
+    "D-017 T0229 情绪 280 / 剧本 150",
+    "D-018 T0230 开发轮次满 230"
   ],
   "next_candidate_tasks": [
-    "T0230-continue",
+    "T0231-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 24150514fea6e8fa94c75da68f42d1cc3492b118 T0229 软熨斗/烫垫 · 情绪280/剧本150\n轮次: 229 / 1000 · v0.2.6 · M2\n本段: T0222–T0229 画框…熨斗 · 内容280/150 · 测试235\n下一: T0230\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:10:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0230 补衣蛋/针线册 darn-label + ART-163/164 + 内容284/152\n轮次: 230 / 1000 · v0.2.6 · M2\n测试: 236 passed；双 smoke warmth=19\n下一: T0231\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:12:30Z"
 }

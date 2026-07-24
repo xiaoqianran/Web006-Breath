@@ -97,3 +97,4 @@ export * from "./spool-label";
 export * from "./shears-label";
 export * from "./pattern-label";
 export * from "./iron-label";
+export * from "./darn-label";
