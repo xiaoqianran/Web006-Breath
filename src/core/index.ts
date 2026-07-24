@@ -204,3 +204,4 @@ export * from "./softcrochet-label";
 export * from "./softknit-label";
 export * from "./softswatch-label";
 export * from "./softpom-label";
+export * from "./softtassel-label";

@@ -2910,6 +2910,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 363,
+    title: "流苏板",
+    opener: "第三百六十三日。流苏板静放，板沿还带着一点线的痕。",
+    sampleIndexes: [704, 705, 706, 703],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 364,
+    title: "蜡线",
+    opener: "第三百六十四日。蜡线绕过板沿，像店把散落也编成柔软。",
+    sampleIndexes: [705, 706, 707, 702],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
