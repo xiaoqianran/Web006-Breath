@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 405,
+  "current_round": 406,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0406-softbanana",
-  "last_completed_task_id": "T0405-softclaw",
-  "last_commit": "37f1736832e3251a4fe691794d8bf25095513159",
+  "current_task_id": "T0407-softslide",
+  "last_completed_task_id": "T0406-softbanana",
+  "last_commit": "0fbfd3b984cb53e0362090bd99fed49c26371df4",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 411 passed (284 files)",
+  "last_test_summary": "vitest: 413 passed (286 files incl. softslide prep)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -141,11 +141,10 @@
     "D-123 T0401 测试文件满 280"
   ],
   "next_candidate_tasks": [
-    "T0406-softbanana",
+    "T0407-softslide",
     "M2",
-    "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 37f1736832e3251a4fe691794d8bf25095513159 T0405 抓夹铰链 · 轮次405\n轮次: 405 / 1000 · v0.2.6 · M2\n本段: T0401–T0405 · 内容984/502 · 测试411 · ART~514\n下一: T0406 softbanana（用户要求继续）\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T08:47:02Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0fbfd3b984cb53e0362090bd99fed49c26371df4 T0406 香蕉夹齿排 · 轮次406\n轮次: 406 / 1000 · v0.2.6 · M2\n本段: T0402–T0406 · 内容988/504 · 测试413 · ART~516\n下一: T0407 softslide\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T08:49:05Z"
 }
