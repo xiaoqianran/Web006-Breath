@@ -197,6 +197,11 @@ import {
   formatSeedAside,
   formatSeedEncourage,
   formatSeedPair,
+  formatSoftBroomLine,
+  formatDustpanLine,
+  formatBroomAside,
+  formatBroomEncourage,
+  formatBroomPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1181,6 +1186,8 @@ export class YixiApp {
         <div class="cup-lid-art" role="img" aria-label="杯盖" data-testid="cup-lid-art"></div>
         <div class="bird-seed-jar-art" role="img" aria-label="鸟食罐" data-testid="bird-seed-jar-art"></div>
         <div class="seed-dish-art" role="img" aria-label="食盘" data-testid="seed-dish-art"></div>
+        <div class="soft-broom-art" role="img" aria-label="软扫帚" data-testid="soft-broom-art"></div>
+        <div class="dustpan-art" role="img" aria-label="簸箕" data-testid="dustpan-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1268,6 +1275,11 @@ export class YixiApp {
         <p class="muted" data-testid="seed-aside">${formatSeedAside(qLen)}</p>
         <p class="muted" data-testid="seed-encourage">${formatSeedEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="seed-pair">${formatSeedPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-broom-line">${formatSoftBroomLine(s.day)}</p>
+        <p class="muted" data-testid="dustpan-line">${formatDustpanLine(s.circulationsToday)}</p>
+        <p class="muted" data-testid="broom-aside">${formatBroomAside(s.warmth)}</p>
+        <p class="muted" data-testid="broom-encourage">${formatBroomEncourage(qLen)}</p>
+        <p class="muted" data-testid="broom-pair">${formatBroomPair(s.day, s.circulationsToday)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

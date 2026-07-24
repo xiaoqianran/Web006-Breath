@@ -212,3 +212,5 @@
 | ART-142 | `public/assets/ui/cup_lid.jpg` | 杯盖 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-143 | `public/assets/ui/bird_seed_jar.jpg` | 鸟食罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-144 | `public/assets/decor/seed_dish.jpg` | 食盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-145 | `public/assets/ui/soft_broom.jpg` | 软扫帚 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-146 | `public/assets/ui/dustpan.jpg` | 簸箕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

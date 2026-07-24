@@ -1712,6 +1712,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e245",
+    guestName: "匿名",
+    text: "想把今天的碎屑扫干净，再把心里的刺也收一收。",
+    tags: ["疲惫", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e246",
+    guestName: "陆安",
+    text: "扫帚扫过地面时，像有人轻轻说「可以重新开始」。",
+    tags: ["勇气", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e247",
+    guestName: "小满",
+    text: "簸箕里的花瓣与线头，像一天诚实的日记。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e248",
+    guestName: "阿初",
+    text: "第二百四十八次：请给我一把能收口的软扫帚。",
+    tags: ["期待", "释然"],
+    intensity: 3,
+  },
 ];
 
 
