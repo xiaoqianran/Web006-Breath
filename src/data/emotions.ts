@@ -2720,7 +2720,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e389",
+    guestName: "匿名",
+    text: "想把今天轻轻贴在台历上，不是催促，是到场。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e390",
+    guestName: "禾",
+    text: "今日贴纸边微翘，像轻轻说「就从这里开始」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e391",
+    guestName: "阿初",
+    text: "台历夹翻到新页，纸角还带着昨天的折。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e392",
+    guestName: "陆安",
+    text: "第三百九十二次：请给我一枚能圈住今天的贴。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 
