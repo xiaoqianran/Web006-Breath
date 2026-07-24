@@ -508,3 +508,5 @@
 | ART-438 | `public/assets/ui/anneal_tongs.jpg` | 退火钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-439 | `public/assets/ui/quench_bowl.jpg` | 淬火碗 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-440 | `public/assets/ui/steel_block.jpg` | 钢砧 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-441 | `public/assets/ui/bur_set.jpg` | 牙钻头 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-442 | `public/assets/ui/handpiece.jpg` | 手持机 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -3438,6 +3438,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 429,
+    title: "牙钻头",
+    opener: "第四百二十九日。牙钻头静放，盒沿还带着一点细的光。",
+    sampleIndexes: [836, 837, 838, 835],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 430,
+    title: "手持机",
+    opener: "第四百三十日。机带着头，像店把多余也磨成净。",
+    sampleIndexes: [837, 838, 839, 834],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

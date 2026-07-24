@@ -5856,6 +5856,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e837",
+    guestName: "小禾",
+    text: "牙钻头很细：只想磨一点多余，不硬削。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e838",
+    guestName: "阿南",
+    text: "手持机微震，像轻轻说「磨一下就好」。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e839",
+    guestName: "阿初",
+    text: "盒沿还带着一点细的光，像刚被换过的头。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e840",
+    guestName: "陆安",
+    text: "第八百四十次：请给我一下能把多余也温柔磨开的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
