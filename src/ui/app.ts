@@ -217,6 +217,11 @@ import {
   formatThimbleAside,
   formatThimbleEncourage,
   formatThimblePair,
+  formatButtonBoxLine,
+  formatSoftTapeLine,
+  formatButtonAside,
+  formatButtonEncourage,
+  formatButtonPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1209,6 +1214,8 @@ export class YixiApp {
         <div class="push-pin-tin-art" role="img" aria-label="图钉盒" data-testid="push-pin-tin-art"></div>
         <div class="copper-thimble-art" role="img" aria-label="顶针" data-testid="copper-thimble-art"></div>
         <div class="pincushion-art" role="img" aria-label="针垫" data-testid="pincushion-art"></div>
+        <div class="button-box-art" role="img" aria-label="钮扣匣" data-testid="button-box-art"></div>
+        <div class="soft-tape-art" role="img" aria-label="软尺" data-testid="soft-tape-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1316,6 +1323,10 @@ export class YixiApp {
         <p class="muted" data-testid="thimble-aside">${formatThimbleAside(s.warmth)}</p>
         <p class="muted" data-testid="thimble-encourage">${formatThimbleEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="thimble-pair">${formatThimblePair(s.day, s.history.length)}</p>
+        <p class="muted" data-testid="button-box-line">${formatButtonBoxLine(s.day)}</p>
+        <p class="muted" data-testid="soft-tape-line">${formatSoftTapeLine(s.warmth)}</p>
+        <p class="muted" data-testid="button-encourage">${formatButtonEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="button-pair">${formatButtonPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
@@ -1445,6 +1456,7 @@ export class YixiApp {
         <p class="muted" data-testid="ink-craft-aside">${formatInkAside(s.warmth)}</p>
         <p class="muted" data-testid="biscuit-gift-aside">${formatBiscuitAside(true)} ${formatBiscuitAside(false)}</p>
         <p class="muted" data-testid="ribbon-gift-aside">${formatRibbonAside(true)} ${formatRibbonAside(false)}</p>
+        <p class="muted" data-testid="button-gift-aside">${formatButtonAside(true)} ${formatButtonAside(false)}</p>
         <p class="muted" data-testid="gift-choice-hint">${formatCirculationChoiceHint("gift")} ${formatCirculationChoiceHint("display")}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <p class="muted" data-testid="order-match-aside">${formatOrderMatchAside(item, s.activeOrder)}</p>

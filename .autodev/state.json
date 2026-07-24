@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 224,
+  "current_round": 225,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0225-continue",
-  "last_completed_task_id": "T0224-thimble",
-  "last_commit": "2a06ddec157a8967ea9ccf2959e20d2b1e7c7ff1",
+  "current_task_id": "T0226-continue",
+  "last_completed_task_id": "T0225-button",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 230 passed (103 files)",
+  "last_test_summary": "vitest: 231 passed (104 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -33,11 +33,11 @@
     "D-015 T0224 情绪 260 / 剧本 140"
   ],
   "next_candidate_tasks": [
-    "T0225-continue",
+    "T0226-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2a06ddec157a8967ea9ccf2959e20d2b1e7c7ff1 T0224 顶针/针垫 · 情绪260/剧本140\n轮次: 224 / 1000 · v0.2.6 · M2\n本段: T0220–T0224 鸟食…顶针 · 内容260/140 · 测试230\n下一: T0225\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:02:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0225 钮扣匣/软尺 button-label + ART-153/154 + 内容264/142\n轮次: 225 / 1000 · v0.2.6 · M2\n测试: 231 passed；双 smoke warmth=19\n下一: T0226\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:03:50Z"
 }

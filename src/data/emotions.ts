@@ -1824,6 +1824,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e261",
+    guestName: "匿名",
+    text: "想找一颗刚好的钮扣，把敞着的心事扣上。",
+    tags: ["安心", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e262",
+    guestName: "小满",
+    text: "软尺量过肩宽，忽然觉得自己也可以被量得温柔。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e263",
+    guestName: "林",
+    text: "匣里缺的那几颗，像有人把合适带走了。",
+    tags: ["想念", "孤独"],
+    intensity: 4,
+  },
+  {
+    id: "e264",
+    guestName: "陆安",
+    text: "第二百六十四次：请给我一寸刚好的松量。",
+    tags: ["期待", "安心"],
+    intensity: 2,
+  },
 ];
 
 

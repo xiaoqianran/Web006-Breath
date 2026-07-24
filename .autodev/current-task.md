@@ -1,4 +1,4 @@
-# T0224 done
-next T0225
-230 tests (103 files) round 224
-thimble-label + copper thimble / pincushion + content 260/140
+# T0225 done
+next T0226
+231 tests (104 files) round 225
+button-label + button box / soft tape + content 264/142
