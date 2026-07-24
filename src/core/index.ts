@@ -60,3 +60,4 @@ export * from "./audio-label";
 export * from "./save-label";
 export * from "./revisit-label";
 export * from "./guestbook-label";
+export * from "./inventory-label";

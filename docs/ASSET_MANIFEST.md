@@ -161,3 +161,4 @@
 | ART-091 | `public/assets/decor/soft_suitcase.jpg` | 再访小行李箱 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-092 | `public/assets/ui/paper_lantern.jpg` | 纸灯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-093 | `public/assets/ui/guest_book.jpg` | 柜台留言簿 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-094 | `public/assets/ui/spice_jars.jpg` | 茶糖小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -928,6 +928,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "释然"],
     intensity: 2,
   },
+  {
+    id: "e133",
+    guestName: "匿名",
+    text: "拧开茶罐的瞬间，香气比我先说出口。",
+    tags: ["期待", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e134",
+    guestName: "棠",
+    text: "糖罐边沿沾了一点甜，像谁匆忙笑过。",
+    tags: ["安心", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e135",
+    guestName: "沈辞",
+    text: "货架上的小罐排成一排，像在排队被记住。",
+    tags: ["孤独", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e136",
+    guestName: "阿澄",
+    text: "第一百三十六次：请把今天的香气也流通出去。",
+    tags: ["勇气", "温柔"],
+    intensity: 4,
+  },
 ];
 
 
