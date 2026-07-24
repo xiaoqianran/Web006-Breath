@@ -482,6 +482,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/coil_pliers.jpg",
       "public/assets/ui/end_cap.jpg",
       "public/assets/ui/soft_bail.jpg",
+      "public/assets/ui/spacer_bead.jpg",
+      "public/assets/ui/bead_stopper.jpg",
     ];
 
 

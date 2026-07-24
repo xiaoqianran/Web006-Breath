@@ -252,3 +252,4 @@ export * from "./softjump-label";
 export * from "./softcrimp-label";
 export * from "./softcoil-label";
 export * from "./softendcap-label";
+export * from "./softspacer-label";

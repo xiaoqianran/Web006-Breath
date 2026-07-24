@@ -6276,6 +6276,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e897",
+    guestName: "小禾",
+    text: "隔珠很轻：只想隔一点，不硬挤。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e898",
+    guestName: "阿南",
+    text: "止珠器微合，像轻轻说「留一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e899",
+    guestName: "阿初",
+    text: "珠沿还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e900",
+    guestName: "陆安",
+    text: "第九百次：请给我一下能把拥挤也温柔留白的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

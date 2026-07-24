@@ -538,3 +538,5 @@
 | ART-468 | `public/assets/ui/coil_pliers.jpg` | 绕钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-469 | `public/assets/ui/end_cap.jpg` | 线头帽 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-470 | `public/assets/ui/soft_bail.jpg` | 吊坠环 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-471 | `public/assets/ui/spacer_bead.jpg` | 隔珠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-472 | `public/assets/ui/bead_stopper.jpg` | 止珠器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

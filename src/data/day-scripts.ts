@@ -3678,6 +3678,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 459,
+    title: "隔珠",
+    opener: "第四百五十九日。隔珠静散，珠沿还带着一点细的光。",
+    sampleIndexes: [896, 897, 898, 895],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 460,
+    title: "止珠器",
+    opener: "第四百六十日。器带着珠，像店把挤的也隔成松。",
+    sampleIndexes: [897, 898, 899, 894],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
