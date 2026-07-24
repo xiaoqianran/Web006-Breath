@@ -3486,6 +3486,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 435,
+    title: "刻刀",
+    opener: "第四百三十五日。刻刀静排，刃口还带着一点细的光。",
+    sampleIndexes: [848, 849, 850, 847],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 436,
+    title: "刻台",
+    opener: "第四百三十六日。台带着刀，像店把想说的也托成稳。",
+    sampleIndexes: [849, 850, 851, 846],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

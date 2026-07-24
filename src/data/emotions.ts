@@ -5940,6 +5940,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e849",
+    guestName: "小禾",
+    text: "刻刀很稳：只想刻一点，不硬划。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e850",
+    guestName: "阿南",
+    text: "刻台微稳，像轻轻说「刻一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e851",
+    guestName: "阿初",
+    text: "刃口还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e852",
+    guestName: "陆安",
+    text: "第八百五十二次：请给我一下能把想说的也轻轻留下的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

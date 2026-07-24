@@ -240,3 +240,4 @@ export * from "./softquench-label";
 export * from "./softbur-label";
 export * from "./softflex-label";
 export * from "./softbuff-label";
+export * from "./softgraver-label";

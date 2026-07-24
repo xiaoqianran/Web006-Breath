@@ -514,3 +514,5 @@
 | ART-444 | `public/assets/ui/foot_pedal.jpg` | 脚踏 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-445 | `public/assets/ui/buff_wheel.jpg` | 抛光轮 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-446 | `public/assets/ui/polish_cake.jpg` | 抛光膏 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-447 | `public/assets/ui/graver_set.jpg` | 刻刀 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-448 | `public/assets/ui/engraver_block.jpg` | 刻台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
