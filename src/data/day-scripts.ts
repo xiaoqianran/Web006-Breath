@@ -3166,6 +3166,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 395,
+    title: "小铁砧",
+    opener: "第三百九十五日。小铁砧静放，砧面还带着一点凉的稳。",
+    sampleIndexes: [768, 769, 770, 767],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 396,
+    title: "尼龙锤",
+    opener: "第三百九十六日。锤落在砧上，像店把硬边也敲成柔软。",
+    sampleIndexes: [769, 770, 771, 766],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

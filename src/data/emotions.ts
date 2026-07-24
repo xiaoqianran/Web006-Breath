@@ -5380,6 +5380,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e769",
+    guestName: "匿名",
+    text: "想用尼龙锤敲一下，让硬边也能被温柔地敲软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e770",
+    guestName: "禾",
+    text: "锤落在小铁砧上时，像店把硬边也敲成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e771",
+    guestName: "阿初",
+    text: "小铁砧砧面还带着一点凉的稳，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e772",
+    guestName: "陆安",
+    text: "第七百七十二次：请给我一下能敲软硬边的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

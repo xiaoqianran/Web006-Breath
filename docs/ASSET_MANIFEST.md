@@ -474,3 +474,5 @@
 | ART-404 | `public/assets/ui/flush_cutters.jpg` | 斜口剪 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-405 | `public/assets/ui/ring_mandrel.jpg` | 戒指棒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-406 | `public/assets/ui/ring_sizer.jpg` | 指圈尺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-407 | `public/assets/ui/mini_anvil.jpg` | 小铁砧 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-408 | `public/assets/ui/nylon_hammer.jpg` | 尼龙锤 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
