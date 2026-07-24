@@ -317,6 +317,11 @@ import {
   formatWaxsealAside,
   formatWaxsealEncourage,
   formatWaxsealPair,
+  formatSealStampLine,
+  formatInkPadLine,
+  formatStampAside,
+  formatStampEncourage,
+  formatStampPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1349,6 +1354,8 @@ export class YixiApp {
         <div class="eyelet-punch-art" role="img" aria-label="打孔钳" data-testid="eyelet-punch-art"></div>
         <div class="sealing-wax-art" role="img" aria-label="火漆" data-testid="sealing-wax-art"></div>
         <div class="wax-spoon-art" role="img" aria-label="封缄勺" data-testid="wax-spoon-art"></div>
+        <div class="seal-stamp-art" role="img" aria-label="印模" data-testid="seal-stamp-art"></div>
+        <div class="ink-pad-art" role="img" aria-label="印泥" data-testid="ink-pad-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1555,6 +1562,11 @@ export class YixiApp {
         <p class="muted" data-testid="waxseal-aside">${formatWaxsealAside(s.history.length)}</p>
         <p class="muted" data-testid="waxseal-encourage">${formatWaxsealEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="waxseal-pair">${formatWaxsealPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="seal-stamp-line">${formatSealStampLine(s.day)}</p>
+        <p class="muted" data-testid="ink-pad-line">${formatInkPadLine(s.warmth)}</p>
+        <p class="muted" data-testid="stamp-aside">${formatStampAside(s.history.length)}</p>
+        <p class="muted" data-testid="stamp-encourage">${formatStampEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="stamp-pair">${formatStampPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

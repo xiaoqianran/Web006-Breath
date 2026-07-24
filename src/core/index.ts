@@ -112,3 +112,4 @@ export * from "./knife-label";
 export * from "./corner-label";
 export * from "./eyelet-label";
 export * from "./waxseal-label";
+export * from "./stamp-label";

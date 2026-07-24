@@ -1,4 +1,4 @@
-# T0244 done
-next T0245
-250 tests (123 files) round 244
-waxseal-label + sealing wax / wax spoon + content 340/180
+# T0245 done
+next T0246
+251 tests (124 files) round 245
+stamp-label + seal stamp / ink pad + content 344/182

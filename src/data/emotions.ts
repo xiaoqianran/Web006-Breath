@@ -2384,6 +2384,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e341",
+    guestName: "匿名",
+    text: "想在火漆上压一记「我在」，再把册子递出去。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e342",
+    guestName: "禾",
+    text: "印泥微润，颜色浅而稳，不会糊开。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e343",
+    guestName: "阿初",
+    text: "铜印压下时，像店轻轻说了一声我在。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e344",
+    guestName: "陆安",
+    text: "第三百四十四次：请给我一枚能署名的铜印。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

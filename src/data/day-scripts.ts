@@ -1454,6 +1454,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 30,
   },
+  {
+    day: 181,
+    title: "铜印模",
+    opener: "第一百八十一日。印模擦过一遍，铜面上的纹路又清晰了。",
+    sampleIndexes: [340, 341, 342, 336],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 182,
+    title: "印泥润",
+    opener: "第一百八十二日。印泥微润，颜色浅而稳，不会糊开。",
+    sampleIndexes: [341, 342, 343, 338],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

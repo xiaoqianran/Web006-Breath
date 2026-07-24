@@ -260,3 +260,5 @@
 | ART-190 | `public/assets/ui/eyelet_punch.jpg` | 打孔钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-191 | `public/assets/ui/sealing_wax.jpg` | 火漆 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-192 | `public/assets/ui/wax_spoon.jpg` | 封缄勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-193 | `public/assets/ui/seal_stamp.jpg` | 印模 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-194 | `public/assets/ui/ink_pad.jpg` | 印泥 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
