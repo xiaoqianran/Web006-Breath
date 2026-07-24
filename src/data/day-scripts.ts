@@ -2670,6 +2670,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 333,
+    title: "软布卷尺",
+    opener: "第三百三十三日。软布卷尺卷好，尺面还带着一点布的温。",
+    sampleIndexes: [644, 645, 646, 640],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 334,
+    title: "卷尺木夹",
+    opener: "第三百三十四日。尺端被木夹轻轻扣住，像店把量出的温柔也记牢。",
+    sampleIndexes: [645, 646, 647, 642],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

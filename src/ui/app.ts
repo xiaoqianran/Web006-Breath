@@ -697,6 +697,11 @@ import {
   formatBeeswaxAside,
   formatBeeswaxEncourage,
   formatBeeswaxPair,
+  formatSoftClothTapeLine,
+  formatTapeWoodClipLine,
+  formatSofttapeAside,
+  formatSofttapeEncourage,
+  formatSofttapePair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1881,6 +1886,8 @@ export class YixiApp {
         <div class="sachet-dish-art" role="img" aria-label="瓷香囊碟" data-testid="sachet-dish-art"></div>
         <div class="beeswax-tin-art" role="img" aria-label="蜂蜡小烛" data-testid="beeswax-tin-art"></div>
         <div class="strike-strip-art" role="img" aria-label="擦火条" data-testid="strike-strip-art"></div>
+        <div class="soft-cloth-tape-art" role="img" aria-label="软布卷尺" data-testid="soft-cloth-tape-art"></div>
+        <div class="tape-wood-clip-art" role="img" aria-label="卷尺木夹" data-testid="tape-wood-clip-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2467,6 +2474,11 @@ export class YixiApp {
         <p class="muted" data-testid="beeswax-aside">${formatBeeswaxAside(s.history.length)}</p>
         <p class="muted" data-testid="beeswax-encourage">${formatBeeswaxEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="beeswax-pair">${formatBeeswaxPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-cloth-tape-line">${formatSoftClothTapeLine(s.day)}</p>
+        <p class="muted" data-testid="tape-wood-clip-line">${formatTapeWoodClipLine(s.warmth)}</p>
+        <p class="muted" data-testid="softtape-aside">${formatSofttapeAside(s.history.length)}</p>
+        <p class="muted" data-testid="softtape-encourage">${formatSofttapeEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softtape-pair">${formatSofttapePair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

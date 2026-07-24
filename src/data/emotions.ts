@@ -4512,6 +4512,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e645",
+    guestName: "匿名",
+    text: "想用软布卷尺量一寸，让合适也能被温柔地量出来。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e646",
+    guestName: "禾",
+    text: "尺端被木夹轻轻扣住时，像店把量出的温柔也记牢。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e647",
+    guestName: "阿初",
+    text: "软布卷尺尺面还带着一点布的温，像刚被卷好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e648",
+    guestName: "陆安",
+    text: "第六百四十八次：请给我一寸能合身的量。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
