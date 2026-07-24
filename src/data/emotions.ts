@@ -4652,6 +4652,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e665",
+    guestName: "匿名",
+    text: "想用小蒸汽熨轻轻过一痕，让褶皱也能被温柔地抚平。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e666",
+    guestName: "禾",
+    text: "熨布隔在布上时，像店把热也温柔地隔开。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e667",
+    guestName: "阿初",
+    text: "蒸汽熨底板还带着一点温的光，像刚被擦过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e668",
+    guestName: "陆安",
+    text: "第六百六十八次：请给我一痕能抚平褶的热。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

@@ -2750,6 +2750,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 343,
+    title: "小蒸汽熨",
+    opener: "第三百四十三日。小蒸汽熨静放，底板还带着一点温的光。",
+    sampleIndexes: [664, 665, 666, 660],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 344,
+    title: "熨布",
+    opener: "第三百四十四日。熨布隔在布上，像店把热也温柔地隔开。",
+    sampleIndexes: [665, 666, 667, 662],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

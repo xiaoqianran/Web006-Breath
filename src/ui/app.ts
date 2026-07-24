@@ -722,6 +722,11 @@ import {
   formatRotarycutAside,
   formatRotarycutEncourage,
   formatRotarycutPair,
+  formatMiniSteamIronLine,
+  formatSteamPressClothLine,
+  formatSteampressAside,
+  formatSteampressEncourage,
+  formatSteampressPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1916,6 +1921,8 @@ export class YixiApp {
         <div class="paper-pattern-art" role="img" aria-label="裁片纸样" data-testid="paper-pattern-art"></div>
         <div class="rotary-cutter-art" role="img" aria-label="滚刀" data-testid="rotary-cutter-art"></div>
         <div class="soft-cut-mat-art" role="img" aria-label="软裁垫" data-testid="soft-cut-mat-art"></div>
+        <div class="mini-steam-iron-art" role="img" aria-label="小蒸汽熨" data-testid="mini-steam-iron-art"></div>
+        <div class="steam-press-cloth-art" role="img" aria-label="熨布" data-testid="steam-press-cloth-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2527,6 +2534,11 @@ export class YixiApp {
         <p class="muted" data-testid="rotarycut-aside">${formatRotarycutAside(s.history.length)}</p>
         <p class="muted" data-testid="rotarycut-encourage">${formatRotarycutEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="rotarycut-pair">${formatRotarycutPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="mini-steam-iron-line">${formatMiniSteamIronLine(s.day)}</p>
+        <p class="muted" data-testid="steam-press-cloth-line">${formatSteamPressClothLine(s.warmth)}</p>
+        <p class="muted" data-testid="steampress-aside">${formatSteampressAside(s.history.length)}</p>
+        <p class="muted" data-testid="steampress-encourage">${formatSteampressEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="steampress-pair">${formatSteampressPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
