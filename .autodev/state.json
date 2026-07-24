@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 332,
+  "current_round": 333,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0333-continue",
-  "last_completed_task_id": "T0332-softcrochet",
-  "last_commit": "a5ff8f9654c24bf98ab7f1b5320b982bc76d72f9",
+  "current_task_id": "T0334-continue",
+  "last_completed_task_id": "T0333-softknit",
+  "last_commit": "510e685dca588bae1014d63c120a926e8b0c8b30",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 338 passed (211 files)",
+  "last_test_summary": "vitest: 339 passed (212 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -88,11 +88,11 @@
     "D-070 T0330 开发轮次满 330"
   ],
   "next_candidate_tasks": [
-    "T0333-continue",
+    "T0334-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: a5ff8f9654c24bf98ab7f1b5320b982bc76d72f9 T0332 钩针线团 · 轮次332\n轮次: 332 / 1000 · v0.2.6 · M2\n本段: T0328–T0332 · 内容692/356 · 测试338 · ART~368 · D-070\n下一: T0333\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:41:17Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 510e685dca588bae1014d63c120a926e8b0c8b30 T0333 棒针记号扣 · 轮次333\n轮次: 333 / 1000 · v0.2.6 · M2\n本段: T0329–T0333 · 内容696/358 · 测试339 · ART~370 · D-070\n下一: T0334\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:43:34Z"
 }
