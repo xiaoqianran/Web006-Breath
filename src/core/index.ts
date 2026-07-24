@@ -162,3 +162,4 @@ export * from "./herboil-label";
 export * from "./salve-label";
 export * from "./gauze-label";
 export * from "./rosewater-label";
+export * from "./soapbar-label";

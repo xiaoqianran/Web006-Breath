@@ -358,3 +358,5 @@
 | ART-288 | `public/assets/ui/gauze_roll.jpg` | 纱布卷 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-289 | `public/assets/ui/rose_water_bottle.jpg` | 花露水瓶 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-290 | `public/assets/ui/linen_cloth.jpg` | 亚麻手帕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-291 | `public/assets/ui/soap_bar.jpg` | 香皂块 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-292 | `public/assets/ui/soap_dish.jpg` | 木皂碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

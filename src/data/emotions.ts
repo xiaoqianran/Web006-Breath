@@ -3756,6 +3756,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e537",
+    guestName: "匿名",
+    text: "想搓一点香皂沫，让手上的累也能被轻轻洗掉。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e538",
+    guestName: "禾",
+    text: "皂在木碟里轻轻转时，像店把干净也递给双手。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e539",
+    guestName: "阿初",
+    text: "香皂表面还带着一点细细的润，像刚被水碰过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e540",
+    guestName: "陆安",
+    text: "第五百四十次：请给我一块能洗掉尘的皂。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

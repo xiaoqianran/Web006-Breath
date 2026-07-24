@@ -2238,6 +2238,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 279,
+    title: "香皂块",
+    opener: "第二百七十九日。香皂块静放，表面还带着一点细细的润。",
+    sampleIndexes: [536, 537, 538, 532],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 280,
+    title: "木皂碟",
+    opener: "第二百八十日。皂在碟里轻轻转，像店把干净也递给双手。",
+    sampleIndexes: [537, 538, 539, 534],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
