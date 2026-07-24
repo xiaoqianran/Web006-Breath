@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 311,
+  "current_round": 312,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0312-continue",
-  "last_completed_task_id": "T0311-softmitten",
-  "last_commit": "d07921cb4772bc8945b735ef178f42e99c9f6036",
+  "current_task_id": "T0313-continue",
+  "last_completed_task_id": "T0312-thermos",
+  "last_commit": "8509ed3562e91d7e33ef25ec5a9e27297ad655ff",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 317 passed (190 files)",
+  "last_test_summary": "vitest: 318 passed (191 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -76,11 +76,11 @@
     "D-058 T0310 开发轮次满 310"
   ],
   "next_candidate_tasks": [
-    "T0312-continue",
+    "T0313-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d07921cb4772bc8945b735ef178f42e99c9f6036 T0311 软织连指手套/柳编筐 · 轮次311\n轮次: 311 / 1000 · v0.2.6 · M2\n本段: T0307–T0311 · 内容608/314 · 测试317 · ART~326 · D-057/058\n下一: T0312\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:56:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8509ed3562e91d7e33ef25ec5a9e27297ad655ff T0312 保温瓷壶/羊毛套 · 轮次312\n轮次: 312 / 1000 · v0.2.6 · M2\n本段: T0308–T0312 · 内容612/316 · 测试318 · ART~328 · D-057/058\n下一: T0313\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:58:00Z"
 }
