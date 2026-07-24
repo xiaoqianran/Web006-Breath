@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 294,
+  "current_round": 295,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0295-continue",
-  "last_completed_task_id": "T0294-soapbar",
-  "last_commit": "af9590e9ab620c584c64f02186144e42c1248b7e",
+  "current_task_id": "T0296-continue",
+  "last_completed_task_id": "T0295-lotion",
+  "last_commit": "0613bc8ee7ab7328cb4b77a61be7f9b203f4d8d7",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 300 passed (173 files)",
+  "last_test_summary": "vitest: 301 passed (174 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -69,11 +69,11 @@
     "D-051 T0294 日剧本满 280 / 测试 300"
   ],
   "next_candidate_tasks": [
-    "T0295-continue",
+    "T0296-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: af9590e9ab620c584c64f02186144e42c1248b7e T0294 香皂块/木皂碟 · 轮次294 · 剧本280 · 测试300\n轮次: 294 / 1000 · v0.2.6 · M2\n本段: T0290–T0294 · 内容540/280 · 测试300 · ART~292 · D-051\n下一: T0295\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:21:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0613bc8ee7ab7328cb4b77a61be7f9b203f4d8d7 T0295 润肤乳瓶/按压泵 · 轮次295\n轮次: 295 / 1000 · v0.2.6 · M2\n本段: T0291–T0295 · 内容544/282 · 测试301 · ART~294 · D-051\n下一: T0296\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:23:30Z"
 }
