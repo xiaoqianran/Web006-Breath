@@ -76,3 +76,4 @@ export * from "./sachet-label";
 export * from "./hook-label";
 export * from "./letter-label";
 export * from "./apron-label";
+export * from "./radio-label";

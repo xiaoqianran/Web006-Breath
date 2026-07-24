@@ -1376,6 +1376,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "安心"],
     intensity: 3,
   },
+  {
+    id: "e197",
+    guestName: "匿名",
+    text: "想把心里的嘈杂调低，像店里的软广播那样。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e198",
+    guestName: "听雨",
+    text: "唱针落下的瞬间，有句话终于敢被听完。",
+    tags: ["勇气", "释然"],
+    intensity: 4,
+  },
+  {
+    id: "e199",
+    guestName: "禾",
+    text: "电台沙沙响着，像有人替我守着空白。",
+    tags: ["孤独", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e200",
+    guestName: "陆安",
+    text: "第二百次：请把我的心情做成可以循环的旋律。",
+    tags: ["期待", "悸动"],
+    intensity: 3,
+  },
 ];
 
 

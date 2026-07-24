@@ -188,3 +188,5 @@
 | ART-118 | `public/assets/ui/stamp_tray.jpg` | 邮票托盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-119 | `public/assets/ui/linen_apron.jpg` | 店主围裙 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-120 | `public/assets/ui/soft_cuffs.jpg` | 袖套 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-121 | `public/assets/ui/soft_radio.jpg` | 软广播 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-122 | `public/assets/ui/record_needle.jpg` | 唱针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

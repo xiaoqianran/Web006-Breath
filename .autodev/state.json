@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 208,
+  "current_round": 209,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0209-continue",
-  "last_completed_task_id": "T0208-apron",
-  "last_commit": "ae709b504714df4ed06c1942390722bd65211960",
+  "current_task_id": "T0210-continue",
+  "last_completed_task_id": "T0209-radio",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 214 passed (87 files)",
+  "last_test_summary": "vitest: 215 passed (88 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -23,14 +23,15 @@
     "D-005",
     "D-006",
     "D-007 M2 orders",
-    "D-008 T0200 印鉴纪念百位里程碑"
+    "D-008 T0200 印鉴纪念百位里程碑",
+    "D-009 T0209 情绪样本满 200"
   ],
   "next_candidate_tasks": [
-    "T0209-continue",
+    "T0210-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ae709b504714df4ed06c1942390722bd65211960 T0208 围裙/袖套\n轮次: 208 / 1000 · v0.2.6 · M2\n本段: T0205–T0208 香囊/衣帽钩/回信匣/围裙 · 内容196/108\n测试: 214 passed；双 smoke warmth=19\n下一: T0209\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:33:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0209 软广播/唱针 radio-label + ART-121/122 + 内容200/110\n轮次: 209 / 1000 · v0.2.6 · M2\n测试: 215 passed；双 smoke warmth=19\n下一: T0210\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:36:00Z"
 }

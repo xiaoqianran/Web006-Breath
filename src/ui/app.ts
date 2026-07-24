@@ -137,6 +137,11 @@ import {
   formatApronAside,
   formatKeeperEncourage,
   formatApronPair,
+  formatRadioLine,
+  formatNeedleLine,
+  formatRadioAside,
+  formatRadioEncourage,
+  formatRadioPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1097,6 +1102,8 @@ export class YixiApp {
         <div class="stamp-tray-art" role="img" aria-label="邮票托盘" data-testid="stamp-tray-art"></div>
         <div class="linen-apron-art" role="img" aria-label="店主围裙" data-testid="linen-apron-art"></div>
         <div class="soft-cuffs-art" role="img" aria-label="袖套" data-testid="soft-cuffs-art"></div>
+        <div class="soft-radio-art" role="img" aria-label="软广播" data-testid="soft-radio-art"></div>
+        <div class="record-needle-art" role="img" aria-label="唱针" data-testid="record-needle-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1126,6 +1133,11 @@ export class YixiApp {
         <p class="muted" data-testid="apron-aside">${formatApronAside(s.warmth)}</p>
         <p class="muted" data-testid="keeper-encourage">${formatKeeperEncourage(qLen)}</p>
         <p class="muted" data-testid="apron-pair">${formatApronPair(s.day, s.circulationsToday)}</p>
+        <p class="muted" data-testid="radio-line">${formatRadioLine(s.day)}</p>
+        <p class="muted" data-testid="needle-line">${formatNeedleLine(s.warmth)}</p>
+        <p class="muted" data-testid="radio-aside">${formatRadioAside(false)}</p>
+        <p class="muted" data-testid="radio-encourage">${formatRadioEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="radio-pair">${formatRadioPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
@@ -1176,6 +1188,8 @@ export class YixiApp {
         <p class="muted" data-testid="compass-line">${formatCompassForEmotion(e)}</p>
         <p class="muted" data-testid="compass-aside">${formatCompassAside(e)}</p>
         <p class="muted" data-testid="map-path-aside">${formatMapPathAside(s.day)}</p>
+        <p class="muted" data-testid="radio-craft-line">${formatRadioLine(s.day)}</p>
+        <p class="muted" data-testid="radio-music-aside">${formatRadioAside(true)} ${formatRadioAside(false)}</p>
         <p class="muted">选择容器形态</p>
         <div class="vessel-grid" data-testid="vessel-grid"></div>
         <p class="muted" data-testid="hints" style="margin-top:0.75rem"></p>
