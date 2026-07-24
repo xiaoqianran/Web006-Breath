@@ -4204,6 +4204,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e601",
+    guestName: "匿名",
+    text: "想收一把折叠伞，让湿也能被温柔地放在门口。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e602",
+    guestName: "禾",
+    text: "伞插入瓷筒时，像店把门外的雨也托在门口。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e603",
+    guestName: "阿初",
+    text: "折叠伞伞骨还带着一点雨后的润，像刚被收起。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e604",
+    guestName: "陆安",
+    text: "第六百零四次：请给我一把能收住湿的伞。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

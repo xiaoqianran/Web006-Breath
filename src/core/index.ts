@@ -178,3 +178,4 @@ export * from "./guestcup-label";
 export * from "./deskbell-label";
 export * from "./signbook-label";
 export * from "./softscarf-label";
+export * from "./foldumb-label";

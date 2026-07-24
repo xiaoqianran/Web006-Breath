@@ -390,3 +390,5 @@
 | ART-320 | `public/assets/ui/graphite_pencil.jpg` | 石墨铅笔 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-321 | `public/assets/ui/soft_wool_scarf.jpg` | 软羊毛围巾 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-322 | `public/assets/ui/wood_coat_peg.jpg` | 木衣钉 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-323 | `public/assets/ui/fold_umbrella.jpg` | 折叠伞 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-324 | `public/assets/ui/ceramic_um_stand.jpg` | 瓷伞筒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

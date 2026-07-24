@@ -2494,6 +2494,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 311,
+    title: "折叠伞",
+    opener: "第三百一十一日。折叠伞收好，伞骨还带着一点雨后的润。",
+    sampleIndexes: [600, 601, 602, 596],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 312,
+    title: "瓷伞筒",
+    opener: "第三百一十二日。伞插入瓷筒，像店把门外的雨也托在门口。",
+    sampleIndexes: [601, 602, 603, 598],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
