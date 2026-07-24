@@ -340,3 +340,5 @@
 | ART-270 | `public/assets/ui/sugar_sieve.jpg` | 糖粉筛 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-271 | `public/assets/ui/cookie_tin.jpg` | 饼干铁盒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-272 | `public/assets/ui/twist_tie.jpg` | 扎带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-273 | `public/assets/ui/recipe_card.jpg` | 手写菜谱卡 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-274 | `public/assets/ui/wood_clip.jpg` | 木夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -284,7 +284,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/sugar_sieve.jpg",
       "public/assets/ui/cookie_tin.jpg",
       "public/assets/ui/twist_tie.jpg",
+      "public/assets/ui/recipe_card.jpg",
+      "public/assets/ui/wood_clip.jpg",
     ];
+
 
 
 

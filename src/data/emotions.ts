@@ -3504,7 +3504,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e501",
+    guestName: "匿名",
+    text: "想把手写菜谱轻轻夹在台边，下次还能复现这份温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e502",
+    guestName: "禾",
+    text: "木夹别住卡角时，像店把记忆也钉在台边。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e503",
+    guestName: "阿初",
+    text: "菜谱卡纸边还带着一点墨的干，像刚写完步骤。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e504",
+    guestName: "陆安",
+    text: "第五百零四次：请给我一张能复现温柔的卡。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

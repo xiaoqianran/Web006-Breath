@@ -2094,7 +2094,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 261,
+    title: "手写菜谱卡",
+    opener: "第二百六十一日。手写菜谱卡抽出，纸边还带着一点墨的干。",
+    sampleIndexes: [500, 501, 502, 496],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 262,
+    title: "木夹",
+    opener: "第二百六十二日。木夹别住卡角，像店把记忆也钉在台边。",
+    sampleIndexes: [501, 502, 503, 498],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
