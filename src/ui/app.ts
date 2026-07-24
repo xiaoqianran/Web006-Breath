@@ -522,6 +522,11 @@ import {
   formatRecipecardAside,
   formatRecipecardEncourage,
   formatRecipecardPair,
+  formatOvenThermoLine,
+  formatTimerDialLine,
+  formatOventhermoAside,
+  formatOventhermoEncourage,
+  formatOventhermoPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1636,6 +1641,8 @@ export class YixiApp {
         <div class="twist-tie-art" role="img" aria-label="扎带" data-testid="twist-tie-art"></div>
         <div class="recipe-card-art" role="img" aria-label="手写菜谱卡" data-testid="recipe-card-art"></div>
         <div class="wood-clip-art" role="img" aria-label="木夹" data-testid="wood-clip-art"></div>
+        <div class="oven-thermo-art" role="img" aria-label="烤箱温度计" data-testid="oven-thermo-art"></div>
+        <div class="timer-dial-art" role="img" aria-label="计时旋钮" data-testid="timer-dial-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2047,6 +2054,11 @@ export class YixiApp {
         <p class="muted" data-testid="recipecard-aside">${formatRecipecardAside(s.history.length)}</p>
         <p class="muted" data-testid="recipecard-encourage">${formatRecipecardEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="recipecard-pair">${formatRecipecardPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="oven-thermo-line">${formatOvenThermoLine(s.day)}</p>
+        <p class="muted" data-testid="timer-dial-line">${formatTimerDialLine(s.warmth)}</p>
+        <p class="muted" data-testid="oventhermo-aside">${formatOventhermoAside(s.history.length)}</p>
+        <p class="muted" data-testid="oventhermo-encourage">${formatOventhermoEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="oventhermo-pair">${formatOventhermoPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

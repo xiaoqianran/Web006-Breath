@@ -2110,7 +2110,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 263,
+    title: "烤箱温度计",
+    opener: "第二百六十三日。烤箱温度计立着，表盘还带着一点玻璃的亮。",
+    sampleIndexes: [504, 505, 506, 500],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 264,
+    title: "计时旋钮",
+    opener: "第二百六十四日。计时旋钮转到中间，像店把等待也拧成可听见的刻度。",
+    sampleIndexes: [505, 506, 507, 502],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

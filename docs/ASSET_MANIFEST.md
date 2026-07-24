@@ -342,3 +342,5 @@
 | ART-272 | `public/assets/ui/twist_tie.jpg` | 扎带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-273 | `public/assets/ui/recipe_card.jpg` | 手写菜谱卡 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-274 | `public/assets/ui/wood_clip.jpg` | 木夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-275 | `public/assets/ui/oven_thermo.jpg` | 烤箱温度计 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-276 | `public/assets/ui/timer_dial.jpg` | 计时旋钮 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

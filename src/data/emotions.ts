@@ -3532,7 +3532,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e505",
+    guestName: "匿名",
+    text: "想看着温度计慢慢升，让火候也温柔可感。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e506",
+    guestName: "禾",
+    text: "计时旋钮转到中间时，像店把等待也拧成可听见的刻度。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e507",
+    guestName: "阿初",
+    text: "烤箱温度计表盘还带着一点玻璃的亮，像刚立稳。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e508",
+    guestName: "听雨",
+    text: "第五百零八次：请给我一枚能温柔到点的钮。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 
