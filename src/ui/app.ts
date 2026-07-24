@@ -792,6 +792,11 @@ import {
   formatSoftgaugeAside,
   formatSoftgaugeEncourage,
   formatSoftgaugePair,
+  formatBallWinderLine,
+  formatYarnSwiftLine,
+  formatSoftwinderAside,
+  formatSoftwinderEncourage,
+  formatSoftwinderPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2014,6 +2019,8 @@ export class YixiApp {
         <div class="basting-thread-art" role="img" aria-label="绷缝线" data-testid="basting-thread-art"></div>
         <div class="needle-gauge-art" role="img" aria-label="棒针尺" data-testid="needle-gauge-art"></div>
         <div class="cable-needle-art" role="img" aria-label="麻花针" data-testid="cable-needle-art"></div>
+        <div class="ball-winder-art" role="img" aria-label="绕线器" data-testid="ball-winder-art"></div>
+        <div class="yarn-swift-art" role="img" aria-label="纱架" data-testid="yarn-swift-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2695,6 +2702,11 @@ export class YixiApp {
         <p class="muted" data-testid="softgauge-aside">${formatSoftgaugeAside(s.history.length)}</p>
         <p class="muted" data-testid="softgauge-encourage">${formatSoftgaugeEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softgauge-pair">${formatSoftgaugePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="ball-winder-line">${formatBallWinderLine(s.day)}</p>
+        <p class="muted" data-testid="yarn-swift-line">${formatYarnSwiftLine(s.warmth)}</p>
+        <p class="muted" data-testid="softwinder-aside">${formatSoftwinderAside(s.history.length)}</p>
+        <p class="muted" data-testid="softwinder-encourage">${formatSoftwinderEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softwinder-pair">${formatSoftwinderPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

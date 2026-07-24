@@ -450,3 +450,5 @@
 | ART-380 | `public/assets/ui/basting_thread.jpg` | 绷缝线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-381 | `public/assets/ui/needle_gauge.jpg` | 棒针尺 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-382 | `public/assets/ui/cable_needle.jpg` | 麻花针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-383 | `public/assets/ui/ball_winder.jpg` | 绕线器 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-384 | `public/assets/ui/yarn_swift.jpg` | 纱架 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

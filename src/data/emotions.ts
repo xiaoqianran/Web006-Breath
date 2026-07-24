@@ -5044,6 +5044,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e721",
+    guestName: "匿名",
+    text: "想用绕线器绕一圈，让散乱也能被温柔地绕成有序。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e722",
+    guestName: "禾",
+    text: "纱在纱架上转时，像店把散乱也绕成有序。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e723",
+    guestName: "阿初",
+    text: "绕线器轴心还带着一点木的温，像刚被转过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e724",
+    guestName: "陆安",
+    text: "第七百二十四次：请给我一圈能绕成有序的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
