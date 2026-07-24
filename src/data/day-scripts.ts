@@ -3198,6 +3198,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 399,
+    title: "抛光膏",
+    opener: "第三百九十九日。抛光膏静放，盖沿还带着一点细粉的痕。",
+    sampleIndexes: [776, 777, 778, 775],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 400,
+    title: "绒布棒",
+    opener: "第四百日。棒贴着面，像店把暗面也擦成光。",
+    sampleIndexes: [777, 778, 779, 774],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

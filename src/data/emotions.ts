@@ -5436,6 +5436,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e777",
+    guestName: "匿名",
+    text: "想用抛光膏擦一抹，让暗面也能被温柔地擦出光。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e778",
+    guestName: "禾",
+    text: "绒布棒贴着面时，像店把暗面也擦成光。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e779",
+    guestName: "阿初",
+    text: "抛光膏盖沿还带着一点细粉的痕，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e780",
+    guestName: "陆安",
+    text: "第七百八十次：请给我一抹能擦出光的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
