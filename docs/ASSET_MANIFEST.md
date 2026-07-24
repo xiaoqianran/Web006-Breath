@@ -228,3 +228,5 @@
 | ART-158 | `public/assets/ui/snip_dish.jpg` | 剪线碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-159 | `public/assets/ui/pattern_paper.jpg` | 裁样纸 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-160 | `public/assets/ui/chalk_wheel.jpg` | 划粉 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-161 | `public/assets/ui/soft_iron.jpg` | 软熨斗 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-162 | `public/assets/ui/press_pad.jpg` | 烫垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

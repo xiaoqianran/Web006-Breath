@@ -1936,6 +1936,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "安心"],
     intensity: 2,
   },
+  {
+    id: "e277",
+    guestName: "匿名",
+    text: "想把心里的褶皱烫平一点，不必烫成别人喜欢的样子。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e278",
+    guestName: "小满",
+    text: "蒸汽升起来时，像有人轻轻说「可以服帖了」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e279",
+    guestName: "林",
+    text: "烫垫上的浅印，像刚熨过的袖口还留着温度。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e280",
+    guestName: "陆安",
+    text: "第二百八十次：请给我一块刚好的温度，不要烫人。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

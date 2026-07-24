@@ -237,6 +237,11 @@ import {
   formatPatternAside,
   formatPatternEncourage,
   formatPatternPair,
+  formatSoftIronLine,
+  formatPressPadLine,
+  formatIronAside,
+  formatIronEncourage,
+  formatIronPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1237,6 +1242,8 @@ export class YixiApp {
         <div class="snip-dish-art" role="img" aria-label="剪线碟" data-testid="snip-dish-art"></div>
         <div class="pattern-paper-art" role="img" aria-label="裁样纸" data-testid="pattern-paper-art"></div>
         <div class="chalk-wheel-art" role="img" aria-label="划粉" data-testid="chalk-wheel-art"></div>
+        <div class="soft-iron-art" role="img" aria-label="软熨斗" data-testid="soft-iron-art"></div>
+        <div class="press-pad-art" role="img" aria-label="烫垫" data-testid="press-pad-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1363,6 +1370,11 @@ export class YixiApp {
         <p class="muted" data-testid="pattern-aside">${formatPatternAside(s.circulationsToday)}</p>
         <p class="muted" data-testid="pattern-encourage">${formatPatternEncourage(qLen)}</p>
         <p class="muted" data-testid="pattern-pair">${formatPatternPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-iron-line">${formatSoftIronLine(s.day)}</p>
+        <p class="muted" data-testid="press-pad-line">${formatPressPadLine(s.warmth)}</p>
+        <p class="muted" data-testid="iron-aside">${formatIronAside(s.circulationsToday)}</p>
+        <p class="muted" data-testid="iron-encourage">${formatIronEncourage(qLen)}</p>
+        <p class="muted" data-testid="iron-pair">${formatIronPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
