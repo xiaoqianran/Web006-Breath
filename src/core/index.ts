@@ -175,3 +175,4 @@ export * from "./penrest-label";
 export * from "./letteropener-label";
 export * from "./deskcal-label";
 export * from "./guestcup-label";
+export * from "./deskbell-label";

@@ -384,3 +384,5 @@
 | ART-314 | `public/assets/ui/day_page_ribbon.jpg` | 日页丝带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-315 | `public/assets/ui/guest_cup.jpg` | 待客瓷杯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-316 | `public/assets/ui/linen_coaster.jpg` | 亚麻杯垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-317 | `public/assets/ui/brass_desk_bell.jpg` | 柜台黄铜铃 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-318 | `public/assets/ui/felt_mallet.jpg` | 毡槌 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

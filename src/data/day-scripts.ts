@@ -2446,6 +2446,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 305,
+    title: "柜台黄铜铃",
+    opener: "第三百零五日。黄铜铃静放，罩面还映着一点暖的金。",
+    sampleIndexes: [588, 589, 590, 584],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 306,
+    title: "毡槌",
+    opener: "第三百零六日。毡槌点上铃罩，像店把新客也温柔地报进门。",
+    sampleIndexes: [589, 590, 591, 586],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

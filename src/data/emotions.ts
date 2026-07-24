@@ -4120,6 +4120,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e589",
+    guestName: "匿名",
+    text: "想轻敲一下柜台铃，让到来也被温柔地报一声。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e590",
+    guestName: "禾",
+    text: "毡槌点上铃罩时，像店把新客也温柔地报进门。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e591",
+    guestName: "阿初",
+    text: "黄铜铃罩面还映着一点暖的金，像刚被擦过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e592",
+    guestName: "陆安",
+    text: "第五百九十二次：请给我一声能报进门的铃。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
