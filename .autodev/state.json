@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 368,
+  "current_round": 369,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0369-continue",
-  "last_completed_task_id": "T0368-softquench",
-  "last_commit": "af60133092e86a8baff6bb2d7c5b52f8e86698d2",
+  "current_task_id": "T0370-continue",
+  "last_completed_task_id": "T0369-softbur",
+  "last_commit": "6391b55dcb579a413a687c0fdca7662809f276da",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 374 passed (247 files)",
+  "last_test_summary": "vitest: 375 passed (248 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -112,11 +112,11 @@
     "D-094 T0368 美术 ART 满 440"
   ],
   "next_candidate_tasks": [
-    "T0369-continue",
+    "T0370-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: af60133092e86a8baff6bb2d7c5b52f8e86698d2 T0368 淬火碗钢砧 · 轮次368\n轮次: 368 / 1000 · v0.2.6 · M2\n本段: T0364–T0368 · 内容836/428 · 测试374 · ART~440 · D-094\n下一: T0369\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:58:03Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6391b55dcb579a413a687c0fdca7662809f276da T0369 牙钻头手持机 · 轮次369\n轮次: 369 / 1000 · v0.2.6 · M2\n本段: T0365–T0369 · 内容840/430 · 测试375 · ART~442\n下一: T0370\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:01:18Z"
 }
