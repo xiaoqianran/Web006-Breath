@@ -1068,6 +1068,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "想念"],
     intensity: 3,
   },
+  {
+    id: "e153",
+    guestName: "匿名",
+    text: "罗盘针轻轻一颤，像替我选了一个方向。",
+    tags: ["期待", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e154",
+    guestName: "陆安",
+    text: "地图上的小圆点连成线，我想再走一步。",
+    tags: ["勇气", "期待"],
+    intensity: 4,
+  },
+  {
+    id: "e155",
+    guestName: "温叙",
+    text: "不想最快的路，只想最温柔的那条。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e156",
+    guestName: "阿澄",
+    text: "第一百五十六次：请把我的方向，也轻轻接住。",
+    tags: ["想念", "勇气"],
+    intensity: 4,
+  },
 ];
 
 

@@ -1369,6 +1369,26 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/bg/evening_window.jpg") center/cover no-repeat;
 }
 
+.soft-compass-art {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  margin: 0 auto 0.45rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/soft_compass.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.street-map-art {
+  height: 72px;
+  border-radius: 12px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/street_map.jpg") center/cover no-repeat;
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;

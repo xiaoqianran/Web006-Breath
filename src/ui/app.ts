@@ -90,6 +90,9 @@ import {
   formatMoonLine,
   formatMoonCraftAside,
   formatMoonClosing,
+  formatCompassForEmotion,
+  formatCompassAside,
+  formatMapPathAside,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1075,6 +1078,11 @@ export class YixiApp {
         <p class="muted" data-testid="intensity-line">${formatIntensityLine(e.intensity)}</p>
         <p class="muted" data-testid="intensity-hint">${intensityCraftHint(e.intensity)}</p>
         ${craftAside ? `<p class="muted" data-testid="favor-craft-aside">${craftAside}</p>` : ""}
+        <div class="soft-compass-art" role="img" aria-label="温柔罗盘" data-testid="soft-compass-art"></div>
+        <div class="street-map-art" role="img" aria-label="巷口地图" data-testid="street-map-art"></div>
+        <p class="muted" data-testid="compass-line">${formatCompassForEmotion(e)}</p>
+        <p class="muted" data-testid="compass-aside">${formatCompassAside(e)}</p>
+        <p class="muted" data-testid="map-path-aside">${formatMapPathAside(s.day)}</p>
         <p class="muted">选择容器形态</p>
         <div class="vessel-grid" data-testid="vessel-grid"></div>
         <p class="muted" data-testid="hints" style="margin-top:0.75rem"></p>

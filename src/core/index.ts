@@ -65,3 +65,4 @@ export * from "./ambience-label";
 export * from "./postcard-label";
 export * from "./open-label";
 export * from "./moon-label";
+export * from "./compass-label";
