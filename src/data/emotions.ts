@@ -1684,6 +1684,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "安心"],
     intensity: 2,
   },
+  {
+    id: "e241",
+    guestName: "匿名",
+    text: "想看窗台麻雀啄食，把自己也当成被养活的一种。",
+    tags: ["孤独", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e242",
+    guestName: "小满",
+    text: "食盘边沿的爪印，像有人不急着离开。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e243",
+    guestName: "林",
+    text: "原来店也可以喂鸟：温柔不必只给人。",
+    tags: ["释然", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e244",
+    guestName: "听雨",
+    text: "第二百四十四次：请给我一碟可以续上的谷粒。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

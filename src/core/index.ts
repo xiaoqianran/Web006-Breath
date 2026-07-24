@@ -87,3 +87,4 @@ export * from "./ribbon-label";
 export * from "./mat-label";
 export * from "./soap-label";
 export * from "./kettle-label";
+export * from "./seed-label";

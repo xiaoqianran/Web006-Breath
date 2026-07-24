@@ -192,6 +192,11 @@ import {
   formatKettleAside,
   formatKettleEncourage,
   formatKettlePair,
+  formatBirdSeedLine,
+  formatSeedDishLine,
+  formatSeedAside,
+  formatSeedEncourage,
+  formatSeedPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1174,6 +1179,8 @@ export class YixiApp {
         <div class="soft-towel-art" role="img" aria-label="软毛巾" data-testid="soft-towel-art"></div>
         <div class="warm-kettle-art" role="img" aria-label="暖水壶" data-testid="warm-kettle-art"></div>
         <div class="cup-lid-art" role="img" aria-label="杯盖" data-testid="cup-lid-art"></div>
+        <div class="bird-seed-jar-art" role="img" aria-label="鸟食罐" data-testid="bird-seed-jar-art"></div>
+        <div class="seed-dish-art" role="img" aria-label="食盘" data-testid="seed-dish-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1256,6 +1263,11 @@ export class YixiApp {
         <p class="muted" data-testid="kettle-aside">${formatKettleAside(s.circulationsToday)}</p>
         <p class="muted" data-testid="kettle-encourage">${formatKettleEncourage(qLen)}</p>
         <p class="muted" data-testid="kettle-pair">${formatKettlePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="bird-seed-line">${formatBirdSeedLine(s.day)}</p>
+        <p class="muted" data-testid="seed-dish-line">${formatSeedDishLine(s.warmth)}</p>
+        <p class="muted" data-testid="seed-aside">${formatSeedAside(qLen)}</p>
+        <p class="muted" data-testid="seed-encourage">${formatSeedEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="seed-pair">${formatSeedPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

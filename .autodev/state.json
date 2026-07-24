@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 219,
+  "current_round": 220,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0220-continue",
-  "last_completed_task_id": "T0219-kettle",
-  "last_commit": "b743027e9a8ad397163168b190ae448d96d04064",
+  "current_task_id": "T0221-continue",
+  "last_completed_task_id": "T0220-seed",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 225 passed (98 files)",
+  "last_test_summary": "vitest: 226 passed (99 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -26,14 +26,15 @@
     "D-008 T0200 印鉴纪念百位里程碑",
     "D-009 T0209 情绪样本满 200",
     "D-010 T0214 情绪 220 / 剧本 120",
-    "D-011 T0219 情绪 240 / 剧本 130"
+    "D-011 T0219 情绪 240 / 剧本 130",
+    "D-012 T0220 开发轮次满 220"
   ],
   "next_candidate_tasks": [
-    "T0220-continue",
+    "T0221-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b743027e9a8ad397163168b190ae448d96d04064 T0219 暖水壶/杯盖 · 情绪240/剧本130\n轮次: 219 / 1000 · v0.2.6 · M2\n本段: T0211–T0219 窗纱…暖水壶 · 内容240/130 · 测试225\n下一: T0220\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:52:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0220 鸟食/食盘 seed-label + ART-143/144 + 内容244/132\n轮次: 220 / 1000 · v0.2.6 · M2\n测试: 226 passed；双 smoke warmth=19\n下一: T0221\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:54:30Z"
 }

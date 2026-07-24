@@ -1054,6 +1054,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 30,
   },
+  {
+    day: 131,
+    title: "鸟食勺",
+    opener: "第一百三十一日。窗台鸟食添了一勺，麻雀会先到。",
+    sampleIndexes: [240, 241, 242, 236],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 132,
+    title: "爪印碟",
+    opener: "第一百三十二日。食盘边沿有细爪印，有人（有鸟）来过。",
+    sampleIndexes: [241, 242, 243, 238],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {
