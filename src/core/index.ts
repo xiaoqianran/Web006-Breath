@@ -164,3 +164,4 @@ export * from "./gauze-label";
 export * from "./rosewater-label";
 export * from "./soapbar-label";
 export * from "./lotion-label";
+export * from "./bathsalt-label";

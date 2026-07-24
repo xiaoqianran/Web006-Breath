@@ -3812,6 +3812,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e545",
+    guestName: "匿名",
+    text: "想舀一勺浴盐，让身体也接到可溶开的温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e546",
+    guestName: "禾",
+    text: "贝壳从罐里舀出盐时，像店把放松也递给身体。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e547",
+    guestName: "阿初",
+    text: "浴盐晶粒还闪着一点淡粉的光，像刚被摇匀。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e548",
+    guestName: "陆安",
+    text: "第五百四十八次：请给我一勺能溶掉累的盐。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

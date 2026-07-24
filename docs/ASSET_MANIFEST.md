@@ -362,3 +362,5 @@
 | ART-292 | `public/assets/ui/soap_dish.jpg` | 木皂碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-293 | `public/assets/ui/lotion_bottle.jpg` | 润肤乳瓶 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-294 | `public/assets/ui/pump_cap.jpg` | 按压泵 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-295 | `public/assets/ui/bath_salt_jar.jpg` | 浴盐罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-296 | `public/assets/ui/shell_scoop.jpg` | 贝壳勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

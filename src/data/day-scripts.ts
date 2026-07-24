@@ -2270,6 +2270,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 283,
+    title: "浴盐罐",
+    opener: "第二百八十三日。浴盐罐打开，晶粒还闪着一点淡粉的光。",
+    sampleIndexes: [544, 545, 546, 540],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 284,
+    title: "贝壳勺",
+    opener: "第二百八十四日。贝壳从罐里舀出盐，像店把放松也递给身体。",
+    sampleIndexes: [545, 546, 547, 542],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
