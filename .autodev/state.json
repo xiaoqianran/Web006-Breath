@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 376,
+  "current_round": 377,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0377-continue",
-  "last_completed_task_id": "T0376-softmallet",
-  "last_commit": "2541366374cd1b7cd45ed3ceb705c48aa0937c9b",
+  "current_task_id": "T0378-continue",
+  "last_completed_task_id": "T0377-softrivet",
+  "last_commit": "853953008ce3a4e71e98ad7a8a93ee1b3024c19d",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 382 passed (255 files)",
+  "last_test_summary": "vitest: 383 passed (256 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -117,11 +117,11 @@
     "D-099 T0374 测试满 380"
   ],
   "next_candidate_tasks": [
-    "T0377-continue",
+    "T0378-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2541366374cd1b7cd45ed3ceb705c48aa0937c9b T0376 生皮锤尼龙锤 · 轮次376\n轮次: 376 / 1000 · v0.2.6 · M2\n本段: T0372–T0376 · 内容868/444 · 测试382 · ART~456\n下一: T0377\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:17:23Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 853953008ce3a4e71e98ad7a8a93ee1b3024c19d T0377 铆钉组铆砧 · 轮次377\n轮次: 377 / 1000 · v0.2.6 · M2\n本段: T0373–T0377 · 内容872/446 · 测试383 · ART~458\n下一: T0378\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:19:31Z"
 }
