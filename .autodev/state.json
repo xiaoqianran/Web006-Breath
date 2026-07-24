@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 370,
+  "current_round": 371,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0371-continue",
-  "last_completed_task_id": "T0370-softflex",
-  "last_commit": "b329a7b6e293e59f6d5662a5a8675b54dda5f378",
+  "current_task_id": "T0372-continue",
+  "last_completed_task_id": "T0371-softbuff",
+  "last_commit": "36deafd963578dbaf75ae49da23fbfbeac4a3a67",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 376 passed (249 files)",
+  "last_test_summary": "vitest: 377 passed (250 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -110,14 +110,15 @@
     "D-092 T0364 日剧本满 420",
     "D-093 T0364 测试满 370",
     "D-094 T0368 美术 ART 满 440",
-    "D-095 T0370 开发轮次满 370"
+    "D-095 T0370 开发轮次满 370",
+    "D-096 T0371 测试文件满 250"
   ],
   "next_candidate_tasks": [
-    "T0371-continue",
+    "T0372-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b329a7b6e293e59f6d5662a5a8675b54dda5f378 T0370 软轴脚踏 · 轮次370\n轮次: 370 / 1000 · v0.2.6 · M2\n本段: T0366–T0370 · 内容844/432 · 测试376 · ART~444 · D-095\n下一: T0371\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:03:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 36deafd963578dbaf75ae49da23fbfbeac4a3a67 T0371 抛光轮抛光膏 · 轮次371\n轮次: 371 / 1000 · v0.2.6 · M2\n本段: T0367–T0371 · 内容848/434 · 测试377 · ART~446 · D-096\n下一: T0372\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:05:44Z"
 }
