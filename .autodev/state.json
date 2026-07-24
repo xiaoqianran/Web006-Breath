@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 321,
+  "current_round": 322,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0322-continue",
-  "last_completed_task_id": "T0321-softtape",
-  "last_commit": "2ae2196f2b16a162db01f064b592da86465b467e",
+  "current_task_id": "T0323-continue",
+  "last_completed_task_id": "T0322-softbutton",
+  "last_commit": "317355fddba7d78f2752237edcf1742fa2240b3e",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 327 passed (200 files)",
+  "last_test_summary": "vitest: 328 passed (201 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -79,14 +79,15 @@
     "D-061 T0318 美术 ART 满 340",
     "D-062 T0319 日剧本满 330",
     "D-063 T0320 开发轮次满 320",
-    "D-064 T0321 测试文件满 200"
+    "D-064 T0321 测试文件满 200",
+    "D-065 T0322 情绪样本满 650"
   ],
   "next_candidate_tasks": [
-    "T0322-continue",
+    "T0323-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2ae2196f2b16a162db01f064b592da86465b467e T0321 软布卷尺/木夹 · 轮次321 · 测试200 files\n轮次: 321 / 1000 · v0.2.6 · M2\n本段: T0317–T0321 · 内容648/334 · 测试327 · ART~346 · D-064\n下一: T0322\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:17:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 317355fddba7d78f2752237edcf1742fa2240b3e T0322 软扣子小罐/木勺 · 轮次322 · 情绪652\n轮次: 322 / 1000 · v0.2.6 · M2\n本段: T0318–T0322 · 内容652/336 · 测试328 · ART~348 · D-065\n下一: T0323\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:19:20Z"
 }
