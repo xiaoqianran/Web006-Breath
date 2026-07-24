@@ -122,6 +122,11 @@ import {
   formatSachetGiftAside,
   formatFragranceEncourage,
   formatSachetPair,
+  formatCoatHookLine,
+  formatScarfRackLine,
+  formatHookAside,
+  formatCoatEncourage,
+  formatHookPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1076,6 +1081,8 @@ export class YixiApp {
         <div class="rest-stool-art" role="img" aria-label="憩座" data-testid="rest-stool-art"></div>
         <div class="scent-sachet-art" role="img" aria-label="香囊" data-testid="scent-sachet-art"></div>
         <div class="dried-bouquet-art" role="img" aria-label="干花束" data-testid="dried-bouquet-art"></div>
+        <div class="coat-hooks-art" role="img" aria-label="衣帽钩" data-testid="coat-hooks-art"></div>
+        <div class="soft-scarves-art" role="img" aria-label="围巾架" data-testid="soft-scarves-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1090,6 +1097,11 @@ export class YixiApp {
         <p class="muted" data-testid="dried-bouquet-line">${formatDriedBouquetLine(s.warmth)}</p>
         <p class="muted" data-testid="fragrance-encourage">${formatFragranceEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="sachet-pair">${formatSachetPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="coat-hook-line">${formatCoatHookLine(qLen)}</p>
+        <p class="muted" data-testid="scarf-rack-line">${formatScarfRackLine(s.day)}</p>
+        <p class="muted" data-testid="hook-aside">${formatHookAside(s.warmth)}</p>
+        <p class="muted" data-testid="coat-encourage">${formatCoatEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="hook-pair">${formatHookPair(qLen, s.day)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

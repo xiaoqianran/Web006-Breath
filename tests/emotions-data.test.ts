@@ -11,7 +11,7 @@ import {
 
 describe("emotion content", () => {
   it("样本情绪不少于 12 条且字段完整", () => {
-    expect(SAMPLE_EMOTIONS.length).toBeGreaterThanOrEqual(180);
+    expect(SAMPLE_EMOTIONS.length).toBeGreaterThanOrEqual(184);
     for (const e of SAMPLE_EMOTIONS) {
       expect(e.id).toBeTruthy();
       expect(e.text.length).toBeGreaterThan(4);

@@ -1292,6 +1292,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e185",
+    guestName: "匿名",
+    text: "进门先找衣帽钩：想把外面的急挂在门外。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e186",
+    guestName: "林",
+    text: "围巾架上那条浅杏，像有人记得我怕冷。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e187",
+    guestName: "小满",
+    text: "外套挂好了，心里的结也松了一点。",
+    tags: ["释然", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e188",
+    guestName: "阿初",
+    text: "第一百八十八次：请给我一个可以挂住故事的钩子。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

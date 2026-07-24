@@ -182,3 +182,5 @@
 | ART-112 | `public/assets/ui/rest_stool.jpg` | 憩座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-113 | `public/assets/ui/scent_sachet.jpg` | 香囊 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-114 | `public/assets/decor/dried_bouquet.jpg` | 干花束 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-115 | `public/assets/ui/coat_hooks.jpg` | 衣帽钩 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-116 | `public/assets/decor/soft_scarves.jpg` | 围巾架 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

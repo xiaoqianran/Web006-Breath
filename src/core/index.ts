@@ -73,3 +73,4 @@ export * from "./candle-label";
 export * from "./curtain-label";
 export * from "./rest-label";
 export * from "./sachet-label";
+export * from "./hook-label";

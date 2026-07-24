@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 205,
+  "current_round": 206,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0206-continue",
-  "last_completed_task_id": "T0205-sachet",
-  "last_commit": "ae7053bccce3a4536a7801a70e1b42c76e4b5848",
+  "current_task_id": "T0207-continue",
+  "last_completed_task_id": "T0206-hook",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 211 passed (84 files)",
+  "last_test_summary": "vitest: 212 passed (85 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -26,12 +26,11 @@
     "D-008 T0200 印鉴纪念百位里程碑"
   ],
   "next_candidate_tasks": [
-    "T0206-continue",
+    "T0207-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ae7053bccce3a4536a7801a70e1b42c76e4b5848 T0205 香囊/干花\n轮次: 205 / 1000 · v0.2.6 · M2\n本段: T0202–T0205 烛火/门帘/憩座/香囊 · 内容184/102\n测试: 211 passed；双 smoke warmth=19\n下一: T0206\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:29:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0206 衣帽钩/围巾 hook-label + ART-115/116 + 内容188/104\n轮次: 206 / 1000 · v0.2.6 · M2\n测试: 212 passed；双 smoke warmth=19\n下一: T0207\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:30:40Z"
 }
-
