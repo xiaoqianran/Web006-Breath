@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 392,
+  "current_round": 393,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0393-continue",
-  "last_completed_task_id": "T0392-softbrooch",
-  "last_commit": "a87d6e3696ae42480eca894eaa3f0e23d51cdf27",
+  "current_task_id": "T0394-continue",
+  "last_completed_task_id": "T0393-softcameo",
+  "last_commit": "af48c54acf9d6f9a9027f9c9e9f729c0579938ac",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 398 passed (271 files)",
+  "last_test_summary": "vitest: 399 passed (272 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -128,14 +128,15 @@
     "D-110 T0389 日剧本满 470",
     "D-111 T0389 情绪样本满 920",
     "D-112 T0390 开发轮次满 390",
-    "D-113 T0391 测试文件满 270"
+    "D-113 T0391 测试文件满 270",
+    "D-114 T0393 美术 ART 满 490"
   ],
   "next_candidate_tasks": [
-    "T0393-continue",
+    "T0394-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: a87d6e3696ae42480eca894eaa3f0e23d51cdf27 T0392 胸针别扣 · 轮次392\n轮次: 392 / 1000 · v0.2.6 · M2\n本段: T0388–T0392 · 内容932/476 · 测试398 · ART~488\n下一: T0393\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:55:02Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: af48c54acf9d6f9a9027f9c9e9f729c0579938ac T0393 浮雕石嵌框 · 轮次393\n轮次: 393 / 1000 · v0.2.6 · M2\n本段: T0389–T0393 · 内容936/478 · 测试399 · ART~490 · D-114\n下一: T0394\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:57:20Z"
 }
