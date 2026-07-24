@@ -3822,6 +3822,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 477,
+    title: "浮雕石",
+    opener: "第四百七十七日。浮雕石静放，轮廓还带着一点柔的光。",
+    sampleIndexes: [932, 933, 934, 931],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 478,
+    title: "嵌框",
+    opener: "第四百七十八日。框带着石，像店把肖像也围成安。",
+    sampleIndexes: [933, 934, 935, 930],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -6528,6 +6528,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e933",
+    guestName: "小禾",
+    text: "浮雕石很细：只想嵌一点，不硬塞。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e934",
+    guestName: "阿南",
+    text: "嵌框微亮，像轻轻说「护一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e935",
+    guestName: "阿初",
+    text: "轮廓还带着一点柔的光，像刚被擦过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e936",
+    guestName: "陆安",
+    text: "第九百三十六次：请给我一下能把肖像也温柔护住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

@@ -556,3 +556,5 @@
 | ART-486 | `public/assets/ui/locket_hinge.jpg` | 合页 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-487 | `public/assets/ui/brooch_pin.jpg` | 胸针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-488 | `public/assets/ui/pin_catch.jpg` | 别扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-489 | `public/assets/ui/cameo_stone.jpg` | 浮雕石 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-490 | `public/assets/ui/cameo_bezel.jpg` | 嵌框 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
