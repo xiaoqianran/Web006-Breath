@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 249,
+  "current_round": 250,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0250-continue",
-  "last_completed_task_id": "T0249-kraft",
-  "last_commit": "e3ab30a4c7c7dd6d5435c227b832b7617c469fa9",
+  "current_task_id": "T0251-continue",
+  "last_completed_task_id": "T0250-tagcard",
+  "last_commit": "069d8801a16b030c4168d259c180f7fcff7dc041",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 255 passed (128 files)",
+  "last_test_summary": "vitest: 256 passed (129 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -44,11 +44,11 @@
     "D-026 T0248 美术 ART 满 200"
   ],
   "next_candidate_tasks": [
-    "T0250-continue",
+    "T0251-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e3ab30a4c7c7dd6d5435c227b832b7617c469fa9 T0249 牛皮纸袋/麻绳 · ART201/202\n轮次: 249 / 1000 · v0.2.6 · M2\n本段: T0245–T0249 印泥…纸袋 · 内容360/190 · 测试255\n下一: T0250\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:50:45Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 069d8801a16b030c4168d259c180f7fcff7dc041 T0250 温言小卡/细线 · ART203/204\n轮次: 250 / 1000 · v0.2.6 · M2\n本段: T0245–T0250 印泥…小卡 · 内容364/192 · 测试256\n下一: T0251\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:52:17Z"
 }
