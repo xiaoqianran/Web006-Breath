@@ -2776,7 +2776,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e397",
+    guestName: "匿名",
+    text: "想用回形针把散落的纸页轻轻别住，别让温柔飞散。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e398",
+    guestName: "禾",
+    text: "小托盘接住夹好的页，像店说「放这里就好」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e399",
+    guestName: "阿初",
+    text: "回形针金属还带着指尖的凉，像刚拢过一角纸。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e400",
+    guestName: "陆安",
+    text: "第四百次：请给我一只能盛住散页的小托盘。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

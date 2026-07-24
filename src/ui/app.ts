@@ -387,6 +387,11 @@ import {
   formatNotepenAside,
   formatNotepenEncourage,
   formatNotepenPair,
+  formatPaperClipLine,
+  formatMiniTrayLine,
+  formatCliptrayAside,
+  formatCliptrayEncourage,
+  formatCliptrayPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1447,6 +1452,8 @@ export class YixiApp {
         <div class="today-sticker-art" role="img" aria-label="今日贴纸" data-testid="today-sticker-art"></div>
         <div class="sticky-pad-art" role="img" aria-label="便签本" data-testid="sticky-pad-art"></div>
         <div class="fine-pen-art" role="img" aria-label="细钢笔" data-testid="fine-pen-art"></div>
+        <div class="paper-clips-art" role="img" aria-label="回形针" data-testid="paper-clips-art"></div>
+        <div class="mini-tray-art" role="img" aria-label="小托盘" data-testid="mini-tray-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1723,6 +1730,11 @@ export class YixiApp {
         <p class="muted" data-testid="notepen-aside">${formatNotepenAside(s.history.length)}</p>
         <p class="muted" data-testid="notepen-encourage">${formatNotepenEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="notepen-pair">${formatNotepenPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="paper-clips-line">${formatPaperClipLine(s.day)}</p>
+        <p class="muted" data-testid="mini-tray-line">${formatMiniTrayLine(s.warmth)}</p>
+        <p class="muted" data-testid="cliptray-aside">${formatCliptrayAside(s.history.length)}</p>
+        <p class="muted" data-testid="cliptray-encourage">${formatCliptrayEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="cliptray-pair">${formatCliptrayPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

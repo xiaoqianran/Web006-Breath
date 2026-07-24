@@ -288,3 +288,5 @@
 | ART-218 | `public/assets/ui/today_sticker.jpg` | 今日贴纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-219 | `public/assets/ui/sticky_pad.jpg` | 便签本 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-220 | `public/assets/ui/fine_pen.jpg` | 细钢笔 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-221 | `public/assets/ui/paper_clips.jpg` | 回形针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-222 | `public/assets/ui/mini_tray.jpg` | 小托盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

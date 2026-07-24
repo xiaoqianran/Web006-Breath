@@ -126,3 +126,4 @@ export * from "./guestlog-label";
 export * from "./waitseat-label";
 export * from "./daymark-label";
 export * from "./notepen-label";
+export * from "./cliptray-label";

@@ -232,7 +232,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/today_sticker.jpg",
       "public/assets/ui/sticky_pad.jpg",
       "public/assets/ui/fine_pen.jpg",
+      "public/assets/ui/paper_clips.jpg",
+      "public/assets/ui/mini_tray.jpg",
     ];
+
 
 
 

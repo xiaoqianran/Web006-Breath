@@ -1678,7 +1678,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 209,
+    title: "回形针",
+    opener: "第二百零九日。回形针别住一角，金属还带着指尖的凉。",
+    sampleIndexes: [396, 397, 398, 392],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 210,
+    title: "小托盘",
+    opener: "第二百一十日。小托盘接住夹好的页，像说「放这里就好」。",
+    sampleIndexes: [397, 398, 399, 394],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
