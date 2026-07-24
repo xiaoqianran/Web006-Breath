@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 297,
+  "current_round": 298,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0298-continue",
-  "last_completed_task_id": "T0297-diffuser",
-  "last_commit": "e4c7fa3465cc6ad47b215b73f2c0997f59a444cb",
+  "current_task_id": "T0299-continue",
+  "last_completed_task_id": "T0298-tealight",
+  "last_commit": "b856017f5fdb739fc7cf271fde048bba7a453300",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 303 passed (176 files)",
+  "last_test_summary": "vitest: 304 passed (177 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -67,14 +67,15 @@
     "D-049 T0289 日剧本满 270",
     "D-050 T0290 开发轮次满 290",
     "D-051 T0294 日剧本满 280 / 测试 300",
-    "D-052 T0297 情绪样本满 550"
+    "D-052 T0297 情绪样本满 550",
+    "D-053 T0298 美术 ART 满 300"
   ],
   "next_candidate_tasks": [
-    "T0298-continue",
+    "T0299-continue",
     "T0300-milestone",
     "M2",
     "内容/生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e4c7fa3465cc6ad47b215b73f2c0997f59a444cb T0297 香薰瓶/藤条 · 轮次297 · 情绪552\n轮次: 297 / 1000 · v0.2.6 · M2\n本段: T0293–T0297 · 内容552/286 · 测试303 · ART~298 · D-052\n下一: T0298（趋近轮次 300）\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:27:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b856017f5fdb739fc7cf271fde048bba7a453300 T0298 茶蜡/熄烛罩 · 轮次298 · ART300\n轮次: 298 / 1000 · v0.2.6 · M2\n本段: T0294–T0298 · 内容556/288 · 测试304 · ART~300 · D-053\n下一: T0299（下一为轮次 300）\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:29:20Z"
 }
