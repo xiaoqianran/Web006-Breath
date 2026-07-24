@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 345,
+  "current_round": 346,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0346-continue",
-  "last_completed_task_id": "T0345-softknitter",
-  "last_commit": "d86e92e27190643c7d2a5a55092bf74675974f23",
+  "current_task_id": "T0347-continue",
+  "last_completed_task_id": "T0346-softpotholder",
+  "last_commit": "31bf58df32528af4fdf45f4f752825cd2d9bb6d7",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 351 passed (224 files)",
+  "last_test_summary": "vitest: 352 passed (225 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -97,11 +97,11 @@
     "D-079 T0344 日剧本满 380"
   ],
   "next_candidate_tasks": [
-    "T0346-continue",
+    "T0347-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d86e92e27190643c7d2a5a55092bf74675974f23 T0345 法式编织筒筒线 · 轮次345\n轮次: 345 / 1000 · v0.2.6 · M2\n本段: T0341–T0345 · 内容744/382 · 测试351 · ART~394 · D-079\n下一: T0346\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:07:46Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 31bf58df32528af4fdf45f4f752825cd2d9bb6d7 T0346 杯垫织机圈圈线 · 轮次346\n轮次: 346 / 1000 · v0.2.6 · M2\n本段: T0342–T0346 · 内容748/384 · 测试352 · ART~396 · D-079\n下一: T0347\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:09:43Z"
 }
