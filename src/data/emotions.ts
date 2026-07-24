@@ -2580,7 +2580,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e369",
+    guestName: "匿名",
+    text: "想把今天的钥匙轻轻放回浅盘，不是结束，是收好。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e370",
+    guestName: "禾",
+    text: "关店小灯拧到最柔时，像店说「明天还在」。",
+    tags: ["温柔", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e371",
+    guestName: "阿初",
+    text: "浅盘边还带着掌凉，像刚被轻轻收起的白昼。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e372",
+    guestName: "听雨",
+    text: "第三百七十二次：请给我一盏能温柔关店的灯。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

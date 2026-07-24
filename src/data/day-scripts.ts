@@ -1566,7 +1566,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 195,
+    title: "钥匙浅盘",
+    opener: "第一百九十五日。钥匙浅盘端稳，金属还带着掌心的凉。",
+    sampleIndexes: [368, 369, 370, 364],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 196,
+    title: "关店小灯",
+    opener: "第一百九十六日。关店小灯拧到最柔，像说「明天还在」。",
+    sampleIndexes: [369, 370, 371, 366],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

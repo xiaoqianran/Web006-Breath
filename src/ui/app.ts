@@ -352,6 +352,11 @@ import {
   formatFarewellAside,
   formatFarewellEncourage,
   formatFarewellPair,
+  formatKeyTrayLine,
+  formatClosingLampLine,
+  formatDayendAside,
+  formatDayendEncourage,
+  formatDayendPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1398,6 +1403,8 @@ export class YixiApp {
         <div class="fine-string-art" role="img" aria-label="细线" data-testid="fine-string-art"></div>
         <div class="change-dish-art" role="img" aria-label="找零浅碟" data-testid="change-dish-art"></div>
         <div class="palm-kerchief-art" role="img" aria-label="掌心手帕" data-testid="palm-kerchief-art"></div>
+        <div class="key-tray-art" role="img" aria-label="钥匙浅盘" data-testid="key-tray-art"></div>
+        <div class="closing-lamp-art" role="img" aria-label="关店小灯" data-testid="closing-lamp-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1639,6 +1646,11 @@ export class YixiApp {
         <p class="muted" data-testid="farewell-aside">${formatFarewellAside(s.history.length)}</p>
         <p class="muted" data-testid="farewell-encourage">${formatFarewellEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="farewell-pair">${formatFarewellPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="key-tray-line">${formatKeyTrayLine(s.day)}</p>
+        <p class="muted" data-testid="closing-lamp-line">${formatClosingLampLine(s.warmth)}</p>
+        <p class="muted" data-testid="dayend-aside">${formatDayendAside(s.history.length)}</p>
+        <p class="muted" data-testid="dayend-encourage">${formatDayendEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="dayend-pair">${formatDayendPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

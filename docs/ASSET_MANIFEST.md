@@ -274,3 +274,5 @@
 | ART-204 | `public/assets/ui/fine_string.jpg` | 细线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-205 | `public/assets/ui/change_dish.jpg` | 找零浅碟 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-206 | `public/assets/ui/palm_kerchief.jpg` | 掌心手帕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-207 | `public/assets/ui/key_tray.jpg` | 钥匙浅盘 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-208 | `public/assets/ui/closing_lamp.jpg` | 关店小灯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

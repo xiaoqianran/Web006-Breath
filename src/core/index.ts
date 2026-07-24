@@ -119,3 +119,4 @@ export * from "./receipt-label";
 export * from "./kraft-label";
 export * from "./tagcard-label";
 export * from "./farewell-label";
+export * from "./dayend-label";
