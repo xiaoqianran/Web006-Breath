@@ -3028,7 +3028,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e433",
+    guestName: "匿名",
+    text: "想把热杯轻轻放在杯托上，让双手也休息一下。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e434",
+    guestName: "禾",
+    text: "茶巾折在托旁，像店说「洒了也没关系」。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e435",
+    guestName: "阿初",
+    text: "杯托木纹还带着掌温，像刚被接住过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e436",
+    guestName: "听雨",
+    text: "第四百三十六次：请给我一块能接住热杯的托。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

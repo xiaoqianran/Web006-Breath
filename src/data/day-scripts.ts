@@ -1822,7 +1822,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 227,
+    title: "杯托",
+    opener: "第二百二十七日。杯托垫好，木纹还带着一点掌温。",
+    sampleIndexes: [432, 433, 434, 428],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 228,
+    title: "茶巾",
+    opener: "第二百二十八日。茶巾折在托旁，像说「洒了也没关系」。",
+    sampleIndexes: [433, 434, 435, 430],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

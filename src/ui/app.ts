@@ -432,6 +432,11 @@ import {
   formatPlantpotAside,
   formatPlantpotEncourage,
   formatPlantpotPair,
+  formatCupRestLine,
+  formatTeaClothLine,
+  formatCuprestAside,
+  formatCuprestEncourage,
+  formatCuprestPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1510,6 +1515,8 @@ export class YixiApp {
         <div class="sheer-curtain-art" role="img" aria-label="薄窗帘" data-testid="sheer-curtain-art"></div>
         <div class="clay-pot-art" role="img" aria-label="小陶盆" data-testid="clay-pot-art"></div>
         <div class="watering-can-art" role="img" aria-label="浇水壶" data-testid="watering-can-art"></div>
+        <div class="cup-rest-art" role="img" aria-label="杯托" data-testid="cup-rest-art"></div>
+        <div class="tea-cloth-art" role="img" aria-label="茶巾" data-testid="tea-cloth-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1831,6 +1838,11 @@ export class YixiApp {
         <p class="muted" data-testid="plantpot-aside">${formatPlantpotAside(s.history.length)}</p>
         <p class="muted" data-testid="plantpot-encourage">${formatPlantpotEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="plantpot-pair">${formatPlantpotPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="cup-rest-line">${formatCupRestLine(s.day)}</p>
+        <p class="muted" data-testid="tea-cloth-line">${formatTeaClothLine(s.warmth)}</p>
+        <p class="muted" data-testid="cuprest-aside">${formatCuprestAside(s.history.length)}</p>
+        <p class="muted" data-testid="cuprest-encourage">${formatCuprestEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="cuprest-pair">${formatCuprestPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
