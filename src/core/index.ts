@@ -104,3 +104,4 @@ export * from "./ham-label";
 export * from "./awl-label";
 export * from "./press-label";
 export * from "./binding-label";
+export * from "./cloth-label";

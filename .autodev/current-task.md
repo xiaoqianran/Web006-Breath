@@ -1,4 +1,4 @@
-# T0236 done
-next T0237
-242 tests (115 files) round 236
-binding-label + binding thread / sewing needle + content 308/164
+# T0237 done
+next T0238
+243 tests (116 files) round 237
+cloth-label + bookcloth / spine strip + content 312/166

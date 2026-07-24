@@ -2160,6 +2160,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e309",
+    guestName: "匿名",
+    text: "想给散开的页穿上一件浅杏外壳，再递出去。",
+    tags: ["期待", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e310",
+    guestName: "小满",
+    text: "书脊立住时，像有人说「你可以站直一点」。",
+    tags: ["勇气", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e311",
+    guestName: "林",
+    text: "装帧布摸上去像午后桌布，心也软了一寸。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e312",
+    guestName: "陆安",
+    text: "第三百一十二次：请给我一条能立住书脊的细条。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
