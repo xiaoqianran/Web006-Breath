@@ -932,6 +932,11 @@ import {
   formatSoftannealAside,
   formatSoftannealEncourage,
   formatSoftannealPair,
+  formatQuenchBowlLine,
+  formatSteelBlockLine,
+  formatSoftquenchAside,
+  formatSoftquenchEncourage,
+  formatSoftquenchPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2210,6 +2215,8 @@ export class YixiApp {
         <div class="melting-dish-art" role="img" aria-label="熔金碗" data-testid="melting-dish-art"></div>
         <div class="anneal-pan-art" role="img" aria-label="退火盘" data-testid="anneal-pan-art"></div>
         <div class="anneal-tongs-art" role="img" aria-label="退火钳" data-testid="anneal-tongs-art"></div>
+        <div class="quench-bowl-art" role="img" aria-label="淬火碗" data-testid="quench-bowl-art"></div>
+        <div class="steel-block-art" role="img" aria-label="钢砧" data-testid="steel-block-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -3031,6 +3038,11 @@ export class YixiApp {
         <p class="muted" data-testid="softanneal-aside">${formatSoftannealAside(s.history.length)}</p>
         <p class="muted" data-testid="softanneal-encourage">${formatSoftannealEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softanneal-pair">${formatSoftannealPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="quench-bowl-line">${formatQuenchBowlLine(s.day)}</p>
+        <p class="muted" data-testid="steel-block-line">${formatSteelBlockLine(s.warmth)}</p>
+        <p class="muted" data-testid="softquench-aside">${formatSoftquenchAside(s.history.length)}</p>
+        <p class="muted" data-testid="softquench-encourage">${formatSoftquenchEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softquench-pair">${formatSoftquenchPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

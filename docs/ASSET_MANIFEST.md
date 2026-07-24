@@ -506,3 +506,5 @@
 | ART-436 | `public/assets/ui/melting_dish.jpg` | 熔金碗 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-437 | `public/assets/ui/anneal_pan.jpg` | 退火盘 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-438 | `public/assets/ui/anneal_tongs.jpg` | 退火钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-439 | `public/assets/ui/quench_bowl.jpg` | 淬火碗 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-440 | `public/assets/ui/steel_block.jpg` | 钢砧 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

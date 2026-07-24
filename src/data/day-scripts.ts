@@ -3422,6 +3422,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 427,
+    title: "淬火碗",
+    opener: "第四百二十七日。淬火碗静放，水沿还带着一点凉的静。",
+    sampleIndexes: [832, 833, 834, 831],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 428,
+    title: "钢砧",
+    opener: "第四百二十八日。丝贴着面，像店把热丝也定成稳。",
+    sampleIndexes: [833, 834, 835, 830],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

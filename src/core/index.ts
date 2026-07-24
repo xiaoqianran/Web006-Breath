@@ -236,3 +236,4 @@ export * from "./softtongs-label";
 export * from "./softdraw-label";
 export * from "./softingot-label";
 export * from "./softanneal-label";
+export * from "./softquench-label";

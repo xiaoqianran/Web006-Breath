@@ -5828,6 +5828,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e833",
+    guestName: "匿名",
+    text: "想把热丝淬进水碗，让它也能被温柔地定住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e834",
+    guestName: "禾",
+    text: "丝贴着钢砧面时，像店把热丝也定成稳。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e835",
+    guestName: "阿初",
+    text: "淬火碗水沿还带着一点凉的静，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e836",
+    guestName: "陆安",
+    text: "第八百三十六次：请给我一下能定住热丝的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
