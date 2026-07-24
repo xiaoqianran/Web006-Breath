@@ -6780,6 +6780,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e969",
+    guestName: "小禾",
+    text: "头冠很轻：只想托一点，不硬压。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e970",
+    guestName: "阿南",
+    text: "梳座微稳，像轻轻说「戴一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e971",
+    guestName: "阿初",
+    text: "冠沿还带着一点细的光，像刚被戴过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e972",
+    guestName: "陆安",
+    text: "第九百七十二次：请给我一下能把发间也温柔托住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

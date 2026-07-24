@@ -574,3 +574,5 @@
 | ART-504 | `public/assets/ui/anklet_clasp.jpg` | 细扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-505 | `public/assets/ui/soft_choker.jpg` | 颈圈 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-506 | `public/assets/ui/choker_ribbon.jpg` | 丝带扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-507 | `public/assets/ui/soft_tiara.jpg` | 头冠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-508 | `public/assets/ui/tiara_comb.jpg` | 梳座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
