@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0250-continue",
   "last_completed_task_id": "T0249-kraft",
-  "last_commit": "PENDING",
+  "last_commit": "e3ab30a4c7c7dd6d5435c227b832b7617c469fa9",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 255 passed (128 files)",
   "core_loop_status": "playable_demo_ready",
@@ -49,6 +49,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0249 牛皮纸袋/麻绳 · ART201/202\n轮次: 249 / 1000 · v0.2.6 · M2\n本段: T0245–T0249 印泥…纸袋 · 内容360/190 · 测试255\n下一: T0250\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:50:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e3ab30a4c7c7dd6d5435c227b832b7617c469fa9 T0249 牛皮纸袋/麻绳 · ART201/202\n轮次: 249 / 1000 · v0.2.6 · M2\n本段: T0245–T0249 印泥…纸袋 · 内容360/190 · 测试255\n下一: T0250\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:50:45Z"
 }
