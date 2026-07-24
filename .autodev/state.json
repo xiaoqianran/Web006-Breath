@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 263,
+  "current_round": 264,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0264-continue",
-  "last_completed_task_id": "T0263-teaspoon",
-  "last_commit": "da8e9fce5cc098939c0ac5007215505fb7bcf1ed",
+  "current_task_id": "T0265-continue",
+  "last_completed_task_id": "T0264-jarlabel",
+  "last_commit": "b6cf3e60831ee2afac2bbc1e129fa0ff28e39ceb",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 269 passed (142 files)",
+  "last_test_summary": "vitest: 270 passed (143 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -48,14 +48,15 @@
     "D-030 T0258 美术 ART 满 220",
     "D-031 T0259 情绪样本满 400",
     "D-032 T0260 开发轮次满 260",
-    "D-033 T0263 美术 ART 满 230"
+    "D-033 T0263 美术 ART 满 230",
+    "D-034 T0264 日剧本满 220"
   ],
   "next_candidate_tasks": [
-    "T0264-continue",
+    "T0265-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: da8e9fce5cc098939c0ac5007215505fb7bcf1ed T0263 试茶小勺/品茶垫 · ART230\n轮次: 263 / 1000 · v0.2.6 · M2\n本段: T0259–T0263 夹盘…试茶 · 内容416/218 · 测试269 · D-033 ART230\n下一: T0264\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:17:08Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b6cf3e60831ee2afac2bbc1e129fa0ff28e39ceb T0264 罐口标签/细棉线 · 剧本220\n轮次: 264 / 1000 · v0.2.6 · M2\n本段: T0260–T0264 慢墨…罐签 · 内容420/220 · 测试270 · D-034\n下一: T0265\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:19:00Z"
 }
