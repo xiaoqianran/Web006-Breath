@@ -255,3 +255,4 @@ export * from "./softendcap-label";
 export * from "./softspacer-label";
 export * from "./softmemory-label";
 export * from "./softheadpin-label";
+export * from "./softchain-label";

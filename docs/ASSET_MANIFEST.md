@@ -544,3 +544,5 @@
 | ART-474 | `public/assets/ui/flush_cutter.jpg` | 剪线钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-475 | `public/assets/ui/head_pin.jpg` | 头针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-476 | `public/assets/ui/eye_pin.jpg` | 眼针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-477 | `public/assets/ui/soft_chain.jpg` | 链条 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-478 | `public/assets/ui/chain_nose.jpg` | 链嘴钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

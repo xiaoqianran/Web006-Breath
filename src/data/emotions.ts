@@ -6360,6 +6360,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e909",
+    guestName: "小禾",
+    text: "链条很软：只想连一点，不硬扣。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e910",
+    guestName: "阿南",
+    text: "链嘴钳微张，像轻轻说「接一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e911",
+    guestName: "阿初",
+    text: "环环还带着一点细的光，像刚被接过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e912",
+    guestName: "陆安",
+    text: "第九百一十二次：请给我一下能把远的也温柔接上的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
