@@ -2942,6 +2942,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 367,
+    title: "拼布方块",
+    opener: "第三百六十七日。拼布方块静放，角沿还带着一点针的痕。",
+    sampleIndexes: [712, 713, 714, 711],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 368,
+    title: "绷缝线",
+    opener: "第三百六十八日。线穿过布角，像店把碎布也拼成完整。",
+    sampleIndexes: [713, 714, 715, 710],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

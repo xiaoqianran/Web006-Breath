@@ -4988,6 +4988,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e713",
+    guestName: "匿名",
+    text: "想拼一块拼布方块，让碎布也能被温柔地拼成完整。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e714",
+    guestName: "禾",
+    text: "绷缝线穿过布角时，像店把碎布也拼成完整。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e715",
+    guestName: "阿初",
+    text: "拼布方块角沿还带着一点针的痕，像刚被钉过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e716",
+    guestName: "陆安",
+    text: "第七百一十六次：请给我一块能拼成完整的布。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

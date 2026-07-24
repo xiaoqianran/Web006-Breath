@@ -446,3 +446,5 @@
 | ART-376 | `public/assets/ui/waxed_cord.jpg` | 蜡线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-377 | `public/assets/ui/small_loom.jpg` | 小织机 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-378 | `public/assets/ui/soft_shuttle.jpg` | 梭子 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-379 | `public/assets/ui/quilt_block.jpg` | 拼布方块 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-380 | `public/assets/ui/basting_thread.jpg` | 绷缝线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
