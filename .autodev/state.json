@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 254,
+  "current_round": 255,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0255-continue",
-  "last_completed_task_id": "T0254-entry",
-  "last_commit": "e39639a3951ea18f9851839ec6acac99e8fc5d19",
+  "current_task_id": "T0256-continue",
+  "last_completed_task_id": "T0255-guestlog",
+  "last_commit": "6960b8338da2788eeae9f0045400f51fb84af7c8",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 260 passed (133 files)",
+  "last_test_summary": "vitest: 261 passed (134 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -47,11 +47,11 @@
     "D-029 T0254 日剧本满 200"
   ],
   "next_candidate_tasks": [
-    "T0255-continue",
+    "T0256-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e39639a3951ea18f9851839ec6acac99e8fc5d19 T0254 雨伞架/门口踏垫 · 剧本200\n轮次: 254 / 1000 · v0.2.6 · M2\n本段: T0250–T0254 小卡…进门 · 内容380/200 · 测试260 · D-029\n下一: T0255\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:00:03Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6960b8338da2788eeae9f0045400f51fb84af7c8 T0255 访客签到本/软橡皮 · ART213/214\n轮次: 255 / 1000 · v0.2.6 · M2\n本段: T0251–T0255 离店…签到 · 内容384/202 · 测试261\n下一: T0256\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:02:36Z"
 }
