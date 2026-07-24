@@ -558,3 +558,5 @@
 | ART-488 | `public/assets/ui/pin_catch.jpg` | 别扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-489 | `public/assets/ui/cameo_stone.jpg` | 浮雕石 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-490 | `public/assets/ui/cameo_bezel.jpg` | 嵌框 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-491 | `public/assets/ui/signet_ring.jpg` | 印戒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-492 | `public/assets/ui/wax_stick.jpg` | 火漆 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

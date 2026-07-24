@@ -6556,6 +6556,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e937",
+    guestName: "小禾",
+    text: "印戒很稳：只想印一点，不硬盖。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e938",
+    guestName: "阿南",
+    text: "火漆微软，像轻轻说「封一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e939",
+    guestName: "阿初",
+    text: "戒面还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e940",
+    guestName: "陆安",
+    text: "第九百四十次：请给我一下能把心意也温柔封住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

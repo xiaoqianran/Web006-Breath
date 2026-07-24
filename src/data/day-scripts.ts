@@ -3838,6 +3838,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 479,
+    title: "印戒",
+    opener: "第四百七十九日。印戒静放，戒面还带着一点细的光。",
+    sampleIndexes: [936, 937, 938, 935],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 480,
+    title: "火漆",
+    opener: "第四百八十日。蜡带着戒，像店把心意也封成安。",
+    sampleIndexes: [937, 938, 939, 934],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

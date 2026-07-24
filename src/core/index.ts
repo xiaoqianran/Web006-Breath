@@ -262,3 +262,4 @@ export * from "./softcharm-label";
 export * from "./softlocket-label";
 export * from "./softbrooch-label";
 export * from "./softcameo-label";
+export * from "./softsignet-label";
