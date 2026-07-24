@@ -169,3 +169,4 @@ export * from "./diffuser-label";
 export * from "./tealight-label";
 export * from "./matchbox-label";
 export * from "./lantern-label";
+export * from "./sandtimer-label";

@@ -2350,6 +2350,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 293,
+    title: "沙漏",
+    opener: "第二百九十三日。沙漏立稳，腰间还细细地流着一点金。",
+    sampleIndexes: [564, 565, 566, 560],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 294,
+    title: "细沙",
+    opener: "第二百九十四日。沙从窄腰落下，像店把三百轮之后的温柔也递给时间。",
+    sampleIndexes: [565, 566, 567, 562],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

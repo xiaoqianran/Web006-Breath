@@ -3952,6 +3952,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e565",
+    guestName: "匿名",
+    text: "想翻一次沙漏，让时间也接到可被温柔翻过的一面。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e566",
+    guestName: "禾",
+    text: "沙从窄腰落下时，像店把三百轮之后的温柔也递给时间。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e567",
+    guestName: "阿初",
+    text: "沙漏腰间还细细地流着一点金，像刚被竖起。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e568",
+    guestName: "陆安",
+    text: "第五百六十八次：请给我一段能慢慢落的沙。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
