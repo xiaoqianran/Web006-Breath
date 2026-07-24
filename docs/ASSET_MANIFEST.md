@@ -392,3 +392,5 @@
 | ART-322 | `public/assets/ui/wood_coat_peg.jpg` | 木衣钉 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-323 | `public/assets/ui/fold_umbrella.jpg` | 折叠伞 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-324 | `public/assets/ui/ceramic_um_stand.jpg` | 瓷伞筒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-325 | `public/assets/ui/soft_mitten.jpg` | 软织连指手套 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-326 | `public/assets/ui/mitten_basket.jpg` | 柳编手套筐 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -2510,6 +2510,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 313,
+    title: "软织连指手套",
+    opener: "第三百一十三日。软织连指手套叠好，毛圈还带着一点暖的绒。",
+    sampleIndexes: [604, 605, 606, 600],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 314,
+    title: "柳编手套筐",
+    opener: "第三百一十四日。手套落入筐里，像店把掌心的暖也留给出门的人。",
+    sampleIndexes: [605, 606, 607, 602],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

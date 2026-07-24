@@ -4232,6 +4232,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e605",
+    guestName: "匿名",
+    text: "想戴一双软织连指手套，让手心的凉也能被温柔地捂住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e606",
+    guestName: "禾",
+    text: "手套落入柳筐时，像店把掌心的暖也留给出门的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e607",
+    guestName: "阿初",
+    text: "连指手套毛圈还带着一点暖的绒，像刚被叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e608",
+    guestName: "陆安",
+    text: "第六百零八次：请给我一双能捂住手心的暖。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
