@@ -832,6 +832,11 @@ import {
   formatSoftbeadAside,
   formatSoftbeadEncourage,
   formatSoftbeadPair,
+  formatBeadingWireLine,
+  formatCrimpBeadLine,
+  formatSoftwireAside,
+  formatSoftwireEncourage,
+  formatSoftwirePair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2070,6 +2075,8 @@ export class YixiApp {
         <div class="loop-yarn-art" role="img" aria-label="圈圈线" data-testid="loop-yarn-art"></div>
         <div class="beading-needle-art" role="img" aria-label="串珠针" data-testid="beading-needle-art"></div>
         <div class="seed-beads-art" role="img" aria-label="米珠" data-testid="seed-beads-art"></div>
+        <div class="beading-wire-art" role="img" aria-label="串珠软线" data-testid="beading-wire-art"></div>
+        <div class="crimp-bead-art" role="img" aria-label="压接珠" data-testid="crimp-bead-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2791,6 +2798,11 @@ export class YixiApp {
         <p class="muted" data-testid="softbead-aside">${formatSoftbeadAside(s.history.length)}</p>
         <p class="muted" data-testid="softbead-encourage">${formatSoftbeadEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softbead-pair">${formatSoftbeadPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="beading-wire-line">${formatBeadingWireLine(s.day)}</p>
+        <p class="muted" data-testid="crimp-bead-line">${formatCrimpBeadLine(s.warmth)}</p>
+        <p class="muted" data-testid="softwire-aside">${formatSoftwireAside(s.history.length)}</p>
+        <p class="muted" data-testid="softwire-encourage">${formatSoftwireEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softwire-pair">${formatSoftwirePair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

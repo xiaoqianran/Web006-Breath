@@ -5268,6 +5268,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e753",
+    guestName: "匿名",
+    text: "想用压接珠压一颗，让线端也能被温柔地固定住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e754",
+    guestName: "禾",
+    text: "压接珠扣住线端时，像店把线端也温柔固定。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e755",
+    guestName: "阿初",
+    text: "串珠软线线身还带着一点柔的光，像刚被抽过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e756",
+    guestName: "陆安",
+    text: "第七百五十六次：请给我一颗能收住线端的珠。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
