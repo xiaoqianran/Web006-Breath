@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 271,
+  "current_round": 272,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0272-continue",
-  "last_completed_task_id": "T0271-citrus",
-  "last_commit": "0b7ff7d369cd4a7a45bd414cddfae418982b5910",
+  "current_task_id": "T0273-continue",
+  "last_completed_task_id": "T0272-napkin",
+  "last_commit": "7ad9f9e698c1bc54bcadc8cac8cad187c0891ce9",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 277 passed (150 files)",
+  "last_test_summary": "vitest: 278 passed (151 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -53,14 +53,15 @@
     "D-035 T0268 美术 ART 满 240",
     "D-036 T0269 日剧本满 230",
     "D-037 T0270 开发轮次满 270",
-    "D-038 T0271 测试文件满 150"
+    "D-038 T0271 测试文件满 150",
+    "D-039 T0272 情绪样本满 450"
   ],
   "next_candidate_tasks": [
-    "T0272-continue",
+    "T0273-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0b7ff7d369cd4a7a45bd414cddfae418982b5910 T0271 柠檬碟/柑橘小刀 · 测试150\n轮次: 271 / 1000 · v0.2.6 · M2\n本段: T0267–T0271 绿意…柠檬 · 内容448/234 · 测试277 · D-038\n下一: T0272\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:33:27Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 7ad9f9e698c1bc54bcadc8cac8cad187c0891ce9 T0272 餐巾环/客人餐巾 · 情绪450+\n轮次: 272 / 1000 · v0.2.6 · M2\n本段: T0268–T0272 杯托…餐巾 · 内容452/236 · 测试278 · D-039\n下一: T0273\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:35:42Z"
 }
