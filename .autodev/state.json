@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 351,
+  "current_round": 352,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0352-continue",
-  "last_completed_task_id": "T0351-softmandrel",
-  "last_commit": "1c2f3eeae1b8949b9e02d99b4a10548e176a7ca1",
+  "current_task_id": "T0353-continue",
+  "last_completed_task_id": "T0352-softanvil",
+  "last_commit": "3211c4758b29c82774031535293d94defa646e17",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 357 passed (230 files)",
+  "last_test_summary": "vitest: 358 passed (231 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -101,11 +101,11 @@
     "D-083 T0350 开发轮次满 350"
   ],
   "next_candidate_tasks": [
-    "T0352-continue",
+    "T0353-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 1c2f3eeae1b8949b9e02d99b4a10548e176a7ca1 T0351 戒指棒指圈尺 · 轮次351\n轮次: 351 / 1000 · v0.2.6 · M2\n本段: T0347–T0351 · 内容768/394 · 测试357 · ART~406 · D-083\n下一: T0352\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:20:16Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 3211c4758b29c82774031535293d94defa646e17 T0352 小铁砧尼龙锤 · 轮次352\n轮次: 352 / 1000 · v0.2.6 · M2\n本段: T0348–T0352 · 内容772/396 · 测试358 · ART~408 · D-083\n下一: T0353\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:22:16Z"
 }
