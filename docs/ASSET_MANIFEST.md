@@ -528,3 +528,5 @@
 | ART-458 | `public/assets/ui/rivet_block.jpg` | 铆砧 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-459 | `public/assets/ui/prong_opener.jpg` | 爪撬 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-460 | `public/assets/ui/stone_seat.jpg` | 石座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-461 | `public/assets/ui/cabochon.jpg` | 弧面石 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-462 | `public/assets/ui/bezel_strip.jpg` | 包边条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

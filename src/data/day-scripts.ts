@@ -3598,6 +3598,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 449,
+    title: "弧面石",
+    opener: "第四百四十九日。弧面石静放，表面还带着一点柔的光。",
+    sampleIndexes: [876, 877, 878, 875],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 450,
+    title: "包边条",
+    opener: "第四百五十日。条带着石，像店把圆润的也围成安。",
+    sampleIndexes: [877, 878, 879, 874],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

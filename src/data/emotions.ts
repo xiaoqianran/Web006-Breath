@@ -6136,6 +6136,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e877",
+    guestName: "小禾",
+    text: "弧面石很圆：只想托一点，不硬压。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e878",
+    guestName: "阿南",
+    text: "包边条微弯，像轻轻说「护一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e879",
+    guestName: "阿初",
+    text: "表面还带着一点柔的光，像刚被擦过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e880",
+    guestName: "陆安",
+    text: "第八百八十次：请给我一下能把圆润也温柔护住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
