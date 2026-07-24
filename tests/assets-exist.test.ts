@@ -420,6 +420,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/ring_sizer.jpg",
       "public/assets/ui/mini_anvil.jpg",
       "public/assets/ui/nylon_hammer.jpg",
+      "public/assets/ui/needle_file.jpg",
+      "public/assets/ui/polish_cloth.jpg",
     ];
 
 

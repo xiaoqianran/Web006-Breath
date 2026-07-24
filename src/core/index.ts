@@ -221,3 +221,4 @@ export * from "./softclasp-label";
 export * from "./softpliers-label";
 export * from "./softmandrel-label";
 export * from "./softanvil-label";
+export * from "./softfile-label";

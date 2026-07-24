@@ -5408,6 +5408,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e773",
+    guestName: "匿名",
+    text: "想用细锉锉一下，让毛边也能被温柔地收顺。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e774",
+    guestName: "禾",
+    text: "抛光布贴着面时，像店把毛边也收成光。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e775",
+    guestName: "阿初",
+    text: "细锉锉身还带着一点金属的凉，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e776",
+    guestName: "陆安",
+    text: "第七百七十六次：请给我一下能收顺毛边的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
