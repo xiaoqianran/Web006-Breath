@@ -530,3 +530,5 @@
 | ART-460 | `public/assets/ui/stone_seat.jpg` | 石座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-461 | `public/assets/ui/cabochon.jpg` | 弧面石 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-462 | `public/assets/ui/bezel_strip.jpg` | 包边条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-463 | `public/assets/ui/jump_ring_pile.jpg` | 跳环 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-464 | `public/assets/ui/jump_pliers.jpg` | 开环钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
