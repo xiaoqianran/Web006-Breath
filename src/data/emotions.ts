@@ -4596,6 +4596,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e657",
+    guestName: "匿名",
+    text: "想用布镇压住一角，让布料也能被温柔地安住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e658",
+    guestName: "禾",
+    text: "纸样铺在布上时，像店把合身也递给刀口。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e659",
+    guestName: "阿初",
+    text: "布镇包布还带着一点沉的温，像刚被放下。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e660",
+    guestName: "陆安",
+    text: "第六百六十次：请给我一角能安住布的重。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

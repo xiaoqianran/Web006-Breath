@@ -418,3 +418,5 @@
 | ART-348 | `public/assets/ui/button_scoop.jpg` | 扣子木勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-349 | `public/assets/ui/embroidery_hoop.jpg` | 绣绷 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-350 | `public/assets/ui/embroidery_floss.jpg` | 绣线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-351 | `public/assets/ui/cloth_weight.jpg` | 布镇 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-352 | `public/assets/ui/paper_pattern.jpg` | 裁片纸样 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

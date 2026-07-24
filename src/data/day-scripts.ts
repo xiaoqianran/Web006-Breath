@@ -2718,6 +2718,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 339,
+    title: "布镇",
+    opener: "第三百三十九日。布镇静放，包布还带着一点沉的温。",
+    sampleIndexes: [656, 657, 658, 652],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 340,
+    title: "裁片纸样",
+    opener: "第三百四十日。纸样铺在布上，像店把合身也递给刀口。",
+    sampleIndexes: [657, 658, 659, 654],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
