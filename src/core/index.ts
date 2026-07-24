@@ -202,3 +202,4 @@ export * from "./softmend-label";
 export * from "./softlace-label";
 export * from "./softcrochet-label";
 export * from "./softknit-label";
+export * from "./softswatch-label";

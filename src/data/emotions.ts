@@ -4876,6 +4876,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e697",
+    guestName: "匿名",
+    text: "想试织一小块样片，让不确定也能被温柔地试成柔软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e698",
+    guestName: "禾",
+    text: "行数计数器缓缓走时，像店把耐心也递给不确定。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e699",
+    guestName: "阿初",
+    text: "样片边沿还带着一点试织的毛边，像刚被摸过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e700",
+    guestName: "陆安",
+    text: "第七百次：请给我一块能试成柔软的色。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

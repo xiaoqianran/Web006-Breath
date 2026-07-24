@@ -438,3 +438,5 @@
 | ART-368 | `public/assets/ui/soft_yarn_ball.jpg` | 线团 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-369 | `public/assets/ui/knitting_needles.jpg` | 棒针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-370 | `public/assets/ui/stitch_markers.jpg` | 记号扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-371 | `public/assets/ui/yarn_swatch.jpg` | 色卡样片 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-372 | `public/assets/ui/row_counter.jpg` | 行数计数器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

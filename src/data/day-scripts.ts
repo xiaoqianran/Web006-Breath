@@ -2878,6 +2878,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 359,
+    title: "样片",
+    opener: "第三百五十九日。样片静放，边沿还带着一点试织的毛边。",
+    sampleIndexes: [696, 697, 698, 695],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 360,
+    title: "计数器",
+    opener: "第三百六十日。数字缓缓走，像店把耐心也递给不确定。",
+    sampleIndexes: [697, 698, 699, 694],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
