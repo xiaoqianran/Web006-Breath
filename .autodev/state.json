@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 304,
+  "current_round": 305,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0305-continue",
-  "last_completed_task_id": "T0304-letteropener",
-  "last_commit": "4b05b9922b2d293c28feb7c37402399df1fdd3b0",
+  "current_task_id": "T0306-continue",
+  "last_completed_task_id": "T0305-deskcal",
+  "last_commit": "67b9e0d2c09ac6ada165025e567d0568186c39e0",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 310 passed (183 files)",
+  "last_test_summary": "vitest: 311 passed (184 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -74,11 +74,11 @@
     "D-056 T0304 日剧本满 300"
   ],
   "next_candidate_tasks": [
-    "T0305-continue",
+    "T0306-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 4b05b9922b2d293c28feb7c37402399df1fdd3b0 T0304 奶油信封/拆信刀 · 轮次304 · 剧本300\n轮次: 304 / 1000 · v0.2.6 · M2\n本段: T0300–T0304 · 内容580/300 · 测试310 · ART~312 · D-055/056\n下一: T0305\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:42:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 67b9e0d2c09ac6ada165025e567d0568186c39e0 T0305 台历块/日页丝带 · 轮次305\n轮次: 305 / 1000 · v0.2.6 · M2\n本段: T0301–T0305 · 内容584/302 · 测试311 · ART~314 · D-055/056\n下一: T0306\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:43:50Z"
 }
