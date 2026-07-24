@@ -2334,6 +2334,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 291,
+    title: "纸灯笼",
+    opener: "第二百九十一日。纸灯笼亮着，灯面还透着一点暖的金。",
+    sampleIndexes: [560, 561, 562, 556],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 292,
+    title: "灯罩",
+    opener: "第二百九十二日。光从纸罩里漫出，像店把三百轮的温柔也递给路。",
+    sampleIndexes: [561, 562, 563, 558],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

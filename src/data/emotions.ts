@@ -3924,6 +3924,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e561",
+    guestName: "匿名",
+    text: "想点一盏纸灯，让路也接到可慢慢照亮的温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e562",
+    guestName: "禾",
+    text: "光从纸罩里漫出时，像店把三百轮的温柔也递给路。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e563",
+    guestName: "阿初",
+    text: "纸灯笼灯面还透着一点暖的金，像刚被点亮。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e564",
+    guestName: "陆安",
+    text: "第五百六十四次：请给我一盏能引路的纸灯。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

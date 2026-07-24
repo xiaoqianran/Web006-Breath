@@ -168,3 +168,4 @@ export * from "./bathsalt-label";
 export * from "./diffuser-label";
 export * from "./tealight-label";
 export * from "./matchbox-label";
+export * from "./lantern-label";

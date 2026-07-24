@@ -370,3 +370,5 @@
 | ART-300 | `public/assets/ui/candle_snuffer.jpg` | 熄烛罩 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-301 | `public/assets/ui/matchbox.jpg` | 火柴盒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-302 | `public/assets/ui/matchstick.jpg` | 火柴 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-303 | `public/assets/ui/paper_lantern.jpg` | 纸灯笼 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-304 | `public/assets/ui/lantern_shade.jpg` | 灯罩 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
