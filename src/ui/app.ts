@@ -892,6 +892,11 @@ import {
   formatSoftdappingAside,
   formatSoftdappingEncourage,
   formatSoftdappingPair,
+  formatBurnisherLine,
+  formatBezelPusherLine,
+  formatSoftburnishAside,
+  formatSoftburnishEncourage,
+  formatSoftburnishPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2154,6 +2159,8 @@ export class YixiApp {
         <div class="scorper-art" role="img" aria-label="錾刀" data-testid="scorper-art"></div>
         <div class="dapping-block-art" role="img" aria-label="拱形垫" data-testid="dapping-block-art"></div>
         <div class="dapping-punch-art" role="img" aria-label="冲头" data-testid="dapping-punch-art"></div>
+        <div class="burnisher-art" role="img" aria-label="抛光钢" data-testid="burnisher-art"></div>
+        <div class="bezel-pusher-art" role="img" aria-label="压边刀" data-testid="bezel-pusher-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2935,6 +2942,11 @@ export class YixiApp {
         <p class="muted" data-testid="softdapping-aside">${formatSoftdappingAside(s.history.length)}</p>
         <p class="muted" data-testid="softdapping-encourage">${formatSoftdappingEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softdapping-pair">${formatSoftdappingPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="burnisher-line">${formatBurnisherLine(s.day)}</p>
+        <p class="muted" data-testid="bezel-pusher-line">${formatBezelPusherLine(s.warmth)}</p>
+        <p class="muted" data-testid="softburnish-aside">${formatSoftburnishAside(s.history.length)}</p>
+        <p class="muted" data-testid="softburnish-encourage">${formatSoftburnishEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softburnish-pair">${formatSoftburnishPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

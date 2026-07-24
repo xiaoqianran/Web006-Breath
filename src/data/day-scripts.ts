@@ -3294,6 +3294,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 411,
+    title: "抛光钢",
+    opener: "第四百一十一日。抛光钢静放，钢身还带着一点冷的光。",
+    sampleIndexes: [800, 801, 802, 799],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 412,
+    title: "压边刀",
+    opener: "第四百一十二日。刀贴着石缘，像店把边沿也压成稳。",
+    sampleIndexes: [801, 802, 803, 798],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

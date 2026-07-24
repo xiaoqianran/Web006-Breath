@@ -5604,6 +5604,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e801",
+    guestName: "匿名",
+    text: "想用抛光钢压一圈，让边沿也能被温柔地压顺。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e802",
+    guestName: "禾",
+    text: "压边刀贴着石缘时，像店把边沿也压成稳。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e803",
+    guestName: "阿初",
+    text: "抛光钢钢身还带着一点冷的光，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e804",
+    guestName: "陆安",
+    text: "第八百零四次：请给我一圈能压顺边沿的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
