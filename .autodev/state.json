@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 280,
+  "current_round": 281,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0281-continue",
-  "last_completed_task_id": "T0280-rollingpin",
-  "last_commit": "628c0fb4aa5d8d07a7effc22a835129d2f89e5da",
+  "current_task_id": "T0282-continue",
+  "last_completed_task_id": "T0281-scraper",
+  "last_commit": "58449c87a7333f8ed97b21520909048cfb21a4e8",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 286 passed (159 files)",
+  "last_test_summary": "vitest: 287 passed (160 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -62,11 +62,11 @@
     "D-044 T0280 开发轮次满 280"
   ],
   "next_candidate_tasks": [
-    "T0281-continue",
+    "T0282-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 628c0fb4aa5d8d07a7effc22a835129d2f89e5da T0280 擀面杖/撒粉勺 · 轮次280\n轮次: 280 / 1000 · v0.2.6 · M2\n本段: T0276–T0280 护手…擀开 · 内容484/252 · 测试286 · D-044\n下一: T0281\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:50:18Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 58449c87a7333f8ed97b21520909048cfb21a4e8 T0281 面团刮板/烘焙纸 · ART265/266\n轮次: 281 / 1000 · v0.2.6 · M2\n本段: T0277–T0281 沙漏…刮板 · 内容488/254 · 测试287\n下一: T0282\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:52:44Z"
 }
