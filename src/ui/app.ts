@@ -837,6 +837,11 @@ import {
   formatSoftwireAside,
   formatSoftwireEncourage,
   formatSoftwirePair,
+  formatLobsterClaspLine,
+  formatJumpRingLine,
+  formatSoftclaspAside,
+  formatSoftclaspEncourage,
+  formatSoftclaspPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2077,6 +2082,8 @@ export class YixiApp {
         <div class="seed-beads-art" role="img" aria-label="米珠" data-testid="seed-beads-art"></div>
         <div class="beading-wire-art" role="img" aria-label="串珠软线" data-testid="beading-wire-art"></div>
         <div class="crimp-bead-art" role="img" aria-label="压接珠" data-testid="crimp-bead-art"></div>
+        <div class="lobster-clasp-art" role="img" aria-label="龙虾扣" data-testid="lobster-clasp-art"></div>
+        <div class="jump-ring-art" role="img" aria-label="开口圈" data-testid="jump-ring-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2803,6 +2810,11 @@ export class YixiApp {
         <p class="muted" data-testid="softwire-aside">${formatSoftwireAside(s.history.length)}</p>
         <p class="muted" data-testid="softwire-encourage">${formatSoftwireEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softwire-pair">${formatSoftwirePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="lobster-clasp-line">${formatLobsterClaspLine(s.day)}</p>
+        <p class="muted" data-testid="jump-ring-line">${formatJumpRingLine(s.warmth)}</p>
+        <p class="muted" data-testid="softclasp-aside">${formatSoftclaspAside(s.history.length)}</p>
+        <p class="muted" data-testid="softclasp-encourage">${formatSoftclaspEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softclasp-pair">${formatSoftclaspPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

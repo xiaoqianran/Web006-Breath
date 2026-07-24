@@ -468,3 +468,5 @@
 | ART-398 | `public/assets/ui/seed_beads.jpg` | 米珠 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-399 | `public/assets/ui/beading_wire.jpg` | 串珠软线 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-400 | `public/assets/ui/crimp_bead.jpg` | 压接珠 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-401 | `public/assets/ui/lobster_clasp.jpg` | 龙虾扣 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-402 | `public/assets/ui/jump_ring.jpg` | 开口圈 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

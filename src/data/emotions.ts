@@ -5296,6 +5296,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e757",
+    guestName: "匿名",
+    text: "想用龙虾扣扣一下，让开口也能被温柔地扣上。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e758",
+    guestName: "禾",
+    text: "开口圈连着扣时，像店把开口也温柔合上。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e759",
+    guestName: "阿初",
+    text: "龙虾扣扣身还带着一点金属的凉，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e760",
+    guestName: "陆安",
+    text: "第七百六十次：请给我一下能扣上开口的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

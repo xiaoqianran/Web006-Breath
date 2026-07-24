@@ -3118,6 +3118,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 389,
+    title: "龙虾扣",
+    opener: "第三百八十九日。龙虾扣静放，扣身还带着一点金属的凉。",
+    sampleIndexes: [756, 757, 758, 755],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 390,
+    title: "开口圈",
+    opener: "第三百九十日。圈连着扣，像店把开口也温柔合上。",
+    sampleIndexes: [757, 758, 759, 754],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

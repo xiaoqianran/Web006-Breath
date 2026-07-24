@@ -4383,6 +4383,26 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/crimp_bead.jpg") center/cover no-repeat;
 }
 
+.lobster-clasp-art {
+  height: 64px;
+  width: 64px;
+  border-radius: 12px;
+  margin: 0 auto 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/lobster_clasp.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.jump-ring-art {
+  height: 72px;
+  border-radius: 12px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/jump_ring.jpg") center/cover no-repeat;
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;
