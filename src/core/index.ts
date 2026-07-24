@@ -63,3 +63,4 @@ export * from "./guestbook-label";
 export * from "./inventory-label";
 export * from "./ambience-label";
 export * from "./postcard-label";
+export * from "./open-label";

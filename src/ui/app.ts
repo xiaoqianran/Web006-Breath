@@ -82,6 +82,11 @@ import {
   formatAmbienceEncourage,
   formatPostcardLine,
   formatPostcardStackAside,
+  formatOpenShopLine,
+  formatKeyHookAside,
+  formatShuttersLine,
+  formatOpenEncourage,
+  formatAtmosphereShort,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -613,12 +618,18 @@ export class YixiApp {
       <div class="street-lamp-art" role="img" aria-label="巷口路灯" data-testid="street-lamp"></div>
       <div class="signpost-art" role="img" aria-label="路牌" data-testid="signpost-art"></div>
       <div class="save-drawer-art" role="img" aria-label="存档抽屉" data-testid="save-drawer-art"></div>
+      <div class="shop-key-art" role="img" aria-label="店钥匙" data-testid="shop-key-art"></div>
+      <div class="shutters-light-art" role="img" aria-label="百叶窗光" data-testid="shutters-light-art"></div>
       <p class="muted">Gentle Moments Shop · v0.2.6</p>
       <h1 class="logo">一息</h1>
       <p class="tagline">收集小情绪，化作花、茶、画、音乐或小物件，再轻轻流通出去。</p>
       <p class="muted" data-testid="save-line">${saveLine}</p>
       <p class="muted" data-testid="save-encourage">${formatSaveEncourage(saved)}</p>
       <p class="muted" data-testid="autosave-hint">${formatAutosaveHint()}</p>
+      <p class="muted" data-testid="open-shop-line">${formatOpenShopLine(this.state.day || 1)}</p>
+      <p class="muted" data-testid="key-hook-aside">${formatKeyHookAside(saved)}</p>
+      <p class="muted" data-testid="shutters-line">${formatShuttersLine(formatAtmosphereShort(this.state.day || 1))}</p>
+      <p class="muted" data-testid="open-encourage">${formatOpenEncourage(this.state.day || 1)}</p>
       <div class="btn-row"></div>
     `;
     const row = el.querySelector(".btn-row")!;

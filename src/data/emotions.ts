@@ -1012,6 +1012,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 4,
   },
+  {
+    id: "e145",
+    guestName: "匿名",
+    text: "钥匙在掌心温了一会儿，才敢插进门锁。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e146",
+    guestName: "听雨",
+    text: "百叶窗缝里漏进一线光，像被轻轻允许进入。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e147",
+    guestName: "暮山",
+    text: "想把开门的那一声也做成音乐带走。",
+    tags: ["想念", "孤独"],
+    intensity: 3,
+  },
+  {
+    id: "e148",
+    guestName: "澄",
+    text: "第一百四十八次：谢谢你把钥匙留在能找到的地方。",
+    tags: ["温柔", "安心"],
+    intensity: 4,
+  },
 ];
 
 

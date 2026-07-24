@@ -165,3 +165,5 @@
 | ART-095 | `public/assets/ui/wind_chime.jpg` | 风铃 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-096 | `public/assets/decor/shop_cat.jpg` | 店猫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-097 | `public/assets/ui/postcards.jpg` | 明信片叠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-098 | `public/assets/ui/shop_key.jpg` | 店钥匙 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-099 | `public/assets/bg/shutters_light.jpg` | 百叶窗光 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

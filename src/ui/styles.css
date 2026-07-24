@@ -1031,6 +1031,27 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/postcards.jpg") center/cover no-repeat;
 }
 
+.shop-key-art {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  margin: 0 auto 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/shop_key.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.shutters-light-art {
+  height: 80px;
+  border-radius: 12px;
+  margin: 0 auto 0.75rem;
+  max-width: 420px;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/bg/shutters_light.jpg") center/cover no-repeat;
+}
+
 .night-rain-window-art {
   height: 88px;
   border-radius: 12px;
