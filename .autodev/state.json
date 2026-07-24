@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0243-continue",
   "last_completed_task_id": "T0242-corner",
-  "last_commit": "PENDING",
+  "last_commit": "e9ce81a24ad099e365fa32bc530adbb801effa98",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 248 passed (121 files)",
   "core_loop_status": "playable_demo_ready",
@@ -46,6 +46,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0242 圆角器/护角 corner-label + ART-187/188 + 内容332/176\n轮次: 242 / 1000 · v0.2.6 · M2\n测试: 248 passed；双 smoke warmth=19\n下一: T0243\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e9ce81a24ad099e365fa32bc530adbb801effa98 T0242 圆角器/护角\n轮次: 242 / 1000 · v0.2.6 · M2\n本段: T0239–T0242 浆糊…护角 · 内容332/176 · 测试248\n下一: T0243\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:34:10Z"
 }
