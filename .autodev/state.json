@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0234-continue",
   "last_completed_task_id": "T0233-ham",
-  "last_commit": "PENDING",
+  "last_commit": "503fd8bbdf30304df9a3c8597dc286a5cf905e51",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 239 passed (112 files)",
   "core_loop_status": "playable_demo_ready",
@@ -42,6 +42,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0233 烫馒头/袖烫板 ham-label + ART-169/170 + 内容296/158\n轮次: 233 / 1000 · v0.2.6 · M2\n测试: 239 passed；双 smoke warmth=19\n下一: T0234\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 503fd8bbdf30304df9a3c8597dc286a5cf905e51 T0233 烫馒头/袖烫板 · ART170\n轮次: 233 / 1000 · v0.2.6 · M2\n本段: T0230–T0233 补衣…烫馒 · 内容296/158 · 测试239\n下一: T0234\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:18:00Z"
 }
