@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 325,
+  "current_round": 326,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0326-continue",
-  "last_completed_task_id": "T0325-rotarycut",
-  "last_commit": "8bc5e662b95899011a0ef88582deaab2af2df9bb",
+  "current_task_id": "T0327-continue",
+  "last_completed_task_id": "T0326-steampress",
+  "last_commit": "73f07a27c4666b8ffc9740ac71a45af89332f6f0",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 331 passed (204 files)",
+  "last_test_summary": "vitest: 332 passed (205 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -85,11 +85,11 @@
     "D-067 T0324 日剧本满 340"
   ],
   "next_candidate_tasks": [
-    "T0326-continue",
+    "T0327-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8bc5e662b95899011a0ef88582deaab2af2df9bb T0325 滚刀/软裁垫 · 轮次325\n轮次: 325 / 1000 · v0.2.6 · M2\n本段: T0321–T0325 · 内容664/342 · 测试331 · ART~354 · D-067\n下一: T0326\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:25:40Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 73f07a27c4666b8ffc9740ac71a45af89332f6f0 T0326 小蒸汽熨/熨布 · 轮次326\n轮次: 326 / 1000 · v0.2.6 · M2\n本段: T0322–T0326 · 内容668/344 · 测试332 · ART~356 · D-067\n下一: T0327\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:27:40Z"
 }
