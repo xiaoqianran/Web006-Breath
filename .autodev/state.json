@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 320,
+  "current_round": 321,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0321-continue",
-  "last_completed_task_id": "T0320-beeswax",
-  "last_commit": "198c2ee61f2195b9e1a7a61e62095d6b52bc46ea",
+  "current_task_id": "T0322-continue",
+  "last_completed_task_id": "T0321-softtape",
+  "last_commit": "2ae2196f2b16a162db01f064b592da86465b467e",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 326 passed (199 files)",
+  "last_test_summary": "vitest: 327 passed (200 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -78,14 +78,15 @@
     "D-060 T0314 日剧本满 320 / 测试 320",
     "D-061 T0318 美术 ART 满 340",
     "D-062 T0319 日剧本满 330",
-    "D-063 T0320 开发轮次满 320"
+    "D-063 T0320 开发轮次满 320",
+    "D-064 T0321 测试文件满 200"
   ],
   "next_candidate_tasks": [
-    "T0321-continue",
+    "T0322-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 198c2ee61f2195b9e1a7a61e62095d6b52bc46ea T0320 蜂蜡小烛/擦火条 · 轮次320 里程碑\n轮次: 320 / 1000 · v0.2.6 · M2\n本段: T0316–T0320 · 内容644/332 · 测试326 · ART~344 · D-063\n下一: T0321\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:14:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2ae2196f2b16a162db01f064b592da86465b467e T0321 软布卷尺/木夹 · 轮次321 · 测试200 files\n轮次: 321 / 1000 · v0.2.6 · M2\n本段: T0317–T0321 · 内容648/334 · 测试327 · ART~346 · D-064\n下一: T0322\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:17:20Z"
 }
