@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 214,
+  "current_round": 215,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0215-continue",
-  "last_completed_task_id": "T0214-ladder",
-  "last_commit": "83481cb1685a145d1803d3ff0a5debe9bff5fbd8",
+  "current_task_id": "T0216-continue",
+  "last_completed_task_id": "T0215-mirror",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 220 passed (93 files)",
+  "last_test_summary": "vitest: 221 passed (94 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -28,11 +28,11 @@
     "D-010 T0214 情绪 220 / 剧本 120"
   ],
   "next_candidate_tasks": [
-    "T0215-continue",
+    "T0216-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 83481cb1685a145d1803d3ff0a5debe9bff5fbd8 T0214 小木梯/高架 · 情绪220/剧本120\n轮次: 214 / 1000 · v0.2.6 · M2\n本段: T0211–T0214 窗纱…木梯 · 内容220/120 · 测试220\n下一: T0215\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:44:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0215 试衣镜/软擦布 mirror-label + ART-133/134 + 内容224/122\n轮次: 215 / 1000 · v0.2.6 · M2\n测试: 221 passed；双 smoke warmth=19\n下一: T0216\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:46:20Z"
 }

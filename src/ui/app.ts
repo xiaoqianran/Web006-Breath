@@ -167,6 +167,11 @@ import {
   formatLadderAside,
   formatLadderEncourage,
   formatLadderPair,
+  formatGuestMirrorLine,
+  formatSoftClothLine,
+  formatMirrorAside,
+  formatMirrorEncourage,
+  formatMirrorPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1139,6 +1144,8 @@ export class YixiApp {
         <div class="sugar-spoon-art" role="img" aria-label="糖勺" data-testid="sugar-spoon-art"></div>
         <div class="step-ladder-art" role="img" aria-label="小木梯" data-testid="step-ladder-art"></div>
         <div class="high-shelf-art" role="img" aria-label="高架" data-testid="high-shelf-art"></div>
+        <div class="guest-mirror-art" role="img" aria-label="试衣镜" data-testid="guest-mirror-art"></div>
+        <div class="soft-cloth-art" role="img" aria-label="软擦布" data-testid="soft-cloth-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1197,6 +1204,11 @@ export class YixiApp {
         <p class="muted" data-testid="ladder-aside">${formatLadderAside(s.warmth)}</p>
         <p class="muted" data-testid="ladder-encourage">${formatLadderEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="ladder-pair">${formatLadderPair(s.day, s.shelf.length)}</p>
+        <p class="muted" data-testid="guest-mirror-line">${formatGuestMirrorLine(s.day)}</p>
+        <p class="muted" data-testid="soft-cloth-line">${formatSoftClothLine(s.warmth)}</p>
+        <p class="muted" data-testid="mirror-aside">${formatMirrorAside(qLen)}</p>
+        <p class="muted" data-testid="mirror-encourage">${formatMirrorEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="mirror-pair">${formatMirrorPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

@@ -1544,6 +1544,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "释然"],
     intensity: 3,
   },
+  {
+    id: "e221",
+    guestName: "匿名",
+    text: "只想在镜前停一秒，确认自己还在。",
+    tags: ["孤独", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e222",
+    guestName: "小满",
+    text: "镜面的细雾被擦开时，像有人轻轻说「我看见你」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e223",
+    guestName: "林",
+    text: "不敢看太久，可还是想要一面不催人的镜子。",
+    tags: ["勇气", "遗憾"],
+    intensity: 4,
+  },
+  {
+    id: "e224",
+    guestName: "阿初",
+    text: "第二百二十四次：请给我一块能擦开雾气的软布。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 
