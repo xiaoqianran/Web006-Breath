@@ -872,6 +872,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "期待"],
     intensity: 3,
   },
+  {
+    id: "e125",
+    guestName: "匿名",
+    text: "行李箱还停在门口，我想再留下一点心情再走。",
+    tags: ["想念", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e126",
+    guestName: "林晚",
+    text: "故人推门的声音，比第一次轻，也比第一次更熟。",
+    tags: ["安心", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e127",
+    guestName: "周予",
+    text: "把行李推到柜台边，像把未说完的话也一并推近。",
+    tags: ["期待", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e128",
+    guestName: "南枝",
+    text: "第一百二十八次：谢谢你让我还能回来。",
+    tags: ["温柔", "安心"],
+    intensity: 4,
+  },
 ];
 
 

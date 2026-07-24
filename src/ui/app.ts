@@ -66,6 +66,10 @@ import {
   formatAtmosphereCraftHint,
   formatDayHeaderLine,
   atmosphereForDay,
+  formatRevisitWelcome,
+  formatRevisitLuggageAside,
+  formatRevisitEligibilityAside,
+  evaluateRevisitEligibility,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1136,10 +1140,13 @@ export class YixiApp {
         <div class="puddle-dusk-art" role="img" aria-label="暮色水洼" data-testid="puddle-dusk-art"></div>
         <div class="window-seat-art" role="img" aria-label="窗边座位" data-testid="window-seat-art"></div>
         <div class="revisit-door-art" role="img" aria-label="再访门廊" data-testid="revisit-door-art"></div>
+        <div class="soft-suitcase-art" role="img" aria-label="再访小行李箱" data-testid="soft-suitcase-art"></div>
         <div class="soft-blanket-art" role="img" aria-label="薄被" data-testid="soft-blanket-art"></div>
         <p class="muted" data-testid="day-end-stats">${formatStatsSummary(stats)}</p>
         <p data-testid="day-end-orders">${formatOrderDayEndLine(s)}</p>
         <p class="muted" data-testid="revisit-hint">${formatRevisitHint(s)}</p>
+        <p class="muted" data-testid="revisit-eligibility">${formatRevisitEligibilityAside(evaluateRevisitEligibility(s))}</p>
+        <p class="muted" data-testid="revisit-luggage">${formatRevisitLuggageAside()}</p>
       `;
       if (s.lastResult) {
         card.appendChild(this.renderLastResult(s));
