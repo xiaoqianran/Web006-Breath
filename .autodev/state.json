@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 300,
+  "current_round": 301,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0301-continue",
-  "last_completed_task_id": "T0300-lantern",
-  "last_commit": "8029d18acc4649cf696ba673a33d0628dcb030ff",
+  "current_task_id": "T0302-continue",
+  "last_completed_task_id": "T0301-sandtimer",
+  "last_commit": "b219d7e79132b5c51a127bfea35ca3535fdad914",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 306 passed (179 files)",
+  "last_test_summary": "vitest: 307 passed (180 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -73,11 +73,11 @@
     "D-055 T0300 开发轮次满 300"
   ],
   "next_candidate_tasks": [
-    "T0301-continue",
+    "T0302-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8029d18acc4649cf696ba673a33d0628dcb030ff T0300 纸灯笼/灯罩 · 轮次300 里程碑\n轮次: 300 / 1000 · v0.2.6 · M2\n本段: T0296–T0300 · 内容564/292 · 测试306 · ART~304 · D-055\n下一: T0301\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:33:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b219d7e79132b5c51a127bfea35ca3535fdad914 T0301 计时沙漏/细沙 · 轮次301\n轮次: 301 / 1000 · v0.2.6 · M2\n本段: T0297–T0301 · 内容568/294 · 测试307 · ART~306 · D-055 轮次300\n下一: T0302\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:36:10Z"
 }
