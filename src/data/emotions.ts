@@ -2216,6 +2216,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e317",
+    guestName: "匿名",
+    text: "想把散开的页粘匀一点，不要鼓包，也不要缺胶。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e318",
+    guestName: "小满",
+    text: "排刷轻轻铺开时，像有人说「可以粘在一起了」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e319",
+    guestName: "林",
+    text: "浆糊的淡香里，忽然觉得自己也可以被粘合。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e320",
+    guestName: "陆安",
+    text: "第三百二十次：请给我一笔匀而稳的浆。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

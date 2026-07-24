@@ -106,3 +106,4 @@ export * from "./press-label";
 export * from "./binding-label";
 export * from "./cloth-label";
 export * from "./endpaper-label";
+export * from "./glue-label";

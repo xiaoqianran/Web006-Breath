@@ -248,3 +248,5 @@
 | ART-178 | `public/assets/ui/spine_strip.jpg` | 书脊条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-179 | `public/assets/ui/endpaper.jpg` | 环衬 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-180 | `public/assets/ui/headband_ribbon.jpg` | 天头丝带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-181 | `public/assets/ui/paste_pot.jpg` | 浆糊盅 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-182 | `public/assets/ui/paste_brush.jpg` | 排刷 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

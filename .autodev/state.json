@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 238,
+  "current_round": 239,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0239-continue",
-  "last_completed_task_id": "T0238-endpaper",
-  "last_commit": "4a2372316de29314ddda8400c3a1bb97128edcbc",
+  "current_task_id": "T0240-continue",
+  "last_completed_task_id": "T0239-glue",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 244 passed (117 files)",
+  "last_test_summary": "vitest: 245 passed (118 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -36,14 +36,15 @@
     "D-018 T0230 开发轮次满 230",
     "D-019 T0233 美术 ART 满 170",
     "D-020 T0234 情绪 300 / 剧本 160",
-    "D-021 T0238 美术 ART 满 180"
+    "D-021 T0238 美术 ART 满 180",
+    "D-022 T0239 情绪 320 / 剧本 170"
   ],
   "next_candidate_tasks": [
-    "T0239-continue",
+    "T0240-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 4a2372316de29314ddda8400c3a1bb97128edcbc T0238 环衬/天头丝带 · ART180\n轮次: 238 / 1000 · v0.2.6 · M2\n本段: T0234–T0238 锥子…环衬 · 内容316/168 · 测试244\n下一: T0239\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:27:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0239 浆糊盅/排刷 glue-label + ART-181/182 + 内容320/170\n轮次: 239 / 1000 · v0.2.6 · M2\n测试: 245 passed；双 smoke warmth=19\n下一: T0240\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:28:55Z"
 }
