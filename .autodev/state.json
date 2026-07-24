@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 285,
+  "current_round": 286,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0286-continue",
-  "last_completed_task_id": "T0285-recipecard",
-  "last_commit": "3aff62b156a185f2d273c1644f41f949f52deba0",
+  "current_task_id": "T0287-continue",
+  "last_completed_task_id": "T0286-oventhermo",
+  "last_commit": "fb1b904b55a7745aee75206f3f20717e8a347349",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 291 passed (164 files)",
+  "last_test_summary": "vitest: 292 passed (165 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -65,11 +65,11 @@
     "D-047 T0284 日剧本满 260"
   ],
   "next_candidate_tasks": [
-    "T0286-continue",
+    "T0287-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 3aff62b156a185f2d273c1644f41f949f52deba0 T0285 手写菜谱卡/木夹 · ART273/274\n轮次: 285 / 1000 · v0.2.6 · M2\n本段: T0281–T0285 刮板…菜谱 · 内容504/262 · 测试291\n下一: T0286\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:00:31Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: fb1b904b55a7745aee75206f3f20717e8a347349 T0286 烤箱温度计/计时旋钮 · ART275/276\n轮次: 286 / 1000 · v0.2.6 · M2\n本段: T0282–T0286 饼干…火候 · 内容508/264 · 测试292\n下一: T0287\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:02:19Z"
 }
