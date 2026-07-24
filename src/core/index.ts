@@ -89,3 +89,4 @@ export * from "./soap-label";
 export * from "./kettle-label";
 export * from "./seed-label";
 export * from "./broom-label";
+export * from "./frame-label";

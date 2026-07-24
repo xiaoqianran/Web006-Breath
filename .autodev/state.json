@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 221,
+  "current_round": 222,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0222-continue",
-  "last_completed_task_id": "T0221-broom",
-  "last_commit": "c5b53cd485c793f6e2fdb073a2f09082a518b250",
+  "current_task_id": "T0223-continue",
+  "last_completed_task_id": "T0222-frame",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 227 passed (100 files)",
+  "last_test_summary": "vitest: 228 passed (101 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -31,11 +31,11 @@
     "D-013 T0221 测试文件满 100"
   ],
   "next_candidate_tasks": [
-    "T0222-continue",
+    "T0223-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c5b53cd485c793f6e2fdb073a2f09082a518b250 T0221 软扫帚/簸箕 · 100 test files\n轮次: 221 / 1000 · v0.2.6 · M2\n本段: T0211–T0221 窗纱…扫帚 · 内容248/134 · 测试227/100files\n下一: T0222\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:56:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0222 画框/挂绳 frame-label + ART-147/148 + 内容252/136\n轮次: 222 / 1000 · v0.2.6 · M2\n测试: 228 passed；双 smoke warmth=19\n下一: T0223\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:58:20Z"
 }

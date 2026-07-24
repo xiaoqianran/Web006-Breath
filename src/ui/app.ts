@@ -202,6 +202,11 @@ import {
   formatBroomAside,
   formatBroomEncourage,
   formatBroomPair,
+  formatPictureFrameLine,
+  formatHangingCordLine,
+  formatFrameAside,
+  formatFrameEncourage,
+  formatFramePair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1188,6 +1193,8 @@ export class YixiApp {
         <div class="seed-dish-art" role="img" aria-label="食盘" data-testid="seed-dish-art"></div>
         <div class="soft-broom-art" role="img" aria-label="软扫帚" data-testid="soft-broom-art"></div>
         <div class="dustpan-art" role="img" aria-label="簸箕" data-testid="dustpan-art"></div>
+        <div class="picture-frame-art" role="img" aria-label="画框" data-testid="picture-frame-art"></div>
+        <div class="hanging-cord-art" role="img" aria-label="挂绳" data-testid="hanging-cord-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1280,6 +1287,11 @@ export class YixiApp {
         <p class="muted" data-testid="broom-aside">${formatBroomAside(s.warmth)}</p>
         <p class="muted" data-testid="broom-encourage">${formatBroomEncourage(qLen)}</p>
         <p class="muted" data-testid="broom-pair">${formatBroomPair(s.day, s.circulationsToday)}</p>
+        <p class="muted" data-testid="picture-frame-line">${formatPictureFrameLine(s.day)}</p>
+        <p class="muted" data-testid="hanging-cord-line">${formatHangingCordLine(s.shelf.length)}</p>
+        <p class="muted" data-testid="frame-aside">${formatFrameAside(s.warmth)}</p>
+        <p class="muted" data-testid="frame-encourage">${formatFrameEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="frame-pair">${formatFramePair(s.day, s.shelf.length)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

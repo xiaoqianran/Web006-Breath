@@ -1740,6 +1740,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "释然"],
     intensity: 3,
   },
+  {
+    id: "e249",
+    guestName: "匿名",
+    text: "想把自己的心情放进画框，让边界替我说「到此为止」。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e250",
+    guestName: "听雨",
+    text: "挂绳轻轻一晃，像有人提醒：温柔也可以被取下带走。",
+    tags: ["温柔", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e251",
+    guestName: "林",
+    text: "空框斜靠墙角，忽然觉得空白也是一种被允许。",
+    tags: ["孤独", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e252",
+    guestName: "禾",
+    text: "第二百五十二次：请给我一根能挂住故事的细绳。",
+    tags: ["勇气", "想念"],
+    intensity: 3,
+  },
 ];
 
 
