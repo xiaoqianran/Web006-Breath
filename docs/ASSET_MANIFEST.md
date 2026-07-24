@@ -560,3 +560,5 @@
 | ART-490 | `public/assets/ui/cameo_bezel.jpg` | 嵌框 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-491 | `public/assets/ui/signet_ring.jpg` | 印戒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-492 | `public/assets/ui/wax_stick.jpg` | 火漆 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-493 | `public/assets/ui/soft_bangle.jpg` | 手镯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-494 | `public/assets/ui/bangle_core.jpg` | 镯芯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
