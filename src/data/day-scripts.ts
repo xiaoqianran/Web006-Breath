@@ -2366,6 +2366,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 295,
+    title: "压花书签",
+    opener: "第二百九十五日。压花书签静放，花瓣还透着一点干的粉。",
+    sampleIndexes: [568, 569, 570, 564],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 296,
+    title: "丝尾",
+    opener: "第二百九十六日。丝从书口垂下，像店把未读完的温柔也留给明天。",
+    sampleIndexes: [569, 570, 571, 566],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

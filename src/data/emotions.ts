@@ -3980,6 +3980,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e569",
+    guestName: "匿名",
+    text: "想夹一枚压花书签，让停住的那一页也被温柔记住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e570",
+    guestName: "禾",
+    text: "丝从书口垂下时，像店把未读完的温柔也留给明天。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e571",
+    guestName: "阿初",
+    text: "压花书签上的花瓣还透着一点干的粉，像刚被夹进页。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e572",
+    guestName: "陆安",
+    text: "第五百七十二次：请给我一页能被记住的停。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
