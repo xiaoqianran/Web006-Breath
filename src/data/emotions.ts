@@ -5660,6 +5660,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e809",
+    guestName: "匿名",
+    text: "想用小喷灯点一火，让接缝也能被温柔地焊住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e810",
+    guestName: "禾",
+    text: "件在焊板上时，像店把接缝也焊成稳。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e811",
+    guestName: "阿初",
+    text: "小喷灯嘴沿还带着一点暖的痕，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e812",
+    guestName: "陆安",
+    text: "第八百一十二次：请给我一火能焊住接缝的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

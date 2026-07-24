@@ -3326,6 +3326,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 415,
+    title: "小喷灯",
+    opener: "第四百一十五日。小喷灯静放，嘴沿还带着一点暖的痕。",
+    sampleIndexes: [808, 809, 810, 807],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 416,
+    title: "焊板",
+    opener: "第四百一十六日。件在板上，像店把接缝也焊成稳。",
+    sampleIndexes: [809, 810, 811, 806],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -494,3 +494,5 @@
 | ART-424 | `public/assets/ui/bezel_pusher.jpg` | 压边刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-425 | `public/assets/ui/flux_paste.jpg` | 助焊膏 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-426 | `public/assets/ui/pickle_jar.jpg` | 酸洗罐 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-427 | `public/assets/ui/mini_torch.jpg` | 小喷灯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-428 | `public/assets/ui/solder_board.jpg` | 焊板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

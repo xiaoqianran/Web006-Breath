@@ -230,3 +230,4 @@ export * from "./softpitch-label";
 export * from "./softdapping-label";
 export * from "./softburnish-label";
 export * from "./softflux-label";
+export * from "./softtorch-label";
