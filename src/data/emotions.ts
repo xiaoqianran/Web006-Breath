@@ -4484,6 +4484,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e641",
+    guestName: "匿名",
+    text: "想点一盏蜂蜡小烛，让一小圈暖也能被温柔地点起。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e642",
+    guestName: "禾",
+    text: "火柴擦过条面时，像店把第一点暖也递进暗里。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e643",
+    guestName: "阿初",
+    text: "蜂蜡烛面还带着一点蜜的光，像刚被点亮。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e644",
+    guestName: "陆安",
+    text: "第六百四十四次：请给我一圈能照住暗的蜜光。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

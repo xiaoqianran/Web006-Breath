@@ -2654,6 +2654,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 331,
+    title: "蜂蜡小烛",
+    opener: "第三百三十一日。蜂蜡小烛静放，烛面还带着一点蜜的光。",
+    sampleIndexes: [640, 641, 642, 636],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 332,
+    title: "擦火条",
+    opener: "第三百三十二日。火柴擦过条面，像店把第一点暖也递进暗里。",
+    sampleIndexes: [641, 642, 643, 638],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

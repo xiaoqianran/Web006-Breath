@@ -410,3 +410,5 @@
 | ART-340 | `public/assets/ui/mask_pouch.jpg` | 眼罩收纳袋 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-341 | `public/assets/ui/lavender_sachet.jpg` | 薰衣草香囊 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-342 | `public/assets/ui/sachet_dish.jpg` | 瓷香囊碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-343 | `public/assets/ui/beeswax_tin.jpg` | 蜂蜡小烛 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-344 | `public/assets/ui/strike_strip.jpg` | 擦火条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
