@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 349,
+  "current_round": 350,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0350-continue",
-  "last_completed_task_id": "T0349-softclasp",
-  "last_commit": "b85962077f605f9acb57dc96c7cd9b371dfde0b0",
+  "current_task_id": "T0351-continue",
+  "last_completed_task_id": "T0350-softpliers",
+  "last_commit": "65637ed6b7d7353ca0f81d453fcb441d524befa4",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 355 passed (228 files)",
+  "last_test_summary": "vitest: 356 passed (229 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -97,14 +97,15 @@
     "D-079 T0344 日剧本满 380",
     "D-080 T0347 情绪样本过 750",
     "D-081 T0348 美术 ART 满 400",
-    "D-082 T0349 日剧本满 390"
+    "D-082 T0349 日剧本满 390",
+    "D-083 T0350 开发轮次满 350"
   ],
   "next_candidate_tasks": [
-    "T0350-continue",
+    "T0351-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b85962077f605f9acb57dc96c7cd9b371dfde0b0 T0349 龙虾扣开口圈 · 轮次349\n轮次: 349 / 1000 · v0.2.6 · M2\n本段: T0345–T0349 · 内容760/390 · 测试355 · ART~402 · D-082\n下一: T0350（轮次 350 里程碑候选）\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:15:57Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 65637ed6b7d7353ca0f81d453fcb441d524befa4 T0350 珠宝钳斜口剪 · 轮次350\n轮次: 350 / 1000 · v0.2.6 · M2\n本段: T0346–T0350 · 内容764/392 · 测试356 · ART~404 · D-083\n下一: T0351\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:18:12Z"
 }
