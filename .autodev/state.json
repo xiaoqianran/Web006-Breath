@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0227-continue",
   "last_completed_task_id": "T0226-spool",
-  "last_commit": "PENDING",
+  "last_commit": "cfb59583ba2ad34082fbb325eac7cf04b8b133ea",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 232 passed (105 files)",
   "core_loop_status": "playable_demo_ready",
@@ -38,6 +38,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0226 线轴/蜂蜡 spool-label + ART-155/156 + 内容268/144\n轮次: 226 / 1000 · v0.2.6 · M2\n测试: 232 passed；双 smoke warmth=19\n下一: T0227\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: cfb59583ba2ad34082fbb325eac7cf04b8b133ea T0226 线轴/蜂蜡\n轮次: 226 / 1000 · v0.2.6 · M2\n本段: T0222–T0226 画框…线轴 · 内容268/144 · 测试232\n下一: T0227\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:05:30Z"
 }
