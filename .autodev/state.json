@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 283,
+  "current_round": 284,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0284-continue",
-  "last_completed_task_id": "T0283-icing",
-  "last_commit": "d3afdb09a440eb9620f9faf4621e55f359e869b7",
+  "current_task_id": "T0285-continue",
+  "last_completed_task_id": "T0284-cookietin",
+  "last_commit": "6281049d6e987c6442f0e9ac7b4b302554acb789",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 289 passed (162 files)",
+  "last_test_summary": "vitest: 290 passed (163 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -60,14 +60,16 @@
     "D-042 T0278 美术 ART 满 260",
     "D-043 T0279 日剧本满 250",
     "D-044 T0280 开发轮次满 280",
-    "D-045 T0283 美术 ART 满 270"
+    "D-045 T0283 美术 ART 满 270",
+    "D-046 T0284 情绪样本满 500",
+    "D-047 T0284 日剧本满 260"
   ],
   "next_candidate_tasks": [
-    "T0284-continue",
+    "T0285-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d3afdb09a440eb9620f9faf4621e55f359e869b7 T0283 裱花袋/糖粉筛 · ART270\n轮次: 283 / 1000 · v0.2.6 · M2\n本段: T0279–T0283 和好…点缀 · 内容496/258 · 测试289 · D-045\n下一: T0284\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:56:43Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6281049d6e987c6442f0e9ac7b4b302554acb789 T0284 饼干铁盒/扎带 · 情绪500·剧本260\n轮次: 284 / 1000 · v0.2.6 · M2\n本段: T0280–T0284 擀面…铁盒 · 内容500/260 · 测试290 · D-046/047\n下一: T0285\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:58:36Z"
 }
