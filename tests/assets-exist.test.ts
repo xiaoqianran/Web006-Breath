@@ -288,7 +288,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/wood_clip.jpg",
       "public/assets/ui/oven_thermo.jpg",
       "public/assets/ui/timer_dial.jpg",
+      "public/assets/ui/spice_jar.jpg",
+      "public/assets/ui/wood_scoop.jpg",
     ];
+
 
 
 

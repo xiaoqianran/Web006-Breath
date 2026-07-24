@@ -2126,7 +2126,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 265,
+    title: "香料小罐",
+    opener: "第二百六十五日。香料小罐拧开，罐口还飘着一点干的香。",
+    sampleIndexes: [508, 509, 510, 504],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 266,
+    title: "木勺",
+    opener: "第二百六十六日。木勺从罐里舀出，像店把气味也轻轻递给空气。",
+    sampleIndexes: [509, 510, 511, 506],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

@@ -344,3 +344,5 @@
 | ART-274 | `public/assets/ui/wood_clip.jpg` | 木夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-275 | `public/assets/ui/oven_thermo.jpg` | 烤箱温度计 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-276 | `public/assets/ui/timer_dial.jpg` | 计时旋钮 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-277 | `public/assets/ui/spice_jar.jpg` | 香料小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-278 | `public/assets/ui/wood_scoop.jpg` | 木勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

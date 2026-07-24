@@ -3560,7 +3560,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e509",
+    guestName: "匿名",
+    text: "想拧开香料小罐，让空气也记得店里的味道。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e510",
+    guestName: "禾",
+    text: "木勺从罐里舀出时，像店把气味也轻轻递给空气。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e511",
+    guestName: "阿初",
+    text: "香料罐口还飘着一点干的香，像刚被拧开。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e512",
+    guestName: "陆安",
+    text: "第五百一十二次：请给我一撮能点亮空气的香。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

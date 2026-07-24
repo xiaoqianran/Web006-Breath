@@ -155,3 +155,4 @@ export * from "./icing-label";
 export * from "./cookietin-label";
 export * from "./recipecard-label";
 export * from "./oventhermo-label";
+export * from "./spicejar-label";
