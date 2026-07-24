@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 391,
+  "current_round": 392,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0392-continue",
-  "last_completed_task_id": "T0391-softlocket",
-  "last_commit": "5b4ef3b342a9d7813f0ecaf94dc68fad6608b2ff",
+  "current_task_id": "T0393-continue",
+  "last_completed_task_id": "T0392-softbrooch",
+  "last_commit": "a87d6e3696ae42480eca894eaa3f0e23d51cdf27",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 397 passed (270 files)",
+  "last_test_summary": "vitest: 398 passed (271 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -131,11 +131,11 @@
     "D-113 T0391 测试文件满 270"
   ],
   "next_candidate_tasks": [
-    "T0392-continue",
+    "T0393-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5b4ef3b342a9d7813f0ecaf94dc68fad6608b2ff T0391 盒式吊坠合页 · 轮次391\n轮次: 391 / 1000 · v0.2.6 · M2\n本段: T0387–T0391 · 内容928/474 · 测试397 · ART~486 · D-113\n下一: T0392\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:52:45Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: a87d6e3696ae42480eca894eaa3f0e23d51cdf27 T0392 胸针别扣 · 轮次392\n轮次: 392 / 1000 · v0.2.6 · M2\n本段: T0388–T0392 · 内容932/476 · 测试398 · ART~488\n下一: T0393\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:55:02Z"
 }
