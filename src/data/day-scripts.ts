@@ -2302,6 +2302,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 287,
+    title: "茶蜡",
+    opener: "第二百八十七日。茶蜡点着，杯沿还映着一点暖的光。",
+    sampleIndexes: [552, 553, 554, 548],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 288,
+    title: "熄烛罩",
+    opener: "第二百八十八日。熄烛罩轻轻扣上，像店把光也温柔地收回。",
+    sampleIndexes: [553, 554, 555, 550],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

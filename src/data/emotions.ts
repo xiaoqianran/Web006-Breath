@@ -3868,6 +3868,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e553",
+    guestName: "匿名",
+    text: "想点一盏茶蜡，让暗也接到可轻轻照亮的暖。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e554",
+    guestName: "禾",
+    text: "熄烛罩轻轻扣上时，像店把光也温柔地收回。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e555",
+    guestName: "阿初",
+    text: "茶蜡杯沿还映着一点暖的光，像刚被点亮。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e556",
+    guestName: "陆安",
+    text: "第五百五十六次：请给我一盏能照一小圈的光。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

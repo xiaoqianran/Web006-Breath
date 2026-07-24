@@ -166,3 +166,4 @@ export * from "./soapbar-label";
 export * from "./lotion-label";
 export * from "./bathsalt-label";
 export * from "./diffuser-label";
+export * from "./tealight-label";
