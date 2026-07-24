@@ -138,3 +138,4 @@ export * from "./windowseat-label";
 export * from "./plantpot-label";
 export * from "./cuprest-label";
 export * from "./honeydip-label";
+export * from "./milkjug-label";

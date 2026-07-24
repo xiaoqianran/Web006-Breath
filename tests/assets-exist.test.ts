@@ -254,7 +254,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/tea_cloth.jpg",
       "public/assets/ui/honey_jar.jpg",
       "public/assets/ui/wood_dipper.jpg",
+      "public/assets/ui/milk_jug.jpg",
+      "public/assets/ui/cream_spoon.jpg",
     ];
+
 
 
 

@@ -310,3 +310,5 @@
 | ART-240 | `public/assets/ui/tea_cloth.jpg` | 茶巾 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-241 | `public/assets/ui/honey_jar.jpg` | 小蜜罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-242 | `public/assets/ui/wood_dipper.jpg` | 木蜜勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-243 | `public/assets/ui/milk_jug.jpg` | 小奶盅 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-244 | `public/assets/ui/cream_spoon.jpg` | 奶油勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

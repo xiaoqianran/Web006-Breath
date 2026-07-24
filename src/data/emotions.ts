@@ -3084,7 +3084,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e441",
+    guestName: "匿名",
+    text: "想在烫茶里倾一点奶，不是冲淡，是让舌头也慢一点。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e442",
+    guestName: "禾",
+    text: "奶油勺在杯里画圆时，像店把急也搅慢了。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e443",
+    guestName: "阿初",
+    text: "小奶盅口还带着一点凉的白，像刚被倾过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e444",
+    guestName: "听雨",
+    text: "第四百四十四次：请给我一只能软化烫的奶盅。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 
