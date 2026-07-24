@@ -211,3 +211,4 @@ export * from "./softgauge-label";
 export * from "./softwinder-label";
 export * from "./softfelting-label";
 export * from "./softspindle-label";
+export * from "./softcarder-label";

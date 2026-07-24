@@ -5128,6 +5128,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e733",
+    guestName: "匿名",
+    text: "想用梳毛刷梳一缕，让纠结也能被温柔地梳开。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e734",
+    guestName: "禾",
+    text: "毛在梳毛垫上铺开时，像店把纠结也梳成顺。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e735",
+    guestName: "阿初",
+    text: "梳毛刷齿沿还带着一点软的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e736",
+    guestName: "陆安",
+    text: "第七百三十六次：请给我一缕能梳开的纠结。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

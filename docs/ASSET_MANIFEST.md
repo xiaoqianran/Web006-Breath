@@ -456,3 +456,5 @@
 | ART-386 | `public/assets/ui/wool_roving.jpg` | 羊毛条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-387 | `public/assets/ui/drop_spindle.jpg` | 纺锤 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-388 | `public/assets/ui/soft_roving.jpg` | 纺前毛条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-389 | `public/assets/ui/carding_brush.jpg` | 梳毛刷 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-390 | `public/assets/ui/carding_pad.jpg` | 梳毛垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

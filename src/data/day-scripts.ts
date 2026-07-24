@@ -3022,6 +3022,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 377,
+    title: "梳毛刷",
+    opener: "第三百七十七日。梳毛刷静放，齿沿还带着一点软的温。",
+    sampleIndexes: [732, 733, 734, 731],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 378,
+    title: "梳毛垫",
+    opener: "第三百七十八日。毛在垫上铺开，像店把纠结也梳成顺。",
+    sampleIndexes: [733, 734, 735, 730],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
