@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 324,
+  "current_round": 325,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0325-continue",
-  "last_completed_task_id": "T0324-patweight",
-  "last_commit": "e18bc4ad59ba3d66897edf357f8ffc31781bde32",
+  "current_task_id": "T0326-continue",
+  "last_completed_task_id": "T0325-rotarycut",
+  "last_commit": "8bc5e662b95899011a0ef88582deaab2af2df9bb",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 330 passed (203 files)",
+  "last_test_summary": "vitest: 331 passed (204 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -85,11 +85,11 @@
     "D-067 T0324 日剧本满 340"
   ],
   "next_candidate_tasks": [
-    "T0325-continue",
+    "T0326-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e18bc4ad59ba3d66897edf357f8ffc31781bde32 T0324 布镇/裁片纸样 · 轮次324 · 剧本340\n轮次: 324 / 1000 · v0.2.6 · M2\n本段: T0320–T0324 · 内容660/340 · 测试330 · ART~352 · D-067\n下一: T0325\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:23:40Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8bc5e662b95899011a0ef88582deaab2af2df9bb T0325 滚刀/软裁垫 · 轮次325\n轮次: 325 / 1000 · v0.2.6 · M2\n本段: T0321–T0325 · 内容664/342 · 测试331 · ART~354 · D-067\n下一: T0326\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:25:40Z"
 }
