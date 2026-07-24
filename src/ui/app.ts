@@ -1112,6 +1112,11 @@ import {
   formatSoftbarretteAside,
   formatSoftbarretteEncourage,
   formatSoftbarrettePair,
+  formatSoftScrunchieLine,
+  formatScrunchieElasticLine,
+  formatSoftscrunchieAside,
+  formatSoftscrunchieEncourage,
+  formatSoftscrunchiePair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2462,6 +2467,8 @@ export class YixiApp {
         <div class="tiara-comb-art" role="img" aria-label="梳座" data-testid="tiara-comb-art"></div>
         <div class="soft-barrette-art" role="img" aria-label="发夹" data-testid="soft-barrette-art"></div>
         <div class="barrette-spring-art" role="img" aria-label="弹簧扣" data-testid="barrette-spring-art"></div>
+        <div class="soft-scrunchie-art" role="img" aria-label="发圈" data-testid="soft-scrunchie-art"></div>
+        <div class="scrunchie-elastic-art" role="img" aria-label="弹力绳" data-testid="scrunchie-elastic-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -3463,6 +3470,11 @@ export class YixiApp {
         <p class="muted" data-testid="softbarrette-aside">${formatSoftbarretteAside(s.history.length)}</p>
         <p class="muted" data-testid="softbarrette-encourage">${formatSoftbarretteEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softbarrette-pair">${formatSoftbarrettePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-scrunchie-line">${formatSoftScrunchieLine(s.day)}</p>
+        <p class="muted" data-testid="scrunchie-elastic-line">${formatScrunchieElasticLine(s.warmth)}</p>
+        <p class="muted" data-testid="softscrunchie-aside">${formatSoftscrunchieAside(s.history.length)}</p>
+        <p class="muted" data-testid="softscrunchie-encourage">${formatSoftscrunchieEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softscrunchie-pair">${formatSoftscrunchiePair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

@@ -578,3 +578,5 @@
 | ART-508 | `public/assets/ui/tiara_comb.jpg` | 梳座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-509 | `public/assets/ui/soft_barrette.jpg` | 发夹 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-510 | `public/assets/ui/barrette_spring.jpg` | 弹簧扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-511 | `public/assets/ui/soft_scrunchie.jpg` | 发圈 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-512 | `public/assets/ui/scrunchie_elastic.jpg` | 弹力绳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

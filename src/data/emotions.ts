@@ -6836,6 +6836,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e977",
+    guestName: "小禾",
+    text: "发圈很软：只想束一点，不硬勒。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e978",
+    guestName: "阿南",
+    text: "弹力绳微弹，像轻轻说「束一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e979",
+    guestName: "阿初",
+    text: "圈沿还带着一点细的光，像刚被束过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e980",
+    guestName: "陆安",
+    text: "第九百八十次：请给我一下能把发尾也温柔收住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
