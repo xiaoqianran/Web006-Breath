@@ -2526,6 +2526,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 315,
+    title: "保温瓷壶",
+    opener: "第三百一十五日。保温瓷壶立稳，壶身还带着一点温的釉。",
+    sampleIndexes: [608, 609, 610, 604],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 316,
+    title: "羊毛壶套",
+    opener: "第三百一十六日。羊毛套裹住壶身，像店把掌心的暖也借给路上。",
+    sampleIndexes: [609, 610, 611, 606],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -180,3 +180,4 @@ export * from "./signbook-label";
 export * from "./softscarf-label";
 export * from "./foldumb-label";
 export * from "./softmitten-label";
+export * from "./thermos-label";

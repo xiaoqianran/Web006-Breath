@@ -4260,6 +4260,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e609",
+    guestName: "匿名",
+    text: "想灌一壶保温瓷壶，让热也能被温柔地留住一路。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e610",
+    guestName: "禾",
+    text: "羊毛套裹住壶身时，像店把掌心的暖也借给路上。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e611",
+    guestName: "阿初",
+    text: "保温壶壶身还带着一点温的釉，像刚被灌满。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e612",
+    guestName: "陆安",
+    text: "第六百一十二次：请给我一壶能带走的热。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

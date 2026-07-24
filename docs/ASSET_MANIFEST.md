@@ -394,3 +394,5 @@
 | ART-324 | `public/assets/ui/ceramic_um_stand.jpg` | 瓷伞筒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-325 | `public/assets/ui/soft_mitten.jpg` | 软织连指手套 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-326 | `public/assets/ui/mitten_basket.jpg` | 柳编手套筐 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-327 | `public/assets/ui/thermos_flask.jpg` | 保温瓷壶 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-328 | `public/assets/ui/wool_sleeve.jpg` | 羊毛壶套 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
