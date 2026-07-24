@@ -454,3 +454,5 @@
 | ART-384 | `public/assets/ui/yarn_swift.jpg` | 纱架 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-385 | `public/assets/ui/felting_needle.jpg` | 戳戳针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-386 | `public/assets/ui/wool_roving.jpg` | 羊毛条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-387 | `public/assets/ui/drop_spindle.jpg` | 纺锤 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-388 | `public/assets/ui/soft_roving.jpg` | 纺前毛条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

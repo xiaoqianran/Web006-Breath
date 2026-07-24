@@ -5100,6 +5100,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e729",
+    guestName: "匿名",
+    text: "想用纺锤捻一缕，让蓬松也能被温柔地捻成细线。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e730",
+    guestName: "禾",
+    text: "毛在指间成线时，像店把蓬松也捻成细线。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e731",
+    guestName: "阿初",
+    text: "纺锤轮盘还带着一点木的温，像刚被转过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e732",
+    guestName: "陆安",
+    text: "第七百三十二次：请给我一缕能捻成细线的毛。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
