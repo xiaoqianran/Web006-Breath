@@ -2606,6 +2606,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 325,
+    title: "膝上小毯",
+    opener: "第三百二十五日。膝上小毯叠好，边角还带着一点暖的绒。",
+    sampleIndexes: [628, 629, 630, 624],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 326,
+    title: "木托板",
+    opener: "第三百二十六日。小毯落在木托板上，像店把膝上的暖也留给坐着的人。",
+    sampleIndexes: [629, 630, 631, 626],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

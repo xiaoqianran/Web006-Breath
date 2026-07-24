@@ -404,3 +404,5 @@
 | ART-334 | `public/assets/ui/earmuff_peg.jpg` | 耳罩挂钉 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-335 | `public/assets/ui/fingerless_glove.jpg` | 半指软织手套 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-336 | `public/assets/ui/glove_dish.jpg` | 瓷手套碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-337 | `public/assets/ui/knee_blanket.jpg` | 膝上小毯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-338 | `public/assets/ui/blanket_board.jpg` | 木托板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

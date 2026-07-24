@@ -4400,6 +4400,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e629",
+    guestName: "匿名",
+    text: "想盖一角膝上小毯，让膝上的凉也能被温柔地捂住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e630",
+    guestName: "禾",
+    text: "小毯落在木托板上时，像店把膝上的暖也留给坐着的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e631",
+    guestName: "阿初",
+    text: "膝上小毯边角还带着一点暖的绒，像刚被叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e632",
+    guestName: "陆安",
+    text: "第六百三十二次：请给我一角能捂住膝的暖。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
