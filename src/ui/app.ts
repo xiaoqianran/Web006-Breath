@@ -872,6 +872,11 @@ import {
   formatSofttweezersAside,
   formatSofttweezersEncourage,
   formatSofttweezersPair,
+  formatSoftCaliperLine,
+  formatThicknessGaugeLine,
+  formatSoftcaliperAside,
+  formatSoftcaliperEncourage,
+  formatSoftcaliperPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2126,6 +2131,8 @@ export class YixiApp {
         <div class="buff-stick-art" role="img" aria-label="绒布棒" data-testid="buff-stick-art"></div>
         <div class="soft-tweezers-art" role="img" aria-label="镊子" data-testid="soft-tweezers-art"></div>
         <div class="jewel-loupe-art" role="img" aria-label="放大镜" data-testid="jewel-loupe-art"></div>
+        <div class="soft-caliper-art" role="img" aria-label="卡尺" data-testid="soft-caliper-art"></div>
+        <div class="thickness-gauge-art" role="img" aria-label="厚度规" data-testid="thickness-gauge-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2887,6 +2894,11 @@ export class YixiApp {
         <p class="muted" data-testid="softtweezers-aside">${formatSofttweezersAside(s.history.length)}</p>
         <p class="muted" data-testid="softtweezers-encourage">${formatSofttweezersEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softtweezers-pair">${formatSofttweezersPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-caliper-line">${formatSoftCaliperLine(s.day)}</p>
+        <p class="muted" data-testid="thickness-gauge-line">${formatThicknessGaugeLine(s.warmth)}</p>
+        <p class="muted" data-testid="softcaliper-aside">${formatSoftcaliperAside(s.history.length)}</p>
+        <p class="muted" data-testid="softcaliper-encourage">${formatSoftcaliperEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softcaliper-pair">${formatSoftcaliperPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

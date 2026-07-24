@@ -5492,6 +5492,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e785",
+    guestName: "匿名",
+    text: "想用卡尺量一寸，让尺寸也能被温柔地量准。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e786",
+    guestName: "禾",
+    text: "厚度规卡在缝间时，像店把厚薄也量成温柔。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e787",
+    guestName: "阿初",
+    text: "卡尺尺身还带着一点金属的凉，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e788",
+    guestName: "陆安",
+    text: "第七百八十八次：请给我一寸能量准的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

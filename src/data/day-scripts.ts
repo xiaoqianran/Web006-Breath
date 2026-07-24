@@ -3230,6 +3230,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 403,
+    title: "卡尺",
+    opener: "第四百零三日。卡尺静放，尺身还带着一点金属的凉。",
+    sampleIndexes: [784, 785, 786, 783],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 404,
+    title: "厚度规",
+    opener: "第四百零四日。片卡在缝间，像店把厚薄也量成温柔。",
+    sampleIndexes: [785, 786, 787, 782],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

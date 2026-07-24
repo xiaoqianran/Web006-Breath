@@ -482,3 +482,5 @@
 | ART-412 | `public/assets/ui/buff_stick.jpg` | 绒布棒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-413 | `public/assets/ui/soft_tweezers.jpg` | 镊子 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-414 | `public/assets/ui/jewel_loupe.jpg` | 放大镜 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-415 | `public/assets/ui/soft_caliper.jpg` | 卡尺 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-416 | `public/assets/ui/thickness_gauge.jpg` | 厚度规 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
