@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 250,
+  "current_round": 251,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0251-continue",
-  "last_completed_task_id": "T0250-tagcard",
-  "last_commit": "069d8801a16b030c4168d259c180f7fcff7dc041",
+  "current_task_id": "T0252-continue",
+  "last_completed_task_id": "T0251-farewell",
+  "last_commit": "cb72eebbabe7b081f2cce86e2a486bf74f454039",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 256 passed (129 files)",
+  "last_test_summary": "vitest: 257 passed (130 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -41,14 +41,15 @@
     "D-023 T0240 开发轮次满 240",
     "D-024 T0243 美术 ART 满 190",
     "D-025 T0244 情绪 340 / 剧本 180 / 测试 250",
-    "D-026 T0248 美术 ART 满 200"
+    "D-026 T0248 美术 ART 满 200",
+    "D-027 T0250 开发轮次满 250"
   ],
   "next_candidate_tasks": [
-    "T0251-continue",
+    "T0252-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 069d8801a16b030c4168d259c180f7fcff7dc041 T0250 温言小卡/细线 · ART203/204\n轮次: 250 / 1000 · v0.2.6 · M2\n本段: T0245–T0250 印泥…小卡 · 内容364/192 · 测试256\n下一: T0251\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:52:17Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: cb72eebbabe7b081f2cce86e2a486bf74f454039 T0251 找零浅碟/掌心手帕 · ART205/206\n轮次: 251 / 1000 · v0.2.6 · M2\n本段: T0248–T0251 收据…离店 · 内容368/194 · 测试257 · D-027 轮次250\n下一: T0252\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:54:02Z"
 }
