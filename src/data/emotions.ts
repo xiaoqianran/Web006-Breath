@@ -3448,7 +3448,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e493",
+    guestName: "匿名",
+    text: "想用裱花袋轻轻画一道线，让完成也被看见。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e494",
+    guestName: "禾",
+    text: "糖粉筛掠过成品时，像店把完成也撒成可见的温柔。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e495",
+    guestName: "阿初",
+    text: "裱花袋口还带着一点甜的凉，像刚挤过线。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e496",
+    guestName: "陆安",
+    text: "第四百九十六次：请给我一层能落在香上的白。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

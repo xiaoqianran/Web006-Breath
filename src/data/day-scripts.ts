@@ -2062,7 +2062,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 257,
+    title: "裱花袋",
+    opener: "第二百五十七日。裱花袋捏住，袋口还带着一点甜的凉。",
+    sampleIndexes: [492, 493, 494, 488],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 258,
+    title: "糖粉筛",
+    opener: "第二百五十八日。糖粉筛掠过成品，像店把完成也撒成可见的温柔。",
+    sampleIndexes: [493, 494, 495, 490],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
