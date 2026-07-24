@@ -1342,6 +1342,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 167,
+    title: "环衬色",
+    opener: "第一百六十七日。环衬换了浅雾蓝，打开封面时先有一片安静。",
+    sampleIndexes: [312, 313, 314, 308],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 168,
+    title: "天头带",
+    opener: "第一百六十八日。天头丝带系稳了，翻开时有轻轻的触感提醒。",
+    sampleIndexes: [313, 314, 315, 310],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

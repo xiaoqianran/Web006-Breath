@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 237,
+  "current_round": 238,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0238-continue",
-  "last_completed_task_id": "T0237-cloth",
-  "last_commit": "2c2da10a340fe2551aa64aea9b68149799b940fc",
+  "current_task_id": "T0239-continue",
+  "last_completed_task_id": "T0238-endpaper",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 243 passed (116 files)",
+  "last_test_summary": "vitest: 244 passed (117 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -35,14 +35,15 @@
     "D-017 T0229 情绪 280 / 剧本 150",
     "D-018 T0230 开发轮次满 230",
     "D-019 T0233 美术 ART 满 170",
-    "D-020 T0234 情绪 300 / 剧本 160"
+    "D-020 T0234 情绪 300 / 剧本 160",
+    "D-021 T0238 美术 ART 满 180"
   ],
   "next_candidate_tasks": [
-    "T0238-continue",
+    "T0239-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2c2da10a340fe2551aa64aea9b68149799b940fc T0237 装帧布/书脊条\n轮次: 237 / 1000 · v0.2.6 · M2\n本段: T0234–T0237 锥子…装帧 · 内容312/166 · 测试243\n下一: T0238\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:25:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0238 环衬/天头丝带 endpaper-label + ART-179/180 + 内容316/168\n轮次: 238 / 1000 · v0.2.6 · M2\n测试: 244 passed；双 smoke warmth=19\n下一: T0239\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:27:10Z"
 }

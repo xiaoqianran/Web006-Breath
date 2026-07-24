@@ -282,6 +282,11 @@ import {
   formatClothAside,
   formatClothEncourage,
   formatClothPair,
+  formatEndpaperLine,
+  formatHeadbandLine,
+  formatEndpaperAside,
+  formatEndpaperEncourage,
+  formatEndpaperPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1300,6 +1305,8 @@ export class YixiApp {
         <div class="sewing-needle-art" role="img" aria-label="穿线针" data-testid="sewing-needle-art"></div>
         <div class="bookcloth-art" role="img" aria-label="装帧布" data-testid="bookcloth-art"></div>
         <div class="spine-strip-art" role="img" aria-label="书脊条" data-testid="spine-strip-art"></div>
+        <div class="endpaper-art" role="img" aria-label="环衬" data-testid="endpaper-art"></div>
+        <div class="headband-ribbon-art" role="img" aria-label="天头丝带" data-testid="headband-ribbon-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1471,6 +1478,11 @@ export class YixiApp {
         <p class="muted" data-testid="cloth-aside">${formatClothAside(s.history.length)}</p>
         <p class="muted" data-testid="cloth-encourage">${formatClothEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="cloth-pair">${formatClothPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="endpaper-line">${formatEndpaperLine(s.day)}</p>
+        <p class="muted" data-testid="headband-line">${formatHeadbandLine(s.warmth)}</p>
+        <p class="muted" data-testid="endpaper-aside">${formatEndpaperAside(s.history.length)}</p>
+        <p class="muted" data-testid="endpaper-encourage">${formatEndpaperEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="endpaper-pair">${formatEndpaperPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

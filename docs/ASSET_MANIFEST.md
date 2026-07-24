@@ -246,3 +246,5 @@
 | ART-176 | `public/assets/ui/sewing_needle.jpg` | 穿线针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-177 | `public/assets/ui/bookcloth.jpg` | 装帧布 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-178 | `public/assets/ui/spine_strip.jpg` | 书脊条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-179 | `public/assets/ui/endpaper.jpg` | 环衬 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-180 | `public/assets/ui/headband_ribbon.jpg` | 天头丝带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

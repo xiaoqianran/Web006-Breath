@@ -2188,6 +2188,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e313",
+    guestName: "匿名",
+    text: "想在打开封面时先看见一片安静的颜色。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e314",
+    guestName: "禾",
+    text: "天头丝带一翘，像有人轻轻招手说请进。",
+    tags: ["温柔", "悸动"],
+    intensity: 2,
+  },
+  {
+    id: "e315",
+    guestName: "阿初",
+    text: "环衬贴上后，内页与外壳终于连在一起了。",
+    tags: ["释然", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e316",
+    guestName: "听雨",
+    text: "第三百一十六次：请给我一层能接住打开的颜色。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 
