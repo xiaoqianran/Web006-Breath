@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0213-continue",
   "last_completed_task_id": "T0212-dew",
-  "last_commit": "PENDING",
+  "last_commit": "416d0e4173cf228ddc0e17ec46c698f91b678b55",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 218 passed (91 files)",
   "core_loop_status": "playable_demo_ready",
@@ -32,6 +32,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0212 晨露/湿窗台 dew-label + ART-127/128 + 内容212/116\n轮次: 212 / 1000 · v0.2.6 · M2\n测试: 218 passed；双 smoke warmth=19\n下一: T0213\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 416d0e4173cf228ddc0e17ec46c698f91b678b55 T0212 晨露/湿窗台\n轮次: 212 / 1000 · v0.2.6 · M2\n本段: T0209–T0212 广播…晨露 · 内容212/116 · 测试218\n下一: T0213\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:41:40Z"
 }
