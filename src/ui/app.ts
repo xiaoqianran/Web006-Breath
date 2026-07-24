@@ -487,6 +487,11 @@ import {
   formatFlourbinAside,
   formatFlourbinEncourage,
   formatFlourbinPair,
+  formatMixBowlLine,
+  formatWireWhiskLine,
+  formatMixbowlAside,
+  formatMixbowlEncourage,
+  formatMixbowlPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1587,6 +1592,8 @@ export class YixiApp {
         <div class="soft-timer-bell-art" role="img" aria-label="小铃铛" data-testid="soft-timer-bell-art"></div>
         <div class="flour-bin-art" role="img" aria-label="面粉罐" data-testid="flour-bin-art"></div>
         <div class="measure-cup-art" role="img" aria-label="量杯" data-testid="measure-cup-art"></div>
+        <div class="mix-bowl-art" role="img" aria-label="搅拌盆" data-testid="mix-bowl-art"></div>
+        <div class="wire-whisk-art" role="img" aria-label="打蛋器" data-testid="wire-whisk-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1963,6 +1970,11 @@ export class YixiApp {
         <p class="muted" data-testid="flourbin-aside">${formatFlourbinAside(s.history.length)}</p>
         <p class="muted" data-testid="flourbin-encourage">${formatFlourbinEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="flourbin-pair">${formatFlourbinPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="mix-bowl-line">${formatMixBowlLine(s.day)}</p>
+        <p class="muted" data-testid="wire-whisk-line">${formatWireWhiskLine(s.warmth)}</p>
+        <p class="muted" data-testid="mixbowl-aside">${formatMixbowlAside(s.history.length)}</p>
+        <p class="muted" data-testid="mixbowl-encourage">${formatMixbowlEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="mixbowl-pair">${formatMixbowlPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

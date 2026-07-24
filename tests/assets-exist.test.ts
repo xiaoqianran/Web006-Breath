@@ -272,7 +272,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/soft_timer_bell.jpg",
       "public/assets/ui/flour_bin.jpg",
       "public/assets/ui/measure_cup.jpg",
+      "public/assets/ui/mix_bowl.jpg",
+      "public/assets/ui/wire_whisk.jpg",
     ];
+
 
 
 

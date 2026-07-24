@@ -1998,7 +1998,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 249,
+    title: "搅拌盆",
+    opener: "第二百四十九日。搅拌盆端稳，盆沿还带着一点粉的白。",
+    sampleIndexes: [476, 477, 478, 472],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 250,
+    title: "打蛋器",
+    opener: "第二百五十日。打蛋器在盆里画圈，像店把生硬也搅软了。",
+    sampleIndexes: [477, 478, 479, 474],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

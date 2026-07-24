@@ -3336,7 +3336,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e477",
+    guestName: "匿名",
+    text: "想把零散的材料慢慢和在盆里，让它们认识彼此。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e478",
+    guestName: "禾",
+    text: "打蛋器在盆里画圈时，像店把生硬也搅软了。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e479",
+    guestName: "阿初",
+    text: "搅拌盆沿还带着一点粉的白，像刚被和过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e480",
+    guestName: "陆安",
+    text: "第四百八十次：请给我一把能把心搅匀的器。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

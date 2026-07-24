@@ -328,3 +328,5 @@
 | ART-258 | `public/assets/ui/soft_timer_bell.jpg` | 小铃铛 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-259 | `public/assets/ui/flour_bin.jpg` | 面粉罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-260 | `public/assets/ui/measure_cup.jpg` | 量杯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-261 | `public/assets/ui/mix_bowl.jpg` | 搅拌盆 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-262 | `public/assets/ui/wire_whisk.jpg` | 打蛋器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
