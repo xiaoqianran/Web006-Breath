@@ -164,3 +164,4 @@
 | ART-094 | `public/assets/ui/spice_jars.jpg` | 茶糖小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-095 | `public/assets/ui/wind_chime.jpg` | 风铃 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-096 | `public/assets/decor/shop_cat.jpg` | 店猫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-097 | `public/assets/ui/postcards.jpg` | 明信片叠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

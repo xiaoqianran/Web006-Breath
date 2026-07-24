@@ -80,6 +80,8 @@ import {
   formatWindChimeLine,
   formatShopCatLine,
   formatAmbienceEncourage,
+  formatPostcardLine,
+  formatPostcardStackAside,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1228,11 +1230,14 @@ export class YixiApp {
       <div class="fountain-pen-art" role="img" aria-label="钢笔" data-testid="fountain-pen-art"></div>
       <div class="journal-page-art" role="img" aria-label="手账页" data-testid="journal-page-art"></div>
       <div class="gift-tag-art" role="img" aria-label="心意吊牌" data-testid="gift-tag-art"></div>
+      <div class="postcards-art" role="img" aria-label="明信片叠" data-testid="postcards-art"></div>
       <div class="moment-card" data-testid="moment-card">
         <p data-testid="moment-header"><strong>${formatMomentCardHeader(r)}</strong></p>
         <p data-testid="action-result-line">${formatCirculationResultLine(r.action, r.warmthGained)}</p>
         <p>${r.momentCard}</p>
         <p class="muted" data-testid="moment-footer">${formatMomentCardFooter(r)}</p>
+        <p class="muted" data-testid="postcard-line">${formatPostcardLine(r.item.vessel, r.item.quality, r.action)}</p>
+        <p class="muted" data-testid="postcard-stack">${formatPostcardStackAside(s.history.length)}</p>
       </div>
     `;
     return box;

@@ -984,6 +984,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "温柔"],
     intensity: 4,
   },
+  {
+    id: "e141",
+    guestName: "匿名",
+    text: "想把心情写成明信片，地址栏只写：给懂的人。",
+    tags: ["想念", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e142",
+    guestName: "林晚",
+    text: "邮票贴歪了也没关系，重要的是寄出去。",
+    tags: ["勇气", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e143",
+    guestName: "周予",
+    text: "柜台边的明信片叠高了一点，像日子被接住。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e144",
+    guestName: "禾",
+    text: "第一百四十四次：请帮我把这句话寄到明天。",
+    tags: ["期待", "温柔"],
+    intensity: 4,
+  },
 ];
 
 
