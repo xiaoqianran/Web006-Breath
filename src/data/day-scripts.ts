@@ -4014,6 +4014,38 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 501,
+    title: "抓夹",
+    opener: "第五百零一日。抓夹静放，齿沿还带着一点细的光。",
+    sampleIndexes: [980, 981, 982, 979],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 502,
+    title: "铰链",
+    opener: "第五百零二日。链带着夹，像店把散的发也收成安。",
+    sampleIndexes: [981, 982, 983, 978],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 503,
+    title: "香蕉夹",
+    opener: "第五百零三日。香蕉夹静放，弧沿还带着一点细的光。",
+    sampleIndexes: [984, 985, 986, 983],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 504,
+    title: "齿排",
+    opener: "第五百零四日。齿带着夹，像店把散的长发也别成安。",
+    sampleIndexes: [985, 986, 987, 982],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

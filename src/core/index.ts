@@ -273,3 +273,5 @@ export * from "./softchoker-label";
 export * from "./softtiara-label";
 export * from "./softbarrette-label";
 export * from "./softscrunchie-label";
+export * from "./softclaw-label";
+export * from "./softbanana-label";

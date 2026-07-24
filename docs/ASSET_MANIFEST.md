@@ -580,3 +580,7 @@
 | ART-510 | `public/assets/ui/barrette_spring.jpg` | 弹簧扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-511 | `public/assets/ui/soft_scrunchie.jpg` | 发圈 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-512 | `public/assets/ui/scrunchie_elastic.jpg` | 弹力绳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-513 | `public/assets/ui/soft_claw.jpg` | 抓夹 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-514 | `public/assets/ui/claw_hinge.jpg` | 铰链 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-515 | `public/assets/ui/soft_banana.jpg` | 香蕉夹 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-516 | `public/assets/ui/banana_teeth.jpg` | 齿排 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

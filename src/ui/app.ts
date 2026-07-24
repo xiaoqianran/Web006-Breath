@@ -1117,6 +1117,16 @@ import {
   formatSoftscrunchieAside,
   formatSoftscrunchieEncourage,
   formatSoftscrunchiePair,
+  formatSoftClawLine,
+  formatClawHingeLine,
+  formatSoftclawAside,
+  formatSoftclawEncourage,
+  formatSoftclawPair,
+  formatSoftBananaLine,
+  formatBananaTeethLine,
+  formatSoftbananaAside,
+  formatSoftbananaEncourage,
+  formatSoftbananaPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2469,6 +2479,10 @@ export class YixiApp {
         <div class="barrette-spring-art" role="img" aria-label="弹簧扣" data-testid="barrette-spring-art"></div>
         <div class="soft-scrunchie-art" role="img" aria-label="发圈" data-testid="soft-scrunchie-art"></div>
         <div class="scrunchie-elastic-art" role="img" aria-label="弹力绳" data-testid="scrunchie-elastic-art"></div>
+        <div class="soft-claw-art" role="img" aria-label="抓夹" data-testid="soft-claw-art"></div>
+        <div class="claw-hinge-art" role="img" aria-label="铰链" data-testid="claw-hinge-art"></div>
+        <div class="soft-banana-art" role="img" aria-label="香蕉夹" data-testid="soft-banana-art"></div>
+        <div class="banana-teeth-art" role="img" aria-label="齿排" data-testid="banana-teeth-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -3475,6 +3489,11 @@ export class YixiApp {
         <p class="muted" data-testid="softscrunchie-aside">${formatSoftscrunchieAside(s.history.length)}</p>
         <p class="muted" data-testid="softscrunchie-encourage">${formatSoftscrunchieEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softscrunchie-pair">${formatSoftscrunchiePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-claw-line">${formatSoftClawLine(s.day)}</p>
+        <p class="muted" data-testid="claw-hinge-line">${formatClawHingeLine(s.warmth)}</p>
+        <p class="muted" data-testid="softclaw-aside">${formatSoftclawAside(s.history.length)}</p>
+        <p class="muted" data-testid="softclaw-encourage">${formatSoftclawEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softclaw-pair">${formatSoftclawPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

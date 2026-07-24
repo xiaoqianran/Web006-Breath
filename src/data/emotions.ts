@@ -6864,6 +6864,62 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e981",
+    guestName: "小禾",
+    text: "抓夹很轻：只想收一点，不硬咬。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e982",
+    guestName: "阿南",
+    text: "铰链微合，像轻轻说「夹一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e983",
+    guestName: "阿初",
+    text: "齿沿还带着一点细的光，像刚被收过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e984",
+    guestName: "陆安",
+    text: "第九百八十四次：请给我一下能把发束也温柔收住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e985",
+    guestName: "小禾",
+    text: "香蕉夹很弯：只想别一点，不硬卡。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e986",
+    guestName: "阿南",
+    text: "齿排微合，像轻轻说「别一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e987",
+    guestName: "阿初",
+    text: "弧沿还带着一点细的光，像刚被别过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e988",
+    guestName: "陆安",
+    text: "第九百八十八次：请给我一下能把长发也温柔别住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
