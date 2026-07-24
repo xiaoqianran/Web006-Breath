@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 356,
+  "current_round": 357,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0357-continue",
-  "last_completed_task_id": "T0356-softcaliper",
-  "last_commit": "d1a9bc09bc93c6a9e5b5423f3876991c74fc3ca7",
+  "current_task_id": "T0358-continue",
+  "last_completed_task_id": "T0357-softsaw",
+  "last_commit": "bd47a4bea66d44a0b3100ecb2d242c29e754f028",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 362 passed (235 files)",
+  "last_test_summary": "vitest: 363 passed (236 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -104,11 +104,11 @@
     "D-086 T0354 测试满 360"
   ],
   "next_candidate_tasks": [
-    "T0357-continue",
+    "T0358-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d1a9bc09bc93c6a9e5b5423f3876991c74fc3ca7 T0356 卡尺厚度规 · 轮次356\n轮次: 356 / 1000 · v0.2.6 · M2\n本段: T0352–T0356 · 内容788/404 · 测试362 · ART~416 · D-086\n下一: T0357\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:30:46Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: bd47a4bea66d44a0b3100ecb2d242c29e754f028 T0357 金工锯锯条 · 轮次357\n轮次: 357 / 1000 · v0.2.6 · M2\n本段: T0353–T0357 · 内容792/406 · 测试363 · ART~418 · D-086\n下一: T0358（情绪近 800）\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:33:07Z"
 }
