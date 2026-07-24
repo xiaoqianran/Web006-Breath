@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 384,
+  "current_round": 385,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0385-continue",
-  "last_completed_task_id": "T0384-softspacer",
-  "last_commit": "5790b116c3f8c1650b88307f7a1292a08a101223",
+  "current_task_id": "T0386-continue",
+  "last_completed_task_id": "T0385-softmemory",
+  "last_commit": "1e0e718ba93189d5988a0b286e8bf082e1cfd6bf",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 390 passed (263 files)",
+  "last_test_summary": "vitest: 391 passed (264 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -126,11 +126,11 @@
     "D-108 T0384 测试满 390"
   ],
   "next_candidate_tasks": [
-    "T0385-continue",
+    "T0386-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5790b116c3f8c1650b88307f7a1292a08a101223 T0384 隔珠止珠器 · 轮次384\n轮次: 384 / 1000 · v0.2.6 · M2\n本段: T0380–T0384 · 内容900/460 · 测试390 · ART~472 · D-106/107/108\n下一: T0385\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:36:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 1e0e718ba93189d5988a0b286e8bf082e1cfd6bf T0385 记忆丝剪线钳 · 轮次385\n轮次: 385 / 1000 · v0.2.6 · M2\n本段: T0381–T0385 · 内容904/462 · 测试391 · ART~474\n下一: T0386\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:38:46Z"
 }
