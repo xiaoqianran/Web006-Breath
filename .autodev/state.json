@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0242-continue",
   "last_completed_task_id": "T0241-knife",
-  "last_commit": "PENDING",
+  "last_commit": "b92bb857f60d6f480186a170ad6d78e43e8977b3",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 247 passed (120 files)",
   "core_loop_status": "playable_demo_ready",
@@ -46,6 +46,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0241 裁纸刀/安全尺 knife-label + ART-185/186 + 内容328/174\n轮次: 241 / 1000 · v0.2.6 · M2\n测试: 247 passed；双 smoke warmth=19\n下一: T0242\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b92bb857f60d6f480186a170ad6d78e43e8977b3 T0241 裁纸刀/安全尺\n轮次: 241 / 1000 · v0.2.6 · M2\n本段: T0238–T0241 环衬…裁刀 · 内容328/174 · 测试247\n下一: T0242\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:32:30Z"
 }
