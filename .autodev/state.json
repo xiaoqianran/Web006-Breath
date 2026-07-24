@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 335,
+  "current_round": 336,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0336-continue",
-  "last_completed_task_id": "T0335-softpom",
-  "last_commit": "49300436d069a4063a28b8e677a4962344914ba0",
+  "current_task_id": "T0337-continue",
+  "last_completed_task_id": "T0336-softtassel",
+  "last_commit": "0abb1eb376980e9d08e7957782e8b88bd0706f18",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 341 passed (214 files)",
+  "last_test_summary": "vitest: 342 passed (215 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -90,11 +90,11 @@
     "D-072 T0334 日剧本满 360"
   ],
   "next_candidate_tasks": [
-    "T0336-continue",
+    "T0337-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 49300436d069a4063a28b8e677a4962344914ba0 T0335 绒球器碎线盒 · 轮次335\n轮次: 335 / 1000 · v0.2.6 · M2\n本段: T0331–T0335 · 内容704/362 · 测试341 · ART~374 · D-072\n下一: T0336\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:47:37Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0abb1eb376980e9d08e7957782e8b88bd0706f18 T0336 流苏板蜡线 · 轮次336\n轮次: 336 / 1000 · v0.2.6 · M2\n本段: T0332–T0336 · 内容708/364 · 测试342 · ART~376 · D-072\n下一: T0337\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:49:30Z"
 }
