@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 274,
+  "current_round": 275,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0275-continue",
-  "last_completed_task_id": "T0274-soycruet",
-  "last_commit": "2c99b85f6bc7347c0ababace7b8ca5e64557098b",
+  "current_task_id": "T0276-continue",
+  "last_completed_task_id": "T0275-hotpotlid",
+  "last_commit": "e20dd50a2fdadd3391bd31a8602f6c8bd68948d9",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 280 passed (153 files)",
+  "last_test_summary": "vitest: 281 passed (154 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -59,11 +59,11 @@
     "D-041 T0274 日剧本满 240"
   ],
   "next_candidate_tasks": [
-    "T0275-continue",
+    "T0276-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2c99b85f6bc7347c0ababace7b8ca5e64557098b T0274 小酱油盅/醋碟 · 剧本240\n轮次: 274 / 1000 · v0.2.6 · M2\n本段: T0270–T0274 奶盅…盅碟 · 内容460/240 · 测试280 · D-041\n下一: T0275\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:39:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e20dd50a2fdadd3391bd31a8602f6c8bd68948d9 T0275 小砂锅盖/木铲 · ART253/254\n轮次: 275 / 1000 · v0.2.6 · M2\n本段: T0271–T0275 柠檬…慢炖 · 内容464/242 · 测试281\n下一: T0276\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:41:07Z"
 }
