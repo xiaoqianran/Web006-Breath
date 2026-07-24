@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 354,
+  "current_round": 355,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0355-continue",
-  "last_completed_task_id": "T0354-softrouge",
-  "last_commit": "7b3ea1088a921d8457de47e38674eb4ab736ca67",
+  "current_task_id": "T0356-continue",
+  "last_completed_task_id": "T0355-softtweezers",
+  "last_commit": "0c0c00161bb2f83b9882feab5f0371a2686996e3",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 360 passed (233 files)",
+  "last_test_summary": "vitest: 361 passed (234 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -104,11 +104,11 @@
     "D-086 T0354 测试满 360"
   ],
   "next_candidate_tasks": [
-    "T0355-continue",
+    "T0356-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 7b3ea1088a921d8457de47e38674eb4ab736ca67 T0354 抛光膏绒布棒 · 轮次354\n轮次: 354 / 1000 · v0.2.6 · M2\n本段: T0350–T0354 · 内容780/400 · 测试360 · ART~412 · D-086\n下一: T0355\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:26:46Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0c0c00161bb2f83b9882feab5f0371a2686996e3 T0355 镊子放大镜 · 轮次355\n轮次: 355 / 1000 · v0.2.6 · M2\n本段: T0351–T0355 · 内容784/402 · 测试361 · ART~414 · D-086\n下一: T0356\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:28:44Z"
 }
