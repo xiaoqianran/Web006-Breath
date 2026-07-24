@@ -5212,6 +5212,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e745",
+    guestName: "匿名",
+    text: "想用杯垫织机套一格，让方格也能被温柔地套成柔软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e746",
+    guestName: "禾",
+    text: "圈圈线扣在钉上时，像店把方格也套成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e747",
+    guestName: "阿初",
+    text: "杯垫织机钉沿还带着一点木的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e748",
+    guestName: "陆安",
+    text: "第七百四十八次：请给我一格能套成柔软的环。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

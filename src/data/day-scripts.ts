@@ -3070,6 +3070,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 383,
+    title: "杯垫织机",
+    opener: "第三百八十三日。杯垫织机静放，钉沿还带着一点木的温。",
+    sampleIndexes: [744, 745, 746, 743],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 384,
+    title: "圈圈线",
+    opener: "第三百八十四日。环扣在钉上，像店把方格也套成柔软。",
+    sampleIndexes: [745, 746, 747, 742],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
