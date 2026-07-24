@@ -587,6 +587,11 @@ import {
   formatTealightAside,
   formatTealightEncourage,
   formatTealightPair,
+  formatMatchboxLine,
+  formatMatchstickLine,
+  formatMatchboxAside,
+  formatMatchboxEncourage,
+  formatMatchboxPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1727,6 +1732,8 @@ export class YixiApp {
         <div class="rattan-reed-art" role="img" aria-label="藤条" data-testid="rattan-reed-art"></div>
         <div class="tealight-art" role="img" aria-label="茶蜡" data-testid="tealight-art"></div>
         <div class="candle-snuffer-art" role="img" aria-label="熄烛罩" data-testid="candle-snuffer-art"></div>
+        <div class="matchbox-art" role="img" aria-label="火柴盒" data-testid="matchbox-art"></div>
+        <div class="matchstick-art" role="img" aria-label="火柴" data-testid="matchstick-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2203,6 +2210,11 @@ export class YixiApp {
         <p class="muted" data-testid="tealight-aside">${formatTealightAside(s.history.length)}</p>
         <p class="muted" data-testid="tealight-encourage">${formatTealightEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="tealight-pair">${formatTealightPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="matchbox-line">${formatMatchboxLine(s.day)}</p>
+        <p class="muted" data-testid="matchstick-line">${formatMatchstickLine(s.warmth)}</p>
+        <p class="muted" data-testid="matchbox-aside">${formatMatchboxAside(s.history.length)}</p>
+        <p class="muted" data-testid="matchbox-encourage">${formatMatchboxEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="matchbox-pair">${formatMatchboxPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

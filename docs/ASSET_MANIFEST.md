@@ -368,3 +368,5 @@
 | ART-298 | `public/assets/ui/rattan_reed.jpg` | 藤条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-299 | `public/assets/ui/tealight.jpg` | 茶蜡 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-300 | `public/assets/ui/candle_snuffer.jpg` | 熄烛罩 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-301 | `public/assets/ui/matchbox.jpg` | 火柴盒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-302 | `public/assets/ui/matchstick.jpg` | 火柴 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

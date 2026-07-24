@@ -167,3 +167,4 @@ export * from "./lotion-label";
 export * from "./bathsalt-label";
 export * from "./diffuser-label";
 export * from "./tealight-label";
+export * from "./matchbox-label";

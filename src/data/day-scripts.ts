@@ -2318,6 +2318,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 289,
+    title: "火柴盒",
+    opener: "第二百八十九日。火柴盒半开，盒里还整齐地排着几根细木。",
+    sampleIndexes: [556, 557, 558, 552],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 290,
+    title: "火柴",
+    opener: "第二百九十日。火柴擦过磷面，像店把第一点光也递进暗里。",
+    sampleIndexes: [557, 558, 559, 554],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

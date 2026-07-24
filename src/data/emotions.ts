@@ -3896,6 +3896,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e557",
+    guestName: "匿名",
+    text: "想划一根火柴，让第一点光也被郑重地点起。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e558",
+    guestName: "禾",
+    text: "火柴擦过磷面时，像店把第一点光也递进暗里。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e559",
+    guestName: "阿初",
+    text: "火柴盒半开，盒里还整齐地排着几根细木。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e560",
+    guestName: "陆安",
+    text: "第五百六十次：请给我一根能点起暖的火。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
