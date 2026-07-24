@@ -382,3 +382,5 @@
 | ART-312 | `public/assets/ui/letter_opener.jpg` | 拆信刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-313 | `public/assets/ui/desk_cal_block.jpg` | 台历块 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-314 | `public/assets/ui/day_page_ribbon.jpg` | 日页丝带 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-315 | `public/assets/ui/guest_cup.jpg` | 待客瓷杯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-316 | `public/assets/ui/linen_coaster.jpg` | 亚麻杯垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

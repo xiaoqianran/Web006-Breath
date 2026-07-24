@@ -4092,6 +4092,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e585",
+    guestName: "匿名",
+    text: "想捧一杯淡茶，让热也能被温柔地捧住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e586",
+    guestName: "禾",
+    text: "杯落在亚麻垫上时，像店把热也托给桌面。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e587",
+    guestName: "阿初",
+    text: "瓷杯沿还漾着一点浅的绿，像刚被烫过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e588",
+    guestName: "陆安",
+    text: "第五百八十八次：请给我一口能润心的热。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

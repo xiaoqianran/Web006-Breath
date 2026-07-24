@@ -174,3 +174,4 @@ export * from "./pressmark-label";
 export * from "./penrest-label";
 export * from "./letteropener-label";
 export * from "./deskcal-label";
+export * from "./guestcup-label";

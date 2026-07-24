@@ -2430,6 +2430,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 303,
+    title: "待客瓷杯",
+    opener: "第三百零三日。待客瓷杯温着，杯沿还漾着一点浅的绿。",
+    sampleIndexes: [584, 585, 586, 580],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 304,
+    title: "亚麻杯垫",
+    opener: "第三百零四日。杯落在垫上，像店把热也托给桌面。",
+    sampleIndexes: [585, 586, 587, 582],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
