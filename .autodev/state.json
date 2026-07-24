@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 366,
+  "current_round": 367,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0367-continue",
-  "last_completed_task_id": "T0366-softingot",
-  "last_commit": "cbdb01c7f6bc88c41bd9b0e8e3ae6c110ab7d128",
+  "current_task_id": "T0368-continue",
+  "last_completed_task_id": "T0367-softanneal",
+  "last_commit": "d572019bce1d49f2ec0d6c4a429c0bbc7761eef7",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 372 passed (245 files)",
+  "last_test_summary": "vitest: 373 passed (246 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -111,11 +111,11 @@
     "D-093 T0364 测试满 370"
   ],
   "next_candidate_tasks": [
-    "T0367-continue",
+    "T0368-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: cbdb01c7f6bc88c41bd9b0e8e3ae6c110ab7d128 T0366 铸锭模熔金碗 · 轮次366\n轮次: 366 / 1000 · v0.2.6 · M2\n本段: T0362–T0366 · 内容828/424 · 测试372 · ART~436 · D-093\n下一: T0367\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:53:49Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d572019bce1d49f2ec0d6c4a429c0bbc7761eef7 T0367 退火盘退火钳 · 轮次367\n轮次: 367 / 1000 · v0.2.6 · M2\n本段: T0363–T0367 · 内容832/426 · 测试373 · ART~438 · D-093\n下一: T0368\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:55:56Z"
 }
