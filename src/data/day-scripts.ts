@@ -4046,6 +4046,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 505,
+    title: "发簪",
+    opener: "第五百零五日。发簪静放，簪尖还带着一点细的光。",
+    sampleIndexes: [988, 989, 990, 987],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 506,
+    title: "滑座",
+    opener: "第五百零六日。座带着簪，像店把散的盘发也定成安。",
+    sampleIndexes: [989, 990, 991, 986],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

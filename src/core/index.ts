@@ -275,3 +275,4 @@ export * from "./softbarrette-label";
 export * from "./softscrunchie-label";
 export * from "./softclaw-label";
 export * from "./softbanana-label";
+export * from "./softslide-label";

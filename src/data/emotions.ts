@@ -6920,6 +6920,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e989",
+    guestName: "小禾",
+    text: "发簪很细：只想定一点，不硬顶。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e990",
+    guestName: "阿南",
+    text: "滑座微稳，像轻轻说「插一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e991",
+    guestName: "阿初",
+    text: "簪尖还带着一点细的光，像刚被定过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e992",
+    guestName: "陆安",
+    text: "第九百九十二次：请给我一下能把盘发也温柔定住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

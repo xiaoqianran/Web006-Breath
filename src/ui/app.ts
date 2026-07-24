@@ -1127,6 +1127,11 @@ import {
   formatSoftbananaAside,
   formatSoftbananaEncourage,
   formatSoftbananaPair,
+  formatSoftSlideLine,
+  formatSlideRestLine,
+  formatSoftslideAside,
+  formatSoftslideEncourage,
+  formatSoftslidePair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -3494,6 +3499,11 @@ export class YixiApp {
         <p class="muted" data-testid="softclaw-aside">${formatSoftclawAside(s.history.length)}</p>
         <p class="muted" data-testid="softclaw-encourage">${formatSoftclawEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softclaw-pair">${formatSoftclawPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-banana-line">${formatSoftBananaLine(s.day)}</p>
+        <p class="muted" data-testid="banana-teeth-line">${formatBananaTeethLine(s.warmth)}</p>
+        <p class="muted" data-testid="softbanana-aside">${formatSoftbananaAside(s.history.length)}</p>
+        <p class="muted" data-testid="softbanana-encourage">${formatSoftbananaEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softbanana-pair">${formatSoftbananaPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
