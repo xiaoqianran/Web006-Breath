@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 317,
+  "current_round": 318,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0318-continue",
-  "last_completed_task_id": "T0317-kneeblanket",
-  "last_commit": "b37b89c1b44914edb36c0db4841f957e91a726fe",
+  "current_task_id": "T0319-continue",
+  "last_completed_task_id": "T0318-eyemask",
+  "last_commit": "d464f097a1c21dd6eef93c04a667c43ac66072ea",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 323 passed (196 files)",
+  "last_test_summary": "vitest: 324 passed (197 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -75,14 +75,15 @@
     "D-057 T0309 情绪样本满 600",
     "D-058 T0310 开发轮次满 310",
     "D-059 T0313 美术 ART 满 330",
-    "D-060 T0314 日剧本满 320 / 测试 320"
+    "D-060 T0314 日剧本满 320 / 测试 320",
+    "D-061 T0318 美术 ART 满 340"
   ],
   "next_candidate_tasks": [
-    "T0318-continue",
+    "T0319-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b37b89c1b44914edb36c0db4841f957e91a726fe T0317 膝上小毯/木托板 · 轮次317\n轮次: 317 / 1000 · v0.2.6 · M2\n本段: T0313–T0317 · 内容632/326 · 测试323 · ART~338 · D-060\n下一: T0318\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:08:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d464f097a1c21dd6eef93c04a667c43ac66072ea T0318 软眼罩/收纳袋 · 轮次318 · ART340\n轮次: 318 / 1000 · v0.2.6 · M2\n本段: T0314–T0318 · 内容636/328 · 测试324 · ART~340 · D-061\n下一: T0319\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:10:30Z"
 }
