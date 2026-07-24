@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 330,
+  "current_round": 331,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0331-continue",
-  "last_completed_task_id": "T0330-softmend",
-  "last_commit": "89684ffa8f4b2df48d271962c8e8dac333cf63c3",
+  "current_task_id": "T0332-continue",
+  "last_completed_task_id": "T0331-softlace",
+  "last_commit": "a20ff59d57369e3d06fc55346884515ca48a85dd",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 336 passed (209 files)",
+  "last_test_summary": "vitest: 337 passed (210 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -88,11 +88,11 @@
     "D-070 T0330 开发轮次满 330"
   ],
   "next_candidate_tasks": [
-    "T0331-continue",
+    "T0332-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 89684ffa8f4b2df48d271962c8e8dac333cf63c3 T0330 补衣木菇/补线团 · 轮次330 里程碑\n轮次: 330 / 1000 · v0.2.6 · M2\n本段: T0326–T0330 · 内容684/352 · 测试336 · ART~364 · D-070\n下一: T0331\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:36:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: a20ff59d57369e3d06fc55346884515ca48a85dd T0331 梭心/花边枕 · 轮次331\n轮次: 331 / 1000 · v0.2.6 · M2\n本段: T0327–T0331 · 内容688/354 · 测试337 · ART~366 · D-070\n下一: T0332\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:38:30Z"
 }
