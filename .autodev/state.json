@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 327,
+  "current_round": 328,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0328-continue",
-  "last_completed_task_id": "T0327-softchalk",
-  "last_commit": "d4acf130516e5d3291a9669f76df8e5acf836231",
+  "current_task_id": "T0329-continue",
+  "last_completed_task_id": "T0328-softpin",
+  "last_commit": "23df96889b7ac19f6d029d21a40ac90f04b055f9",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 333 passed (206 files)",
+  "last_test_summary": "vitest: 334 passed (207 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -82,14 +82,15 @@
     "D-064 T0321 测试文件满 200",
     "D-065 T0322 情绪样本满 650",
     "D-066 T0323 美术 ART 满 350",
-    "D-067 T0324 日剧本满 340"
+    "D-067 T0324 日剧本满 340",
+    "D-068 T0328 美术 ART 满 360"
   ],
   "next_candidate_tasks": [
-    "T0328-continue",
+    "T0329-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d4acf130516e5d3291a9669f76df8e5acf836231 T0327 裁缝粉笔/粉笔托 · 轮次327\n轮次: 327 / 1000 · v0.2.6 · M2\n本段: T0323–T0327 · 内容672/346 · 测试333 · ART~358 · D-067\n下一: T0328\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:30:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 23df96889b7ac19f6d029d21a40ac90f04b055f9 T0328 软针插/直针 · 轮次328 · ART360\n轮次: 328 / 1000 · v0.2.6 · M2\n本段: T0324–T0328 · 内容676/348 · 测试334 · ART~360 · D-068\n下一: T0329\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:32:00Z"
 }
