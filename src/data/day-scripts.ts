@@ -2814,6 +2814,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 351,
+    title: "补衣木菇",
+    opener: "第三百五十一日。补衣木菇静放，菇面还带着一点木的润。",
+    sampleIndexes: [680, 681, 682, 676],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 352,
+    title: "补线团",
+    opener: "第三百五十二日。线绕过木菇，像店把完整也递给破口。",
+    sampleIndexes: [681, 682, 683, 678],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

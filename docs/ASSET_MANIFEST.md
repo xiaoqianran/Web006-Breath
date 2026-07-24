@@ -430,3 +430,5 @@
 | ART-360 | `public/assets/ui/straight_pins.jpg` | 直针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-361 | `public/assets/ui/embro_snips.jpg` | 绣花剪 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-362 | `public/assets/ui/snips_sheath.jpg` | 剪皮套 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-363 | `public/assets/ui/mend_mushroom.jpg` | 补衣木菇 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-364 | `public/assets/ui/mend_yarn.jpg` | 补线团 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

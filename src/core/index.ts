@@ -198,3 +198,4 @@ export * from "./steampress-label";
 export * from "./softchalk-label";
 export * from "./softpin-label";
 export * from "./embrosnips-label";
+export * from "./softmend-label";

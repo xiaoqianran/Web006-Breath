@@ -4764,6 +4764,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e681",
+    guestName: "匿名",
+    text: "想把破口托在木菇上，让破口也能被温柔地织回。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e682",
+    guestName: "禾",
+    text: "线绕过木菇时，像店把完整也递给破口。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e683",
+    guestName: "阿初",
+    text: "补衣木菇菇面还带着一点木的润，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e684",
+    guestName: "陆安",
+    text: "第六百八十四次：请给我一处能织回破口的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

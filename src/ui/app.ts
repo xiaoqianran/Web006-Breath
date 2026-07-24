@@ -742,6 +742,11 @@ import {
   formatEmbrosnipsAside,
   formatEmbrosnipsEncourage,
   formatEmbrosnipsPair,
+  formatMendMushroomLine,
+  formatMendYarnLine,
+  formatSoftmendAside,
+  formatSoftmendEncourage,
+  formatSoftmendPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1944,6 +1949,8 @@ export class YixiApp {
         <div class="straight-pins-art" role="img" aria-label="直针" data-testid="straight-pins-art"></div>
         <div class="embro-snips-art" role="img" aria-label="绣花剪" data-testid="embro-snips-art"></div>
         <div class="snips-sheath-art" role="img" aria-label="剪皮套" data-testid="snips-sheath-art"></div>
+        <div class="mend-mushroom-art" role="img" aria-label="补衣木菇" data-testid="mend-mushroom-art"></div>
+        <div class="mend-yarn-art" role="img" aria-label="补线团" data-testid="mend-yarn-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2575,6 +2582,11 @@ export class YixiApp {
         <p class="muted" data-testid="embrosnips-aside">${formatEmbrosnipsAside(s.history.length)}</p>
         <p class="muted" data-testid="embrosnips-encourage">${formatEmbrosnipsEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="embrosnips-pair">${formatEmbrosnipsPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="mend-mushroom-line">${formatMendMushroomLine(s.day)}</p>
+        <p class="muted" data-testid="mend-yarn-line">${formatMendYarnLine(s.warmth)}</p>
+        <p class="muted" data-testid="softmend-aside">${formatSoftmendAside(s.history.length)}</p>
+        <p class="muted" data-testid="softmend-encourage">${formatSoftmendEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softmend-pair">${formatSoftmendPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
