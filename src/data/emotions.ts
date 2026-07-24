@@ -3364,7 +3364,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e481",
+    guestName: "匿名",
+    text: "想把面轻轻擀开，让厚度也变得温柔均匀。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e482",
+    guestName: "禾",
+    text: "撒粉勺掠过台面时，像店把粘连也化成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e483",
+    guestName: "阿初",
+    text: "擀面杖木轴还带着掌的温，像刚被滚过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e484",
+    guestName: "听雨",
+    text: "第四百八十四次：请给我一支能把面铺开的杖。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

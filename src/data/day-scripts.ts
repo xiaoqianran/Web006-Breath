@@ -2014,7 +2014,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 251,
+    title: "擀面杖",
+    opener: "第二百五十一日。擀面杖滚动，木轴还带着一点掌的温。",
+    sampleIndexes: [480, 481, 482, 476],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 252,
+    title: "撒粉勺",
+    opener: "第二百五十二日。撒粉勺掠过台面，像店把粘连也化成柔软。",
+    sampleIndexes: [481, 482, 483, 478],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

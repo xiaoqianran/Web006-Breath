@@ -148,3 +148,4 @@ export * from "./ovenmitt-label";
 export * from "./timerbell-label";
 export * from "./flourbin-label";
 export * from "./mixbowl-label";
+export * from "./rollingpin-label";

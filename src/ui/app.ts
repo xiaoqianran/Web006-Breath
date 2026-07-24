@@ -492,6 +492,11 @@ import {
   formatMixbowlAside,
   formatMixbowlEncourage,
   formatMixbowlPair,
+  formatRollingPinLine,
+  formatDustSpoonLine,
+  formatRollingpinAside,
+  formatRollingpinEncourage,
+  formatRollingpinPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1594,6 +1599,8 @@ export class YixiApp {
         <div class="measure-cup-art" role="img" aria-label="量杯" data-testid="measure-cup-art"></div>
         <div class="mix-bowl-art" role="img" aria-label="搅拌盆" data-testid="mix-bowl-art"></div>
         <div class="wire-whisk-art" role="img" aria-label="打蛋器" data-testid="wire-whisk-art"></div>
+        <div class="rolling-pin-art" role="img" aria-label="擀面杖" data-testid="rolling-pin-art"></div>
+        <div class="dust-spoon-art" role="img" aria-label="撒粉勺" data-testid="dust-spoon-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1975,6 +1982,11 @@ export class YixiApp {
         <p class="muted" data-testid="mixbowl-aside">${formatMixbowlAside(s.history.length)}</p>
         <p class="muted" data-testid="mixbowl-encourage">${formatMixbowlEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="mixbowl-pair">${formatMixbowlPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="rolling-pin-line">${formatRollingPinLine(s.day)}</p>
+        <p class="muted" data-testid="dust-spoon-line">${formatDustSpoonLine(s.warmth)}</p>
+        <p class="muted" data-testid="rollingpin-aside">${formatRollingpinAside(s.history.length)}</p>
+        <p class="muted" data-testid="rollingpin-encourage">${formatRollingpinEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="rollingpin-pair">${formatRollingpinPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
