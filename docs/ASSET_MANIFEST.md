@@ -402,3 +402,5 @@
 | ART-332 | `public/assets/ui/wood_shoe_tray.jpg` | 木鞋托盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-333 | `public/assets/ui/soft_earmuff.jpg` | 软织耳罩 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-334 | `public/assets/ui/earmuff_peg.jpg` | 耳罩挂钉 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-335 | `public/assets/ui/fingerless_glove.jpg` | 半指软织手套 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-336 | `public/assets/ui/glove_dish.jpg` | 瓷手套碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

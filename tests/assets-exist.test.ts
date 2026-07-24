@@ -346,6 +346,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/wood_shoe_tray.jpg",
       "public/assets/ui/soft_earmuff.jpg",
       "public/assets/ui/earmuff_peg.jpg",
+      "public/assets/ui/fingerless_glove.jpg",
+      "public/assets/ui/glove_dish.jpg",
     ];
 
 

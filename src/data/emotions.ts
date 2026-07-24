@@ -4372,6 +4372,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e625",
+    guestName: "匿名",
+    text: "想戴一双半指手套，让指尖仍可触碰时掌心也被温柔捂住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e626",
+    guestName: "禾",
+    text: "半指手套落入瓷碟时，像店把掌心的暖也留给写字的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e627",
+    guestName: "阿初",
+    text: "半指手套腕口还带着一点暖的绒，像刚被叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e628",
+    guestName: "陆安",
+    text: "第六百二十八次：请给我一双能捂掌心的半指。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

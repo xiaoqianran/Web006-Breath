@@ -184,3 +184,4 @@ export * from "./thermos-label";
 export * from "./softbeanie-label";
 export * from "./softslipper-label";
 export * from "./earmuff-label";
+export * from "./fingerless-label";
