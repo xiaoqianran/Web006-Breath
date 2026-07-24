@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0214-continue",
   "last_completed_task_id": "T0213-biscuit",
-  "last_commit": "PENDING",
+  "last_commit": "93a44306d2e4c693e7eda2b50e835394fe1387f6",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 219 passed (92 files)",
   "core_loop_status": "playable_demo_ready",
@@ -32,6 +32,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0213 饼干匣/糖勺 biscuit-label + ART-129/130 + 内容216/118\n轮次: 213 / 1000 · v0.2.6 · M2\n测试: 219 passed；双 smoke warmth=19\n下一: T0214\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 93a44306d2e4c693e7eda2b50e835394fe1387f6 T0213 饼干匣/糖勺\n轮次: 213 / 1000 · v0.2.6 · M2\n本段: T0210–T0213 墨台…饼干 · 内容216/118 · 测试219\n下一: T0214\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:43:10Z"
 }
