@@ -5968,6 +5968,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e853",
+    guestName: "小禾",
+    text: "放大镜很近：只想看一点，不硬找。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e854",
+    guestName: "阿南",
+    text: "戒夹微稳，像轻轻说「看一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e855",
+    guestName: "阿初",
+    text: "镜片还带着一点清的光，像刚被擦过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e856",
+    guestName: "陆安",
+    text: "第八百五十六次：请给我一下能把微小也温柔看见的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

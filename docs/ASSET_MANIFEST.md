@@ -516,3 +516,5 @@
 | ART-446 | `public/assets/ui/polish_cake.jpg` | 抛光膏 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-447 | `public/assets/ui/graver_set.jpg` | 刻刀 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-448 | `public/assets/ui/engraver_block.jpg` | 刻台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-449 | `public/assets/ui/soft_loupe.jpg` | 放大镜 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-450 | `public/assets/ui/ring_clamp.jpg` | 戒夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
