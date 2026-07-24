@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 363,
+  "current_round": 364,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0364-continue",
-  "last_completed_task_id": "T0363-softsolder",
-  "last_commit": "438f2a324d805ceed7afe2624a5f891446d40d16",
+  "current_task_id": "T0365-continue",
+  "last_completed_task_id": "T0364-softtongs",
+  "last_commit": "e0a3b96b3fcdfe752011f42fe6b57295a02a9e77",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 369 passed (242 files)",
+  "last_test_summary": "vitest: 370 passed (243 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -106,14 +106,16 @@
     "D-088 T0359 情绪样本满 800",
     "D-089 T0359 日剧本满 410",
     "D-090 T0360 开发轮次满 360",
-    "D-091 T0363 美术 ART 满 430"
+    "D-091 T0363 美术 ART 满 430",
+    "D-092 T0364 日剧本满 420",
+    "D-093 T0364 测试满 370"
   ],
   "next_candidate_tasks": [
-    "T0364-continue",
+    "T0365-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 438f2a324d805ceed7afe2624a5f891446d40d16 T0363 焊丝第三只手 · 轮次363\n轮次: 363 / 1000 · v0.2.6 · M2\n本段: T0359–T0363 · 内容816/418 · 测试369 · ART~430 · D-091\n下一: T0364\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:46:18Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e0a3b96b3fcdfe752011f42fe6b57295a02a9e77 T0364 坩埚钳坩埚 · 轮次364\n轮次: 364 / 1000 · v0.2.6 · M2\n本段: T0360–T0364 · 内容820/420 · 测试370 · ART~432 · D-093\n下一: T0365\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:48:33Z"
 }
