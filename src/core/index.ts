@@ -122,3 +122,4 @@ export * from "./farewell-label";
 export * from "./dayend-label";
 export * from "./reopen-label";
 export * from "./entry-label";
+export * from "./guestlog-label";

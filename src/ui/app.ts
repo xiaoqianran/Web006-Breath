@@ -367,6 +367,11 @@ import {
   formatEntryAside,
   formatEntryEncourage,
   formatEntryPair,
+  formatGuestLogLine,
+  formatSoftEraserLine,
+  formatGuestlogAside,
+  formatGuestlogEncourage,
+  formatGuestlogPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1419,6 +1424,8 @@ export class YixiApp {
         <div class="sill-vase-art" role="img" aria-label="窗台小瓶" data-testid="sill-vase-art"></div>
         <div class="umbrella-stand-art" role="img" aria-label="雨伞架" data-testid="umbrella-stand-art"></div>
         <div class="door-mat-art" role="img" aria-label="门口踏垫" data-testid="door-mat-art"></div>
+        <div class="guest-log-art" role="img" aria-label="访客签到本" data-testid="guest-log-art"></div>
+        <div class="soft-eraser-art" role="img" aria-label="软橡皮" data-testid="soft-eraser-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1675,6 +1682,11 @@ export class YixiApp {
         <p class="muted" data-testid="entry-aside">${formatEntryAside(s.history.length)}</p>
         <p class="muted" data-testid="entry-encourage">${formatEntryEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="entry-pair">${formatEntryPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="guest-log-line">${formatGuestLogLine(s.day)}</p>
+        <p class="muted" data-testid="soft-eraser-line">${formatSoftEraserLine(s.warmth)}</p>
+        <p class="muted" data-testid="guestlog-aside">${formatGuestlogAside(s.history.length)}</p>
+        <p class="muted" data-testid="guestlog-encourage">${formatGuestlogEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="guestlog-pair">${formatGuestlogPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

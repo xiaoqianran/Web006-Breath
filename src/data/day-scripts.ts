@@ -1614,7 +1614,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 201,
+    title: "访客签到本",
+    opener: "第二百零一日。签到本翻开新页，纸面还留着一点空白的客气。",
+    sampleIndexes: [380, 381, 382, 376],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 202,
+    title: "软橡皮",
+    opener: "第二百零二日。软橡皮放在本角，像店说「写错了也没关系」。",
+    sampleIndexes: [381, 382, 383, 378],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

@@ -2664,7 +2664,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e381",
+    guestName: "匿名",
+    text: "想在签到本上留下一笔很轻的名字，写错了也能改。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e382",
+    guestName: "禾",
+    text: "软橡皮放在本角，像店说「写错了也没关系」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e383",
+    guestName: "阿初",
+    text: "签到本纸面还留着空白的客气，像等一句到场。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e384",
+    guestName: "陆安",
+    text: "第三百八十四次：请给我一本能改写的签到。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

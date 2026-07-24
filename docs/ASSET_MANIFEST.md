@@ -280,3 +280,5 @@
 | ART-210 | `public/assets/ui/sill_vase.jpg` | 窗台小瓶 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-211 | `public/assets/ui/umbrella_stand.jpg` | 雨伞架 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-212 | `public/assets/ui/door_mat.jpg` | 门口踏垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-213 | `public/assets/ui/guest_log.jpg` | 访客签到本 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-214 | `public/assets/ui/soft_eraser.jpg` | 软橡皮 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
