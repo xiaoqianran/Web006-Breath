@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 390,
+  "current_round": 391,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0391-continue",
-  "last_completed_task_id": "T0390-softcharm",
-  "last_commit": "e796101a254107ebd375080850943db09f82ab39",
+  "current_task_id": "T0392-continue",
+  "last_completed_task_id": "T0391-softlocket",
+  "last_commit": "5b4ef3b342a9d7813f0ecaf94dc68fad6608b2ff",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 396 passed (269 files)",
+  "last_test_summary": "vitest: 397 passed (270 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -127,14 +127,15 @@
     "D-109 T0388 美术 ART 满 480",
     "D-110 T0389 日剧本满 470",
     "D-111 T0389 情绪样本满 920",
-    "D-112 T0390 开发轮次满 390"
+    "D-112 T0390 开发轮次满 390",
+    "D-113 T0391 测试文件满 270"
   ],
   "next_candidate_tasks": [
-    "T0391-continue",
+    "T0392-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e796101a254107ebd375080850943db09f82ab39 T0390 吊饰饰盘 · 轮次390\n轮次: 390 / 1000 · v0.2.6 · M2\n本段: T0386–T0390 · 内容924/472 · 测试396 · ART~484 · D-112\n下一: T0391\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:50:34Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5b4ef3b342a9d7813f0ecaf94dc68fad6608b2ff T0391 盒式吊坠合页 · 轮次391\n轮次: 391 / 1000 · v0.2.6 · M2\n本段: T0387–T0391 · 内容928/474 · 测试397 · ART~486 · D-113\n下一: T0392\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:52:45Z"
 }
