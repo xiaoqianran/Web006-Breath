@@ -1710,7 +1710,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 213,
+    title: "木质书立",
+    opener: "第二百一十三日。木质书立靠着柜角，木纹还带着一点午后的暖。",
+    sampleIndexes: [404, 405, 406, 400],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 214,
+    title: "页镇",
+    opener: "第二百一十四日。页镇压住翻开的角，像说「先读到这里」。",
+    sampleIndexes: [405, 406, 407, 402],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

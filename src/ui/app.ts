@@ -397,6 +397,11 @@ import {
   formatSlowinkAside,
   formatSlowinkEncourage,
   formatSlowinkPair,
+  formatWoodenBookendLine,
+  formatPageWeightLine,
+  formatBookendAside,
+  formatBookendEncourage,
+  formatBookendPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1461,6 +1466,8 @@ export class YixiApp {
         <div class="mini-tray-art" role="img" aria-label="小托盘" data-testid="mini-tray-art"></div>
         <div class="ink-well-art" role="img" aria-label="小墨水瓶" data-testid="ink-well-art"></div>
         <div class="blotting-paper-art" role="img" aria-label="吸墨纸" data-testid="blotting-paper-art"></div>
+        <div class="wooden-bookend-art" role="img" aria-label="木质书立" data-testid="wooden-bookend-art"></div>
+        <div class="page-weight-art" role="img" aria-label="页镇" data-testid="page-weight-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1747,6 +1754,11 @@ export class YixiApp {
         <p class="muted" data-testid="slowink-aside">${formatSlowinkAside(s.history.length)}</p>
         <p class="muted" data-testid="slowink-encourage">${formatSlowinkEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="slowink-pair">${formatSlowinkPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="wooden-bookend-line">${formatWoodenBookendLine(s.day)}</p>
+        <p class="muted" data-testid="page-weight-line">${formatPageWeightLine(s.warmth)}</p>
+        <p class="muted" data-testid="bookend-aside">${formatBookendAside(s.history.length)}</p>
+        <p class="muted" data-testid="bookend-encourage">${formatBookendEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="bookend-pair">${formatBookendPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

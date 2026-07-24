@@ -2832,7 +2832,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e405",
+    guestName: "匿名",
+    text: "想让书立扶住翻开的页，让温柔停在这里一会儿。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e406",
+    guestName: "禾",
+    text: "页镇压住翻开的角，像店说「先读到这里」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e407",
+    guestName: "阿初",
+    text: "木质书立靠着柜角，木纹还带着一点午后的暖。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e408",
+    guestName: "陆安",
+    text: "第四百零八次：请给我一枚能留住段落的页镇。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 
