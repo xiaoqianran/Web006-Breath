@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 247,
+  "current_round": 248,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0248-continue",
-  "last_completed_task_id": "T0247-ledger",
-  "last_commit": "18c3e97212c03be81119ae0e988b8202f444c1a9",
+  "current_task_id": "T0249-continue",
+  "last_completed_task_id": "T0248-receipt",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 253 passed (126 files)",
+  "last_test_summary": "vitest: 254 passed (127 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -40,14 +40,15 @@
     "D-022 T0239 情绪 320 / 剧本 170",
     "D-023 T0240 开发轮次满 240",
     "D-024 T0243 美术 ART 满 190",
-    "D-025 T0244 情绪 340 / 剧本 180 / 测试 250"
+    "D-025 T0244 情绪 340 / 剧本 180 / 测试 250",
+    "D-026 T0248 美术 ART 满 200"
   ],
   "next_candidate_tasks": [
-    "T0248-continue",
+    "T0249-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 18c3e97212c03be81119ae0e988b8202f444c1a9 T0247 店账册/软铅笔\n轮次: 247 / 1000 · v0.2.6 · M2\n本段: T0243–T0247 气眼…账册 · 内容352/186 · 测试253\n下一: T0248\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:44:35Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0248 收据条/小圆戳 receipt-label + ART-199/200 + 内容356/188\n轮次: 248 / 1000 · v0.2.6 · M2\n测试: 254 passed；双 smoke warmth=19\n下一: T0249\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:47:40Z"
 }

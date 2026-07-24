@@ -332,6 +332,11 @@ import {
   formatLedgerAside,
   formatLedgerEncourage,
   formatLedgerPair,
+  formatReceiptSlipLine,
+  formatSoftRoundStampLine,
+  formatReceiptAside,
+  formatReceiptEncourage,
+  formatReceiptPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1370,6 +1375,8 @@ export class YixiApp {
         <div class="page-dogear-art" role="img" aria-label="页角折" data-testid="page-dogear-art"></div>
         <div class="shop-ledger-art" role="img" aria-label="店账册" data-testid="shop-ledger-art"></div>
         <div class="soft-pencil-art" role="img" aria-label="软铅笔" data-testid="soft-pencil-art"></div>
+        <div class="receipt-slip-art" role="img" aria-label="收据条" data-testid="receipt-slip-art"></div>
+        <div class="round-stamp-art" role="img" aria-label="小圆戳" data-testid="round-stamp-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1591,6 +1598,11 @@ export class YixiApp {
         <p class="muted" data-testid="ledger-aside">${formatLedgerAside(s.history.length)}</p>
         <p class="muted" data-testid="ledger-encourage">${formatLedgerEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="ledger-pair">${formatLedgerPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="receipt-slip-line">${formatReceiptSlipLine(s.day)}</p>
+        <p class="muted" data-testid="round-stamp-line">${formatSoftRoundStampLine(s.warmth)}</p>
+        <p class="muted" data-testid="receipt-aside">${formatReceiptAside(s.history.length)}</p>
+        <p class="muted" data-testid="receipt-encourage">${formatReceiptEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="receipt-pair">${formatReceiptPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

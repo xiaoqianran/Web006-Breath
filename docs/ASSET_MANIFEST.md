@@ -266,3 +266,5 @@
 | ART-196 | `public/assets/ui/page_dogear.jpg` | 页角折 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-197 | `public/assets/ui/shop_ledger.jpg` | 店账册 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-198 | `public/assets/ui/soft_pencil.jpg` | 软铅笔 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-199 | `public/assets/ui/receipt_slip.jpg` | 收据条 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-200 | `public/assets/ui/round_stamp.jpg` | 小圆戳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

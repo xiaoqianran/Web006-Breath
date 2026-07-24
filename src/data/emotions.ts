@@ -2468,6 +2468,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e353",
+    guestName: "匿名",
+    text: "想要一张很薄的收据，只写温柔，不写价钱。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e354",
+    guestName: "禾",
+    text: "小圆戳盖下时，像店轻轻说「收妥」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e355",
+    guestName: "阿初",
+    text: "收据条边还带着热，像刚被接住过的证明。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e356",
+    guestName: "听雨",
+    text: "第三百五十六次：请给我一张能带走的凭证。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 
