@@ -1908,6 +1908,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e273",
+    guestName: "匿名",
+    text: "想先在纸上画一版，允许自己改很多次。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e274",
+    guestName: "禾",
+    text: "划粉的浅线，像有人说「错了也可以擦」。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e275",
+    guestName: "阿初",
+    text: "旧折痕叠着新线，像我改过的那些决定。",
+    tags: ["想念", "遗憾"],
+    intensity: 4,
+  },
+  {
+    id: "e276",
+    guestName: "听雨",
+    text: "第二百七十六次：请给我一张可以改的裁样纸。",
+    tags: ["期待", "安心"],
+    intensity: 2,
+  },
 ];
 
 

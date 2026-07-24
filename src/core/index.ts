@@ -95,3 +95,4 @@ export * from "./thimble-label";
 export * from "./button-label";
 export * from "./spool-label";
 export * from "./shears-label";
+export * from "./pattern-label";
