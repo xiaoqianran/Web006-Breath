@@ -1264,6 +1264,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["安心", "温柔"],
     intensity: 2,
   },
+  {
+    id: "e181",
+    guestName: "匿名",
+    text: "想把今天的气味装进香囊，免得回家又散掉。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e182",
+    guestName: "小满",
+    text: "干花不会谢得太急，像允许我慢慢好起来。",
+    tags: ["释然", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e183",
+    guestName: "阿初",
+    text: "抽屉里那枚旧香囊，一打开就是去年夏天。",
+    tags: ["想念", "遗憾"],
+    intensity: 4,
+  },
+  {
+    id: "e184",
+    guestName: "听雨",
+    text: "请给我一束干花：不必新鲜，但要能被记住。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

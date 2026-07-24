@@ -814,6 +814,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 30,
   },
+  {
+    day: 101,
+    title: "香囊屉",
+    opener: "第一百零一日。抽屉深处有一枚新香囊，像未拆的信。",
+    sampleIndexes: [180, 181, 182, 176],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 102,
+    title: "干花束",
+    opener: "第一百零二日。窗边斜靠一束干花，丝带还没解开。",
+    sampleIndexes: [181, 182, 183, 179],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {
