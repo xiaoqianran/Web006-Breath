@@ -6192,6 +6192,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e885",
+    guestName: "小禾",
+    text: "压扣管很轻：只想收一点，不硬夹。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e886",
+    guestName: "阿南",
+    text: "压扣钳微合，像轻轻说「收一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e887",
+    guestName: "阿初",
+    text: "管沿还带着一点细的光，像刚被压过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e888",
+    guestName: "陆安",
+    text: "第八百八十八次：请给我一下能把线头也温柔收住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

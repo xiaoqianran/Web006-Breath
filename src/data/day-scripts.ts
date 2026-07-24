@@ -3630,6 +3630,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 453,
+    title: "压扣管",
+    opener: "第四百五十三日。压扣管静散，管沿还带着一点细的光。",
+    sampleIndexes: [884, 885, 886, 883],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 454,
+    title: "压扣钳",
+    opener: "第四百五十四日。钳带着管，像店把散的线头也收成稳。",
+    sampleIndexes: [885, 886, 887, 882],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

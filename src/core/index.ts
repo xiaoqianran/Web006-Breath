@@ -249,3 +249,4 @@ export * from "./softrivet-label";
 export * from "./softprong-label";
 export * from "./softcab-label";
 export * from "./softjump-label";
+export * from "./softcrimp-label";
