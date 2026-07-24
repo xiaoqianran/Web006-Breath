@@ -6640,6 +6640,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e949",
+    guestName: "小禾",
+    text: "袖扣很稳：只想扣一点，不硬卡。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e950",
+    guestName: "阿南",
+    text: "扣杆微亮，像轻轻说「扣一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e951",
+    guestName: "阿初",
+    text: "扣面还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e952",
+    guestName: "陆安",
+    text: "第九百五十二次：请给我一下能把袖口也温柔收好的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

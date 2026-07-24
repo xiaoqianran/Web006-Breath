@@ -508,6 +508,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/bangle_core.jpg",
       "public/assets/ui/soft_pendant.jpg",
       "public/assets/ui/pendant_cord.jpg",
+      "public/assets/ui/cufflink_face.jpg",
+      "public/assets/ui/cuff_post.jpg",
     ];
 
 

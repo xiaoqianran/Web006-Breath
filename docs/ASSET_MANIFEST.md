@@ -564,3 +564,5 @@
 | ART-494 | `public/assets/ui/bangle_core.jpg` | 镯芯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-495 | `public/assets/ui/soft_pendant.jpg` | 吊坠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-496 | `public/assets/ui/pendant_cord.jpg` | 丝绳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-497 | `public/assets/ui/cufflink_face.jpg` | 袖扣 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-498 | `public/assets/ui/cuff_post.jpg` | 扣杆 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
