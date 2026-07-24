@@ -262,6 +262,11 @@ import {
   formatHamAside,
   formatHamEncourage,
   formatHamPair,
+  formatStitchingAwlLine,
+  formatBoneFolderLine,
+  formatAwlAside,
+  formatAwlEncourage,
+  formatAwlPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1272,6 +1277,8 @@ export class YixiApp {
         <div class="emery-bag-art" role="img" aria-label="砂囊" data-testid="emery-bag-art"></div>
         <div class="tailor-ham-art" role="img" aria-label="烫馒头" data-testid="tailor-ham-art"></div>
         <div class="sleeve-board-art" role="img" aria-label="袖烫板" data-testid="sleeve-board-art"></div>
+        <div class="stitching-awl-art" role="img" aria-label="锥子" data-testid="stitching-awl-art"></div>
+        <div class="bone-folder-art" role="img" aria-label="骨刀" data-testid="bone-folder-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1423,6 +1430,11 @@ export class YixiApp {
         <p class="muted" data-testid="ham-aside">${formatHamAside(s.circulationsToday)}</p>
         <p class="muted" data-testid="ham-encourage">${formatHamEncourage(qLen)}</p>
         <p class="muted" data-testid="ham-pair">${formatHamPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="stitching-awl-line">${formatStitchingAwlLine(s.day)}</p>
+        <p class="muted" data-testid="bone-folder-line">${formatBoneFolderLine(s.warmth)}</p>
+        <p class="muted" data-testid="awl-aside">${formatAwlAside(s.history.length)}</p>
+        <p class="muted" data-testid="awl-encourage">${formatAwlEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="awl-pair">${formatAwlPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

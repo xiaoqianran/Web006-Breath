@@ -238,3 +238,5 @@
 | ART-168 | `public/assets/ui/emery_bag.jpg` | 砂囊 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-169 | `public/assets/ui/tailor_ham.jpg` | 烫馒头 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-170 | `public/assets/ui/sleeve_board.jpg` | 袖烫板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-171 | `public/assets/ui/stitching_awl.jpg` | 锥子 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-172 | `public/assets/ui/bone_folder.jpg` | 骨刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

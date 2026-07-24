@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 233,
+  "current_round": 234,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0234-continue",
-  "last_completed_task_id": "T0233-ham",
-  "last_commit": "503fd8bbdf30304df9a3c8597dc286a5cf905e51",
+  "current_task_id": "T0235-continue",
+  "last_completed_task_id": "T0234-awl",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 239 passed (112 files)",
+  "last_test_summary": "vitest: 240 passed (113 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -34,14 +34,15 @@
     "D-016 T0228 美术 ART 满 160",
     "D-017 T0229 情绪 280 / 剧本 150",
     "D-018 T0230 开发轮次满 230",
-    "D-019 T0233 美术 ART 满 170"
+    "D-019 T0233 美术 ART 满 170",
+    "D-020 T0234 情绪 300 / 剧本 160"
   ],
   "next_candidate_tasks": [
-    "T0234-continue",
+    "T0235-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 503fd8bbdf30304df9a3c8597dc286a5cf905e51 T0233 烫馒头/袖烫板 · ART170\n轮次: 233 / 1000 · v0.2.6 · M2\n本段: T0230–T0233 补衣…烫馒 · 内容296/158 · 测试239\n下一: T0234\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:18:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0234 锥子/骨刀 awl-label + ART-171/172 + 内容300/160\n轮次: 234 / 1000 · v0.2.6 · M2\n测试: 240 passed；双 smoke warmth=19\n下一: T0235\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:20:00Z"
 }

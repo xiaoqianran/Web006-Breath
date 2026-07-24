@@ -2076,6 +2076,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e297",
+    guestName: "匿名",
+    text: "想先开一个小孔，再让线从心里穿过去。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e298",
+    guestName: "禾",
+    text: "骨刀压折时不伤纸，像有人小心翼翼地改口。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e299",
+    guestName: "阿初",
+    text: "锥子只开刚好的孔，不把布撕开——也不把人撕开。",
+    tags: ["释然", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e300",
+    guestName: "听雨",
+    text: "第三百次：请给我一把能开入口的细锥。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 
