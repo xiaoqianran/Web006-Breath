@@ -4540,6 +4540,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e649",
+    guestName: "匿名",
+    text: "想舀一颗软扣子，让开线的心也能被温柔地扣住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e650",
+    guestName: "禾",
+    text: "木勺从罐里舀出扣子时，像店把合身也递给布料。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e651",
+    guestName: "阿初",
+    text: "扣子小罐里还亮着一点圆的光，像刚被揭开。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e652",
+    guestName: "陆安",
+    text: "第六百五十二次：请给我一颗能扣住开线的圆。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

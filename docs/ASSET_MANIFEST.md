@@ -414,3 +414,5 @@
 | ART-344 | `public/assets/ui/strike_strip.jpg` | 擦火条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-345 | `public/assets/ui/soft_cloth_tape.jpg` | 软布卷尺 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-346 | `public/assets/ui/tape_wood_clip.jpg` | 卷尺木夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-347 | `public/assets/ui/soft_button_tin.jpg` | 软扣子小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-348 | `public/assets/ui/button_scoop.jpg` | 扣子木勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

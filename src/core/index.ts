@@ -190,3 +190,4 @@ export * from "./eyemask-label";
 export * from "./lavsachet-label";
 export * from "./beeswax-label";
 export * from "./softtape-label";
+export * from "./softbutton-label";
