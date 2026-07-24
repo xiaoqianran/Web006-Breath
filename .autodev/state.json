@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 377,
+  "current_round": 378,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0378-continue",
-  "last_completed_task_id": "T0377-softrivet",
-  "last_commit": "853953008ce3a4e71e98ad7a8a93ee1b3024c19d",
+  "current_task_id": "T0379-continue",
+  "last_completed_task_id": "T0378-softprong",
+  "last_commit": "45c582b6fcd9d6ec8d13acdc218fb474ec767c22",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 383 passed (256 files)",
+  "last_test_summary": "vitest: 384 passed (257 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -114,14 +114,15 @@
     "D-096 T0371 测试文件满 250",
     "D-097 T0373 美术 ART 满 450",
     "D-098 T0374 日剧本满 440",
-    "D-099 T0374 测试满 380"
+    "D-099 T0374 测试满 380",
+    "D-100 T0378 美术 ART 满 460"
   ],
   "next_candidate_tasks": [
-    "T0378-continue",
+    "T0379-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 853953008ce3a4e71e98ad7a8a93ee1b3024c19d T0377 铆钉组铆砧 · 轮次377\n轮次: 377 / 1000 · v0.2.6 · M2\n本段: T0373–T0377 · 内容872/446 · 测试383 · ART~458\n下一: T0378\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:19:31Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 45c582b6fcd9d6ec8d13acdc218fb474ec767c22 T0378 爪撬石座 · 轮次378\n轮次: 378 / 1000 · v0.2.6 · M2\n本段: T0374–T0378 · 内容876/448 · 测试384 · ART~460 · D-100\n下一: T0379\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:21:43Z"
 }
