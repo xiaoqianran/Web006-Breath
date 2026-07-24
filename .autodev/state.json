@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 201,
+  "current_round": 203,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0202-continue",
-  "last_completed_task_id": "T0201-continue",
-  "last_commit": "9ca321ce34ded6db9e2725a90cc3a61726dbe6c7",
+  "current_task_id": "T0204-continue",
+  "last_completed_task_id": "T0203-continue",
+  "last_commit": "241d3feb6f183e9c52aa5ba321494b969f2f0156",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 207 passed (80 files)",
+  "last_test_summary": "vitest: 209 passed (82 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -26,11 +26,11 @@
     "D-008 T0200 印鉴纪念百位里程碑"
   ],
   "next_candidate_tasks": [
-    "T0202-continue",
+    "T0204-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 9ca321ce34ded6db9e2725a90cc3a61726dbe6c7 T0201 托盘\n轮次: 201 / 1000 · v0.2.6 · M2\n本段: T0197–T0201 月相/罗盘/时辰/印鉴/托盘/内容168/94\n测试: 207 passed；双 smoke warmth=19\n下一: T0202\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:20:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 241d3feb6f183e9c52aa5ba321494b969f2f0156 T0203 门帘\n轮次: 203 / 1000 · v0.2.6 · M2\n本段: T0202–T0203 烛火/门帘/内容176/98\n测试: 209 passed；双 smoke warmth=19\n下一: T0204\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:24:20Z"
 }

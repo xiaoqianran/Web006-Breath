@@ -1236,6 +1236,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "释然"],
     intensity: 2,
   },
+  {
+    id: "e177",
+    guestName: "匿名",
+    text: "想坐在绿植旁，把今天的急先放一放。",
+    tags: ["疲惫", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e178",
+    guestName: "听雨",
+    text: "薄荷香混着雨气，忽然觉得被允许休息。",
+    tags: ["释然", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e179",
+    guestName: "陆安",
+    text: "第一百七十九次：请给我一张可以慢慢说话的椅子。",
+    tags: ["期待", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e180",
+    guestName: "禾",
+    text: "绿植不催我，我也不再催自己。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
 ];
 
 

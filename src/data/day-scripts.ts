@@ -798,6 +798,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 99,
+    title: "薄荷台",
+    opener: "第九十九日。窗台薄荷长出新芽，香气先到。",
+    sampleIndexes: [176, 177, 178, 170],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 100,
+    title: "百日憩",
+    opener: "第一百日。一百日的椅子，坐上去会轻轻响一声。",
+    sampleIndexes: [177, 178, 179, 175],
+    goalCirculations: 6,
+    goalWarmth: 30,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

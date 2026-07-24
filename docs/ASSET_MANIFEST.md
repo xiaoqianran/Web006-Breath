@@ -178,3 +178,5 @@
 | ART-108 | `public/assets/ui/wish_tags.jpg` | 梁上祈愿签 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-109 | `public/assets/ui/rain_curtain.jpg` | 雨门帘 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-110 | `public/assets/ui/steam_cup.jpg` | 热茶杯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-111 | `public/assets/decor/mint_pots.jpg` | 窗台薄荷 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-112 | `public/assets/ui/rest_stool.jpg` | 憩座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

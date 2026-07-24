@@ -71,3 +71,4 @@ export * from "./seal-label";
 export * from "./tray-label";
 export * from "./candle-label";
 export * from "./curtain-label";
+export * from "./rest-label";
