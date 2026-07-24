@@ -5912,6 +5912,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e845",
+    guestName: "小禾",
+    text: "抛光轮很软：只想抛一点，不硬蹭。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e846",
+    guestName: "阿南",
+    text: "抛光膏微香，像轻轻说「抛一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e847",
+    guestName: "阿初",
+    text: "绒面还带着一点软的光，像刚被抛过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e848",
+    guestName: "陆安",
+    text: "第八百四十八次：请给我一下能把光泽也轻轻唤回的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

@@ -512,3 +512,5 @@
 | ART-442 | `public/assets/ui/handpiece.jpg` | 手持机 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-443 | `public/assets/ui/flex_shaft.jpg` | 软轴 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-444 | `public/assets/ui/foot_pedal.jpg` | 脚踏 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-445 | `public/assets/ui/buff_wheel.jpg` | 抛光轮 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-446 | `public/assets/ui/polish_cake.jpg` | 抛光膏 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

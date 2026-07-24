@@ -947,6 +947,11 @@ import {
   formatSoftflexAside,
   formatSoftflexEncourage,
   formatSoftflexPair,
+  formatBuffWheelLine,
+  formatPolishCakeLine,
+  formatSoftbuffAside,
+  formatSoftbuffEncourage,
+  formatSoftbuffPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2231,6 +2236,8 @@ export class YixiApp {
         <div class="handpiece-art" role="img" aria-label="手持机" data-testid="handpiece-art"></div>
         <div class="flex-shaft-art" role="img" aria-label="软轴" data-testid="flex-shaft-art"></div>
         <div class="foot-pedal-art" role="img" aria-label="脚踏" data-testid="foot-pedal-art"></div>
+        <div class="buff-wheel-art" role="img" aria-label="抛光轮" data-testid="buff-wheel-art"></div>
+        <div class="polish-cake-art" role="img" aria-label="抛光膏" data-testid="polish-cake-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -3067,6 +3074,11 @@ export class YixiApp {
         <p class="muted" data-testid="softflex-aside">${formatSoftflexAside(s.history.length)}</p>
         <p class="muted" data-testid="softflex-encourage">${formatSoftflexEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softflex-pair">${formatSoftflexPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="buff-wheel-line">${formatBuffWheelLine(s.day)}</p>
+        <p class="muted" data-testid="polish-cake-line">${formatPolishCakeLine(s.warmth)}</p>
+        <p class="muted" data-testid="softbuff-aside">${formatSoftbuffAside(s.history.length)}</p>
+        <p class="muted" data-testid="softbuff-encourage">${formatSoftbuffEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softbuff-pair">${formatSoftbuffPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
