@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 372,
+  "current_round": 373,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0373-continue",
-  "last_completed_task_id": "T0372-softgraver",
-  "last_commit": "8144b984cee9acf3101a2c996bdbce637a5bf242",
+  "current_task_id": "T0374-continue",
+  "last_completed_task_id": "T0373-softloupe",
+  "last_commit": "3602540f05c8008da57fc7d14d08c12fb558fd22",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 378 passed (251 files)",
+  "last_test_summary": "vitest: 379 passed (252 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -111,14 +111,15 @@
     "D-093 T0364 测试满 370",
     "D-094 T0368 美术 ART 满 440",
     "D-095 T0370 开发轮次满 370",
-    "D-096 T0371 测试文件满 250"
+    "D-096 T0371 测试文件满 250",
+    "D-097 T0373 美术 ART 满 450"
   ],
   "next_candidate_tasks": [
-    "T0373-continue",
+    "T0374-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8144b984cee9acf3101a2c996bdbce637a5bf242 T0372 刻刀刻台 · 轮次372\n轮次: 372 / 1000 · v0.2.6 · M2\n本段: T0368–T0372 · 内容852/436 · 测试378 · ART~448\n下一: T0373\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:08:13Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 3602540f05c8008da57fc7d14d08c12fb558fd22 T0373 放大镜戒夹 · 轮次373\n轮次: 373 / 1000 · v0.2.6 · M2\n本段: T0369–T0373 · 内容856/438 · 测试379 · ART~450 · D-097\n下一: T0374\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:10:24Z"
 }
