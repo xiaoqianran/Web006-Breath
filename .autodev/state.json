@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0216-continue",
   "last_completed_task_id": "T0215-mirror",
-  "last_commit": "PENDING",
+  "last_commit": "925763f3e395768abd756acae9cd5902c41994c2",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 221 passed (94 files)",
   "core_loop_status": "playable_demo_ready",
@@ -33,6 +33,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0215 试衣镜/软擦布 mirror-label + ART-133/134 + 内容224/122\n轮次: 215 / 1000 · v0.2.6 · M2\n测试: 221 passed；双 smoke warmth=19\n下一: T0216\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 925763f3e395768abd756acae9cd5902c41994c2 T0215 试衣镜/软擦布\n轮次: 215 / 1000 · v0.2.6 · M2\n本段: T0211–T0215 窗纱…镜子 · 内容224/122 · 测试221\n下一: T0216\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:46:20Z"
 }
