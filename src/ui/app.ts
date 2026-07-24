@@ -132,6 +132,11 @@ import {
   formatLetterAside,
   formatLetterEncourage,
   formatLetterPair,
+  formatApronLine,
+  formatCuffLine,
+  formatApronAside,
+  formatKeeperEncourage,
+  formatApronPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1090,6 +1095,8 @@ export class YixiApp {
         <div class="soft-scarves-art" role="img" aria-label="围巾架" data-testid="soft-scarves-art"></div>
         <div class="reply-box-art" role="img" aria-label="回信匣" data-testid="reply-box-art"></div>
         <div class="stamp-tray-art" role="img" aria-label="邮票托盘" data-testid="stamp-tray-art"></div>
+        <div class="linen-apron-art" role="img" aria-label="店主围裙" data-testid="linen-apron-art"></div>
+        <div class="soft-cuffs-art" role="img" aria-label="袖套" data-testid="soft-cuffs-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1114,6 +1121,11 @@ export class YixiApp {
         <p class="muted" data-testid="letter-aside">${formatLetterAside(s.warmth)}</p>
         <p class="muted" data-testid="letter-encourage">${formatLetterEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="letter-pair">${formatLetterPair(s.history.length, s.day)}</p>
+        <p class="muted" data-testid="apron-line">${formatApronLine(s.day)}</p>
+        <p class="muted" data-testid="cuff-line">${formatCuffLine(s.circulationsToday)}</p>
+        <p class="muted" data-testid="apron-aside">${formatApronAside(s.warmth)}</p>
+        <p class="muted" data-testid="keeper-encourage">${formatKeeperEncourage(qLen)}</p>
+        <p class="muted" data-testid="apron-pair">${formatApronPair(s.day, s.circulationsToday)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

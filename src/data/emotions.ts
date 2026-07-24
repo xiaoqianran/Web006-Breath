@@ -1348,6 +1348,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e193",
+    guestName: "匿名",
+    text: "看见店主系围裙的样子，忽然觉得自己也可以被照顾。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e194",
+    guestName: "小满",
+    text: "袖套上的花瓣屑，像有人认真做过手作。",
+    tags: ["期待", "悸动"],
+    intensity: 3,
+  },
+  {
+    id: "e195",
+    guestName: "林",
+    text: "想借一件围裙待一会儿：假装我也属于这里。",
+    tags: ["孤独", "想念"],
+    intensity: 4,
+  },
+  {
+    id: "e196",
+    guestName: "阿初",
+    text: "第一百九十六次：请给我一条可以系上勇气的围裙带。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
 ];
 
 
