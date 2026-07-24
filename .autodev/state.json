@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 278,
+  "current_round": 279,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0279-continue",
-  "last_completed_task_id": "T0278-flourbin",
-  "last_commit": "10a8014fe0e215c4c15abd76805928092e2cfc25",
+  "current_task_id": "T0280-continue",
+  "last_completed_task_id": "T0279-mixbowl",
+  "last_commit": "8ff6b5666053ddf4d51042c1c923674435dcd5d1",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 284 passed (157 files)",
+  "last_test_summary": "vitest: 285 passed (158 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -57,14 +57,15 @@
     "D-039 T0272 情绪样本满 450",
     "D-040 T0273 美术 ART 满 250",
     "D-041 T0274 日剧本满 240",
-    "D-042 T0278 美术 ART 满 260"
+    "D-042 T0278 美术 ART 满 260",
+    "D-043 T0279 日剧本满 250"
   ],
   "next_candidate_tasks": [
-    "T0279-continue",
+    "T0280-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 10a8014fe0e215c4c15abd76805928092e2cfc25 T0278 面粉罐/量杯 · ART260\n轮次: 278 / 1000 · v0.2.6 · M2\n本段: T0274–T0278 盅碟…量粉 · 内容476/248 · 测试284 · D-042 ART260\n下一: T0279\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:46:42Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8ff6b5666053ddf4d51042c1c923674435dcd5d1 T0279 搅拌盆/打蛋器 · 剧本250\n轮次: 279 / 1000 · v0.2.6 · M2\n本段: T0275–T0279 慢炖…和好 · 内容480/250 · 测试285 · D-043\n下一: T0280\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:48:29Z"
 }
