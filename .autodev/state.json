@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 339,
+  "current_round": 340,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0340-continue",
-  "last_completed_task_id": "T0339-softgauge",
-  "last_commit": "7db9eff5f250ea4d11b4ade3a14b51ee50f9195d",
+  "current_task_id": "T0341-continue",
+  "last_completed_task_id": "T0340-softwinder",
+  "last_commit": "28034ee98d69d3c4f93b3d0682db7fdf88314d07",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 345 passed (218 files)",
+  "last_test_summary": "vitest: 346 passed (219 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -90,14 +90,15 @@
     "D-072 T0334 日剧本满 360",
     "D-073 T0337 日剧本满 366（一年日）",
     "D-074 T0338 美术 ART 满 380",
-    "D-075 T0339 日剧本满 370"
+    "D-075 T0339 日剧本满 370",
+    "D-076 T0340 开发轮次满 340"
   ],
   "next_candidate_tasks": [
-    "T0340-continue",
+    "T0341-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 7db9eff5f250ea4d11b4ade3a14b51ee50f9195d T0339 棒针尺麻花针 · 轮次339\n轮次: 339 / 1000 · v0.2.6 · M2\n本段: T0335–T0339 · 内容720/370 · 测试345 · ART~382 · D-075\n下一: T0340\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:55:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 28034ee98d69d3c4f93b3d0682db7fdf88314d07 T0340 绕线器纱架 · 轮次340\n轮次: 340 / 1000 · v0.2.6 · M2\n本段: T0336–T0340 · 内容724/372 · 测试346 · ART~384 · D-076\n下一: T0341\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:57:16Z"
 }
