@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 341,
+  "current_round": 342,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0342-continue",
-  "last_completed_task_id": "T0341-softfelting",
-  "last_commit": "2e6f9462c7fb791fe03502778f7b31b859ec4fa9",
+  "current_task_id": "T0343-continue",
+  "last_completed_task_id": "T0342-softspindle",
+  "last_commit": "6eb961965919de8b234eb9f54f4cc5c9c24328d0",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 347 passed (220 files)",
+  "last_test_summary": "vitest: 348 passed (221 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -94,11 +94,11 @@
     "D-076 T0340 开发轮次满 340"
   ],
   "next_candidate_tasks": [
-    "T0342-continue",
+    "T0343-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 2e6f9462c7fb791fe03502778f7b31b859ec4fa9 T0341 戳戳针羊毛条 · 轮次341\n轮次: 341 / 1000 · v0.2.6 · M2\n本段: T0337–T0341 · 内容728/374 · 测试347 · ART~386 · D-076\n下一: T0342\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:59:12Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6eb961965919de8b234eb9f54f4cc5c9c24328d0 T0342 纺锤纺前毛条 · 轮次342\n轮次: 342 / 1000 · v0.2.6 · M2\n本段: T0338–T0342 · 内容732/376 · 测试348 · ART~388 · D-076\n下一: T0343\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:01:09Z"
 }
