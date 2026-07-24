@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 289,
+  "current_round": 290,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0290-continue",
-  "last_completed_task_id": "T0289-herbhang",
-  "last_commit": "1e806a58ccbe84422b58d6cf954552f0a59f5f05",
+  "current_task_id": "T0291-continue",
+  "last_completed_task_id": "T0290-herboil",
+  "last_commit": "815b6b31850da33702ccca166732dede2508c65e",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 295 passed (168 files)",
+  "last_test_summary": "vitest: 296 passed (169 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -64,14 +64,15 @@
     "D-046 T0284 情绪样本满 500",
     "D-047 T0284 日剧本满 260",
     "D-048 T0288 美术 ART 满 280",
-    "D-049 T0289 日剧本满 270"
+    "D-049 T0289 日剧本满 270",
+    "D-050 T0290 开发轮次满 290"
   ],
   "next_candidate_tasks": [
-    "T0290-continue",
+    "T0291-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 1e806a58ccbe84422b58d6cf954552f0a59f5f05 T0289 干草药束/挂绳 · 剧本270\n轮次: 289 / 1000 · v0.2.6 · M2\n本段: T0285–T0289 菜谱…风干 · 内容520/270 · 测试295 · D-049\n下一: T0290\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:08:54Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 815b6b31850da33702ccca166732dede2508c65e T0290 草药油瓶/玻璃滴管 · 轮次290\n轮次: 290 / 1000 · v0.2.6 · M2\n本段: T0286–T0290 火候…滴管 · 内容524/272 · 测试296 · D-050\n下一: T0291\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:11:22Z"
 }
