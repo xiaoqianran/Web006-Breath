@@ -1768,6 +1768,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "想念"],
     intensity: 3,
   },
+  {
+    id: "e253",
+    guestName: "匿名",
+    text: "想把今天的话钉在软木板上，暂时不用带走。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e254",
+    guestName: "小满",
+    text: "图钉一亮，像给心情盖了个小小的邮戳。",
+    tags: ["温柔", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e255",
+    guestName: "听雨",
+    text: "拔下图钉的瞬间，比钉住时更像被允许离开。",
+    tags: ["释然", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e256",
+    guestName: "陆安",
+    text: "第二百五十六次：请给我一枚能钉住温柔的图钉。",
+    tags: ["期待", "想念"],
+    intensity: 3,
+  },
 ];
 
 

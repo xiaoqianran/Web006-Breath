@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 222,
+  "current_round": 223,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0223-continue",
-  "last_completed_task_id": "T0222-frame",
-  "last_commit": "b24d3e765c95fbee81d5a2644c98d66041c694d8",
+  "current_task_id": "T0224-continue",
+  "last_completed_task_id": "T0223-cork",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 228 passed (101 files)",
+  "last_test_summary": "vitest: 229 passed (102 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -28,14 +28,15 @@
     "D-010 T0214 情绪 220 / 剧本 120",
     "D-011 T0219 情绪 240 / 剧本 130",
     "D-012 T0220 开发轮次满 220",
-    "D-013 T0221 测试文件满 100"
+    "D-013 T0221 测试文件满 100",
+    "D-014 T0223 美术 ART 满 150"
   ],
   "next_candidate_tasks": [
-    "T0223-continue",
+    "T0224-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b24d3e765c95fbee81d5a2644c98d66041c694d8 T0222 画框/挂绳\n轮次: 222 / 1000 · v0.2.6 · M2\n本段: T0218–T0222 …画框 · 内容252/136 · 测试228\n下一: T0223\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:58:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0223 软木板/图钉 cork-label + ART-149/150 + 内容256/138\n轮次: 223 / 1000 · v0.2.6 · M2\n测试: 229 passed；双 smoke warmth=19\n下一: T0224\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:00:10Z"
 }

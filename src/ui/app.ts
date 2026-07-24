@@ -207,6 +207,11 @@ import {
   formatFrameAside,
   formatFrameEncourage,
   formatFramePair,
+  formatCorkBoardLine,
+  formatPushPinLine,
+  formatCorkAside,
+  formatCorkEncourage,
+  formatCorkPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1195,6 +1200,8 @@ export class YixiApp {
         <div class="dustpan-art" role="img" aria-label="簸箕" data-testid="dustpan-art"></div>
         <div class="picture-frame-art" role="img" aria-label="画框" data-testid="picture-frame-art"></div>
         <div class="hanging-cord-art" role="img" aria-label="挂绳" data-testid="hanging-cord-art"></div>
+        <div class="cork-board-art" role="img" aria-label="软木板" data-testid="cork-board-art"></div>
+        <div class="push-pin-tin-art" role="img" aria-label="图钉盒" data-testid="push-pin-tin-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1292,6 +1299,11 @@ export class YixiApp {
         <p class="muted" data-testid="frame-aside">${formatFrameAside(s.warmth)}</p>
         <p class="muted" data-testid="frame-encourage">${formatFrameEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="frame-pair">${formatFramePair(s.day, s.shelf.length)}</p>
+        <p class="muted" data-testid="cork-board-line">${formatCorkBoardLine(s.day)}</p>
+        <p class="muted" data-testid="push-pin-line">${formatPushPinLine(s.history.length)}</p>
+        <p class="muted" data-testid="cork-aside">${formatCorkAside(s.warmth)}</p>
+        <p class="muted" data-testid="cork-encourage">${formatCorkEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="cork-pair">${formatCorkPair(s.day, s.history.length)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

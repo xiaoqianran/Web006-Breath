@@ -216,3 +216,5 @@
 | ART-146 | `public/assets/ui/dustpan.jpg` | 簸箕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-147 | `public/assets/ui/picture_frame.jpg` | 画框 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-148 | `public/assets/ui/hanging_cord.jpg` | 挂绳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-149 | `public/assets/ui/cork_board.jpg` | 软木板 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-150 | `public/assets/ui/push_pin_tin.jpg` | 图钉盒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
