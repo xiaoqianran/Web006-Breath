@@ -6612,6 +6612,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e945",
+    guestName: "小禾",
+    text: "吊坠很轻：只想挂一点，不硬垂。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e946",
+    guestName: "阿南",
+    text: "丝绳微软，像轻轻说「挂一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e947",
+    guestName: "阿初",
+    text: "坠面还带着一点细的光，像刚被擦过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e948",
+    guestName: "陆安",
+    text: "第九百四十八次：请给我一下能把心意也温柔贴在心口的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

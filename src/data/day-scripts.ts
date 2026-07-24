@@ -3870,6 +3870,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 483,
+    title: "吊坠",
+    opener: "第四百八十三日。吊坠静放，坠面还带着一点细的光。",
+    sampleIndexes: [944, 945, 946, 943],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 484,
+    title: "丝绳",
+    opener: "第四百八十四日。绳带着坠，像店把心意也贴成近。",
+    sampleIndexes: [945, 946, 947, 942],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
