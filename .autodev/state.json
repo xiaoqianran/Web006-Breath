@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 399,
+  "current_round": 400,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0400-continue",
-  "last_completed_task_id": "T0399-softearring",
-  "last_commit": "c7c4f1c9871b8805f8aedac32c725eeaab66fecb",
+  "current_task_id": "T0401-continue",
+  "last_completed_task_id": "T0400-softanklet",
+  "last_commit": "eb21dc0d741a7ec840e7a6a7ced0814fa526b944",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 405 passed (278 files)",
+  "last_test_summary": "vitest: 406 passed (279 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -136,14 +136,15 @@
     "D-118 T0397 情绪样本满 952",
     "D-119 T0398 美术 ART 满 500",
     "D-120 T0399 日剧本满 490",
-    "D-121 T0399 情绪样本满 960"
+    "D-121 T0399 情绪样本满 960",
+    "D-122 T0400 开发轮次满 400"
   ],
   "next_candidate_tasks": [
-    "T0400-continue",
+    "T0401-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c7c4f1c9871b8805f8aedac32c725eeaab66fecb T0399 耳圈耳钩 · 轮次399\n轮次: 399 / 1000 · v0.2.6 · M2\n本段: T0395–T0399 · 内容960/490 · 测试405 · ART~502 · D-120/121\n下一: T0400\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T07:11:45Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: eb21dc0d741a7ec840e7a6a7ced0814fa526b944 T0400 脚链细扣 · 轮次400\n轮次: 400 / 1000 · v0.2.6 · M2\n本段: T0396–T0400 · 内容964/492 · 测试406 · ART~504 · D-122\n下一: T0401\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T07:14:02Z"
 }
