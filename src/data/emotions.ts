@@ -2496,7 +2496,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e357",
+    guestName: "匿名",
+    text: "想要一只很轻的纸袋，只装温柔，不装催促。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e358",
+    guestName: "禾",
+    text: "麻绳系住袋口时，像店轻轻说「慢点走」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e359",
+    guestName: "阿初",
+    text: "牛皮纸袋边还带着暖，像刚被接住过的瞬间。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e360",
+    guestName: "陆安",
+    text: "第三百六十次：请给我一只能带走温柔的纸袋。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

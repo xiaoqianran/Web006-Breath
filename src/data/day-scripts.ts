@@ -1518,7 +1518,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 189,
+    title: "牛皮纸袋",
+    opener: "第一百八十九日。牛皮纸袋展开，袋口还留着一点纸的暖。",
+    sampleIndexes: [356, 357, 358, 352],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 190,
+    title: "麻绳",
+    opener: "第一百九十日。麻绳绕过袋口，像店轻轻说「慢点走」。",
+    sampleIndexes: [357, 358, 359, 354],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 export function getDayScript(day: number): DayScript {
   const found = DAY_SCRIPTS.find((d) => d.day === day);

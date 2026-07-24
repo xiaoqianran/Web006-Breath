@@ -268,3 +268,5 @@
 | ART-198 | `public/assets/ui/soft_pencil.jpg` | 软铅笔 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-199 | `public/assets/ui/receipt_slip.jpg` | 收据条 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-200 | `public/assets/ui/round_stamp.jpg` | 小圆戳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-201 | `public/assets/ui/kraft_bag.jpg` | 牛皮纸袋 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-202 | `public/assets/ui/hemp_twine.jpg` | 麻绳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

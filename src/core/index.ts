@@ -116,3 +116,4 @@ export * from "./stamp-label";
 export * from "./ribbonmark-label";
 export * from "./ledger-label";
 export * from "./receipt-label";
+export * from "./kraft-label";

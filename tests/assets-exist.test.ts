@@ -212,7 +212,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/soft_pencil.jpg",
       "public/assets/ui/receipt_slip.jpg",
       "public/assets/ui/round_stamp.jpg",
+      "public/assets/ui/kraft_bag.jpg",
+      "public/assets/ui/hemp_twine.jpg",
     ];
+
     for (const f of files) {
       const p = resolve(root, f);
       expect(existsSync(p), `missing ${f}`).toBe(true);
