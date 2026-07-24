@@ -4820,6 +4820,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e689",
+    guestName: "匿名",
+    text: "想用钩针钩一圈，让空洞也能被温柔地钩成形状。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e690",
+    guestName: "禾",
+    text: "线绕过钩针时，像店把形状也递给空洞。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e691",
+    guestName: "阿初",
+    text: "钩针针柄还带着一点木的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e692",
+    guestName: "陆安",
+    text: "第六百九十二次：请给我一圈能钩成形状的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

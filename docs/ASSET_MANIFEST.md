@@ -434,3 +434,5 @@
 | ART-364 | `public/assets/ui/mend_yarn.jpg` | 补线团 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-365 | `public/assets/ui/lace_bobbin.jpg` | 梭心 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-366 | `public/assets/ui/lace_pillow.jpg` | 花边枕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-367 | `public/assets/ui/crochet_hook.jpg` | 钩针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-368 | `public/assets/ui/soft_yarn_ball.jpg` | 线团 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

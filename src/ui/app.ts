@@ -752,6 +752,11 @@ import {
   formatSoftlaceAside,
   formatSoftlaceEncourage,
   formatSoftlacePair,
+  formatCrochetHookLine,
+  formatSoftYarnBallLine,
+  formatSoftcrochetAside,
+  formatSoftcrochetEncourage,
+  formatSoftcrochetPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1958,6 +1963,8 @@ export class YixiApp {
         <div class="mend-yarn-art" role="img" aria-label="补线团" data-testid="mend-yarn-art"></div>
         <div class="lace-bobbin-art" role="img" aria-label="梭心" data-testid="lace-bobbin-art"></div>
         <div class="lace-pillow-art" role="img" aria-label="花边枕" data-testid="lace-pillow-art"></div>
+        <div class="crochet-hook-art" role="img" aria-label="钩针" data-testid="crochet-hook-art"></div>
+        <div class="soft-yarn-ball-art" role="img" aria-label="线团" data-testid="soft-yarn-ball-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2599,6 +2606,11 @@ export class YixiApp {
         <p class="muted" data-testid="softlace-aside">${formatSoftlaceAside(s.history.length)}</p>
         <p class="muted" data-testid="softlace-encourage">${formatSoftlaceEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softlace-pair">${formatSoftlacePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="crochet-hook-line">${formatCrochetHookLine(s.day)}</p>
+        <p class="muted" data-testid="soft-yarn-ball-line">${formatSoftYarnBallLine(s.warmth)}</p>
+        <p class="muted" data-testid="softcrochet-aside">${formatSoftcrochetAside(s.history.length)}</p>
+        <p class="muted" data-testid="softcrochet-encourage">${formatSoftcrochetEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softcrochet-pair">${formatSoftcrochetPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
