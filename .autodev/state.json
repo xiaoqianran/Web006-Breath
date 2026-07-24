@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 284,
+  "current_round": 285,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0285-continue",
-  "last_completed_task_id": "T0284-cookietin",
-  "last_commit": "6281049d6e987c6442f0e9ac7b4b302554acb789",
+  "current_task_id": "T0286-continue",
+  "last_completed_task_id": "T0285-recipecard",
+  "last_commit": "3aff62b156a185f2d273c1644f41f949f52deba0",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 290 passed (163 files)",
+  "last_test_summary": "vitest: 291 passed (164 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -65,11 +65,11 @@
     "D-047 T0284 日剧本满 260"
   ],
   "next_candidate_tasks": [
-    "T0285-continue",
+    "T0286-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6281049d6e987c6442f0e9ac7b4b302554acb789 T0284 饼干铁盒/扎带 · 情绪500·剧本260\n轮次: 284 / 1000 · v0.2.6 · M2\n本段: T0280–T0284 擀面…铁盒 · 内容500/260 · 测试290 · D-046/047\n下一: T0285\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:58:36Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 3aff62b156a185f2d273c1644f41f949f52deba0 T0285 手写菜谱卡/木夹 · ART273/274\n轮次: 285 / 1000 · v0.2.6 · M2\n本段: T0281–T0285 刮板…菜谱 · 内容504/262 · 测试291\n下一: T0286\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:00:31Z"
 }
