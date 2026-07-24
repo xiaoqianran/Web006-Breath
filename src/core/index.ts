@@ -132,3 +132,5 @@ export * from "./bookend-label";
 export * from "./lampshade-label";
 export * from "./teaspoon-label";
 export * from "./jarlabel-label";
+export * from "./postcard-label";
+export * from "./mailcard-label";

@@ -1774,7 +1774,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 221,
+    title: "明信片",
+    opener: "第二百二十一日。明信片抽出一张，背面还留着空白的客气。",
+    sampleIndexes: [420, 421, 422, 416],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 222,
+    title: "邮票盒",
+    opener: "第二百二十二日。邮票贴在角上，像店把远方也轻轻盖了章。",
+    sampleIndexes: [421, 422, 423, 418],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

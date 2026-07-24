@@ -2944,7 +2944,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e421",
+    guestName: "匿名",
+    text: "想把一句温柔写在明信片上，寄给还想被记得的人。",
+    tags: ["安心", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e422",
+    guestName: "禾",
+    text: "邮票贴在角上时，像店把远方也轻轻盖了章。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e423",
+    guestName: "阿初",
+    text: "明信片背面还留着空白的客气，像等一句远讯。",
+    tags: ["想念", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e424",
+    guestName: "陆安",
+    text: "第四百二十四次：请给我一枚能寄走温柔的票。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

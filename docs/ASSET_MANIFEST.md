@@ -300,3 +300,5 @@
 | ART-230 | `public/assets/ui/tasting_mat.jpg` | 品茶垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-231 | `public/assets/ui/jar_tag.jpg` | 罐口标签 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-232 | `public/assets/ui/fine_cotton.jpg` | 细棉线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-233 | `public/assets/ui/blank_postcard.jpg` | 明信片 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-234 | `public/assets/ui/stamp_box.jpg` | 邮票盒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
