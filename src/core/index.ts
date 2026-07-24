@@ -207,3 +207,4 @@ export * from "./softpom-label";
 export * from "./softtassel-label";
 export * from "./softloom-label";
 export * from "./softblock-label";
+export * from "./softgauge-label";

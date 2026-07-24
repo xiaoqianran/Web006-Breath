@@ -5016,6 +5016,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e717",
+    guestName: "匿名",
+    text: "想用棒针尺量一格，让尺寸也能被温柔地量准。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e718",
+    guestName: "禾",
+    text: "麻花针托住活针时，像店把交叉也量成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e719",
+    guestName: "阿初",
+    text: "棒针尺孔沿还带着一点金属的凉，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e720",
+    guestName: "陆安",
+    text: "第七百二十次：请给我一格能量准的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
