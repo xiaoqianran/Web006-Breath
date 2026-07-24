@@ -382,6 +382,11 @@ import {
   formatDaymarkAside,
   formatDaymarkEncourage,
   formatDaymarkPair,
+  formatStickyPadLine,
+  formatFinePenLine,
+  formatNotepenAside,
+  formatNotepenEncourage,
+  formatNotepenPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1440,6 +1445,8 @@ export class YixiApp {
         <div class="warm-water-cup-art" role="img" aria-label="温水小杯" data-testid="warm-water-cup-art"></div>
         <div class="desk-calendar-art" role="img" aria-label="台历夹" data-testid="desk-calendar-art"></div>
         <div class="today-sticker-art" role="img" aria-label="今日贴纸" data-testid="today-sticker-art"></div>
+        <div class="sticky-pad-art" role="img" aria-label="便签本" data-testid="sticky-pad-art"></div>
+        <div class="fine-pen-art" role="img" aria-label="细钢笔" data-testid="fine-pen-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1711,6 +1718,11 @@ export class YixiApp {
         <p class="muted" data-testid="daymark-aside">${formatDaymarkAside(s.history.length)}</p>
         <p class="muted" data-testid="daymark-encourage">${formatDaymarkEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="daymark-pair">${formatDaymarkPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="sticky-pad-line">${formatStickyPadLine(s.day)}</p>
+        <p class="muted" data-testid="fine-pen-line">${formatFinePenLine(s.warmth)}</p>
+        <p class="muted" data-testid="notepen-aside">${formatNotepenAside(s.history.length)}</p>
+        <p class="muted" data-testid="notepen-encourage">${formatNotepenEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="notepen-pair">${formatNotepenPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

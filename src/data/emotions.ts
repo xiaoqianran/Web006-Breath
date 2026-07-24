@@ -2748,7 +2748,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e393",
+    guestName: "匿名",
+    text: "想把一句温柔写在很薄的便签上，怕忘了这份轻。",
+    tags: ["安心", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e394",
+    guestName: "禾",
+    text: "细钢笔笔尖微润，像轻轻说「先写这一句就好」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e395",
+    guestName: "阿初",
+    text: "便签撕下一页时，胶边还带着一点黏的温。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e396",
+    guestName: "听雨",
+    text: "第三百九十六次：请给我一支能写短句的笔。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

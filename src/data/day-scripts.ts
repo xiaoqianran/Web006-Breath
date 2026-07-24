@@ -1662,7 +1662,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 207,
+    title: "便签本",
+    opener: "第二百零七日。便签本撕下一页，胶边还带着一点黏的温。",
+    sampleIndexes: [392, 393, 394, 388],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 208,
+    title: "细钢笔",
+    opener: "第二百零八日。细钢笔搁在本旁，像把想说的话收成一行。",
+    sampleIndexes: [393, 394, 395, 390],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
