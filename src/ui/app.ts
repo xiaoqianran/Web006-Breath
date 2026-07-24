@@ -347,6 +347,11 @@ import {
   formatTagcardAside,
   formatTagcardEncourage,
   formatTagcardPair,
+  formatChangeDishLine,
+  formatPalmKerchiefLine,
+  formatFarewellAside,
+  formatFarewellEncourage,
+  formatFarewellPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1391,6 +1396,8 @@ export class YixiApp {
         <div class="hemp-twine-art" role="img" aria-label="麻绳" data-testid="hemp-twine-art"></div>
         <div class="warm-tag-card-art" role="img" aria-label="温言小卡" data-testid="warm-tag-card-art"></div>
         <div class="fine-string-art" role="img" aria-label="细线" data-testid="fine-string-art"></div>
+        <div class="change-dish-art" role="img" aria-label="找零浅碟" data-testid="change-dish-art"></div>
+        <div class="palm-kerchief-art" role="img" aria-label="掌心手帕" data-testid="palm-kerchief-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1627,6 +1634,11 @@ export class YixiApp {
         <p class="muted" data-testid="tagcard-aside">${formatTagcardAside(s.history.length)}</p>
         <p class="muted" data-testid="tagcard-encourage">${formatTagcardEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="tagcard-pair">${formatTagcardPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="change-dish-line">${formatChangeDishLine(s.day)}</p>
+        <p class="muted" data-testid="palm-kerchief-line">${formatPalmKerchiefLine(s.warmth)}</p>
+        <p class="muted" data-testid="farewell-aside">${formatFarewellAside(s.history.length)}</p>
+        <p class="muted" data-testid="farewell-encourage">${formatFarewellEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="farewell-pair">${formatFarewellPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

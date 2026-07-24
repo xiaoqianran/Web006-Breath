@@ -2552,7 +2552,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e365",
+    guestName: "匿名",
+    text: "想要一点找零时的余温，不是钱，是被惦记的感觉。",
+    tags: ["安心", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e366",
+    guestName: "禾",
+    text: "掌心手帕折好递来时，像店说「外面风大」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e367",
+    guestName: "阿初",
+    text: "浅碟边还带着掌温，像刚被送走过的脚步。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e368",
+    guestName: "陆安",
+    text: "第三百六十八次：请给我一方能暖手的帕。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

@@ -1550,7 +1550,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 193,
+    title: "找零浅碟",
+    opener: "第一百九十三日。找零浅碟端出，铜边还留着一点掌温。",
+    sampleIndexes: [364, 365, 366, 360],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 194,
+    title: "掌心手帕",
+    opener: "第一百九十四日。掌心手帕折好，像店说「外面风大」。",
+    sampleIndexes: [365, 366, 367, 362],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
