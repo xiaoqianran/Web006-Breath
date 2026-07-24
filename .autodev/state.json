@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 296,
+  "current_round": 297,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0297-continue",
-  "last_completed_task_id": "T0296-bathsalt",
-  "last_commit": "ea0043bb3c272ff34ffe587dcabb5760ec4f5543",
+  "current_task_id": "T0298-continue",
+  "last_completed_task_id": "T0297-diffuser",
+  "last_commit": "e4c7fa3465cc6ad47b215b73f2c0997f59a444cb",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 302 passed (175 files)",
+  "last_test_summary": "vitest: 303 passed (176 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -66,14 +66,15 @@
     "D-048 T0288 美术 ART 满 280",
     "D-049 T0289 日剧本满 270",
     "D-050 T0290 开发轮次满 290",
-    "D-051 T0294 日剧本满 280 / 测试 300"
+    "D-051 T0294 日剧本满 280 / 测试 300",
+    "D-052 T0297 情绪样本满 550"
   ],
   "next_candidate_tasks": [
-    "T0297-continue",
+    "T0298-continue",
     "T0300-milestone",
     "M2",
     "内容/生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ea0043bb3c272ff34ffe587dcabb5760ec4f5543 T0296 浴盐罐/贝壳勺 · 轮次296\n轮次: 296 / 1000 · v0.2.6 · M2\n本段: T0292–T0296 · 内容548/284 · 测试302 · ART~296 · D-051\n下一: T0297（趋近轮次 300）\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:25:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e4c7fa3465cc6ad47b215b73f2c0997f59a444cb T0297 香薰瓶/藤条 · 轮次297 · 情绪552\n轮次: 297 / 1000 · v0.2.6 · M2\n本段: T0293–T0297 · 内容552/286 · 测试303 · ART~298 · D-052\n下一: T0298（趋近轮次 300）\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:27:30Z"
 }
