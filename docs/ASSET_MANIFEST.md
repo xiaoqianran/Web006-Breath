@@ -262,3 +262,5 @@
 | ART-192 | `public/assets/ui/wax_spoon.jpg` | 封缄勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-193 | `public/assets/ui/seal_stamp.jpg` | 印模 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-194 | `public/assets/ui/ink_pad.jpg` | 印泥 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-195 | `public/assets/ui/bookmark_ribbon.jpg` | 书签丝带 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-196 | `public/assets/ui/page_dogear.jpg` | 页角折 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

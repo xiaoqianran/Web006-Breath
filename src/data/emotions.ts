@@ -2412,6 +2412,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e345",
+    guestName: "匿名",
+    text: "想夹一根浅杏丝带，允许自己读到一半就合上。",
+    tags: ["疲惫", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e346",
+    guestName: "禾",
+    text: "页角微翘，像有人说「我还会回来」。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e347",
+    guestName: "小满",
+    text: "书签丝带垂在书口，像一条柔软的提醒。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e348",
+    guestName: "听雨",
+    text: "第三百四十八次：请给我一条能记住页码的丝带。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

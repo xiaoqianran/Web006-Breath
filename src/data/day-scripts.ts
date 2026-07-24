@@ -1470,6 +1470,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 183,
+    title: "书签带",
+    opener: "第一百八十三日。书签丝带垂在书口，像一条柔软的提醒。",
+    sampleIndexes: [344, 345, 346, 340],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 184,
+    title: "页角记",
+    opener: "第一百八十四日。页角微翘，像有人说「我还会回来」。",
+    sampleIndexes: [345, 346, 347, 342],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

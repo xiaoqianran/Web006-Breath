@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 245,
+  "current_round": 246,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0246-continue",
-  "last_completed_task_id": "T0245-stamp",
-  "last_commit": "479c7a979cf01282cca05d8b148a655d48abb490",
+  "current_task_id": "T0247-continue",
+  "last_completed_task_id": "T0246-ribbonmark",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 251 passed (124 files)",
+  "last_test_summary": "vitest: 252 passed (125 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -43,11 +43,11 @@
     "D-025 T0244 情绪 340 / 剧本 180 / 测试 250"
   ],
   "next_candidate_tasks": [
-    "T0246-continue",
+    "T0247-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 479c7a979cf01282cca05d8b148a655d48abb490 T0245 印模/印泥\n轮次: 245 / 1000 · v0.2.6 · M2\n本段: T0241–T0245 裁刀…印泥 · 内容344/182 · 测试251\n下一: T0246\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:40:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0246 书签丝带/页角折 ribbonmark-label + ART-195/196 + 内容348/184\n轮次: 246 / 1000 · v0.2.6 · M2\n测试: 252 passed；双 smoke warmth=19\n下一: T0247\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:42:40Z"
 }

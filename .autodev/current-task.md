@@ -1,4 +1,4 @@
-# T0245 done
-next T0246
-251 tests (124 files) round 245
-stamp-label + seal stamp / ink pad + content 344/182
+# T0246 done
+next T0247
+252 tests (125 files) round 246
+ribbonmark-label + bookmark ribbon / page dogear + content 348/184
