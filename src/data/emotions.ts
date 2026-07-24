@@ -5184,6 +5184,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e741",
+    guestName: "匿名",
+    text: "想用法式编织筒套一圈，让空筒也能被温柔地套成柔软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e742",
+    guestName: "禾",
+    text: "线从筒底抽出时，像店把空筒也套成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e743",
+    guestName: "阿初",
+    text: "编织筒筒口还带着一点木的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e744",
+    guestName: "陆安",
+    text: "第七百四十四次：请给我一圈能套成柔软的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

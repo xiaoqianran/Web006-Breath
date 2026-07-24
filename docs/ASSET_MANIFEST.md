@@ -460,3 +460,5 @@
 | ART-390 | `public/assets/ui/carding_pad.jpg` | 梳毛垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-391 | `public/assets/ui/niddy_noddy.jpg` | 绕绞架 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-392 | `public/assets/ui/yarn_skein.jpg` | 绞线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-393 | `public/assets/ui/french_knitter.jpg` | 法式编织筒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-394 | `public/assets/ui/knitter_yarn.jpg` | 筒线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
