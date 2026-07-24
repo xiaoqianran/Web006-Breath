@@ -276,7 +276,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/wire_whisk.jpg",
       "public/assets/ui/rolling_pin.jpg",
       "public/assets/ui/dust_spoon.jpg",
+      "public/assets/ui/dough_scraper.jpg",
+      "public/assets/ui/bake_parchment.jpg",
     ];
+
 
 
 

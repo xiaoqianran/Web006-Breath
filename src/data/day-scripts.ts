@@ -2030,7 +2030,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 253,
+    title: "面团刮板",
+    opener: "第二百五十三日。面团刮板贴着台面，刃边还带着一点粉的白。",
+    sampleIndexes: [484, 485, 486, 480],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 254,
+    title: "烘焙纸",
+    opener: "第二百五十四日。烘焙纸铺进烤盘，像店把焦糊也提前挡在外面。",
+    sampleIndexes: [485, 486, 487, 482],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

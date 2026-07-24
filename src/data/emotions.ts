@@ -3392,7 +3392,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e485",
+    guestName: "匿名",
+    text: "想用刮板把散在台面上的面轻轻聚回，不刮伤台。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e486",
+    guestName: "禾",
+    text: "烘焙纸铺进烤盘时，像店把焦糊也提前挡在外面。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e487",
+    guestName: "阿初",
+    text: "面团刮板刃边还带着一点粉的白，像刚收过散面。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e488",
+    guestName: "陆安",
+    text: "第四百八十八次：请给我一张能隔住烫的纸。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

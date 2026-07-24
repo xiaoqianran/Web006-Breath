@@ -332,3 +332,5 @@
 | ART-262 | `public/assets/ui/wire_whisk.jpg` | 打蛋器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-263 | `public/assets/ui/rolling_pin.jpg` | 擀面杖 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-264 | `public/assets/ui/dust_spoon.jpg` | 撒粉勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-265 | `public/assets/ui/dough_scraper.jpg` | 面团刮板 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-266 | `public/assets/ui/bake_parchment.jpg` | 烘焙纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
