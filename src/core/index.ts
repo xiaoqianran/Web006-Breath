@@ -117,3 +117,4 @@ export * from "./ribbonmark-label";
 export * from "./ledger-label";
 export * from "./receipt-label";
 export * from "./kraft-label";
+export * from "./tagcard-label";

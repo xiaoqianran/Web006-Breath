@@ -2524,7 +2524,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e361",
+    guestName: "匿名",
+    text: "想要一张很薄的温言卡，只写一句，够走很远。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e362",
+    guestName: "禾",
+    text: "细线穿过卡角时，像轻轻别住还没说完的话。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e363",
+    guestName: "阿初",
+    text: "小卡塞进纸袋边，像把一句叮嘱轻轻留给路上。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e364",
+    guestName: "听雨",
+    text: "第三百六十四次：请给我一张能带走的温言。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

@@ -270,3 +270,5 @@
 | ART-200 | `public/assets/ui/round_stamp.jpg` | 小圆戳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-201 | `public/assets/ui/kraft_bag.jpg` | 牛皮纸袋 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-202 | `public/assets/ui/hemp_twine.jpg` | 麻绳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-203 | `public/assets/ui/warm_tag_card.jpg` | 温言小卡 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-204 | `public/assets/ui/fine_string.jpg` | 细线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

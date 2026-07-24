@@ -342,6 +342,11 @@ import {
   formatKraftAside,
   formatKraftEncourage,
   formatKraftPair,
+  formatWarmTagCardLine,
+  formatFineStringLine,
+  formatTagcardAside,
+  formatTagcardEncourage,
+  formatTagcardPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1384,6 +1389,8 @@ export class YixiApp {
         <div class="round-stamp-art" role="img" aria-label="小圆戳" data-testid="round-stamp-art"></div>
         <div class="kraft-bag-art" role="img" aria-label="牛皮纸袋" data-testid="kraft-bag-art"></div>
         <div class="hemp-twine-art" role="img" aria-label="麻绳" data-testid="hemp-twine-art"></div>
+        <div class="warm-tag-card-art" role="img" aria-label="温言小卡" data-testid="warm-tag-card-art"></div>
+        <div class="fine-string-art" role="img" aria-label="细线" data-testid="fine-string-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1615,6 +1622,11 @@ export class YixiApp {
         <p class="muted" data-testid="kraft-aside">${formatKraftAside(s.history.length)}</p>
         <p class="muted" data-testid="kraft-encourage">${formatKraftEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="kraft-pair">${formatKraftPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="warm-tag-card-line">${formatWarmTagCardLine(s.day)}</p>
+        <p class="muted" data-testid="fine-string-line">${formatFineStringLine(s.warmth)}</p>
+        <p class="muted" data-testid="tagcard-aside">${formatTagcardAside(s.history.length)}</p>
+        <p class="muted" data-testid="tagcard-encourage">${formatTagcardEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="tagcard-pair">${formatTagcardPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

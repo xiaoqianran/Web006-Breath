@@ -1534,7 +1534,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 191,
+    title: "温言小卡",
+    opener: "第一百九十一日。温言小卡抽出，纸面还带着指尖的温。",
+    sampleIndexes: [360, 361, 362, 356],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 192,
+    title: "细线",
+    opener: "第一百九十二日。细线穿过卡角，像轻轻别住还没说完的话。",
+    sampleIndexes: [361, 362, 363, 358],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 export function getDayScript(day: number): DayScript {
