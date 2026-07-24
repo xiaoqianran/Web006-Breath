@@ -312,3 +312,5 @@
 | ART-242 | `public/assets/ui/wood_dipper.jpg` | 木蜜勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-243 | `public/assets/ui/milk_jug.jpg` | 小奶盅 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-244 | `public/assets/ui/cream_spoon.jpg` | 奶油勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-245 | `public/assets/ui/lemon_dish.jpg` | 柠檬碟 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-246 | `public/assets/ui/citrus_knife.jpg` | 柑橘小刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

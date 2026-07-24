@@ -256,7 +256,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/wood_dipper.jpg",
       "public/assets/ui/milk_jug.jpg",
       "public/assets/ui/cream_spoon.jpg",
+      "public/assets/ui/lemon_dish.jpg",
+      "public/assets/ui/citrus_knife.jpg",
     ];
+
 
 
 

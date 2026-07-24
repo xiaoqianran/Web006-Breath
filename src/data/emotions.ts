@@ -3112,7 +3112,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e445",
+    guestName: "匿名",
+    text: "想在茶边放一片很薄的柠檬，让回味也醒一醒。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e446",
+    guestName: "禾",
+    text: "柑橘小刀切过果皮时，像店把清醒也递到杯边。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e447",
+    guestName: "阿初",
+    text: "柠檬碟边还带着一点清的香，像刚被切过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e448",
+    guestName: "陆安",
+    text: "第四百四十八次：请给我一片能醒茶的柠檬。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

@@ -1870,7 +1870,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 233,
+    title: "柠檬碟",
+    opener: "第二百三十三日。柠檬碟端出，碟边还带着一点清的香。",
+    sampleIndexes: [444, 445, 446, 440],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 234,
+    title: "柑橘小刀",
+    opener: "第二百三十四日。柑橘小刀切过果皮，像把清醒也递到杯边。",
+    sampleIndexes: [445, 446, 447, 442],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
