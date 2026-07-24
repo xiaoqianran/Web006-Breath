@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0246-continue",
   "last_completed_task_id": "T0245-stamp",
-  "last_commit": "PENDING",
+  "last_commit": "479c7a979cf01282cca05d8b148a655d48abb490",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 251 passed (124 files)",
   "core_loop_status": "playable_demo_ready",
@@ -48,6 +48,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0245 印模/印泥 stamp-label + ART-193/194 + 内容344/182\n轮次: 245 / 1000 · v0.2.6 · M2\n测试: 251 passed；双 smoke warmth=19\n下一: T0246\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 479c7a979cf01282cca05d8b148a655d48abb490 T0245 印模/印泥\n轮次: 245 / 1000 · v0.2.6 · M2\n本段: T0241–T0245 裁刀…印泥 · 内容344/182 · 测试251\n下一: T0246\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:40:10Z"
 }
