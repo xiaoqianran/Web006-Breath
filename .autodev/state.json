@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0215-continue",
   "last_completed_task_id": "T0214-ladder",
-  "last_commit": "PENDING",
+  "last_commit": "83481cb1685a145d1803d3ff0a5debe9bff5fbd8",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 220 passed (93 files)",
   "core_loop_status": "playable_demo_ready",
@@ -33,6 +33,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0214 小木梯/高架 ladder-label + ART-131/132 + 内容220/120\n轮次: 214 / 1000 · v0.2.6 · M2\n测试: 220 passed；双 smoke warmth=19\n下一: T0215\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 83481cb1685a145d1803d3ff0a5debe9bff5fbd8 T0214 小木梯/高架 · 情绪220/剧本120\n轮次: 214 / 1000 · v0.2.6 · M2\n本段: T0211–T0214 窗纱…木梯 · 内容220/120 · 测试220\n下一: T0215\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:44:50Z"
 }
