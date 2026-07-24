@@ -550,3 +550,5 @@
 | ART-480 | `public/assets/ui/toggle_ring.jpg` | 圆环 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-481 | `public/assets/ui/split_ring.jpg` | 开口环 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-482 | `public/assets/ui/split_opener.jpg` | 撬环器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-483 | `public/assets/ui/charm_set.jpg` | 吊饰 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-484 | `public/assets/ui/charm_tray.jpg` | 饰盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

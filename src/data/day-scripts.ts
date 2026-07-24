@@ -3774,6 +3774,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 471,
+    title: "吊饰",
+    opener: "第四百七十一日。吊饰静散，小片还带着一点细的光。",
+    sampleIndexes: [920, 921, 922, 919],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 472,
+    title: "饰盘",
+    opener: "第四百七十二日。盘带着饰，像店把散的也收成整。",
+    sampleIndexes: [921, 922, 923, 918],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
