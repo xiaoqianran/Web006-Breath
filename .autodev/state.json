@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 406,
+  "current_round": 407,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0407-softslide",
-  "last_completed_task_id": "T0406-softbanana",
-  "last_commit": "0fbfd3b984cb53e0362090bd99fed49c26371df4",
+  "current_task_id": "T0408-continue",
+  "last_completed_task_id": "T0407-softslide",
+  "last_commit": "e1adeb40e042a4c341af39e64bc0fbf8eeb522b8",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 413 passed (286 files incl. softslide prep)",
+  "last_test_summary": "vitest: 413 passed (286 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -141,10 +141,11 @@
     "D-123 T0401 测试文件满 280"
   ],
   "next_candidate_tasks": [
-    "T0407-softslide",
+    "T0408-continue",
     "M2",
+    "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0fbfd3b984cb53e0362090bd99fed49c26371df4 T0406 香蕉夹齿排 · 轮次406\n轮次: 406 / 1000 · v0.2.6 · M2\n本段: T0402–T0406 · 内容988/504 · 测试413 · ART~516\n下一: T0407 softslide\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T08:49:05Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e1adeb40e042a4c341af39e64bc0fbf8eeb522b8 T0407 发簪滑座 · 轮次407\n轮次: 407 / 1000 · v0.2.6 · M2\n本段: T0403–T0407 · 内容992/506 · 测试413 · ART~518\n下一: T0408 持续 M2\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T08:50:30Z"
 }
