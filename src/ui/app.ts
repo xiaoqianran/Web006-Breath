@@ -222,6 +222,11 @@ import {
   formatButtonAside,
   formatButtonEncourage,
   formatButtonPair,
+  formatThreadSpoolLine,
+  formatBeeswaxBrickLine,
+  formatSpoolAside,
+  formatSpoolEncourage,
+  formatSpoolPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1216,6 +1221,8 @@ export class YixiApp {
         <div class="pincushion-art" role="img" aria-label="针垫" data-testid="pincushion-art"></div>
         <div class="button-box-art" role="img" aria-label="钮扣匣" data-testid="button-box-art"></div>
         <div class="soft-tape-art" role="img" aria-label="软尺" data-testid="soft-tape-art"></div>
+        <div class="thread-spool-art" role="img" aria-label="线轴" data-testid="thread-spool-art"></div>
+        <div class="beeswax-brick-art" role="img" aria-label="蜂蜡砖" data-testid="beeswax-brick-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1327,6 +1334,11 @@ export class YixiApp {
         <p class="muted" data-testid="soft-tape-line">${formatSoftTapeLine(s.warmth)}</p>
         <p class="muted" data-testid="button-encourage">${formatButtonEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="button-pair">${formatButtonPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="thread-spool-line">${formatThreadSpoolLine(s.day)}</p>
+        <p class="muted" data-testid="beeswax-brick-line">${formatBeeswaxBrickLine(s.warmth)}</p>
+        <p class="muted" data-testid="spool-aside">${formatSpoolAside(s.circulationsToday)}</p>
+        <p class="muted" data-testid="spool-encourage">${formatSpoolEncourage(qLen)}</p>
+        <p class="muted" data-testid="spool-pair">${formatSpoolPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

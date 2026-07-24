@@ -222,3 +222,5 @@
 | ART-152 | `public/assets/ui/pincushion.jpg` | 针垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-153 | `public/assets/ui/button_box.jpg` | 钮扣匣 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-154 | `public/assets/ui/soft_tape.jpg` | 软尺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-155 | `public/assets/ui/thread_spool.jpg` | 线轴 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-156 | `public/assets/ui/beeswax_brick.jpg` | 蜂蜡砖 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

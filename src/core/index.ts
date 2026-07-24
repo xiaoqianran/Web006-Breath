@@ -93,3 +93,4 @@ export * from "./frame-label";
 export * from "./cork-label";
 export * from "./thimble-label";
 export * from "./button-label";
+export * from "./spool-label";

@@ -1852,6 +1852,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "安心"],
     intensity: 2,
   },
+  {
+    id: "e265",
+    guestName: "匿名",
+    text: "想把打结的话过一遍蜂蜡，让它滑顺一点再说出口。",
+    tags: ["疲惫", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e266",
+    guestName: "禾",
+    text: "线轴轻轻转时，像有人把我的句子拉长了听完。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e267",
+    guestName: "阿初",
+    text: "蜜香的蜡痕，让针脚也不再那么毛躁。",
+    tags: ["释然", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e268",
+    guestName: "听雨",
+    text: "第二百六十八次：请给我一截过了蜡的线。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

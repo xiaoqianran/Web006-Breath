@@ -1,4 +1,4 @@
-# T0225 done
-next T0226
-231 tests (104 files) round 225
-button-label + button box / soft tape + content 264/142
+# T0226 done
+next T0227
+232 tests (105 files) round 226
+spool-label + thread spool / beeswax brick + content 268/144
