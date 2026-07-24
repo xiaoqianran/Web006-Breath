@@ -102,3 +102,4 @@ export * from "./clip-label";
 export * from "./ripper-label";
 export * from "./ham-label";
 export * from "./awl-label";
+export * from "./press-label";

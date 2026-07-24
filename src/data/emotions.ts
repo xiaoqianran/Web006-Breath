@@ -2104,6 +2104,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e301",
+    guestName: "匿名",
+    text: "想把散开的页压一压，让故事贴得更紧一点。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e302",
+    guestName: "小满",
+    text: "书压落下时，像有人轻轻说「可以定型了」。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e303",
+    guestName: "林",
+    text: "压条不压扁故事，只让它们贴在一起。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e304",
+    guestName: "陆安",
+    text: "第三百零四次：请给我一块刚好的重量，不要压碎。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

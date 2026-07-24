@@ -240,3 +240,5 @@
 | ART-170 | `public/assets/ui/sleeve_board.jpg` | 袖烫板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-171 | `public/assets/ui/stitching_awl.jpg` | 锥子 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-172 | `public/assets/ui/bone_folder.jpg` | 骨刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-173 | `public/assets/ui/book_press.jpg` | 书压 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-174 | `public/assets/ui/weight_bar.jpg` | 压条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -267,6 +267,11 @@ import {
   formatAwlAside,
   formatAwlEncourage,
   formatAwlPair,
+  formatBookPressLine,
+  formatWeightBarLine,
+  formatPressAside,
+  formatPressEncourage,
+  formatPressPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1279,6 +1284,8 @@ export class YixiApp {
         <div class="sleeve-board-art" role="img" aria-label="袖烫板" data-testid="sleeve-board-art"></div>
         <div class="stitching-awl-art" role="img" aria-label="锥子" data-testid="stitching-awl-art"></div>
         <div class="bone-folder-art" role="img" aria-label="骨刀" data-testid="bone-folder-art"></div>
+        <div class="book-press-art" role="img" aria-label="书压" data-testid="book-press-art"></div>
+        <div class="weight-bar-art" role="img" aria-label="压条" data-testid="weight-bar-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1435,6 +1442,11 @@ export class YixiApp {
         <p class="muted" data-testid="awl-aside">${formatAwlAside(s.history.length)}</p>
         <p class="muted" data-testid="awl-encourage">${formatAwlEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="awl-pair">${formatAwlPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="book-press-line">${formatBookPressLine(s.day)}</p>
+        <p class="muted" data-testid="weight-bar-line">${formatWeightBarLine(s.warmth)}</p>
+        <p class="muted" data-testid="press-aside">${formatPressAside(s.history.length)}</p>
+        <p class="muted" data-testid="press-encourage">${formatPressEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="press-pair">${formatPressPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
