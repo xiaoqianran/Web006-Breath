@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 257,
+  "current_round": 258,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0258-continue",
-  "last_completed_task_id": "T0257-daymark",
-  "last_commit": "4b5c6e56a03423abcb6df61639f219933678b514",
+  "current_task_id": "T0259-continue",
+  "last_completed_task_id": "T0258-notepen",
+  "last_commit": "e6400ea201a9414ccc2ec60b7629037c1244aad3",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 263 passed (136 files)",
+  "last_test_summary": "vitest: 264 passed (137 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -44,14 +44,15 @@
     "D-026 T0248 美术 ART 满 200",
     "D-027 T0250 开发轮次满 250",
     "D-028 T0253 美术 ART 满 210",
-    "D-029 T0254 日剧本满 200"
+    "D-029 T0254 日剧本满 200",
+    "D-030 T0258 美术 ART 满 220"
   ],
   "next_candidate_tasks": [
-    "T0258-continue",
+    "T0259-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 4b5c6e56a03423abcb6df61639f219933678b514 T0257 台历夹/今日贴纸 · ART217/218\n轮次: 257 / 1000 · v0.2.6 · M2\n本段: T0253–T0257 晨开…台历 · 内容392/206 · 测试263\n下一: T0258\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:05:59Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e6400ea201a9414ccc2ec60b7629037c1244aad3 T0258 便签本/细钢笔 · ART220\n轮次: 258 / 1000 · v0.2.6 · M2\n本段: T0254–T0258 进门…便签 · 内容396/208 · 测试264 · D-030 ART220\n下一: T0259\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:07:40Z"
 }
