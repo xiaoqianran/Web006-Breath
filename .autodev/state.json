@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 360,
+  "current_round": 361,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0361-continue",
-  "last_completed_task_id": "T0360-softburnish",
-  "last_commit": "120b561d667866837271aa18acc6eea4c43d582b",
+  "current_task_id": "T0362-continue",
+  "last_completed_task_id": "T0361-softflux",
+  "last_commit": "55c9dfec4fbb6726ffe4cdf46ae5c17512a0a65d",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 366 passed (239 files)",
+  "last_test_summary": "vitest: 367 passed (240 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -108,11 +108,11 @@
     "D-090 T0360 开发轮次满 360"
   ],
   "next_candidate_tasks": [
-    "T0361-continue",
+    "T0362-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 120b561d667866837271aa18acc6eea4c43d582b T0360 抛光钢压边刀 · 轮次360\n轮次: 360 / 1000 · v0.2.6 · M2\n本段: T0356–T0360 · 内容804/412 · 测试366 · ART~424 · D-090\n下一: T0361\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:40:05Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 55c9dfec4fbb6726ffe4cdf46ae5c17512a0a65d T0361 助焊膏酸洗罐 · 轮次361\n轮次: 361 / 1000 · v0.2.6 · M2\n本段: T0357–T0361 · 内容808/414 · 测试367 · ART~426 · D-090\n下一: T0362\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:42:11Z"
 }
