@@ -182,6 +182,11 @@ import {
   formatMatAside,
   formatMatEncourage,
   formatMatPair,
+  formatHandSoapLine,
+  formatSoftTowelLine,
+  formatSoapAside,
+  formatSoapEncourage,
+  formatSoapPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1160,6 +1165,8 @@ export class YixiApp {
         <div class="snip-thread-box-art" role="img" aria-label="剪线头匣" data-testid="snip-thread-box-art"></div>
         <div class="door-mat-art" role="img" aria-label="入户软垫" data-testid="door-mat-art"></div>
         <div class="shoe-box-art" role="img" aria-label="鞋边盒" data-testid="shoe-box-art"></div>
+        <div class="hand-soap-art" role="img" aria-label="洗手皂" data-testid="hand-soap-art"></div>
+        <div class="soft-towel-art" role="img" aria-label="软毛巾" data-testid="soft-towel-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1232,6 +1239,11 @@ export class YixiApp {
         <p class="muted" data-testid="mat-aside">${formatMatAside(s.warmth)}</p>
         <p class="muted" data-testid="mat-encourage">${formatMatEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="mat-pair">${formatMatPair(s.day, qLen)}</p>
+        <p class="muted" data-testid="hand-soap-line">${formatHandSoapLine(s.day)}</p>
+        <p class="muted" data-testid="soft-towel-line">${formatSoftTowelLine(s.warmth)}</p>
+        <p class="muted" data-testid="soap-aside">${formatSoapAside(s.circulationsToday)}</p>
+        <p class="muted" data-testid="soap-encourage">${formatSoapEncourage(qLen)}</p>
+        <p class="muted" data-testid="soap-pair">${formatSoapPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

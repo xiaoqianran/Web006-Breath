@@ -1628,6 +1628,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "安心"],
     intensity: 3,
   },
+  {
+    id: "e233",
+    guestName: "匿名",
+    text: "想先洗手，再碰今天那些容易碎的话。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e234",
+    guestName: "禾",
+    text: "软毛巾擦过手背时，忽然觉得自己也被擦干净了。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e235",
+    guestName: "阿初",
+    text: "柠檬草皂香里，堵在胸口的涩淡了一点。",
+    tags: ["释然", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e236",
+    guestName: "陆安",
+    text: "第二百三十六次：请给我一块能洗掉急的皂。",
+    tags: ["期待", "疲惫"],
+    intensity: 3,
+  },
 ];
 
 

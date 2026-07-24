@@ -150,6 +150,8 @@ describe("static assets on disk", () => {
       "public/assets/ui/snip_thread_box.jpg",
       "public/assets/ui/door_mat.jpg",
       "public/assets/decor/shoe_box.jpg",
+      "public/assets/ui/hand_soap.jpg",
+      "public/assets/ui/soft_towel.jpg",
     ];
     for (const f of files) {
       const p = resolve(root, f);

@@ -85,3 +85,4 @@ export * from "./ladder-label";
 export * from "./mirror-label";
 export * from "./ribbon-label";
 export * from "./mat-label";
+export * from "./soap-label";
