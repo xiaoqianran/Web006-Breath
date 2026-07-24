@@ -4008,6 +4008,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e573",
+    guestName: "匿名",
+    text: "想把笔搁在瓷凹处，让句子也能被温柔地放一放。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e574",
+    guestName: "禾",
+    text: "吸墨纸贴上湿笔时，像店把未干的字也托住。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e575",
+    guestName: "阿初",
+    text: "笔搁凹处还留着一点淡的墨痕，像刚被放下。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e576",
+    guestName: "陆安",
+    text: "第五百七十六次：请给我一处能搁笔的静。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

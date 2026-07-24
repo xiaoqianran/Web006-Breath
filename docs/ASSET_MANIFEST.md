@@ -376,3 +376,5 @@
 | ART-306 | `public/assets/ui/fine_sand.jpg` | 细沙 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-307 | `public/assets/ui/pressed_mark.jpg` | 压花书签 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-308 | `public/assets/ui/silk_tail.jpg` | 丝尾 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-309 | `public/assets/ui/ceramic_pen_rest.jpg` | 瓷笔搁 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-310 | `public/assets/ui/blot_sheet.jpg` | 吸墨纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

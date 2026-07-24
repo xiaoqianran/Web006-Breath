@@ -2382,6 +2382,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 297,
+    title: "瓷笔搁",
+    opener: "第二百九十七日。瓷笔搁静放，凹处还留着一点淡的墨痕。",
+    sampleIndexes: [572, 573, 574, 568],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 298,
+    title: "吸墨纸",
+    opener: "第二百九十八日。吸墨纸贴上湿笔，像店把未干的字也托住。",
+    sampleIndexes: [573, 574, 575, 570],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
