@@ -215,3 +215,4 @@ export * from "./softcarder-label";
 export * from "./softniddy-label";
 export * from "./softknitter-label";
 export * from "./softpotholder-label";
+export * from "./softbead-label";

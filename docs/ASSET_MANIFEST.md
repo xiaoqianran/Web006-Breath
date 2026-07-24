@@ -464,3 +464,5 @@
 | ART-394 | `public/assets/ui/knitter_yarn.jpg` | 筒线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-395 | `public/assets/ui/potholder_loom.jpg` | 杯垫织机 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-396 | `public/assets/ui/loop_yarn.jpg` | 圈圈线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-397 | `public/assets/ui/beading_needle.jpg` | 串珠针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-398 | `public/assets/ui/seed_beads.jpg` | 米珠 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

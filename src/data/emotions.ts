@@ -5240,6 +5240,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e749",
+    guestName: "匿名",
+    text: "想用串珠针串一颗，让散落也能被温柔地串成柔软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e750",
+    guestName: "禾",
+    text: "米珠沿着线走时，像店把散落也串成柔软。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e751",
+    guestName: "阿初",
+    text: "串珠针针尖还带着一点细的光，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e752",
+    guestName: "陆安",
+    text: "第七百五十二次：请给我一颗能串成柔软的珠。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
