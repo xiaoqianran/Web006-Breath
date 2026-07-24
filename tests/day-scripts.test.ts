@@ -9,7 +9,7 @@ import { createGameState, runFullCirculation } from "../src/core";
 
 describe("day scripts", () => {
   it("定义至少 100 日剧本", () => {
-    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(152);
+    expect(DAY_SCRIPTS.length).toBeGreaterThanOrEqual(154);
     for (const d of DAY_SCRIPTS) {
       expect(d.sampleIndexes.length).toBeGreaterThanOrEqual(3);
       expect(d.goalCirculations).toBeGreaterThan(0);

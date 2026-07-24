@@ -2020,6 +2020,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e289",
+    guestName: "匿名",
+    text: "想拆开一段缝错的线，给自己一次重来的许可。",
+    tags: ["勇气", "释然"],
+    intensity: 4,
+  },
+  {
+    id: "e290",
+    guestName: "禾",
+    text: "拆线器只挑线不伤布，像有人小心翼翼地改口。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e291",
+    guestName: "阿初",
+    text: "砂囊磨过针尖，钝掉的勇气又亮了一点。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e292",
+    guestName: "听雨",
+    text: "第二百九十二次：请给我一把能拆开错误的细刃。",
+    tags: ["期待", "释然"],
+    intensity: 3,
+  },
 ];
 
 

@@ -99,3 +99,4 @@ export * from "./pattern-label";
 export * from "./iron-label";
 export * from "./darn-label";
 export * from "./clip-label";
+export * from "./ripper-label";

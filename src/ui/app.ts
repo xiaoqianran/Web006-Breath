@@ -252,6 +252,11 @@ import {
   formatClipAside,
   formatClipEncourage,
   formatClipPair,
+  formatSeamRipperLine,
+  formatEmeryBagLine,
+  formatRipperAside,
+  formatRipperEncourage,
+  formatRipperPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1258,6 +1263,8 @@ export class YixiApp {
         <div class="needle-book-art" role="img" aria-label="针线册" data-testid="needle-book-art"></div>
         <div class="fabric-clips-art" role="img" aria-label="布夹" data-testid="fabric-clips-art"></div>
         <div class="marking-pen-art" role="img" aria-label="划线笔" data-testid="marking-pen-art"></div>
+        <div class="seam-ripper-art" role="img" aria-label="拆线器" data-testid="seam-ripper-art"></div>
+        <div class="emery-bag-art" role="img" aria-label="砂囊" data-testid="emery-bag-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1399,6 +1406,11 @@ export class YixiApp {
         <p class="muted" data-testid="clip-aside">${formatClipAside(s.shelf.length)}</p>
         <p class="muted" data-testid="clip-encourage">${formatClipEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="clip-pair">${formatClipPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="seam-ripper-line">${formatSeamRipperLine(s.day)}</p>
+        <p class="muted" data-testid="emery-bag-line">${formatEmeryBagLine(s.warmth)}</p>
+        <p class="muted" data-testid="ripper-aside">${formatRipperAside(s.circulationsToday)}</p>
+        <p class="muted" data-testid="ripper-encourage">${formatRipperEncourage(qLen)}</p>
+        <p class="muted" data-testid="ripper-pair">${formatRipperPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
