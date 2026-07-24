@@ -194,3 +194,5 @@
 | ART-124 | `public/assets/ui/blotter_stack.jpg` | 吸墨纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-125 | `public/assets/ui/lace_curtain.jpg` | 窗纱 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-126 | `public/assets/bg/lace_light.jpg` | 蕾丝光 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-127 | `public/assets/ui/dew_doorbell.jpg` | 晨露门铃 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-128 | `public/assets/decor/wet_sill.jpg` | 湿窗台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

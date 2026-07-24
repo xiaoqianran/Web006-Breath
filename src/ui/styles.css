@@ -1643,6 +1643,26 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/bg/lace_light.jpg") center/cover no-repeat;
 }
 
+.dew-doorbell-art {
+  height: 64px;
+  width: 64px;
+  border-radius: 12px;
+  margin: 0 auto 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/dew_doorbell.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.wet-sill-art {
+  height: 72px;
+  border-radius: 12px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/decor/wet_sill.jpg") center/cover no-repeat;
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;

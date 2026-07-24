@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 211,
+  "current_round": 212,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0212-continue",
-  "last_completed_task_id": "T0211-lace",
-  "last_commit": "4f6b19f08bc1d3b506d47128bfc3bd7358bff231",
+  "current_task_id": "T0213-continue",
+  "last_completed_task_id": "T0212-dew",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 217 passed (90 files)",
+  "last_test_summary": "vitest: 218 passed (91 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -27,11 +27,11 @@
     "D-009 T0209 情绪样本满 200"
   ],
   "next_candidate_tasks": [
-    "T0212-continue",
+    "T0213-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 4f6b19f08bc1d3b506d47128bfc3bd7358bff231 T0211 窗纱/蕾丝\n轮次: 211 / 1000 · v0.2.6 · M2\n本段: T0208–T0211 围裙…窗纱 · 内容208/114 · 测试217\n下一: T0212\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:40:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0212 晨露/湿窗台 dew-label + ART-127/128 + 内容212/116\n轮次: 212 / 1000 · v0.2.6 · M2\n测试: 218 passed；双 smoke warmth=19\n下一: T0213\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:41:40Z"
 }

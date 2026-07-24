@@ -79,3 +79,4 @@ export * from "./apron-label";
 export * from "./radio-label";
 export * from "./ink-label";
 export * from "./lace-label";
+export * from "./dew-label";

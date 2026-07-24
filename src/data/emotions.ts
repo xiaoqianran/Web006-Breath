@@ -1460,6 +1460,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e209",
+    guestName: "匿名",
+    text: "门铃上的晨露还没干，像夜色不肯完全离开。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e210",
+    guestName: "小满",
+    text: "想把湿漉漉的心情放在窗台，等光把它焐干。",
+    tags: ["疲惫", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e211",
+    guestName: "林",
+    text: "推门时带进来一点凉露，也带进来一句未说完的话。",
+    tags: ["勇气", "孤独"],
+    intensity: 4,
+  },
+  {
+    id: "e212",
+    guestName: "听雨",
+    text: "第二百一十二次：请给我一块能擦干故事的干布。",
+    tags: ["期待", "释然"],
+    intensity: 3,
+  },
 ];
 
 

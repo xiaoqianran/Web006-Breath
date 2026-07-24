@@ -152,6 +152,11 @@ import {
   formatLaceAside,
   formatLaceEncourage,
   formatLacePair,
+  formatMorningDewLine,
+  formatWetSillLine,
+  formatDewAside,
+  formatDewEncourage,
+  formatDewPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1118,6 +1123,8 @@ export class YixiApp {
         <div class="blotter-stack-art" role="img" aria-label="吸墨纸" data-testid="blotter-stack-art"></div>
         <div class="lace-curtain-art" role="img" aria-label="窗纱" data-testid="lace-curtain-art"></div>
         <div class="lace-light-art" role="img" aria-label="蕾丝光" data-testid="lace-light-art"></div>
+        <div class="dew-doorbell-art" role="img" aria-label="晨露门铃" data-testid="dew-doorbell-art"></div>
+        <div class="wet-sill-art" role="img" aria-label="湿窗台" data-testid="wet-sill-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1162,6 +1169,11 @@ export class YixiApp {
         <p class="muted" data-testid="lace-aside">${formatLaceAside(qLen)}</p>
         <p class="muted" data-testid="lace-encourage">${formatLaceEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="lace-pair">${formatLacePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="morning-dew-line">${formatMorningDewLine(s.day)}</p>
+        <p class="muted" data-testid="wet-sill-line">${formatWetSillLine(s.warmth)}</p>
+        <p class="muted" data-testid="dew-aside">${formatDewAside(qLen)}</p>
+        <p class="muted" data-testid="dew-encourage">${formatDewEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="dew-pair">${formatDewPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
