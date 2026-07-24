@@ -3,16 +3,16 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 403,
+  "current_round": 404,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0404-continue",
-  "last_completed_task_id": "T0403-softbarrette",
-  "last_commit": "063b9deb7cfca6f4d72877f94d404bef3fe5c718",
+  "current_task_id": "STOPPED-day500",
+  "last_completed_task_id": "T0404-softscrunchie",
+  "last_commit": "042cd61850f1d345c31abae7c1c4dd3010d1dba2",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 409 passed (282 files)",
+  "last_test_summary": "vitest: 410 passed (283 files)",
   "core_loop_status": "playable_demo_ready",
-  "overall_status": "active",
+  "overall_status": "paused_day500",
   "blocked_items": [],
   "known_failures": [],
   "important_decisions": [
@@ -141,9 +141,9 @@
     "D-123 T0401 测试文件满 280"
   ],
   "next_candidate_tasks": [
-    "T0404-softscrunchie-to-day500-then-STOP",
-    "日剧本满500后停止"
+    "已停：日剧本满500",
+    "待用户指令再继续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 063b9deb7cfca6f4d72877f94d404bef3fe5c718 T0403 发夹弹簧扣 · 轮次403\n轮次: 403 / 1000 · v0.2.6 · M2\n本段: T0399–T0403 · 内容976/498 · 测试409 · ART~510\n下一: T0404 softscrunchie（日剧本到500即停）\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T07:23:34Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 042cd61850f1d345c31abae7c1c4dd3010d1dba2 T0404 发圈弹力绳 · 轮次404\n轮次: 404 / 1000 · v0.2.6 · M2\n本段: T0400–T0404 · 内容980/500 · 测试410 · ART~512 · 日剧本满500\n状态: 按用户要求【日剧本到500即停】已暂停\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T07:25:38Z"
 }
