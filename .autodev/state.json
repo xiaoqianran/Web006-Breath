@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0249-continue",
   "last_completed_task_id": "T0248-receipt",
-  "last_commit": "PENDING",
+  "last_commit": "51f2b469620fe8388704f8639cb7f77cd254bb28",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 254 passed (127 files)",
   "core_loop_status": "playable_demo_ready",
@@ -49,6 +49,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0248 收据条/小圆戳 receipt-label + ART-199/200 + 内容356/188\n轮次: 248 / 1000 · v0.2.6 · M2\n测试: 254 passed；双 smoke warmth=19\n下一: T0249\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 51f2b469620fe8388704f8639cb7f77cd254bb28 T0248 收据条/小圆戳 · ART200\n轮次: 248 / 1000 · v0.2.6 · M2\n本段: T0245–T0248 印泥…收据 · 内容356/188 · 测试254\n下一: T0249\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:47:40Z"
 }
