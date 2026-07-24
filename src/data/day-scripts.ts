@@ -2414,6 +2414,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 301,
+    title: "台历块",
+    opener: "第三百零一日。台历块立稳，今日页还透着一点纸的白。",
+    sampleIndexes: [580, 581, 582, 576],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 302,
+    title: "日页丝带",
+    opener: "第三百零二日。丝从页间抽出，像店把新的一天也递给柜台。",
+    sampleIndexes: [581, 582, 583, 578],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

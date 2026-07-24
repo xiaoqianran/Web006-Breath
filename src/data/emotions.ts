@@ -4064,6 +4064,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e581",
+    guestName: "匿名",
+    text: "想翻开台历的一页，让今天也被温柔地记在桌上。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e582",
+    guestName: "禾",
+    text: "丝从页间抽出时，像店把新的一天也递给柜台。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e583",
+    guestName: "阿初",
+    text: "台历今日页还透着一点纸的白，像刚被翻开。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e584",
+    guestName: "陆安",
+    text: "第五百八十四次：请给我一页能轻轻翻过的日。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
