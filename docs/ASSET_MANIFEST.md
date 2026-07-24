@@ -204,3 +204,5 @@
 | ART-134 | `public/assets/ui/soft_cloth.jpg` | 软擦布 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-135 | `public/assets/ui/ribbon_spools_soft.jpg` | 丝带卷（柔） | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-136 | `public/assets/ui/snip_thread_box.jpg` | 剪线头匣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-137 | `public/assets/ui/door_mat.jpg` | 入户软垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-138 | `public/assets/decor/shoe_box.jpg` | 鞋边盒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

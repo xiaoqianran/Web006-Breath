@@ -1600,6 +1600,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["想念", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e229",
+    guestName: "匿名",
+    text: "想先把鞋上的泥蹭干净，再把心里的脏也放下。",
+    tags: ["疲惫", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e230",
+    guestName: "小满",
+    text: "门垫一软，肩就松了半寸。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e231",
+    guestName: "林",
+    text: "鞋边盒里那双旧鞋，像有人把路暂时寄存在这里。",
+    tags: ["想念", "孤独"],
+    intensity: 4,
+  },
+  {
+    id: "e232",
+    guestName: "听雨",
+    text: "第二百三十二次：请给我一块能蹭掉外面急的软垫。",
+    tags: ["期待", "安心"],
+    intensity: 3,
+  },
 ];
 
 

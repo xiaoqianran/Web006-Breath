@@ -177,6 +177,11 @@ import {
   formatRibbonAside,
   formatRibbonEncourage,
   formatRibbonPair,
+  formatDoorMatLine,
+  formatShoeBoxLine,
+  formatMatAside,
+  formatMatEncourage,
+  formatMatPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1153,6 +1158,8 @@ export class YixiApp {
         <div class="soft-cloth-art" role="img" aria-label="软擦布" data-testid="soft-cloth-art"></div>
         <div class="ribbon-spools-soft-art" role="img" aria-label="丝带卷" data-testid="ribbon-spools-soft-art"></div>
         <div class="snip-thread-box-art" role="img" aria-label="剪线头匣" data-testid="snip-thread-box-art"></div>
+        <div class="door-mat-art" role="img" aria-label="入户软垫" data-testid="door-mat-art"></div>
+        <div class="shoe-box-art" role="img" aria-label="鞋边盒" data-testid="shoe-box-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1220,6 +1227,11 @@ export class YixiApp {
         <p class="muted" data-testid="snip-thread-line">${formatSnipThreadLine(s.history.length)}</p>
         <p class="muted" data-testid="ribbon-encourage">${formatRibbonEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="ribbon-pair">${formatRibbonPair(s.day, s.history.length)}</p>
+        <p class="muted" data-testid="door-mat-line">${formatDoorMatLine(s.day)}</p>
+        <p class="muted" data-testid="shoe-box-line">${formatShoeBoxLine(qLen)}</p>
+        <p class="muted" data-testid="mat-aside">${formatMatAside(s.warmth)}</p>
+        <p class="muted" data-testid="mat-encourage">${formatMatEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="mat-pair">${formatMatPair(s.day, qLen)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 216,
+  "current_round": 217,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0217-continue",
-  "last_completed_task_id": "T0216-ribbon",
-  "last_commit": "79954d9e59a0e213e820a6c7658643ac1f9389f8",
+  "current_task_id": "T0218-continue",
+  "last_completed_task_id": "T0217-mat",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 222 passed (95 files)",
+  "last_test_summary": "vitest: 223 passed (96 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -28,11 +28,11 @@
     "D-010 T0214 情绪 220 / 剧本 120"
   ],
   "next_candidate_tasks": [
-    "T0217-continue",
+    "T0218-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 79954d9e59a0e213e820a6c7658643ac1f9389f8 T0216 丝带/剪线头\n轮次: 216 / 1000 · v0.2.6 · M2\n本段: T0211–T0216 窗纱…丝带 · 内容228/124 · 测试222\n下一: T0217\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:48:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0217 入户软垫/鞋边盒 mat-label + ART-137/138 + 内容232/126\n轮次: 217 / 1000 · v0.2.6 · M2\n测试: 223 passed；双 smoke warmth=19\n下一: T0218\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:49:30Z"
 }
