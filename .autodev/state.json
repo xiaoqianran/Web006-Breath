@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0208-continue",
   "last_completed_task_id": "T0207-letter",
-  "last_commit": "PENDING",
+  "last_commit": "6df445ceba2bc27367620b29ffee1ec627d69ad3",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 213 passed (86 files)",
   "core_loop_status": "playable_demo_ready",
@@ -31,6 +31,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0207 回信匣/邮票 letter-label + ART-117/118 + 内容192/106\n轮次: 207 / 1000 · v0.2.6 · M2\n测试: 213 passed；双 smoke warmth=19\n下一: T0208\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 6df445ceba2bc27367620b29ffee1ec627d69ad3 T0207 回信匣/邮票\n轮次: 207 / 1000 · v0.2.6 · M2\n本段: T0205–T0207 香囊/衣帽钩/回信匣 · 内容192/106\n测试: 213 passed；双 smoke warmth=19\n下一: T0208\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:32:20Z"
 }
