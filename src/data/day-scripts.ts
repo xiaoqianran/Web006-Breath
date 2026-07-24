@@ -1934,7 +1934,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 241,
+    title: "小砂锅盖",
+    opener: "第二百四十一日。小砂锅盖盖上，盖沿还带着一点雾的温。",
+    sampleIndexes: [460, 461, 462, 456],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 242,
+    title: "木铲",
+    opener: "第二百四十二日。木铲沿边走一圈，像店把耐心也搅匀了。",
+    sampleIndexes: [461, 462, 463, 458],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

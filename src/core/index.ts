@@ -143,3 +143,4 @@ export * from "./citrus-label";
 export * from "./napkin-label";
 export * from "./placemat-label";
 export * from "./soycruet-label";
+export * from "./hotpotlid-label";

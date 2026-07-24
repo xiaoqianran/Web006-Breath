@@ -320,3 +320,5 @@
 | ART-250 | `public/assets/ui/chopstick_rest.jpg` | 筷枕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-251 | `public/assets/ui/soy_cruet.jpg` | 小酱油盅 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-252 | `public/assets/ui/vinegar_dish.jpg` | 醋碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-253 | `public/assets/ui/clay_lid.jpg` | 小砂锅盖 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-254 | `public/assets/ui/wood_paddle.jpg` | 木铲 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

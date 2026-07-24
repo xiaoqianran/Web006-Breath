@@ -3224,7 +3224,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e461",
+    guestName: "匿名",
+    text: "想把砂锅盖轻轻盖上，让时间也温柔地炖一会儿。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e462",
+    guestName: "禾",
+    text: "木铲沿边走一圈时，像店把耐心也搅匀了。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e463",
+    guestName: "阿初",
+    text: "砂锅盖沿还带着一点雾的温，像刚被盖过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e464",
+    guestName: "陆安",
+    text: "第四百六十四次：请给我一把能等慢炖的铲。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 
