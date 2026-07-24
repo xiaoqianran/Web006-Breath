@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 305,
+  "current_round": 306,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0306-continue",
-  "last_completed_task_id": "T0305-deskcal",
-  "last_commit": "67b9e0d2c09ac6ada165025e567d0568186c39e0",
+  "current_task_id": "T0307-continue",
+  "last_completed_task_id": "T0306-guestcup",
+  "last_commit": "d7f1db538bd6bd787561772c7a69530da557e546",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 311 passed (184 files)",
+  "last_test_summary": "vitest: 312 passed (185 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -74,11 +74,11 @@
     "D-056 T0304 日剧本满 300"
   ],
   "next_candidate_tasks": [
-    "T0306-continue",
+    "T0307-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 67b9e0d2c09ac6ada165025e567d0568186c39e0 T0305 台历块/日页丝带 · 轮次305\n轮次: 305 / 1000 · v0.2.6 · M2\n本段: T0301–T0305 · 内容584/302 · 测试311 · ART~314 · D-055/056\n下一: T0306\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:43:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d7f1db538bd6bd787561772c7a69530da557e546 T0306 待客瓷杯/亚麻杯垫 · 轮次306\n轮次: 306 / 1000 · v0.2.6 · M2\n本段: T0302–T0306 · 内容588/304 · 测试312 · ART~316 · D-055/056\n下一: T0307\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:45:30Z"
 }
