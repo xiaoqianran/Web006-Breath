@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 286,
+  "current_round": 287,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0287-continue",
-  "last_completed_task_id": "T0286-oventhermo",
-  "last_commit": "fb1b904b55a7745aee75206f3f20717e8a347349",
+  "current_task_id": "T0288-continue",
+  "last_completed_task_id": "T0287-spicejar",
+  "last_commit": "c98adfa6ff072a8ed03d6a669d93fd34b3f92e18",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 292 passed (165 files)",
+  "last_test_summary": "vitest: 293 passed (166 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -65,11 +65,11 @@
     "D-047 T0284 日剧本满 260"
   ],
   "next_candidate_tasks": [
-    "T0287-continue",
+    "T0288-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: fb1b904b55a7745aee75206f3f20717e8a347349 T0286 烤箱温度计/计时旋钮 · ART275/276\n轮次: 286 / 1000 · v0.2.6 · M2\n本段: T0282–T0286 饼干…火候 · 内容508/264 · 测试292\n下一: T0287\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:02:19Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c98adfa6ff072a8ed03d6a669d93fd34b3f92e18 T0287 香料小罐/木勺 · ART277/278\n轮次: 287 / 1000 · v0.2.6 · M2\n本段: T0283–T0287 点缀…店香 · 内容512/266 · 测试293\n下一: T0288\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:04:30Z"
 }
