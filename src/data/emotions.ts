@@ -5744,6 +5744,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e821",
+    guestName: "匿名",
+    text: "想用抽丝板抽一孔，让粗丝也能被温柔地抽成细。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e822",
+    guestName: "禾",
+    text: "抽丝钳咬住丝端时，像店把粗丝也抽成细。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e823",
+    guestName: "阿初",
+    text: "抽丝板孔沿还带着一点金属的凉，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e824",
+    guestName: "陆安",
+    text: "第八百二十四次：请给我一孔能抽成细的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

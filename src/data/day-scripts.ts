@@ -3374,6 +3374,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 421,
+    title: "抽丝板",
+    opener: "第四百二十一日。抽丝板静放，孔沿还带着一点金属的凉。",
+    sampleIndexes: [820, 821, 822, 819],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 422,
+    title: "抽丝钳",
+    opener: "第四百二十二日。钳咬住丝端，像店把粗丝也抽成细。",
+    sampleIndexes: [821, 822, 823, 818],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
