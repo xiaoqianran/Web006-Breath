@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0228-continue",
   "last_completed_task_id": "T0227-shears",
-  "last_commit": "PENDING",
+  "last_commit": "35ccb3f084cefe6605691474a3da3643fabf8193",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 233 passed (106 files)",
   "core_loop_status": "playable_demo_ready",
@@ -38,6 +38,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0227 软剪/剪线碟 shears-label + ART-157/158 + 内容272/146\n轮次: 227 / 1000 · v0.2.6 · M2\n测试: 233 passed；双 smoke warmth=19\n下一: T0228\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 35ccb3f084cefe6605691474a3da3643fabf8193 T0227 软剪/剪线碟\n轮次: 227 / 1000 · v0.2.6 · M2\n本段: T0222–T0227 画框…软剪 · 内容272/146 · 测试233\n下一: T0228\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:07:10Z"
 }
