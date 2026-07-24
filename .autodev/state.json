@@ -3,16 +3,16 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 404,
+  "current_round": 405,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "STOPPED-day500",
-  "last_completed_task_id": "T0404-softscrunchie",
-  "last_commit": "042cd61850f1d345c31abae7c1c4dd3010d1dba2",
+  "current_task_id": "T0406-softbanana",
+  "last_completed_task_id": "T0405-softclaw",
+  "last_commit": "37f1736832e3251a4fe691794d8bf25095513159",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 410 passed (283 files)",
+  "last_test_summary": "vitest: 411 passed (284 files)",
   "core_loop_status": "playable_demo_ready",
-  "overall_status": "paused_day500",
+  "overall_status": "active",
   "blocked_items": [],
   "known_failures": [],
   "important_decisions": [
@@ -141,9 +141,11 @@
     "D-123 T0401 测试文件满 280"
   ],
   "next_candidate_tasks": [
-    "已停：日剧本满500",
-    "待用户指令再继续"
+    "T0406-softbanana",
+    "M2",
+    "内容/生图",
+    "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 042cd61850f1d345c31abae7c1c4dd3010d1dba2 T0404 发圈弹力绳 · 轮次404\n轮次: 404 / 1000 · v0.2.6 · M2\n本段: T0400–T0404 · 内容980/500 · 测试410 · ART~512 · 日剧本满500\n状态: 按用户要求【日剧本到500即停】已暂停\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T07:25:38Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 37f1736832e3251a4fe691794d8bf25095513159 T0405 抓夹铰链 · 轮次405\n轮次: 405 / 1000 · v0.2.6 · M2\n本段: T0401–T0405 · 内容984/502 · 测试411 · ART~514\n下一: T0406 softbanana（用户要求继续）\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T08:47:02Z"
 }
