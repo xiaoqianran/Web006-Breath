@@ -2804,7 +2804,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e401",
+    guestName: "匿名",
+    text: "想把字写慢一点，让多余的墨也有归处。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e402",
+    guestName: "禾",
+    text: "吸墨纸垫在行间，像店把多余的急也吸走。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e403",
+    guestName: "阿初",
+    text: "小墨水瓶开盖时，瓶口还留着一点深色的静。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e404",
+    guestName: "听雨",
+    text: "第四百零四次：请给我一张能吸走急的纸。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

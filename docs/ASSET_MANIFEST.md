@@ -290,3 +290,5 @@
 | ART-220 | `public/assets/ui/fine_pen.jpg` | 细钢笔 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-221 | `public/assets/ui/paper_clips.jpg` | 回形针 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-222 | `public/assets/ui/mini_tray.jpg` | 小托盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-223 | `public/assets/ui/ink_well.jpg` | 小墨水瓶 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-224 | `public/assets/ui/blotting_paper.jpg` | 吸墨纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

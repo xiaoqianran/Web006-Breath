@@ -127,3 +127,4 @@ export * from "./waitseat-label";
 export * from "./daymark-label";
 export * from "./notepen-label";
 export * from "./cliptray-label";
+export * from "./inkwell-label";

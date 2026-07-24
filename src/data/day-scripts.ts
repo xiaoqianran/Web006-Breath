@@ -1694,7 +1694,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 211,
+    title: "小墨水瓶",
+    opener: "第二百一十一日。小墨水瓶开盖，瓶口还留着一点深色的静。",
+    sampleIndexes: [400, 401, 402, 396],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 212,
+    title: "吸墨纸",
+    opener: "第二百一十二日。吸墨纸垫在行间，像把多余的急也吸走。",
+    sampleIndexes: [401, 402, 403, 398],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
