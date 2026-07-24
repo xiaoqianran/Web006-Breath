@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 381,
+  "current_round": 382,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0382-continue",
-  "last_completed_task_id": "T0381-softcrimp",
-  "last_commit": "cdf18311842f03db0ce2b3aa377c02116fe05aa6",
+  "current_task_id": "T0383-continue",
+  "last_completed_task_id": "T0382-softcoil",
+  "last_commit": "f4b7cfb3d539ba2dd61442be2b29542f893dba09",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 387 passed (260 files)",
+  "last_test_summary": "vitest: 388 passed (261 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -122,11 +122,11 @@
     "D-104 T0381 测试文件满 260"
   ],
   "next_candidate_tasks": [
-    "T0382-continue",
+    "T0383-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: cdf18311842f03db0ce2b3aa377c02116fe05aa6 T0381 压扣管压扣钳 · 轮次381\n轮次: 381 / 1000 · v0.2.6 · M2\n本段: T0377–T0381 · 内容888/454 · 测试387 · ART~466 · D-104\n下一: T0382\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:29:20Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: f4b7cfb3d539ba2dd61442be2b29542f893dba09 T0382 线圈绕钳 · 轮次382\n轮次: 382 / 1000 · v0.2.6 · M2\n本段: T0378–T0382 · 内容892/456 · 测试388 · ART~468\n下一: T0383\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:31:29Z"
 }
