@@ -6668,6 +6668,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e953",
+    guestName: "小禾",
+    text: "耳钉很轻：只想点一点，不硬卡。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e954",
+    guestName: "阿南",
+    text: "蝶扣微合，像轻轻说「戴一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e955",
+    guestName: "阿初",
+    text: "钉面还带着一点细的光，像刚被擦过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e956",
+    guestName: "陆安",
+    text: "第九百五十六次：请给我一下能把耳垂也温柔点亮的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

@@ -266,3 +266,4 @@ export * from "./softsignet-label";
 export * from "./softbangle-label";
 export * from "./softpendant-label";
 export * from "./softcufflink-label";
+export * from "./softstud-label";
