@@ -3134,6 +3134,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 391,
+    title: "珠宝钳",
+    opener: "第三百九十一日。珠宝钳静放，钳口还带着一点金属的凉。",
+    sampleIndexes: [760, 761, 762, 759],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 392,
+    title: "斜口剪",
+    opener: "第三百九十二日。剪口贴着线，像店把多余也温柔收掉。",
+    sampleIndexes: [761, 762, 763, 758],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

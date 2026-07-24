@@ -470,3 +470,5 @@
 | ART-400 | `public/assets/ui/crimp_bead.jpg` | 压接珠 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-401 | `public/assets/ui/lobster_clasp.jpg` | 龙虾扣 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-402 | `public/assets/ui/jump_ring.jpg` | 开口圈 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-403 | `public/assets/ui/jewelry_pliers.jpg` | 珠宝钳 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-404 | `public/assets/ui/flush_cutters.jpg` | 斜口剪 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

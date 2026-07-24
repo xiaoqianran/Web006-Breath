@@ -5324,6 +5324,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e761",
+    guestName: "匿名",
+    text: "想用珠宝钳夹一下，让难握的细节也能被温柔地稳住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e762",
+    guestName: "禾",
+    text: "斜口剪贴着线时，像店把多余也温柔收掉。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e763",
+    guestName: "阿初",
+    text: "珠宝钳钳口还带着一点金属的凉，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e764",
+    guestName: "陆安",
+    text: "第七百六十四次：请给我一下能稳住细节的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
