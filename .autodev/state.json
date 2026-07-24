@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 288,
+  "current_round": 289,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0289-continue",
-  "last_completed_task_id": "T0288-mortar",
-  "last_commit": "17b44924377d285fb2feeee43d3a864a6580899b",
+  "current_task_id": "T0290-continue",
+  "last_completed_task_id": "T0289-herbhang",
+  "last_commit": "1e806a58ccbe84422b58d6cf954552f0a59f5f05",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 294 passed (167 files)",
+  "last_test_summary": "vitest: 295 passed (168 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -63,14 +63,15 @@
     "D-045 T0283 美术 ART 满 270",
     "D-046 T0284 情绪样本满 500",
     "D-047 T0284 日剧本满 260",
-    "D-048 T0288 美术 ART 满 280"
+    "D-048 T0288 美术 ART 满 280",
+    "D-049 T0289 日剧本满 270"
   ],
   "next_candidate_tasks": [
-    "T0289-continue",
+    "T0290-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 17b44924377d285fb2feeee43d3a864a6580899b T0288 石臼/木杵 · ART280\n轮次: 288 / 1000 · v0.2.6 · M2\n本段: T0284–T0288 铁盒…石臼 · 内容516/268 · 测试294 · D-048\n下一: T0289\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:07:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 1e806a58ccbe84422b58d6cf954552f0a59f5f05 T0289 干草药束/挂绳 · 剧本270\n轮次: 289 / 1000 · v0.2.6 · M2\n本段: T0285–T0289 菜谱…风干 · 内容520/270 · 测试295 · D-049\n下一: T0290\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:08:54Z"
 }
