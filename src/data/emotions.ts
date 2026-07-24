@@ -6472,6 +6472,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e925",
+    guestName: "小禾",
+    text: "盒式吊坠很轻：只想开一点，不硬翻。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e926",
+    guestName: "阿南",
+    text: "合页微响，像轻轻说「看一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e927",
+    guestName: "阿初",
+    text: "盖沿还带着一点细的光，像刚被开过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e928",
+    guestName: "陆安",
+    text: "第九百二十八次：请给我一下能把藏着的也温柔看见的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

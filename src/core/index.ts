@@ -259,3 +259,4 @@ export * from "./softchain-label";
 export * from "./softtoggle-label";
 export * from "./softsplit-label";
 export * from "./softcharm-label";
+export * from "./softlocket-label";

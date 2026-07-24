@@ -1047,6 +1047,11 @@ import {
   formatSoftcharmAside,
   formatSoftcharmEncourage,
   formatSoftcharmPair,
+  formatLocketShellLine,
+  formatLocketHingeLine,
+  formatSoftlocketAside,
+  formatSoftlocketEncourage,
+  formatSoftlocketPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2371,6 +2376,8 @@ export class YixiApp {
         <div class="split-opener-art" role="img" aria-label="撬环器" data-testid="split-opener-art"></div>
         <div class="charm-set-art" role="img" aria-label="吊饰" data-testid="charm-set-art"></div>
         <div class="charm-tray-art" role="img" aria-label="饰盘" data-testid="charm-tray-art"></div>
+        <div class="locket-shell-art" role="img" aria-label="盒式吊坠" data-testid="locket-shell-art"></div>
+        <div class="locket-hinge-art" role="img" aria-label="合页" data-testid="locket-hinge-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -3307,6 +3314,11 @@ export class YixiApp {
         <p class="muted" data-testid="softcharm-aside">${formatSoftcharmAside(s.history.length)}</p>
         <p class="muted" data-testid="softcharm-encourage">${formatSoftcharmEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softcharm-pair">${formatSoftcharmPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="locket-shell-line">${formatLocketShellLine(s.day)}</p>
+        <p class="muted" data-testid="locket-hinge-line">${formatLocketHingeLine(s.warmth)}</p>
+        <p class="muted" data-testid="softlocket-aside">${formatSoftlocketAside(s.history.length)}</p>
+        <p class="muted" data-testid="softlocket-encourage">${formatSoftlocketEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softlocket-pair">${formatSoftlocketPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

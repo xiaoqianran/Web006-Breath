@@ -552,3 +552,5 @@
 | ART-482 | `public/assets/ui/split_opener.jpg` | 撬环器 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-483 | `public/assets/ui/charm_set.jpg` | 吊饰 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-484 | `public/assets/ui/charm_tray.jpg` | 饰盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-485 | `public/assets/ui/locket_shell.jpg` | 盒式吊坠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-486 | `public/assets/ui/locket_hinge.jpg` | 合页 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
