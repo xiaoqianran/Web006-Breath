@@ -3000,7 +3000,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e429",
+    guestName: "匿名",
+    text: "想给柜台旁的小陶盆浇一口水，让店也有呼吸。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e430",
+    guestName: "禾",
+    text: "浇水壶嘴微湿，像轻轻说「慢一点浇」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e431",
+    guestName: "阿初",
+    text: "小陶盆沿还带着土的温，像刚被润过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e432",
+    guestName: "陆安",
+    text: "第四百三十二次：请给我一把能养活绿的小壶。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

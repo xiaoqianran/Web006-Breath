@@ -1806,7 +1806,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 225,
+    title: "小陶盆",
+    opener: "第二百二十五日。小陶盆端正，盆沿还带着一点土的温。",
+    sampleIndexes: [428, 429, 430, 424],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 226,
+    title: "浇水壶",
+    opener: "第二百二十六日。浇水壶嘴微湿，像轻轻说「慢一点浇」。",
+    sampleIndexes: [429, 430, 431, 426],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

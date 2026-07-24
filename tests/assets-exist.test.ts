@@ -248,7 +248,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/stamp_box.jpg",
       "public/assets/ui/window_cushion.jpg",
       "public/assets/ui/sheer_curtain.jpg",
+      "public/assets/ui/clay_pot.jpg",
+      "public/assets/ui/watering_can.jpg",
     ];
+
 
 
 

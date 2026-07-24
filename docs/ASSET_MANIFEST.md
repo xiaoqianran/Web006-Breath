@@ -304,3 +304,5 @@
 | ART-234 | `public/assets/ui/stamp_box.jpg` | 邮票盒 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-235 | `public/assets/ui/window_cushion.jpg` | 窗边软垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-236 | `public/assets/ui/sheer_curtain.jpg` | 薄窗帘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-237 | `public/assets/ui/clay_pot.jpg` | 小陶盆 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-238 | `public/assets/ui/watering_can.jpg` | 浇水壶 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

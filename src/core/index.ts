@@ -135,3 +135,4 @@ export * from "./jarlabel-label";
 export * from "./postcard-label";
 export * from "./mailcard-label";
 export * from "./windowseat-label";
+export * from "./plantpot-label";

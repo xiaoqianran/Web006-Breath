@@ -427,6 +427,11 @@ import {
   formatWindowseatAside,
   formatWindowseatEncourage,
   formatWindowseatPair,
+  formatClayPotLine,
+  formatWateringCanLine,
+  formatPlantpotAside,
+  formatPlantpotEncourage,
+  formatPlantpotPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1503,6 +1508,8 @@ export class YixiApp {
         <div class="stamp-box-art" role="img" aria-label="邮票盒" data-testid="stamp-box-art"></div>
         <div class="window-cushion-art" role="img" aria-label="窗边软垫" data-testid="window-cushion-art"></div>
         <div class="sheer-curtain-art" role="img" aria-label="薄窗帘" data-testid="sheer-curtain-art"></div>
+        <div class="clay-pot-art" role="img" aria-label="小陶盆" data-testid="clay-pot-art"></div>
+        <div class="watering-can-art" role="img" aria-label="浇水壶" data-testid="watering-can-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1819,6 +1826,11 @@ export class YixiApp {
         <p class="muted" data-testid="windowseat-aside">${formatWindowseatAside(s.history.length)}</p>
         <p class="muted" data-testid="windowseat-encourage">${formatWindowseatEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="windowseat-pair">${formatWindowseatPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="clay-pot-line">${formatClayPotLine(s.day)}</p>
+        <p class="muted" data-testid="watering-can-line">${formatWateringCanLine(s.warmth)}</p>
+        <p class="muted" data-testid="plantpot-aside">${formatPlantpotAside(s.history.length)}</p>
+        <p class="muted" data-testid="plantpot-encourage">${formatPlantpotEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="plantpot-pair">${formatPlantpotPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
