@@ -6696,6 +6696,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e957",
+    guestName: "小禾",
+    text: "耳圈很圆：只想环一点，不硬夹。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e958",
+    guestName: "阿南",
+    text: "耳钩微弯，像轻轻说「戴一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e959",
+    guestName: "阿初",
+    text: "圈沿还带着一点细的光，像刚被戴过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e960",
+    guestName: "陆安",
+    text: "第九百六十次：请给我一下能把耳畔也温柔环住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

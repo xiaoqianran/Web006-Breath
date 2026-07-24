@@ -3918,6 +3918,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 489,
+    title: "耳圈",
+    opener: "第四百八十九日。耳圈静放，圈沿还带着一点细的光。",
+    sampleIndexes: [956, 957, 958, 955],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 490,
+    title: "耳钩",
+    opener: "第四百九十日。钩带着圈，像店把散的也环成圆。",
+    sampleIndexes: [957, 958, 959, 954],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
