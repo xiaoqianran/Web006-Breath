@@ -146,3 +146,4 @@ export * from "./soycruet-label";
 export * from "./hotpotlid-label";
 export * from "./ovenmitt-label";
 export * from "./timerbell-label";
+export * from "./flourbin-label";

@@ -3308,7 +3308,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e473",
+    guestName: "匿名",
+    text: "想用量表一勺面粉，大概就好，不必完美。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e474",
+    guestName: "禾",
+    text: "量杯沿有刻度，像店把分寸也画成可见的温柔。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e475",
+    guestName: "阿初",
+    text: "面粉罐揭盖时，罐口还飘着一点白的香。",
+    tags: ["想念", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e476",
+    guestName: "听雨",
+    text: "第四百七十六次：请给我一杯能动手的白粉。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

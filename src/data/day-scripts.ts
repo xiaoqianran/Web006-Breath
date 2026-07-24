@@ -1982,7 +1982,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 247,
+    title: "面粉罐",
+    opener: "第二百四十七日。面粉罐揭盖，罐口还飘着一点白的香。",
+    sampleIndexes: [472, 473, 474, 468],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 248,
+    title: "量杯",
+    opener: "第二百四十八日。量杯沿有刻度，像店把分寸也画成可见的温柔。",
+    sampleIndexes: [473, 474, 475, 470],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

@@ -270,7 +270,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/bake_pad.jpg",
       "public/assets/ui/kitchen_hourglass.jpg",
       "public/assets/ui/soft_timer_bell.jpg",
+      "public/assets/ui/flour_bin.jpg",
+      "public/assets/ui/measure_cup.jpg",
     ];
+
 
 
 
