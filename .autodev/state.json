@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 407,
+  "current_round": 408,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0408-continue",
-  "last_completed_task_id": "T0407-softslide",
-  "last_commit": "e1adeb40e042a4c341af39e64bc0fbf8eeb522b8",
+  "current_task_id": "T0409-continue",
+  "last_completed_task_id": "T0408-softrosette",
+  "last_commit": "8a70b2bf5d1b28d1f4ca592ce32c60ad305274e8",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 413 passed (286 files)",
+  "last_test_summary": "vitest: 414 passed (287 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -141,11 +141,11 @@
     "D-123 T0401 测试文件满 280"
   ],
   "next_candidate_tasks": [
-    "T0408-continue",
+    "T0409-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: e1adeb40e042a4c341af39e64bc0fbf8eeb522b8 T0407 发簪滑座 · 轮次407\n轮次: 407 / 1000 · v0.2.6 · M2\n本段: T0403–T0407 · 内容992/506 · 测试413 · ART~518\n下一: T0408 持续 M2\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T08:50:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8a70b2bf5d1b28d1f4ca592ce32c60ad305274e8 T0408 玫瑰结丝心 · 轮次408\n轮次: 408 / 1000 · v0.2.6 · M2\n本段: T0404–T0408 · 内容996/508 · 测试414 · ART~520\n下一: T0409 持续（用户要求继续开发）\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T08:53:22Z"
 }
