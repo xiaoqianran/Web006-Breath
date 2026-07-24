@@ -588,3 +588,5 @@
 | ART-518 | `public/assets/ui/slide_rest.jpg` | 滑座 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-519 | `public/assets/ui/soft_rosette.jpg` | 玫瑰结 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-520 | `public/assets/ui/rosette_core.jpg` | 丝心 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-521 | `public/assets/ui/soft_veil.jpg` | 薄纱 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-522 | `public/assets/ui/veil_pin.jpg` | 别针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

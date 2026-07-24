@@ -6976,6 +6976,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e997",
+    guestName: "小禾",
+    text: "薄纱很轻：只想映一点，不硬遮。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e998",
+    guestName: "阿南",
+    text: "别针微定，像轻轻说「披一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e999",
+    guestName: "阿初",
+    text: "纱沿还带着一点细的光，像刚被映过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e1000",
+    guestName: "陆安",
+    text: "第一千次：请给我一下能把眉眼也温柔映软的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
