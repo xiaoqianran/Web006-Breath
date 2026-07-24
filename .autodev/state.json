@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 367,
+  "current_round": 368,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0368-continue",
-  "last_completed_task_id": "T0367-softanneal",
-  "last_commit": "d572019bce1d49f2ec0d6c4a429c0bbc7761eef7",
+  "current_task_id": "T0369-continue",
+  "last_completed_task_id": "T0368-softquench",
+  "last_commit": "af60133092e86a8baff6bb2d7c5b52f8e86698d2",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 373 passed (246 files)",
+  "last_test_summary": "vitest: 374 passed (247 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -108,14 +108,15 @@
     "D-090 T0360 开发轮次满 360",
     "D-091 T0363 美术 ART 满 430",
     "D-092 T0364 日剧本满 420",
-    "D-093 T0364 测试满 370"
+    "D-093 T0364 测试满 370",
+    "D-094 T0368 美术 ART 满 440"
   ],
   "next_candidate_tasks": [
-    "T0368-continue",
+    "T0369-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d572019bce1d49f2ec0d6c4a429c0bbc7761eef7 T0367 退火盘退火钳 · 轮次367\n轮次: 367 / 1000 · v0.2.6 · M2\n本段: T0363–T0367 · 内容832/426 · 测试373 · ART~438 · D-093\n下一: T0368\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:55:56Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: af60133092e86a8baff6bb2d7c5b52f8e86698d2 T0368 淬火碗钢砧 · 轮次368\n轮次: 368 / 1000 · v0.2.6 · M2\n本段: T0364–T0368 · 内容836/428 · 测试374 · ART~440 · D-094\n下一: T0369\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:58:03Z"
 }
