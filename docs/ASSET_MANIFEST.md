@@ -524,3 +524,5 @@
 | ART-454 | `public/assets/ui/staking_base.jpg` | 冲台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-455 | `public/assets/ui/rawhide_mallet.jpg` | 生皮锤 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-456 | `public/assets/ui/soft_nylon_hammer.jpg` | 尼龙锤 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-457 | `public/assets/ui/rivet_set.jpg` | 铆钉组 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-458 | `public/assets/ui/rivet_block.jpg` | 铆砧 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

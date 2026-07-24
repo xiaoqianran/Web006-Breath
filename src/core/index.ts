@@ -245,3 +245,4 @@ export * from "./softloupe-label";
 export * from "./softultra-label";
 export * from "./softstaking-label";
 export * from "./softmallet-label";
+export * from "./softrivet-label";

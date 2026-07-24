@@ -6080,6 +6080,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e869",
+    guestName: "小禾",
+    text: "铆钉很稳：只想连一点，不硬砸。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e870",
+    guestName: "阿南",
+    text: "铆砧微稳，像轻轻说「连一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e871",
+    guestName: "阿初",
+    text: "头沿还带着一点细的光，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e872",
+    guestName: "陆安",
+    text: "第八百七十二次：请给我一下能把两头也温柔连住的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

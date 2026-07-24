@@ -3566,6 +3566,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 445,
+    title: "铆钉组",
+    opener: "第四百四十五日。铆钉静排，头沿还带着一点细的光。",
+    sampleIndexes: [868, 869, 870, 867],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 446,
+    title: "铆砧",
+    opener: "第四百四十六日。砧带着钉，像店把散的也连成稳。",
+    sampleIndexes: [869, 870, 871, 866],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
