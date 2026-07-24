@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0209-continue",
   "last_completed_task_id": "T0208-apron",
-  "last_commit": "PENDING",
+  "last_commit": "ae709b504714df4ed06c1942390722bd65211960",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 214 passed (87 files)",
   "core_loop_status": "playable_demo_ready",
@@ -31,6 +31,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0208 围裙/袖套 apron-label + ART-119/120 + 内容196/108\n轮次: 208 / 1000 · v0.2.6 · M2\n测试: 214 passed；双 smoke warmth=19\n下一: T0209\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ae709b504714df4ed06c1942390722bd65211960 T0208 围裙/袖套\n轮次: 208 / 1000 · v0.2.6 · M2\n本段: T0205–T0208 香囊/衣帽钩/回信匣/围裙 · 内容196/108\n测试: 214 passed；双 smoke warmth=19\n下一: T0209\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:33:50Z"
 }
