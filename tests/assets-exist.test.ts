@@ -258,7 +258,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/cream_spoon.jpg",
       "public/assets/ui/lemon_dish.jpg",
       "public/assets/ui/citrus_knife.jpg",
+      "public/assets/ui/napkin_ring.jpg",
+      "public/assets/ui/guest_napkin.jpg",
     ];
+
 
 
 

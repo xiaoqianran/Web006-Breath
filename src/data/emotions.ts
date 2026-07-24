@@ -3140,7 +3140,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e449",
+    guestName: "匿名",
+    text: "想把一方餐巾轻轻铺在膝上，让坐也妥帖一点。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e450",
+    guestName: "禾",
+    text: "餐巾环取下时，环口还带着一点木的温。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e451",
+    guestName: "阿初",
+    text: "客人餐巾展开，像店把桌边也照顾进了怀里。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e452",
+    guestName: "听雨",
+    text: "第四百五十二次：请给我一方能安顿膝上的巾。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

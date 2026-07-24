@@ -140,3 +140,4 @@ export * from "./cuprest-label";
 export * from "./honeydip-label";
 export * from "./milkjug-label";
 export * from "./citrus-label";
+export * from "./napkin-label";

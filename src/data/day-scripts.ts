@@ -1886,7 +1886,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 235,
+    title: "餐巾环",
+    opener: "第二百三十五日。餐巾环取下，环口还带着一点木的温。",
+    sampleIndexes: [448, 449, 450, 444],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 236,
+    title: "客人餐巾",
+    opener: "第二百三十六日。客人餐巾展开，像店把桌边也照顾进了怀里。",
+    sampleIndexes: [449, 450, 451, 446],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
