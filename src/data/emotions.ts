@@ -4288,6 +4288,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e613",
+    guestName: "匿名",
+    text: "想戴一顶软织毛线帽，让头顶的凉也能被温柔地捂住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e614",
+    guestName: "禾",
+    text: "帽架在木托上时，像店把头顶的暖也留给出门的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e615",
+    guestName: "阿初",
+    text: "毛线帽帽檐还带着一点暖的绒，像刚被叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e616",
+    guestName: "陆安",
+    text: "第六百一十六次：请给我一顶能捂住头顶的暖。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

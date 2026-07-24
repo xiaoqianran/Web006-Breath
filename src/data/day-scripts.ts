@@ -2542,6 +2542,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 317,
+    title: "软织毛线帽",
+    opener: "第三百一十七日。软织毛线帽叠好，帽檐还带着一点暖的绒。",
+    sampleIndexes: [612, 613, 614, 608],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 318,
+    title: "木帽托",
+    opener: "第三百一十八日。帽架在木托上，像店把头顶的暖也留给出门的人。",
+    sampleIndexes: [613, 614, 615, 610],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -396,3 +396,5 @@
 | ART-326 | `public/assets/ui/mitten_basket.jpg` | 柳编手套筐 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-327 | `public/assets/ui/thermos_flask.jpg` | 保温瓷壶 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-328 | `public/assets/ui/wool_sleeve.jpg` | 羊毛壶套 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-329 | `public/assets/ui/soft_beanie.jpg` | 软织毛线帽 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-330 | `public/assets/ui/wood_hat_form.jpg` | 木帽托 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
