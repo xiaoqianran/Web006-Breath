@@ -1796,6 +1796,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "想念"],
     intensity: 3,
   },
+  {
+    id: "e257",
+    guestName: "匿名",
+    text: "想戴上顶针再碰那些容易扎人的句子。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e258",
+    guestName: "禾",
+    text: "针垫上的细孔，像有人认真缝过一整季。",
+    tags: ["温柔", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e259",
+    guestName: "阿初",
+    text: "细活也可以不疼——只要指尖被护住。",
+    tags: ["释然", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e260",
+    guestName: "听雨",
+    text: "第二百六十次：请给我一枚能护住指尖的铜顶针。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

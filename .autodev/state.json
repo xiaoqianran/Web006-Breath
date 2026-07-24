@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 223,
+  "current_round": 224,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0224-continue",
-  "last_completed_task_id": "T0223-cork",
-  "last_commit": "c828d0389a8d96addbcbf338b6e388ba0eb6a11d",
+  "current_task_id": "T0225-continue",
+  "last_completed_task_id": "T0224-thimble",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 229 passed (102 files)",
+  "last_test_summary": "vitest: 230 passed (103 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -29,14 +29,15 @@
     "D-011 T0219 情绪 240 / 剧本 130",
     "D-012 T0220 开发轮次满 220",
     "D-013 T0221 测试文件满 100",
-    "D-014 T0223 美术 ART 满 150"
+    "D-014 T0223 美术 ART 满 150",
+    "D-015 T0224 情绪 260 / 剧本 140"
   ],
   "next_candidate_tasks": [
-    "T0224-continue",
+    "T0225-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c828d0389a8d96addbcbf338b6e388ba0eb6a11d T0223 软木板/图钉 · ART150\n轮次: 223 / 1000 · v0.2.6 · M2\n本段: T0220–T0223 鸟食…软木 · 内容256/138 · 测试229\n下一: T0224\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:00:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0224 顶针/针垫 thimble-label + ART-151/152 + 内容260/140\n轮次: 224 / 1000 · v0.2.6 · M2\n测试: 230 passed；双 smoke warmth=19\n下一: T0225\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:02:10Z"
 }

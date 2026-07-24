@@ -91,3 +91,4 @@ export * from "./seed-label";
 export * from "./broom-label";
 export * from "./frame-label";
 export * from "./cork-label";
+export * from "./thimble-label";
