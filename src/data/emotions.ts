@@ -2048,6 +2048,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "释然"],
     intensity: 3,
   },
+  {
+    id: "e293",
+    guestName: "匿名",
+    text: "想把心里的圆角托住，再慢慢熨平。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e294",
+    guestName: "小满",
+    text: "袖烫板套上袖子时，窄处也终于被温柔压到。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e295",
+    guestName: "林",
+    text: "烫馒头撑过很多只袖笼，像接住过很多弯着的人。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e296",
+    guestName: "陆安",
+    text: "第二百九十六次：请给我一块能托住弯处的烫馒头。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

@@ -236,3 +236,5 @@
 | ART-166 | `public/assets/ui/marking_pen.jpg` | 划线笔 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-167 | `public/assets/ui/seam_ripper.jpg` | 拆线器 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-168 | `public/assets/ui/emery_bag.jpg` | 砂囊 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-169 | `public/assets/ui/tailor_ham.jpg` | 烫馒头 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-170 | `public/assets/ui/sleeve_board.jpg` | 袖烫板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 232,
+  "current_round": 233,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0233-continue",
-  "last_completed_task_id": "T0232-ripper",
-  "last_commit": "f1a4bcbd34f7bc491317dac5ba32cb18f206b4b4",
+  "current_task_id": "T0234-continue",
+  "last_completed_task_id": "T0233-ham",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 238 passed (111 files)",
+  "last_test_summary": "vitest: 239 passed (112 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -33,14 +33,15 @@
     "D-015 T0224 情绪 260 / 剧本 140",
     "D-016 T0228 美术 ART 满 160",
     "D-017 T0229 情绪 280 / 剧本 150",
-    "D-018 T0230 开发轮次满 230"
+    "D-018 T0230 开发轮次满 230",
+    "D-019 T0233 美术 ART 满 170"
   ],
   "next_candidate_tasks": [
-    "T0233-continue",
+    "T0234-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: f1a4bcbd34f7bc491317dac5ba32cb18f206b4b4 T0232 拆线器/砂囊\n轮次: 232 / 1000 · v0.2.6 · M2\n本段: T0229–T0232 熨斗…拆线 · 内容292/156 · 测试238\n下一: T0233\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:16:10Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0233 烫馒头/袖烫板 ham-label + ART-169/170 + 内容296/158\n轮次: 233 / 1000 · v0.2.6 · M2\n测试: 239 passed；双 smoke warmth=19\n下一: T0234\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:18:00Z"
 }

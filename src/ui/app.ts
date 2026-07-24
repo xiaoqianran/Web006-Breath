@@ -257,6 +257,11 @@ import {
   formatRipperAside,
   formatRipperEncourage,
   formatRipperPair,
+  formatTailorHamLine,
+  formatSleeveBoardLine,
+  formatHamAside,
+  formatHamEncourage,
+  formatHamPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1265,6 +1270,8 @@ export class YixiApp {
         <div class="marking-pen-art" role="img" aria-label="划线笔" data-testid="marking-pen-art"></div>
         <div class="seam-ripper-art" role="img" aria-label="拆线器" data-testid="seam-ripper-art"></div>
         <div class="emery-bag-art" role="img" aria-label="砂囊" data-testid="emery-bag-art"></div>
+        <div class="tailor-ham-art" role="img" aria-label="烫馒头" data-testid="tailor-ham-art"></div>
+        <div class="sleeve-board-art" role="img" aria-label="袖烫板" data-testid="sleeve-board-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1411,6 +1418,11 @@ export class YixiApp {
         <p class="muted" data-testid="ripper-aside">${formatRipperAside(s.circulationsToday)}</p>
         <p class="muted" data-testid="ripper-encourage">${formatRipperEncourage(qLen)}</p>
         <p class="muted" data-testid="ripper-pair">${formatRipperPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="tailor-ham-line">${formatTailorHamLine(s.day)}</p>
+        <p class="muted" data-testid="sleeve-board-line">${formatSleeveBoardLine(s.warmth)}</p>
+        <p class="muted" data-testid="ham-aside">${formatHamAside(s.circulationsToday)}</p>
+        <p class="muted" data-testid="ham-encourage">${formatHamEncourage(qLen)}</p>
+        <p class="muted" data-testid="ham-pair">${formatHamPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
