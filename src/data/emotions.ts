@@ -4736,6 +4736,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e677",
+    guestName: "匿名",
+    text: "想用绣花剪轻轻剪一缕，让多余也能被温柔地松开。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e678",
+    guestName: "禾",
+    text: "剪尖滑入皮套时，像店把锋利也温柔地收住。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e679",
+    guestName: "阿初",
+    text: "绣花剪刀尖还亮着一点细的光，像刚被擦过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e680",
+    guestName: "陆安",
+    text: "第六百八十次：请给我一缕能松开的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

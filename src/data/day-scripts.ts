@@ -2798,6 +2798,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 349,
+    title: "绣花剪",
+    opener: "第三百四十九日。绣花剪静放，刀尖还亮着一点细的光。",
+    sampleIndexes: [676, 677, 678, 672],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 350,
+    title: "剪皮套",
+    opener: "第三百五十日。剪尖滑入皮套，像店把锋利也温柔地收住。",
+    sampleIndexes: [677, 678, 679, 674],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
