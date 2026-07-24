@@ -400,3 +400,5 @@
 | ART-330 | `public/assets/ui/wood_hat_form.jpg` | 木帽托 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-331 | `public/assets/ui/soft_slipper.jpg` | 软室内拖鞋 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-332 | `public/assets/ui/wood_shoe_tray.jpg` | 木鞋托盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-333 | `public/assets/ui/soft_earmuff.jpg` | 软织耳罩 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-334 | `public/assets/ui/earmuff_peg.jpg` | 耳罩挂钉 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

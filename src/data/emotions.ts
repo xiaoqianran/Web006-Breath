@@ -4344,6 +4344,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e621",
+    guestName: "匿名",
+    text: "想戴一副软织耳罩，让耳边的凉也能被温柔地捂住。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e622",
+    guestName: "禾",
+    text: "耳罩挂上木钉时，像店把耳边的暖也留给出门的人。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e623",
+    guestName: "阿初",
+    text: "软织耳罩罩面还带着一点暖的绒，像刚被叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e624",
+    guestName: "陆安",
+    text: "第六百二十四次：请给我一副能捂住耳边的暖。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
