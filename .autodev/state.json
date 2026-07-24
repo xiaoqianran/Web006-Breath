@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0244-continue",
   "last_completed_task_id": "T0243-eyelet",
-  "last_commit": "PENDING",
+  "last_commit": "b2b97015df0fd6b8423eb09cc4636e35bbe8bf63",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 249 passed (122 files)",
   "core_loop_status": "playable_demo_ready",
@@ -47,6 +47,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0243 气眼/打孔钳 eyelet-label + ART-189/190 + 内容336/178\n轮次: 243 / 1000 · v0.2.6 · M2\n测试: 249 passed；双 smoke warmth=19\n下一: T0244\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b2b97015df0fd6b8423eb09cc4636e35bbe8bf63 T0243 气眼/打孔钳 · ART190\n轮次: 243 / 1000 · v0.2.6 · M2\n本段: T0240–T0243 裁切…气眼 · 内容336/178 · 测试249\n下一: T0244\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:35:55Z"
 }
