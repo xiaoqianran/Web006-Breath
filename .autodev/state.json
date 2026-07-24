@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 365,
+  "current_round": 366,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0366-continue",
-  "last_completed_task_id": "T0365-softdraw",
-  "last_commit": "1b0b0f7fbf8c187bca9eb870a7b1d06a4ec071dc",
+  "current_task_id": "T0367-continue",
+  "last_completed_task_id": "T0366-softingot",
+  "last_commit": "cbdb01c7f6bc88c41bd9b0e8e3ae6c110ab7d128",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 371 passed (244 files)",
+  "last_test_summary": "vitest: 372 passed (245 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -111,11 +111,11 @@
     "D-093 T0364 测试满 370"
   ],
   "next_candidate_tasks": [
-    "T0366-continue",
+    "T0367-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 1b0b0f7fbf8c187bca9eb870a7b1d06a4ec071dc T0365 抽丝板抽丝钳 · 轮次365\n轮次: 365 / 1000 · v0.2.6 · M2\n本段: T0361–T0365 · 内容824/422 · 测试371 · ART~434 · D-093\n下一: T0366\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:51:23Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: cbdb01c7f6bc88c41bd9b0e8e3ae6c110ab7d128 T0366 铸锭模熔金碗 · 轮次366\n轮次: 366 / 1000 · v0.2.6 · M2\n本段: T0362–T0366 · 内容828/424 · 测试372 · ART~436 · D-093\n下一: T0367\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:53:49Z"
 }
