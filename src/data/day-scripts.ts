@@ -2174,7 +2174,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 271,
+    title: "草药油瓶",
+    opener: "第二百七十一日。草药油瓶立稳，瓶身还透着一点琥珀的光。",
+    sampleIndexes: [520, 521, 522, 516],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 272,
+    title: "玻璃滴管",
+    opener: "第二百七十二日。滴管悬在瓶口，像店把浓香也放成可数的温柔。",
+    sampleIndexes: [521, 522, 523, 518],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

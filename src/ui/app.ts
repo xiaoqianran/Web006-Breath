@@ -542,6 +542,11 @@ import {
   formatHerbhangAside,
   formatHerbhangEncourage,
   formatHerbhangPair,
+  formatHerbOilBottleLine,
+  formatGlassDropperLine,
+  formatHerboilAside,
+  formatHerboilEncourage,
+  formatHerboilPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1664,6 +1669,8 @@ export class YixiApp {
         <div class="wood-pestle-art" role="img" aria-label="木杵" data-testid="wood-pestle-art"></div>
         <div class="herb-bundle-art" role="img" aria-label="干草药束" data-testid="herb-bundle-art"></div>
         <div class="hang-twine-art" role="img" aria-label="挂绳" data-testid="hang-twine-art"></div>
+        <div class="herb-oil-bottle-art" role="img" aria-label="草药油瓶" data-testid="herb-oil-bottle-art"></div>
+        <div class="glass-dropper-art" role="img" aria-label="玻璃滴管" data-testid="glass-dropper-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2095,6 +2102,11 @@ export class YixiApp {
         <p class="muted" data-testid="herbhang-aside">${formatHerbhangAside(s.history.length)}</p>
         <p class="muted" data-testid="herbhang-encourage">${formatHerbhangEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="herbhang-pair">${formatHerbhangPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="herb-oil-bottle-line">${formatHerbOilBottleLine(s.day)}</p>
+        <p class="muted" data-testid="glass-dropper-line">${formatGlassDropperLine(s.warmth)}</p>
+        <p class="muted" data-testid="herboil-aside">${formatHerboilAside(s.history.length)}</p>
+        <p class="muted" data-testid="herboil-encourage">${formatHerboilEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="herboil-pair">${formatHerboilPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

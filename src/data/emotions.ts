@@ -3644,7 +3644,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e521",
+    guestName: "匿名",
+    text: "想用滴管轻轻给出一滴草药油，准确而温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e522",
+    guestName: "禾",
+    text: "滴管悬在瓶口时，像店把浓香也放成可数的温柔。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e523",
+    guestName: "阿初",
+    text: "草药油瓶身还透着一点琥珀的光，像刚被立稳。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e524",
+    guestName: "听雨",
+    text: "第五百二十四次：请给我一滴能被数清的香。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 
