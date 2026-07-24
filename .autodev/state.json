@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 361,
+  "current_round": 362,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0362-continue",
-  "last_completed_task_id": "T0361-softflux",
-  "last_commit": "55c9dfec4fbb6726ffe4cdf46ae5c17512a0a65d",
+  "current_task_id": "T0363-continue",
+  "last_completed_task_id": "T0362-softtorch",
+  "last_commit": "bdb7b4d992568a6f9bc8774bf175425c742efaee",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 367 passed (240 files)",
+  "last_test_summary": "vitest: 368 passed (241 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -108,11 +108,11 @@
     "D-090 T0360 开发轮次满 360"
   ],
   "next_candidate_tasks": [
-    "T0362-continue",
+    "T0363-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 55c9dfec4fbb6726ffe4cdf46ae5c17512a0a65d T0361 助焊膏酸洗罐 · 轮次361\n轮次: 361 / 1000 · v0.2.6 · M2\n本段: T0357–T0361 · 内容808/414 · 测试367 · ART~426 · D-090\n下一: T0362\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:42:11Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: bdb7b4d992568a6f9bc8774bf175425c742efaee T0362 小喷灯焊板 · 轮次362\n轮次: 362 / 1000 · v0.2.6 · M2\n本段: T0358–T0362 · 内容812/416 · 测试368 · ART~428 · D-090\n下一: T0363\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:44:14Z"
 }
