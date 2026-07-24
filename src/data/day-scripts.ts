@@ -4062,6 +4062,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 507,
+    title: "玫瑰结",
+    opener: "第五百零七日。玫瑰结静放，瓣沿还带着一点细的光。",
+    sampleIndexes: [992, 993, 994, 991],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 508,
+    title: "丝心",
+    opener: "第五百零八日。心带着结，像店把散的丝也点成安。",
+    sampleIndexes: [993, 994, 995, 990],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
