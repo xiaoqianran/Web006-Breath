@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 379,
+  "current_round": 380,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0380-continue",
-  "last_completed_task_id": "T0379-softcab",
-  "last_commit": "7a62e49284dd7ce5aeb70e9a59fc4079010f703e",
+  "current_task_id": "T0381-continue",
+  "last_completed_task_id": "T0380-softjump",
+  "last_commit": "7bab2e4d48202e9dee318774f5aa8187160de166",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 385 passed (258 files)",
+  "last_test_summary": "vitest: 386 passed (259 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -117,14 +117,15 @@
     "D-099 T0374 测试满 380",
     "D-100 T0378 美术 ART 满 460",
     "D-101 T0379 日剧本满 450",
-    "D-102 T0379 情绪样本满 880"
+    "D-102 T0379 情绪样本满 880",
+    "D-103 T0380 开发轮次满 380"
   ],
   "next_candidate_tasks": [
-    "T0380-continue",
+    "T0381-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 7a62e49284dd7ce5aeb70e9a59fc4079010f703e T0379 弧面石包边条 · 轮次379\n轮次: 379 / 1000 · v0.2.6 · M2\n本段: T0375–T0379 · 内容880/450 · 测试385 · ART~462 · D-101/102\n下一: T0380\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:24:02Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 7bab2e4d48202e9dee318774f5aa8187160de166 T0380 跳环开环钳 · 轮次380\n轮次: 380 / 1000 · v0.2.6 · M2\n本段: T0376–T0380 · 内容884/452 · 测试386 · ART~464 · D-103\n下一: T0381\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:26:28Z"
 }
