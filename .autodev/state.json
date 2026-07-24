@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0221-continue",
   "last_completed_task_id": "T0220-seed",
-  "last_commit": "PENDING",
+  "last_commit": "751d004823716a40c4b92f0a2f21d3534782ff1d",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 226 passed (99 files)",
   "core_loop_status": "playable_demo_ready",
@@ -35,6 +35,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0220 鸟食/食盘 seed-label + ART-143/144 + 内容244/132\n轮次: 220 / 1000 · v0.2.6 · M2\n测试: 226 passed；双 smoke warmth=19\n下一: T0221\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 751d004823716a40c4b92f0a2f21d3534782ff1d T0220 鸟食/食盘 · 轮次220\n轮次: 220 / 1000 · v0.2.6 · M2\n本段: T0211–T0220 窗纱…鸟食 · 内容244/132 · 测试226\n下一: T0221\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:54:30Z"
 }
