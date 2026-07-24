@@ -70,6 +70,10 @@ import {
   formatRevisitLuggageAside,
   formatRevisitEligibilityAside,
   evaluateRevisitEligibility,
+  buildGuestbookEntries,
+  formatGuestbookBoardSummary,
+  formatGuestbookEncourage,
+  formatLanternAside,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -778,6 +782,8 @@ export class YixiApp {
       </div>
       <div class="card" data-testid="favor-board">
         <div class="favor-board-art" role="img" aria-label="好感留言板" data-testid="favor-board-art"></div>
+        <div class="guest-book-art" role="img" aria-label="柜台留言簿" data-testid="guest-book-art"></div>
+        <div class="paper-lantern-art" role="img" aria-label="纸灯" data-testid="paper-lantern-art"></div>
         <h3>客人好感</h3>
         ${
           topFavoredGuests(this.state, 5).length === 0
@@ -785,6 +791,14 @@ export class YixiApp {
             : topFavoredGuests(this.state, 5)
                 .map((g) => `<p data-testid="favor-line">${formatFavorLine(g)}</p>`)
                 .join("")
+        }
+        ${
+          (() => {
+            const gb = buildGuestbookEntries(topFavoredGuests(this.state, 5), 5);
+            return `<p class="muted" data-testid="guestbook-summary">${formatGuestbookBoardSummary(gb)}</p>
+        <p class="muted" data-testid="guestbook-encourage">${formatGuestbookEncourage(gb.length)}</p>
+        <p class="muted" data-testid="lantern-aside">${formatLanternAside(this.state.reputation)}</p>`;
+          })()
         }
       </div>
       <div class="card" data-testid="session-stats">

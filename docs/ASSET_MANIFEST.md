@@ -159,3 +159,5 @@
 | ART-089 | `public/assets/ui/day_page.jpg` | 日历页 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-090 | `public/assets/ui/twin_cups.jpg` | 双杯茶盘 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-091 | `public/assets/decor/soft_suitcase.jpg` | 再访小行李箱 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-092 | `public/assets/ui/paper_lantern.jpg` | 纸灯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-093 | `public/assets/ui/guest_book.jpg` | 柜台留言簿 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

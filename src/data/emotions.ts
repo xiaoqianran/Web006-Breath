@@ -900,6 +900,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "安心"],
     intensity: 4,
   },
+  {
+    id: "e129",
+    guestName: "匿名",
+    text: "在留言簿最后一页写了三个字：还想来。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e130",
+    guestName: "听雨",
+    text: "纸灯亮着的时候，我想把雨声也写进簿子里。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e131",
+    guestName: "温叙",
+    text: "第一百三十一次推门：请让我在簿子上留下今天的名字。",
+    tags: ["勇气", "期待"],
+    intensity: 4,
+  },
+  {
+    id: "e132",
+    guestName: "禾",
+    text: "把灯绳轻轻一拉，心也跟着亮了一寸。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
 ];
 
 
