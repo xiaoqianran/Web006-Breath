@@ -195,3 +195,4 @@ export * from "./embroider-label";
 export * from "./patweight-label";
 export * from "./rotarycut-label";
 export * from "./steampress-label";
+export * from "./softchalk-label";

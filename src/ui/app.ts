@@ -727,6 +727,11 @@ import {
   formatSteampressAside,
   formatSteampressEncourage,
   formatSteampressPair,
+  formatSoftTailorChalkLine,
+  formatChalkTrayLine,
+  formatSoftchalkAside,
+  formatSoftchalkEncourage,
+  formatSoftchalkPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1923,6 +1928,8 @@ export class YixiApp {
         <div class="soft-cut-mat-art" role="img" aria-label="软裁垫" data-testid="soft-cut-mat-art"></div>
         <div class="mini-steam-iron-art" role="img" aria-label="小蒸汽熨" data-testid="mini-steam-iron-art"></div>
         <div class="steam-press-cloth-art" role="img" aria-label="熨布" data-testid="steam-press-cloth-art"></div>
+        <div class="soft-tailor-chalk-art" role="img" aria-label="裁缝粉笔" data-testid="soft-tailor-chalk-art"></div>
+        <div class="chalk-tray-art" role="img" aria-label="粉笔托" data-testid="chalk-tray-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2539,6 +2546,11 @@ export class YixiApp {
         <p class="muted" data-testid="steampress-aside">${formatSteampressAside(s.history.length)}</p>
         <p class="muted" data-testid="steampress-encourage">${formatSteampressEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="steampress-pair">${formatSteampressPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-tailor-chalk-line">${formatSoftTailorChalkLine(s.day)}</p>
+        <p class="muted" data-testid="chalk-tray-line">${formatChalkTrayLine(s.warmth)}</p>
+        <p class="muted" data-testid="softchalk-aside">${formatSoftchalkAside(s.history.length)}</p>
+        <p class="muted" data-testid="softchalk-encourage">${formatSoftchalkEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softchalk-pair">${formatSoftchalkPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

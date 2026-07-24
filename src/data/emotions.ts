@@ -4680,6 +4680,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e669",
+    guestName: "匿名",
+    text: "想用裁缝粉笔轻轻画一痕，让布上也留下可被温柔擦去的线。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e670",
+    guestName: "禾",
+    text: "粉笔落在托里时，像店把可擦的线也递给布面。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e671",
+    guestName: "阿初",
+    text: "粉笔棱边还带着一点白的粉，像刚被削过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e672",
+    guestName: "陆安",
+    text: "第六百七十二次：请给我一痕能画上布的粉。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

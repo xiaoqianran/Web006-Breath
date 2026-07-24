@@ -2766,6 +2766,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 345,
+    title: "裁缝粉笔",
+    opener: "第三百四十五日。裁缝粉笔静放，棱边还带着一点白的粉。",
+    sampleIndexes: [668, 669, 670, 664],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 346,
+    title: "粉笔托",
+    opener: "第三百四十六日。粉笔落在托里，像店把可擦的线也递给布面。",
+    sampleIndexes: [669, 670, 671, 666],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

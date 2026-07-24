@@ -424,3 +424,5 @@
 | ART-354 | `public/assets/ui/soft_cut_mat.jpg` | 软裁垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-355 | `public/assets/ui/mini_steam_iron.jpg` | 小蒸汽熨 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-356 | `public/assets/ui/steam_press_cloth.jpg` | 熨布 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-357 | `public/assets/ui/soft_tailor_chalk.jpg` | 裁缝粉笔 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-358 | `public/assets/ui/chalk_tray.jpg` | 粉笔托 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
