@@ -123,3 +123,4 @@ export * from "./dayend-label";
 export * from "./reopen-label";
 export * from "./entry-label";
 export * from "./guestlog-label";
+export * from "./waitseat-label";

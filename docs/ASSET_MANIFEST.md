@@ -282,3 +282,5 @@
 | ART-212 | `public/assets/ui/door_mat.jpg` | 门口踏垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-213 | `public/assets/ui/guest_log.jpg` | 访客签到本 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-214 | `public/assets/ui/soft_eraser.jpg` | 软橡皮 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-215 | `public/assets/ui/wait_cushion.jpg` | 候座软垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-216 | `public/assets/ui/warm_water_cup.jpg` | 温水小杯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

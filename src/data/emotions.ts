@@ -2692,7 +2692,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e385",
+    guestName: "匿名",
+    text: "想先坐在软垫上喝一口温水，把急先放一放。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e386",
+    guestName: "禾",
+    text: "小杯搁在垫旁，像店把等候也照顾进了手里。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e387",
+    guestName: "阿初",
+    text: "候座软垫拍松时，布面还带着一点坐过的温。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e388",
+    guestName: "听雨",
+    text: "第三百八十八次：请给我一杯能暖等候的水。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

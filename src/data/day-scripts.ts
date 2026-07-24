@@ -1630,7 +1630,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 203,
+    title: "候座软垫",
+    opener: "第二百零三日。候座软垫拍松，布面还带着一点坐过的温。",
+    sampleIndexes: [384, 385, 386, 380],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 204,
+    title: "温水小杯",
+    opener: "第二百零四日。温水小杯搁在垫旁，像把等候也照顾进手里。",
+    sampleIndexes: [385, 386, 387, 382],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
