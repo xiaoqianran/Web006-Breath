@@ -5156,6 +5156,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e737",
+    guestName: "匿名",
+    text: "想用绕绞架绕一绞，让散线也能被温柔地绕成一绞。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e738",
+    guestName: "禾",
+    text: "线绕成绞时，像店把散线也绕成一束。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e739",
+    guestName: "阿初",
+    text: "绕绞架臂端还带着一点木的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e740",
+    guestName: "陆安",
+    text: "第七百四十次：请给我一绞能绕成束的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

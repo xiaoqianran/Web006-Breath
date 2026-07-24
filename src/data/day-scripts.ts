@@ -3038,6 +3038,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 379,
+    title: "绕绞架",
+    opener: "第三百七十九日。绕绞架静放，臂端还带着一点木的温。",
+    sampleIndexes: [736, 737, 738, 735],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 380,
+    title: "绞线",
+    opener: "第三百八十日。线绕成绞，像店把散线也绕成一束。",
+    sampleIndexes: [737, 738, 739, 734],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

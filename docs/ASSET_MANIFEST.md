@@ -458,3 +458,5 @@
 | ART-388 | `public/assets/ui/soft_roving.jpg` | 纺前毛条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-389 | `public/assets/ui/carding_brush.jpg` | 梳毛刷 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-390 | `public/assets/ui/carding_pad.jpg` | 梳毛垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-391 | `public/assets/ui/niddy_noddy.jpg` | 绕绞架 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-392 | `public/assets/ui/yarn_skein.jpg` | 绞线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
