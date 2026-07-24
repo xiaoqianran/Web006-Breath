@@ -3476,7 +3476,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e497",
+    guestName: "匿名",
+    text: "想把刚出炉的香装进铁盒，让温柔也能上路。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e498",
+    guestName: "禾",
+    text: "扎带绕过盒口时，像店把离店也系成妥帖。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e499",
+    guestName: "阿初",
+    text: "饼干铁盒盖还带着一点金属的凉，像刚被打开。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e500",
+    guestName: "听雨",
+    text: "第五百次：请给我一盒能带走热香的铁。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

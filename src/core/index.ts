@@ -152,3 +152,4 @@ export * from "./rollingpin-label";
 export * from "./scraper-label";
 export * from "./cutter-label";
 export * from "./icing-label";
+export * from "./cookietin-label";

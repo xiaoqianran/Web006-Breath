@@ -512,6 +512,11 @@ import {
   formatIcingAside,
   formatIcingEncourage,
   formatIcingPair,
+  formatCookieTinLine,
+  formatTwistTieLine,
+  formatCookietinAside,
+  formatCookietinEncourage,
+  formatCookietinPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1622,6 +1627,8 @@ export class YixiApp {
         <div class="cooling-rack-art" role="img" aria-label="冷却架" data-testid="cooling-rack-art"></div>
         <div class="icing-bag-art" role="img" aria-label="裱花袋" data-testid="icing-bag-art"></div>
         <div class="sugar-sieve-art" role="img" aria-label="糖粉筛" data-testid="sugar-sieve-art"></div>
+        <div class="cookie-tin-art" role="img" aria-label="饼干铁盒" data-testid="cookie-tin-art"></div>
+        <div class="twist-tie-art" role="img" aria-label="扎带" data-testid="twist-tie-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2023,6 +2030,11 @@ export class YixiApp {
         <p class="muted" data-testid="icing-aside">${formatIcingAside(s.history.length)}</p>
         <p class="muted" data-testid="icing-encourage">${formatIcingEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="icing-pair">${formatIcingPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="cookie-tin-line">${formatCookieTinLine(s.day)}</p>
+        <p class="muted" data-testid="twist-tie-line">${formatTwistTieLine(s.warmth)}</p>
+        <p class="muted" data-testid="cookietin-aside">${formatCookietinAside(s.history.length)}</p>
+        <p class="muted" data-testid="cookietin-encourage">${formatCookietinEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="cookietin-pair">${formatCookietinPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

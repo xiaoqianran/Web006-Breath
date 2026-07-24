@@ -2078,7 +2078,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 259,
+    title: "饼干铁盒",
+    opener: "第二百五十九日。饼干铁盒打开，盒盖还带着一点金属的凉。",
+    sampleIndexes: [496, 497, 498, 492],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 260,
+    title: "扎带",
+    opener: "第二百六十日。扎带绕过盒口，像店把离店也系成妥帖。",
+    sampleIndexes: [497, 498, 499, 494],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
