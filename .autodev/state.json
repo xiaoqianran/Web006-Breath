@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 333,
+  "current_round": 334,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0334-continue",
-  "last_completed_task_id": "T0333-softknit",
-  "last_commit": "510e685dca588bae1014d63c120a926e8b0c8b30",
+  "current_task_id": "T0335-continue",
+  "last_completed_task_id": "T0334-softswatch",
+  "last_commit": "eaf152157ec348137958493a44ba6ccfd0bb7779",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 339 passed (212 files)",
+  "last_test_summary": "vitest: 340 passed (213 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -85,14 +85,16 @@
     "D-067 T0324 日剧本满 340",
     "D-068 T0328 美术 ART 满 360",
     "D-069 T0329 日剧本满 350",
-    "D-070 T0330 开发轮次满 330"
+    "D-070 T0330 开发轮次满 330",
+    "D-071 T0334 情绪样本满 700",
+    "D-072 T0334 日剧本满 360"
   ],
   "next_candidate_tasks": [
-    "T0334-continue",
+    "T0335-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 510e685dca588bae1014d63c120a926e8b0c8b30 T0333 棒针记号扣 · 轮次333\n轮次: 333 / 1000 · v0.2.6 · M2\n本段: T0329–T0333 · 内容696/358 · 测试339 · ART~370 · D-070\n下一: T0334\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:43:34Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: eaf152157ec348137958493a44ba6ccfd0bb7779 T0334 色卡样片行数计数器 · 轮次334\n轮次: 334 / 1000 · v0.2.6 · M2\n本段: T0330–T0334 · 内容700/360 · 测试340 · ART~372 · D-072\n下一: T0335\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:45:39Z"
 }
