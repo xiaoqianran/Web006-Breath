@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 387,
+  "current_round": 388,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0388-continue",
-  "last_completed_task_id": "T0387-softchain",
-  "last_commit": "c6319ea188718e73288bc7b49f0561c7a9a17e62",
+  "current_task_id": "T0389-continue",
+  "last_completed_task_id": "T0388-softtoggle",
+  "last_commit": "8dcde082b8f3b2ea873073c2edb41650307118e0",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 393 passed (266 files)",
+  "last_test_summary": "vitest: 394 passed (267 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -123,14 +123,15 @@
     "D-105 T0383 美术 ART 满 470",
     "D-106 T0384 情绪样本满 900",
     "D-107 T0384 日剧本满 460",
-    "D-108 T0384 测试满 390"
+    "D-108 T0384 测试满 390",
+    "D-109 T0388 美术 ART 满 480"
   ],
   "next_candidate_tasks": [
-    "T0388-continue",
+    "T0389-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c6319ea188718e73288bc7b49f0561c7a9a17e62 T0387 链条链嘴钳 · 轮次387\n轮次: 387 / 1000 · v0.2.6 · M2\n本段: T0383–T0387 · 内容912/466 · 测试393 · ART~478\n下一: T0388\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:43:25Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8dcde082b8f3b2ea873073c2edb41650307118e0 T0388 一字扣圆环 · 轮次388\n轮次: 388 / 1000 · v0.2.6 · M2\n本段: T0384–T0388 · 内容916/468 · 测试394 · ART~480 · D-109\n下一: T0389\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T06:46:12Z"
 }
