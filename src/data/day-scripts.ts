@@ -990,6 +990,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 123,
+    title: "丝带卷",
+    opener: "第一百二十三日。丝带卷换了浅杏，今天的结会更软一点。",
+    sampleIndexes: [224, 225, 226, 220],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 124,
+    title: "剪线头",
+    opener: "第一百二十四日。剪线头匣鼓鼓的，像未说完的附言叠着。",
+    sampleIndexes: [225, 226, 227, 222],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

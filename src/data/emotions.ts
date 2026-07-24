@@ -1572,6 +1572,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e225",
+    guestName: "匿名",
+    text: "想要一条浅杏丝带，把今天的散落绑住。",
+    tags: ["疲惫", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e226",
+    guestName: "听雨",
+    text: "剪线头落在匣里的声音，像给故事画了句号。",
+    tags: ["释然", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e227",
+    guestName: "陆安",
+    text: "解开丝带的瞬间，比拆开礼物更让人屏息。",
+    tags: ["悸动", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e228",
+    guestName: "禾",
+    text: "第二百二十八次：请给我一截可以带走的线头。",
+    tags: ["想念", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

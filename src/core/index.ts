@@ -83,3 +83,4 @@ export * from "./dew-label";
 export * from "./biscuit-label";
 export * from "./ladder-label";
 export * from "./mirror-label";
+export * from "./ribbon-label";

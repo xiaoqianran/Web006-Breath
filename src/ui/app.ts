@@ -172,6 +172,11 @@ import {
   formatMirrorAside,
   formatMirrorEncourage,
   formatMirrorPair,
+  formatRibbonSpoolLine,
+  formatSnipThreadLine,
+  formatRibbonAside,
+  formatRibbonEncourage,
+  formatRibbonPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1146,6 +1151,8 @@ export class YixiApp {
         <div class="high-shelf-art" role="img" aria-label="高架" data-testid="high-shelf-art"></div>
         <div class="guest-mirror-art" role="img" aria-label="试衣镜" data-testid="guest-mirror-art"></div>
         <div class="soft-cloth-art" role="img" aria-label="软擦布" data-testid="soft-cloth-art"></div>
+        <div class="ribbon-spools-soft-art" role="img" aria-label="丝带卷" data-testid="ribbon-spools-soft-art"></div>
+        <div class="snip-thread-box-art" role="img" aria-label="剪线头匣" data-testid="snip-thread-box-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1209,6 +1216,10 @@ export class YixiApp {
         <p class="muted" data-testid="mirror-aside">${formatMirrorAside(qLen)}</p>
         <p class="muted" data-testid="mirror-encourage">${formatMirrorEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="mirror-pair">${formatMirrorPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="ribbon-spool-line">${formatRibbonSpoolLine(s.day)}</p>
+        <p class="muted" data-testid="snip-thread-line">${formatSnipThreadLine(s.history.length)}</p>
+        <p class="muted" data-testid="ribbon-encourage">${formatRibbonEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="ribbon-pair">${formatRibbonPair(s.day, s.history.length)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
@@ -1337,6 +1348,7 @@ export class YixiApp {
         <p class="muted" data-testid="ink-craft-pair">${formatInkPair(s.day, s.history.length)}</p>
         <p class="muted" data-testid="ink-craft-aside">${formatInkAside(s.warmth)}</p>
         <p class="muted" data-testid="biscuit-gift-aside">${formatBiscuitAside(true)} ${formatBiscuitAside(false)}</p>
+        <p class="muted" data-testid="ribbon-gift-aside">${formatRibbonAside(true)} ${formatRibbonAside(false)}</p>
         <p class="muted" data-testid="gift-choice-hint">${formatCirculationChoiceHint("gift")} ${formatCirculationChoiceHint("display")}</p>
         <p class="muted" data-testid="order-bonus-hint">${firstOrderBonusHint(item, s.activeOrder, s.pendingOrders) || "上架等待知音，或直接赠予需要的人。"}</p>
         <p class="muted" data-testid="order-match-aside">${formatOrderMatchAside(item, s.activeOrder)}</p>
