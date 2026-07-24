@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 302,
+  "current_round": 303,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0303-continue",
-  "last_completed_task_id": "T0302-pressmark",
-  "last_commit": "798a322b1d743ce076c1a2a9d7d4eb3b43a5c935",
+  "current_task_id": "T0304-continue",
+  "last_completed_task_id": "T0303-penrest",
+  "last_commit": "266129970f0025d3066a0e57d32716166c454e70",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 308 passed (181 files)",
+  "last_test_summary": "vitest: 309 passed (182 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -73,11 +73,11 @@
     "D-055 T0300 开发轮次满 300"
   ],
   "next_candidate_tasks": [
-    "T0303-continue",
+    "T0304-continue",
+    "T0305-day300",
     "M2",
-    "内容/生图",
-    "持续"
+    "内容/生图"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 798a322b1d743ce076c1a2a9d7d4eb3b43a5c935 T0302 压花书签/丝尾 · 轮次302\n轮次: 302 / 1000 · v0.2.6 · M2\n本段: T0298–T0302 · 内容572/296 · 测试308 · ART~308 · D-055 轮次300\n下一: T0303\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:38:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 266129970f0025d3066a0e57d32716166c454e70 T0303 瓷笔搁/吸墨纸 · 轮次303\n轮次: 303 / 1000 · v0.2.6 · M2\n本段: T0299–T0303 · 内容576/298 · 测试309 · ART~310 · D-055 轮次300\n下一: T0304（趋近剧本 300）\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:40:00Z"
 }
