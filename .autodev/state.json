@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 402,
+  "current_round": 403,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0403-continue",
-  "last_completed_task_id": "T0402-softtiara",
-  "last_commit": "a7762c28d288b771dff0d2c64f66c56680b8b897",
+  "current_task_id": "T0404-continue",
+  "last_completed_task_id": "T0403-softbarrette",
+  "last_commit": "063b9deb7cfca6f4d72877f94d404bef3fe5c718",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 408 passed (281 files)",
+  "last_test_summary": "vitest: 409 passed (282 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -141,11 +141,9 @@
     "D-123 T0401 测试文件满 280"
   ],
   "next_candidate_tasks": [
-    "T0403-continue",
-    "M2",
-    "内容/生图",
-    "持续"
+    "T0404-softscrunchie-to-day500-then-STOP",
+    "日剧本满500后停止"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: a7762c28d288b771dff0d2c64f66c56680b8b897 T0402 头冠梳座 · 轮次402\n轮次: 402 / 1000 · v0.2.6 · M2\n本段: T0398–T0402 · 内容972/496 · 测试408 · ART~508\n下一: T0403\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T07:20:19Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 063b9deb7cfca6f4d72877f94d404bef3fe5c718 T0403 发夹弹簧扣 · 轮次403\n轮次: 403 / 1000 · v0.2.6 · M2\n本段: T0399–T0403 · 内容976/498 · 测试409 · ART~510\n下一: T0404 softscrunchie（日剧本到500即停）\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T07:23:34Z"
 }
