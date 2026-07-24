@@ -1902,7 +1902,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 237,
+    title: "餐垫",
+    opener: "第二百三十七日。餐垫铺开，布纹还带着一点熨过的平。",
+    sampleIndexes: [452, 453, 454, 448],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 238,
+    title: "筷枕",
+    opener: "第二百三十八日。筷枕托住筷尖，像店把分寸也摆在桌上。",
+    sampleIndexes: [453, 454, 455, 450],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

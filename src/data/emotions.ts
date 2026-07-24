@@ -3168,7 +3168,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e453",
+    guestName: "匿名",
+    text: "想把餐垫轻轻铺开，让桌面也有温柔的边界。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e454",
+    guestName: "禾",
+    text: "筷枕托住筷尖时，像店把分寸也摆在桌上。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e455",
+    guestName: "阿初",
+    text: "餐垫布纹还带着熨过的平，像刚被铺好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e456",
+    guestName: "陆安",
+    text: "第四百五十六次：请给我一块能框住桌面的垫。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

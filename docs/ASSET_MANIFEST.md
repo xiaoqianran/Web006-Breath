@@ -316,3 +316,5 @@
 | ART-246 | `public/assets/ui/citrus_knife.jpg` | 柑橘小刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-247 | `public/assets/ui/napkin_ring.jpg` | 餐巾环 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-248 | `public/assets/ui/guest_napkin.jpg` | 客人餐巾 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-249 | `public/assets/ui/place_mat.jpg` | 餐垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-250 | `public/assets/ui/chopstick_rest.jpg` | 筷枕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

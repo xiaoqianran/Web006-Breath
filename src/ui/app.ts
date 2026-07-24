@@ -457,6 +457,11 @@ import {
   formatNapkinAside,
   formatNapkinEncourage,
   formatNapkinPair,
+  formatPlaceMatLine,
+  formatChopstickRestLine,
+  formatPlacematAside,
+  formatPlacematEncourage,
+  formatPlacematPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1545,6 +1550,8 @@ export class YixiApp {
         <div class="citrus-knife-art" role="img" aria-label="柑橘小刀" data-testid="citrus-knife-art"></div>
         <div class="napkin-ring-art" role="img" aria-label="餐巾环" data-testid="napkin-ring-art"></div>
         <div class="guest-napkin-art" role="img" aria-label="客人餐巾" data-testid="guest-napkin-art"></div>
+        <div class="place-mat-art" role="img" aria-label="餐垫" data-testid="place-mat-art"></div>
+        <div class="chopstick-rest-art" role="img" aria-label="筷枕" data-testid="chopstick-rest-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1891,6 +1898,11 @@ export class YixiApp {
         <p class="muted" data-testid="napkin-aside">${formatNapkinAside(s.history.length)}</p>
         <p class="muted" data-testid="napkin-encourage">${formatNapkinEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="napkin-pair">${formatNapkinPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="place-mat-line">${formatPlaceMatLine(s.day)}</p>
+        <p class="muted" data-testid="chopstick-rest-line">${formatChopstickRestLine(s.warmth)}</p>
+        <p class="muted" data-testid="placemat-aside">${formatPlacematAside(s.history.length)}</p>
+        <p class="muted" data-testid="placemat-encourage">${formatPlacematEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="placemat-pair">${formatPlacematPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
