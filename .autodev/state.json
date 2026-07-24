@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 240,
+  "current_round": 241,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0241-continue",
-  "last_completed_task_id": "T0240-matcut",
-  "last_commit": "09055637d9611def3e7e2685f811a2c93790555b",
+  "current_task_id": "T0242-continue",
+  "last_completed_task_id": "T0241-knife",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 246 passed (119 files)",
+  "last_test_summary": "vitest: 247 passed (120 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -41,11 +41,11 @@
     "D-023 T0240 开发轮次满 240"
   ],
   "next_candidate_tasks": [
-    "T0241-continue",
+    "T0242-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 09055637d9611def3e7e2685f811a2c93790555b T0240 裁切垫/直尺 · 轮次240\n轮次: 240 / 1000 · v0.2.6 · M2\n本段: T0236–T0240 装订…裁切 · 内容324/172 · 测试246\n下一: T0241\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:30:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0241 裁纸刀/安全尺 knife-label + ART-185/186 + 内容328/174\n轮次: 241 / 1000 · v0.2.6 · M2\n测试: 247 passed；双 smoke warmth=19\n下一: T0242\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:32:30Z"
 }

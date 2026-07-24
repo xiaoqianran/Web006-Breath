@@ -108,3 +108,4 @@ export * from "./cloth-label";
 export * from "./endpaper-label";
 export * from "./glue-label";
 export * from "./matcut-label";
+export * from "./knife-label";

@@ -252,3 +252,5 @@
 | ART-182 | `public/assets/ui/paste_brush.jpg` | 排刷 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-183 | `public/assets/ui/cutting_mat.jpg` | 裁切垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-184 | `public/assets/ui/straight_ruler.jpg` | 直尺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-185 | `public/assets/ui/craft_knife.jpg` | 裁纸刀 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-186 | `public/assets/ui/safety_ruler.jpg` | 安全尺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

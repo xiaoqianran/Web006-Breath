@@ -2272,6 +2272,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "安心"],
     intensity: 3,
   },
+  {
+    id: "e325",
+    guestName: "匿名",
+    text: "想把多余的部分裁掉，留下刚好能被接住的边。",
+    tags: ["勇气", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e326",
+    guestName: "小满",
+    text: "安全尺压稳时，刀沿着边缘走，心也跟着稳。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e327",
+    guestName: "林",
+    text: "干净的切口，像一句说完就停住的话。",
+    tags: ["释然", "想念"],
+    intensity: 3,
+  },
+  {
+    id: "e328",
+    guestName: "陆安",
+    text: "第三百二十八次：请给我一把稳而干净的刀。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
