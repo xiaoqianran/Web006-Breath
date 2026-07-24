@@ -1758,7 +1758,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 219,
+    title: "罐口标签",
+    opener: "第二百一十九日。罐口标签贴上，纸角还带着一点指温。",
+    sampleIndexes: [416, 417, 418, 412],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 220,
+    title: "细棉线",
+    opener: "第二百二十日。细棉线系住标签，像店轻轻说「这是你」。",
+    sampleIndexes: [417, 418, 419, 414],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

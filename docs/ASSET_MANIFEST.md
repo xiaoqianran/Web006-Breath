@@ -298,3 +298,5 @@
 | ART-228 | `public/assets/ui/cord_switch.jpg` | 灯绳开关 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-229 | `public/assets/ui/tasting_spoon.jpg` | 试茶小勺 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-230 | `public/assets/ui/tasting_mat.jpg` | 品茶垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-231 | `public/assets/ui/jar_tag.jpg` | 罐口标签 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-232 | `public/assets/ui/fine_cotton.jpg` | 细棉线 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

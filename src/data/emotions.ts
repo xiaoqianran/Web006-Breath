@@ -2916,7 +2916,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e417",
+    guestName: "匿名",
+    text: "想给罐子写一张很短的标签，只写名字，不写评价。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e418",
+    guestName: "禾",
+    text: "细棉线系住标签时，像店轻轻说「这是你」。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e419",
+    guestName: "阿初",
+    text: "罐口标签边还带着指温，像刚被点过名。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e420",
+    guestName: "听雨",
+    text: "第四百二十次：请给我一根能系住名字的棉线。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 
