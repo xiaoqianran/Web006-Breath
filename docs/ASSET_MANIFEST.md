@@ -572,3 +572,5 @@
 | ART-502 | `public/assets/ui/ear_wire.jpg` | 耳钩 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-503 | `public/assets/ui/soft_anklet.jpg` | 脚链 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-504 | `public/assets/ui/anklet_clasp.jpg` | 细扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-505 | `public/assets/ui/soft_choker.jpg` | 颈圈 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-506 | `public/assets/ui/choker_ribbon.jpg` | 丝带扣 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
