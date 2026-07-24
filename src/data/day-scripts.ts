@@ -2222,6 +2222,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 277,
+    title: "花露水瓶",
+    opener: "第二百七十七日。花露水瓶竖好，瓶里还漾着一点淡粉的光。",
+    sampleIndexes: [532, 533, 534, 528],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 278,
+    title: "亚麻手帕",
+    opener: "第二百七十八日。手帕从叠好处展开，像店把清爽也递给皮肤。",
+    sampleIndexes: [533, 534, 535, 530],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

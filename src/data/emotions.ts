@@ -3728,6 +3728,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e533",
+    guestName: "匿名",
+    text: "想喷一点花露在腕上，让香也轻轻擦过心口。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e534",
+    guestName: "禾",
+    text: "亚麻手帕从叠好处展开时，像店把清爽也递给皮肤。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e535",
+    guestName: "阿初",
+    text: "花露瓶里还漾着一点淡粉的光，像刚被摇匀。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e536",
+    guestName: "陆安",
+    text: "第五百三十六次：请给我一方能擦掉热的帕。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

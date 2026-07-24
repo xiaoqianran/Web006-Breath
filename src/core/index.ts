@@ -161,3 +161,4 @@ export * from "./herbhang-label";
 export * from "./herboil-label";
 export * from "./salve-label";
 export * from "./gauze-label";
+export * from "./rosewater-label";
