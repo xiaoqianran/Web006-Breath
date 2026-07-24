@@ -4848,6 +4848,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e693",
+    guestName: "匿名",
+    text: "想用棒针织一行，让空白也能被温柔地织成柔软。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e694",
+    guestName: "禾",
+    text: "记号扣夹在行间时，像店把节奏也递给空白。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e695",
+    guestName: "阿初",
+    text: "棒针针身还带着一点木的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e696",
+    guestName: "陆安",
+    text: "第六百九十六次：请给我一行能织成柔软的线。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
