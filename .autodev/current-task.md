@@ -1,4 +1,4 @@
-# T0246 done
-next T0247
-252 tests (125 files) round 246
-ribbonmark-label + bookmark ribbon / page dogear + content 348/184
+# T0247 done
+next T0248
+253 tests (126 files) round 247
+ledger-label + shop ledger / soft pencil + content 352/186

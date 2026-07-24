@@ -327,6 +327,11 @@ import {
   formatRibbonmarkAside,
   formatRibbonmarkEncourage,
   formatRibbonmarkPair,
+  formatShopLedgerLine,
+  formatSoftPencilLine,
+  formatLedgerAside,
+  formatLedgerEncourage,
+  formatLedgerPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1363,6 +1368,8 @@ export class YixiApp {
         <div class="ink-pad-art" role="img" aria-label="印泥" data-testid="ink-pad-art"></div>
         <div class="bookmark-ribbon-art" role="img" aria-label="书签丝带" data-testid="bookmark-ribbon-art"></div>
         <div class="page-dogear-art" role="img" aria-label="页角折" data-testid="page-dogear-art"></div>
+        <div class="shop-ledger-art" role="img" aria-label="店账册" data-testid="shop-ledger-art"></div>
+        <div class="soft-pencil-art" role="img" aria-label="软铅笔" data-testid="soft-pencil-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1579,6 +1586,11 @@ export class YixiApp {
         <p class="muted" data-testid="ribbonmark-aside">${formatRibbonmarkAside(s.history.length)}</p>
         <p class="muted" data-testid="ribbonmark-encourage">${formatRibbonmarkEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="ribbonmark-pair">${formatRibbonmarkPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="shop-ledger-line">${formatShopLedgerLine(s.day)}</p>
+        <p class="muted" data-testid="soft-pencil-line">${formatSoftPencilLine(s.warmth)}</p>
+        <p class="muted" data-testid="ledger-aside">${formatLedgerAside(s.history.length)}</p>
+        <p class="muted" data-testid="ledger-encourage">${formatLedgerEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="ledger-pair">${formatLedgerPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

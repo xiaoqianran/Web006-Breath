@@ -2440,6 +2440,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e349",
+    guestName: "匿名",
+    text: "想把今天的进出轻轻记一行，不是算计，是记得。",
+    tags: ["安心", "想念"],
+    intensity: 2,
+  },
+  {
+    id: "e350",
+    guestName: "禾",
+    text: "软铅笔字迹浅而稳，改起来也容易。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e351",
+    guestName: "阿初",
+    text: "账册边有软折，像翻过很多次温柔的进出。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e352",
+    guestName: "陆安",
+    text: "第三百五十二次：请给我一页能写下流通的空白。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
