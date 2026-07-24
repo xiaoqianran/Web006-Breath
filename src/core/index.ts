@@ -225,3 +225,4 @@ export * from "./softfile-label";
 export * from "./softrouge-label";
 export * from "./softtweezers-label";
 export * from "./softcaliper-label";
+export * from "./softsaw-label";

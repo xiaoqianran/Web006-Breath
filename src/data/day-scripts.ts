@@ -3246,6 +3246,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 405,
+    title: "金工锯",
+    opener: "第四百零五日。金工锯静放，框沿还带着一点木的温。",
+    sampleIndexes: [788, 789, 790, 787],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 406,
+    title: "锯条",
+    opener: "第四百零六日。条穿过金属，像店把硬边也锯成缝。",
+    sampleIndexes: [789, 790, 791, 786],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

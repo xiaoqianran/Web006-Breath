@@ -5520,6 +5520,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e789",
+    guestName: "匿名",
+    text: "想用金工锯锯一缝，让硬边也能被温柔地锯开缝。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e790",
+    guestName: "禾",
+    text: "锯条穿过金属时，像店把硬边也锯成缝。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e791",
+    guestName: "阿初",
+    text: "金工锯框沿还带着一点木的温，像刚被握过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e792",
+    guestName: "陆安",
+    text: "第七百九十二次：请给我一缝能轻轻锯开的硬边。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
