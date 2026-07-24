@@ -121,3 +121,4 @@ export * from "./tagcard-label";
 export * from "./farewell-label";
 export * from "./dayend-label";
 export * from "./reopen-label";
+export * from "./entry-label";

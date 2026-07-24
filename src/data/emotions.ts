@@ -2636,7 +2636,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e377",
+    guestName: "匿名",
+    text: "想把湿伞先挂在架上，把外面的急也留一会儿。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e378",
+    guestName: "禾",
+    text: "门口踏垫很软，像轻轻说「慢一点进来」。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e379",
+    guestName: "阿初",
+    text: "伞架空着一格，像给迟到的雨也留了位子。",
+    tags: ["想念", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e380",
+    guestName: "听雨",
+    text: "第三百八十次：请给我一块能接住脚步的垫。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

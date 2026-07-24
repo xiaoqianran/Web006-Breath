@@ -222,7 +222,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/closing_lamp.jpg",
       "public/assets/ui/morning_cloth.jpg",
       "public/assets/ui/sill_vase.jpg",
+      "public/assets/ui/umbrella_stand.jpg",
+      "public/assets/ui/door_mat.jpg",
     ];
+
 
 
 

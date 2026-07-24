@@ -1598,7 +1598,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 199,
+    title: "雨伞架",
+    opener: "第一百九十九日。雨伞架空着一格，像给迟到的雨也留了位子。",
+    sampleIndexes: [376, 377, 378, 372],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 200,
+    title: "门口踏垫",
+    opener: "第二百日。门口踏垫很软，像轻轻说「慢一点进来」。",
+    sampleIndexes: [377, 378, 379, 374],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

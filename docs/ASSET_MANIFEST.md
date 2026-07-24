@@ -278,3 +278,5 @@
 | ART-208 | `public/assets/ui/closing_lamp.jpg` | 关店小灯 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-209 | `public/assets/ui/morning_cloth.jpg` | 晨间抹布 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-210 | `public/assets/ui/sill_vase.jpg` | 窗台小瓶 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-211 | `public/assets/ui/umbrella_stand.jpg` | 雨伞架 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-212 | `public/assets/ui/door_mat.jpg` | 门口踏垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
