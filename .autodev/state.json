@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0231-continue",
   "last_completed_task_id": "T0230-darn",
-  "last_commit": "PENDING",
+  "last_commit": "5cc0c0a0dab599d5ed9afcdadeeffab5af91fe9a",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 236 passed (109 files)",
   "core_loop_status": "playable_demo_ready",
@@ -41,6 +41,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0230 补衣蛋/针线册 darn-label + ART-163/164 + 内容284/152\n轮次: 230 / 1000 · v0.2.6 · M2\n测试: 236 passed；双 smoke warmth=19\n下一: T0231\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 5cc0c0a0dab599d5ed9afcdadeeffab5af91fe9a T0230 补衣蛋/针线册 · 轮次230\n轮次: 230 / 1000 · v0.2.6 · M2\n本段: T0226–T0230 线轴…补衣 · 内容284/152 · 测试236\n下一: T0231\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:12:30Z"
 }
