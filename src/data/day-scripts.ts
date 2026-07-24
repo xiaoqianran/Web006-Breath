@@ -1966,7 +1966,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 245,
+    title: "厨房沙漏",
+    opener: "第二百四十五日。厨房沙漏翻转，砂粒还带着一点慢的静。",
+    sampleIndexes: [468, 469, 470, 464],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 246,
+    title: "小铃铛",
+    opener: "第二百四十六日。小铃一响，像店说「可以揭了」。",
+    sampleIndexes: [469, 470, 471, 466],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

@@ -477,6 +477,11 @@ import {
   formatOvenmittAside,
   formatOvenmittEncourage,
   formatOvenmittPair,
+  formatKitchenHourglassLine,
+  formatSoftTimerBellLine,
+  formatTimerbellAside,
+  formatTimerbellEncourage,
+  formatTimerbellPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1573,6 +1578,8 @@ export class YixiApp {
         <div class="wood-paddle-art" role="img" aria-label="木铲" data-testid="wood-paddle-art"></div>
         <div class="oven-mitt-art" role="img" aria-label="隔热手套" data-testid="oven-mitt-art"></div>
         <div class="bake-pad-art" role="img" aria-label="烤盘垫" data-testid="bake-pad-art"></div>
+        <div class="kitchen-hourglass-art" role="img" aria-label="厨房沙漏" data-testid="kitchen-hourglass-art"></div>
+        <div class="soft-timer-bell-art" role="img" aria-label="小铃铛" data-testid="soft-timer-bell-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1939,6 +1946,11 @@ export class YixiApp {
         <p class="muted" data-testid="ovenmitt-aside">${formatOvenmittAside(s.history.length)}</p>
         <p class="muted" data-testid="ovenmitt-encourage">${formatOvenmittEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="ovenmitt-pair">${formatOvenmittPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="kitchen-hourglass-line">${formatKitchenHourglassLine(s.day)}</p>
+        <p class="muted" data-testid="soft-timer-bell-line">${formatSoftTimerBellLine(s.warmth)}</p>
+        <p class="muted" data-testid="timerbell-aside">${formatTimerbellAside(s.history.length)}</p>
+        <p class="muted" data-testid="timerbell-encourage">${formatTimerbellEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="timerbell-pair">${formatTimerbellPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

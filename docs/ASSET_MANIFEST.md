@@ -324,3 +324,5 @@
 | ART-254 | `public/assets/ui/wood_paddle.jpg` | 木铲 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-255 | `public/assets/ui/oven_mitt.jpg` | 隔热手套 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-256 | `public/assets/ui/bake_pad.jpg` | 烤盘垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-257 | `public/assets/ui/kitchen_hourglass.jpg` | 厨房沙漏 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-258 | `public/assets/ui/soft_timer_bell.jpg` | 小铃铛 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

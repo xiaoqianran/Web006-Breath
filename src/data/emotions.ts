@@ -3280,7 +3280,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e469",
+    guestName: "匿名",
+    text: "想用沙漏看着时间慢下去，而不是被闹钟吓醒。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e470",
+    guestName: "禾",
+    text: "小铃一响时，像店说「可以揭了」。",
+    tags: ["温柔", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e471",
+    guestName: "阿初",
+    text: "厨房沙漏翻转，砂粒还带着一点慢的静。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e472",
+    guestName: "陆安",
+    text: "第四百七十二次：请给我一声能温柔提醒的铃。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 
