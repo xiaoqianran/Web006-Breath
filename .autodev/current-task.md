@@ -1,4 +1,4 @@
-# T0226 done
-next T0227
-232 tests (105 files) round 226
-spool-label + thread spool / beeswax brick + content 268/144
+# T0227 done
+next T0228
+233 tests (106 files) round 227
+shears-label + soft shears / snip dish + content 272/146

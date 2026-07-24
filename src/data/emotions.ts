@@ -1880,6 +1880,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e269",
+    guestName: "匿名",
+    text: "想剪断一段拖了很久的线，给自己一个干净的句号。",
+    tags: ["勇气", "释然"],
+    intensity: 4,
+  },
+  {
+    id: "e270",
+    guestName: "小满",
+    text: "剪刀合拢的声音，比说话更像结束。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e271",
+    guestName: "林",
+    text: "剪线碟里的碎彩，像有人认真收过口。",
+    tags: ["想念", "释然"],
+    intensity: 3,
+  },
+  {
+    id: "e272",
+    guestName: "陆安",
+    text: "第二百七十二次：请给我一把能剪出边界的软剪。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

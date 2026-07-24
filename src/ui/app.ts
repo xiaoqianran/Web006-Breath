@@ -227,6 +227,11 @@ import {
   formatSpoolAside,
   formatSpoolEncourage,
   formatSpoolPair,
+  formatSoftShearsLine,
+  formatSnipDishLine,
+  formatShearsAside,
+  formatShearsEncourage,
+  formatShearsPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1223,6 +1228,8 @@ export class YixiApp {
         <div class="soft-tape-art" role="img" aria-label="软尺" data-testid="soft-tape-art"></div>
         <div class="thread-spool-art" role="img" aria-label="线轴" data-testid="thread-spool-art"></div>
         <div class="beeswax-brick-art" role="img" aria-label="蜂蜡砖" data-testid="beeswax-brick-art"></div>
+        <div class="soft-shears-art" role="img" aria-label="软剪" data-testid="soft-shears-art"></div>
+        <div class="snip-dish-art" role="img" aria-label="剪线碟" data-testid="snip-dish-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1339,6 +1346,11 @@ export class YixiApp {
         <p class="muted" data-testid="spool-aside">${formatSpoolAside(s.circulationsToday)}</p>
         <p class="muted" data-testid="spool-encourage">${formatSpoolEncourage(qLen)}</p>
         <p class="muted" data-testid="spool-pair">${formatSpoolPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soft-shears-line">${formatSoftShearsLine(s.day)}</p>
+        <p class="muted" data-testid="snip-dish-line">${formatSnipDishLine(s.history.length)}</p>
+        <p class="muted" data-testid="shears-aside">${formatShearsAside(s.warmth)}</p>
+        <p class="muted" data-testid="shears-encourage">${formatShearsEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="shears-pair">${formatShearsPair(s.day, s.history.length)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
