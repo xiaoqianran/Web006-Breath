@@ -2046,7 +2046,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 255,
+    title: "饼干模",
+    opener: "第二百五十五日。饼干模按下，边缘还带着一点粉的白。",
+    sampleIndexes: [488, 489, 490, 484],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 256,
+    title: "冷却架",
+    opener: "第二百五十六日。冷却架接住刚出炉的热，像店把烫也摊开呼吸。",
+    sampleIndexes: [489, 490, 491, 486],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

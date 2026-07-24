@@ -3420,7 +3420,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e489",
+    guestName: "匿名",
+    text: "想用饼干模压出小小的形状，不定心情，只定一枚温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e490",
+    guestName: "禾",
+    text: "冷却架接住刚出炉的热时，像店把烫也摊开呼吸。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e491",
+    guestName: "阿初",
+    text: "饼干模边缘还带着一点粉的白，像刚压过面。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e492",
+    guestName: "听雨",
+    text: "第四百九十二次：请给我一架能晾凉热香的网。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

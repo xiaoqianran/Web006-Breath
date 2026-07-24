@@ -502,6 +502,11 @@ import {
   formatScraperAside,
   formatScraperEncourage,
   formatScraperPair,
+  formatCookieCutterLine,
+  formatCoolingRackLine,
+  formatCutterAside,
+  formatCutterEncourage,
+  formatCutterPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1608,6 +1613,8 @@ export class YixiApp {
         <div class="dust-spoon-art" role="img" aria-label="撒粉勺" data-testid="dust-spoon-art"></div>
         <div class="dough-scraper-art" role="img" aria-label="面团刮板" data-testid="dough-scraper-art"></div>
         <div class="bake-parchment-art" role="img" aria-label="烘焙纸" data-testid="bake-parchment-art"></div>
+        <div class="cookie-cutter-art" role="img" aria-label="饼干模" data-testid="cookie-cutter-art"></div>
+        <div class="cooling-rack-art" role="img" aria-label="冷却架" data-testid="cooling-rack-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1999,6 +2006,11 @@ export class YixiApp {
         <p class="muted" data-testid="scraper-aside">${formatScraperAside(s.history.length)}</p>
         <p class="muted" data-testid="scraper-encourage">${formatScraperEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="scraper-pair">${formatScraperPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="cookie-cutter-line">${formatCookieCutterLine(s.day)}</p>
+        <p class="muted" data-testid="cooling-rack-line">${formatCoolingRackLine(s.warmth)}</p>
+        <p class="muted" data-testid="cutter-aside">${formatCutterAside(s.history.length)}</p>
+        <p class="muted" data-testid="cutter-encourage">${formatCutterEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="cutter-pair">${formatCutterPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

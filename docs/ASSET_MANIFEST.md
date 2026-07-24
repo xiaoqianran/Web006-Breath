@@ -334,3 +334,5 @@
 | ART-264 | `public/assets/ui/dust_spoon.jpg` | 撒粉勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-265 | `public/assets/ui/dough_scraper.jpg` | 面团刮板 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-266 | `public/assets/ui/bake_parchment.jpg` | 烘焙纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-267 | `public/assets/ui/cookie_cutter.jpg` | 饼干模 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-268 | `public/assets/ui/cooling_rack.jpg` | 冷却架 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
