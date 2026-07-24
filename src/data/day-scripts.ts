@@ -3390,6 +3390,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 423,
+    title: "铸锭模",
+    opener: "第四百二十三日。铸锭模静放，槽沿还带着一点金属的凉。",
+    sampleIndexes: [824, 825, 826, 823],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 424,
+    title: "熔金碗",
+    opener: "第四百二十四日。金在碗中流，像店把流金也收成锭。",
+    sampleIndexes: [825, 826, 827, 822],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

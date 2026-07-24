@@ -502,3 +502,5 @@
 | ART-432 | `public/assets/ui/soft_crucible.jpg` | 坩埚 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-433 | `public/assets/ui/draw_plate.jpg` | 抽丝板 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-434 | `public/assets/ui/draw_tongs.jpg` | 抽丝钳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-435 | `public/assets/ui/ingot_mold.jpg` | 铸锭模 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-436 | `public/assets/ui/melting_dish.jpg` | 熔金碗 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

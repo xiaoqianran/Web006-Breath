@@ -5772,6 +5772,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e825",
+    guestName: "匿名",
+    text: "想把流金倒进铸锭模，让它也能被温柔地收成锭。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e826",
+    guestName: "禾",
+    text: "金在熔金碗中流时，像店把流金也收成锭。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e827",
+    guestName: "阿初",
+    text: "铸锭模槽沿还带着一点金属的凉，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e828",
+    guestName: "陆安",
+    text: "第八百二十八次：请给我一锭能温柔收成的形。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
