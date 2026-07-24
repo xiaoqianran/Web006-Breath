@@ -1147,6 +1147,14 @@ export class YixiApp {
         <p class="muted" data-testid="revisit-hint">${formatRevisitHint(s)}</p>
         <p class="muted" data-testid="revisit-eligibility">${formatRevisitEligibilityAside(evaluateRevisitEligibility(s))}</p>
         <p class="muted" data-testid="revisit-luggage">${formatRevisitLuggageAside()}</p>
+        ${
+          (() => {
+            const elig = evaluateRevisitEligibility(s);
+            return elig.topName
+              ? `<p class="muted" data-testid="revisit-welcome">${formatRevisitWelcome(elig.topName)}</p>`
+              : "";
+          })()
+        }
       `;
       if (s.lastResult) {
         card.appendChild(this.renderLastResult(s));
