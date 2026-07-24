@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0235-continue",
   "last_completed_task_id": "T0234-awl",
-  "last_commit": "PENDING",
+  "last_commit": "cbc1b08763897be4c4675d2467e74e66da1810cc",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 240 passed (113 files)",
   "core_loop_status": "playable_demo_ready",
@@ -43,6 +43,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0234 锥子/骨刀 awl-label + ART-171/172 + 内容300/160\n轮次: 234 / 1000 · v0.2.6 · M2\n测试: 240 passed；双 smoke warmth=19\n下一: T0235\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: cbc1b08763897be4c4675d2467e74e66da1810cc T0234 锥子/骨刀 · 情绪300/剧本160\n轮次: 234 / 1000 · v0.2.6 · M2\n本段: T0230–T0234 补衣…锥子 · 内容300/160 · 测试240\n下一: T0235\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:20:00Z"
 }
