@@ -322,3 +322,5 @@
 | ART-252 | `public/assets/ui/vinegar_dish.jpg` | 醋碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-253 | `public/assets/ui/clay_lid.jpg` | 小砂锅盖 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-254 | `public/assets/ui/wood_paddle.jpg` | 木铲 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-255 | `public/assets/ui/oven_mitt.jpg` | 隔热手套 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-256 | `public/assets/ui/bake_pad.jpg` | 烤盘垫 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

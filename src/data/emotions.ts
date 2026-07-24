@@ -3252,7 +3252,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e465",
+    guestName: "匿名",
+    text: "想戴上隔热手套再端热盘，让手也有被保护的权利。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e466",
+    guestName: "禾",
+    text: "烤盘垫接住热底时，像店把烫也托在掌外。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e467",
+    guestName: "阿初",
+    text: "隔热手套布面还带着厚的软，像刚被套过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e468",
+    guestName: "听雨",
+    text: "第四百六十八次：请给我一块能接住热盘的垫。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

@@ -1950,7 +1950,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 243,
+    title: "隔热手套",
+    opener: "第二百四十三日。隔热手套套上，布面还带着一点厚的软。",
+    sampleIndexes: [464, 465, 466, 460],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 244,
+    title: "烤盘垫",
+    opener: "第二百四十四日。烤盘垫接住热底，像店把烫也托在掌外。",
+    sampleIndexes: [465, 466, 467, 462],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
