@@ -87,6 +87,9 @@ import {
   formatShuttersLine,
   formatOpenEncourage,
   formatAtmosphereShort,
+  formatMoonLine,
+  formatMoonCraftAside,
+  formatMoonClosing,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -887,13 +890,16 @@ export class YixiApp {
     hud.innerHTML = `
       <div class="day-calendar-art" role="img" aria-label="今日日历装饰" data-testid="day-calendar-art"></div>
       <div class="day-page-art" role="img" aria-label="日历页" data-testid="day-page-art"></div>
+      <div class="moon-calendar-art" role="img" aria-label="月相盘" data-testid="moon-calendar-art"></div>
       <div class="twin-cups-art" role="img" aria-label="双杯茶盘" data-testid="twin-cups-art"></div>
       <span>阶段 <strong data-testid="phase-label">${phaseLabel(s.phase)}</strong></span>
       <span class="chalkboard-art" role="img" aria-label="提示板" data-testid="chalkboard-art"></span>
       <span class="muted" data-testid="phase-hint">${formatPhaseHintLine(s.phase)}</span>
       <span class="muted" data-testid="atmosphere-line">${formatAtmosphereLine(s.day)}</span>
+      <span class="muted" data-testid="moon-line">${formatMoonLine(s.day)}</span>
       <span data-testid="day-header">${formatDayHeaderLine(s.day, getDayScript(s.day).title)}</span>
       <span class="muted" data-testid="atmosphere-craft-hint">${formatAtmosphereCraftHint(s.day)}</span>
+      <span class="muted" data-testid="moon-craft-aside">${formatMoonCraftAside(s.day)}</span>
       <span class="wind-chime-art" role="img" aria-label="风铃" data-testid="wind-chime-art"></span>
       <span class="muted" data-testid="wind-chime-line">${formatWindChimeLine(s.day)}</span>
       <span class="shop-cat-art" role="img" aria-label="店猫" data-testid="shop-cat-art"></span>
@@ -1173,7 +1179,9 @@ export class YixiApp {
         <p class="muted" data-testid="day-end-reputation">${dayEnd.reputationLine}</p>
         <p class="muted" data-testid="day-end-favor">${dayEnd.favorLine}</p>
         <p data-testid="day-end-closing">${dayEnd.closingLine}</p>
+        <div class="evening-window-art" role="img" aria-label="暮色橱窗" data-testid="evening-window-art"></div>
         <p class="muted" data-testid="day-end-atmosphere">${formatAtmosphereClosing(s.day)}</p>
+        <p class="muted" data-testid="day-end-moon">${formatMoonClosing(s.day)}</p>
         <div class="night-rain-window-art" role="img" aria-label="夜雨窗" data-testid="night-rain-window-art"></div>
         <div class="puddle-dusk-art" role="img" aria-label="暮色水洼" data-testid="puddle-dusk-art"></div>
         <div class="window-seat-art" role="img" aria-label="窗边座位" data-testid="window-seat-art"></div>

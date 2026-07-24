@@ -1040,6 +1040,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "安心"],
     intensity: 4,
   },
+  {
+    id: "e149",
+    guestName: "匿名",
+    text: "抬头看了一眼月相盘，忽然不急着把话说完。",
+    tags: ["释然", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e150",
+    guestName: "林晚",
+    text: "第一百五十次推门：满月那样亮的心情，想交给你。",
+    tags: ["期待", "温柔"],
+    intensity: 5,
+  },
+  {
+    id: "e151",
+    guestName: "听雨",
+    text: "暮色贴在玻璃上，像有人用雾气写了半个名字。",
+    tags: ["想念", "孤独"],
+    intensity: 3,
+  },
+  {
+    id: "e152",
+    guestName: "南枝",
+    text: "残月很细，细到刚好能装进一封短笺。",
+    tags: ["温柔", "想念"],
+    intensity: 3,
+  },
 ];
 
 

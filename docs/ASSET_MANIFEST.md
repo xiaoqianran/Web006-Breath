@@ -167,3 +167,5 @@
 | ART-097 | `public/assets/ui/postcards.jpg` | 明信片叠 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-098 | `public/assets/ui/shop_key.jpg` | 店钥匙 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-099 | `public/assets/bg/shutters_light.jpg` | 百叶窗光 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-100 | `public/assets/ui/moon_calendar.jpg` | 月相盘 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-101 | `public/assets/bg/evening_window.jpg` | 暮色橱窗 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
