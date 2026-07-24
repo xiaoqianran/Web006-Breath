@@ -318,3 +318,5 @@
 | ART-248 | `public/assets/ui/guest_napkin.jpg` | 客人餐巾 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-249 | `public/assets/ui/place_mat.jpg` | 餐垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-250 | `public/assets/ui/chopstick_rest.jpg` | 筷枕 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-251 | `public/assets/ui/soy_cruet.jpg` | 小酱油盅 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-252 | `public/assets/ui/vinegar_dish.jpg` | 醋碟 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

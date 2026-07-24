@@ -1918,7 +1918,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 239,
+    title: "小酱油盅",
+    opener: "第二百三十九日。小酱油盅摆正，盅口还带着一点深的亮。",
+    sampleIndexes: [456, 457, 458, 452],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 240,
+    title: "醋碟",
+    opener: "第二百四十日。醋碟靠着盅旁，像店把选择也摆成温柔。",
+    sampleIndexes: [457, 458, 459, 454],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

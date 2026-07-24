@@ -462,6 +462,11 @@ import {
   formatPlacematAside,
   formatPlacematEncourage,
   formatPlacematPair,
+  formatSoyCruetLine,
+  formatVinegarDishLine,
+  formatSoycruetAside,
+  formatSoycruetEncourage,
+  formatSoycruetPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1552,6 +1557,8 @@ export class YixiApp {
         <div class="guest-napkin-art" role="img" aria-label="客人餐巾" data-testid="guest-napkin-art"></div>
         <div class="place-mat-art" role="img" aria-label="餐垫" data-testid="place-mat-art"></div>
         <div class="chopstick-rest-art" role="img" aria-label="筷枕" data-testid="chopstick-rest-art"></div>
+        <div class="soy-cruet-art" role="img" aria-label="小酱油盅" data-testid="soy-cruet-art"></div>
+        <div class="vinegar-dish-art" role="img" aria-label="醋碟" data-testid="vinegar-dish-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1903,6 +1910,11 @@ export class YixiApp {
         <p class="muted" data-testid="placemat-aside">${formatPlacematAside(s.history.length)}</p>
         <p class="muted" data-testid="placemat-encourage">${formatPlacematEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="placemat-pair">${formatPlacematPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="soy-cruet-line">${formatSoyCruetLine(s.day)}</p>
+        <p class="muted" data-testid="vinegar-dish-line">${formatVinegarDishLine(s.warmth)}</p>
+        <p class="muted" data-testid="soycruet-aside">${formatSoycruetAside(s.history.length)}</p>
+        <p class="muted" data-testid="soycruet-encourage">${formatSoycruetEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="soycruet-pair">${formatSoycruetPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

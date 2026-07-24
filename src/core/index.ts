@@ -142,3 +142,4 @@ export * from "./milkjug-label";
 export * from "./citrus-label";
 export * from "./napkin-label";
 export * from "./placemat-label";
+export * from "./soycruet-label";

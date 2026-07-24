@@ -3196,7 +3196,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e457",
+    guestName: "匿名",
+    text: "想把酱油与醋轻轻摆在桌边，让选择也轻一点。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e458",
+    guestName: "禾",
+    text: "醋碟靠着盅旁，像店把选择也摆成温柔。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e459",
+    guestName: "阿初",
+    text: "小酱油盅口还带着一点深的亮，像刚被点过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e460",
+    guestName: "听雨",
+    text: "第四百六十次：请给我一碟能醒味的酸。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 
