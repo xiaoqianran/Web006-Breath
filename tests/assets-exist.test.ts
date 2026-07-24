@@ -238,7 +238,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/blotting_paper.jpg",
       "public/assets/ui/wooden_bookend.jpg",
       "public/assets/ui/page_weight.jpg",
+      "public/assets/ui/paper_shade.jpg",
+      "public/assets/ui/cord_switch.jpg",
     ];
+
 
 
 

@@ -2860,7 +2860,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e409",
+    guestName: "匿名",
+    text: "想把纸灯罩轻轻罩上，让光只聚在可读的一圈。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e410",
+    guestName: "禾",
+    text: "灯绳一拉，像店把桌面轻轻圈进暖光。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e411",
+    guestName: "阿初",
+    text: "纸灯罩边还带着柔晕，像刚被暖光碰过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e412",
+    guestName: "听雨",
+    text: "第四百一十二次：请给我一盏能聚光的纸罩灯。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

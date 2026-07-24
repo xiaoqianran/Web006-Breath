@@ -294,3 +294,5 @@
 | ART-224 | `public/assets/ui/blotting_paper.jpg` | 吸墨纸 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-225 | `public/assets/ui/wooden_bookend.jpg` | 木质书立 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-226 | `public/assets/ui/page_weight.jpg` | 页镇 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-227 | `public/assets/ui/paper_shade.jpg` | 纸灯罩 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-228 | `public/assets/ui/cord_switch.jpg` | 灯绳开关 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

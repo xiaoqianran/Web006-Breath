@@ -1726,7 +1726,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 215,
+    title: "纸灯罩",
+    opener: "第二百一十五日。纸灯罩罩住灯芯，光边还带着一点柔晕。",
+    sampleIndexes: [408, 409, 410, 404],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 216,
+    title: "灯绳开关",
+    opener: "第二百一十六日。灯绳一拉，像店把桌面轻轻圈进暖光。",
+    sampleIndexes: [409, 410, 411, 406],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 
