@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 358,
+  "current_round": 359,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0359-continue",
-  "last_completed_task_id": "T0358-softpitch",
-  "last_commit": "ca65d299e9b4f60bf8f0ddccb221b9e36bb793bf",
+  "current_task_id": "T0360-continue",
+  "last_completed_task_id": "T0359-softdapping",
+  "last_commit": "111c386821a61bd52120c491dff88414ca95cbfc",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 364 passed (237 files)",
+  "last_test_summary": "vitest: 365 passed (238 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -102,14 +102,16 @@
     "D-084 T0353 美术 ART 满 410",
     "D-085 T0354 日剧本满 400",
     "D-086 T0354 测试满 360",
-    "D-087 T0358 美术 ART 满 420"
+    "D-087 T0358 美术 ART 满 420",
+    "D-088 T0359 情绪样本满 800",
+    "D-089 T0359 日剧本满 410"
   ],
   "next_candidate_tasks": [
-    "T0359-continue",
+    "T0360-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: ca65d299e9b4f60bf8f0ddccb221b9e36bb793bf T0358 胶碗錾刀 · 轮次358\n轮次: 358 / 1000 · v0.2.6 · M2\n本段: T0354–T0358 · 内容796/408 · 测试364 · ART~420 · D-087\n下一: T0359（情绪满 800 候选）\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T05:35:18Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 111c386821a61bd52120c491dff88414ca95cbfc T0359 拱形垫冲头 · 轮次359\n轮次: 359 / 1000 · v0.2.6 · M2\n本段: T0355–T0359 · 内容800/410 · 测试365 · ART~422 · D-089\n下一: T0360\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T05:37:56Z"
 }
