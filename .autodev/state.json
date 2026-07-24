@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 312,
+  "current_round": 313,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0313-continue",
-  "last_completed_task_id": "T0312-thermos",
-  "last_commit": "8509ed3562e91d7e33ef25ec5a9e27297ad655ff",
+  "current_task_id": "T0314-continue",
+  "last_completed_task_id": "T0313-softbeanie",
+  "last_commit": "f259a9852a29fbc6d862ae2402528b0dd72f8cf3",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 318 passed (191 files)",
+  "last_test_summary": "vitest: 319 passed (192 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -73,14 +73,15 @@
     "D-055 T0300 开发轮次满 300",
     "D-056 T0304 日剧本满 300",
     "D-057 T0309 情绪样本满 600",
-    "D-058 T0310 开发轮次满 310"
+    "D-058 T0310 开发轮次满 310",
+    "D-059 T0313 美术 ART 满 330"
   ],
   "next_candidate_tasks": [
-    "T0313-continue",
+    "T0314-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8509ed3562e91d7e33ef25ec5a9e27297ad655ff T0312 保温瓷壶/羊毛套 · 轮次312\n轮次: 312 / 1000 · v0.2.6 · M2\n本段: T0308–T0312 · 内容612/316 · 测试318 · ART~328 · D-057/058\n下一: T0313\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:58:00Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: f259a9852a29fbc6d862ae2402528b0dd72f8cf3 T0313 软织毛线帽/木帽托 · 轮次313 · ART330\n轮次: 313 / 1000 · v0.2.6 · M2\n本段: T0309–T0313 · 内容616/318 · 测试319 · ART~330 · D-059\n下一: T0314\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:00:00Z"
 }
