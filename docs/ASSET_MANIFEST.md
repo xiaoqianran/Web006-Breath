@@ -364,3 +364,5 @@
 | ART-294 | `public/assets/ui/pump_cap.jpg` | 按压泵 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-295 | `public/assets/ui/bath_salt_jar.jpg` | 浴盐罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-296 | `public/assets/ui/shell_scoop.jpg` | 贝壳勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-297 | `public/assets/ui/diffuser_bottle.jpg` | 香薰瓶 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-298 | `public/assets/ui/rattan_reed.jpg` | 藤条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

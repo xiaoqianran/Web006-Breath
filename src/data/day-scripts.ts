@@ -2286,6 +2286,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 285,
+    title: "香薰瓶",
+    opener: "第二百八十五日。香薰瓶立稳，瓶里还漾着一点琥珀的光。",
+    sampleIndexes: [548, 549, 550, 544],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 286,
+    title: "藤条",
+    opener: "第二百八十六日。藤条从瓶口抽出，像店把香气也递给整间店。",
+    sampleIndexes: [549, 550, 551, 546],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -3840,6 +3840,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e549",
+    guestName: "匿名",
+    text: "想插几根藤条，让空气也接到可慢慢散开的温柔。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e550",
+    guestName: "禾",
+    text: "藤条从瓶口抽出时，像店把香气也递给整间店。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e551",
+    guestName: "阿初",
+    text: "香薰瓶里还漾着一点琥珀的光，像刚被摇匀。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e552",
+    guestName: "陆安",
+    text: "第五百五十二次：请给我一缕能散开的香。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
