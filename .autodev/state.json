@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0239-continue",
   "last_completed_task_id": "T0238-endpaper",
-  "last_commit": "PENDING",
+  "last_commit": "4a2372316de29314ddda8400c3a1bb97128edcbc",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 244 passed (117 files)",
   "core_loop_status": "playable_demo_ready",
@@ -44,6 +44,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0238 环衬/天头丝带 endpaper-label + ART-179/180 + 内容316/168\n轮次: 238 / 1000 · v0.2.6 · M2\n测试: 244 passed；双 smoke warmth=19\n下一: T0239\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 4a2372316de29314ddda8400c3a1bb97128edcbc T0238 环衬/天头丝带 · ART180\n轮次: 238 / 1000 · v0.2.6 · M2\n本段: T0234–T0238 锥子…环衬 · 内容316/168 · 测试244\n下一: T0239\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T01:27:10Z"
 }
