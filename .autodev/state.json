@@ -8,7 +8,7 @@
   "current_milestone": "M2-systems",
   "current_task_id": "T0223-continue",
   "last_completed_task_id": "T0222-frame",
-  "last_commit": "PENDING",
+  "last_commit": "b24d3e765c95fbee81d5a2644c98d66041c694d8",
   "last_verified_build": "npm run check OK",
   "last_test_summary": "vitest: 228 passed (101 files)",
   "core_loop_status": "playable_demo_ready",
@@ -36,6 +36,6 @@
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0222 画框/挂绳 frame-label + ART-147/148 + 内容252/136\n轮次: 222 / 1000 · v0.2.6 · M2\n测试: 228 passed；双 smoke warmth=19\n下一: T0223\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: b24d3e765c95fbee81d5a2644c98d66041c694d8 T0222 画框/挂绳\n轮次: 222 / 1000 · v0.2.6 · M2\n本段: T0218–T0222 …画框 · 内容252/136 · 测试228\n下一: T0223\n命令: cd /root/wk && npm run check && npm run dev\n",
   "updated_at": "2026-07-24T00:58:20Z"
 }
