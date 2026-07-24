@@ -1422,6 +1422,47 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/vessel_tray.jpg") center/cover no-repeat;
 }
 
+.soft-candle-art {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/soft_candle.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.soft-candle-art--lg {
+  display: block;
+  height: 72px;
+  width: 72px;
+  margin: 0 auto 0.65rem;
+}
+
+.wish-tags-art {
+  height: 40px;
+  width: 56px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/wish_tags.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.wish-tags-art--lg {
+  display: block;
+  height: 80px;
+  width: auto;
+  max-width: 280px;
+  margin: 0 auto 0.65rem;
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;

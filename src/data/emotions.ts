@@ -1180,6 +1180,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["温柔", "安心"],
     intensity: 4,
   },
+  {
+    id: "e169",
+    guestName: "匿名",
+    text: "烛火一亮，我忽然敢把今天的话小声说完。",
+    tags: ["勇气", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e170",
+    guestName: "听雨",
+    text: "想把愿望写成纸签，挂在梁上随风轻晃。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e171",
+    guestName: "林晚",
+    text: "第一百七十一次：请让这点光，也流通到别人手里。",
+    tags: ["温柔", "想念"],
+    intensity: 4,
+  },
+  {
+    id: "e172",
+    guestName: "禾",
+    text: "烛芯稳了，我的心也跟着不抖了。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
 ];
 
 

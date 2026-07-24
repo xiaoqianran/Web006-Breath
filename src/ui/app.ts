@@ -104,6 +104,11 @@ import {
   formatTrayFullAside,
   formatTrayServeAside,
   formatTrayEncourage,
+  formatCandleLine,
+  formatCandleAside,
+  formatWishTagLine,
+  formatWishHangAside,
+  formatCandleWishPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -924,6 +929,12 @@ export class YixiApp {
       <span class="muted" data-testid="shop-cat-line">${formatShopCatLine(s.circulationsToday)}</span>
       <span class="muted" data-testid="ambience-encourage">${formatAmbienceEncourage(s.day)}</span>
       <span data-testid="warmth-line"><span class="warmth-jar-art warmth-jar-art--hud" role="img" aria-label="温存罐"></span>温存 <strong data-testid="warmth">${s.warmth}</strong> · ${warmthRankTitle(s.warmth)}</span>
+      <span class="soft-candle-art" role="img" aria-label="柜台烛火" data-testid="soft-candle-art"></span>
+      <span class="muted" data-testid="candle-line">${formatCandleLine(s.warmth)}</span>
+      <span class="muted" data-testid="candle-aside">${formatCandleAside(s.warmth)}</span>
+      <span class="wish-tags-art" role="img" aria-label="祈愿签" data-testid="wish-tags-art"></span>
+      <span class="muted" data-testid="wish-tag-line">${formatWishTagLine(s.history.length)}</span>
+      <span class="muted" data-testid="candle-wish-pair">${formatCandleWishPair(s.warmth, s.history.length)}</span>
       <span class="muted" data-testid="warmth-progress">${formatWarmthProgress(s.warmth)}</span>
       <span class="muted" data-testid="warmth-encourage">${formatWarmthEncourage(s.warmth)}</span>
       <span data-testid="reputation-line">口碑 <strong>${s.reputation}</strong> · ${reputationRankTitle(s.reputation)}</span>
@@ -1205,9 +1216,14 @@ export class YixiApp {
         <div class="day-complete-art" role="img" aria-label="打烊窗景插画" data-testid="day-complete-art"></div>
         <div class="closed-sign-art" role="img" aria-label="打烊门牌" data-testid="closed-sign-art"></div>
         <div class="warmth-jar-art" role="img" aria-label="温存罐插画" data-testid="warmth-jar-art"></div>
+        <div class="soft-candle-art soft-candle-art--lg" role="img" aria-label="打烊烛火" data-testid="day-end-candle-art"></div>
+        <div class="wish-tags-art wish-tags-art--lg" role="img" aria-label="梁上祈愿签" data-testid="day-end-wish-tags-art"></div>
         <h2>今日打烊</h2>
         <p data-testid="day-end-warmth">你完成了今日的情绪流通。${dayEnd.warmthLine}，今日流通 ${s.circulationsToday} 次。</p>
         <p class="muted" data-testid="day-end-warmth-encourage">${formatWarmthEncourage(s.warmth)}</p>
+        <p class="muted" data-testid="day-end-candle">${formatCandleAside(s.warmth)}</p>
+        <p class="muted" data-testid="day-end-wish">${formatWishTagLine(s.history.length)}</p>
+        <p class="muted" data-testid="day-end-wish-hang">${formatWishHangAside(true)} ${formatWishHangAside(false)}</p>
         <p class="muted" data-testid="day-end-circulation">${dayEnd.circulationLine}</p>
         <p class="muted" data-testid="day-end-reputation">${dayEnd.reputationLine}</p>
         <p class="muted" data-testid="day-end-favor">${dayEnd.favorLine}</p>
