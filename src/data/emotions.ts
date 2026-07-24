@@ -2244,6 +2244,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e321",
+    guestName: "匿名",
+    text: "想先画一条直线，再把今天的混乱裁齐。",
+    tags: ["疲惫", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e322",
+    guestName: "禾",
+    text: "直尺贴着纸时，心也忽然稳了一寸。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e323",
+    guestName: "阿初",
+    text: "裁切垫上的浅痕，像有人认真对齐过很多边。",
+    tags: ["想念", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e324",
+    guestName: "听雨",
+    text: "第三百二十四次：请给我一把能裁出边界的尺。",
+    tags: ["期待", "安心"],
+    intensity: 3,
+  },
 ];
 
 

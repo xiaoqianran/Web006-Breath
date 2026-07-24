@@ -1374,6 +1374,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 30,
   },
+  {
+    day: 171,
+    title: "裁切垫",
+    opener: "第一百七十一日。裁切垫换了浅绿格，量一量，再下刀。",
+    sampleIndexes: [320, 321, 322, 316],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 172,
+    title: "直尺边",
+    opener: "第一百七十二日。直尺贴着纸，线会直一点，心也稳一点。",
+    sampleIndexes: [321, 322, 323, 318],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 239,
+  "current_round": 240,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0240-continue",
-  "last_completed_task_id": "T0239-glue",
-  "last_commit": "c4162d44b10cff90254546149a52a875585358c3",
+  "current_task_id": "T0241-continue",
+  "last_completed_task_id": "T0240-matcut",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 245 passed (118 files)",
+  "last_test_summary": "vitest: 246 passed (119 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -37,14 +37,15 @@
     "D-019 T0233 美术 ART 满 170",
     "D-020 T0234 情绪 300 / 剧本 160",
     "D-021 T0238 美术 ART 满 180",
-    "D-022 T0239 情绪 320 / 剧本 170"
+    "D-022 T0239 情绪 320 / 剧本 170",
+    "D-023 T0240 开发轮次满 240"
   ],
   "next_candidate_tasks": [
-    "T0240-continue",
+    "T0241-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: c4162d44b10cff90254546149a52a875585358c3 T0239 浆糊盅/排刷 · 情绪320/剧本170\n轮次: 239 / 1000 · v0.2.6 · M2\n本段: T0236–T0239 装订…浆糊 · 内容320/170 · 测试245\n下一: T0240\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T01:28:55Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0240 裁切垫/直尺 matcut-label + ART-183/184 + 内容324/172\n轮次: 240 / 1000 · v0.2.6 · M2\n测试: 246 passed；双 smoke warmth=19\n下一: T0241\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T01:30:50Z"
 }
