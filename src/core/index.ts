@@ -157,3 +157,4 @@ export * from "./recipecard-label";
 export * from "./oventhermo-label";
 export * from "./spicejar-label";
 export * from "./mortar-label";
+export * from "./herbhang-label";

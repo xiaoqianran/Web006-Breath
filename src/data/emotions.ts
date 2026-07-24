@@ -3616,7 +3616,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e517",
+    guestName: "匿名",
+    text: "想把草药绑成一束吊在梁下，让时间也帮忙风干。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e518",
+    guestName: "禾",
+    text: "挂绳绕过梁钉时，像店把等待也吊成风景。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e519",
+    guestName: "阿初",
+    text: "干草药束叶尖还带着干后的脆，像刚被绑好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e520",
+    guestName: "陆安",
+    text: "第五百二十次：请给我一根能吊住季节的绳。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 

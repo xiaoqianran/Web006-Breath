@@ -292,7 +292,10 @@ describe("static assets on disk", () => {
       "public/assets/ui/wood_scoop.jpg",
       "public/assets/ui/stone_mortar.jpg",
       "public/assets/ui/wood_pestle.jpg",
+      "public/assets/ui/herb_bundle.jpg",
+      "public/assets/ui/hang_twine.jpg",
     ];
+
 
 
 

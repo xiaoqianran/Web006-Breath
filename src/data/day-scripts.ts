@@ -2158,7 +2158,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 269,
+    title: "干草药束",
+    opener: "第二百六十九日。干草药束绑好，叶尖还带着一点干后的脆。",
+    sampleIndexes: [516, 517, 518, 512],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 270,
+    title: "挂绳",
+    opener: "第二百七十日。挂绳绕过梁钉，像店把等待也吊成风景。",
+    sampleIndexes: [517, 518, 519, 514],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

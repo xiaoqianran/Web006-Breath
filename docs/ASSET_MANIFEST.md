@@ -348,3 +348,5 @@
 | ART-278 | `public/assets/ui/wood_scoop.jpg` | 木勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-279 | `public/assets/ui/stone_mortar.jpg` | 石臼 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-280 | `public/assets/ui/wood_pestle.jpg` | 木杵 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-281 | `public/assets/ui/herb_bundle.jpg` | 干草药束 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-282 | `public/assets/ui/hang_twine.jpg` | 挂绳 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
