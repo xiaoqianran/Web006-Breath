@@ -172,3 +172,4 @@
 | ART-102 | `public/assets/ui/soft_compass.jpg` | 温柔罗盘 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-103 | `public/assets/ui/street_map.jpg` | 巷口地图 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-104 | `public/assets/ui/hourglass.jpg` | 沙漏 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-105 | `public/assets/ui/ink_seal.jpg` | 朱砂印鉴 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |

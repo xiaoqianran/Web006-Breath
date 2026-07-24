@@ -1124,6 +1124,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "温柔"],
     intensity: 4,
   },
+  {
+    id: "e161",
+    guestName: "匿名",
+    text: "印泥沾了一点，像把今天的心情盖成红圆。",
+    tags: ["期待", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e162",
+    guestName: "沈辞",
+    text: "想要一枚不褪色的印：证明我被接住过。",
+    tags: ["想念", "勇气"],
+    intensity: 4,
+  },
+  {
+    id: "e163",
+    guestName: "林晚",
+    text: "印章歪了一点也没关系，真心不会歪。",
+    tags: ["释然", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e164",
+    guestName: "南枝",
+    text: "第一百六十四次：请把这枚印，留给以后的我。",
+    tags: ["温柔", "期待"],
+    intensity: 4,
+  },
 ];
 
 

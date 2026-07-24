@@ -96,6 +96,10 @@ import {
   formatHourLine,
   formatHourCraftAside,
   formatHourglassAside,
+  formatSealForQuality,
+  formatSealCountAside,
+  formatMilestoneSeal,
+  formatSealEncourage,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1138,6 +1142,7 @@ export class YixiApp {
         <div class="ribbon-spools-art" role="img" aria-label="丝带卷" data-testid="ribbon-spools-art"></div>
         <div class="match-abacus-art" role="img" aria-label="匹配算珠" data-testid="match-abacus-art"></div>
         <div class="quality-seal-art" role="img" aria-label="品质印记" data-testid="quality-seal-art"></div>
+        <div class="ink-seal-art" role="img" aria-label="朱砂印鉴" data-testid="ink-seal-art"></div>
         <div class="vessel-flower-art" role="img" aria-label="花形态示意" data-testid="vessel-flower-art" data-vessel="${item.vessel}"></div>
         <h2>转化台</h2>
         <p data-testid="crafted-label"><strong>${item.label}</strong></p>
@@ -1150,6 +1155,10 @@ export class YixiApp {
         <p class="muted" data-testid="warmth-price-line">${formatWarmthPriceLine(item)}</p>
         <p class="muted" data-testid="price-narrative">${formatPriceNarrative(item)}</p>
         <p class="muted" data-testid="craft-summary">${formatCraftSummary(item.matchScore, item.quality)}</p>
+        <p class="muted" data-testid="seal-quality">${formatSealForQuality(item.quality)}</p>
+        <p class="muted" data-testid="seal-encourage">${formatSealEncourage(item.quality)}</p>
+        <p class="muted" data-testid="seal-count">${formatSealCountAside(s.history.length)}</p>
+        <p class="muted" data-testid="seal-milestone">${formatMilestoneSeal(s.day, s.history.length)}</p>
         <p class="muted" data-testid="gift-wrap-line">${formatGiftWrapLine(item.vessel, item.quality)}</p>
         <p class="muted" data-testid="display-wrap-line">${formatDisplayWrapLine(item.vessel, item.quality)}</p>
         <p class="muted" data-testid="gift-choice-hint">${formatCirculationChoiceHint("gift")} ${formatCirculationChoiceHint("display")}</p>
