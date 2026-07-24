@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 269,
+  "current_round": 270,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0270-continue",
-  "last_completed_task_id": "T0269-honeydip",
-  "last_commit": "20c844c5ef710aeb75db01bdba2104156074f28a",
+  "current_task_id": "T0271-continue",
+  "last_completed_task_id": "T0270-milkjug",
+  "last_commit": "7f25b6edcee3e95e29f56e6c8d49d144e65a6b2f",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 275 passed (148 files)",
+  "last_test_summary": "vitest: 276 passed (149 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -51,14 +51,15 @@
     "D-033 T0263 美术 ART 满 230",
     "D-034 T0264 日剧本满 220",
     "D-035 T0268 美术 ART 满 240",
-    "D-036 T0269 日剧本满 230"
+    "D-036 T0269 日剧本满 230",
+    "D-037 T0270 开发轮次满 270"
   ],
   "next_candidate_tasks": [
-    "T0270-continue",
+    "T0271-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 20c844c5ef710aeb75db01bdba2104156074f28a T0269 小蜜罐/木蜜勺 · 剧本230\n轮次: 269 / 1000 · v0.2.6 · M2\n本段: T0265–T0269 邮寄…蜜勺 · 内容440/230 · 测试275 · D-036\n下一: T0270\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T02:29:57Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 7f25b6edcee3e95e29f56e6c8d49d144e65a6b2f T0270 小奶盅/奶油勺 · 轮次270\n轮次: 270 / 1000 · v0.2.6 · M2\n本段: T0266–T0270 窗边…奶盅 · 内容444/232 · 测试276 · D-037\n下一: T0271\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T02:31:41Z"
 }
