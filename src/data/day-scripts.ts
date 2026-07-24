@@ -2142,7 +2142,24 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 267,
+    title: "石臼",
+    opener: "第二百六十七日。石臼稳在台心，内壁还带着一点干香的痕。",
+    sampleIndexes: [512, 513, 514, 508],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 268,
+    title: "木杵",
+    opener: "第二百六十八日。木杵在臼里画圈，像店把沉睡的香也叫醒了。",
+    sampleIndexes: [513, 514, 515, 510],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
+
 
 
 

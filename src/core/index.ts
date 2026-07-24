@@ -156,3 +156,4 @@ export * from "./cookietin-label";
 export * from "./recipecard-label";
 export * from "./oventhermo-label";
 export * from "./spicejar-label";
+export * from "./mortar-label";

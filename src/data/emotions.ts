@@ -3588,7 +3588,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e513",
+    guestName: "匿名",
+    text: "想把香料轻轻研开，让气味慢慢醒来，而不是碾碎。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e514",
+    guestName: "禾",
+    text: "木杵在臼里画圈时，像店把沉睡的香也叫醒了。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e515",
+    guestName: "阿初",
+    text: "石臼内壁还带着一点干香的痕，像刚被研过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e516",
+    guestName: "听雨",
+    text: "第五百一十六次：请给我一杵能唤醒香的慢。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
+
 
 
 

@@ -346,3 +346,5 @@
 | ART-276 | `public/assets/ui/timer_dial.jpg` | 计时旋钮 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-277 | `public/assets/ui/spice_jar.jpg` | 香料小罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-278 | `public/assets/ui/wood_scoop.jpg` | 木勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-279 | `public/assets/ui/stone_mortar.jpg` | 石臼 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-280 | `public/assets/ui/wood_pestle.jpg` | 木杵 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

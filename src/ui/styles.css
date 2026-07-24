@@ -3163,6 +3163,26 @@ html[data-reduce-motion="true"] .toast {
     url("/assets/ui/wood_scoop.jpg") center/cover no-repeat;
 }
 
+.stone-mortar-art {
+  height: 64px;
+  width: 64px;
+  border-radius: 12px;
+  margin: 0 auto 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/stone_mortar.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.wood-pestle-art {
+  height: 72px;
+  border-radius: 12px;
+  margin-bottom: 0.55rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.1), rgba(247, 243, 236, 0.45)),
+    url("/assets/ui/wood_pestle.jpg") center/cover no-repeat;
+}
+
 .twin-cups-art {
   height: 48px;
   width: 72px;
