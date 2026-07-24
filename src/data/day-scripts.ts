@@ -1438,6 +1438,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 179,
+    title: "火漆棒",
+    opener: "第一百七十九日。火漆棒换了胭脂色，滴下时像一滴安静的句号。",
+    sampleIndexes: [336, 337, 338, 332],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 180,
+    title: "封缄勺",
+    opener: "第一百八十日。封缄勺里蜡液微亮，温度刚好，不烫手也不太稠。",
+    sampleIndexes: [337, 338, 339, 334],
+    goalCirculations: 6,
+    goalWarmth: 30,
+  },
 ];
 
 export function getDayScript(day: number): DayScript {

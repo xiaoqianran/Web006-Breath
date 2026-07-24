@@ -2356,6 +2356,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e337",
+    guestName: "匿名",
+    text: "想在成册上滴一滴胭脂色火漆，郑重地递出去。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e338",
+    guestName: "禾",
+    text: "蜡滴落下成圆时，像有人说「可以停一停再盖」。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e339",
+    guestName: "阿初",
+    text: "封缄勺微亮，温度刚好，不烫手也不太稠。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e340",
+    guestName: "听雨",
+    text: "第三百四十次：请给我一滴能封住温柔的蜡。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

@@ -111,3 +111,4 @@ export * from "./matcut-label";
 export * from "./knife-label";
 export * from "./corner-label";
 export * from "./eyelet-label";
+export * from "./waxseal-label";
