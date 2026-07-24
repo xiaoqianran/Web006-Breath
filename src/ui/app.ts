@@ -77,6 +77,9 @@ import {
   formatInventoryShelfAside,
   formatSpiceJarAside,
   formatInventoryEncourage,
+  formatWindChimeLine,
+  formatShopCatLine,
+  formatAmbienceEncourage,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -878,6 +881,11 @@ export class YixiApp {
       <span class="muted" data-testid="atmosphere-line">${formatAtmosphereLine(s.day)}</span>
       <span data-testid="day-header">${formatDayHeaderLine(s.day, getDayScript(s.day).title)}</span>
       <span class="muted" data-testid="atmosphere-craft-hint">${formatAtmosphereCraftHint(s.day)}</span>
+      <span class="wind-chime-art" role="img" aria-label="风铃" data-testid="wind-chime-art"></span>
+      <span class="muted" data-testid="wind-chime-line">${formatWindChimeLine(s.day)}</span>
+      <span class="shop-cat-art" role="img" aria-label="店猫" data-testid="shop-cat-art"></span>
+      <span class="muted" data-testid="shop-cat-line">${formatShopCatLine(s.circulationsToday)}</span>
+      <span class="muted" data-testid="ambience-encourage">${formatAmbienceEncourage(s.day)}</span>
       <span data-testid="warmth-line"><span class="warmth-jar-art warmth-jar-art--hud" role="img" aria-label="温存罐"></span>温存 <strong data-testid="warmth">${s.warmth}</strong> · ${warmthRankTitle(s.warmth)}</span>
       <span class="muted" data-testid="warmth-progress">${formatWarmthProgress(s.warmth)}</span>
       <span class="muted" data-testid="warmth-encourage">${formatWarmthEncourage(s.warmth)}</span>

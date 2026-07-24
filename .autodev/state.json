@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 191,
+  "current_round": 193,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0192-continue",
-  "last_completed_task_id": "T0191-continue",
-  "last_commit": "8d62f3efd4c45dacf5b5f9e25648c1baef7a574b",
+  "current_task_id": "T0194-continue",
+  "last_completed_task_id": "T0193-continue",
+  "last_commit": "45c0c1af03a083b729f1581b442b7c44714409c6",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 197 passed (70 files)",
+  "last_test_summary": "vitest: 199 passed (72 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -25,11 +25,11 @@
     "D-007 M2 orders"
   ],
   "next_candidate_tasks": [
-    "T0192-continue",
+    "T0194-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8d62f3efd4c45dacf5b5f9e25648c1baef7a574b T0191 再访行李+fix\n轮次: 191 / 1000 · v0.2.6 · M2\n本段: T0188–T0191 音频/存档/日氛围/再访/内容128/74\n测试: 197 passed；双 smoke warmth=19\n下一: T0192\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:00:50Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 45c0c1af03a083b729f1581b442b7c44714409c6 T0193 店内陈列\n轮次: 193 / 1000 · v0.2.6 · M2\n本段: T0192–T0193 留言簿/陈列/内容136\n测试: 199 passed；双 smoke warmth=19\n下一: T0194\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:05:20Z"
 }

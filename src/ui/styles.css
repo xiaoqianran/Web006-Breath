@@ -996,6 +996,32 @@ html[data-reduce-motion="true"] .toast {
   box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
 }
 
+.wind-chime-art {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/ui/wind_chime.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
+.shop-cat-art {
+  height: 40px;
+  width: 56px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 236, 0.08), rgba(247, 243, 236, 0.4)),
+    url("/assets/decor/shop_cat.jpg") center/cover no-repeat;
+  box-shadow: var(--shadow, 0 2px 8px rgba(61,79,68,.12));
+}
+
 .night-rain-window-art {
   height: 88px;
   border-radius: 12px;

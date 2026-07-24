@@ -956,6 +956,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "温柔"],
     intensity: 4,
   },
+  {
+    id: "e137",
+    guestName: "匿名",
+    text: "风铃一响，我的脚步就慢了半拍。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e138",
+    guestName: "听雨",
+    text: "店猫的尾巴扫过窗台，像在说：可以坐一会儿。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e139",
+    guestName: "暮山",
+    text: "想把风铃声折进音乐里，带走一段轻的回响。",
+    tags: ["想念", "孤独"],
+    intensity: 3,
+  },
+  {
+    id: "e140",
+    guestName: "南枝",
+    text: "第一百四十次推门：猫还在，灯还在，你也在。",
+    tags: ["安心", "温柔"],
+    intensity: 4,
+  },
 ];
 
 

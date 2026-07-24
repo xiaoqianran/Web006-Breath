@@ -51,6 +51,18 @@ const POOL: Omit<ShopEvent, "id">[] = [
     warmthDelta: 1,
     reputationDelta: 0,
   },
+  {
+    title: "风铃点名",
+    description: "风铃连响三下，像在替今天到访的人点名。",
+    warmthDelta: 1,
+    reputationDelta: 0,
+  },
+  {
+    title: "店猫让座",
+    description: "窗台的猫让开半寸，像把最好的光让给客人。",
+    warmthDelta: 0,
+    reputationDelta: 1,
+  },
 ];
 
 /** 店事标题气质短句 */
