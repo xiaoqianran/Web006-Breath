@@ -354,3 +354,5 @@
 | ART-284 | `public/assets/ui/glass_dropper.jpg` | 玻璃滴管 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-285 | `public/assets/ui/salve_tin.jpg` | 软膏小盒 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-286 | `public/assets/ui/bamboo_spatula.jpg` | 竹刮勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-287 | `public/assets/ui/cotton_pad.jpg` | 棉垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-288 | `public/assets/ui/gauze_roll.jpg` | 纱布卷 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

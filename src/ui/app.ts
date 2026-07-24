@@ -552,6 +552,11 @@ import {
   formatSalveAside,
   formatSalveEncourage,
   formatSalvePair,
+  formatCottonPadLine,
+  formatGauzeRollLine,
+  formatGauzeAside,
+  formatGauzeEncourage,
+  formatGauzePair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1678,6 +1683,8 @@ export class YixiApp {
         <div class="glass-dropper-art" role="img" aria-label="玻璃滴管" data-testid="glass-dropper-art"></div>
         <div class="salve-tin-art" role="img" aria-label="软膏小盒" data-testid="salve-tin-art"></div>
         <div class="bamboo-spatula-art" role="img" aria-label="竹刮勺" data-testid="bamboo-spatula-art"></div>
+        <div class="cotton-pad-art" role="img" aria-label="棉垫" data-testid="cotton-pad-art"></div>
+        <div class="gauze-roll-art" role="img" aria-label="纱布卷" data-testid="gauze-roll-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2119,6 +2126,11 @@ export class YixiApp {
         <p class="muted" data-testid="salve-aside">${formatSalveAside(s.history.length)}</p>
         <p class="muted" data-testid="salve-encourage">${formatSalveEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="salve-pair">${formatSalvePair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="cotton-pad-line">${formatCottonPadLine(s.day)}</p>
+        <p class="muted" data-testid="gauze-roll-line">${formatGauzeRollLine(s.warmth)}</p>
+        <p class="muted" data-testid="gauze-aside">${formatGauzeAside(s.history.length)}</p>
+        <p class="muted" data-testid="gauze-encourage">${formatGauzeEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="gauze-pair">${formatGauzePair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

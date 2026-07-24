@@ -160,3 +160,4 @@ export * from "./mortar-label";
 export * from "./herbhang-label";
 export * from "./herboil-label";
 export * from "./salve-label";
+export * from "./gauze-label";

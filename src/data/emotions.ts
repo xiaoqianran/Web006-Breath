@@ -3700,6 +3700,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e529",
+    guestName: "匿名",
+    text: "想垫一层棉，让疼也被轻轻托住。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e530",
+    guestName: "禾",
+    text: "纱布从卷上展开时，像店把保护也递给皮肤。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e531",
+    guestName: "阿初",
+    text: "棉垫最上层还带着一点干净的白，像刚叠好。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e532",
+    guestName: "陆安",
+    text: "第五百三十二次：请给我一圈能裹住疼的纱。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

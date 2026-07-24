@@ -2206,6 +2206,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 275,
+    title: "棉垫",
+    opener: "第二百七十五日。棉垫叠好，最上层还带着一点干净的白。",
+    sampleIndexes: [528, 529, 530, 524],
+    goalCirculations: 5,
+    goalWarmth: 26,
+  },
+  {
+    day: 276,
+    title: "纱布卷",
+    opener: "第二百七十六日。纱布从卷上展开，像店把保护也递给皮肤。",
+    sampleIndexes: [529, 530, 531, 526],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
