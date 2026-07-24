@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 290,
+  "current_round": 291,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0291-continue",
-  "last_completed_task_id": "T0290-herboil",
-  "last_commit": "815b6b31850da33702ccca166732dede2508c65e",
+  "current_task_id": "T0292-continue",
+  "last_completed_task_id": "T0291-salve",
+  "last_commit": "617960eca66b6b0157d4dc9f85fd30b6703d7113",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 296 passed (169 files)",
+  "last_test_summary": "vitest: 297 passed (170 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -68,11 +68,11 @@
     "D-050 T0290 开发轮次满 290"
   ],
   "next_candidate_tasks": [
-    "T0291-continue",
+    "T0292-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 815b6b31850da33702ccca166732dede2508c65e T0290 草药油瓶/玻璃滴管 · 轮次290\n轮次: 290 / 1000 · v0.2.6 · M2\n本段: T0286–T0290 火候…滴管 · 内容524/272 · 测试296 · D-050\n下一: T0291\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T03:11:22Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 617960eca66b6b0157d4dc9f85fd30b6703d7113 T0291 软膏小盒/竹刮勺 · 轮次291\n轮次: 291 / 1000 · v0.2.6 · M2\n本段: T0287–T0291 · 内容528/274 · 测试297 · ART~286\n下一: T0292\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T03:15:30Z"
 }
