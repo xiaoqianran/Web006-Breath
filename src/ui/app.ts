@@ -437,6 +437,11 @@ import {
   formatCuprestAside,
   formatCuprestEncourage,
   formatCuprestPair,
+  formatHoneyJarLine,
+  formatWoodDipperLine,
+  formatHoneydipAside,
+  formatHoneydipEncourage,
+  formatHoneydipPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1517,6 +1522,8 @@ export class YixiApp {
         <div class="watering-can-art" role="img" aria-label="浇水壶" data-testid="watering-can-art"></div>
         <div class="cup-rest-art" role="img" aria-label="杯托" data-testid="cup-rest-art"></div>
         <div class="tea-cloth-art" role="img" aria-label="茶巾" data-testid="tea-cloth-art"></div>
+        <div class="honey-jar-art" role="img" aria-label="小蜜罐" data-testid="honey-jar-art"></div>
+        <div class="wood-dipper-art" role="img" aria-label="木蜜勺" data-testid="wood-dipper-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1843,6 +1850,11 @@ export class YixiApp {
         <p class="muted" data-testid="cuprest-aside">${formatCuprestAside(s.history.length)}</p>
         <p class="muted" data-testid="cuprest-encourage">${formatCuprestEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="cuprest-pair">${formatCuprestPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="honey-jar-line">${formatHoneyJarLine(s.day)}</p>
+        <p class="muted" data-testid="wood-dipper-line">${formatWoodDipperLine(s.warmth)}</p>
+        <p class="muted" data-testid="honeydip-aside">${formatHoneydipAside(s.history.length)}</p>
+        <p class="muted" data-testid="honeydip-encourage">${formatHoneydipEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="honeydip-pair">${formatHoneydipPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

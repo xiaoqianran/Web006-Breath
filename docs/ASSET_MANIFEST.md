@@ -308,3 +308,5 @@
 | ART-238 | `public/assets/ui/watering_can.jpg` | 浇水壶 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-239 | `public/assets/ui/cup_rest.jpg` | 杯托 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-240 | `public/assets/ui/tea_cloth.jpg` | 茶巾 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-241 | `public/assets/ui/honey_jar.jpg` | 小蜜罐 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-242 | `public/assets/ui/wood_dipper.jpg` | 木蜜勺 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

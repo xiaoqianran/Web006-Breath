@@ -3056,7 +3056,36 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "温柔"],
     intensity: 3,
   },
+  {
+    id: "e437",
+    guestName: "匿名",
+    text: "想在茶里加一点点蜜，不是盖住苦，是让舌头松一松。",
+    tags: ["安心", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e438",
+    guestName: "禾",
+    text: "木蜜勺绕过杯沿时，像店把一点甜悄悄递过来。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e439",
+    guestName: "阿初",
+    text: "小蜜罐揭盖，罐口还留着一点金的亮。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e440",
+    guestName: "陆安",
+    text: "第四百四十次：请给我一勺能软化苦的蜜。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
+
 
 
 
