@@ -1002,6 +1002,11 @@ import {
   formatSoftcrimpAside,
   formatSoftcrimpEncourage,
   formatSoftcrimpPair,
+  formatWireCoilLine,
+  formatCoilPliersLine,
+  formatSoftcoilAside,
+  formatSoftcoilEncourage,
+  formatSoftcoilPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2308,6 +2313,8 @@ export class YixiApp {
         <div class="jump-pliers-art" role="img" aria-label="开环钳" data-testid="jump-pliers-art"></div>
         <div class="crimp-tube-art" role="img" aria-label="压扣管" data-testid="crimp-tube-art"></div>
         <div class="crimp-pliers-art" role="img" aria-label="压扣钳" data-testid="crimp-pliers-art"></div>
+        <div class="wire-coil-art" role="img" aria-label="线圈" data-testid="wire-coil-art"></div>
+        <div class="coil-pliers-art" role="img" aria-label="绕钳" data-testid="coil-pliers-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -3199,6 +3206,11 @@ export class YixiApp {
         <p class="muted" data-testid="softcrimp-aside">${formatSoftcrimpAside(s.history.length)}</p>
         <p class="muted" data-testid="softcrimp-encourage">${formatSoftcrimpEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softcrimp-pair">${formatSoftcrimpPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="wire-coil-line">${formatWireCoilLine(s.day)}</p>
+        <p class="muted" data-testid="coil-pliers-line">${formatCoilPliersLine(s.warmth)}</p>
+        <p class="muted" data-testid="softcoil-aside">${formatSoftcoilAside(s.history.length)}</p>
+        <p class="muted" data-testid="softcoil-encourage">${formatSoftcoilEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softcoil-pair">${formatSoftcoilPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

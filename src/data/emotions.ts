@@ -6220,6 +6220,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e889",
+    guestName: "小禾",
+    text: "线圈很轻：只想绕一点，不硬拧。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e890",
+    guestName: "阿南",
+    text: "绕钳微转，像轻轻说「绕一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e891",
+    guestName: "阿初",
+    text: "圈沿还带着一点细的光，像刚被绕过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e892",
+    guestName: "陆安",
+    text: "第八百九十二次：请给我一下能把线也温柔卷成软的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
