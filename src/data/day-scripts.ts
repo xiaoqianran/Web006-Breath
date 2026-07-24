@@ -3518,6 +3518,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 439,
+    title: "超声波",
+    opener: "第四百三十九日。清洗器静放，水面还带着一点细的纹。",
+    sampleIndexes: [856, 857, 858, 855],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 440,
+    title: "网篮",
+    opener: "第四百四十日。篮带着器，像店把积着的也托成净。",
+    sampleIndexes: [857, 858, 859, 854],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

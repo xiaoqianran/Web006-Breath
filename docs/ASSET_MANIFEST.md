@@ -518,3 +518,5 @@
 | ART-448 | `public/assets/ui/engraver_block.jpg` | 刻台 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-449 | `public/assets/ui/soft_loupe.jpg` | 放大镜 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-450 | `public/assets/ui/ring_clamp.jpg` | 戒夹 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-451 | `public/assets/ui/ultrasonic.jpg` | 超声波清洗器 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-452 | `public/assets/ui/mesh_basket.jpg` | 网篮 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

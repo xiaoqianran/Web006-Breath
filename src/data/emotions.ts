@@ -5996,6 +5996,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["勇气", "期待"],
     intensity: 3,
   },
+  {
+    id: "e857",
+    guestName: "小禾",
+    text: "清洗波很轻：只想洗一点，不硬冲。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e858",
+    guestName: "阿南",
+    text: "网篮微响，像轻轻说「洗一下就好」。",
+    tags: ["期待", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e859",
+    guestName: "阿初",
+    text: "水面还带着一点细的纹，像刚被用过。",
+    tags: ["想念", "温柔"],
+    intensity: 3,
+  },
+  {
+    id: "e860",
+    guestName: "陆安",
+    text: "第八百六十次：请给我一下能把积着的也温柔松开的许可。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 
