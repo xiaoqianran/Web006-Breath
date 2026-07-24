@@ -242,3 +242,5 @@
 | ART-172 | `public/assets/ui/bone_folder.jpg` | 骨刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-173 | `public/assets/ui/book_press.jpg` | 书压 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-174 | `public/assets/ui/weight_bar.jpg` | 压条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-175 | `public/assets/ui/binding_thread.jpg` | 装订线 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-176 | `public/assets/ui/sewing_needle.jpg` | 穿线针 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

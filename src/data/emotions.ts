@@ -2132,6 +2132,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e305",
+    guestName: "匿名",
+    text: "想用一根线把散开的页串起来，变成可以带走的一本。",
+    tags: ["想念", "期待"],
+    intensity: 3,
+  },
+  {
+    id: "e306",
+    guestName: "禾",
+    text: "针穿过书脊时，像有人把我的句子轻轻缝住。",
+    tags: ["温柔", "安心"],
+    intensity: 2,
+  },
+  {
+    id: "e307",
+    guestName: "阿初",
+    text: "装订线打结的声音，比说话更像收口。",
+    tags: ["释然", "勇气"],
+    intensity: 3,
+  },
+  {
+    id: "e308",
+    guestName: "听雨",
+    text: "第三百零八次：请给我一根能串起故事的米白线。",
+    tags: ["期待", "温柔"],
+    intensity: 3,
+  },
 ];
 
 

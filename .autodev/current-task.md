@@ -1,4 +1,4 @@
-# T0235 done
-next T0236
-241 tests (114 files) round 235
-press-label + book press / weight bar + content 304/162
+# T0236 done
+next T0237
+242 tests (115 files) round 236
+binding-label + binding thread / sewing needle + content 308/164

@@ -272,6 +272,11 @@ import {
   formatPressAside,
   formatPressEncourage,
   formatPressPair,
+  formatBindingThreadLine,
+  formatSewingNeedleLine,
+  formatBindingAside,
+  formatBindingEncourage,
+  formatBindingPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1286,6 +1291,8 @@ export class YixiApp {
         <div class="bone-folder-art" role="img" aria-label="骨刀" data-testid="bone-folder-art"></div>
         <div class="book-press-art" role="img" aria-label="书压" data-testid="book-press-art"></div>
         <div class="weight-bar-art" role="img" aria-label="压条" data-testid="weight-bar-art"></div>
+        <div class="binding-thread-art" role="img" aria-label="装订线" data-testid="binding-thread-art"></div>
+        <div class="sewing-needle-art" role="img" aria-label="穿线针" data-testid="sewing-needle-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1447,6 +1454,11 @@ export class YixiApp {
         <p class="muted" data-testid="press-aside">${formatPressAside(s.history.length)}</p>
         <p class="muted" data-testid="press-encourage">${formatPressEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="press-pair">${formatPressPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="binding-thread-line">${formatBindingThreadLine(s.day)}</p>
+        <p class="muted" data-testid="sewing-needle-line">${formatSewingNeedleLine(s.warmth)}</p>
+        <p class="muted" data-testid="binding-aside">${formatBindingAside(s.history.length)}</p>
+        <p class="muted" data-testid="binding-encourage">${formatBindingEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="binding-pair">${formatBindingPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
