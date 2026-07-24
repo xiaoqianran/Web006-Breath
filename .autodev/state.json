@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 206,
+  "current_round": 207,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0207-continue",
-  "last_completed_task_id": "T0206-hook",
-  "last_commit": "d6651948f52c240196d3fc17b4a87f2f4d38e88c",
+  "current_task_id": "T0208-continue",
+  "last_completed_task_id": "T0207-letter",
+  "last_commit": "PENDING",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 212 passed (85 files)",
+  "last_test_summary": "vitest: 213 passed (86 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -26,11 +26,11 @@
     "D-008 T0200 印鉴纪念百位里程碑"
   ],
   "next_candidate_tasks": [
-    "T0207-continue",
+    "T0208-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0206 衣帽钩/围巾 hook-label + ART-115/116 + 内容188/104\n轮次: 206 / 1000 · v0.2.6 · M2\n测试: 212 passed；双 smoke warmth=19\n下一: T0207\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T00:30:40Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: T0207 回信匣/邮票 letter-label + ART-117/118 + 内容192/106\n轮次: 207 / 1000 · v0.2.6 · M2\n测试: 213 passed；双 smoke warmth=19\n下一: T0208\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T00:32:20Z"
 }

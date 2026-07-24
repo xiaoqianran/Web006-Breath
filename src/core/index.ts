@@ -74,3 +74,4 @@ export * from "./curtain-label";
 export * from "./rest-label";
 export * from "./sachet-label";
 export * from "./hook-label";
+export * from "./letter-label";

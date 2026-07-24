@@ -1320,6 +1320,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e189",
+    guestName: "匿名",
+    text: "想把没发出去的话放进回信匣，等合适的人拆。",
+    tags: ["想念", "遗憾"],
+    intensity: 4,
+  },
+  {
+    id: "e190",
+    guestName: "禾",
+    text: "邮票一角翘着：像允许我把心情寄走。",
+    tags: ["期待", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e191",
+    guestName: "听雨",
+    text: "回信不必长，一句「我在」就够了。",
+    tags: ["安心", "温柔"],
+    intensity: 2,
+  },
+  {
+    id: "e192",
+    guestName: "陆安",
+    text: "第一百九十二次：请给我一枚能盖上温柔的邮戳。",
+    tags: ["勇气", "期待"],
+    intensity: 3,
+  },
 ];
 
 

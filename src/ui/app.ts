@@ -127,6 +127,11 @@ import {
   formatHookAside,
   formatCoatEncourage,
   formatHookPair,
+  formatReplyBoxLine,
+  formatStampTrayLine,
+  formatLetterAside,
+  formatLetterEncourage,
+  formatLetterPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -1083,6 +1088,8 @@ export class YixiApp {
         <div class="dried-bouquet-art" role="img" aria-label="干花束" data-testid="dried-bouquet-art"></div>
         <div class="coat-hooks-art" role="img" aria-label="衣帽钩" data-testid="coat-hooks-art"></div>
         <div class="soft-scarves-art" role="img" aria-label="围巾架" data-testid="soft-scarves-art"></div>
+        <div class="reply-box-art" role="img" aria-label="回信匣" data-testid="reply-box-art"></div>
+        <div class="stamp-tray-art" role="img" aria-label="邮票托盘" data-testid="stamp-tray-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -1102,6 +1109,11 @@ export class YixiApp {
         <p class="muted" data-testid="hook-aside">${formatHookAside(s.warmth)}</p>
         <p class="muted" data-testid="coat-encourage">${formatCoatEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="hook-pair">${formatHookPair(qLen, s.day)}</p>
+        <p class="muted" data-testid="reply-box-line">${formatReplyBoxLine(s.history.length)}</p>
+        <p class="muted" data-testid="stamp-tray-line">${formatStampTrayLine(s.day)}</p>
+        <p class="muted" data-testid="letter-aside">${formatLetterAside(s.warmth)}</p>
+        <p class="muted" data-testid="letter-encourage">${formatLetterEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="letter-pair">${formatLetterPair(s.history.length, s.day)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");
