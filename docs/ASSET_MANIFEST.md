@@ -498,3 +498,5 @@
 | ART-428 | `public/assets/ui/solder_board.jpg` | 焊板 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-429 | `public/assets/ui/solder_wire.jpg` | 焊丝 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-430 | `public/assets/ui/third_hand.jpg` | 第三只手 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-431 | `public/assets/ui/crucible_tongs.jpg` | 坩埚钳 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-432 | `public/assets/ui/soft_crucible.jpg` | 坩埚 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

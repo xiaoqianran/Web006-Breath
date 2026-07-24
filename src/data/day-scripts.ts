@@ -3358,6 +3358,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 419,
+    title: "坩埚钳",
+    opener: "第四百一十九日。坩埚钳静放，钳口还带着一点金属的凉。",
+    sampleIndexes: [816, 817, 818, 815],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 420,
+    title: "坩埚",
+    opener: "第四百二十日。罐在钳中，像店把热物也稳住。",
+    sampleIndexes: [817, 818, 819, 814],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 

@@ -232,3 +232,4 @@ export * from "./softburnish-label";
 export * from "./softflux-label";
 export * from "./softtorch-label";
 export * from "./softsolder-label";
+export * from "./softtongs-label";
