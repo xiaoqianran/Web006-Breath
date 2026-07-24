@@ -486,3 +486,5 @@
 | ART-416 | `public/assets/ui/thickness_gauge.jpg` | 厚度规 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-417 | `public/assets/ui/jeweler_saw.jpg` | 金工锯 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-418 | `public/assets/ui/saw_blade.jpg` | 锯条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-419 | `public/assets/ui/pitch_bowl.jpg` | 胶碗 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-420 | `public/assets/ui/scorper.jpg` | 錾刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

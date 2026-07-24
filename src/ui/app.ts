@@ -882,6 +882,11 @@ import {
   formatSoftsawAside,
   formatSoftsawEncourage,
   formatSoftsawPair,
+  formatPitchBowlLine,
+  formatScorperLine,
+  formatSoftpitchAside,
+  formatSoftpitchEncourage,
+  formatSoftpitchPair,
   formatVesselLine,
   formatVesselPickLine,
   vesselCraftHint,
@@ -2140,6 +2145,8 @@ export class YixiApp {
         <div class="thickness-gauge-art" role="img" aria-label="厚度规" data-testid="thickness-gauge-art"></div>
         <div class="jeweler-saw-art" role="img" aria-label="金工锯" data-testid="jeweler-saw-art"></div>
         <div class="saw-blade-art" role="img" aria-label="锯条" data-testid="saw-blade-art"></div>
+        <div class="pitch-bowl-art" role="img" aria-label="胶碗" data-testid="pitch-bowl-art"></div>
+        <div class="scorper-art" role="img" aria-label="錾刀" data-testid="scorper-art"></div>
         <h2>接待处</h2>
         <p class="muted">把门推开一点，听听今天的故事。</p>
         <p class="muted" data-testid="curtain-line">${formatCurtainLine(s.day)}</p>
@@ -2911,6 +2918,11 @@ export class YixiApp {
         <p class="muted" data-testid="softsaw-aside">${formatSoftsawAside(s.history.length)}</p>
         <p class="muted" data-testid="softsaw-encourage">${formatSoftsawEncourage(s.circulationsToday)}</p>
         <p class="muted" data-testid="softsaw-pair">${formatSoftsawPair(s.day, s.warmth)}</p>
+        <p class="muted" data-testid="pitch-bowl-line">${formatPitchBowlLine(s.day)}</p>
+        <p class="muted" data-testid="scorper-line">${formatScorperLine(s.warmth)}</p>
+        <p class="muted" data-testid="softpitch-aside">${formatSoftpitchAside(s.history.length)}</p>
+        <p class="muted" data-testid="softpitch-encourage">${formatSoftpitchEncourage(s.circulationsToday)}</p>
+        <p class="muted" data-testid="softpitch-pair">${formatSoftpitchPair(s.day, s.warmth)}</p>
         <p class="muted" data-testid="accept-hint">${formatAcceptReadyHint(qLen)}</p>
         ${favorHint ? `<p class="muted" data-testid="favor-greeting">${favorHint}</p>` : `<p class="muted" data-testid="favor-greeting" hidden></p>`}`;
       const row = document.createElement("div");

@@ -5548,6 +5548,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e793",
+    guestName: "匿名",
+    text: "想把工件嵌进胶碗，让它也能被温柔地嵌稳。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e794",
+    guestName: "禾",
+    text: "錾刀贴着面时，像店把细节也錾成纹。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e795",
+    guestName: "阿初",
+    text: "胶碗碗沿还带着一点暖的痕，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e796",
+    guestName: "陆安",
+    text: "第七百九十六次：请给我一下能嵌稳工件的温柔。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 
