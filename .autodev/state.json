@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 336,
+  "current_round": 337,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0337-continue",
-  "last_completed_task_id": "T0336-softtassel",
-  "last_commit": "0abb1eb376980e9d08e7957782e8b88bd0706f18",
+  "current_task_id": "T0338-continue",
+  "last_completed_task_id": "T0337-softloom",
+  "last_commit": "dc1e0e4d688c61a69cad16441e362349f9d4592b",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 342 passed (215 files)",
+  "last_test_summary": "vitest: 343 passed (216 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -87,14 +87,15 @@
     "D-069 T0329 日剧本满 350",
     "D-070 T0330 开发轮次满 330",
     "D-071 T0334 情绪样本满 700",
-    "D-072 T0334 日剧本满 360"
+    "D-072 T0334 日剧本满 360",
+    "D-073 T0337 日剧本满 366（一年日）"
   ],
   "next_candidate_tasks": [
-    "T0337-continue",
+    "T0338-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 0abb1eb376980e9d08e7957782e8b88bd0706f18 T0336 流苏板蜡线 · 轮次336\n轮次: 336 / 1000 · v0.2.6 · M2\n本段: T0332–T0336 · 内容708/364 · 测试342 · ART~376 · D-072\n下一: T0337\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T04:49:30Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: dc1e0e4d688c61a69cad16441e362349f9d4592b T0337 小织机梭子 · 轮次337\n轮次: 337 / 1000 · v0.2.6 · M2\n本段: T0333–T0337 · 内容712/366 · 测试343 · ART~378 · D-073\n下一: T0338\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T04:51:25Z"
 }
