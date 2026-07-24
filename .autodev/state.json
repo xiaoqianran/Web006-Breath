@@ -3,14 +3,14 @@
   "project_name": "一息-温柔瞬间铺",
   "project_root": "/root/wk",
   "current_branch": "main",
-  "current_round": 394,
+  "current_round": 395,
   "target_rounds": 1000,
   "current_milestone": "M2-systems",
-  "current_task_id": "T0395-continue",
-  "last_completed_task_id": "T0394-softsignet",
-  "last_commit": "8a342b2bfa5f5cf24bc379bc009c708598efc358",
+  "current_task_id": "T0396-continue",
+  "last_completed_task_id": "T0395-softbangle",
+  "last_commit": "d98e7b382105ec4c549141eee7f40885646c6d8b",
   "last_verified_build": "npm run check OK",
-  "last_test_summary": "vitest: 400 passed (273 files)",
+  "last_test_summary": "vitest: 401 passed (274 files)",
   "core_loop_status": "playable_demo_ready",
   "overall_status": "active",
   "blocked_items": [],
@@ -135,11 +135,11 @@
     "D-117 T0394 情绪样本满 940"
   ],
   "next_candidate_tasks": [
-    "T0395-continue",
+    "T0396-continue",
     "M2",
     "内容/生图",
     "持续"
   ],
-  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: 8a342b2bfa5f5cf24bc379bc009c708598efc358 T0394 印戒火漆 · 轮次394\n轮次: 394 / 1000 · v0.2.6 · M2\n本段: T0390–T0394 · 内容940/480 · 测试400 · ART~492 · D-115/116/117\n下一: T0395\n命令: cd /root/wk && npm run check && npm run dev\n",
-  "updated_at": "2026-07-24T06:59:41Z"
+  "resume_instructions": "【权威 tip】git rev-parse HEAD\n功能: d98e7b382105ec4c549141eee7f40885646c6d8b T0395 手镯镯芯 · 轮次395\n轮次: 395 / 1000 · v0.2.6 · M2\n本段: T0391–T0395 · 内容944/482 · 测试401 · ART~494\n下一: T0396\n命令: cd /root/wk && npm run check && npm run dev\n",
+  "updated_at": "2026-07-24T07:02:31Z"
 }
