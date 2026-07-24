@@ -5576,6 +5576,34 @@ export const SAMPLE_EMOTIONS: Emotion[] = [
     tags: ["期待", "勇气"],
     intensity: 3,
   },
+  {
+    id: "e797",
+    guestName: "匿名",
+    text: "想用拱形垫冲一弧，让平面也能被温柔地冲成弧。",
+    tags: ["安心", "期待"],
+    intensity: 2,
+  },
+  {
+    id: "e798",
+    guestName: "禾",
+    text: "冲头贴着窝时，像店把平面也冲成弧。",
+    tags: ["温柔", "释然"],
+    intensity: 2,
+  },
+  {
+    id: "e799",
+    guestName: "阿初",
+    text: "拱形垫窝沿还带着一点木的温，像刚被用过。",
+    tags: ["想念", "安心"],
+    intensity: 3,
+  },
+  {
+    id: "e800",
+    guestName: "陆安",
+    text: "第八百次：请给我一弧能温柔冲成的形。",
+    tags: ["期待", "勇气"],
+    intensity: 3,
+  },
 ];
 
 

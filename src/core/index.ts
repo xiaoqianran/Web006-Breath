@@ -227,3 +227,4 @@ export * from "./softtweezers-label";
 export * from "./softcaliper-label";
 export * from "./softsaw-label";
 export * from "./softpitch-label";
+export * from "./softdapping-label";

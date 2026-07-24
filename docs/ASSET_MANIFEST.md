@@ -488,3 +488,5 @@
 | ART-418 | `public/assets/ui/saw_blade.jpg` | 锯条 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-419 | `public/assets/ui/pitch_bowl.jpg` | 胶碗 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
 | ART-420 | `public/assets/ui/scorper.jpg` | 錾刀 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-421 | `public/assets/ui/dapping_block.jpg` | 拱形垫 | Imagine | 1:1 | JPG | 否 | 0.2.6 | active | 原创 |
+| ART-422 | `public/assets/ui/dapping_punch.jpg` | 冲头 | Imagine | 16:9 | JPG | 否 | 0.2.6 | active | 原创 |

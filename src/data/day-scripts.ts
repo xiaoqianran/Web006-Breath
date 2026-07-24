@@ -3278,6 +3278,22 @@ export const DAY_SCRIPTS: DayScript[] = [
     goalCirculations: 6,
     goalWarmth: 28,
   },
+  {
+    day: 409,
+    title: "拱形垫",
+    opener: "第四百零九日。拱形垫静放，窝沿还带着一点木的温。",
+    sampleIndexes: [796, 797, 798, 795],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
+  {
+    day: 410,
+    title: "冲头",
+    opener: "第四百一十日。头贴着窝，像店把平面也冲成弧。",
+    sampleIndexes: [797, 798, 799, 794],
+    goalCirculations: 6,
+    goalWarmth: 28,
+  },
 ];
 
 
