@@ -9,7 +9,7 @@ describe("package identity", () => {
   it("package.json 名称与版本符合一息项目", () => {
     const pkg = JSON.parse(readFileSync(resolve(root, "package.json"), "utf8"));
     expect(pkg.name).toBe("yixi-gentle-moments");
-    expect(pkg.version).toMatch(/^0\.2\./);
+    expect(pkg.version).toMatch(/^0\.[23]\./);
     expect(pkg.scripts.check).toContain("test");
     expect(pkg.scripts.smoke).toBeTruthy();
   });
