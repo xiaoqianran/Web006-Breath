@@ -1,11 +1,11 @@
 /**
  * 将 dist 内根绝对路径 /assets/ 改写为 GitHub Pages 项目 base。
- * 用法：node scripts/rewrite-asset-base.mjs /Web006/
+ * 用法：node scripts/rewrite-asset-base.mjs /Web006-Breath/
  */
 import fs from "node:fs";
 import path from "node:path";
 
-const rawBase = process.argv[2] || process.env.BASE_PATH || "/Web006/";
+const rawBase = process.argv[2] || process.env.BASE_PATH || "/Web006-Breath/";
 const base = rawBase.endsWith("/") ? rawBase : `${rawBase}/`;
 const dist = path.resolve("dist");
 

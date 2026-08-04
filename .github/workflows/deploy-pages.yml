@@ -36,11 +36,11 @@ jobs:
 
       - name: Build for Pages
         env:
-          BASE_PATH: /Web006/
+          BASE_PATH: /Web006-Breath/
         run: |
           npx tsc --noEmit
           npx vite build
-          node scripts/rewrite-asset-base.mjs /Web006/
+          node scripts/rewrite-asset-base.mjs /Web006-Breath/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

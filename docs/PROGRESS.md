@@ -24,7 +24,7 @@
 | 情绪样本 | **1000** 条 ⬅ 里程碑 |
 | 音频 | **8** WAV + Hybrid |
 | 核心循环 | playable_demo_ready |
-| 远程 | https://github.com/xiaoqianran/Web006 · Pages Actions |
+| 远程 | https://github.com/xiaoqianran/Web006-Breath · Pages Actions |
 
 ## 已交付系统（摘要）
 
